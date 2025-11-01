@@ -14,6 +14,24 @@
   display: none;
 }
 
+/* Hide "Example Outputs" section from markdown - we display it via React component */
+.prompt-content h2:has(+ p:contains("We tested this prompt")) {
+  display: none;
+}
+
+.prompt-content h2#example-outputs,
+.prompt-content h2#example-outputs ~ h3,
+.prompt-content h2#example-outputs ~ blockquote,
+.prompt-content h2#example-outputs ~ p {
+  display: none;
+}
+
+/* Hide everything after "Example Outputs" heading in markdown */
+.prompt-content > :is(h2, h3, p, blockquote):has(~ h2#example-outputs),
+.prompt-content > h2:is(#example-outputs, #example-output) ~ * {
+  display: none;
+}
+
 /* Style the actual prompt text - modern 2025 design with subtle effects */
 .prompt-content > pre:first-of-type {
   @apply bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 border border-blue-200/60 rounded-2xl p-6 shadow-lg shadow-blue-100/50;

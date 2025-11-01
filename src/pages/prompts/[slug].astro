@@ -2,6 +2,9 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CopyButton from '../../components/CopyButton';
+import ScenarioModelViewer from '../../components/ScenarioModelViewer';
+import { readFileSync, existsSync } from 'fs';
+import { join } from 'path';
 
 export async function getStaticPaths() {
   const prompts = await getCollection('prompts');
@@ -22,6 +25,14 @@ const relatedPrompts = allPrompts
 
 // Extract the prompt text from the first code block in the markdown
 const promptText = prompt.body.match(/```\n([\s\S]*?)\n```/)?.[1] || '';
+
+// Load outputs JSON if it exists
+let outputsData = null;
+const outputsPath = join(process.cwd(), 'data', 'outputs', `${prompt.slug}.json`);
+if (existsSync(outputsPath)) {
+  const jsonContent = readFileSync(outputsPath, 'utf-8');
+  outputsData = JSON.parse(jsonContent);
+}
 ---
 
 <BaseLayout title={prompt.data.title} description={prompt.data.description}>
@@ -64,10 +75,18 @@ const promptText = prompt.body.match(/```\n([\s\S]*?)\n```/)?.[1] || '';
       </div>
     </div>
 
-    <!-- Main Content -->
+    <!-- Main Content (Prompt + How to Customize only) -->
     <div class="prose prose-lg max-w-none prompt-content">
       <Content />
     </div>
+
+    <!-- Example Outputs (from JSON) -->
+    {outputsData && (
+      <div class="my-12">
+        <h2 class="text-2xl font-bold mb-6">Example Outputs</h2>
+        <ScenarioModelViewer client:load data={outputsData} />
+      </div>
+    )}
 
     <!-- Tags -->
     {prompt.data.tags && prompt.data.tags.length > 0 && (

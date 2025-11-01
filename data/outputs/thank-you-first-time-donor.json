@@ -1,0 +1,419 @@
+{
+  "prompt_id": "thank-you-first-time-donor",
+  "prompt_text": "Write a warm, appreciative thank-you letter for a first-time donor who gave\n$[AMOUNT] to [ORGANIZATION NAME]. The letter should:\n\n- Express genuine gratitude for their support\n- Explain the specific impact of their gift (e.g., \"Your $50 provides...\")\n- Make the donor feel like part of our community\n- Include a subtle invitation to stay connected (social media, newsletter, etc.)\n- Be 200-300 words in length\n- Use a [FORMAL/WARM/CASUAL] tone\n- Reference this campaign or appeal: [CAMPAIGN NAME]\n- Be signed by [SIGNER NAME and TITLE]\n\nThe letter should make the donor feel valued and appreciated, not just like a\ntransaction. Avoid over-the-top language or making another ask.",
+  "category": "fundraising",
+  "generated_at": "2025-11-01T15:48:42.167726Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Urban mutual aid collective on Chicago\u2019s South Side supporting neighbors with a food pantry, rent assistance, and community fridges; first-time donor connected via a neighborhood Giving Tuesday post.",
+      "values": {
+        "AMOUNT": "35",
+        "ORGANIZATION NAME": "Southside Mutual Aid Network",
+        "FORMAL/WARM/CASUAL": "CASUAL",
+        "CAMPAIGN NAME": "Warm Winter Pantry Drive",
+        "SIGNER NAME and TITLE": "Jasmine Ortiz, Executive Director"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Regional conservation nonprofit serving rural mountain communities in Colorado and Wyoming; first-time donor is an outdoor enthusiast who attended a volunteer trail cleanup.",
+      "values": {
+        "AMOUNT": "250",
+        "ORGANIZATION NAME": "Front Range Land & Water Trust",
+        "FORMAL/WARM/CASUAL": "FORMAL",
+        "CAMPAIGN NAME": "Trail Stewardship Spring Appeal",
+        "SIGNER NAME and TITLE": "Evan Li, Director of Development"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Major metropolitan hospital foundation in the Northeast supporting patient care and research; first-time donor contributed via an employer giving portal during a citywide campaign.",
+      "values": {
+        "AMOUNT": "1000",
+        "ORGANIZATION NAME": "MetroCare Hospital Foundation",
+        "FORMAL/WARM/CASUAL": "WARM",
+        "CAMPAIGN NAME": "Heart of the City Campaign",
+        "SIGNER NAME and TITLE": "Priya Shah, President & CEO"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Hi there,\n\nThank you so much for making your first gift of $35 to Southside Mutual Aid Network. Choosing to jump in during our Warm Winter Pantry Drive means a lot to us\u2014and to the neighbors who\u2019ll feel the difference right away.\n\nHere\u2019s what your gift makes happen: $35 fills one Warm Winter Pantry kit with the basics folks ask for most when the temperatures drop\u2014rice, beans, pasta, hearty soup, oats, canned veggies, peanut butter, and tea or cocoa. That\u2019s roughly 12\u201315 warm, no-fuss meals, plus a little comfort on a cold night. Your support turns into real groceries, stocked by volunteers and on pantry shelves within days.\n\nMore than anything, we want you to know you\u2019re part of this community now. Southside Mutual Aid is neighbor-to-neighbor care\u2014people looking out for one another, no red tape. We couldn\u2019t do it without you, and we\u2019re genuinely glad you\u2019re here.\n\nIf you\u2019d like to stay in the loop, we share quick updates and photos from packing nights on social media, and we send a short monthly newsletter with stories from the pantry. No pressure\u2014just an easy way to see what you helped make possible.\n\nThanks again for being part of the Warm Winter Pantry Drive. Welcome to the Southside family.\n\nWith appreciation,\nJasmine Ortiz\nExecutive Director",
+      "timestamp": "2025-11-01T15:45:39.118220Z",
+      "duration_seconds": 35.73,
+      "tokens": {
+        "input": 155,
+        "output": 2520,
+        "total": 2675
+      },
+      "cost_usd": 0.038265,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an excellent donor thank-you letter that nails the casual, community-oriented tone while providing concrete impact details. It feels authentic to a grassroots mutual aid organization and would be immediately usable with minimal editing. The specific breakdown of what $35 provides is compelling and tangible.",
+        "strengths": [
+          "Perfect casual tone with phrases like 'jump in,' 'no red tape,' and 'Southside family' that feel authentic to a mutual aid collective",
+          "Excellent specific impact statement (Warm Winter Pantry kit breakdown with 12-15 meals) that makes the donation tangible",
+          "Strong community-building language ('neighbor-to-neighbor care') that aligns with mutual aid values",
+          "Subtle, no-pressure invitation to stay connected via social media and newsletter",
+          "Appropriate length at approximately 230 words",
+          "Warm opening 'Hi there' and closing feel genuine and personal without being overly familiar",
+          "Avoids transactional language and doesn't make another ask, as requested"
+        ],
+        "weaknesses": [
+          "Minor: The phrase 'Here's what your gift makes happen' could be slightly more conversational (e.g., 'Here's the thing:' or 'So what does that mean?')",
+          "The specific meal count (12-15 meals) is quite precise for a $35 donation and should be verified for accuracy by the organization before use"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**Southside Mutual Aid Network**\n\nDear Friend,\n\nThank you so much for your $35 donation to our Warm Winter Pantry Drive! We're genuinely grateful you chose to support our community during this important time.\n\nYour generosity means real, tangible help for our neighbors. Your $35 provides fresh produce, pantry staples, and warm meals for a family navigating a tough season\u2014maybe someone who just lost work hours, or a parent choosing between groceries and heating bills. That's the kind of direct impact your gift makes possible.\n\nWhat really moves us is knowing you're now part of the Southside network. We're not a big organization with endless resources\u2014we're neighbors helping neighbors, and that includes you now. Every person who contributes, volunteers, or even just spreads the word helps us build something meaningful together. You're helping us prove that communities can take care of their own.\n\nIf you'd like to stay connected and see your impact in action, we'd love to have you follow along! We share stories and updates on Instagram and Facebook (@SouthsideMutualAid), and our monthly newsletter features photos from distribution days and notes from community members. No pressure at all\u2014just an open invitation to be part of the conversation.\n\nThank you again for believing in this work and for standing with your Southside neighbors. It truly matters.\n\nWith appreciation,\n\nJasmine Ortiz\nExecutive Director\nSouthside Mutual Aid Network",
+      "timestamp": "2025-11-01T15:45:48.698632Z",
+      "duration_seconds": 9.58,
+      "tokens": {
+        "input": 180,
+        "output": 319,
+        "total": 499
+      },
+      "cost_usd": 0.005325,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, well-crafted thank-you letter that successfully balances warmth with authenticity. It hits all required elements while maintaining the casual, community-focused tone appropriate for a grassroots mutual aid organization. The language feels genuine and avoids transactional nonprofit jargon.",
+        "strengths": [
+          "Excellent tone match - casual without being unprofessional, uses 'neighbors helping neighbors' language that fits mutual aid ethos perfectly",
+          "Specific, concrete impact statement that connects $35 to real scenarios (lost work hours, heating vs. groceries choice)",
+          "Strong community-building language ('that includes you now') that makes donor feel like a participant, not just a funder",
+          "Respectful, low-pressure invitation to connect ('No pressure at all') with specific, actionable social media handles",
+          "Appropriate length at approximately 240 words, well within the 200-300 word target",
+          "Avoids making another ask while keeping door open for relationship-building"
+        ],
+        "weaknesses": [
+          "The greeting 'Dear Friend' is functional but slightly generic - could be more personalized with actual donor name placeholder",
+          "Minor authenticity concern: some phrases like 'tangible help' and 'direct impact' edge toward standard nonprofit language rather than fully grassroots voice"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Subject: A Big Thank You from Southside Mutual Aid Network!\n\nDear [Donor Name],\n\nWow! We just wanted to send a huge, heartfelt thank you for your incredibly generous first-time donation of $35 to Southside Mutual Aid Network. Seriously, you rock!\n\nYour gift truly makes a difference, especially right now. With our Warm Winter Pantry Drive in full swing, your $35 will go a long way in helping us stock our shelves with essential cold-weather items like warm gloves, cozy hats, or even a couple of hearty, non-perishable meals for our neighbors. Every little bit helps us keep our community warm and fed when the temperatures drop.\n\nIt means so much to us that you chose to support Southside Mutual Aid Network. We see you as a vital part of our growing community of folks who believe in taking care of each other. Knowing that we have caring individuals like you standing with us truly fuels our work.\n\nWe'd love for you to stay in the loop with all the great things we're doing together! You can always find us sharing updates and stories on our social media channels (link below!) or sign up for our (occasional!) email newsletter to see the impact of your generosity firsthand.\n\nThanks again for being a friend to Southside Mutual Aid Network. We're so glad to have you with us!\n\nWarmly,\n\nJasmine Ortiz\nExecutive Director\nSouthside Mutual Aid Network",
+      "timestamp": "2025-11-01T15:45:51.326056Z",
+      "duration_seconds": 2.63,
+      "tokens": {
+        "input": 163,
+        "output": 296,
+        "total": 459
+      },
+      "cost_usd": 0.000202,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The letter successfully captures a casual, warm tone appropriate for a grassroots mutual aid organization and includes most required elements. However, it has some minor issues with impact specificity (mixing tangible goods with meals creates confusion) and includes a subject line when the format appears to be a letter rather than email. The authentic voice and community-building language are strong.",
+        "strengths": [
+          "Excellent casual tone that feels authentic to a grassroots mutual aid collective ('Seriously, you rock!', 'folks who believe in taking care of each other')",
+          "Strong community-building language that makes donor feel like part of a movement rather than a transaction",
+          "Good balance of gratitude without being over-the-top or making another ask",
+          "Effective use of parentheticals and conversational asides that feel genuine",
+          "Successfully references the campaign and includes social media/newsletter invitation"
+        ],
+        "weaknesses": [
+          "Impact statement is somewhat muddled\u2014mixing physical items (gloves, hats) with food creates confusion about what the pantry actually provides",
+          "Includes email subject line when prompt requests a 'letter' format (ambiguous but typically letters don't have subject lines)",
+          "Missing actual social media links or newsletter signup details (says 'link below' but provides no link)",
+          "Word count appears slightly under 200 words (approximately 180-190 words)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear [First Name],\n\nThank you for your first-time gift of $250 to Front Range Land & Water Trust through our Trail Stewardship Spring Appeal. Your generosity affirms the shared commitment to safe, sustainable trails and healthy watersheds across the Front Range, and we are honored to welcome you as a partner in this work.\n\nYour support translates quickly into the field. Your $50 provides a day\u2019s worth of trail tools and safety gear for a volunteer; your $50 provides native seed and erosion-control wattles to stabilize a worn switchback; your $50 provides materials for trailhead signage that keeps visitors on durable surfaces and protects sensitive riparian areas. Together, your $250 equips crews, protects water quality, and helps us repair and steward the paths that connect people to the land.\n\nAs a member of our community of trail stewards, you will be among the first to hear about upcoming volunteer days, restoration milestones, and the stories of the landscapes you are helping to care for. If you would like to stay connected, you can follow our updates on social media and sign up for our monthly e\u2011newsletter at our website.\n\nThank you again for placing your trust in us. Your first gift carries real impact on the ground and strengthens a community that works carefully, season after season, to keep the Front Range\u2019s trails and waters thriving.\n\nWith appreciation,\n\nEvan Li\nDirector of Development\nFront Range Land & Water Trust",
+      "timestamp": "2025-11-01T15:46:24.865789Z",
+      "duration_seconds": 33.54,
+      "tokens": {
+        "input": 158,
+        "output": 2724,
+        "total": 2882
+      },
+      "cost_usd": 0.041334,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 7,
+          "accuracy": 6,
+          "authenticity": 9
+        },
+        "reasoning": "The letter is well-written with authentic language and appropriate formality for a conservation nonprofit. However, it contains a significant mathematical error in the impact breakdown and has a minor personalization issue. The tone and structure are strong, but the accuracy problem would require correction before use.",
+        "strengths": [
+          "Excellent authentic voice that sounds genuinely appreciative without being transactional or over-the-top",
+          "Strong connection to the organization's mission with specific, tangible impact examples (trail tools, native seed, erosion control, signage)",
+          "Effective use of formal yet warm tone appropriate for a professional conservation organization",
+          "Natural integration of the stay-connected invitation without being pushy",
+          "Good thematic consistency connecting the donor's volunteer experience to their financial support",
+          "Appropriate length at approximately 230 words"
+        ],
+        "weaknesses": [
+          "Critical mathematical error: breaks down $250 as '$50 provides... your $50 provides... your $50 provides... together your $250' which only accounts for $150, creating confusion",
+          "Missing personalization merge field - opens with 'Dear [First Name]' instead of using actual placeholder syntax or removing the bracket notation",
+          "The impact breakdown structure is awkward and repetitive with the '$50 provides' formula repeated three times",
+          "Could more explicitly reference the donor's participation in the trail cleanup volunteer event mentioned in the scenario"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "[Front Range Land & Water Trust Letterhead]\n\nDear Friend,\n\nOn behalf of Front Range Land & Water Trust, I want to extend our heartfelt gratitude for your generous gift of $250 to our Trail Stewardship Spring Appeal. Your first contribution to our organization marks the beginning of what we hope will be a meaningful partnership in conserving the landscapes we all cherish.\n\nYour investment will make a tangible difference in our community. Your gift of $250 will enable us to maintain approximately two miles of critical trail corridor, ensuring that the pathways connecting our communities to open spaces remain accessible, safe, and sustainable for years to come. This includes essential work such as erosion control, native vegetation restoration, and the installation of wayfinding signage that enhances the experience for thousands of annual visitors.\n\nAs a member of the Front Range Land & Water Trust community, you join fellow conservation advocates who understand that protecting our land and water resources requires sustained commitment and collective action. Your support reinforces our ability to serve as responsible stewards of the region's natural heritage.\n\nWe would be delighted to keep you informed about the ongoing impact of your generosity. I encourage you to subscribe to our quarterly newsletter and follow our work on social media, where we regularly share updates from the field and celebrate the conservation milestones we achieve together.\n\nThank you again for placing your trust in our mission.\n\nWith sincere appreciation,\n\nEvan Li\nDirector of Development\nFront Range Land & Water Trust",
+      "timestamp": "2025-11-01T15:46:33.174812Z",
+      "duration_seconds": 8.31,
+      "tokens": {
+        "input": 177,
+        "output": 316,
+        "total": 493
+      },
+      "cost_usd": 0.005271,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a well-crafted thank-you letter that successfully balances formality with warmth and meets nearly all prompt requirements. The specific impact statement is concrete and compelling, and the letter avoids transactional language. However, some phrasing feels slightly generic and could be more personalized given the donor's volunteer participation.",
+        "strengths": [
+          "Excellent specific impact statement - '$250 will enable us to maintain approximately two miles of critical trail corridor' is concrete and meaningful",
+          "Appropriate formal tone that remains warm and appreciative without being stiff",
+          "Strong adherence to prompt requirements including word count (296 words), campaign reference, proper signature, and subtle engagement invitation",
+          "Effective community-building language ('member of the Front Range Land & Water Trust community', 'collective action')",
+          "Avoids making another ask while successfully positioning for future engagement"
+        ],
+        "weaknesses": [
+          "Misses opportunity to reference the donor's volunteer trail cleanup participation, which would have personalized the letter and strengthened connection",
+          "Opening 'Dear Friend' is generic - could use 'Dear [First Name]' or 'Dear Trail Steward' to feel more personal",
+          "Some phrases feel formulaic ('heartfelt gratitude', 'tangible difference') reducing authenticity slightly",
+          "The phrase 'Your investment' may feel transactional despite overall warm tone - 'Your contribution' or 'Your gift' would be softer"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "[Date]\n\n[Donor Name]\n[Donor Address]\n[Donor City, State, Zip]\n\nDear [Donor Name],\n\nOn behalf of the Front Range Land & Water Trust, please accept our sincerest gratitude for your generous first-time gift of $250. Your support for our Trail Stewardship Spring Appeal is profoundly appreciated, and we are truly honored that you chose to invest in our mission.\n\nYour contribution of $250 is instrumental in allowing us to maintain and enhance the critical trail systems that connect our communities to the natural beauty of the Front Range. Specifically, a gift of this magnitude enables us to fund 50 feet of essential trailside maintenance, including erosion control and invasive species removal, ensuring these vital pathways remain safe and accessible for all. This work is foundational to preserving both the ecological integrity of our land and the recreational opportunities it provides.\n\nWe are delighted to welcome you to the Front Range Land & Water Trust family. Your commitment helps us build a stronger, more vibrant community, where open spaces and clean water are protected for current and future generations. We believe that safeguarding these invaluable resources is a shared responsibility, and your partnership makes a tangible difference.\n\nWe would be delighted for you to remain connected with our ongoing efforts. We frequently share updates on our conservation projects and volunteer opportunities through our social media channels and our quarterly newsletter. These platforms offer a wonderful way to see the direct impact of your generosity.\n\nThank you once again for your remarkable support. We deeply value your commitment to the Front Range Land & Water Trust.\n\nSincerely,\n\nEvan Li\nDirector of Development\nFront Range Land & Water Trust",
+      "timestamp": "2025-11-01T15:46:35.550698Z",
+      "duration_seconds": 2.38,
+      "tokens": {
+        "input": 166,
+        "output": 334,
+        "total": 500
+      },
+      "cost_usd": 0.000225,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "The letter successfully fulfills all prompt requirements with appropriate formal tone and specific impact details. However, it leans slightly too formal and verbose for a first-time donor thank-you, risking a disconnect with the donor's volunteer experience. The '50 feet of trailside maintenance' metric, while specific, feels somewhat arbitrary and may lack credibility without context.",
+        "strengths": [
+          "Excellent completeness - addresses all prompt requirements including gratitude, impact, community connection, and social media invitation",
+          "Strong specific impact statement that directly ties the $250 to tangible conservation work (50 feet of trail maintenance, erosion control, invasive species removal)",
+          "Good connection to the donor's volunteer experience by referencing trail systems and accessibility",
+          "Professional structure with proper formatting and clear organization",
+          "Successfully avoids making another ask while maintaining engagement"
+        ],
+        "weaknesses": [
+          "Overly formal language ('profoundly appreciated,' 'sincerest gratitude,' 'instrumental') creates distance rather than warmth, especially for someone who just volunteered at a trail cleanup",
+          "The '50 feet of trail maintenance' metric seems oddly specific and potentially fabricated - this could undermine credibility if not based on actual program data",
+          "Slightly verbose at the upper end of word count, with some redundancy ('truly honored,' 'profoundly appreciated' in same paragraph)",
+          "Misses opportunity to reference the donor's recent volunteer experience at the trail cleanup, which would have personalized the letter significantly",
+          "The phrase 'remarkable support' may be slightly over-the-top for a $250 first-time gift"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear [Donor Name],\n\nThank you for your first gift of $1,000 to MetroCare Hospital Foundation\u2019s Heart of the City Campaign. We\u2019re honored that you chose to stand with our patients, families, and caregivers, and we\u2019re grateful to welcome you into the MetroCare community.\n\nYour generosity helps strengthen heart care close to home\u2014supporting patients from diagnosis through recovery. Here\u2019s what your gift makes possible:\n- Your $50 provides a comfort kit for a cardiac patient (essentials like toiletries, warm socks, and a journal).\n- Your $100 helps offer heart-healthy meals and take-home nutrition guides for a recovering patient and family.\n- Your $250 funds two community heart-health screenings for uninsured neighbors.\n- Your $500 supports a week of transportation vouchers so patients can attend cardiac rehabilitation appointments.\n\nTogether, your $1,000 helps ensure compassionate, high-quality care reaches those who need it most\u2014right here in our city.\n\nWe\u2019d love to keep you connected to the progress you\u2019re powering through the Heart of the City Campaign. If you\u2019d like, follow us on social media and join our email updates for patient stories, impact snapshots, and notes from our care teams. Most of all, know that you\u2019re part of a caring circle that shows up for our community every day.\n\nThank you again for your trust and support. We\u2019re so glad you\u2019re with us.\n\nWith gratitude,\n\nPriya Shah\nPresident & CEO\nMetroCare Hospital Foundation",
+      "timestamp": "2025-11-01T15:46:57.109904Z",
+      "duration_seconds": 21.56,
+      "tokens": {
+        "input": 158,
+        "output": 1326,
+        "total": 1484
+      },
+      "cost_usd": 0.020364,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 7,
+          "accuracy": 6,
+          "authenticity": 8
+        },
+        "reasoning": "The letter successfully achieves a warm, appreciative tone and includes all required elements. However, it contains a significant structural flaw: the breakdown of impact uses incremental amounts ($50, $100, $250, $500) that don't add up to the donor's $1,000 gift, creating confusion about what their specific contribution accomplished. This mathematical inconsistency undermines the impact messaging.",
+        "strengths": [
+          "Excellent warm tone that balances professionalism with genuine appreciation",
+          "Strong opening that acknowledges both the gift and the campaign context",
+          "Specific, tangible impact examples (comfort kits, meals, screenings, transportation) that are realistic for a hospital foundation",
+          "Effective community-building language ('welcome you into the MetroCare community,' 'caring circle')",
+          "Appropriate length at approximately 250 words",
+          "Subtle, non-pushy invitation to stay connected with multiple options",
+          "No additional ask, as requested"
+        ],
+        "weaknesses": [
+          "Critical flaw: The tiered breakdown ($50/$100/$250/$500) doesn't clearly relate to the donor's $1,000 gift\u2014it reads like a menu rather than showing what THEIR gift specifically accomplished",
+          "The impact section would be stronger if it said 'Your $1,000 provides...' with items that equal or approximate $1,000, or simply described the collective impact without dollar breakdowns",
+          "Missing personalization placeholder is noted but '[Donor Name]' should ideally be flagged more clearly as a merge field",
+          "Slightly generic phrasing in places ('progress you're powering') that could be more specific to hospital/healthcare context"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "Dear Friend,\n\nThank you for your incredible $1,000 gift to MetroCare Hospital Foundation's Heart of the City Campaign. Your generosity truly touched us, and we're so grateful you've chosen to join our mission.\n\nBecause of donors like you, we can provide exceptional care to every patient who walks through our doors. Your gift will directly support our Cardiac Care Unit, where it will help provide vital monitoring equipment for approximately eight patients in need. Each piece of equipment means we can catch warning signs earlier, respond faster, and ultimately save more lives in our community.\n\nWhat moves us most is knowing that you believe in what we're doing here at MetroCare. You're now part of a compassionate community of supporters who understand that quality healthcare should be accessible to everyone, regardless of their circumstances. Your trust in our work means everything to our team and to the patients we serve together.\n\nWe'd love to keep you connected to the difference you're making. If you'd like to see stories of hope and healing from our hospital family, we invite you to follow us on Facebook and Instagram @MetroCareFoundation, or sign up for our quarterly newsletter at metrocarefoundation.org/stories. There's no obligation\u2014just an opportunity to witness firsthand the lives you're changing.\n\nThank you again for your compassionate support and for being part of the heart of our city.\n\nWith deep appreciation,\n\nPriya Shah\nPresident & CEO\nMetroCare Hospital Foundation",
+      "timestamp": "2025-11-01T15:47:06.527942Z",
+      "duration_seconds": 9.42,
+      "tokens": {
+        "input": 177,
+        "output": 317,
+        "total": 494
+      },
+      "cost_usd": 0.005286,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional thank-you letter that successfully balances warmth with credibility. It fulfills all prompt requirements and provides specific impact details. Minor weaknesses include slightly generic opening language and a calculation that could raise questions about equipment costs.",
+        "strengths": [
+          "Excellent specific impact statement ('vital monitoring equipment for approximately eight patients') that makes the gift tangible without being overly technical",
+          "Strong community-building language that positions the donor as part of something larger ('compassionate community of supporters')",
+          "Appropriate warm tone throughout\u2014professional but not stiff, appreciative without being obsequious",
+          "Well-executed subtle invitation to stay connected with multiple low-pressure options and explicit 'no obligation' language",
+          "Good length at approximately 250 words, fitting the 200-300 word requirement",
+          "Effective tie-in to campaign name and organizational mission",
+          "Avoids making another ask, as instructed"
+        ],
+        "weaknesses": [
+          "Opens with generic 'Dear Friend' rather than personalizing\u2014most donor databases would merge actual names",
+          "The math on monitoring equipment ($1,000 \u00f7 8 patients = $125 per patient) might seem low for medical equipment, potentially raising credibility questions",
+          "Phrase 'Your generosity truly touched us' in the opening feels slightly formulaic",
+          "Could benefit from one concrete story or detail about the Cardiac Care Unit to increase emotional connection"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "[Date]\n\n[Donor Name]\n[Donor Address]\n\nDear [Donor Name],\n\nOn behalf of everyone at MetroCare Hospital Foundation, please accept our sincerest and most heartfelt gratitude for your incredibly generous gift of $1,000 to our Heart of the City Campaign. As a first-time donor, your commitment to our mission is truly inspiring and deeply appreciated.\n\nYour thoughtful contribution makes a tangible difference in the lives of our patients and the health of our community. To put it into perspective, a gift of this magnitude, through the Heart of the City Campaign, could provide essential, life-saving medication for three critical care patients during their stay, or fully fund a week of vital diagnostic screenings for underserved individuals in our neighborhood. Your generosity directly enhances our ability to deliver compassionate, cutting-edge care when it's needed most.\n\nWe are so grateful to welcome you into the MetroCare Hospital Foundation family. Your support truly makes you a partner in our vision for a healthier, stronger city. We believe in the power of community, and with partners like you, we can continue to make a profound impact.\n\nWe would love to keep you updated on the amazing work you are helping to make possible. You can follow our progress and learn more about the stories behind your impact by visiting our website, following us on social media ([Social Media Handles]), or signing up for our e-newsletter.\n\nThank you again for your extraordinary kindness and belief in our work. We are truly honored to have your support.\n\nWarmly,\n\nPriya Shah\nPresident & CEO\nMetroCare Hospital Foundation",
+      "timestamp": "2025-11-01T15:47:09.054228Z",
+      "duration_seconds": 2.53,
+      "tokens": {
+        "input": 165,
+        "output": 325,
+        "total": 490
+      },
+      "cost_usd": 0.00022,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 9,
+          "usefulness": 7,
+          "accuracy": 6,
+          "authenticity": 7
+        },
+        "reasoning": "The letter fulfills all prompt requirements and maintains an appropriately warm tone, but suffers from overly effusive language that undermines authenticity. The specific impact examples are good, but calling a $1,000 gift 'incredibly generous' and 'extraordinary' feels excessive for a major hospital foundation, potentially flagging this as AI-generated content.",
+        "strengths": [
+          "Excellent specific impact examples (medication for three patients, week of diagnostic screenings) that make the donation tangible",
+          "Successfully incorporates all required elements: gratitude, impact, community connection, social media invitation, campaign reference, and appropriate length (267 words)",
+          "Good structure with clear paragraphs that flow logically from thanks to impact to community to connection",
+          "Appropriately acknowledges first-time donor status and employer giving context"
+        ],
+        "weaknesses": [
+          "Excessive superlatives ('sincerest and most heartfelt,' 'incredibly generous,' 'extraordinary kindness') that sound inauthentic and over-the-top for a $1,000 gift to a major hospital foundation",
+          "Generic placeholder '[Social Media Handles]' should have been written as 'on Facebook, Instagram, and LinkedIn' or similar - this is a usability error",
+          "The phrase 'most heartfelt gratitude' in the opening is redundant and overly formal despite 'warm' tone request",
+          "Minor accuracy concern: claiming $1,000 'could provide' medication for three critical care patients may be unrealistic depending on actual costs - needs verification",
+          "Lacks personalization opportunities a nonprofit would likely add (employer name, specific program interest, volunteer opportunities)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1165,
+    "average_score": 8.04
+  }
+}
