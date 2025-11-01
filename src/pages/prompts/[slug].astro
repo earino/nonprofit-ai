@@ -1,0 +1,92 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const prompts = await getCollection('prompts');
+  return prompts.map((prompt) => ({
+    params: { slug: prompt.slug },
+    props: { prompt },
+  }));
+}
+
+const { prompt } = Astro.props;
+const { Content } = await prompt.render();
+
+// Get related prompts (same category)
+const allPrompts = await getCollection('prompts');
+const relatedPrompts = allPrompts
+  .filter(p => p.data.category === prompt.data.category && p.slug !== prompt.slug)
+  .slice(0, 3);
+---
+
+<BaseLayout title={prompt.data.title} description={prompt.data.description}>
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-500 mb-6">
+      <a href="/" class="hover:text-blue-600">Home</a>
+      <span class="mx-2">/</span>
+      <a href={`/category/${prompt.data.category}`} class="hover:text-blue-600 capitalize">
+        {prompt.data.category}
+      </a>
+      <span class="mx-2">/</span>
+      <span class="text-gray-900">{prompt.data.title}</span>
+    </nav>
+
+    <!-- Header -->
+    <header class="mb-8">
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="text-xs font-semibold px-3 py-1 bg-blue-100 text-blue-800 rounded-full capitalize">
+          {prompt.data.category}
+        </span>
+        <span class="text-xs font-semibold px-3 py-1 bg-gray-100 text-gray-800 rounded-full">
+          {prompt.data.difficulty}
+        </span>
+        {prompt.data.role.map((role) => (
+          <span class="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">
+            {role}
+          </span>
+        ))}
+      </div>
+      <h1 class="text-4xl font-bold mb-4">{prompt.data.title}</h1>
+      <p class="text-xl text-gray-600">{prompt.data.description}</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="prose prose-lg max-w-none">
+      <Content />
+    </div>
+
+    <!-- Tags -->
+    {prompt.data.tags && prompt.data.tags.length > 0 && (
+      <div class="mt-12 pt-8 border-t border-gray-200">
+        <h3 class="text-sm font-semibold text-gray-500 mb-3">TAGS</h3>
+        <div class="flex flex-wrap gap-2">
+          {prompt.data.tags.map((tag) => (
+            <span class="text-sm px-3 py-1 bg-gray-100 text-gray-700 rounded">
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Related Prompts -->
+    {relatedPrompts.length > 0 && (
+      <div class="mt-12 pt-8 border-t border-gray-200">
+        <h2 class="text-2xl font-bold mb-6">Related Prompts</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {relatedPrompts.map((related) => (
+            <a
+              href={`/prompts/${related.slug}`}
+              class="bg-gray-50 p-4 rounded-lg hover:shadow-md transition border border-gray-200"
+            >
+              <h3 class="font-semibold mb-2">{related.data.title}</h3>
+              <p class="text-sm text-gray-600">{related.data.description}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+  </article>
+</BaseLayout>

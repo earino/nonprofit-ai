@@ -1,16 +1,199 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
 
+// Get all prompts for featured section
+const allPrompts = await getCollection('prompts');
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Home">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6">
+        AI Prompts for Nonprofit Professionals
+      </h1>
+      <p class="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
+        Save time and boost your impact with tested, ready-to-use AI prompts for fundraising, communications, programs, and more.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="#browse"
+          class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition"
+        >
+          Browse Prompts
+        </a>
+        <a
+          href="/getting-started"
+          class="bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 transition border-2 border-white"
+        >
+          Getting Started
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center mb-12">How It Works</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl font-bold text-blue-600">1</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Find a Prompt</h3>
+          <p class="text-gray-600">Browse by role, task, or use case to find the perfect prompt for your needs.</p>
+        </div>
+        <div class="text-center">
+          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl font-bold text-blue-600">2</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Customize It</h3>
+          <p class="text-gray-600">Replace the [BRACKETS] with your specific details and organization info.</p>
+        </div>
+        <div class="text-center">
+          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl font-bold text-blue-600">3</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Use with AI</h3>
+          <p class="text-gray-600">Copy and paste into ChatGPT, Claude, or your favorite AI tool to get results.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Browse by Category -->
+  <section id="browse" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center mb-12">Browse by Category</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Fundraising -->
+        <a
+          href="/category/fundraising"
+          class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border-2 border-transparent hover:border-blue-500"
+        >
+          <div class="text-3xl mb-3">💰</div>
+          <h3 class="text-xl font-semibold mb-2">Fundraising & Development</h3>
+          <p class="text-gray-600 mb-4">Donor letters, appeals, grants, and stewardship</p>
+          <span class="text-blue-600 font-semibold">25 prompts →</span>
+        </a>
+
+        <!-- Communications -->
+        <a
+          href="/category/communications"
+          class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border-2 border-transparent hover:border-blue-500"
+        >
+          <div class="text-3xl mb-3">📢</div>
+          <h3 class="text-xl font-semibold mb-2">Communications & Marketing</h3>
+          <p class="text-gray-600 mb-4">Social media, newsletters, blogs, and press releases</p>
+          <span class="text-blue-600 font-semibold">20 prompts →</span>
+        </a>
+
+        <!-- Programs -->
+        <a
+          href="/category/programs"
+          class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border-2 border-transparent hover:border-blue-500"
+        >
+          <div class="text-3xl mb-3">🎯</div>
+          <h3 class="text-xl font-semibold mb-2">Program Management</h3>
+          <p class="text-gray-600 mb-4">Impact reports, volunteer coordination, and evaluations</p>
+          <span class="text-blue-600 font-semibold">12 prompts →</span>
+        </a>
+
+        <!-- Events -->
+        <a
+          href="/category/events"
+          class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border-2 border-transparent hover:border-blue-500"
+        >
+          <div class="text-3xl mb-3">🎉</div>
+          <h3 class="text-xl font-semibold mb-2">Event Planning</h3>
+          <p class="text-gray-600 mb-4">Invitations, sponsorships, and event marketing</p>
+          <span class="text-blue-600 font-semibold">8 prompts →</span>
+        </a>
+
+        <!-- Board & Leadership -->
+        <a
+          href="/category/board"
+          class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border-2 border-transparent hover:border-blue-500"
+        >
+          <div class="text-3xl mb-3">👔</div>
+          <h3 class="text-xl font-semibold mb-2">Board & Leadership</h3>
+          <p class="text-gray-600 mb-4">Board materials, strategic planning, and governance</p>
+          <span class="text-blue-600 font-semibold">8 prompts →</span>
+        </a>
+
+        <!-- Operations -->
+        <a
+          href="/category/operations"
+          class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border-2 border-transparent hover:border-blue-500"
+        >
+          <div class="text-3xl mb-3">⚙️</div>
+          <h3 class="text-xl font-semibold mb-2">Operations & HR</h3>
+          <p class="text-gray-600 mb-4">Policies, job descriptions, and procedures</p>
+          <span class="text-blue-600 font-semibold">7 prompts →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Prompts -->
+  {allPrompts.length > 0 && (
+    <section class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12">Featured Prompts</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {allPrompts.slice(0, 3).map((prompt) => (
+            <a
+              href={`/prompts/${prompt.slug}`}
+              class="bg-gray-50 p-6 rounded-lg hover:shadow-md transition border border-gray-200"
+            >
+              <div class="flex items-start justify-between mb-3">
+                <span class="text-xs font-semibold px-2 py-1 bg-blue-100 text-blue-800 rounded">
+                  {prompt.data.category}
+                </span>
+                <span class="text-xs text-gray-500">
+                  {prompt.data.difficulty}
+                </span>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">{prompt.data.title}</h3>
+              <p class="text-gray-600 text-sm">{prompt.data.description}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-blue-600 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold mb-4">Ready to Save Time?</h2>
+      <p class="text-xl mb-8 text-blue-100">
+        Start using AI prompts to write better fundraising appeals, social media posts, grant proposals, and more—in minutes, not hours.
+      </p>
+      <a
+        href="#browse"
+        class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition inline-block"
+      >
+        Browse All Prompts
+      </a>
+    </div>
+  </section>
+
+  <!-- Community Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold mb-4">Built by Nonprofits, for Nonprofits</h2>
+      <p class="text-lg text-gray-600 mb-8">
+        This is an open-source project. All prompts are free forever. Have a prompt to share? Contributions are welcome!
+      </p>
+      <a
+        href="/contribute"
+        class="text-blue-600 font-semibold hover:text-blue-700"
+      >
+        Learn How to Contribute →
+      </a>
+    </div>
+  </section>
+</BaseLayout>
