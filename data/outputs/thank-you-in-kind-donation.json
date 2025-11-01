@@ -1,0 +1,425 @@
+{
+  "prompt_id": "thank-you-in-kind-donation",
+  "prompt_text": "Write a warm thank-you letter for a donor who provided an in-kind donation of\n[DONATED ITEMS/SERVICES] to [ORGANIZATION NAME]. The letter should:\n\n- Express sincere appreciation for their generosity\n- Describe specifically what was donated: [DETAILED DESCRIPTION]\n- Explain how the donation will be used and its impact on programs/operations\n- Acknowledge the value and thoughtfulness of the contribution\n- Make them feel their non-monetary gift is just as important as cash\n- Reference any relevant context: [CAMPAIGN/EVENT/PROGRAM]\n- Include estimated fair market value if known: [ESTIMATED VALUE]\n- Mention tax-deductibility and that formal receipt is attached/enclosed\n- Invite them to see the donation in action if applicable\n- Be 200-300 words\n- Use a [WARM/APPRECIATIVE/PROFESSIONAL] tone\n- Be signed by [SIGNER NAME and TITLE]\n\nThe letter should value in-kind gifts equally to monetary donations and make the\ndonor feel their contribution directly supports the mission.",
+  "category": "fundraising",
+  "generated_at": "2025-11-01T17:00:00.574304Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Volunteer-led rural food pantry in Appalachian Kentucky; donation from a local hardware store to expand cold storage for winter produce.",
+      "values": {
+        "DONATED ITEMS/SERVICES": "commercial freezers and shelving",
+        "ORGANIZATION NAME": "Red River Community Pantry",
+        "DETAILED DESCRIPTION": "Two 18-cubic-foot Energy Star chest freezers (Whirlpool) and four NSF-certified heavy-duty wire shelving units, with delivery and installation included",
+        "CAMPAIGN/EVENT/PROGRAM": "Winter Harvest Drive",
+        "ESTIMATED VALUE": "$4,750",
+        "WARM/APPRECIATIVE/PROFESSIONAL": "WARM",
+        "SIGNER NAME and TITLE": "Marisol Vega, Executive Director"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Urban arts education nonprofit on Chicago\u2019s South Side; donation from a regional tech company to outfit a youth media lab.",
+      "values": {
+        "DONATED ITEMS/SERVICES": "laptops, creative software licenses, and media equipment",
+        "ORGANIZATION NAME": "South Side Media Arts Collective",
+        "DETAILED DESCRIPTION": "15 refurbished MacBook Air (M1) laptops, 15 Adobe Creative Cloud annual licenses, 2 Sony a6400 mirrorless cameras with 16\u201350mm lenses, a 20-bay charging cart, and 3 portable 2TB SSD drives",
+        "CAMPAIGN/EVENT/PROGRAM": "Youth Film Lab Expansion \u2013 Summer 2025 Cohort",
+        "ESTIMATED VALUE": "$22,300",
+        "WARM/APPRECIATIVE/PROFESSIONAL": "APPRECIATIVE",
+        "SIGNER NAME and TITLE": "Darnell Whitaker, Development Manager"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Regional disaster relief organization serving the Gulf Coast; national outdoor retailer donated emergency shelter supplies ahead of hurricane season.",
+      "values": {
+        "DONATED ITEMS/SERVICES": "emergency shelter supplies",
+        "ORGANIZATION NAME": "Gulf Coast Relief Alliance",
+        "DETAILED DESCRIPTION": "500 foldable cots, 1,200 thermal blankets, 18 portable generators (Honda EU2200i), and 60 rechargeable LED lanterns",
+        "CAMPAIGN/EVENT/PROGRAM": "Hurricane Readiness Initiative 2025",
+        "ESTIMATED VALUE": "$86,400",
+        "WARM/APPRECIATIVE/PROFESSIONAL": "PROFESSIONAL",
+        "SIGNER NAME and TITLE": "Alicia Chen, Chief Development Officer"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "[Date]\n\n[Donor Name]\n[Donor Address]\n\nDear [Donor Name],\n\nOn behalf of the entire team and the families we serve at Red River Community Pantry, please accept our sincerest gratitude for your incredibly generous in-kind donation during our Winter Harvest Drive. We were absolutely thrilled to receive the two 18-cubic-foot Energy Star Whirlpool chest freezers and four NSF-certified heavy-duty wire shelving units, complete with delivery and installation!\n\nThis thoughtful contribution has already made an immense difference in our operations. These new freezers are a game-changer, allowing us to safely store a greater variety of perishable foods, especially fresh produce and proteins, for longer periods. The sturdy shelving units help us organize our pantry more efficiently, making it easier for our volunteers to access items and ensuring a smoother distribution process for our clients. Ultimately, your gift means we can offer more nutritious and diverse food options to those experiencing food insecurity in our community.\n\nWe truly value the power of in-kind donations like yours. While monetary gifts are always appreciated, non-monetary contributions such as these freezers and shelving are just as vital to our mission, directly enhancing our capacity to serve. The estimated fair market value of this wonderful donation is $4,750.\n\nPlease find an official receipt for your records attached, confirming the tax-deductible nature of your generous gift. We would be absolutely delighted if you would consider visiting us sometime to see your donation in action and witness firsthand the positive impact it\u2019s having.\n\nThank you once again for your remarkable generosity and for being such a crucial partner in our efforts to build a healthier, more food-secure community.\n\nWarmly,\n\nMarisol Vega\nExecutive Director\nRed River Community Pantry",
+      "timestamp": "2025-11-01T16:59:00.302174Z",
+      "duration_seconds": 2.27,
+      "tokens": {
+        "input": 238,
+        "output": 358,
+        "total": 596
+      },
+      "cost_usd": 0.00025,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a well-crafted thank-you letter that successfully addresses all prompt requirements with appropriate warmth and professionalism. It effectively conveys gratitude while explaining impact, though some phrasing feels slightly formulaic. The letter would be immediately usable by a nonprofit with minimal editing.",
+        "strengths": [
+          "Excellent coverage of all required elements including tax-deductibility, estimated value, invitation to visit, and acknowledgment that in-kind gifts equal monetary donations",
+          "Strong specificity about impact - clearly explains how freezers and shelving will be used operationally and benefit clients with more nutritious food options",
+          "Appropriate warm tone that balances professionalism with genuine appreciation, suitable for a small community organization",
+          "Good length at approximately 280 words, fitting within the 200-300 word requirement",
+          "Natural flow that connects the donation to the Winter Harvest Drive context and broader mission"
+        ],
+        "weaknesses": [
+          "Some phrases feel slightly generic or overly enthusiastic ('absolutely thrilled', 'absolutely delighted', 'remarkable generosity') which could be toned down for more authentic voice",
+          "The paragraph about valuing in-kind donations, while addressing a prompt requirement, reads somewhat didactic rather than conversational",
+          "Minor redundancy with 'sincerest gratitude' and 'thank you once again' - could be more concise"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# RED RIVER COMMUNITY PANTRY\n\nDear Friend,\n\nWhat a difference you've made! On behalf of everyone at Red River Community Pantry, I'm writing to express our heartfelt gratitude for your incredibly generous in-kind donation of two 18-cubic-foot Whirlpool Energy Star chest freezers and four NSF-certified heavy-duty wire shelving units, including delivery and installation.\n\nYour timing couldn't have been more perfect as we prepare for our Winter Harvest Drive. These freezers will allow us to safely store frozen proteins, prepared meals, and seasonal produce for the families we serve\u2014doubling our cold storage capacity. The professional-grade shelving will help us organize dry goods more efficiently, ensuring nothing goes to waste and making it easier for our volunteers to serve clients with dignity.\n\nWhile the estimated fair market value of $4,750 is significant, the true worth of your contribution goes far beyond any dollar amount. You've given us the tools to better serve our neighbors facing food insecurity, and that impact will be felt every single day. In-kind gifts like yours are the backbone of our operations\u2014they're just as vital as monetary donations in helping us fulfill our mission.\n\nPlease know that your donation is tax-deductible, and we've enclosed an official receipt for your records.\n\nWe'd love for you to stop by and see your generous gift in action! Witnessing the daily difference your freezers and shelving make might just warm your heart as much as your kindness has warmed ours.\n\nWith deepest appreciation,\n\nMarisol Vega\nExecutive Director\nRed River Community Pantry",
+      "timestamp": "2025-11-01T16:59:07.367375Z",
+      "duration_seconds": 9.34,
+      "tokens": {
+        "input": 258,
+        "output": 353,
+        "total": 611
+      },
+      "cost_usd": 0.006069,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a strong, well-crafted thank-you letter that meets nearly all requirements with appropriate warmth and professionalism. It successfully conveys that in-kind donations are valued equally to monetary gifts and provides specific impact details. Minor weaknesses include a slightly generic opening salutation and some phrases that feel formulaic rather than deeply personal.",
+        "strengths": [
+          "Excellent fulfillment of prompt requirements - includes all requested elements (specific items, impact, tax-deductibility, invitation to visit, estimated value, proper signoff)",
+          "Strong emphasis on valuing in-kind gifts equally to cash ('just as vital as monetary donations,' 'true worth goes far beyond any dollar amount')",
+          "Specific, concrete impact description that connects donation to mission (doubling cold storage, serving families with dignity, reducing waste)",
+          "Appropriate warm tone with personal touches ('What a difference you've made!', 'warm your heart as much as your kindness has warmed ours')",
+          "Good length at approximately 250 words, fitting the 200-300 word requirement",
+          "Professional structure with clear organization and natural flow between paragraphs"
+        ],
+        "weaknesses": [
+          "Generic salutation 'Dear Friend' rather than personalizing with donor name - a real letter would include the actual donor (hardware store owner/representative)",
+          "Some phrases feel slightly formulaic ('heartfelt gratitude,' 'couldn't have been more perfect') reducing authenticity",
+          "Missing explicit mention that 'formal receipt is attached/enclosed' as specified in prompt - only says 'we've enclosed an official receipt' which is close but not exact language",
+          "The closing metaphor about warmth, while creative, feels somewhat forced and could be more natural"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear [Donor Name],\n\nOn behalf of everyone at Red River Community Pantry, thank you for your extraordinary in-kind gift in support of our Winter Harvest Drive. Your donation of two 18-cubic-foot Energy Star Whirlpool chest freezers and four NSF-certified heavy-duty wire shelving units\u2014complete with delivery and installation\u2014could not be more thoughtful or timely.\n\nThese additions immediately expand our cold-storage capacity, allowing us to safely receive and store more fresh produce, dairy, and proteins through the cold months. The new shelving improves organization and throughput in our distribution area, helping volunteers stock efficiently and ensuring families can find what they need quickly. Together, these upgrades reduce food waste, increase choice for neighbors, and strengthen programs like our evening distributions and senior boxes. Simply put, your gift helps us nourish more households, more reliably, all winter long.\n\nPlease know we value this in-kind contribution every bit as much as a financial donation. Your generosity directly advances our mission, and we are deeply grateful. The estimated fair market value of your gift is $4,750. As a 501(c)(3) organization, in-kind donations are tax-deductible to the extent allowed by law; a formal receipt is enclosed for your records.\n\nWe would love to show you your impact. You\u2019re warmly invited to visit the pantry and see the freezers and shelving in action during a distribution\u2014just let us know what works for you.\n\nWith heartfelt thanks,\n\nMarisol Vega\nExecutive Director\nRed River Community Pantry",
+      "timestamp": "2025-11-01T16:59:09.634792Z",
+      "duration_seconds": 11.6,
+      "tokens": {
+        "input": 232,
+        "output": 754,
+        "total": 986
+      },
+      "cost_usd": 0.012006,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a high-quality, professionally crafted thank-you letter that fulfills all prompt requirements while maintaining warmth and authenticity. It successfully balances specific detail with emotional connection, making the donor feel valued. The letter would require minimal editing for actual use.",
+        "strengths": [
+          "Excellent specificity in describing both the donation and its impact\u2014mentions concrete programs like 'evening distributions and senior boxes' that ground the letter in real operations",
+          "Successfully elevates in-kind gifts with the phrase 'we value this in-kind contribution every bit as much as a financial donation' and by detailing tangible operational improvements",
+          "Strong warm tone throughout with phrases like 'could not be more thoughtful or timely' and 'warmly invited' that feel genuine rather than formulaic",
+          "Comprehensive coverage of all required elements: gratitude, detailed description, impact explanation, tax information, invitation to visit, proper length (267 words), and appropriate signature",
+          "Effective structure that flows naturally from thanks to impact to practical details to future engagement",
+          "Appropriate use of context-specific language (Appalachian community pantry serving 'neighbors' and 'households') that demonstrates understanding of the organization type"
+        ],
+        "weaknesses": [
+          "Missing '[Donor Name]' placeholder should ideally be formatted more clearly or with instruction to personalize",
+          "The phrase 'Simply put' in the second paragraph, while not incorrect, slightly weakens the otherwise strong narrative flow",
+          "Could benefit from one more sentence of personal warmth or community connection given the small rural organization context\u2014perhaps a brief mention of community impact or volunteer appreciation"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "[Date]\n\n[Donor Name]\n[Donor Address]\n\nDear [Donor Name],\n\nOn behalf of the entire team and the young aspiring artists at South Side Media Arts Collective, please accept our deepest and most heartfelt gratitude for your incredibly generous in-kind donation. Your commitment to our mission shines brightly through your thoughtful contribution.\n\nThe 15 refurbished MacBook Air (M1) laptops, 15 Adobe Creative Cloud annual licenses, 2 Sony a6400 mirrorless cameras with 16\u201350mm lenses, a 20-bay charging cart, and 3 portable 2TB SSD drives are an absolute game-changer. These vital tools, with an estimated fair market value of $22,300, will be instrumental in the upcoming Youth Film Lab Expansion, specifically supporting our Summer 2025 Cohort.\n\nThis donation eradicates a significant technological barrier for our students, providing them with professional-grade equipment and software they might otherwise never access. Our young filmmakers will now have the power to edit their visions, capture stunning visuals, and hone their craft with industry-standard resources. This directly elevates their learning experience, fosters their creativity, and equips them with invaluable skills for future success in media arts. Your non-monetary gift is just as impactful, if not more so, than a cash donation \u2013 its direct utility deeply resonates with our program needs.\n\nWe are incredibly grateful for your understanding that access to quality technology is paramount in today's media landscape. Your partnership is invaluable, and we encourage you to visit us and see your donation in action.\n\nFor your records, a formal tax receipt for your generous contribution is enclosed.\n\nWith sincere appreciation,\n\nDarnell Whitaker\nDevelopment Manager\nSouth Side Media Arts Collective",
+      "timestamp": "2025-11-01T16:59:12.508477Z",
+      "duration_seconds": 2.87,
+      "tokens": {
+        "input": 283,
+        "output": 364,
+        "total": 647
+      },
+      "cost_usd": 0.000261,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional thank-you letter that hits all major requirements and demonstrates genuine appreciation. The tone is appropriately appreciative without being overly effusive. However, it slightly exceeds the word count (280+ words) and contains some minor stylistic choices that could be refined for greater authenticity.",
+        "strengths": [
+          "Excellent specificity in describing donated items and their direct impact on students",
+          "Strong mission-centered language that connects the donation to tangible outcomes (removing technological barriers, professional-grade equipment)",
+          "Successfully positions in-kind donation as equally valuable to cash with the phrase 'just as impactful, if not more so'",
+          "Includes all required elements: tax receipt mention, fair market value, invitation to visit, program context",
+          "Appropriately appreciative tone that feels warm without being overly casual",
+          "Good use of vivid language ('game-changer,' 'shines brightly') that conveys genuine enthusiasm"
+        ],
+        "weaknesses": [
+          "Word count appears to exceed the 200-300 word limit (approximately 280-290 words depending on formatting)",
+          "Opening phrase 'deepest and most heartfelt gratitude' and 'incredibly generous' may be slightly overwrought for an appreciative (vs. warm) tone",
+          "The phrase 'eradicates a significant technological barrier' uses somewhat academic/corporate language that feels less authentic",
+          "Missing placeholder brackets for [Donor Name] and [Donor Address] - should be filled or clearly marked",
+          "The invitation to visit is somewhat generic ('we encourage you to visit us') rather than specific about when or what they'd see"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# SOUTH SIDE MEDIA ARTS COLLECTIVE\n\n**April 15, 2025**\n\nDear [Donor Name],\n\nOn behalf of South Side Media Arts Collective, I want to express our deepest gratitude for your extraordinary in-kind donation supporting our Youth Film Lab Expansion for the Summer 2025 Cohort. Your generosity means the world to our young filmmakers and artists.\n\nYour contribution of 15 refurbished MacBook Air (M1) laptops, 15 Adobe Creative Cloud annual licenses, 2 Sony a6400 mirrorless cameras with lenses, a 20-bay charging cart, and 3 portable 2TB SSD drives represents far more than equipment\u2014it represents opportunity, creativity unleashed, and dreams made tangible.\n\nThese resources will directly enable 15 young people from our community to develop professional-level skills in filmmaking, graphic design, and multimedia storytelling. The laptops and software mean each student will have dedicated tools for the entire program year, while the cameras will capture their vision and voice. Your thoughtful inclusion of the charging cart and storage drives shows you truly understand the practical needs of a working media lab.\n\nThe estimated fair market value of $22,300 makes this gift as impactful as any cash donation we've received, and it's tax-deductible\u2014please find your formal receipt enclosed. But beyond the numbers, your investment in these specific tools shows you believe in what we're building here.\n\nWe would be honored to welcome you to our summer program launch in June to see these resources in action and meet the students whose lives you're transforming.\n\nWith heartfelt appreciation,\n\n**Darnell Whitaker**  \nDevelopment Manager  \nSouth Side Media Arts Collective",
+      "timestamp": "2025-11-01T16:59:19.502726Z",
+      "duration_seconds": 9.87,
+      "tokens": {
+        "input": 300,
+        "output": 383,
+        "total": 683
+      },
+      "cost_usd": 0.006645,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly effective thank-you letter that successfully balances warmth with professionalism while addressing all key requirements. It treats the in-kind donation with the same importance as a cash gift and creates genuine emotional connection. The letter would require minimal editing for actual use.",
+        "strengths": [
+          "Excellent fulfillment of the core mission: explicitly states the donation 'represents far more than equipment' and is 'as impactful as any cash donation,' directly addressing the prompt's emphasis on valuing in-kind gifts equally",
+          "Strong specificity and impact narrative: connects each donated item to concrete outcomes (15 students with dedicated tools, professional-level skills, capturing student voice), making the donor feel their specific contribution matters",
+          "Complete coverage of requirements: includes all elements (appreciation, detailed description, impact explanation, tax-deductibility, FMV of $22,300, receipt mention, invitation to see donation in action, appropriate word count at ~270 words)",
+          "Appreciative tone executed well: phrases like 'means the world,' 'heartfelt appreciation,' and 'dreams made tangible' convey genuine gratitude without being overly effusive",
+          "Thoughtful personalization: the observation that including charging cart and storage drives 'shows you truly understand the practical needs' demonstrates attention to the donor's intentionality",
+          "Professional formatting: proper letterhead structure, date, signature block, and clear organization make it ready for actual use"
+        ],
+        "weaknesses": [
+          "Missing donor name placeholder is inconsistent: opens with '[Donor Name]' but this should ideally include guidance that this represents the company name (the tech company mentioned in scenario)",
+          "Minor authenticity concern: 'dreams made tangible' and some phrasing edges slightly toward nonprofit clich\u00e9, though it remains largely genuine",
+          "Could strengthen the invitation: the June launch invitation is good but could specify how to RSVP or provide a contact method for follow-up"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear [Donor Name],\n\nOn behalf of South Side Media Arts Collective, thank you for your extraordinary in-kind gift supporting our Youth Film Lab Expansion \u2013 Summer 2025 Cohort. Your donation of 15 refurbished MacBook Air (M1) laptops, 15 Adobe Creative Cloud annual licenses, two Sony a6400 mirrorless cameras with 16\u201350mm lenses, a 20-bay charging cart, and three portable 2TB SSD drives arrives at exactly the right moment.\n\nThis equipment will outfit an entire cohort of young storytellers with professional tools: laptops and Creative Cloud for editing, design, and sound; cameras for hands-on production; the charging cart to keep classes running smoothly; and SSDs for secure, real-world media workflows. Because of you, we can expand access, reduce equipment bottlenecks, and deliver more one-on-one instruction\u2014accelerating learning and elevating student films from concept to festival-ready.\n\nWe value this contribution at an estimated fair market value of $22,300. Please know that your in-kind support is every bit as vital as a cash gift\u2014directly fueling our mission to amplify youth voices through media arts. Your generosity is deeply thoughtful and precisely aligned with our program\u2019s needs.\n\nYour donation is tax-deductible to the extent allowed by law; a formal receipt is attached/enclosed for your records.\n\nWe would love to show you the impact firsthand. You\u2019re warmly invited to visit a lab session this summer, meet the cohort, and see your gift in action on set and in the edit bays.\n\nWith sincere gratitude,\n\nDarnell Whitaker\nDevelopment Manager\nSouth Side Media Arts Collective\n[Contact Information]",
+      "timestamp": "2025-11-01T16:59:30.500064Z",
+      "duration_seconds": 20.86,
+      "tokens": {
+        "input": 274,
+        "output": 1047,
+        "total": 1321
+      },
+      "cost_usd": 0.016527,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional thank-you letter that fulfills all prompt requirements while maintaining an appropriately appreciative tone. It effectively balances specificity with warmth, clearly articulates impact, and positions the in-kind gift as mission-critical. Minor improvements could enhance authenticity.",
+        "strengths": [
+          "Excellent impact articulation - clearly connects specific equipment to concrete program outcomes (reducing bottlenecks, one-on-one instruction, festival-ready films)",
+          "Strong opening that establishes context immediately and acknowledges timing ('arrives at exactly the right moment')",
+          "Comprehensive coverage of all required elements including tax-deductibility, FMV, formal receipt reference, and invitation to visit",
+          "Effective positioning of in-kind gift as equally valuable to cash ('every bit as vital as a cash gift')",
+          "Professional structure with appropriate paragraph breaks and logical flow from gratitude to impact to administrative details to invitation",
+          "Specific technical details demonstrate genuine understanding of the donation's value (mentions workflows, edit bays, on-set use)",
+          "Word count (267 words) falls perfectly within the 200-300 word requirement"
+        ],
+        "weaknesses": [
+          "Missing [Donor Name] placeholder should ideally include a note or instruction to personalize",
+          "The phrase 'arrives at exactly the right moment' could be more specific about why (e.g., 'as we prepare to welcome 30 new students')",
+          "Minor authenticity concern: 'festival-ready' might feel slightly promotional; could benefit from one more personal or emotional touch about student impact"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "[Date]\n\n[Donor Name]\n[Donor Address]\n[Donor City, State, Zip]\n\nDear [Donor Name],\n\nOn behalf of the entire team at Gulf Coast Relief Alliance, please accept our sincerest gratitude for your incredibly generous in-kind donation of emergency shelter supplies. Your commitment to supporting our mission, particularly through the Hurricane Readiness Initiative 2025, is deeply appreciated.\n\nThe 500 foldable cots, 1,200 thermal blankets, 18 Honda EU2200i portable generators, and 60 rechargeable LED lanterns you provided are invaluable. These critical items will be immediately integrated into our emergency preparedness inventory, ensuring we can swiftly provide comfort and safety to individuals and families displaced by future storms. The generators will power essential operations at our temporary shelters, while the cots, blankets, and lanterns will provide much-needed warmth, rest, and light during challenging times.\n\nYour thoughtful contribution, with an estimated fair market value of $86,400, is a testament to your compassion and understanding of the immediate needs of our community. We want to emphasize that non-monetary gifts like yours are just as vital as financial contributions, directly enabling us to deliver essential services and make a tangible difference in people's lives. Your proactive support significantly strengthens our operational capacity and allows us to be fully prepared when disaster strikes.\n\nWe are so grateful for your partnership. Your generosity truly embodies the spirit of community resilience. We would be delighted to arrange a time for you to see these vital supplies in action, perhaps during an upcoming readiness drill or deployment, if you are ever in the area.\n\nPlease find enclosed your formal tax receipt for this donation.\n\nWith sincere appreciation,\n\nAlicia Chen\nChief Development Officer\nGulf Coast Relief Alliance",
+      "timestamp": "2025-11-01T16:59:33.168491Z",
+      "duration_seconds": 2.67,
+      "tokens": {
+        "input": 246,
+        "output": 368,
+        "total": 614
+      },
+      "cost_usd": 0.000258,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a well-crafted, professional thank-you letter that successfully addresses all prompt requirements. It strikes an appropriate balance between professionalism and warmth, clearly articulates impact, and values the in-kind donation appropriately. Minor improvements could be made in reducing slight verbosity and enhancing personal voice.",
+        "strengths": [
+          "Excellent specificity in describing donated items and their direct application to mission (generators powering shelters, blankets providing warmth)",
+          "Strong emphasis on equivalence of in-kind gifts to monetary donations with clear statement that non-monetary gifts are 'just as vital'",
+          "Professional tone maintained throughout while still conveying genuine appreciation",
+          "All required elements present: tax receipt mention, estimated value, invitation to see donation in action, connection to Hurricane Readiness Initiative",
+          "Appropriate word count (approximately 280 words, within 200-300 range)",
+          "Effective use of concrete impact language ('swiftly provide comfort,' 'tangible difference') rather than generic platitudes"
+        ],
+        "weaknesses": [
+          "Slightly formulaic opening phrase 'please accept our sincerest gratitude' could be more distinctive",
+          "The phrase 'incredibly generous' in the first paragraph adds unnecessary adverb that slightly weakens professional tone",
+          "Could benefit from one specific statistic about Gulf Coast hurricane impact or families served to add more contextual weight",
+          "Minor redundancy between 'deeply appreciated' (paragraph 1) and 'sincerely appreciate' (closing)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear [Donor Name],\n\nOn behalf of Gulf Coast Relief Alliance, thank you for your extraordinary in-kind donation in support of our Hurricane Readiness Initiative 2025. Your generous contribution of 500 foldable cots, 1,200 thermal blankets, 18 portable generators (Honda EU2200i), and 60 rechargeable LED lanterns will immediately strengthen our ability to open safe, dignified shelters within hours of a storm.\n\nThese supplies are being pre-positioned in our coastal staging hubs and will equip our shelter teams to serve thousands of evacuees. The cots and blankets will provide clean, comfortable rest for families; the EU2200i generators will power refrigeration for medications, charging stations, and critical communications; and the LED lanterns will enable safe operations overnight. In every way, your thoughtful gift reduces setup time, expands capacity, and improves the quality of care we deliver in the most difficult moments.\n\nPlease know that your non-monetary support is every bit as mission-critical as a cash contribution. Our records reflect an estimated fair market value of $86,400 for your donation. As a 501(c)(3) organization, your contribution is tax-deductible to the fullest extent allowed by law; no goods or services were provided in exchange for this gift. A formal receipt is enclosed for your files.\n\nWe would be honored to show you the impact firsthand. We invite you to tour our preparedness warehouse or observe a shelter set-up during an upcoming Readiness 2025 drill.\n\nWith sincere appreciation for your partnership and foresight,\n\nAlicia Chen\nChief Development Officer\nGulf Coast Relief Alliance",
+      "timestamp": "2025-11-01T16:59:40.531801Z",
+      "duration_seconds": 10.03,
+      "tokens": {
+        "input": 237,
+        "output": 1038,
+        "total": 1275
+      },
+      "cost_usd": 0.016281,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally well-crafted thank-you letter that fulfills nearly all requirements with professional polish. It strikes the right balance between warmth and professionalism, provides specific impact details, and genuinely elevates the in-kind donation. Minor technical details around tax language could be refined, but overall this would require minimal editing for actual use.",
+        "strengths": [
+          "Excellent specificity in describing impact - connects each donated item to concrete outcomes (generators power medication refrigeration, lanterns enable overnight operations)",
+          "Strong execution of making in-kind gifts feel valued equally to cash ('every bit as mission-critical as a cash contribution')",
+          "Professional tone perfectly calibrated - warm without being overly casual, appreciative without being effusive",
+          "Compelling invitation to see impact firsthand with specific, relevant options (warehouse tour, drill observation)",
+          "Effective use of mission-focused language ('safe, dignified shelters,' 'most difficult moments') that connects donation to organizational values",
+          "Appropriate length at approximately 260 words, well within the 200-300 word target"
+        ],
+        "weaknesses": [
+          "Tax-deductibility language is slightly imprecise - the phrase 'no goods or services were provided in exchange for this gift' is standard for cash donations but may need adjustment for in-kind donations where the donor is the one providing goods",
+          "Missing '[Donor Name]' placeholder should ideally include a note or instruction that this needs personalization",
+          "Could strengthen the opening by briefly acknowledging the donor's business/identity (e.g., 'as a trusted outdoor retailer') to add personalization"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Gulf Coast Relief Alliance\n\nDear [Donor Name],\n\nOn behalf of Gulf Coast Relief Alliance, I want to express our heartfelt gratitude for your extraordinary in-kind donation supporting our Hurricane Readiness Initiative 2025. Your generosity directly strengthens our capacity to serve families during their most vulnerable moments.\n\nThe donation of 500 foldable cots, 1,200 thermal blankets, 18 Honda EU2200i portable generators, and 60 rechargeable LED lanterns represents exactly what our emergency response teams need to provide immediate, dignified shelter. These supplies\u2014valued at $86,400\u2014will be strategically positioned at our regional response centers, enabling us to establish safe havens within hours of a disaster striking.\n\nYour contribution is every bit as vital as monetary support. In fact, during emergencies, having quality equipment pre-positioned and deployment-ready can mean the difference between chaos and coordinated relief. The Honda generators you've provided are particularly invaluable, offering the reliable power necessary for medical equipment, communications, and essential services when communities go dark.\n\nPlease find enclosed your formal donation receipt for tax purposes. This in-kind contribution is fully tax-deductible to the extent allowed by law.\n\nWe would be honored to have you visit one of our supply depots to see your donation staged and ready for deployment. Witnessing the operation firsthand offers powerful insight into how your thoughtfulness translates into real-world impact.\n\nThank you for investing in our mission and the resilience of Gulf Coast communities.\n\nWith deepest appreciation,\n\nAlicia Chen\nChief Development Officer\nGulf Coast Relief Alliance",
+      "timestamp": "2025-11-01T16:59:45.787155Z",
+      "duration_seconds": 15.29,
+      "tokens": {
+        "input": 257,
+        "output": 350,
+        "total": 607
+      },
+      "cost_usd": 0.006021,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a high-quality, professional thank-you letter that successfully addresses all prompt requirements while maintaining authenticity and impact. It effectively elevates the in-kind donation to equal status with monetary gifts through specific, mission-focused language. Minor improvements could include a more personalized opening and slightly warmer closing despite the professional tone.",
+        "strengths": [
+          "Excellent specificity - mentions exact items and model numbers (Honda EU2200i), demonstrating genuine attention to the donation",
+          "Strong mission connection - clearly explains how supplies will be 'strategically positioned' and used 'within hours of disaster striking'",
+          "Effectively validates in-kind giving with the powerful statement: 'having quality equipment pre-positioned and deployment-ready can mean the difference between chaos and coordinated relief'",
+          "Includes all required elements: gratitude, detailed description, impact explanation, value acknowledgment, tax information, and invitation to visit",
+          "Professional tone is appropriate and warm without being overly casual",
+          "Word count (approximately 250 words) falls within the 200-300 word requirement",
+          "Concrete invitation to visit supply depots adds engagement opportunity"
+        ],
+        "weaknesses": [
+          "Missing '[Donor Name]' placeholder should ideally reference the donor organization name (national outdoor retailer)",
+          "Could strengthen the connection between the donor's business (outdoor retailer) and the appropriateness of their specific donation",
+          "The phrase 'when communities go dark' might be slightly informal for the strictly professional tone requested"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.0643,
+    "average_score": 8.62
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "prompt_id": "thank-you-mid-level-donor",
+  "prompt_text": "Write a heartfelt thank-you letter for a mid-level donor who gave $[AMOUNT] to\n[ORGANIZATION NAME]. The letter should:\n\n- Express genuine appreciation for their significant support\n- Acknowledge if this is an upgrade from their previous giving level\n- Explain the specific, meaningful impact of their $[AMOUNT] gift\n- Make them feel like a valued member of the organization's community\n- Reference the campaign or program they supported: [CAMPAIGN/PROGRAM NAME]\n- Include a personal touch that shows you know who they are\n- Invite them to stay connected (newsletter, updates, etc.)\n- Be 250-350 words in length\n- Use a [FORMAL/WARM/PROFESSIONAL] tone\n- Be signed by [SIGNER NAME and TITLE]\n\nThe letter should acknowledge that this is a substantial gift that makes a real\ndifference, without being over-the-top. Make the donor feel appreciated and\nimportant to the organization's mission. No immediate ask for another donation.",
+  "category": "fundraising",
+  "generated_at": "2025-11-01T16:58:22.195427Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Volunteer-led nonprofit in a rural Appalachian town providing emergency heating support, minor home repairs, and weekly food deliveries to seniors; donor is a long-time resident upgrading during the winter campaign.",
+      "values": {
+        "AMOUNT": "1,500",
+        "ORGANIZATION NAME": "Pine Hollow Neighbor Network",
+        "CAMPAIGN/PROGRAM NAME": "Winter Heat & Home Repair Fund",
+        "FORMAL/WARM/PROFESSIONAL": "Warm",
+        "SIGNER NAME and TITLE": "Renee Calloway, Executive Director"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Urban arts education nonprofit serving Chicago Public Schools with teaching-artist residencies; donor is an alum parent and small business owner who increased their support for the after-school music program.",
+      "values": {
+        "AMOUNT": "2,500",
+        "ORGANIZATION NAME": "Chicago Youth Music Collective",
+        "CAMPAIGN/PROGRAM NAME": "After-School Modern Band Residencies",
+        "FORMAL/WARM/PROFESSIONAL": "Professional",
+        "SIGNER NAME and TITLE": "Ethan Park, Director of Advancement"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Well-established coastal conservation nonprofit with regional offices along the Gulf and Atlantic coasts; donor is a repeat supporter who stepped up their giving after the hurricane season appeal.",
+      "values": {
+        "AMOUNT": "5,000",
+        "ORGANIZATION NAME": "Coastal Habitat Alliance",
+        "CAMPAIGN/PROGRAM NAME": "Living Shorelines Initiative",
+        "FORMAL/WARM/PROFESSIONAL": "Formal",
+        "SIGNER NAME and TITLE": "Amina Patel, Chief Development Officer"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "[Date]\n\n[Donor Name]\n[Donor Address]\n\nDear [Donor Name],\n\nOn behalf of everyone at Pine Hollow Neighbor Network, I want to extend our sincerest gratitude for your incredibly generous gift of $1,500 to our Winter Heat & Home Repair Fund. This is truly a substantial contribution, and we are deeply appreciative of your commitment to our community.\n\nWe were especially touched to see your continued dedication, and if this represents an increase from your previous giving, please know how profoundly impactful your growing support is. Your $1,500 donation will directly enable us to provide crucial assistance where it's needed most during these cold months. Specifically, it could cover the cost of a new, energy-efficient furnace for a family struggling with an outdated heating system, or make essential repairs to ensure a safe and warm home for an elderly neighbor. Imagine the peace of mind you\u2019re bringing to those who worry about staying warm this winter \u2013 that\u2019s the immediate, tangible difference your generosity creates.\n\nYour partnership is invaluable to us, and we consider you a vital member of the Pine Hollow Neighbor Network family. We are so fortunate to have compassionate individuals like you standing with us to uplift our neighbors.\n\nWe would love for you to stay connected with us and see the ongoing impact of your kindness. We regularly share updates and stories of how your contributions are making a difference through our newsletter. You can sign up on our website or reply to this email if you\u2019d like to receive them.\n\nThank you again, [Donor Name], for your remarkable support. Your generosity warms not only homes but also our hearts.\n\nWith heartfelt gratitude,\n\nRenee Calloway,\nExecutive Director\nPine Hollow Neighbor Network",
+      "timestamp": "2025-11-01T16:56:33.068883Z",
+      "duration_seconds": 2.39,
+      "tokens": {
+        "input": 208,
+        "output": 352,
+        "total": 560
+      },
+      "cost_usd": 0.000242,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 7,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The letter achieves a warm tone and covers most requirements, but has notable weaknesses that limit its usefulness. It's too vague about the donor's upgrade status and includes placeholder text that would require significant editing. The impact description is somewhat generic and the word count appears to exceed the 350-word limit.",
+        "strengths": [
+          "Warm, genuine tone appropriate for a small community organization",
+          "Strong opening that immediately acknowledges the gift amount and campaign",
+          "Good specific impact examples (furnace replacement, home repairs) that align with the organization's mission",
+          "Effective emotional language ('peace of mind,' 'warms not only homes but also our hearts') without being over-the-top",
+          "Properly avoids making another ask",
+          "Includes clear invitation to stay connected via newsletter"
+        ],
+        "weaknesses": [
+          "Hedges on the upgrade acknowledgment with 'if this represents an increase' rather than confidently acknowledging it as specified in the scenario",
+          "Exceeds the 250-350 word limit (appears to be approximately 280 words but feels verbose)",
+          "Contains placeholder text '[Date]', '[Donor Name]', and '[Donor Address]' without clear merge field formatting",
+          "Lacks the 'personal touch that shows you know who they are' - no reference to them being a long-time resident as specified in scenario",
+          "Generic phrase 'reply to this email' doesn't make sense in a physical letter format",
+          "Impact description could be more specific to the rural Appalachian context and senior focus mentioned in the scenario"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "Dear [Donor Name],\n\nThank you so much for your generous gift of $1,500 to Pine Hollow Neighbor Network's Winter Heat & Home Repair Fund. Your support means the world to our neighbors facing difficult choices this winter.\n\nI was thrilled to see your increased contribution this year \u2013 it truly demonstrates your deepening commitment to our community. Gifts like yours are what make our work possible, and I want you to know exactly how much your $1,500 will accomplish.\n\nYour donation will ensure that three households won't have to choose between heating their homes and buying groceries this winter. It will also cover critical repairs \u2013 perhaps a furnace tune-up for an elderly resident or a water heater replacement for a family with young children. These aren't just repairs; they're peace of mind, health, and dignity for our neighbors during the coldest months of the year.\n\n[Personal touch: e.g., \"Having you at our fall community gathering reminded me how much you truly care about the people behind the numbers\" OR \"Your work in property management gives you a unique perspective on how essential safe, warm housing is for our community\" OR \"I know your own family has deep roots in Pine Hollow, which makes your support even more meaningful.\"]\n\nYou're part of a special group of supporters who make transformational gifts to Pine Hollow Neighbor Network. Your generosity creates real, immediate change in people's lives, and I hope you feel proud of the difference you're making.\n\nI'd love to keep you connected to the impact of your gift. Watch for our monthly newsletter, and please don't hesitate to reach out if you'd ever like to learn more about our programs or meet some of the neighbors you're helping.\n\nWith deep gratitude,\n\nRenee Calloway\nExecutive Director\nPine Hollow Neighbor Network",
+      "timestamp": "2025-11-01T16:56:41.895796Z",
+      "duration_seconds": 11.22,
+      "tokens": {
+        "input": 220,
+        "output": 392,
+        "total": 612
+      },
+      "cost_usd": 0.00654,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "The letter successfully achieves a warm, community-focused tone and includes concrete impact details. However, the placeholder for personal touch significantly reduces its usefulness, and some phrasing feels slightly formulaic. The structure and content are strong, but it needs customization before use.",
+        "strengths": [
+          "Excellent specific impact quantification (three households, furnace tune-ups, water heater replacement) that makes the donation tangible",
+          "Warm, appropriate tone that balances professionalism with genuine community connection",
+          "Strong acknowledgment of the upgrade in giving level early in the letter",
+          "Concrete examples that fit the rural Appalachian context authentically",
+          "Appropriate length at approximately 280 words",
+          "Effective framing of repairs as 'peace of mind, health, and dignity' rather than just transactions"
+        ],
+        "weaknesses": [
+          "Major flaw: includes bracketed placeholder text [Donor Name] and [Personal touch...] which makes it incomplete and unusable without significant editing",
+          "The personal touch section offers examples rather than being integrated, breaking the flow and revealing its template nature",
+          "Phrase 'means the world' in opening is somewhat clich\u00e9d for nonprofit communications",
+          "The 'special group of supporters' language in paragraph 5 feels slightly generic and could be more specific to this organization's culture",
+          "Missing the donor's name makes it feel less personal despite otherwise strong personalization elements"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear [First Name],\n\nThank you for your generous $1,500 gift to Pine Hollow Neighbor Network\u2019s Winter Heat & Home Repair Fund. Your support arrives at exactly the moment when neighbors are choosing between warmth and groceries, and I want you to know how much your commitment means to all of us.\n\nWe were especially grateful to see you increase your support this year\u2014thank you for stepping up. That added vote of confidence tells our team, and the families we serve, that we can move quickly when the temperature drops and a furnace fails.\n\nYour gift will have immediate, practical impact this winter. It will fund urgent repairs so seniors aren\u2019t left in the cold, keep service from being shut off for families facing a temporary shortfall, and equip households with weatherization kits\u2014door sweeps, window film, and pipe insulation\u2014that make drafty homes safer and more efficient. In real terms, your $1,500 will cover a couple of emergency furnace fixes, prevent a heat shutoff for a family in crisis, and stock enough simple repairs to warm multiple apartments. That\u2019s a substantial difference, felt right away.\n\nI also want to acknowledge who you are to this community. [Personal touch: e.g., As a Maple Street neighbor and Tool Library volunteer, you\u2019ve seen how a small repair can change a whole winter for a family.] Your care for your neighbors shines through, and we\u2019re proud to count you as a vital part of the Pine Hollow Neighbor Network.\n\nWe\u2019d love to keep you connected to the results you make possible. You\u2019ll receive our monthly e-newsletter with brief stories from the field, and we share photo updates on Instagram and Facebook. If you ever want a quick update call, I\u2019m happy to connect personally.\n\nWith heartfelt thanks for keeping our neighbors warm,\n\nRenee Calloway\nExecutive Director\nPine Hollow Neighbor Network",
+      "timestamp": "2025-11-01T16:57:16.862755Z",
+      "duration_seconds": 46.19,
+      "tokens": {
+        "input": 200,
+        "output": 2939,
+        "total": 3139
+      },
+      "cost_usd": 0.044685,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, usable donor thank-you letter that hits all major requirements with appropriate warmth and specificity. The concrete impact details and community-focused language feel authentic to a small rural nonprofit. Minor weaknesses include a placeholder for personalization and slightly exceeding word count.",
+        "strengths": [
+          "Excellent concrete impact breakdown - the specific examples (furnace repairs, shutoff prevention, weatherization kits) make the $1,500 tangible and meaningful",
+          "Strong acknowledgment of the upgrade in giving level that feels genuine rather than transactional",
+          "Appropriate warm tone that balances professionalism with community intimacy, perfect for a small-town nonprofit",
+          "Good variety in engagement invitations (newsletter, social media, personal call) without being pushy",
+          "Opening line effectively connects the gift to urgent community need without being manipulative",
+          "Natural flow and readability - sounds like something a real ED would write"
+        ],
+        "weaknesses": [
+          "Word count is approximately 320-330 words, slightly exceeding the 350-word maximum but within reasonable range",
+          "The bracketed placeholder [First Name] and [Personal touch] section require manual completion, reducing immediate usability",
+          "The personal touch example, while helpful, might be too specific and could feel awkward if the suggested details don't match the actual donor"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "[Date]\n\n[Donor Name]\n[Donor Address]\n[Donor City, State, Zip]\n\nDear [Donor Name],\n\nOn behalf of the entire Chicago Youth Music Collective team, I want to extend my deepest gratitude for your incredibly generous gift of $2,500. This significant contribution truly means the world to us and, I believe, represents a substantial increase in your already impactful support of our mission. Thank you for your continued dedication to empowering Chicago's young musicians.\n\nYour $2,500 gift will directly fuel our After-School Modern Band Residencies, providing an entire semester of enriching musical instruction and mentorship for nearly five students. Imagine the joy, confidence, and collaborative skills these young people will develop as they learn to play instruments, write original songs, and perform together. You are directly enabling us to transform lives through the power of music, fostering creativity and a lifelong love for the arts.\n\nWe consider you a vital part of the Chicago Youth Music Collective family, and your commitment to our mission is not only deeply appreciated but truly inspiring. We are grateful for individuals like you who recognize the profound impact that music education has on developing well-rounded, engaged citizens.\n\nWe would love to keep you updated on the progress of our After-School Modern Band Residencies and other initiatives made possible by your generosity. Please consider signing up for our e-newsletter at [website link] or following us on social media [@CYMC_social].\n\nThank you once again for your remarkable support. We are truly honored to have you as a champion for youth music in Chicago.\n\nWith sincere appreciation,\n\nEthan Park\nDirector of Advancement\nChicago Youth Music Collective",
+      "timestamp": "2025-11-01T16:57:19.160741Z",
+      "duration_seconds": 2.3,
+      "tokens": {
+        "input": 210,
+        "output": 345,
+        "total": 555
+      },
+      "cost_usd": 0.000238,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 7,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The letter hits most key requirements and maintains an appropriate professional tone, but has notable weaknesses in the personal touch requirement and contains a problematic impact calculation. The structure is solid and would be usable with revisions, but isn't ready to send as-is.",
+        "strengths": [
+          "Appropriate professional tone that balances warmth with formality",
+          "Clear acknowledgment of the gift increase ('substantial increase in your already impactful support')",
+          "Strong mission-focused language connecting donation to tangible outcomes",
+          "Good length at approximately 280 words, within the 250-350 range",
+          "Effective community-building language ('vital part of the Chicago Youth Music Collective family')",
+          "Appropriate no-ask approach while inviting continued engagement"
+        ],
+        "weaknesses": [
+          "Completely lacks personal touch showing knowledge of the donor (prompt specified they are an alum parent and small business owner - neither mentioned)",
+          "Impact statement is problematic: '$2,500 = nearly five students' sounds oddly imprecise and underwhelming for a mid-level gift",
+          "Uses placeholder brackets [Date], [Donor Name], [website link], [@CYMC_social] which reduces immediate usefulness",
+          "Phrase 'I believe, represents' introduces unnecessary uncertainty about the gift upgrade",
+          "Generic closing could apply to any arts organization rather than being specific to this donor relationship"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# CHICAGO YOUTH MUSIC COLLECTIVE\n\nDear [Donor Name],\n\nThank you for your generous gift of $2,500 to support our After-School Modern Band Residencies. Your increased commitment this year truly inspires us and demonstrates your deep belief in the transformative power of music education.\n\nYour contribution makes an immediate and tangible difference. With your support, we can provide twelve weeks of comprehensive modern band instruction to an entire classroom of students who might not otherwise have access to music education. This means that 25 young musicians will learn not just how to play guitar, bass, drums, and keyboards, but how to collaborate, express themselves creatively, and build confidence that extends far beyond the music room.\n\nI know your connection to our mission runs deep, and we're grateful to have supporters like you who understand that music education is about more than notes and rhythms\u2014it's about giving young people opportunities to discover their voice and potential. Your partnership helps us reach students at a critical time in their development, providing them with mentorship, community, and skills they'll carry throughout their lives.\n\nThe enthusiasm we see in our students during these residencies is remarkable. Many tell us that their band sessions are the highlight of their week, and several have gone on to form their own groups or pursue advanced music study.\n\nWe'd love to keep you connected to the impact you're making. Please look for our quarterly newsletters featuring student stories and program updates, and don't hesitate to reach out if you'd ever like to visit a residency session in person. Your continued belief in our work means everything to our students, staff, and community.\n\nWith deep gratitude,\n\nEthan Park  \nDirector of Advancement  \nChicago Youth Music Collective",
+      "timestamp": "2025-11-01T16:57:26.705856Z",
+      "duration_seconds": 9.84,
+      "tokens": {
+        "input": 219,
+        "output": 368,
+        "total": 587
+      },
+      "cost_usd": 0.006177,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a well-crafted letter that hits most requirements and would be usable with minor edits. The tone is appropriately professional and warm, with specific impact details. However, it lacks personalization showing they 'know who the donor is' (alum parent, small business owner) and misses the mail merge field for the donor's name.",
+        "strengths": [
+          "Excellent specific impact quantification (12 weeks, 25 students, specific instruments) that makes the gift tangible",
+          "Strong professional tone that balances warmth with formality appropriate for a $2,500 gift",
+          "Good acknowledgment of increased giving ('Your increased commitment this year') without being overly effusive",
+          "Effective invitation to stay connected with concrete options (quarterly newsletter, visit opportunity)",
+          "Appropriate length at approximately 290 words, within the 250-350 range",
+          "No immediate ask for additional funds, as requested"
+        ],
+        "weaknesses": [
+          "Missing personalization about donor being an alum parent and small business owner\u2014this was a key requirement to 'show you know who they are'",
+          "Uses placeholder '[Donor Name]' instead of a mail merge field like {DONOR_NAME}, which could cause errors",
+          "The phrase 'I know your connection to our mission runs deep' is vague when specific personal details were available and should have been referenced",
+          "Could be slightly more specific about the 'After-School Modern Band Residencies' program structure or Chicago Public Schools context"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear [Donor Name],\n\nThank you for your generous $2,500 gift to Chicago Youth Music Collective in support of our After-School Modern Band Residencies. Your commitment is a substantial investment in Chicago\u2019s young musicians, and we\u2019re truly grateful. [If this represents an increase from your previous giving: We\u2019re especially honored that you chose to raise your level of support this year\u2014your confidence in our students and teaching artists means a great deal.]\n\nYour gift will have a direct, measurable impact this semester. At $2,500, you are underwriting a full residency at one partner school, including:\n- 30 hours of small\u2011group instruction led by a professional teaching artist\n- Access to instruments and equipment (with maintenance and repairs covered)\n- Curriculum materials and rehearsal resources\n- Transportation support so students can participate consistently\n- A culminating community showcase where students perform the songs they\u2019ve created together\n\nThis support translates into real growth for roughly 12\u201315 students: improved musicianship, teamwork, confidence, and the experience of belonging to a creative ensemble after school.\n\nWe also want you to know how much we value you as part of the Chicago Youth Music Collective community. I especially appreciated [personal touch\u2014e.g., hearing about your own band days at Whitney Young/meeting you at the Fall Student Showcase/your enthusiasm for getting more girls on stage]. Your perspective and encouragement energize our team and inspire our students.\n\nWe\u2019ll keep you updated with photos, stories, and performance dates through our monthly newsletter and occasional program emails. If there are specific schools or instruments you\u2019re most interested in, please let me know\u2014our updates can reflect your interests. You\u2019re always welcome to reach me directly at [phone/email].\n\nThank you again for making such a meaningful difference through the After-School Modern Band Residencies. We\u2019re proud to have you in our circle of supporters.\n\nWith appreciation,\n\nEthan Park\nDirector of Advancement\nChicago Youth Music Collective",
+      "timestamp": "2025-11-01T16:57:42.846215Z",
+      "duration_seconds": 25.98,
+      "tokens": {
+        "input": 199,
+        "output": 1871,
+        "total": 2070
+      },
+      "cost_usd": 0.028662,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional donor thank-you letter that hits all major requirements and provides specific, compelling impact details. The tone is appropriately professional yet warm, and the structure is clear and usable. Minor weaknesses include placeholder text that wasn't fully resolved and slightly exceeding the word count.",
+        "strengths": [
+          "Excellent specificity on impact\u2014the bulleted breakdown of what $2,500 funds is concrete and compelling, showing exactly how the gift translates to student outcomes",
+          "Strong professional tone that balances warmth with formality, appropriate for a mid-level donor in an arts education context",
+          "Well-structured with clear sections that flow logically from gratitude to impact to community connection to next steps",
+          "Effective acknowledgment of the donor's upgrade with bracketed conditional text that can be easily customized",
+          "Good personalization opportunities with specific placeholder examples that guide the user on what to include",
+          "Appropriate restraint\u2014no immediate ask for additional funds, as requested",
+          "Practical invitation to stay connected with specific, actionable options"
+        ],
+        "weaknesses": [
+          "Word count is approximately 360-380 words, exceeding the 250-350 word target range",
+          "Contains unresolved placeholder '[Donor Name]' at the opening, which should have been flagged or handled differently",
+          "The bracketed conditional text about giving increase is awkwardly placed mid-paragraph rather than integrated more smoothly",
+          "The personal touch section uses bracketed examples rather than demonstrating how to write it naturally, which may confuse some users about whether to keep the brackets"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "[Date]\n\n[Donor Name]\n[Donor Address]\n[Donor City, State, Zip]\n\nDear [Donor Name],\n\nOn behalf of the entire team at Coastal Habitat Alliance, please accept our sincerest gratitude for your incredibly generous gift of $5,000 to the Living Shorelines Initiative. Your continued commitment to protecting and restoring our vital coastal ecosystems is truly inspiring.\n\nWe were especially touched to see this substantial increase in your support, building on your previous contributions. This upgrade reflects a profound dedication to our mission, and it makes a significant and immediate difference in our ability to execute critical conservation projects.\n\nYour $5,000 donation is directly enabling us to conduct crucial scientific assessments, plant thousands of native marsh grasses, and educate local communities about the long-term benefits of resilient coastlines. Specifically, this gift will fund a new section of living shoreline at the critically eroded Osprey Point, creating a natural buffer against erosion and providing essential habitat for juvenile fish and shellfish. Without dedicated partners like you, these vital projects simply would not be possible.\n\nWe deeply value your partnership and consider you an integral member of the Coastal Habitat Alliance family. Your passion for safeguarding our natural heritage resonates deeply with us, and knowing we have your support fuels our daily efforts.\n\nWe are committed to keeping you informed of the progress we are making thanks to your generosity. You can anticipate receiving our quarterly newsletter, which provides detailed updates on the Living Shorelines Initiative and other key projects. We also encourage you to visit our website and follow us on social media to see the direct impact of your contributions.\n\nThank you once again for your remarkable support. It is through the generosity of individuals like you that we can achieve our ambitious goals and ensure a thriving future for our coastal habitats.\n\nWith deepest appreciation,\n\nAmina Patel\nChief Development Officer\nCoastal Habitat Alliance",
+      "timestamp": "2025-11-01T16:57:46.165409Z",
+      "duration_seconds": 3.32,
+      "tokens": {
+        "input": 207,
+        "output": 380,
+        "total": 587
+      },
+      "cost_usd": 0.000259,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a well-crafted donor thank-you letter that successfully fulfills nearly all requirements with appropriate formal tone and specific impact details. The letter effectively balances gratitude with concrete information about how the gift will be used, though it could benefit from slightly more personalization and a touch more warmth within the formal framework.",
+        "strengths": [
+          "Excellent acknowledgment of the giving upgrade with appropriate language ('substantial increase in your support, building on your previous contributions')",
+          "Strong specific impact statement (Osprey Point living shoreline, marsh grasses, juvenile fish habitat) that makes the donation tangible",
+          "Appropriate formal tone throughout without being stiff or overly corporate",
+          "Clear invitation to stay connected with multiple touchpoints (newsletter, website, social media)",
+          "Good word count at approximately 310 words, within the 250-350 range",
+          "Effective use of 'family' language to create community feeling while maintaining formality",
+          "No premature ask for additional donations, as requested"
+        ],
+        "weaknesses": [
+          "The 'personal touch that shows you know who they are' is the weakest element\u2014phrases like 'Your passion for safeguarding our natural heritage' are generic and could apply to any donor",
+          "Minor placeholder issue: includes [Date] and [Donor Name/Address] fields that would need completion, though this is standard practice",
+          "Could be slightly more specific about the hurricane season context mentioned in the scenario description, which would add authenticity and timeliness"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "Dear [Donor Name],\n\nOn behalf of Coastal Habitat Alliance, I want to express our profound gratitude for your exceptional gift of $5,000 to our Living Shorelines Initiative. Your generous support represents a significant increase in your commitment to our mission, and we are deeply honored by your confidence in our work.\n\nYour contribution will directly fund the restoration of approximately 200 linear feet of coastal shoreline, creating vital habitat for juvenile fish, migratory birds, and essential invertebrate species. Unlike traditional hardened structures, these living shorelines utilize native marsh grasses and oyster reefs to protect our coast naturally\u2014an approach that becomes more critical with each passing year as we face increasing coastal challenges.\n\nGiven your background in [relevant field/personal connection], I know you understand the urgency of this work. Donors like you, who not only believe in our mission but elevate their investment in it, form the foundation of everything we accomplish. Your $5,000 gift places you among our most valued partners, and we want you to see firsthand the impact of your generosity.\n\nWe will keep you closely informed about the Living Shorelines Initiative's progress. In addition to our quarterly newsletter, you will receive exclusive updates on the specific sites your gift has helped restore. I would also be delighted to arrange a site visit this spring, when our planting teams will be actively establishing new marsh vegetation at our Pelican Bay location.\n\nThank you for your outstanding commitment to protecting our coastal ecosystems. Your partnership truly makes a difference in preserving these vital habitats for future generations.\n\nWith sincere appreciation,\n\nAmina Patel\nChief Development Officer\nCoastal Habitat Alliance",
+      "timestamp": "2025-11-01T16:57:53.406856Z",
+      "duration_seconds": 10.56,
+      "tokens": {
+        "input": 218,
+        "output": 361,
+        "total": 579
+      },
+      "cost_usd": 0.006069,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a well-crafted donor letter that hits most key elements with appropriate formality and genuine appreciation. However, it contains a critical placeholder that wasn't filled ([Donor Name]) and makes an assumption about the donor's background that could be problematic. The specific impact details are excellent and the structure is professional.",
+        "strengths": [
+          "Excellent specific impact quantification (200 linear feet of shoreline, species benefited)",
+          "Appropriate formal tone that feels warm without being stiff",
+          "Strong acknowledgment of increased giving level ('significant increase in your commitment')",
+          "Concrete engagement invitation with the spring site visit offer",
+          "Good balance of gratitude without over-the-top language",
+          "Effective positioning of donor as valued partner",
+          "Stays within word count (approximately 280 words)"
+        ],
+        "weaknesses": [
+          "Critical error: '[Donor Name]' placeholder left unfilled in salutation",
+          "Problematic assumption in 'Given your background in [relevant field/personal connection]' - includes a placeholder that suggests personalization that may not exist",
+          "Does not explicitly acknowledge this gift came in response to hurricane season appeal as specified in scenario description",
+          "The phrase 'with each passing year' is slightly vague for formal communication"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear [Donor Name],\n\nThank you for your generous $5,000 contribution to Coastal Habitat Alliance in support of the Living Shorelines Initiative. Your commitment is deeply appreciated and makes a substantial, tangible difference for our coast and the communities that depend on it. We are especially grateful for your leadership [and for increasing your support from your previous giving level].\n\nYour gift will accelerate on-the-ground work that replaces vulnerable hard barriers with nature-based protections. Specifically, it will help: prepare and plant native marsh grasses that stabilize eroding edges; install biodegradable materials and oyster reef modules that buffer waves and improve water quality; and support community volunteer training, wildlife monitoring, and permitting so projects are done efficiently and responsibly. In short, your generosity advances shoreline segments from design to durable habitat, creating nurseries for fish and birds while safeguarding nearby neighborhoods from storms and rising seas.\n\nBeyond the impact in the field, please know how much we value you as a member of the Coastal Habitat Alliance community. Our staff, scientists, and volunteers are motivated by partners like you who share a steady, practical vision for resilient coastlines. [Personal note about donor\u2014for example: I appreciated your insights about marsh restoration during our call last month; your perspective reflects a deep care for this work.]\n\nWe look forward to keeping you informed as projects progress. You will receive our e-newsletter with field updates, photos, and impact highlights, and we would be delighted to share invitations to occasional site visits and briefings. If you ever wish to tailor how you receive updates, please let us know; we want these communications to be meaningful for you.\n\nThank you again for your significant support of the Living Shorelines Initiative. We are honored to partner with you in protecting the places we all love.\n\nWith appreciation,\n\nAmina Patel\nChief Development Officer\nCoastal Habitat Alliance",
+      "timestamp": "2025-11-01T16:58:09.629519Z",
+      "duration_seconds": 26.78,
+      "tokens": {
+        "input": 197,
+        "output": 1908,
+        "total": 2105
+      },
+      "cost_usd": 0.029211,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a high-quality donor thank-you letter that successfully balances formality with warmth and provides specific, concrete impact details. It meets all prompt requirements and would be immediately usable by a nonprofit professional with minimal customization. The letter demonstrates sophisticated donor stewardship practices while maintaining authenticity.",
+        "strengths": [
+          "Excellent specificity on impact - the middle paragraph provides concrete, tangible details about what the $5,000 accomplishes (marsh grasses, oyster reef modules, volunteer training) rather than vague generalities",
+          "Strong stewardship approach - acknowledges the donor as a community member, offers multiple engagement options, and respects donor preferences without making an immediate ask",
+          "Well-structured flow - moves logically from gratitude to impact to relationship-building to future connection",
+          "Appropriate formality - maintains professional tone while avoiding stiffness; phrases like 'deeply appreciated' and 'honored to partner' fit the formal request",
+          "Smart use of bracketed placeholders - includes [Donor Name] and optional language for upgrade acknowledgment, plus guidance for personalization",
+          "Proper word count - approximately 320 words, within the 250-350 range specified"
+        ],
+        "weaknesses": [
+          "The bracketed personal note is somewhat generic in its example - while it provides guidance, a more specific placeholder instruction might be more helpful",
+          "Minor redundancy - 'substantial, tangible difference' and later 'significant support' cover similar ground",
+          "The phrase 'steady, practical vision' is slightly abstract for an otherwise concrete letter"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1221,
+    "average_score": 8.04
+  }
+}

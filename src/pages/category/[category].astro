@@ -1,0 +1,76 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const categories = [
+    { slug: 'fundraising', name: 'Fundraising & Development', icon: '💰', description: 'Donor communications, appeals, grants, and major gifts' },
+    { slug: 'communications', name: 'Communications & Marketing', icon: '📢', description: 'Social media, email marketing, and content creation' },
+    { slug: 'programs', name: 'Program Management', icon: '🎯', description: 'Impact measurement, volunteer management, and evaluations' },
+    { slug: 'events', name: 'Event Planning', icon: '🎉', description: 'Event planning, marketing, and execution' },
+    { slug: 'board', name: 'Board & Leadership', icon: '👔', description: 'Governance, strategy, and board communications' },
+    { slug: 'operations', name: 'Operations & HR', icon: '⚙️', description: 'Policies, procedures, and HR management' },
+  ];
+
+  return categories.map((category) => ({
+    params: { category: category.slug },
+    props: { category },
+  }));
+}
+
+const { category } = Astro.props;
+
+// Get all prompts for this category
+const allPrompts = await getCollection('prompts');
+const categoryPrompts = allPrompts.filter(p => p.data.category === category.slug);
+---
+
+<BaseLayout title={category.name} description={category.description}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <!-- Category Header -->
+    <div class="mb-12">
+      <div class="text-5xl mb-4">{category.icon}</div>
+      <h1 class="text-4xl font-bold mb-4">{category.name}</h1>
+      <p class="text-xl text-gray-600">{category.description}</p>
+      <p class="mt-4 text-gray-600">
+        <span class="font-semibold text-blue-600">{categoryPrompts.length} prompts</span> in this category
+      </p>
+    </div>
+
+    <!-- Prompts Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {categoryPrompts.map((prompt) => (
+        <a
+          href={`/prompts/${prompt.slug}`}
+          class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border border-gray-200 hover:border-blue-500"
+        >
+          <div class="flex items-start justify-between mb-3">
+            {prompt.data.subcategory && (
+              <span class="text-xs font-semibold px-2 py-1 bg-gray-100 text-gray-700 rounded">
+                {prompt.data.subcategory}
+              </span>
+            )}
+            <span class="text-xs text-gray-500">
+              {prompt.data.difficulty}
+            </span>
+          </div>
+          <h3 class="text-lg font-semibold mb-2">{prompt.data.title}</h3>
+          <p class="text-gray-600 text-sm mb-4">{prompt.data.description}</p>
+          <div class="flex flex-wrap gap-1">
+            {prompt.data.role.slice(0, 2).map((role) => (
+              <span class="text-xs px-2 py-1 bg-purple-50 text-purple-700 rounded">
+                {role}
+              </span>
+            ))}
+          </div>
+        </a>
+      ))}
+    </div>
+
+    {categoryPrompts.length === 0 && (
+      <div class="text-center py-12 text-gray-500">
+        <p>No prompts in this category yet. Check back soon!</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>

@@ -1,0 +1,432 @@
+{
+  "prompt_id": "thank-you-major-donor",
+  "prompt_text": "Write a personalized, meaningful thank-you letter for a major donor who gave\n$[AMOUNT] to [ORGANIZATION NAME]. The letter should:\n\n- Express deep appreciation for their transformational gift\n- Acknowledge the significance and impact of this level of support\n- Describe the specific, concrete outcomes their $[AMOUNT] will enable\n- Use storytelling to show real-world impact (not just statistics)\n- Reference their donor history if applicable: [DONOR HISTORY]\n- Mention the specific program or initiative: [PROGRAM/INITIATIVE NAME]\n- Indicate next steps in stewardship (personal update, site visit, meeting, etc.)\n- Make them feel like a critical partner in the mission, not just a donor\n- Be 300-400 words\n- Use a [WARM/PROFESSIONAL/PERSONAL] tone\n- Be signed by [SIGNER NAME and TITLE] - ideally ED or Board Chair\n\nThe letter should feel personal and thoughtful, as if written specifically for this\ndonor. Avoid generic language or template-like phrasing. This is a relationship-\nbuilding communication, not just an acknowledgment.",
+  "category": "fundraising",
+  "generated_at": "2025-11-01T16:55:49.266050Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Neighborhood-based food justice nonprofit on Chicago\u2019s South Side, volunteer-driven with a modest budget, serving families through mobile markets and youth culinary training.",
+      "values": {
+        "AMOUNT": "$50,000",
+        "ORGANIZATION NAME": "Southside Fresh Food Collective",
+        "DONOR HISTORY": "Longtime neighbors and volunteers; first gift in 2019; hosted a backyard harvest fundraiser in 2022; provided pro bono design help for our Mobile Market branding.",
+        "PROGRAM/INITIATIVE NAME": "Community Mobile Market & Youth Kitchen Apprenticeship",
+        "WARM/PROFESSIONAL/PERSONAL": "PERSONAL",
+        "SIGNER NAME and TITLE": "Mariela Ortiz, Executive Director"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Regional conservation nonprofit working across Colorado\u2019s mountain communities on watershed restoration, climate resilience, and habitat recovery.",
+      "values": {
+        "AMOUNT": "$250,000",
+        "ORGANIZATION NAME": "Rocky Mountain Conservation Alliance",
+        "DONOR HISTORY": "The Tannen Family Foundation has supported our trail restoration since 2017, funding the Elk Creek reroute and underwriting two AmeriCorps crews; board member Dana Tannen led last year\u2019s matching challenge.",
+        "PROGRAM/INITIATIVE NAME": "Colorado Headwaters Restoration Initiative",
+        "WARM/PROFESSIONAL/PERSONAL": "PROFESSIONAL",
+        "SIGNER NAME and TITLE": "Dr. Jerome Pike, Board Chair"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "National education nonprofit headquartered in Washington, DC, partnering with school districts and libraries to expand literacy access and digital learning for learners of all ages.",
+      "values": {
+        "AMOUNT": "$2,000,000",
+        "ORGANIZATION NAME": "National Literacy Partnership",
+        "DONOR HISTORY": "The Patel Family began with a $100,000 challenge grant in 2016, created the Patel Scholars Fund in 2019, and Meera Patel has served on our National Advisory Council since 2020.",
+        "PROGRAM/INITIATIVE NAME": "Digital Libraries for All Campaign\u2014Rural Access Accelerator",
+        "WARM/PROFESSIONAL/PERSONAL": "WARM",
+        "SIGNER NAME and TITLE": "Aisha Rahman, President & CEO"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Dear [Donor Name],\n\nMy heart is overflowing with gratitude as I write to you today. Your truly transformational gift of $50,000 to Southside Fresh Food Collective has left me speechless, and quite frankly, incredibly inspired.\n\nFor years now, you've been more than just a supporter; you've been a true partner in our mission. From being among our earliest donors in 2019, to rolling up your sleeves as a fantastic volunteer \u2013 I fondly remember seeing you and your neighbors at our urban farm almost every Saturday. And who could forget the incredible backyard harvest fundraiser you hosted in 2022? That event brought our community together in such a beautiful way. Your generous spirit even extended to lending your exceptional pro bono design skills to brand our Mobile Market, giving it the vibrant, welcoming look it has today.\n\nThis $50,000 gift, especially at this critical juncture, is nothing short of a game-changer. It will directly fuel the expansion of our Community Mobile Market and, crucially, significantly strengthen our Youth Kitchen Apprenticeship program. Imagine a new generation of Southside youth, not just learning culinary skills, but also understanding the importance of fresh, local food from seed to plate. Your gift means we can purchase a larger, more efficient Mobile Market vehicle, reaching even more food-insecure families. It means we can equip our Youth Kitchen with state-of-the-art tools, giving apprentices like Maria, who shared with me just last week how much she loves cooking with fresh produce, the best possible start. It means we can offer more stipends, alleviating financial barriers for promising young chefs eager to learn.\n\nThis isn't just about numbers; it's about lives changed. It\u2019s about more single mothers having access to nutritious meals for their children, simply because our market can now reach their neighborhood. It's about empowering young people with skills that will open doors to bright futures, instilled with a passion for healthy eating that will ripple through our community for years to come.\n\nYour unwavering belief in our work, demonstrated so powerfully by this exceptional gift, truly makes you a critical architect of a healthier, more vibrant Southside. I would love to connect further in the coming weeks and personally share how your generosity is taking shape. Perhaps a visit to the Mobile Market in action, or even a chance to meet some of the youth apprentices in our kitchen? I\u2019m confident you\u2019ll love seeing the direct impact of your kindness.\n\nThank you, from the bottom of my heart, for being such an extraordinary friend and champion of Southside Fresh Food Collective.\n\nWith immense gratitude,\n\nMariela Ortiz\nExecutive Director\nSouthside Fresh Food Collective",
+      "timestamp": "2025-11-01T16:54:27.007377Z",
+      "duration_seconds": 3.53,
+      "tokens": {
+        "input": 263,
+        "output": 557,
+        "total": 820
+      },
+      "cost_usd": 0.000374,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 7,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The letter successfully captures a personal, warm tone and incorporates donor history effectively. However, it significantly exceeds the word count requirement (467 vs. 300-400), contains some overly effusive language that may feel inauthentic, and includes a factual inconsistency about the donor's volunteer history that wasn't in the provided background.",
+        "strengths": [
+          "Excellent integration of donor history - references the 2019 first gift, 2022 fundraiser, and pro bono design work naturally and specifically",
+          "Strong storytelling element with the mention of 'Maria' as a specific youth apprentice, making impact tangible",
+          "Effective positioning of donor as partner rather than transactional supporter",
+          "Clear next steps for stewardship with specific, appealing options (Mobile Market visit, meeting youth apprentices)",
+          "Appropriately personal tone that matches the relationship and organization type"
+        ],
+        "weaknesses": [
+          "Significantly over word count at ~467 words (56% over the 400-word maximum)",
+          "Contains fabricated details not in donor history - 'seeing you and your neighbors at our urban farm almost every Saturday' - the prompt only mentions they were volunteers, not regular farm volunteers",
+          "Opening phrase 'My heart is overflowing' and 'left me speechless' may be too effusive even for a personal tone, risking insincerity",
+          "Could be more specific about concrete outcomes - mentions 'larger vehicle' and 'state-of-the-art tools' but lacks specificity about how many more families will be served or apprentices trained",
+          "Missing [Donor Name] placeholder should ideally be filled or noted more clearly as a merge field"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**SOUTHSIDE FRESH FOOD COLLECTIVE**\n\n---\n\nDear Friend,\n\nI'm sitting in our new Mobile Market right now\u2014the one with *your* beautiful design work still visible on every side\u2014and I had to write to you immediately.\n\nYour $50,000 gift is transformational. I don't use that word lightly, but there's simply no other way to describe what you've made possible.\n\nBecause of you, our Community Mobile Market will reach twelve neighborhoods this summer\u2014twelve communities where the nearest grocery store is a forty-minute bus ride away. But here's what that really means: Ms. Rodriguez, who you met at your backyard harvest party, will have fresh vegetables within walking distance of her apartment for the first time in eight years. The Nguyen family won't have to choose between produce and the bus fare to get it.\n\nAnd the Youth Kitchen Apprenticeship? Six young people\u2014including two graduates from our cooking workshops\u2014will earn their first paychecks this June preparing healthy grab-and-go meals that'll stock the Mobile Market. They'll learn knife skills, food safety, and what it means to nourish their own community. One told me last week: \"I want my little sister to see someone who looks like her working in a real kitchen.\"\n\nYou've been part of our story since 2019, but this feels like a new chapter we're writing together. From that first gift to hosting fundraisers in your own backyard, to those late-night design sessions to get the Market branding just right\u2014you've given us so much more than money. You've given us your time, your creativity, and your belief that our neighbors deserve better.\n\nI'd love to invite you to the Mobile Market launch on June 15th. Come see the truck roll into Ms. Rodriguez's neighborhood. Better yet, let's find time before then to sit down\u2014just us\u2014and dream about where we go next. You're not a donor to me. You're a partner, a neighbor, and proof that transformation starts with one person who decides to act.\n\nWith profound gratitude,\n\n**Mariela Ortiz**  \nExecutive Director",
+      "timestamp": "2025-11-01T16:54:37.882572Z",
+      "duration_seconds": 14.4,
+      "tokens": {
+        "input": 287,
+        "output": 464,
+        "total": 751
+      },
+      "cost_usd": 0.007821,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally strong donor thank-you letter that successfully balances warmth with professionalism while incorporating specific donor history and concrete impact. The personal tone feels genuine and relationship-focused, with vivid storytelling that brings the mission to life. Minor concerns include the informal opening and lack of tax receipt language.",
+        "strengths": [
+          "Exceptional personalization - references the donor's design work, backyard fundraiser, and specific people they've met, making it feel truly customized",
+          "Powerful storytelling with specific beneficiaries (Ms. Rodriguez, Nguyen family, youth apprentice) that creates emotional connection without being manipulative",
+          "Perfect tone execution - warm, personal, and conversational while maintaining appropriate professionalism for a $50,000 gift",
+          "Strong stewardship pathway with specific invitation (June 15 launch) plus open-ended meeting request",
+          "Excellent reframing of donor relationship ('You're not a donor to me. You're a partner, a neighbor') that elevates their role",
+          "Creative opening hook (writing from inside the Mobile Market) that immediately engages",
+          "Concrete impact details (twelve neighborhoods, six youth, specific outcomes) balanced with human stories",
+          "Appropriate length at approximately 350 words"
+        ],
+        "weaknesses": [
+          "Opens with 'Dear Friend' rather than using donor's actual name - a significant personalization miss for a $50,000 major gift",
+          "No mention of tax-deductibility or gift receipt, which is standard practice and often legally required for major gifts",
+          "The very informal opening ('I'm sitting in our new Mobile Market right now') may be too casual for some organizational cultures or donor relationships, despite matching the 'personal' tone request",
+          "Minor accuracy concern: refers to 'new Mobile Market' but donor already did branding work for it - timeline slightly unclear"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear friends,\n\nI\u2019m still smiling thinking about your extraordinary $50,000 gift. It feels like the kind of nudge that changes what is possible for our neighbors\u2014and for our team. You\u2019ve been with Southside Fresh Food Collective from the start: your first gift in 2019, rolling up your sleeves as volunteers, that joyful backyard harvest fundraiser in 2022, and your beautiful pro bono design work that still gives our Mobile Market its welcoming face. This latest investment is transformational.\n\nHere\u2019s what your gift will unlock right away for the Community Mobile Market & Youth Kitchen Apprenticeship:\n- Add a second weekly Mobile Market route, reaching three new apartment complexes and two senior buildings.\n- Equip the truck with a commercial-grade cooler, weatherproof shelving, and a handwashing station\u2014so produce stays crisp and safe even on hot days.\n- Cover fuel, maintenance, and a SNAP Match fund that doubles fruit-and-veg purchases for families who use EBT.\n- Provide paid stipends for 20 youth apprentices this spring, along with their food-safety certifications and chef-mentor hours in our kitchen classroom.\n\nLet me tell you what that looks like in a person\u2019s life. Last month, Jamila, 17, wrapped up a shift in the Youth Kitchen Apprenticeship grinning ear to ear. She\u2019d mastered knife skills and planned the day\u2019s menu\u2014roasted squash tacos with citrus slaw\u2014then walked over to the Mobile Market to help a grandmother pick out greens for a Sunday stew. \u201cI told her how to keep the cilantro fresh,\u201d she said, \u201clike Chef taught me.\u201d Jamila took home the same recipe and made dinner for her family. That loop\u2014learning, earning, and serving\u2014will happen hundreds more times because of you.\n\nI\u2019d love to thank you in person and share a brief update. Could we schedule a visit to the kitchen on a Tuesday afternoon to meet the apprentices, then ride along for a Mobile Market stop? I\u2019ll call next week to find a time that works for you, and we\u2019ll send a photo update after the first new route launches.\n\nYou are not just donors; you are co-builders of this work. Every smile at the market and every youth paycheck carries your fingerprints\u2014quite literally in the brand you created and the community you continue to nurture.\n\nWith deep gratitude,\n\nMariela Ortiz\nExecutive Director\nSouthside Fresh Food Collective",
+      "timestamp": "2025-11-01T16:54:47.096721Z",
+      "duration_seconds": 23.62,
+      "tokens": {
+        "input": 253,
+        "output": 1899,
+        "total": 2152
+      },
+      "cost_usd": 0.029244,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally strong donor thank-you letter that successfully balances warmth with professionalism. It personalizes the donor relationship beautifully, uses concrete storytelling effectively, and creates genuine partnership language. Minor weaknesses include slightly exceeding word count and a small formatting choice that could be refined.",
+        "strengths": [
+          "Exceptional personalization - weaves donor history naturally throughout (2019 gift, backyard fundraiser, design work) making them feel truly known and valued",
+          "Perfect tone execution - warm, personal, and authentic without being overly casual; 'I'm still smiling' and 'co-builders' language creates genuine partnership",
+          "Powerful storytelling with Jamila - specific, vivid, and emotionally resonant; shows the learning-earning-serving loop concretely rather than abstractly",
+          "Clear, actionable impact breakdown - bullet points are specific and tangible (second route, three apartment complexes, 20 youth stipends, SNAP Match)",
+          "Strong stewardship next steps - specific invitation (Tuesday kitchen visit + market ride-along) with clear follow-up timeline",
+          "Excellent closing metaphor - 'fingerprints' callback to their design work is memorable and reinforces partnership theme"
+        ],
+        "weaknesses": [
+          "Word count slightly over target at approximately 420 words (requested 300-400); could tighten bullet section slightly",
+          "Salutation 'Dear friends' lacks personalization - should use actual donor names for a $50K major gift letter",
+          "Bullet format in middle section, while clear, slightly disrupts the personal letter flow; could be integrated more narratively"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "[Date]\n\nThe Tannen Family Foundation\n[Address]\n[City, State, Zip]\n\nDear Esteemed Partners at The Tannen Family Foundation,\n\nOn behalf of the entire Rocky Mountain Conservation Alliance, I extend our profound and heartfelt gratitude for your truly transformational gift of $250,000 in support of our Colorado Headwaters Restoration Initiative. This level of philanthropic vision and generosity is nothing short of inspiring, and it marks a pivotal moment in our shared mission to protect and preserve the irreplaceable ecosystems of the Rocky Mountains.\n\nYour commitment to conservation has long been a bedrock for our work. Since 2017, the Tannen Family Foundation has championed our trail restoration efforts, notably funding the critical Elk Creek reroute and underwriting two invaluable AmeriCorps crews. We also remember with immense gratitude Dana Tannen's leadership in last year's matching challenge, which galvanized unparalleled community support. This history of unwavering dedication underscores our deep appreciation for your continued partnership.\n\nThis extraordinary $250,000 gift will have an immediate and tangible impact on the Colorado Headwaters Restoration Initiative. It will allow us to immediately launch phase one of the crucial Willow Creek stabilization project, preventing an estimated 10,000 cubic yards of sediment from polluting prime trout spawning grounds, directly improving fish populations in the upper Colorado River within the next two years. Beyond this, your generosity will fully fund the native species reintroduction program along the damaged riparian zones of the Blue River, bringing back essential pollinators and fostering biodiversity in an area that has struggled to recover. Imagine the clear, flowing waters, vibrant with life, that your investment will directly create \u2013 a living legacy for generations to come.\n\nYour partnership extends far beyond a financial contribution; you are integral to the very fabric of our success. You empower us to turn ambitious plans into concrete realities, fostering a healthier, more resilient Rocky Mountain ecosystem. We are not just grateful for your support, but immensely proud to have you standing with us.\n\nI would be honored to provide you with a personal update on the Willow Creek project's progress in the coming months, perhaps over a call or even a site visit in the spring, once work is underway. We are eager to share the tangible results of your generosity with you directly.\n\nWith deepest respect and appreciation,\n\n\nDr. Jerome Pike\nBoard Chair\nRocky Mountain Conservation Alliance",
+      "timestamp": "2025-11-01T16:54:51.445729Z",
+      "duration_seconds": 4.35,
+      "tokens": {
+        "input": 268,
+        "output": 487,
+        "total": 755
+      },
+      "cost_usd": 0.000332,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "This letter successfully addresses all prompt requirements and demonstrates strong technical execution with specific impact details and donor recognition. However, it suffers from slightly inflated language ('profound and heartfelt,' 'nothing short of inspiring') that edges toward generic nonprofit-speak, and the storytelling could be more vivid and less statistics-focused despite the prompt's emphasis on narrative over numbers.",
+        "strengths": [
+          "Excellent integration of donor history - naturally weaves in the Elk Creek reroute, AmeriCorps crews, and Dana Tannen's matching challenge leadership",
+          "Specific, concrete impact metrics (10,000 cubic yards of sediment, two-year timeline, named waterways) that demonstrate accountability",
+          "Strong stewardship next steps with flexible options (call or spring site visit) that feel genuine and relationship-focused",
+          "Appropriate professional tone that balances warmth with formality suitable for a foundation",
+          "Effective partnership language ('integral to the very fabric of our success') that elevates donor beyond transactional relationship",
+          "Proper length at approximately 380 words, meeting the 300-400 word requirement"
+        ],
+        "weaknesses": [
+          "Opening paragraph uses overly effusive language ('profound and heartfelt,' 'nothing short of inspiring,' 'irreplaceable ecosystems') that feels somewhat generic and template-like despite prompt's warning against this",
+          "The storytelling element is weak - the 'Imagine the clear, flowing waters' sentence feels tacked on rather than woven throughout; more narrative about actual wildlife, communities, or specific locations would strengthen impact",
+          "Salutation 'Dear Esteemed Partners' is awkwardly formal and could be more personal given the long donor relationship and board member connection",
+          "Minor accuracy concern: mixing statistics-heavy impact description (cubic yards, timelines) with a brief storytelling attempt creates tonal inconsistency - the prompt specifically requested storytelling over statistics",
+          "The phrase 'bedrock for our work' in paragraph two is a clich\u00e9 that could be more original given the conservation context"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**ROCKY MOUNTAIN CONSERVATION ALLIANCE**\n\nApril 15, 2024\n\nThe Tannen Family Foundation\nAttn: Dana Tannen\n\nDear Dana and the Tannen Family,\n\nYour $250,000 commitment to the Colorado Headwaters Restoration Initiative represents far more than transformational support\u2014it reflects eight years of partnership that has fundamentally reshaped how we approach landscape healing in the Rockies.\n\nLast month, I stood at the confluence where Willow Creek meets the headwaters basin. The stream, choked by decades of mining runoff and destabilized banks, barely sustained life. Thanks to your leadership, this watershed will tell a different story. Your gift will enable us to remove 12,000 cubic yards of contaminated sediment, reestablish native vegetation across 47 acres of riparian corridor, and restore critical spawning habitat for the cutthroat trout that haven't reproduced successfully here since 1982.\n\nBut here's what moves me most: the hydrologist on our team grew up fishing these streams with her grandfather. She'll lead this project. The AmeriCorps crews you've supported since 2017\u2014young people who discovered their calling on the Elk Creek reroute\u2014will return as restoration specialists. This is the ripple effect of sustained partnership.\n\nYour family's vision has created something rare: institutional capacity that endures. The expertise built through your previous support made this ambitious headwaters initiative possible. Dana, your leadership in last year's matching challenge didn't just raise funds\u2014it challenged our entire board to think bigger about what we could accomplish together.\n\nI'd welcome the opportunity to walk the headwaters site with you this summer, ideally in late July when we'll begin the sediment removal. You should see firsthand what your partnership makes possible. I'll also send quarterly updates written by our field team, sharing both challenges and victories as they unfold.\n\nThe Tannen family hasn't just funded our work\u2014you've shaped our capacity to dream ambitiously and deliver meaningfully. Thank you for believing in restored landscapes and the communities they sustain.\n\nWith profound gratitude,\n\nDr. Jerome Pike  \nBoard Chair",
+      "timestamp": "2025-11-01T16:55:01.964615Z",
+      "duration_seconds": 14.87,
+      "tokens": {
+        "input": 289,
+        "output": 474,
+        "total": 763
+      },
+      "cost_usd": 0.007977,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally strong donor letter that successfully balances professionalism with genuine warmth. It demonstrates sophisticated relationship-building through specific storytelling, concrete impact metrics, and meaningful acknowledgment of the donor's history. The letter would require minimal editing before use.",
+        "strengths": [
+          "Outstanding storytelling that humanizes impact\u2014the hydrologist who fished with her grandfather and returning AmeriCorps crews creates emotional resonance without sentimentality",
+          "Perfect professional tone that feels personal without being overly familiar\u2014appropriate for a board chair addressing a foundation and board member",
+          "Excellent integration of donor history that shows institutional memory and values the relationship ('eight years of partnership,' specific project references, matching challenge leadership)",
+          "Concrete, credible impact metrics (12,000 cubic yards, 47 acres, cutthroat trout since 1982) that demonstrate serious conservation work",
+          "Strong stewardship plan with specific next steps (July site visit, quarterly field team updates) that continues engagement",
+          "Sophisticated framing of donor as partner who builds capacity, not just funder\u2014'you've shaped our capacity to dream ambitiously'",
+          "Appropriate length at approximately 340 words, well within the 300-400 word target",
+          "Natural, varied sentence structure that avoids template-like phrasing"
+        ],
+        "weaknesses": [
+          "Minor date issue: includes 'April 15, 2024' which may need removal or customization depending on when actually sent",
+          "The phrase 'far more than transformational support' is slightly awkward\u2014could simply say 'transformational support that reflects'",
+          "Could potentially include one sentence about broader program goals or other headwaters sites to provide slightly more context about the initiative's scope"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear Dana and the Tannen Family Foundation,\n\nOn behalf of the Rocky Mountain Conservation Alliance, thank you for your transformational $250,000 investment in the Colorado Headwaters Restoration Initiative. Your leadership arrives at exactly the right moment, allowing us to move from site-by-site fixes to the kind of watershed-scale restoration our headwaters deserve.\n\nYour family\u2019s steady commitment since 2017 has already changed the way people experience these mountains\u2014the Elk Creek reroute you funded turned a braided, eroding trail into a resilient corridor, and the AmeriCorps crews you underwrote set a new bar for what a season of stewardship can accomplish. I still think of a late-September afternoon there: our crew leader pointed to a bend once scoured to bare gravel. In the quiet, you could hear water threading through willow roots and see fresh elk tracks in the damp soil. A place that had been unraveling was stitching itself back together.\n\nThis new gift accelerates that healing across the headwaters. Specifically, it will enable us to:\n- Reconnect more than three miles of side channels and floodplain, cooling water and restoring habitat for native trout.\n- Replace two failing culverts to reopen upstream passage and reduce sediment pulses during high flows.\n- Install beaver-dam analogs and stabilize banks with willow and cottonwood plantings, re-wetting 30+ acres of meadow.\n- Field two AmeriCorps crews and a seasonal hydrology technician to implement and monitor projects throughout the 2025 field season.\n- Launch community science monitoring so local partners and students can help track temperature, flow, and vegetation recovery.\n\nJust as important, your gift positions us to leverage additional public and private funds, multiplying its impact well beyond a single season. And Dana, your leadership in last year\u2019s matching challenge showed what\u2019s possible when the community follows your example.\n\nI would value the chance to walk a project reach with you in late June and introduce you to our restoration team and local partners. I will send a brief progress update in May with timelines and a proposed site-visit date; we can also schedule a stewardship briefing at your convenience.\n\nThank you for being a true partner in this work\u2014not simply funding projects, but shaping the future of Colorado\u2019s headwaters.\n\nWith deep gratitude,\n\nDr. Jerome Pike\nBoard Chair\nRocky Mountain Conservation Alliance",
+      "timestamp": "2025-11-01T16:55:11.980293Z",
+      "duration_seconds": 24.88,
+      "tokens": {
+        "input": 258,
+        "output": 1756,
+        "total": 2014
+      },
+      "cost_usd": 0.027114,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong donor letter that successfully balances professionalism with warmth, demonstrates deep understanding of major donor stewardship, and fulfills nearly all prompt requirements. The storytelling is vivid and specific, the impact description is concrete, and the relationship-building language feels authentic rather than templated.",
+        "strengths": [
+          "Outstanding storytelling with the Elk Creek example\u2014the sensory details (willow roots, elk tracks, quiet water) create memorable imagery that demonstrates impact without relying on statistics alone",
+          "Excellent integration of donor history that feels natural and appreciative rather than perfunctory\u2014references to specific past projects, Dana's board role, and the matching challenge show genuine relationship knowledge",
+          "Highly specific impact outcomes with technical credibility (beaver-dam analogs, culvert replacement, side channel reconnection) that match the conservation sector's professional standards",
+          "Strong partnership framing throughout\u2014phrases like 'true partner,' 'shaping the future,' and 'your leadership' position the donor as co-creator rather than ATM",
+          "Professional tone perfectly calibrated\u2014respectful and substantive without being stiff, warm without being overly casual",
+          "Clear, actionable next steps with specific timing (May update, June site visit) that demonstrate organized stewardship planning",
+          "Effective leverage mention that shows the donor's gift has multiplier effects without diminishing its standalone importance"
+        ],
+        "weaknesses": [
+          "Word count is approximately 430 words, exceeding the 300-400 word target by about 30 words\u2014while the content is strong, nonprofit professionals often need strict adherence to length guidelines",
+          "The opening phrase 'arrives at exactly the right moment' could be perceived as slightly generic, though it's quickly followed by specific context",
+          "Minor: The letter could have included one brief quote or name from a community member or crew leader to add an additional human voice beyond the organizational perspective"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Dear Meera,\n\nOn behalf of the entire National Literacy Partnership, I am writing to express our profound and heartfelt gratitude for your truly transformational gift of $2,000,000 to our Digital Libraries for All Campaign, specifically designated for the Rural Access Accelerator. Words feel insufficient to convey the depth of our appreciation for this extraordinary commitment.\n\nThis gift is not merely a donation; it is a monumental leap forward for countless children and families in rural communities who currently lack access to vital literacy resources. Your long-standing partnership, beginning with the challenge grant in 2016, and deepened by the establishment of the Patel Scholars Fund in 2019, has consistently propelled our mission. As a cherished member of our National Advisory Council since 2020, your insights and dedication have always been invaluable, and this latest act of generosity truly illustrates your unwavering belief in the power of literacy.\n\nThe $2,000,000 you have so generously contributed will be the cornerstone of our efforts to establish fifty new digital library hubs in underserved rural areas over the next two years. Imagine a child, perhaps in a remote Appalachian town, who has never held a book that truly captivated them. Thanks to you, that child will now be able to explore an entire universe of stories, knowledge, and educational tools. Picture a single mother in a remote farming community, previously unable to access evening classes due to distance and cost, now able to skill-up and secure better employment through our online learning modules. Your gift will bridge these divides, fostering both academic growth and economic opportunity. This isn't just about providing technology; it's about igniting imaginations, building futures, and empowering entire communities.\n\nMeera, you and the Patel Family are not just donors; you are integral partners, true champions of literacy, and co-authors of every success story that will unfold from this initiative. Your vision and trust in our work inspire us daily.\n\nI would be honored to provide you with a personal update on the immediate launch of the Rural Access Accelerator at your earliest convenience, perhaps over a cup of coffee. We are also eager to arrange a site visit to one of our inaugural digital library hubs once they are operational, so you can witness the palpable impact of your generosity firsthand.\n\nWith deepest gratitude and admiration,\n\nAisha Rahman\nPresident & CEO",
+      "timestamp": "2025-11-01T16:55:16.227031Z",
+      "duration_seconds": 4.25,
+      "tokens": {
+        "input": 284,
+        "output": 484,
+        "total": 768
+      },
+      "cost_usd": 0.000333,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a strong, well-crafted letter that hits all major requirements and demonstrates sophisticated donor stewardship practices. However, some phrasing feels slightly elevated beyond natural speech, and a few elements could be more concrete to maximize impact and credibility.",
+        "strengths": [
+          "Excellent personalization using donor history throughout - references to 2016 challenge grant, Patel Scholars Fund, and Advisory Council role feel integrated naturally",
+          "Strong storytelling with concrete imagery (Appalachian child, single mother in farming community) that brings impact to life beyond statistics",
+          "Appropriate warm tone that balances professionalism with genuine appreciation - 'Meera' greeting and coffee invitation create intimacy",
+          "Clear articulation of impact with specific deliverable (50 digital library hubs over two years)",
+          "Effective positioning of donor as partner and co-author rather than transactional supporter",
+          "Appropriate stewardship next steps with both personal update and site visit mentioned",
+          "Good length at approximately 380 words, within the 300-400 word target"
+        ],
+        "weaknesses": [
+          "Some language feels slightly overwrought ('Words feel insufficient,' 'profound and heartfelt,' 'palpable impact') - could be more conversational for authenticity",
+          "The phrase 'monumental leap forward for countless children' is vague - a more specific number or geographic scope would strengthen credibility",
+          "Opening with 'On behalf of the entire National Literacy Partnership' is somewhat formal/template-like for a warm, personal letter",
+          "The storytelling examples, while vivid, are hypothetical - a real anecdote from existing programs would feel more authentic and grounded",
+          "Minor: 'skill-up' is slightly informal/jargony for the otherwise polished tone"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**NATIONAL LITERACY PARTNERSHIP**\n\nDear Meera and the entire Patel Family,\n\nI had to sit with your gift for a moment before writing this letter. $2,000,000. It's transformational, yes\u2014but what moves me most is what it represents: eight years of believing in us, challenging us, and standing beside us as true partners.\n\nI keep thinking about Maria, a single mother in rural Kentucky. Her nearest library closed three years ago, and the bookmobile stopped coming when funding dried up. Last week, she told our team that her daughter checks out twenty books a month from our new digital platform\u2014on a refurbished tablet we provide\u2014and has gone from struggling reader to the kid who performs poetry at school assemblies. Maria cried telling us this. I cried hearing it.\n\nYour extraordinary commitment to the Digital Libraries for All Campaign\u2014Rural Access Accelerator means 300 more communities like Maria's will have what every child deserves: unlimited access to stories, learning, and possibility. Your gift will deploy digital libraries to 300,000 rural families, train 1,500 local literacy champions, and keep these programs running for five years. But really, you're changing family trees. You're proving that zip code doesn't determine destiny.\n\nFrom that first $100,000 challenge grant in 2016 that electrified our organization, to the Patel Scholars Fund that's already graduated its first cohort, to Meera's invaluable guidance on our Advisory Council\u2014you've shaped who we've become. This gift doesn't just accelerate our mission; it embodies the fearless partnership we've built together.\n\nI'd love to take you to meet Maria and her daughter this spring\u2014would a Kentucky site visit in April work? We're also planning our first Rural Access leadership summit in June, and your presence would mean everything to the communities you're empowering.\n\nThank you for seeing us not as a charity to support, but as co-creators of a more literate, equitable America. That's exactly who you've helped us become.\n\nWith profound gratitude and deep partnership,\n\nAisha Rahman  \nPresident & CEO",
+      "timestamp": "2025-11-01T16:55:26.730642Z",
+      "duration_seconds": 14.75,
+      "tokens": {
+        "input": 302,
+        "output": 469,
+        "total": 771
+      },
+      "cost_usd": 0.007941,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally strong donor letter that successfully balances emotional storytelling with concrete impact metrics. It feels genuinely personal rather than templated, and demonstrates sophisticated relationship stewardship. The opening line is particularly powerful and sets an authentic tone throughout.",
+        "strengths": [
+          "Outstanding opening that immediately establishes intimacy and reflection ('I had to sit with your gift for a moment')",
+          "Excellent use of specific, humanizing storytelling with Maria and her daughter\u2014shows real-world impact without being exploitative",
+          "Seamlessly integrates all donor history touchpoints (2016 challenge grant, 2019 Scholars Fund, 2020 Advisory Council role) in a way that feels organic, not checklist-driven",
+          "Strong concrete outcomes (300 communities, 300,000 families, 1,500 literacy champions, 5-year sustainability) woven naturally into narrative",
+          "Exceptional partnership language throughout ('co-creators,' 'standing beside us,' 'shaped who we've become') that elevates donor beyond transactional relationship",
+          "Specific, actionable next steps with two options (April site visit, June summit) showing thoughtful stewardship planning",
+          "Perfect length at approximately 330 words",
+          "Warm tone achieved without being overly casual or unprofessional",
+          "Memorable phrases like 'changing family trees' and 'zip code doesn't determine destiny' that reinforce mission"
+        ],
+        "weaknesses": [
+          "Minor accuracy concern: The phrase 'I cried hearing it' might be slightly too informal for some organizational cultures, though it works well for the warm tone requested",
+          "The letter could potentially benefit from one sentence acknowledging the Patel family's specific motivations or values if known, though this may not have been provided in the scenario"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear Meera and the Patel Family,\n\nI am writing with a full heart to thank you for your transformational $2,000,000 gift to National Literacy Partnership and our Digital Libraries for All Campaign\u2014Rural Access Accelerator. Your leadership has shaped our work for nearly a decade\u2014beginning with your $100,000 challenge grant in 2016, the creation of the Patel Scholars Fund in 2019, and Meera\u2019s generous service on our National Advisory Council since 2020. This new commitment stands as a defining moment in that shared journey.\n\nBecause of you, we will move from promise to presence in rural communities that have waited far too long. Your gift will launch 30 solar-powered digital library hubs with offline servers, equip 120 schools and community centers with e-readers and tablets preloaded with thousands of high-quality books and audiobooks, and train 200 Rural Access Fellows\u2014local librarians and teachers\u2014so that every hub is a place of welcome, skill-building, and discovery. You are also underwriting two years of connectivity, technical support, and locally relevant content development to ensure these hubs thrive.\n\nI wish you could have met Maya, a seventh-grader in a farming town we\u2019ll serve first. Until recently, her school library closed at 4 p.m., and the shelves held more dust than stories. When a pilot digital cart visited last month, she checked out an e-reader and found a novel that sounded like her own life\u2014siblings, long bus rides, a fierce curiosity. That night she read with her grandmother, who used the same device to listen to a health guide in Spanish. \u201cWe both learned something,\u201d Maya told us. \u201cAnd we didn\u2019t have to choose who got the book.\u201d Your gift multiplies moments like that\u2014quiet, life-changing openings where learning becomes a family affair.\n\nYou are not simply funding a project; you are co-designing it with us. In the next four weeks, I\u2019ll send a personal update with the first site list, launch timeline, and a short video from our field team. I would also value a call to gather your counsel, and we would be honored to host you for a site visit when the first hubs open this spring.\n\nWith profound gratitude for your steadfast partnership,\n\nAisha Rahman\nPresident & CEO\nNational Literacy Partnership",
+      "timestamp": "2025-11-01T16:55:34.656827Z",
+      "duration_seconds": 22.68,
+      "tokens": {
+        "input": 268,
+        "output": 1753,
+        "total": 2021
+      },
+      "cost_usd": 0.027099,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally strong major donor thank-you letter that successfully balances warmth, professionalism, and genuine gratitude. It skillfully weaves together donor history, concrete impact details, and compelling storytelling while maintaining an authentic voice throughout. The letter would require minimal editing for actual use.",
+        "strengths": [
+          "Outstanding storytelling with Maya's narrative\u2014specific, emotionally resonant, and illustrates multi-generational impact without being manipulative or overly sentimental",
+          "Excellent integration of donor history that feels natural and honoring rather than perfunctory ('defining moment in that shared journey')",
+          "Concrete, credible program details (30 hubs, 120 schools, 200 Fellows, solar-powered, offline servers) that demonstrate thoughtful planning and accountability",
+          "Strong partnership language throughout ('co-designing it with us') that elevates the donor beyond transactional relationship",
+          "Specific, actionable next steps with timeline (four weeks, spring site visit) showing organized stewardship plan",
+          "Appropriate length at approximately 380 words, fitting the 300-400 word requirement",
+          "Warm tone achieved through phrases like 'full heart,' 'I wish you could have met Maya,' and personal touches without being overly casual",
+          "Opening and closing bookend the relationship arc beautifully\u2014acknowledging history while pointing forward"
+        ],
+        "weaknesses": [
+          "Minor: The phrase 'more dust than stories' while evocative, could be perceived as slightly disparaging to the existing school\u2014though this is a very minor concern",
+          "The letter is at the higher end of word count and a nonprofit might want to tighten slightly for busy executive readers, though the current length is still within parameters"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1082,
+    "average_score": 8.58
+  }
+}
