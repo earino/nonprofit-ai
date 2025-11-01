@@ -1,90 +1,42 @@
 ---
-// Cookie Consent Component using vanilla-cookieconsent
-// Blocks Google Analytics until user consents
+// Simple cookie consent banner - no external dependencies
+// GDPR-compliant, blocks GA until user consents
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3/dist/cookieconsent.css">
-<script is:inline src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3/dist/cookieconsent.umd.js"></script>
-
+<!-- Google Analytics (only loads if user consents) -->
 <script is:inline>
-  // Google Analytics
   const GA_ID = 'G-689LWS7YFE';
 
-  // Initialize cookie consent
-  window.addEventListener('load', function () {
-    window.cookieconsent.run({
-      current_lang: 'en',
-      autoclear_cookies: true,
-      page_scripts: true,
+  // Check consent on page load
+  window.addEventListener('DOMContentLoaded', () => {
+    const consent = localStorage.getItem('cookie-consent');
 
-      onFirstConsent: function () {
-        // Load Google Analytics if user consents
-        const cc = window.cookieconsent;
-        if (cc.allowedCategory('analytics')) {
-          loadGoogleAnalytics();
-        }
-      },
-
-      onChange: function () {
-        const cc = window.cookieconsent;
-        if (cc.allowedCategory('analytics')) {
-          loadGoogleAnalytics();
-        }
-      },
-
-      languages: {
-        en: {
-          consent_modal: {
-            title: 'We use cookies',
-            description: 'We use Google Analytics to understand how visitors use our site and improve your experience. Your data is anonymous and helps us serve nonprofits better. <a href="/cookies" class="cc-link">Cookie Policy</a>',
-            primary_btn: {
-              text: 'Accept',
-              role: 'accept_all'
-            },
-            secondary_btn: {
-              text: 'Decline',
-              role: 'accept_necessary'
-            }
-          },
-          settings_modal: {
-            title: 'Cookie Settings',
-            save_settings_btn: 'Save settings',
-            accept_all_btn: 'Accept all',
-            reject_all_btn: 'Reject all',
-            close_btn_label: 'Close',
-            blocks: [
-              {
-                title: 'Cookie usage',
-                description: 'We use cookies to enhance your browsing experience and analyze site traffic. You can choose which cookies to accept.'
-              },
-              {
-                title: 'Strictly necessary cookies',
-                description: 'These cookies are essential for the website to function. They remember your cookie consent choice.',
-                toggle: {
-                  value: 'necessary',
-                  enabled: true,
-                  readonly: true
-                }
-              },
-              {
-                title: 'Analytics cookies',
-                description: 'These cookies help us understand how visitors use our site through Google Analytics. All data is anonymous.',
-                toggle: {
-                  value: 'analytics',
-                  enabled: false,
-                  readonly: false
-                }
-              }
-            ]
-          }
-        }
-      }
-    });
+    if (consent === 'accepted') {
+      loadGoogleAnalytics();
+    } else if (consent === null) {
+      // First visit - show banner
+      showCookieBanner();
+    }
   });
 
-  // Function to load Google Analytics
+  function showCookieBanner() {
+    const banner = document.getElementById('cookie-banner');
+    if (banner) banner.style.display = 'block';
+  }
+
+  function acceptCookies() {
+    localStorage.setItem('cookie-consent', 'accepted');
+    document.getElementById('cookie-banner').style.display = 'none';
+    loadGoogleAnalytics();
+  }
+
+  function declineCookies() {
+    localStorage.setItem('cookie-consent', 'declined');
+    document.getElementById('cookie-banner').style.display = 'none';
+  }
+
   function loadGoogleAnalytics() {
-    if (window.gaLoaded) return; // Already loaded
+    if (window.gaLoaded) return;
 
     // Load gtag.js
     const script = document.createElement('script');
@@ -98,23 +50,55 @@
     window.gtag = gtag;
     gtag('js', new Date());
     gtag('config', GA_ID, {
-      anonymize_ip: true // GDPR compliance
+      anonymize_ip: true
     });
 
     window.gaLoaded = true;
   }
+
+  // Expose functions globally for buttons
+  window.acceptCookies = acceptCookies;
+  window.declineCookies = declineCookies;
 </script>
 
-<style is:global>
-  /* Customize cookie consent colors to match site */
-  :root {
-    --cc-bg: #fff;
-    --cc-text: #1f2937;
-    --cc-btn-primary-bg: #2563eb;
-    --cc-btn-primary-text: #fff;
-    --cc-btn-primary-hover-bg: #1d4ed8;
-    --cc-btn-secondary-bg: #e5e7eb;
-    --cc-btn-secondary-text: #1f2937;
-    --cc-btn-secondary-hover-bg: #d1d5db;
+<!-- Cookie Banner -->
+<div id="cookie-banner" style="display: none;" class="fixed bottom-0 left-0 right-0 bg-white border-t-2 border-gray-200 shadow-lg p-6 z-50">
+  <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div class="flex-1">
+      <p class="text-gray-900 font-semibold mb-1">We use cookies</p>
+      <p class="text-sm text-gray-600">
+        We use Google Analytics to understand how visitors use our site. Your data is anonymous and helps us improve.
+        <a href="/cookies" class="text-blue-600 hover:text-blue-700 underline">Learn more</a>
+      </p>
+    </div>
+    <div class="flex gap-3">
+      <button
+        onclick="window.declineCookies()"
+        class="px-4 py-2 bg-gray-200 text-gray-900 rounded-lg hover:bg-gray-300 transition font-semibold"
+      >
+        Decline
+      </button>
+      <button
+        onclick="window.acceptCookies()"
+        class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+      >
+        Accept
+      </button>
+    </div>
+  </div>
+</div>
+
+<style>
+  #cookie-banner {
+    animation: slideUp 0.3s ease-out;
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
   }
 </style>

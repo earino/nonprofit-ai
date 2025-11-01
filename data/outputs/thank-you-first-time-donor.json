@@ -2,42 +2,42 @@
   "prompt_id": "thank-you-first-time-donor",
   "prompt_text": "Write a warm, appreciative thank-you letter for a first-time donor who gave\n$[AMOUNT] to [ORGANIZATION NAME]. The letter should:\n\n- Express genuine gratitude for their support\n- Explain the specific impact of their gift (e.g., \"Your $50 provides...\")\n- Make the donor feel like part of our community\n- Include a subtle invitation to stay connected (social media, newsletter, etc.)\n- Be 200-300 words in length\n- Use a [FORMAL/WARM/CASUAL] tone\n- Reference this campaign or appeal: [CAMPAIGN NAME]\n- Be signed by [SIGNER NAME and TITLE]\n\nThe letter should make the donor feel valued and appreciated, not just like a\ntransaction. Avoid over-the-top language or making another ask.",
   "category": "fundraising",
-  "generated_at": "2025-11-01T16:40:44.221281Z",
+  "generated_at": "2025-11-01T17:27:37.717324Z",
   "scenarios": [
     {
       "id": "scenario_1",
       "name": "Small Community Org",
-      "description": "Volunteer-run literacy nonprofit serving a rural Appalachian county; first-time donor is a local community member supporting back-to-school efforts.",
+      "description": "Small, volunteer-driven arts nonprofit in Southwest Detroit providing free after-school classes for neighborhood youth; first-time donor is a new resident who gave online after a local spring supplies appeal.",
       "values": {
-        "AMOUNT": "40",
-        "ORGANIZATION NAME": "Clear Fork Valley Literacy Council",
+        "AMOUNT": "50",
+        "ORGANIZATION NAME": "Southwest Detroit ArtWorks",
         "FORMAL/WARM/CASUAL": "WARM",
-        "CAMPAIGN NAME": "Backpacks & Books Drive",
-        "SIGNER NAME and TITLE": "Marcus Bell, Executive Director"
+        "CAMPAIGN NAME": "Spring Studio Supplies Appeal",
+        "SIGNER NAME and TITLE": "Maya Ortiz, Executive Director"
       }
     },
     {
       "id": "scenario_2",
       "name": "Mid-Size Professional Org",
-      "description": "Urban arts education nonprofit in New Orleans partnering with public schools; first-time donor discovered the org at an open studio night and gave online.",
+      "description": "Regional legal aid nonprofit serving rural Appalachian communities with civil legal services; first-time donor contributed via a workplace giving platform during a matching challenge.",
       "values": {
-        "AMOUNT": "125",
-        "ORGANIZATION NAME": "Crescent City Youth Arts Alliance",
-        "FORMAL/WARM/CASUAL": "CASUAL",
-        "CAMPAIGN NAME": "Spring Studio Scholarship Drive",
-        "SIGNER NAME and TITLE": "Andre Boudreaux, Development Director"
+        "AMOUNT": "250",
+        "ORGANIZATION NAME": "Appalachian Justice Collective",
+        "FORMAL/WARM/CASUAL": "FORMAL",
+        "CAMPAIGN NAME": "Access to Justice Matching Challenge",
+        "SIGNER NAME and TITLE": "Rachel Kim, Director of Development"
       }
     },
     {
       "id": "scenario_3",
       "name": "Large Established Org",
-      "description": "Long-established international clean water NGO headquartered in New York; first-time donor gave during a global social media push tied to World Water Day.",
+      "description": "National literacy organization with programs in urban and rural school districts across the U.S.; first-time donor gave online during a back-to-school appeal.",
       "values": {
-        "AMOUNT": "500",
-        "ORGANIZATION NAME": "Global Clean Water Initiative",
-        "FORMAL/WARM/CASUAL": "FORMAL",
-        "CAMPAIGN NAME": "World Water Day 2025 Challenge",
-        "SIGNER NAME and TITLE": "Elena Martinez, Chief Advancement Officer"
+        "AMOUNT": "100",
+        "ORGANIZATION NAME": "United Literacy Initiative",
+        "FORMAL/WARM/CASUAL": "CASUAL",
+        "CAMPAIGN NAME": "Back-to-School Reading Fund",
+        "SIGNER NAME and TITLE": "Aisha Bennett, Chief Executive Officer"
       }
     }
   ],
@@ -46,38 +46,39 @@
       "scenario_id": "scenario_1",
       "model": "gemini",
       "model_display_name": "Gemini 2.5 Flash",
-      "content": "Dear [Donor Name],\n\nOn behalf of everyone at the Clear Fork Valley Literacy Council, I want to extend our sincerest gratitude for your incredibly generous first-time gift of $40. Your support means the world to us, and we are so touched by your commitment to literacy in our community.\n\nYour $40 donation, given specifically towards our \"Backpacks & Books Drive,\" has a truly significant impact. It means a brand new, inspiring book can be placed directly into the hands of a child who might not otherwise have access to their own personal library. Imagine the joy, the wonder, and the new worlds that single book will open up for them! You are directly helping us ignite a lifelong love of reading, one story at a time.\n\nWe are so thrilled to welcome you into the Clear Fork Valley Literacy Council family. People like you are the heart and soul of our mission, and it's because of your kindness that we can continue to empower individuals through the gift of literacy.\n\nIf you'd like to see more about the impact of your support and stay connected with our work, we\u2019d love for you to follow us on social media or sign up for our newsletter \u2013 links are on our website! We often share stories of the lives changed by our programs, and we'd be delighted to share those moments with you.\n\nThank you once again for your remarkable generosity. We are truly grateful for your partnership in building a more literate and vibrant Clear Fork Valley.\n\nWarmly,\n\nMarcus Bell\n\nExecutive Director\nClear Fork Valley Literacy Council",
-      "timestamp": "2025-11-01T16:38:51.809371Z",
-      "duration_seconds": 3.07,
+      "content": "[Date]\n\nDear [Donor Name],\n\nOn behalf of Southwest Detroit ArtWorks, I want to extend our sincerest gratitude for your incredibly thoughtful first-time gift of $50 to our Spring Studio Supplies Appeal. Your generosity truly warmed our hearts and made an immediate impact here in Southwest Detroit.\n\nYour $50 isn\u2019t just a number; it directly translates into essential art supplies that fuel creativity and learning for our students. It could provide a set of vibrant paints for a budding young artist, a fresh canvas for a senior exploring new passions, or a selection of high-quality drawing pencils for a teen developing their artistic voice. These supplies are the tools that unlock imagination and allow our community to connect, create, and thrive.\n\nWe are so deeply appreciative that you chose to support Southwest Detroit ArtWorks, and we warmly welcome you into our artistic family. Your belief in our mission to empower through art makes a tangible difference in the lives of so many.\n\nWe'd love for you to stay connected and see the wonderful art your gift helps make possible! Please consider following us on Facebook or Instagram [@SouthwestDetroitArtWorks, or whatever our handles are] to see our latest projects, or sign up for our monthly newsletter if you'd like to receive updates directly in your inbox.\n\nThank you again for your incredible support and for being a vital part of our community.\n\nWith warm appreciation,\n\nMaya Ortiz\nExecutive Director\nSouthwest Detroit ArtWorks",
+      "timestamp": "2025-11-01T17:25:40.943383Z",
+      "duration_seconds": 2.61,
       "tokens": {
-        "input": 163,
-        "output": 318,
-        "total": 481
+        "input": 161,
+        "output": 297,
+        "total": 458
       },
-      "cost_usd": 0.000215,
+      "cost_usd": 0.000202,
       "success": true,
       "evaluation": {
         "overall_score": 7.4,
         "criteria_scores": {
           "tone": 8,
-          "completeness": 9,
+          "completeness": 7,
           "usefulness": 7,
           "accuracy": 6,
-          "authenticity": 7
+          "authenticity": 9
         },
-        "reasoning": "The letter fulfills all prompt requirements and maintains a warm tone, but suffers from inflated language that undermines authenticity. Describing a $40 gift as 'incredibly generous' and 'remarkable generosity' feels disproportionate and may seem insincere. The impact statement is vague and doesn't clearly explain what $40 actually provides.",
+        "reasoning": "The letter successfully achieves a warm, genuine tone and covers most requirements effectively. However, it contains critical factual errors (mentions seniors when the org serves youth only), exceeds word count significantly, and includes placeholder text that would need editing before use.",
         "strengths": [
-          "Successfully addresses all required elements: gratitude, impact, community connection, social media invitation, appropriate length (267 words), and warm tone",
-          "Good structural flow from gratitude to impact to community to connection",
-          "Appropriate closing and signature format",
-          "Effectively references the specific campaign name"
+          "Excellent warm and authentic tone that feels personal without being overly effusive",
+          "Strong specific impact statement that translates the dollar amount into tangible supplies",
+          "Good balance of gratitude without making another ask",
+          "Effective community-building language ('artistic family', 'vital part of our community')",
+          "Natural integration of social media and newsletter invitation"
         ],
         "weaknesses": [
-          "Excessive superlatives ('incredibly generous,' 'remarkable generosity,' 'truly significant') for a $40 donation undermine credibility and authenticity",
-          "Impact statement is vague - 'a brand new, inspiring book' doesn't clearly quantify what $40 provides (one book? multiple books? partial funding?)",
-          "Phrase 'their own personal library' is awkward and overstates what one book represents",
-          "The exclamation 'Imagine the joy, the wonder...' feels somewhat overwrought for the context",
-          "Missing [Donor Name] personalization field should be more prominently noted or formatted"
+          "Factual inaccuracy: mentions 'senior exploring new passions' when the scenario clearly states the org serves 'neighborhood youth' with 'after-school classes'",
+          "Exceeds word count at approximately 240 words (acceptable range but on high end)",
+          "Contains placeholder text '[or whatever our handles are]' that must be removed/edited",
+          "Missing [Donor Name] personalization field at salutation",
+          "Slightly repetitive gratitude language ('sincerest gratitude', 'deeply appreciative', 'warm appreciation')"
         ],
         "evaluator_model": "claude-sonnet-4.5"
       }
@@ -86,40 +87,38 @@
       "scenario_id": "scenario_1",
       "model": "claude",
       "model_display_name": "Claude (Sonnet 4.5)",
-      "content": "Dear Friend,\n\nThank you so much for your generous $40 gift to the Clear Fork Valley Literacy Council's Backpacks & Books Drive. Your first contribution to our mission means more than you might imagine!\n\nYour donation will directly provide a backpack filled with age-appropriate books and learning materials for a child in our community. That simple backpack represents something powerful\u2014a message to a young reader that they matter, that learning is an adventure, and that their community believes in them.\n\nWhen you chose to support our work, you joined a compassionate group of neighbors who understand that literacy changes lives. Every day, we see adults gain confidence as they learn to read, parents discover new ways to share stories with their children, and students find their voice through words. You're now part of that transformation.\n\nI hope you'll feel connected to the difference you're making. We'd love for you to follow along with our students' progress and upcoming programs. You can find us on Facebook at Clear Fork Valley Literacy Council, or if you'd like to receive our quarterly newsletter with stories from the learners you're helping, just drop us a note or visit our website.\n\nThank you again for believing in the power of literacy and for investing in our community. Your kindness matters.\n\nWith gratitude,\n\nMarcus Bell\nExecutive Director\nClear Fork Valley Literacy Council",
-      "timestamp": "2025-11-01T16:38:58.042013Z",
-      "duration_seconds": 9.3,
+      "content": "Dear Friend,\n\nThank you so much for your generous $50 gift to our Spring Studio Supplies Appeal. Your support truly means the world to us here at Southwest Detroit ArtWorks.\n\nBecause of donors like you, we're able to keep our studios stocked with the brushes, paints, clay, and canvas that fuel creativity every single day. Your $50 provides a young artist with a complete starter set of quality art supplies\u2014everything they need to explore their talents and discover what's possible when they have the right tools in their hands.\n\nBut beyond the supplies themselves, your gift sends a powerful message: that art matters, that our young people matter, and that our community believes in them. That kind of support stays with a student long after the paint dries.\n\nYou're now part of a wonderful community of artists, educators, neighbors, and believers in the power of creativity. We hope you'll stay connected with us! Follow along on Instagram and Facebook (@SWDetroitArtWorks) to see our students' amazing work, or sign up for our monthly newsletter at our website to get studio updates and stories delivered right to your inbox.\n\nThank you again for investing in the next generation of Southwest Detroit artists. We're so grateful to have you with us.\n\nWith appreciation and warmth,\n\nMaya Ortiz\nExecutive Director\nSouthwest Detroit ArtWorks",
+      "timestamp": "2025-11-01T17:25:46.840651Z",
+      "duration_seconds": 8.51,
       "tokens": {
         "input": 175,
-        "output": 286,
-        "total": 461
+        "output": 292,
+        "total": 467
       },
-      "cost_usd": 0.004815,
+      "cost_usd": 0.004905,
       "success": true,
       "evaluation": {
-        "overall_score": 8.8,
+        "overall_score": 9.0,
         "criteria_scores": {
-          "tone": 9,
+          "tone": 10,
           "completeness": 9,
           "usefulness": 9,
           "accuracy": 9,
           "authenticity": 8
         },
-        "reasoning": "This is a strong, well-crafted donor acknowledgment letter that successfully balances warmth with professionalism. It fulfills all prompt requirements while maintaining an authentic voice appropriate for a small rural nonprofit. The letter effectively makes the donor feel valued without being transactional.",
+        "reasoning": "This is an excellent thank-you letter that hits all the key requirements with warmth and authenticity. It successfully balances gratitude with impact messaging, makes the donor feel valued as a community member, and avoids transactional language. The tone is perfectly calibrated for a small community arts organization.",
         "strengths": [
-          "Excellent specific impact statement - the $40 = one backpack filled with books is concrete and meaningful",
-          "Strong community-building language ('neighbors,' 'our community') that fits the rural Appalachian context perfectly",
-          "Warm tone is consistent throughout without being overly casual or formal",
-          "Subtle, non-pushy invitation to stay connected with multiple options (Facebook, newsletter, website)",
-          "Word count is appropriate at approximately 230 words",
-          "The phrase 'Your first contribution' acknowledges donor status naturally",
-          "Avoids making another ask while keeping the door open for engagement",
-          "The broader mission context (adults learning to read, parents and children) expands impact beyond just the campaign"
+          "Excellent specific impact statement ('Your $50 provides a young artist with a complete starter set') that is concrete and meaningful",
+          "Warm, genuine tone throughout that feels personal without being overly casual or formal",
+          "Strong community-building language ('You're now part of a wonderful community') that makes the donor feel included",
+          "Natural, non-pushy social media and newsletter invitation with specific handles and clear value proposition",
+          "Appropriate length at approximately 230 words, well within the 200-300 word target",
+          "Avoids making another ask while keeping the door open for continued engagement",
+          "The phrase 'long after the paint dries' is a nice creative touch appropriate for an arts organization"
         ],
         "weaknesses": [
-          "Opening 'Dear Friend' is somewhat generic - could be more personal with actual donor name placeholder",
-          "Minor authenticity concern: some phrases like 'compassionate group of neighbors' feel slightly polished for a volunteer-run org, though still acceptable",
-          "Could have included one more sensory or emotional detail about the specific community/region to deepen local connection"
+          "Opens with 'Dear Friend' rather than personalizing with the donor's name\u2014while this may be intentional for a template, it slightly reduces personalization",
+          "Could potentially include one more micro-detail about the organization's work to enhance local authenticity (e.g., mentioning a specific neighborhood or studio location)"
         ],
         "evaluator_model": "claude-sonnet-4.5"
       }
@@ -128,15 +127,15 @@
       "scenario_id": "scenario_1",
       "model": "gpt5",
       "model_display_name": "ChatGPT (GPT-5)",
-      "content": "Dear Friend,\n\nThank you for making your first gift of $40 to Clear Fork Valley Literacy Council. Your kindness is already at work in our Backpacks & Books Drive.\n\nYour $40 provides the core materials to fill one backpack\u2014two new, age-appropriate books, a reading journal, pencils and highlighters, and a family literacy tip sheet in English and Spanish. It also helps ensure a brief reading check-in with a volunteer, so a student leaves not just with supplies, but with encouragement and a plan for their next chapter.\n\nGifts like yours remove small but real barriers to reading\u2014something sturdy to carry books, tools to practice at home, and guidance that turns minutes of reading into milestones. Because of you, a local student will start school with confidence and a backpack that says, \u201cYou belong here.\u201d\n\nWe\u2019re glad to welcome you into our community of readers, tutors, teachers, and neighbors. If you\u2019d like to see updates and stories from the drive, we\u2019d love to stay connected\u2014follow us on social media or join our monthly e-newsletter through our website. Your presence means a lot.\n\nThank you again for believing in our mission and the kids we serve. We\u2019re honored to have you with us.\n\nWith gratitude,\n\nMarcus Bell\nExecutive Director",
-      "timestamp": "2025-11-01T16:39:30.342539Z",
-      "duration_seconds": 41.6,
+      "content": "Dear [Donor Name],\n\nThank you so much for your first gift of $50 to Southwest Detroit ArtWorks through our Spring Studio Supplies Appeal. We\u2019re grateful you chose to stand with our young artists, and we\u2019re happy to welcome you into our creative community.\n\nYour $50 provides the essentials that keep our studios humming: a new sketchbook and brush set for a teen in our after-school program, plus acrylics and canvas panels for a Saturday class. These simple tools open doors\u2014helping students practice technique, explore ideas, and find their voice in a supportive space.\n\nBecause of you, a ninth grader can arrive to class with materials that are truly theirs, ready to try, revise, and try again. We see the difference in the quiet confidence that grows when they complete a first print, a vibrant painting, or a coil pot they can\u2019t wait to show their family.\n\nWe\u2019d love to keep you connected to the art you\u2019ve made possible. If you\u2019d like, follow us on social media for studio snapshots and student spotlights, or join our email newsletter through our website to hear about upcoming showcases and open studio nights. You\u2019re part of this story now, and we\u2019re excited to share what you\u2019ve helped set in motion.\n\nThank you again for believing in our young artists and the creative energy of Southwest Detroit. We\u2019re honored to have you with us.\n\nWith gratitude,\n\nMaya Ortiz\nExecutive Director\nSouthwest Detroit ArtWorks",
+      "timestamp": "2025-11-01T17:26:09.698661Z",
+      "duration_seconds": 31.37,
       "tokens": {
-        "input": 156,
-        "output": 2311,
-        "total": 2467
+        "input": 154,
+        "output": 1066,
+        "total": 1220
       },
-      "cost_usd": 0.035133,
+      "cost_usd": 0.016452,
       "success": true,
       "evaluation": {
         "overall_score": 8.8,
@@ -147,20 +146,18 @@
           "accuracy": 9,
           "authenticity": 8
         },
-        "reasoning": "This is a strong, well-crafted donor acknowledgment letter that successfully balances warmth with professionalism. It fulfills all prompt requirements while maintaining authenticity and providing concrete impact details that make the donor feel valued. The letter would be immediately usable by a nonprofit with minimal editing.",
+        "reasoning": "This is a strong, well-crafted thank-you letter that successfully balances warmth with professionalism. It fulfills all prompt requirements while maintaining an authentic voice appropriate for a small community arts organization. The specific impact details are concrete and compelling, and the letter avoids transactional language while genuinely welcoming the donor into the community.",
         "strengths": [
-          "Excellent specific impact breakdown - the detailed list of what $40 provides (backpack contents, volunteer interaction) makes the gift tangible and meaningful",
-          "Strong community-building language throughout, especially 'welcome you into our community of readers, tutors, teachers, and neighbors'",
-          "Perfect tone calibration - warm without being overly familiar, appreciative without being obsequious",
-          "Subtle and natural social media/newsletter invitation that doesn't feel like an afterthought",
-          "Appropriate length at approximately 220 words, well within the 200-300 word target",
-          "Effective use of second-person 'you' language that centers the donor's impact",
-          "The phrase 'You belong here' on the backpack is emotionally resonant and mission-aligned"
+          "Excellent specific impact statement that breaks down exactly what $50 provides (sketchbook, brush set, acrylics, canvas panels) in concrete, tangible terms",
+          "Strong emotional storytelling in the third paragraph about the ninth grader and 'quiet confidence' that humanizes impact without being overwrought",
+          "Perfect execution of the 'subtle invitation' requirement\u2014offers multiple connection points (social media, newsletter, showcases) without being pushy",
+          "Appropriate warm tone throughout with phrases like 'studios humming' and 'creative energy' that reflect the arts mission authentically",
+          "Good length at approximately 250 words, fitting the 200-300 word requirement",
+          "Avoids making another ask as instructed, keeping focus entirely on gratitude and community-building"
         ],
         "weaknesses": [
-          "Opening 'Dear Friend' is somewhat generic - could be personalized with [DONOR NAME] placeholder for mail merge",
-          "Minor stylistic choice: 'their next chapter' is a bit clich\u00e9, though contextually appropriate for a literacy organization",
-          "Could include one brief sentence about the organization's broader mission for donors completely unfamiliar with the work"
+          "Minor placeholder issue: '[Donor Name]' should ideally be flagged more clearly as a merge field in instructions for the user",
+          "The phrase 'the art you've made possible' in paragraph 4 is slightly abstract\u2014could be more concrete given the strong specificity elsewhere"
         ],
         "evaluator_model": "claude-sonnet-4.5"
       }
@@ -169,38 +166,39 @@
       "scenario_id": "scenario_2",
       "model": "gemini",
       "model_display_name": "Gemini 2.5 Flash",
-      "content": "Subject: A huge THANK YOU from Crescent City Youth Arts Alliance!\n\nDear [Donor Name],\n\nWell, hello there! On behalf of everyone at the Crescent City Youth Arts Alliance, I wanted to send a big, heartfelt thank you for your incredibly generous first gift of $125! We were absolutely thrilled to see your support come in for our Spring Studio Scholarship Drive.\n\nIt's amazing donors like you who make our mission possible, and we truly appreciate you choosing to invest in the young artists of our community. Your gift of $125? That's more than just a number! It directly provides **a full month of art supplies for a student participating in one of our foundational studio classes, or helps cover a significant portion of a multi-week workshop for a budding young artist.** Imagine the masterpieces that will be created, the skills that will be honed, and the confidence that will blossom, all thanks to YOU.\n\nWe truly hope you feel like an honorary member of the Crescent City Youth Arts Alliance family now. Your support means the world to our students and staff. If you'd like to see more of the magic your gift helps create, we'd love for you to follow us on social media (you can find links on our website!) or sign up for our (not-too-frequent, promise!) newsletter. It's a great way to stay in the loop and see the impact of your kindness firsthand.\n\nThanks again for being such an incredible supporter. We\u2019re so grateful to have you on board!\n\nWarmly,\n\nAndre Boudreaux\nDevelopment Director\nCrescent City Youth Arts Alliance",
-      "timestamp": "2025-11-01T16:39:32.669089Z",
-      "duration_seconds": 2.32,
+      "content": "[Date]\n\n[Donor Name]\n[Donor Address]\n\nDear [Donor Name],\n\nOn behalf of the entire team at Appalachian Justice Collective, please accept our sincerest gratitude for your generous first-time gift of $250. We are deeply touched by your commitment to justice and your support for our mission.\n\nYour contribution to the Access to Justice Matching Challenge is truly impactful. A gift of $250, such as yours, enables us to provide a full day of crucial legal research for an unjustly incarcerated individual, or fund the initial consultation and case assessment for five low-income families facing eviction. This direct support is invaluable in our efforts to ensure that everyone in Appalachia, regardless of their financial standing, has access to fair legal representation.\n\nWe are honored to welcome you into the Appalachian Justice Collective community. Your partnership is vital in our ongoing fight for equity and justice, and we want you to feel a true sense of belonging to this important work.\n\nWe invite you to stay connected with our progress and see the continued impact of your generosity. You can easily follow our updates on social media, or subscribe to our newsletter for more in-depth stories of the lives changed through your support.\n\nThank you once again for your remarkable kindness and belief in our work.\n\nSincerely,\n\nRachel Kim\nDirector of Development\nAppalachian Justice Collective",
+      "timestamp": "2025-11-01T17:26:12.484136Z",
+      "duration_seconds": 2.78,
       "tokens": {
-        "input": 166,
-        "output": 334,
-        "total": 500
+        "input": 164,
+        "output": 277,
+        "total": 441
       },
-      "cost_usd": 0.000225,
+      "cost_usd": 0.000191,
       "success": true,
       "evaluation": {
-        "overall_score": 7.8,
+        "overall_score": 8.2,
         "criteria_scores": {
           "tone": 9,
-          "completeness": 8,
-          "usefulness": 7,
+          "completeness": 9,
+          "usefulness": 8,
           "accuracy": 7,
           "authenticity": 8
         },
-        "reasoning": "The letter successfully captures a casual, warm tone appropriate for a New Orleans arts nonprofit and includes all required elements. However, it has some practical issues that would require editing before use, including a subject line (suggesting email format when thank-you letters are typically postal), an unfilled merge field, and slightly verbose language that pushes boundaries of professionalism.",
+        "reasoning": "This is a well-crafted letter that hits all major requirements with appropriate formal tone and specific impact examples. However, the phrase 'unjustly incarcerated individual' raises accuracy concerns for a civil legal aid organization, and some language feels slightly formulaic despite overall quality.",
         "strengths": [
-          "Excellent casual tone that feels authentic to the organization's character and location without being unprofessional",
-          "Strong, specific impact statement that clearly explains what $125 provides (month of art supplies or workshop coverage)",
-          "Effectively builds community feeling with phrases like 'honorary member of the family' and 'on board'",
-          "Natural, non-pushy invitation to stay connected via social media and newsletter",
-          "Good length at approximately 240 words, within the 200-300 word target"
+          "Excellent formal tone that balances professionalism with warmth ('sincerest gratitude,' 'deeply touched')",
+          "Strong, concrete impact statement with two specific examples of what $250 accomplishes",
+          "Successfully avoids making another ask while including subtle connection invitations",
+          "Proper length at approximately 220 words, well within the 200-300 word requirement",
+          "Good use of community-building language ('welcome you into,' 'partnership,' 'sense of belonging')",
+          "Acknowledges both the matching challenge and workplace giving context appropriately"
         ],
         "weaknesses": [
-          "Includes 'Subject:' line suggesting email format, but donor thank-you letters are typically sent via postal mail for first-time donors at this gift level",
-          "Contains unfilled merge field '[Donor Name]' which is a critical error that would prevent use without correction",
-          "Some language borders on overly enthusiastic ('Well, hello there!', multiple exclamation points) which may not suit all organizational cultures despite 'casual' request",
-          "The parenthetical '(not-too-frequent, promise!)' about the newsletter, while charming, could be seen as slightly unprofessional or apologetic about organizational communications"
+          "The phrase 'unjustly incarcerated individual' is problematic - civil legal aid organizations typically don't handle criminal incarceration cases, and the phrasing assumes guilt/innocence determinations",
+          "Some phrases feel template-like ('please accept our sincerest gratitude,' 'remarkable kindness') which slightly undermines authenticity",
+          "The social media/newsletter invitation could be more specific or compelling (e.g., mention what kind of stories or updates they'll receive)",
+          "Missing placeholder brackets for [Date], [Donor Name], and [Donor Address] which should be included for usability"
         ],
         "evaluator_model": "claude-sonnet-4.5"
       }
@@ -209,15 +207,15 @@
       "scenario_id": "scenario_2",
       "model": "claude",
       "model_display_name": "Claude (Sonnet 4.5)",
-      "content": "Dear Friend,\n\nWow\u2014thank you so much for your $125 gift to our Spring Studio Scholarship Drive! We're honestly thrilled to welcome you to the Crescent City Youth Arts Alliance family.\n\nHere's the thing about your generosity: it's already making waves. Your $125 provides a full semester of after-school studio classes for a young artist in our community. That means a teen who loves photography gets to learn darkroom techniques, or a kid who doodles in their notebook discovers they're actually an amazing muralist. Your gift gives someone the chance to explore their creativity in a real studio space, with professional artists as mentors, and alongside other young people who share their passion.\n\nThat's pretty incredible, right?\n\nWe started CCYAA because we believe every young person deserves access to high-quality arts education, regardless of their family's financial situation. Donors like you make that belief a reality, and we genuinely couldn't do this work without you.\n\nIf you'd like to see the magic in action, we'd love to stay connected! Follow us on Instagram @CrescentCityYouthArts for behind-the-scenes studio moments, or sign up for our quarterly newsletter at ccyaa.org/connect to meet some of the amazing young artists you're supporting.\n\nThank you again for believing in our kids and their creative potential. We're so glad you're part of this community.\n\nWith gratitude,\n\nAndre Boudreaux\nDevelopment Director\nCrescent City Youth Arts Alliance",
-      "timestamp": "2025-11-01T16:39:40.181681Z",
-      "duration_seconds": 9.84,
+      "content": "Dear Friend,\n\nOn behalf of everyone at Appalachian Justice Collective, I want to express our heartfelt gratitude for your generous gift of $250 to our Access to Justice Matching Challenge. Your first-time contribution means more to us than you may realize.\n\nThanks to supporters like you who stepped forward during this critical campaign, we successfully met our matching goal\u2014doubling the impact of every dollar raised. Your $250 gift becomes $500 in support of our mission, directly enabling us to provide approximately twenty hours of legal consultation to families facing eviction, discrimination, or workplace violations.\n\nThese are our neighbors\u2014hardworking people who deserve access to justice regardless of their ability to pay. Your support ensures that a mother can fight an unjust eviction, that a worker can hold an employer accountable, and that families can navigate complex legal systems with knowledgeable advocates by their side.\n\nYou are now part of a community dedicated to ensuring that justice is not a privilege reserved for those who can afford it. We are honored to have you with us in this essential work.\n\nWe would be delighted to keep you connected to the impact you are making. I invite you to follow our work through our monthly newsletter and social media channels, where we share stories from the communities we serve together.\n\nThank you again for your partnership and belief in our mission.\n\nWith sincere appreciation,\n\nRachel Kim\nDirector of Development\nAppalachian Justice Collective",
+      "timestamp": "2025-11-01T17:26:18.594962Z",
+      "duration_seconds": 8.89,
       "tokens": {
-        "input": 178,
-        "output": 329,
-        "total": 507
+        "input": 176,
+        "output": 310,
+        "total": 486
       },
-      "cost_usd": 0.005469,
+      "cost_usd": 0.005178,
       "success": true,
       "evaluation": {
         "overall_score": 8.8,
@@ -228,20 +226,20 @@
           "accuracy": 9,
           "authenticity": 8
         },
-        "reasoning": "This is a strong, well-crafted donor thank-you letter that successfully balances warmth with professionalism. It fulfills all prompt requirements while maintaining an authentic, conversational voice appropriate for a New Orleans arts nonprofit. The specific impact statement is clear and compelling, and the letter avoids common pitfalls like being transactional or making premature additional asks.",
+        "reasoning": "This is a high-quality donor acknowledgment letter that successfully balances formality with warmth while meeting all prompt requirements. It demonstrates strong nonprofit communication practices with specific impact metrics and community-building language. Minor weaknesses include slightly generic opening and the lack of specific social media handles or newsletter signup information.",
         "strengths": [
-          "Excellent casual tone that feels genuine and appropriate ('Wow,' 'Here's the thing,' 'That's pretty incredible, right?') without being unprofessional",
-          "Concrete, vivid impact statement that paints a picture (darkroom techniques, muralist discovery) rather than abstract claims",
-          "Strong community-building language ('welcome you to the family,' 'part of this community') that makes donor feel included",
-          "Subtle, low-pressure connection invitations with specific handles and URLs",
-          "Perfect length at approximately 250 words",
-          "Natural flow that doesn't feel templated despite following a structure",
-          "Effective use of 'you' language that centers the donor's impact",
-          "Mission statement integrated organically rather than feeling inserted"
+          "Excellent specific impact statement (20 hours of legal consultation) that makes the gift tangible and meaningful",
+          "Effectively communicates the matching challenge success, showing donor their $250 became $500",
+          "Strong mission-aligned language that connects to the organization's values without being preachy",
+          "Appropriate formal tone that remains warm and personal, suitable for a professional legal aid organization",
+          "Concrete examples of impact (eviction, discrimination, workplace violations) relevant to Appalachian communities",
+          "Successfully avoids making another ask while building relationship",
+          "Proper length at approximately 250 words"
         ],
         "weaknesses": [
-          "Opening 'Dear Friend' is somewhat generic\u2014using donor's name would be standard practice (though this may be a template limitation)",
-          "Minor authenticity concern: some phrases like 'making waves' feel slightly more corporate than the otherwise conversational tone"
+          "Opens with generic 'Dear Friend' rather than personalizing with donor name (though this may be intentional for template use)",
+          "The invitation to connect via newsletter and social media is somewhat vague\u2014could benefit from specific handles or links in actual use",
+          "Phrase 'means more to us than you may realize' is slightly clich\u00e9d, though not problematic"
         ],
         "evaluator_model": "claude-sonnet-4.5"
       }
@@ -250,15 +248,136 @@
       "scenario_id": "scenario_2",
       "model": "gpt5",
       "model_display_name": "ChatGPT (GPT-5)",
-      "content": "Dear [First Name],\n\nThank you so much for making your first gift of $125 to Crescent City Youth Arts Alliance through our Spring Studio Scholarship Drive. We\u2019re thrilled to welcome you into our studio community and truly grateful you chose to support local young artists.\n\nYour gift goes straight to work. Your $50 provides a complete starter kit\u2014sketchbook, pencils, charcoal, and pastels\u2014for a teen who\u2019s ready to create. Another $50 covers two guided studio sessions with a teaching artist. The remaining $25 helps with bus passes and healthy snacks so students can get here and stay focused. Together, your $125 opens the door to a safe, inspiring space after school where talent grows and confidence builds.\n\nAs part of the CCYAA family, you\u2019re always welcome to stop by an open studio, say hello to our team, or catch a student showcase\u2014we love putting faces to the names that lift us up. If you\u2019d like to stay in the loop, follow Crescent City Youth Arts Alliance on Instagram and Facebook, and feel free to join our monthly email newsletter for quick studio updates, art highlights, and event invites.\n\nThanks again for believing in New Orleans kids and their creativity. We\u2019re honored to have you with us.\n\nWith gratitude,\n\nAndre Boudreaux\nDevelopment Director",
-      "timestamp": "2025-11-01T16:40:05.020485Z",
-      "duration_seconds": 34.68,
+      "content": "Dear [Donor Name],\n\nThank you for your generous first-time gift of $250 to Appalachian Justice Collective. Because you gave through our Access to Justice Matching Challenge, your contribution is being matched dollar-for-dollar, doubling its immediate reach for neighbors across the region.\n\nYour support translates into tangible help:\n- Your $50 provides a confidential intake and know-your-rights consultation for a client facing eviction or wage theft.\n- Your $100 helps cover court filing fees and document preparation for an expungement or protective order.\n- Your $250 underwrites an evening of our traveling legal clinic in a rural county, where volunteer attorneys meet clients who would otherwise go without counsel.\n\nBy joining our community, you are helping ensure that where a person lives\u2014or what they earn\u2014does not determine whether they can assert their rights. We are grateful for your trust, and we will steward your gift with care and transparency.\n\nWe would be honored to keep you apprised of the impact you make. Please connect with us on social media and consider subscribing to our monthly newsletter via our website, where we share client stories, program updates, and opportunities to learn more about civil legal needs in Appalachia.\n\nOn behalf of our staff, volunteers, and clients, thank you for standing with us. Welcome to the Appalachian Justice Collective community.\n\nWith sincere appreciation,\n\nRachel Kim\nDirector of Development",
+      "timestamp": "2025-11-01T17:26:51.820274Z",
+      "duration_seconds": 42.12,
+      "tokens": {
+        "input": 155,
+        "output": 2069,
+        "total": 2224
+      },
+      "cost_usd": 0.0315,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional thank-you letter that effectively balances formality with warmth. It successfully conveys impact through specific examples and welcomes the donor into community. The breakdown of gift impact is particularly well-executed, though the math presentation could be slightly confusing since the donor gave $250, not increments.",
+        "strengths": [
+          "Excellent formal tone that remains warm and personal, appropriate for legal aid sector",
+          "Specific, concrete impact examples that clearly show how donations translate to services",
+          "Strong acknowledgment of the matching challenge context, making the donor feel their timing mattered",
+          "Natural, non-pushy invitation to stay connected through multiple channels",
+          "Professional structure and length (approximately 230 words, within range)",
+          "Effective community-building language ('welcome to,' 'standing with us')",
+          "Avoids making another ask while maintaining engagement focus"
+        ],
+        "weaknesses": [
+          "The impact breakdown ($50, $100, $250) could confuse donors since it's not clear these are examples rather than how their specific $250 was allocated",
+          "Missing personalized salutation placeholder is noted but '[Donor Name]' format is correct",
+          "The phrase 'steward your gift with care and transparency' is somewhat generic nonprofit language",
+          "Could have been slightly more specific about what the newsletter or social media contains to increase conversion"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Dear [Donor Name],\n\nWow! We were truly thrilled to see your recent gift of $100 to the United Literacy Initiative. On behalf of our entire team, a huge, heartfelt thank you for joining us in our mission to empower readers.\n\nYour generous contribution to our Back-to-School Reading Fund couldn\u2019t have come at a better time. To put it simply, your $100 is going to provide a brand new, engaging set of 10 age-appropriate books for two eager students this upcoming school year. Imagine the excitement on their faces as they open those books, ready to dive into new worlds and build crucial reading skills! It's donors like you who make these moments possible.\n\nWe're so glad you've decided to become a part of the United Literacy Initiative family. Seriously, it means the world to us to have passionate people like you standing with us. Your support isn't just a donation; it's a direct investment in a brighter future for these young readers.\n\nIf you'd like to see more of the good your generosity is doing, feel free to follow us on social media ([Social Media Handles] \u2013 maybe Facebook or Instagram?) or sign up for our occasional newsletter on our website. We love sharing stories about the students whose lives are touched by your kindness.\n\nThank you again for your incredible support.\n\nWarmly,\n\nAisha Bennett\nChief Executive Officer\nUnited Literacy Initiative",
+      "timestamp": "2025-11-01T17:26:54.446820Z",
+      "duration_seconds": 2.63,
+      "tokens": {
+        "input": 166,
+        "output": 296,
+        "total": 462
+      },
+      "cost_usd": 0.000202,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 7,
+          "accuracy": 6,
+          "authenticity": 9
+        },
+        "reasoning": "The letter successfully achieves a casual, warm tone and feels authentic rather than robotic. However, it has several technical issues that would prevent immediate use: missing donor name personalization, placeholder text for social media handles, and uncertainty markers that undermine professionalism. The specific impact statement is clear and compelling.",
+        "strengths": [
+          "Excellent casual tone with phrases like 'Wow!', 'Seriously', and 'huge, heartfelt thank you' that feel genuine and conversational",
+          "Strong, specific impact statement that clearly explains what $100 provides (10 books for 2 students) with emotional visualization",
+          "Successfully makes donor feel part of community with 'family' language and 'standing with us' phrasing",
+          "Avoids making another ask and keeps focus on gratitude as requested",
+          "Good length at approximately 220 words, within the 200-300 word range"
+        ],
+        "weaknesses": [
+          "Contains placeholder text '[Donor Name]' and '[Social Media Handles]' that would need manual editing before use",
+          "Includes unprofessional uncertainty markers like '\u2013 maybe Facebook or Instagram?' which should be definitive information",
+          "Missing actual contact information or website URL that would make the call-to-action actionable",
+          "The parenthetical social media comment reads as AI thinking out loud rather than polished copy"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "Dear Friend,\n\nThank you so much for your $100 gift to our Back-to-School Reading Fund! We're truly grateful you decided to join the United Literacy Initiative family.\n\nHere's what your generosity means: Your donation will provide five brand-new, age-appropriate books for two students heading back to school this fall. For many of the kids we work with, these will be the very first books they've ever owned. Imagine that excitement\u2014cracking open a book that's yours to keep, to read again and again, to carry to school and show your friends!\n\nYou're now part of a community that believes every child deserves the chance to discover the joy of reading. When kids have access to books they love, everything changes. Reading scores improve, confidence grows, and suddenly a whole world of possibilities opens up.\n\nWe'd love to keep you in the loop about the students and families you're helping. If you're on social media, follow us @UnitedLiteracy to see photos from our book distributions and hear directly from the kids whose lives you're changing. We also send out a friendly monthly newsletter with stories from the field\u2014you can sign up anytime at our website.\n\nThank you again for believing in our mission and for making such a meaningful difference right from the start. We're so glad you're with us!\n\nWith appreciation,\n\nAisha Bennett\nChief Executive Officer\nUnited Literacy Initiative",
+      "timestamp": "2025-11-01T17:27:00.653556Z",
+      "duration_seconds": 8.83,
+      "tokens": {
+        "input": 176,
+        "output": 304,
+        "total": 480
+      },
+      "cost_usd": 0.005088,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professionally crafted thank-you letter that successfully balances warmth with substance. It meets all prompt requirements while maintaining an authentic, casual tone appropriate for a first-time donor. The specific impact statement is concrete and emotionally resonant, and the letter avoids common pitfalls like making additional asks or using overly effusive language.",
+        "strengths": [
+          "Excellent specific impact statement that translates $100 into tangible outcomes (five books for two students) and emotional connection (first books they've ever owned)",
+          "Casual tone is well-executed with natural, conversational language ('Imagine that excitement,' 'We'd love to keep you in the loop') without being unprofessional",
+          "Strong community-building language that makes donor feel like part of something larger ('United Literacy Initiative family,' 'You're now part of a community')",
+          "Subtle, non-pushy invitation to stay connected with multiple low-barrier options (social media, newsletter)",
+          "Word count is appropriate at approximately 230 words, within the 200-300 range",
+          "Avoids making another financial ask, keeping focus purely on gratitude and relationship-building"
+        ],
+        "weaknesses": [
+          "Opening 'Dear Friend' is somewhat generic\u2014using actual donor name would be more personal, though this may be intentional as a template",
+          "The phrase 'decided to join' could imply the donor made a membership commitment rather than a one-time gift, though this is minor"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear Friend,\n\nThank you for making your first gift of $100 to United Literacy Initiative through our Back-to-School Reading Fund. We\u2019re so grateful you chose to stand with young readers right now.\n\nHere\u2019s what your support does, in real terms: Your $50 provides a take-home reading kit\u2014two age-appropriate books, a mini activity journal, and simple tips for families to read together. Your $100 puts those kits into the hands of two students who are just starting to build confidence, and helps us get them matched with a volunteer tutor as the school year begins.\n\nBecause of you, a child will open a book that feels like it was written just for them\u2014and a caregiver will have the tools to make reading a happy, daily habit. That\u2019s the kind of steady, local change that adds up.\n\nAs a first-time donor, you\u2019re now part of our United Literacy community. We\u2019d love to keep you in the loop with quick updates, photos from classrooms, and stories from families. If you\u2019re up for it, follow us on social media or sign up for our newsletter on our website\u2014no pressure, just a simple way to see your impact at work.\n\nThanks again for believing in this work and in the kids we serve. We\u2019re glad you\u2019re here.\n\nWith gratitude,\n\nAisha Bennett\nChief Executive Officer",
+      "timestamp": "2025-11-01T17:27:26.130757Z",
+      "duration_seconds": 34.31,
       "tokens": {
         "input": 157,
-        "output": 1993,
-        "total": 2150
+        "output": 2260,
+        "total": 2417
       },
-      "cost_usd": 0.030366,
+      "cost_usd": 0.034371,
       "success": true,
       "evaluation": {
         "overall_score": 8.2,
@@ -269,144 +388,19 @@
           "accuracy": 7,
           "authenticity": 9
         },
-        "reasoning": "This is a strong, warm letter that successfully balances gratitude with concrete impact. The casual tone feels authentic to New Orleans and the arts sector. However, there's a significant mathematical error in the impact breakdown that would need correction before use.",
+        "reasoning": "This is a strong, authentic letter that successfully balances warmth with professionalism. The casual tone feels natural and the impact description is concrete and compelling. However, there's a mathematical error in the impact statement that would need correction before use.",
         "strengths": [
-          "Excellent casual, warm tone that feels genuine and location-appropriate ('y'all family,' 'lift us up')",
-          "Specific, tangible impact breakdown that helps donor visualize their contribution",
-          "Natural integration of community-building language ('welcome you into our studio community,' 'CCYAA family')",
-          "Subtle, non-pushy invitation to stay connected with multiple options (social media, newsletter, in-person visits)",
-          "Appropriate length at approximately 220 words",
-          "Avoids making another ask while maintaining relationship focus",
-          "Personal touches like 'putting faces to the names' create authentic connection"
+          "Excellent casual tone that feels genuine and conversational without being unprofessional ('We're glad you're here,' 'no pressure')",
+          "Concrete, specific impact description that breaks down exactly what $100 provides in tangible terms",
+          "Strong community-building language that welcomes the donor without being transactional",
+          "Effective subtle invitation to stay connected with low-pressure framing",
+          "Good length at approximately 230 words, within the 200-300 range",
+          "Avoids making another ask and focuses purely on gratitude and impact"
         ],
         "weaknesses": [
-          "Mathematical error: $50 + $50 + $25 = $125, but the letter says 'Your $50 provides...' then 'Another $50...' then 'The remaining $25' which is correct, but could be clearer",
-          "Missing personalization placeholder issue: '[First Name]' should ideally be flagged or explained as a merge field",
-          "Could be slightly more specific about what happened at the open studio night that inspired the gift (contextual connection)"
-        ],
-        "evaluator_model": "claude-sonnet-4.5"
-      }
-    },
-    {
-      "scenario_id": "scenario_3",
-      "model": "gemini",
-      "model_display_name": "Gemini 2.5 Flash",
-      "content": "[Date]\n\n[Donor Name]\n[Donor Address]\n[Donor City, State, Zip]\n\nDear [Donor Name],\n\nOn behalf of everyone at the Global Clean Water Initiative, I extend our sincerest gratitude for your generous first-time gift of $500. Your support for our World Water Day 2025 Challenge is profoundly appreciated and truly invaluable to our mission.\n\nYour contribution makes an immediate and tangible difference. To illustrate, a gift of $500, like yours, can provide a family with a durable, easy-to-use water filter system, ensuring access to clean, safe drinking water for years. It can also support the vital training of community volunteers to maintain these systems, fostering long-term sustainability and health. Your kindness directly impacts lives, offering hope and a brighter future to communities striving for basic necessities.\n\nWe are honored to welcome you to the Global Clean Water Initiative community. Your commitment to ensuring clean water for all demonstrates a shared vision that resonates deeply with our core values. We believe that access to clean water is a fundamental human right, and through your support, you are now a vital part of making this a reality for countless individuals.\n\nWe would be delighted to keep you informed about the progress and stories made possible by your generosity. We invite you to connect with us further by following us on our social media channels or subscribing to our newsletter, where we share updates on our projects and the impact of our collective efforts.\n\nThank you once again for your remarkable generosity. Your partnership is profoundly meaningful to us.\n\nSincerely,\n\nElena Martinez\nChief Advancement Officer\nGlobal Clean Water Initiative",
-      "timestamp": "2025-11-01T16:40:07.957080Z",
-      "duration_seconds": 2.93,
-      "tokens": {
-        "input": 169,
-        "output": 334,
-        "total": 503
-      },
-      "cost_usd": 0.000226,
-      "success": true,
-      "evaluation": {
-        "overall_score": 8.2,
-        "criteria_scores": {
-          "tone": 9,
-          "completeness": 9,
-          "usefulness": 8,
-          "accuracy": 8,
-          "authenticity": 7
-        },
-        "reasoning": "This is a well-structured, professional letter that meets all prompt requirements and maintains appropriate formality for a large international NGO. However, it leans slightly toward formulaic language in places, and some phrases feel overly elaborate ('profoundly appreciated and truly invaluable'), which may reduce authenticity despite technical correctness.",
-        "strengths": [
-          "Excellent specific impact statement - clearly explains what $500 accomplishes (water filter system + volunteer training)",
-          "Successfully balances formal tone with warmth, appropriate for an established international organization",
-          "Includes all required elements: gratitude, impact, community connection, social media/newsletter invitation, proper length (267 words)",
-          "Strong opening and closing that acknowledge first-time donor status",
-          "Subtle invitation to stay connected without making another ask"
-        ],
-        "weaknesses": [
-          "Some language feels overly formal and stacked ('profoundly appreciated and truly invaluable,' 'profoundly meaningful') - could be more natural",
-          "The phrase 'Your kindness directly impacts lives, offering hope and a brighter future' verges on generic nonprofit-speak",
-          "Minor authenticity concern: reads somewhat template-like despite good content, particularly in the community-building paragraph",
-          "Could benefit from one more personalized touch specific to World Water Day or why this donor's timing matters"
-        ],
-        "evaluator_model": "claude-sonnet-4.5"
-      }
-    },
-    {
-      "scenario_id": "scenario_3",
-      "model": "claude",
-      "model_display_name": "Claude (Sonnet 4.5)",
-      "content": "Dear Friend,\n\nOn behalf of the Global Clean Water Initiative, I extend our heartfelt gratitude for your generous $500 contribution to our World Water Day 2025 Challenge. Your decision to support our mission marks the beginning of what we hope will be a meaningful relationship.\n\nYour gift represents far more than a number\u2014it embodies hope for families who have never known the security of clean water. Specifically, your donation will provide safe drinking water for approximately 25 people for an entire year, fundamentally transforming their health, education, and economic opportunities. Children will spend more time in school rather than walking miles to collect water. Mothers will have greater capacity to pursue income-generating activities. Entire communities will experience reduced waterborne illness and newfound dignity.\n\nAs a valued member of our community, you join thousands of compassionate individuals worldwide who believe that access to clean water is a basic human right, not a privilege. Your trust in our work inspires us daily to maintain the highest standards of transparency and effectiveness.\n\nWe would be honored to keep you informed about the progress your generosity makes possible. I invite you to subscribe to our quarterly newsletter at globalcleanwater.org/newsletter, where you will find updates, stories from the field, and insights into our ongoing projects. You may also connect with us on social media to witness firsthand the communities your support serves.\n\nThank you for making our work possible and for standing with families who need it most.\n\nWith deep appreciation,\n\nElena Martinez\nChief Advancement Officer\nGlobal Clean Water Initiative",
-      "timestamp": "2025-11-01T16:40:14.038016Z",
-      "duration_seconds": 9.02,
-      "tokens": {
-        "input": 176,
-        "output": 326,
-        "total": 502
-      },
-      "cost_usd": 0.005418,
-      "success": true,
-      "evaluation": {
-        "overall_score": 8.6,
-        "criteria_scores": {
-          "tone": 9,
-          "completeness": 9,
-          "usefulness": 9,
-          "accuracy": 8,
-          "authenticity": 8
-        },
-        "reasoning": "This is a well-crafted donor acknowledgment letter that successfully balances formality with warmth and meets nearly all prompt requirements. The specific impact statement is compelling and concrete, and the letter avoids transactional language while making the donor feel valued. Minor weaknesses include slightly elevated language that borders on verbose and the generic 'Dear Friend' salutation.",
-        "strengths": [
-          "Excellent specific impact statement ('safe drinking water for approximately 25 people for an entire year') with concrete, relatable examples of transformation",
-          "Successfully maintains formal tone while remaining warm and personal, appropriate for a large established international NGO",
-          "Strong community-building language ('valued member of our community') that makes donor feel part of something larger",
-          "Subtle, non-pushy invitation to stay connected with specific actionable steps (newsletter URL, social media)",
-          "Appropriate length at approximately 250 words, well within the 200-300 word requirement",
-          "Avoids making another financial ask, focusing purely on gratitude and relationship-building",
-          "References the World Water Day 2025 Challenge campaign naturally in the opening"
-        ],
-        "weaknesses": [
-          "Opens with generic 'Dear Friend' rather than a personalized salutation\u2014most donor databases would merge actual names",
-          "Some phrases feel slightly formal to the point of being verbose ('marks the beginning of what we hope will be a meaningful relationship' could be more concise)",
-          "The impact calculation (25 people for a year from $500) is specific but not verified\u2014nonprofits should ensure such metrics are accurate to their actual programs"
-        ],
-        "evaluator_model": "claude-sonnet-4.5"
-      }
-    },
-    {
-      "scenario_id": "scenario_3",
-      "model": "gpt5",
-      "model_display_name": "ChatGPT (GPT-5)",
-      "content": "Dear [Donor Name],\n\nThank you for your generous first-time gift of $500 to Global Clean Water Initiative in support of our World Water Day 2025 Challenge. We are honored by your commitment and grateful for the trust you have placed in our work.\n\nYour contribution will deliver practical, measurable results for families who need reliable access to safe water. For example: \u201cYour $50 provides water-quality testing for one community well,\u201d helping prevent contamination and illness. In addition, $100 equips a household with safe water storage and purification supplies for several months, and $250 trains a local water steward to maintain systems and promote healthy practices. Together, your $500 gift helps equip multiple households with filtration, safe storage, and hygiene education\u2014support that strengthens both health and resilience.\n\nAs a new supporter, you are now part of a global community dedicated to advancing clean, safe water for all. We look forward to keeping you informed about the progress you make possible, including project updates and stories from the field that reflect your impact.\n\nIf you wish, we invite you to stay connected with us through our newsletter and social media channels, where we share milestones, innovations, and opportunities to learn more about the communities you are supporting.\n\nThank you again for your thoughtful partnership. We are deeply appreciative of your support.\n\nWith gratitude,\n\nElena Martinez\nChief Advancement Officer\nGlobal Clean Water Initiative",
-      "timestamp": "2025-11-01T16:40:33.308297Z",
-      "duration_seconds": 28.29,
-      "tokens": {
-        "input": 158,
-        "output": 1433,
-        "total": 1591
-      },
-      "cost_usd": 0.021969,
-      "success": true,
-      "evaluation": {
-        "overall_score": 7.4,
-        "criteria_scores": {
-          "tone": 9,
-          "completeness": 8,
-          "usefulness": 7,
-          "accuracy": 6,
-          "authenticity": 7
-        },
-        "reasoning": "The letter successfully achieves a formal, professional tone appropriate for an established international NGO. However, it contains a significant mathematical error in the impact breakdown that undermines credibility, and the impact explanation feels somewhat mechanical rather than emotionally resonant.",
-        "strengths": [
-          "Excellent formal tone that matches the organization's stature and requested style",
-          "Strong opening that acknowledges both the gift amount and campaign context",
-          "Effective community-building language ('global community dedicated to advancing clean, safe water')",
-          "Appropriate restraint\u2014no additional ask, focused on gratitude",
-          "Professional closing with proper signature block",
-          "Successfully incorporates invitation to stay connected via newsletter and social media"
-        ],
-        "weaknesses": [
-          "Critical math error: the impact breakdown ($50 + $100 + $250 = $400, not $500) creates confusion and looks unprofessional",
-          "Awkward phrasing with quotation marks around 'Your $50 provides...' which appears to be a template artifact",
-          "Impact section feels formulaic and list-like rather than emotionally engaging",
-          "The phrase 'the progress you make possible' is somewhat generic",
-          "At 234 words, it's within range but could be more concise",
-          "Missing personalization placeholder [Donor Name] should be noted for the user"
+          "Mathematical error: states 'Your $50 provides...' then 'Your $100 puts those kits into the hands of two students' - this is confusing because the donor gave $100, not $50, making the breakdown awkward",
+          "The phrase 'Dear Friend' is generic when personalization would be expected in a real donor letter",
+          "Minor: 'steady, local change' seems slightly inconsistent for a national organization, though it could refer to local implementation"
         ],
         "evaluator_model": "claude-sonnet-4.5"
       }
@@ -417,7 +411,7 @@
     "total_outputs": 9,
     "successful_outputs": 9,
     "failed_outputs": 0,
-    "total_cost_usd": 0.1038,
-    "average_score": 8.22
+    "total_cost_usd": 0.0981,
+    "average_score": 8.33
   }
 }

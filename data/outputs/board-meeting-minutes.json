@@ -1,0 +1,398 @@
+{
+  "prompt_id": "board-meeting-minutes",
+  "prompt_text": "Create minutes template for board meeting. Include: attendees, absent, votes/resolutions, key discussion points, action items with owners/deadlines, next meeting. Be clear and concise. [FACTUAL/ORGANIZED] tone.",
+  "category": "board",
+  "generated_at": "2025-11-01T17:31:50.193399Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Southside Fresh Food Collective",
+      "description": "Small community nonprofit on Chicago\u2019s South Side improving food access through community gardens, pop-up markets, and SNAP outreach. Volunteer-heavy, <$500k annual budget. Donors include neighborhood residents, local grocers, churches, and small family foundations. Serves primarily Black and Latino urban communities.",
+      "values": {
+        "FACTUAL/ORGANIZED": "Factual and organized; concise, neutral tone"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Rocky Mountain STEM Educators Network",
+      "description": "Mid-size professional association supporting K\u201312 STEM teachers across Colorado (urban Front Range and rural mountain districts). $3\u20135M budget funded by membership dues, regional tech sponsors, and state education grants. Board includes district administrators, classroom teachers, and university partners.",
+      "values": {
+        "FACTUAL/ORGANIZED": "Objective, factual, and highly organized tone"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Pacific Flyway Conservation Trust",
+      "description": "Large, established environmental nonprofit headquartered in Seattle, protecting wetlands and migratory bird habitats across the West Coast. $40M+ budget supported by major donors, corporate partners in the outdoor industry, federal grants, and an endowment. Board includes conservation scientists, former agency heads, and philanthropists; work spans urban estuaries and rural refuges.",
+      "values": {
+        "FACTUAL/ORGANIZED": "Formal, strictly factual, and well-organized tone"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Board Meeting Minutes\n\n**Date:** [Date of Meeting]\n**Time:** [Start Time] - [End Time]\n**Location:** [Meeting Location/Virtual Platform]\n\n**1. Attendees:**\n\n*   [Board Member 1 Name] (Chair)\n*   [Board Member 2 Name]\n*   [Board Member 3 Name]\n*   [Board Member 4 Name]\n*   [Board Member 5 Name]\n*   [Guest/Presenter Name(s) - if applicable, briefly state purpose of attendance]\n\n**2. Absent:**\n\n*   [Absent Board Member 1 Name] (Reason for absence, if known and appropriate to include)\n*   [Absent Board Member 2 Name]\n\n**3. Call to Order:**\n\n*   The meeting was called to order by [Chair's Name] at [Time].\n\n**4. Approval of Previous Meeting Minutes:**\n\n*   **Motion:** To approve the minutes from the [Date of Previous Meeting] Board Meeting.\n*   **Mover:** [Name of Board Member]\n*   **Seconder:** [Name of Board Member]\n*   **Vote:** Unanimous / [Number] For, [Number] Against, [Number] Abstain.\n*   **Resolution:** The minutes from the [Date of Previous Meeting] Board Meeting were approved as presented/amended.\n\n**5. Key Discussion Points:**\n\n*   **[Agenda Item 1 Title]:**\n    *   [Brief summary of presentation/report if applicable]\n    *   [Key highlights of discussion, differing viewpoints, or important questions raised.]\n    *   [State any specific consensus or general direction agreed upon.]\n\n*   **[Agenda Item 2 Title]:**\n    *   [Brief summary of presentation/report if applicable]\n    *   [Key highlights of discussion, differing viewpoints, or important questions raised.]\n    *   [State any specific consensus or general direction agreed upon.]\n\n*   **[Agenda Item 3 Title]:**\n    *   [Brief summary of presentation/report if applicable]\n    *   [Key highlights of discussion, differing viewpoints, or important questions raised.]\n    *   [State any specific consensus or general direction agreed upon.]\n\n**6. Votes/Resolutions:**\n\n*   **Resolution 1: [Brief Title of Resolution]**\n    *   **Motion:** [State the exact motion being voted on.]\n    *   **Mover:** [Name of Board Member]\n    *   **Seconder:** [Name of Board Member]\n    *   **Vote:** Unanimous / [Number] For, [Number] Against, [Number] Abstain.\n    *   **Outcome:** The motion [passed/failed].\n\n*   **Resolution 2: [Brief Title of Resolution]**\n    *   **Motion:** [State the exact motion being voted on.]\n    *   **Mover:** [Name of Board Member]\n    *   **Seconder:** [Name of Board Member]\n    *   **Vote:** Unanimous / [Number] For, [Number] Against, [Number] Abstain.\n    *   **Outcome:** The motion [passed/failed].\n\n**7. Action Items:**\n\n*   **[Action Item 1]:** [Detailed description of the action to be taken.]\n    *   **Owner:** [Name of responsible individual/team]\n    *   **Deadline:** [Date]\n\n*   **[Action Item 2]:** [Detailed description of the action to be taken.]\n    *   **Owner:** [Name of responsible individual/team]\n    *   **Deadline:** [Date]\n\n*   **[Action Item 3]:** [Detailed description of the action to be taken.]\n    *   **Owner:** [Name of responsible individual/team]\n    *   **Deadline:** [Date]\n\n**8. Other Business:**\n\n*   [Brief mention of any minor updates or discussions not requiring a formal resolution.]\n\n**9. Adjournment:**\n\n*   The meeting was adjourned by [Chair's Name] at [Time].\n\n**10. Next Meeting:**\n\n*   **Date:** [Date of Next Meeting]\n*   **Time:** [Time of Next Meeting]\n*   **Location:** [Location of Next Meeting/Virtual Platform]\n\n**Minutes Recorded By:** [Name of Minute Taker]\n**Date of Approval:** [Date of Minutes Approval] (Typically at the next board meeting)",
+      "timestamp": "2025-11-01T17:30:29.424739Z",
+      "duration_seconds": 4.26,
+      "tokens": {
+        "input": 49,
+        "output": 957,
+        "total": 1006
+      },
+      "cost_usd": 0.000582,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 10,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 7
+        },
+        "reasoning": "This is a highly functional, well-structured board meeting minutes template that fulfills all prompt requirements with appropriate factual/organized tone. It includes all requested elements (attendees, absent, votes, discussions, action items with owners/deadlines, next meeting) in a clear, professional format. The main limitation is its generic nature\u2014it doesn't reflect the specific context of Southside Fresh Food Collective, though as a template this is acceptable.",
+        "strengths": [
+          "Comprehensive structure covering all required elements including attendees, absences, votes/resolutions with proper motion format, key discussion points, action items with clear owner/deadline fields, and next meeting details",
+          "Excellent organizational clarity with numbered sections, consistent formatting, and logical flow that follows standard board meeting protocol",
+          "Professional tone that is appropriately factual and neutral, using proper parliamentary procedure language (motion, mover, seconder, vote counts)",
+          "Practical features like space for guest attendance purposes, reason for absence, amendment notation, and 'Other Business' section",
+          "Includes important administrative details like minute taker attribution and approval date tracking"
+        ],
+        "weaknesses": [
+          "Somewhat generic and formulaic\u2014lacks any customization to the specific nonprofit scenario (community-focused, volunteer-heavy organization)",
+          "Could benefit from examples or guidance notes within brackets to help less experienced minute-takers understand what level of detail to capture",
+          "The 'Key Discussion Points' section could provide more guidance on balancing brevity with capturing substantive debate, especially important for smaller nonprofits with governance transparency needs"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# BOARD MEETING MINUTES\n\n**Organization Name:** [Insert Name]  \n**Meeting Date:** [Date]  \n**Meeting Time:** [Start Time] \u2013 [End Time]  \n**Location:** [Physical Address / Virtual Platform]\n\n---\n\n## ATTENDANCE\n\n**Present:**\n- [Name, Title]\n- [Name, Title]\n- [Name, Title]\n\n**Absent:**\n- [Name, Title] \u2013 [Excused/Unexcused]\n- [Name, Title] \u2013 [Excused/Unexcused]\n\n**Guests/Others:**\n- [Name, Title/Organization]\n\n**Quorum:** [Met/Not Met]\n\n---\n\n## APPROVAL OF MINUTES\n\nMinutes from [Previous Meeting Date] were reviewed.  \n**Motion to approve:** [Name]  \n**Second:** [Name]  \n**Vote:** [Approved/Rejected] \u2013 [Unanimous / Vote Count]\n\n---\n\n## VOTES & RESOLUTIONS\n\n### Resolution [Number]: [Title]\n**Description:** [Brief description of resolution]  \n**Motion by:** [Name]  \n**Second:** [Name]  \n**Vote:** [For: X | Against: X | Abstain: X]  \n**Result:** [Passed/Failed]\n\n---\n\n## KEY DISCUSSION POINTS\n\n### 1. [Topic Title]\n- [Summary of discussion]\n- [Key points raised]\n- [Decisions or conclusions reached]\n\n### 2. [Topic Title]\n- [Summary of discussion]\n- [Key points raised]\n- [Decisions or conclusions reached]\n\n---\n\n## ACTION ITEMS\n\n| Action Item | Owner | Deadline | Status |\n|------------|-------|----------|--------|\n| [Description of task] | [Name] | [Date] | Pending |\n| [Description of task] | [Name] | [Date] | Pending |\n| [Description of task] | [Name] | [Date] | Pending |\n\n---\n\n## NEXT MEETING\n\n**Date:** [Date]  \n**Time:** [Time]  \n**Location:** [Location]  \n**Proposed Agenda Items:**\n- [Item 1]\n- [Item 2]\n\n---\n\n## ADJOURNMENT\n\nMeeting adjourned at [Time].  \n**Motion by:** [Name]  \n**Second:** [Name]\n\n---\n\n**Minutes prepared by:** [Name, Title]  \n**Date submitted:** [Date]  \n**Approved by:** [Name, Title] \u2013 [Date]",
+      "timestamp": "2025-11-01T17:30:35.217371Z",
+      "duration_seconds": 10.05,
+      "tokens": {
+        "input": 60,
+        "output": 577,
+        "total": 637
+      },
+      "cost_usd": 0.008835,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 10,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 7
+        },
+        "reasoning": "This is a highly functional, well-structured board meeting minutes template that fulfills all prompt requirements with appropriate formality and organization. The tone is appropriately factual and neutral for governance documentation. While somewhat generic in presentation, it provides all essential elements a small nonprofit would need.",
+        "strengths": [
+          "Comprehensive coverage of all requested elements: attendees, absent members, votes/resolutions, discussion points, action items with owners/deadlines, and next meeting details",
+          "Excellent organizational structure with clear sections and logical flow that follows standard board governance practices",
+          "Practical features like quorum tracking, excused/unexcused absences, vote counts, and a useful action items table format",
+          "Professional, neutral tone appropriate for official governance records and legal/compliance purposes",
+          "Includes helpful details often overlooked like approval signatures, preparation date, and guest attendees"
+        ],
+        "weaknesses": [
+          "Generic placeholder text lacks any customization to the Southside Fresh Food Collective scenario provided",
+          "Could feel somewhat sterile or corporate for a small, community-focused nonprofit that values grassroots engagement",
+          "No guidance on level of detail needed for discussion summaries, which varies significantly between organizations"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Board Meeting Minutes Template\n\nMeeting details\n- Organization:\n- Date:\n- Time (start\u2013end):\n- Location/Platform:\n- Chair:\n- Recorder:\n- Quorum: Yes/No (present/required):\n\nAttendees\n- Directors present:\n- Absent (with/without notice):\n- Management/Guests (if any):\n\nAgenda and prior minutes\n- Agenda approval: Approved/Not approved (amendments, if any):\n- Prior minutes (date): Approved/Not approved (corrections, if any):\n\nVotes and resolutions\n- Motion # / Title:\n  - Moved by:\n  - Seconded by:\n  - Resolution text:\n  - Vote result: For __ / Against __ / Abstain __ / Absent __\n  - Outcome: Carried/Failed\n  - Notes (if any):\n\n[Repeat the block above for each motion.]\n\nKey discussion points\n- Topic:\n  - Summary (concise, factual):\n  - Decisions/Consensus (if any):\n\n[Repeat per topic.]\n\nAction items\n- Action:\n  - Owner:\n  - Due date:\n  - Status: Open/Pending/Complete\n  - Notes (if needed):\n\n[Repeat per action.]\n\nNext meeting\n- Date:\n- Time:\n- Location/Platform:\n- Proposed agenda items (optional):\n\nAdjournment\n- Adjourned at:\n\nApprovals\n- Minutes prepared by:\n- Approved by (Chair/Secretary):\n- Approval date:",
+      "timestamp": "2025-11-01T17:30:46.295749Z",
+      "duration_seconds": 21.13,
+      "tokens": {
+        "input": 54,
+        "output": 1262,
+        "total": 1316
+      },
+      "cost_usd": 0.019092,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly functional, well-structured board meeting minutes template that perfectly matches the requested factual/organized tone. It includes all required elements from the prompt and follows nonprofit governance best practices. The format is clean, professional, and immediately usable with minimal adaptation needed.",
+        "strengths": [
+          "Comprehensive coverage of all prompt requirements: attendees, absent members, votes/resolutions, discussion points, action items with owners/deadlines, and next meeting details",
+          "Excellent organizational structure with clear sections and repeatable blocks for multiple motions, topics, and action items",
+          "Includes governance-critical elements like quorum tracking, vote tallies, motion procedures (moved/seconded), and formal approval signatures",
+          "Practical features like status tracking for action items, notation for excused/unexcused absences, and space for agenda amendments",
+          "Appropriately neutral, factual tone throughout with no jargon or unnecessary complexity\u2014suitable for volunteer board members",
+          "Professional formatting with clear hierarchy and scannable sections that would work well for record-keeping and compliance"
+        ],
+        "weaknesses": [
+          "Slightly generic presentation\u2014could have included one small contextual touch relevant to small community nonprofits (e.g., 'Conflict of Interest Declarations' section common in smaller boards)",
+          "The 'Status' field in action items might be unnecessary for minutes themselves (more useful for tracking documents), as minutes typically capture decisions at a point in time"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## [Board Name] - Board Meeting Minutes\n\n**Date:** [Date of Meeting]\n**Time:** [Start Time] - [End Time]\n**Location:** [Meeting Location - e.g., Conference Room, Virtual via Zoom]\n\n**Chairperson:** [Name of Chairperson]\n**Minutes Taker:** [Name of Minutes Taker]\n\n---\n\n**1. Attendees:**\n\n*   [Name 1]\n*   [Name 2]\n*   [Name 3]\n*   [Name 4]\n*   [Name 5]\n*   [Name 6]\n\n**2. Absent:**\n\n*   [Name 1 (Reason for absence, if known)]\n*   [Name 2 (Reason for absence, if known)]\n\n---\n\n**3. Votes/Resolutions:**\n\n*   **Resolution 1: Approval of Previous Meeting Minutes**\n    *   **Motion By:** [Name of Movant]\n    *   **Seconded By:** [Name of Seconder]\n    *   **Vote:** Unanimous / [Number] For, [Number] Against, [Number] Abstain\n    *   **Outcome:** Approved\n\n*   **Resolution 2: [Specific Resolution Topic - e.g., Approval of Q4 2023 Financial Report]**\n    *   **Motion By:** [Name of Movant]\n    *   **Seconded By:** [Name of Seconder]\n    *   **Vote:** Unanimous / [Number] For, [Number] Against, [Number] Abstain\n    *   **Outcome:** Approved / Failed\n\n*   **Resolution 3: [Specific Resolution Topic]**\n    *   **Motion By:** [Name of Movant]\n    *   **Seconded By:** [Name of Seconder]\n    *   **Vote:** Unanimous / [Number] For, [Number] Against, [Number] Abstain\n    *   **Outcome:** Approved / Failed\n\n---\n\n**4. Key Discussion Points:**\n\n*   **4.1. Financial Performance Review (Q1 2024)**\n    *   Presentation of Q1 2024 financial statements.\n    *   Discussion on [specific positive trends or areas of concern, e.g., \"Revenue exceeded projections by 10%,\" \"Operating expenses increased by 5%, primarily due to marketing initiatives\"].\n    *   Questions raised regarding [specific financial details, e.g., \"variance in COGS,\" \"cash flow projections for Q2\"].\n    *   Board acknowledged the [e.g., \"continued strong revenue growth,\" \"need to monitor expenditure in Q2\"].\n\n*   **4.2. Strategic Initiative A: [Name of Initiative] Update**\n    *   Progress update on [key milestones achieved, e.g., \"Phase 1 implementation completed,\" \"pilot program launched\"].\n    *   Challenges encountered: [e.g., \"vendor delays,\" \"resource allocation issues\"].\n    *   Proposed adjustments to timeline/resources.\n    *   Board provided feedback on [specific aspects, e.g., \"marketing strategy effectiveness,\" \"risk mitigation plans\"].\n\n*   **4.3. [Another Key Discussion Point - e.g., Board Governance Review]**\n    *   Discussion regarding [e.g., \"committee responsibilities,\" \"board effectiveness survey results\"].\n    *   Review of [relevant policy or procedure, e.g., \"conflict of interest policy\"].\n    *   Suggestions for [e.g., \"improving board meeting efficiency,\" \"enhancing board diversity\"].\n\n*   **4.4. [Any Other Business raised before or during the meeting]**\n    *   [Brief factual summary of the point discussed and any preliminary conclusions.]\n\n---\n\n**5. Action Items:**\n\n| Item # | Action Item                                                                      | Owner(s)           | Deadline          | Status (Optional) |\n| :----- | :------------------------------------------------------------------------------- | :----------------- | :---------------- | :---------------- |\n| 5.1    | Draft revised Q2 budget projection incorporating new marketing spend.            | [Name of Owner]    | [Date]            | Open              |\n| 5.2    | Conduct vendor review for Initiative A and report findings.                      | [Name of Owner]    | [Date]            | Open              |\n| 5.3    | Schedule follow-up meeting with legal counsel regarding new regulatory compliance. | [Name of Owner]    | [Date]            | Open              |\n| 5.4    | Distribute updated Conflict of Interest Policy to all board members for review.  | [Name of Owner/Secretary]| [Date]            | Open              |\n\n---\n\n**6. Next Meeting:**\n\n**Date:** [Date of Next Meeting]\n**Time:** [Time of Next Meeting]\n**Location:** [Location of Next Meeting]\n\n---\n\n**Minutes Approved By:**\n\n_________________________\n[Name of Chairperson]\nDate: [Date of Approval]\n\n---",
+      "timestamp": "2025-11-01T17:30:53.896568Z",
+      "duration_seconds": 7.6,
+      "tokens": {
+        "input": 48,
+        "output": 1065,
+        "total": 1113
+      },
+      "cost_usd": 0.000646,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a highly functional, well-organized template that meets all prompt requirements with appropriate factual tone. The structure is professional and comprehensive, though the content examples are generic corporate rather than STEM education-specific, which slightly reduces authenticity for the stated scenario.",
+        "strengths": [
+          "Excellent organizational structure with clear sections covering all required elements (attendees, absent, votes/resolutions, discussion points, action items with owners/deadlines, next meeting)",
+          "Professional formatting with effective use of tables, bullet points, and hierarchical numbering that enhances readability and usability",
+          "Comprehensive votes/resolutions section with proper parliamentary procedure elements (motion, second, vote count, outcome)",
+          "Action items table is particularly well-designed with clear columns for ownership, deadlines, and status tracking",
+          "Includes helpful details like approval signature block and optional status column that add practical value"
+        ],
+        "weaknesses": [
+          "Discussion point examples are generic corporate topics (Q1 financials, vendor reviews) rather than STEM education-specific content relevant to the Rocky Mountain STEM Educators Network scenario",
+          "Lacks any contextual adaptation to the nonprofit education sector - could equally serve a for-profit corporation",
+          "The template feels somewhat robotic with excessive placeholder brackets that could be streamlined for better visual clarity",
+          "Missing guidance on confidentiality or executive session notes, which are common in nonprofit board governance"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# BOARD OF DIRECTORS MEETING MINUTES\n\n**Organization Name:** [Company/Organization Name]  \n**Meeting Date:** [Date]  \n**Meeting Time:** [Start Time] \u2013 [End Time]  \n**Location:** [Physical Address/Virtual Platform]  \n**Meeting Type:** [Regular/Special/Emergency]\n\n---\n\n## 1. ATTENDEES\n\n**Present:**\n- [Name], [Title]\n- [Name], [Title]\n- [Name], [Title]\n\n**Absent:**\n- [Name], [Title] \u2013 [Excused/Unexcused]\n- [Name], [Title] \u2013 [Excused/Unexcused]\n\n**Guests/Others Present:**\n- [Name], [Title/Organization]\n\n**Quorum:** [Yes/No] \u2013 [X] of [Y] directors present\n\n---\n\n## 2. CALL TO ORDER\n\nMeeting called to order at [Time] by [Name, Title].\n\n---\n\n## 3. APPROVAL OF PREVIOUS MINUTES\n\nMinutes from [Previous Meeting Date] were reviewed.\n\n**Motion:** To approve minutes as presented/amended  \n**Moved by:** [Name]  \n**Seconded by:** [Name]  \n**Vote:** [Unanimous/For: X, Against: Y, Abstain: Z]  \n**Result:** [Approved/Denied]\n\n---\n\n## 4. KEY DISCUSSION POINTS\n\n### 4.1 [Topic/Agenda Item Title]\n- [Summary of discussion]\n- [Key points raised]\n- [Concerns or questions addressed]\n\n### 4.2 [Topic/Agenda Item Title]\n- [Summary of discussion]\n- [Key points raised]\n- [Concerns or questions addressed]\n\n### 4.3 [Topic/Agenda Item Title]\n- [Summary of discussion]\n- [Key points raised]\n- [Concerns or questions addressed]\n\n---\n\n## 5. VOTES AND RESOLUTIONS\n\n### Resolution 2024-[XX]: [Resolution Title]\n\n**Description:** [Brief description of resolution]\n\n**Motion:** [Full text of motion]  \n**Moved by:** [Name]  \n**Seconded by:** [Name]  \n**Discussion:** [Brief summary if applicable]  \n**Vote:** [Unanimous/For: X, Against: Y, Abstain: Z]  \n**Result:** [Approved/Denied]\n\n### Resolution 2024-[XX]: [Resolution Title]\n\n**Description:** [Brief description of resolution]\n\n**Motion:** [Full text of motion]  \n**Moved by:** [Name]  \n**Seconded by:** [Name]  \n**Discussion:** [Brief summary if applicable]  \n**Vote:** [Unanimous/For: X, Against: Y, Abstain: Z]  \n**Result:** [Approved/Denied]\n\n---\n\n## 6. ACTION ITEMS\n\n| Action Item | Owner | Deadline | Status |\n|------------|-------|----------|--------|\n| [Specific task description] | [Name] | [Date] | Pending |\n| [Specific task description] | [Name] | [Date] | Pending |\n| [Specific task description] | [Name] | [Date] | Pending |\n| [Specific task description] | [Name] | [Date] | Pending |\n\n---\n\n## 7. NEXT MEETING\n\n**Date:** [Date]  \n**Time:** [Time]  \n**Location:** [Location/Platform]  \n**Proposed Agenda Items:**\n- [Item 1]\n- [Item 2]\n- [Item 3]\n\n---\n\n## 8. ADJOURNMENT\n\n**Motion to adjourn:** [Name]  \n**Seconded by:** [Name]  \n**Meeting adjourned at:** [Time]\n\n---\n\n**Minutes Prepared by:** [Name, Title]  \n**Date Prepared:** [Date]  \n\n**Minutes Approved by:** [Name, Title]  \n**Date Approved:** [Date]  \n\n**Signature:** _________________________ **Date:** _____________\n\n---\n\n**Distribution:**\n- All Board Members\n- [Other recipients as applicable]",
+      "timestamp": "2025-11-01T17:31:00.982697Z",
+      "duration_seconds": 14.69,
+      "tokens": {
+        "input": 59,
+        "output": 956,
+        "total": 1015
+      },
+      "cost_usd": 0.014517,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a highly professional, well-structured template that meets all prompt requirements with appropriate factual/organized tone. It's comprehensive and immediately usable, though it feels somewhat generic and doesn't reflect the specific nonprofit context (STEM educators network) from the scenario.",
+        "strengths": [
+          "Excellent organizational structure with clear numbered sections and logical flow",
+          "Comprehensive coverage of all required elements: attendees, absences, votes/resolutions, discussion points, action items with owners/deadlines, and next meeting details",
+          "Professional formatting with appropriate use of tables, headers, and placeholders that make it easy to fill in",
+          "Includes valuable additions like quorum tracking, signature lines, and distribution list that enhance governance compliance",
+          "Action items table format is particularly useful with clear columns for owner, deadline, and status tracking",
+          "Tone is appropriately factual, objective, and organized as requested"
+        ],
+        "weaknesses": [
+          "Completely generic with no customization to the Rocky Mountain STEM Educators Network scenario provided",
+          "Uses corporate-style language like 'Company/Organization Name' rather than nonprofit-specific terminology",
+          "Feels template-like and robotic with excessive placeholder brackets that could be pre-filled with scenario details",
+          "Missing nonprofit-specific elements that might be relevant (committee reports, fundraising updates, program outcomes)",
+          "The 'Category: board' tag at the end seems out of place and unexplained"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Board Meeting Minutes Template\n\nHeader\n- Organization:\n- Meeting Title:\n- Meeting Type: (Regular/Special)\n- Date:\n- Time (Start\u2013End):\n- Location:\n- Chair:\n- Recording Secretary:\n- Notice Given: (Yes/No; method/date)\n- Quorum: (Required/Present; Achieved: Yes/No)\n\nAttendance\n- Directors Present:\n- Directors Absent: (Note excused/unexcused)\n- Others Present: (Staff, advisors, guests)\n- Conflicts/Recusals Declared: (Name; agenda item)\n\nAgenda Administration\n- Agenda Approved: (Yes/No; Motion by/Second/Vote)\n- Prior Minutes Approved: (Date of prior meeting; Motion/Second/Vote)\n- Consent Agenda Items Approved: (List or N/A)\n\nReports (brief summaries; attach detailed reports if needed)\n- CEO/Executive Director:\n- CFO/Finance:\n- Committee Reports: (Name; key points)\n\nKey Discussion Points (objective summaries; no verbatim)\n- Topic:\n  - Summary:\n  - Decisions/Conclusions:\n  - Follow-ups required (if any):\n\nResolutions and Votes (number each item)\n- Resolution [#]: Title/Subject\n  - Motion: (Exact wording if possible)\n  - Moved by:\n  - Seconded by:\n  - Vote: (For/Against/Abstain; tally)\n  - Result: (Adopted/Not adopted)\n  - Notes: (Recusals, conditions, effective date)\n\nAction Items\n- ID:\n  - Description:\n  - Owner:\n  - Due Date:\n  - Status: (Open/In progress/Closed)\n- ID:\n  - Description:\n  - Owner:\n  - Due Date:\n  - Status:\n\nRisk/Compliance (if applicable)\n- Regulatory/Legal updates:\n- Risks identified and mitigations:\n- Policies reviewed/approved:\n\nExecutive Session (if held)\n- Start\u2013End Time:\n- Participants:\n- General Purpose:\n- Outcomes/Decisions recorded (if any):\n\nOther Business\n- Items not on agenda:\n- Public comments (if applicable):\n\nNext Meeting\n- Date:\n- Time:\n- Location:\n- Proposed Agenda Topics:\n\nAdjournment\n- Time of Adjournment:\n\nCertification\n- Minutes prepared by: (Name, Title, Date)\n- Minutes approved by: (Name, Title, Date)\n- Board approval date: (If approved at subsequent meeting)\n\nAppendices (list attachments referenced)\n- Appendix A:\n- Appendix B:",
+      "timestamp": "2025-11-01T17:31:05.830869Z",
+      "duration_seconds": 19.53,
+      "tokens": {
+        "input": 53,
+        "output": 1160,
+        "total": 1213
+      },
+      "cost_usd": 0.017559,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 7
+        },
+        "reasoning": "This is an exceptionally well-structured board minutes template that perfectly matches the FACTUAL/ORGANIZED tone requested. It goes beyond basic requirements to include governance best practices like quorum tracking, conflict declarations, and executive sessions. While comprehensive and professional, it feels somewhat generic and could have incorporated minor contextual elements specific to an education-focused nonprofit.",
+        "strengths": [
+          "Perfectly executes the factual/organized tone with clear hierarchical structure, consistent formatting, and objective language throughout",
+          "Exceeds completeness requirements by including governance essentials like quorum verification, conflict of interest tracking, consent agenda, and executive session documentation",
+          "Highly practical with actionable fields (ID numbers, status tracking, exact vote tallies) that facilitate real-world use and compliance",
+          "Excellent attention to legal/compliance details including notice requirements, recusals, certification section, and appendices for documentation",
+          "Smart organizational choices like numbering resolutions, separating consent items, and providing space for both summaries and detailed attachments"
+        ],
+        "weaknesses": [
+          "Lacks any customization to the education/STEM nonprofit context\u2014could have included fields relevant to teacher boards (e.g., district representation, educator-specific committee structures)",
+          "Somewhat formulaic and corporate-feeling; doesn't reflect the collaborative culture typical of professional associations or education nonprofits",
+          "May be overly comprehensive for a mid-size organization's regular meetings, potentially creating administrative burden without guidance on which sections are optional"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Board Meeting Minutes Template\n\n**Meeting Title:** [Insert Board Meeting Title]\n**Date:** [Insert Date]\n**Time:** [Insert Start Time] - [Insert End Time]\n**Location:** [Insert Location - e.g., Remote via Zoom, Boardroom, etc.]\n\n---\n\n**1. Attendees:**\n\n*   [Director Name 1] - [Title]\n*   [Director Name 2] - [Title]\n*   [Director Name 3] - [Title]\n*   [Director Name 4] - [Title]\n*   [Secretary Name] - [Title] (Minute Taker)\n*   [Guest Name 1 (if applicable)] - [Title/Affiliation]\n*   [Guest Name 2 (if applicable)] - [Title/Affiliation]\n\n**2. Absent:**\n\n*   [Director Name 1] - [Reason for Absence, if known, e.g., excused]\n*   [Director Name 2] - [Reason for Absence, if known, e.g., unexcused]\n\n**3. Call to Order:**\n\n*   The meeting was called to order by [Chairperson's Name] at [Insert Time].\n\n**4. Approval of Previous Meeting Minutes:**\n\n*   **Motion:** To approve the minutes from the [Previous Meeting Date] Board Meeting.\n*   **Moved by:** [Name of Mover]\n*   **Seconded by:** [Name of Seconder]\n*   **Vote:** Unanimously approved / Approved [X] votes for, [Y] votes against, [Z] abstentions.\n\n**5. Key Discussion Points:**\n\n**(A) [Agenda Item 1 Title]**\n    *   **Presenter:** [Name of Presenter]\n    *   **Summary of Discussion:**\n        *   [Concise summary of key points raised.]\n        *   [Relevant data or information presented.]\n        *   [Questions asked and responses provided.]\n        *   [Perspectives shared by various board members.]\n\n**(B) [Agenda Item 2 Title]**\n    *   **Presenter:** [Name of Presenter]\n    *   **Summary of Discussion:**\n        *   [Concise summary of key points raised.]\n        *   [Relevant data or information presented.]\n        *   [Questions asked and responses provided.]\n        *   [Perspectives shared by various board members.]\n\n**(C) [Agenda Item 3 Title]**\n    *   **Presenter:** [Name of Presenter]\n    *   **Summary of Discussion:**\n        *   [Concise summary of key points raised.]\n        *   [Relevant data or information presented.]\n        *   [Questions asked and responses provided.]\n        *   [Perspectives shared by various board members.]\n\n**6. Votes/Resolutions:**\n\n**(A) Resolution [Number]: [Brief Title of Resolution]**\n    *   **Motion:** \"Be it resolved that [full wording of the resolution].\"\n    *   **Moved by:** [Name of Mover]\n    *   **Seconded by:** [Name of Seconder]\n    *   **Discussion:** [Brief summary of discussion specific to the resolution, if any, not covered in Key Discussion Points.]\n    *   **Vote:** Unanimously carried / Carried [X] votes for, [Y] votes against, [Z] abstentions / Failed.\n\n**(B) Resolution [Number]: [Brief Title of Resolution]**\n    *   **Motion:** \"Be it resolved that [full wording of the resolution].\"\n    *   **Moved by:** [Name of Mover]\n    *   **Seconded by:** [Name of Seconder]\n    *   **Discussion:** [Brief summary of discussion specific to the resolution, if any, not covered in Key Discussion Points.]\n    *   **Vote:** Unanimously carried / Carried [X] votes for, [Y] votes against, [Z] abstentions / Failed.\n\n**7. Action Items:**\n\n| Item # | Description of Action | Owner(s) | Due Date | Status |\n| :----- | :-------------------- | :------- | :------- | :----- |\n| 7.1    | [Specific task to be completed] | [Name/Title] | [Date]   | Open   |\n| 7.2    | [Specific task to be completed] | [Name/Title] | [Date]   | Open   |\n| 7.3    | [Specific task to be completed] | [Name/Title] | [Date]   | Open   |\n| 7.4    | [Specific task to be completed] | [Name/Title] | [Date]   | Open   |\n\n**8. Next Meeting:**\n\n*   **Date:** [Insert Date]\n*   **Time:** [Insert Time]\n*   **Location:** [Insert Location]\n*   **Proposed Agenda Items:** [Optional - List any preliminary agenda items]\n\n**9. Adjournment:**\n\n*   The meeting was adjourned by [Chairperson's Name] at [Insert Time].\n\n---\n\n**Minutes Prepared By:**\n[Your Name/Secretary Name]\n[Your Title/Secretary Title]\n[Date of Preparation]\n\n**Approved By:**\n[Chairperson's Name]\n[Chairperson's Title]\n[Date of Approval]",
+      "timestamp": "2025-11-01T17:31:11.676042Z",
+      "duration_seconds": 5.84,
+      "tokens": {
+        "input": 50,
+        "output": 1140,
+        "total": 1190
+      },
+      "cost_usd": 0.000691,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 10,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 7
+        },
+        "reasoning": "This is a highly professional, well-structured board meeting minutes template that fulfills all prompt requirements with appropriate formality for a large environmental nonprofit. The organization is logical, the tone is appropriately factual and formal, and it includes all requested elements with helpful formatting. Minor weaknesses include somewhat generic placeholder text and a slightly robotic feel that could be improved with more natural language.",
+        "strengths": [
+          "Excellent structural organization with clear numbered sections covering all required elements (attendees, absent, votes/resolutions, discussion points, action items with owners/deadlines, next meeting)",
+          "Highly professional and appropriately formal tone matching both the FACTUAL/ORGANIZED requirement and the expectations for a $40M+ established nonprofit with scientists and former agency heads on the board",
+          "Outstanding action items table format with clear columns for description, owner, due date, and status - immediately usable and practical",
+          "Comprehensive votes/resolutions section with proper parliamentary procedure language (motion, moved by, seconded by, vote tallies)",
+          "Includes helpful administrative details like approval signatures, preparation dates, and call to order/adjournment times that demonstrate understanding of formal governance requirements"
+        ],
+        "weaknesses": [
+          "Placeholder text is somewhat generic and repetitive (e.g., multiple identical '[Concise summary of key points raised]' entries) rather than providing varied examples",
+          "The template feels slightly robotic due to excessive bracketed instructions - could benefit from one or two realistic examples to demonstrate usage",
+          "Missing optional but useful elements like 'Quorum established' notation or conflict of interest declarations that large nonprofits often include"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# BOARD OF DIRECTORS MEETING MINUTES\n\n**Organization Name:** [Company/Organization Name]\n**Meeting Date:** [Date]\n**Meeting Time:** [Start Time] \u2013 [End Time]\n**Location:** [Physical Address/Virtual Platform]\n\n---\n\n## 1. ATTENDEES\n\n**Present:**\n- [Name, Title]\n- [Name, Title]\n- [Name, Title]\n\n**Absent:**\n- [Name, Title] \u2013 [Excused/Unexcused]\n- [Name, Title] \u2013 [Excused/Unexcused]\n\n**Guests/Observers:**\n- [Name, Title/Affiliation]\n\n**Quorum Status:** [Established/Not Established]\n\n---\n\n## 2. CALL TO ORDER\n\nThe meeting was called to order at [Time] by [Name, Title].\n\n---\n\n## 3. APPROVAL OF PREVIOUS MINUTES\n\n**Motion:** To approve the minutes of the [Date] Board meeting.\n- **Moved by:** [Name]\n- **Seconded by:** [Name]\n- **Vote:** [Approved Unanimously / For: X, Against: X, Abstained: X]\n\n---\n\n## 4. KEY DISCUSSION POINTS\n\n### 4.1 [Topic/Agenda Item]\n- [Summary of discussion]\n- [Key points raised]\n- [Concerns or considerations noted]\n\n### 4.2 [Topic/Agenda Item]\n- [Summary of discussion]\n- [Key points raised]\n- [Concerns or considerations noted]\n\n---\n\n## 5. VOTES AND RESOLUTIONS\n\n### Resolution [Number]: [Title]\n**Description:** [Brief description of resolution]\n- **Moved by:** [Name]\n- **Seconded by:** [Name]\n- **Vote:** [Approved/Rejected] \u2013 [For: X, Against: X, Abstained: X]\n- **Status:** [Passed/Failed]\n\n### Resolution [Number]: [Title]\n**Description:** [Brief description of resolution]\n- **Moved by:** [Name]\n- **Seconded by:** [Name]\n- **Vote:** [Approved/Rejected] \u2013 [For: X, Against: X, Abstained: X]\n- **Status:** [Passed/Failed]\n\n---\n\n## 6. ACTION ITEMS\n\n| Item | Description | Owner | Deadline | Status |\n|------|-------------|-------|----------|--------|\n| 1 | [Action required] | [Name] | [Date] | Pending |\n| 2 | [Action required] | [Name] | [Date] | Pending |\n| 3 | [Action required] | [Name] | [Date] | Pending |\n\n---\n\n## 7. NEXT MEETING\n\n**Date:** [Date]\n**Time:** [Time]\n**Location:** [Location/Platform]\n**Proposed Agenda Items:**\n- [Item]\n- [Item]\n\n---\n\n## 8. ADJOURNMENT\n\n**Motion:** To adjourn the meeting.\n- **Moved by:** [Name]\n- **Seconded by:** [Name]\n- **Time:** [Time]\n\n---\n\n## CERTIFICATION\n\nThese minutes were recorded by [Name, Title] and are certified as accurate.\n\n**Secretary Signature:** _______________________  \n**Date:** _______________________\n\n**Approved by Board:**  \n**Chairperson Signature:** _______________________  \n**Date:** _______________________",
+      "timestamp": "2025-11-01T17:31:18.735893Z",
+      "duration_seconds": 12.9,
+      "tokens": {
+        "input": 61,
+        "output": 802,
+        "total": 863
+      },
+      "cost_usd": 0.012213,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a highly professional, well-structured board meeting minutes template that meets all prompt requirements with appropriate formality. The organization is excellent and the format would be immediately usable by nonprofit staff. However, it feels somewhat generic and doesn't incorporate any conservation/environmental nonprofit-specific elements that would make it feel tailored to Pacific Flyway Conservation Trust.",
+        "strengths": [
+          "Comprehensive structure covering all required elements: attendees, absences, votes/resolutions, discussion points, action items with owners/deadlines, and next meeting details",
+          "Excellent use of formal, factual tone appropriate for legal/governance documents with clear section headers and professional language",
+          "Highly practical format with useful features like quorum status, vote tallies, certification section, and action items table with status tracking",
+          "Clear formatting with numbered sections and consistent structure that would facilitate easy completion and reference"
+        ],
+        "weaknesses": [
+          "Generic placeholder '[Company/Organization Name]' instead of 'Pacific Flyway Conservation Trust' - missed opportunity to customize",
+          "No environmental nonprofit-specific elements (e.g., conservation committee reports, grant compliance, scientific advisory input) that would reflect the organization's mission",
+          "Somewhat robotic feel with extensive bracketed placeholders throughout - could have included one example entry to demonstrate proper usage",
+          "Category tag 'board' at the end appears to be metadata that shouldn't be visible in the final output"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "BOARD OF DIRECTORS MEETING MINUTES\n\nOrganization: [Name]\nDate: [YYYY\u2011MM\u2011DD]\nTime: [Start\u2013End, Time Zone]\nLocation: [Physical/Virtual + link]\nMeeting Type: [Regular/Special]\nChair: [Name]\nSecretary/Minute Taker: [Name]\nQuorum: [Yes/No]\nCall to Order: [HH:MM]\n\nAttendees (Directors)\n- [Name, Title]\n- [Name, Title]\n\nOther Participants (Non\u2011Directors)\n- [Name, Role]\n- [Name, Role]\n\nAbsent\n- With regrets: [Names]\n- Absent: [Names]\n\nAgenda\n- [Brief list or reference to circulated agenda]\n\nApproval of Agenda\n- Motion: [Text]\n- Moved by: [Name]\n- Seconded by: [Name]\n- Vote: For [#], Against [#], Abstain [#]\n- Outcome: [Carried/Defeated]\n\nApproval of Prior Minutes\n- Meeting date: [YYYY\u2011MM\u2011DD]\n- Corrections: [If any]\n- Motion/Vote/Outcome: [Details]\n\nKey Discussion Points\n- Item [#]: [Topic]\n  - Summary: [Concise factual notes]\n  - Decisions (if any): [Text]\n- Item [#]: [Topic]\n  - Summary: [Notes]\n  - Decisions: [Text]\n\nVotes and Resolutions\n- Resolution/Motion [ID or Title]\n  - Text: [Exact wording]\n  - Moved by: [Name]\n  - Seconded by: [Name]\n  - Vote: For [#], Against [#], Abstain [#], Recused [#]\n  - Outcome: [Carried/Defeated]\n  - Effective Date: [YYYY\u2011MM\u2011DD]\n  - Responsible Party for Implementation: [Name/Role]\n\nAction Items\n- [ID] [Action description]\n  - Owner: [Name/Role]\n  - Deadline: [YYYY\u2011MM\u2011DD]\n- [ID] [Action description]\n  - Owner: [Name/Role]\n  - Deadline: [YYYY\u2011MM\u2011DD]\n\nOther Business\n- [Items]\n\nNext Meeting\n- Date: [YYYY\u2011MM\u2011DD]\n- Time: [HH:MM, Time Zone]\n- Location: [Physical/Virtual + link]\n- Agenda submissions due by: [YYYY\u2011MM\u2011DD HH:MM]\n\nAdjournment\n- Time: [HH:MM]\n\nAttachments\n- [List filenames/links]\n\nPrepared by\n- [Name], [Role], [Date]\n\nApproval of Minutes\n- Approved by the Board on: [YYYY\u2011MM\u2011DD]\n- Chair: [Name/Signature]\n- Secretary: [Name/Signature]",
+      "timestamp": "2025-11-01T17:31:37.570307Z",
+      "duration_seconds": 31.74,
+      "tokens": {
+        "input": 55,
+        "output": 1792,
+        "total": 1847
+      },
+      "cost_usd": 0.027045,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally well-structured board minutes template that perfectly matches the FACTUAL/ORGANIZED tone requested. It includes all required elements with professional formatting appropriate for a large, established nonprofit like Pacific Flyway Conservation Trust. The template is comprehensive, legally sound, and immediately usable.",
+        "strengths": [
+          "Excellent organizational structure with clear hierarchical sections that follow nonprofit governance best practices",
+          "Comprehensive coverage of all prompt requirements: attendees, absent members, votes/resolutions with detailed vote counts, key discussion points, action items with owners and deadlines, and next meeting details",
+          "Professional formatting with bracketed placeholders that make it easy to fill in actual information",
+          "Includes important governance elements beyond the basic requirements: quorum notation, recusal tracking, resolution effective dates, approval signatures, and attachments section",
+          "Perfectly matches the FACTUAL/ORGANIZED tone with formal language, precise formatting, and structured data fields",
+          "Legally appropriate with proper documentation of motions, votes, and approvals suitable for a $40M+ organization",
+          "Practical features like meeting ID, time zones, agenda submission deadlines, and responsible parties for implementation"
+        ],
+        "weaknesses": [
+          "Slightly generic in that it doesn't incorporate any conservation/environmental-specific elements that might be relevant to Pacific Flyway Conservation Trust (though this actually increases its versatility)",
+          "Could optionally include a 'Conflicts of Interest Declared' section, which is common for large nonprofits with corporate partnerships"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1012,
+    "average_score": 8.69
+  }
+}
