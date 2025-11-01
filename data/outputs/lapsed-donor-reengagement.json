@@ -1,0 +1,421 @@
+{
+  "prompt_id": "lapsed-donor-reengagement",
+  "prompt_text": "Write a warm, non-pressuring email to re-engage a donor who last gave [TIME PERIOD]\nago to [ORGANIZATION NAME]. The letter should:\n\n- Acknowledge the time since their last gift warmly, without guilt or blame\n- Express that they're missed and their support mattered\n- Provide a brief, compelling update on what's happened since they last gave\n- Reference their last gift: [LAST GIFT DETAILS]\n- Share one exciting development or recent win they'd care about\n- Make it easy for them to reconnect with a simple, low-barrier ask\n- Offer multiple ways to re-engage: [donate/volunteer/attend event/take survey/just stay in touch]\n- Emphasize \"we'd love to have you back\" not \"we need your money\"\n- Be 150-250 words (shorter than normal - respect their time)\n- Use a [WARM/FRIENDLY/CASUAL] tone\n- End with genuine invitation to reply\n- Be signed by [SIGNER NAME and TITLE]\n\nThe email should acknowledge the relationship lapse without making the donor feel\nbad, focus on progress and impact, and provide an easy, pressure-free path back\nto engagement.",
+  "category": "fundraising",
+  "generated_at": "2025-11-01T17:02:02.565143Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "A neighborhood-based youth arts nonprofit on Chicago\u2019s South Side (staff of 6) serving local teens with free after-school and summer programs; primarily supported by small individual donors in an urban context.",
+      "values": {
+        "TIME PERIOD": "18 months",
+        "ORGANIZATION NAME": "South Side Youth Arts Collective",
+        "LAST GIFT DETAILS": "$50 during our 2023 Back-to-School Art Supply Drive",
+        "donate/volunteer/attend event/take survey/just stay in touch": "donate, volunteer as a studio helper, attend our First Friday Open Studio, take a 2-minute feedback survey, or just stay in touch",
+        "WARM/FRIENDLY/CASUAL": "friendly",
+        "SIGNER NAME and TITLE": "Marisol Vega, Executive Director"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "A regional nonprofit consortium improving rural health across Appalachia (35 staff) working with clinics and hospitals; donor base includes healthcare professionals and community advocates across small towns and rural counties.",
+      "values": {
+        "TIME PERIOD": "2 years",
+        "ORGANIZATION NAME": "Appalachian Rural Health Network",
+        "LAST GIFT DETAILS": "$500 in November 2023 to launch our Telehealth Navigation Pilot",
+        "donate/volunteer/attend event/take survey/just stay in touch": "donate, volunteer remotely as a patient portal tutor, attend our upcoming Rural Health Policy Briefing webinar, take a quick 3-question survey, or just stay in touch",
+        "WARM/FRIENDLY/CASUAL": "warm",
+        "SIGNER NAME and TITLE": "Dr. Lena Whitaker, Director of Advancement"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "A large metropolitan food bank serving a multi-county region around Washington, DC (150+ staff) with a robust network of pantries and corporate partners; significant base of monthly individual donors.",
+      "values": {
+        "TIME PERIOD": "about 14 months",
+        "ORGANIZATION NAME": "Greater Capital Area Food Bank",
+        "LAST GIFT DETAILS": "your last monthly gift of $25 in July 2024 as a Plate Partners member",
+        "donate/volunteer/attend event/take survey/just stay in touch": "restart a monthly gift, volunteer on a warehouse shift, attend a 30-minute facility tour, take a 1-minute check-in survey, or just stay in touch",
+        "WARM/FRIENDLY/CASUAL": "casual",
+        "SIGNER NAME and TITLE": "Aisha Rahman, Chief Development Officer"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Subject: Thinking of you, [Donor Name] \u2013 South Side Youth Arts Collective Update!\n\nDear [Donor Name],\n\nIt\u2019s been a little while \u2013 about 18 months, if my memory serves \u2013 since your thoughtful $50 gift during our 2023 Back-to-School Art Supply Drive. We wanted to reach out because your support truly made a difference then, and we've missed having you as part of the South Side Youth Arts Collective family!\n\nSince your last donation, we\u2019ve been busy fostering creativity and confidence in young artists. We've expanded our after-school programs to include digital arts, reaching even more aspiring creators in our community. One exciting recent development is our new partnership with the local library, which allowed us to launch a summer-long mural project, transforming a previously neglected wall into a vibrant community masterpiece \u2013 entirely designed and painted by our students!\n\nWe'd love to have you back involved in whatever way feels right for you. There's absolutely no pressure, but if you're curious about what we're up to, here are a few ways to reconnect:\n\n*   **Make a gift** to help us continue our work.\n*   **Volunteer as a studio helper** \u2013 no art experience needed, just a passion for supporting young people!\n*   **Join us at our next First Friday Open Studio** to see our students' incredible art firsthand.\n*   **Take a quick 2-minute feedback survey** to share your thoughts.\n*   Or simply **reply to this email** and say hello \u2013 we'd genuinely love to hear from you.\n\nHowever you choose to re-engage, we appreciate you and everything you've done for our students.\n\nWarmly,\n\nMarisol Vega\nExecutive Director\nSouth Side Youth Arts Collective",
+      "timestamp": "2025-11-01T17:00:40.543262Z",
+      "duration_seconds": 2.9,
+      "tokens": {
+        "input": 278,
+        "output": 376,
+        "total": 654
+      },
+      "cost_usd": 0.000267,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a strong, usable email that hits nearly all requirements with appropriate warmth and no guilt-tripping. The tone is friendly and inviting, the structure is clear, and it provides multiple low-barrier re-engagement options. Minor weaknesses include slightly generic phrasing in places and the word count exceeding the requested maximum.",
+        "strengths": [
+          "Excellent adherence to the 'no pressure' directive - emphasizes 'we'd love to have you back' over financial need",
+          "Specific, compelling program update (digital arts expansion and library mural partnership) that demonstrates tangible progress",
+          "Well-structured list of re-engagement options with helpful details (e.g., 'no art experience needed')",
+          "Strong subject line that's warm and informative without being manipulative",
+          "Genuine invitation to reply and multiple pathways back to engagement",
+          "Appropriately acknowledges the time lapse without blame ('It's been a little while')"
+        ],
+        "weaknesses": [
+          "Word count is approximately 270 words, exceeding the requested 150-250 word range",
+          "Some phrases feel slightly templated ('if my memory serves,' 'fostering creativity and confidence') rather than fully authentic",
+          "The bullet point formatting, while clear, may feel slightly corporate for a small community org's 'friendly' tone - a more conversational approach might be warmer"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "Subject: We've missed you, [First Name]!\n\nDear [First Name],\n\nIt's been a while since we've connected\u2014I noticed your wonderful $50 gift during our 2023 Back-to-School Art Supply Drive, and I wanted to reach out personally to say your support truly mattered.\n\nSo much has happened since then! Those art supplies? They helped launch what became our most attended semester ever. This past spring, we served 127 young artists (up from 64 when you last gave), and one of our students just won a citywide mural design competition. Her piece will go up on the corner of 47th and Ashland this summer!\n\nI know life gets busy and inboxes overflow. No guilt\u2014just wanted you to know **you're missed**, and we'd genuinely love to have you back in our community however feels right.\n\nA few easy ways to reconnect:\n- Stop by our **First Friday Open Studio** (May 2, 6-8pm) for snacks and student artwork\n- Volunteer as a studio helper (flexible schedules!)\n- Share your thoughts in this [2-minute survey]\n- Or simply give again, any amount: [donation link]\n\nWhatever works for you\u2014or just reply to say hello. I read every message.\n\nHope to see you soon!\n\nWarmly,\n\n**Marisol Vega**  \nExecutive Director  \nSouth Side Youth Arts Collective",
+      "timestamp": "2025-11-01T17:00:48.761526Z",
+      "duration_seconds": 11.12,
+      "tokens": {
+        "input": 289,
+        "output": 320,
+        "total": 609
+      },
+      "cost_usd": 0.005667,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly effective re-engagement email that successfully balances warmth with impact storytelling. It fulfills nearly all prompt requirements with authentic voice and actionable options. The tone is appropriately friendly without being overly casual, and it genuinely avoids guilt-tripping while making reconnection easy and appealing.",
+        "strengths": [
+          "Excellent opening that acknowledges the lapse warmly and specifically references the last gift without any guilt",
+          "Compelling concrete impact update (127 vs 64 students, mural competition win with specific location) that demonstrates tangible progress",
+          "Strong variety of low-barrier re-engagement options presented in scannable format with specific details (date/time for event)",
+          "Perfect word count (237 words) that respects donor's time while being substantive",
+          "Authentic personal touches like 'I read every message' and the invitation to 'just reply to say hello'",
+          "Subject line is warm and personal without being manipulative",
+          "The bolded emphasis on 'you're missed' and event name aids scannability without being excessive"
+        ],
+        "weaknesses": [
+          "Minor: The bracketed placeholders [2-minute survey] and [donation link] should ideally show actual URLs or be formatted as buttons in the final version",
+          "The phrase 'I know life gets busy and inboxes overflow' is slightly generic and could be more specific to this donor relationship",
+          "Could potentially include one more sentence directly connecting the donor's original gift to the current success story for stronger personalization"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Hi [First Name],\n\nI hope you\u2019re well. It\u2019s been a little while\u2014about 18 months since your $50 gift during our 2023 Back-to-School Art Supply Drive\u2014and we just wanted to say we miss you. Your support helped stock our studios for the fall rush, and those brushes and sketchbooks are still sparking ideas.\n\nSince then, South Side Youth Arts Collective has grown: we added two after-school studios, welcomed 140 new teens, and 93% of participants reported feeling more confident sharing their work. A recent highlight we think you\u2019d enjoy: our youth-designed community mural won the City Arts Council\u2019s Youth Showcase award!\n\nIf you\u2019re up for reconnecting (no pressure), here are a few easy ways:\n- Make a gift of any size (donate link)\n- Volunteer as a studio helper, even once (signup link)\n- Drop by our First Friday Open Studio to see the art in person (RSVP link)\n- Take a 2-minute feedback survey to shape what we do next (survey link)\n- Or simply hit reply and stay in touch\n\nWe\u2019d love to have you back in whatever way feels good right now. I\u2019d love to hear how you\u2019re doing\u2014reply anytime.\n\nWarmly,\nMarisol Vega\nExecutive Director\nSouth Side Youth Arts Collective",
+      "timestamp": "2025-11-01T17:00:53.774961Z",
+      "duration_seconds": 16.14,
+      "tokens": {
+        "input": 266,
+        "output": 1809,
+        "total": 2075
+      },
+      "cost_usd": 0.027933,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, well-crafted re-engagement email that successfully balances warmth with substance. It hits all required elements, maintains appropriate length (237 words), and provides concrete impact data without being pushy. The tone is genuinely friendly and the multiple engagement options are well-presented.",
+        "strengths": [
+          "Excellent non-pressuring language throughout ('no pressure,' 'whatever way feels good,' 'we miss you' vs 'we need you')",
+          "Specific, compelling impact metrics (140 new teens, 93% confidence increase, award win) that demonstrate organizational growth",
+          "Well-structured multiple engagement pathways with clear hierarchy and helpful parenthetical indicators for links",
+          "Strong personalization with specific gift reference that shows donor tracking and appreciation",
+          "Authentic voice appropriate for small community nonprofit\u2014conversational without being unprofessional",
+          "Effective opening that acknowledges time lapse warmly and immediately connects past gift to tangible impact",
+          "Genuine invitation to dialogue with 'I'd love to hear how you're doing' creating two-way relationship"
+        ],
+        "weaknesses": [
+          "Placeholder '[First Name]' should ideally be noted as a merge field with formatting convention (e.g., {{FirstName}})",
+          "Link indicators '(donate link)' are helpful but could specify they're placeholders for the actual implementation",
+          "Minor: Could strengthen the mural win detail with one more sensory or emotional element to make it more vivid"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Subject: A Warm Hello from Appalachian Rural Health Network!\n\nDear [Donor Name],\n\nIt's been a little while since your generous $500 gift in November 2023 helped launch our Telehealth Navigation Pilot, and we've truly missed your partnership. Your support was invaluable then, and it continues to resonate in the work we do every day.\n\nSince your last gift, we've seen incredible growth. That pilot you helped fund? It's now a fully integrated program, connecting over 2,500 rural residents to vital virtual care. Our proudest recent win is securing a grant to expand mental health telehealth services, reaching even more communities struggling with access.\n\nWe\u2019d love to have you back in our community! There are many ways to reconnect, with no pressure at all:\n\n*   Could you consider a gift to continue our momentum?\n*   Perhaps you'd enjoy volunteering remotely as a patient portal tutor?\n*   Join us for our upcoming Rural Health Policy Briefing webinar to stay informed.\n*   Or simply share your thoughts through our quick 3-question survey.\n*   Even just replying to say hello would be wonderful!\n\nThank you for everything. We genuinely value your past involvement and would be delighted to welcome you back in any capacity.\n\nWarmly,\n\nDr. Lena Whitaker\nDirector of Advancement\nAppalachian Rural Health Network",
+      "timestamp": "2025-11-01T17:00:56.400276Z",
+      "duration_seconds": 2.62,
+      "tokens": {
+        "input": 282,
+        "output": 287,
+        "total": 569
+      },
+      "cost_usd": 0.000214,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, usable email that hits nearly all requirements with appropriate warmth and no guilt-tripping. The tone is excellent and the structure is clear. However, there are minor issues: the word count exceeds the 250-word limit (reaching approximately 185 words in body, but the bulleted list format makes it feel longer), and the subject line could be more personalized and compelling for a lapsed donor.",
+        "strengths": [
+          "Excellent non-pressuring tone that genuinely emphasizes 'we'd love to have you back' over financial need",
+          "Strong impact update with specific numbers (2,500 residents) that directly connects to the donor's original gift",
+          "Clear, well-organized multiple engagement options presented without hierarchy or pressure",
+          "Authentic warm language ('we've truly missed your partnership') that acknowledges the relationship gap without blame",
+          "Effective use of 'even just replying to say hello' as the lowest-barrier option"
+        ],
+        "weaknesses": [
+          "Subject line is generic and doesn't create urgency or personalization for a lapsed donor re-engagement email",
+          "The phrase 'with no pressure at all' is slightly over-explicit and could be removed to maintain subtlety",
+          "Word count appears to slightly exceed the 150-250 range depending on how bullets are counted, making it less concise than requested",
+          "Missing [Donor Name] personalization flag in greeting could be made more obvious for the user"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**Subject: We've missed you, [First Name]**\n\nDear [First Name],\n\nIt's been a while since we've been in touch, and I wanted to reach out personally to say hello\u2014and that we've missed having you as part of our community.\n\nYour generous $500 gift in November 2023 helped launch our Telehealth Navigation Pilot, and I thought you'd want to know: it's thriving. We've now helped 1,200+ rural patients connect with specialists they couldn't otherwise reach. Your early support made that possible.\n\nSince you last gave, we've seen something beautiful\u2014our patient portal adoption rate jumped from 12% to 68% because we started offering one-on-one tutoring. Turns out, technology isn't the barrier; it's having someone to walk alongside you.\n\nIf you'd like to reconnect, we'd love to have you back in whatever way feels right:\n- Make a gift of any size\n- Volunteer remotely as a patient portal tutor (just 2 hours/month)\n- Join our Rural Health Policy Briefing webinar (March 15)\n- Take our quick 3-question supporter survey\n- Simply stay in touch\n\nNo pressure\u2014truly. I just wanted you to know the door is always open, and you're always welcome here.\n\nWould love to hear from you.\n\nWarmly,\n\n**Dr. Lena Whitaker**  \nDirector of Advancement  \nAppalachian Rural Health Network",
+      "timestamp": "2025-11-01T17:01:02.370433Z",
+      "duration_seconds": 8.59,
+      "tokens": {
+        "input": 304,
+        "output": 330,
+        "total": 634
+      },
+      "cost_usd": 0.005862,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally well-crafted re-engagement email that strikes the perfect balance between warmth and professionalism. It fulfills nearly all requirements with authentic language that sounds genuinely human, not AI-generated. The specific impact metrics and storytelling about the telehealth pilot create compelling reasons to reconnect without any pressure.",
+        "strengths": [
+          "Perfect warm tone with phrases like 'we've missed having you' and 'No pressure\u2014truly' that feel genuine and non-manipulative",
+          "Excellent impact reporting with specific, credible metrics (1,200+ patients, 12% to 68% adoption rate) that validate the donor's original investment",
+          "Strong storytelling insight ('technology isn't the barrier; it's having someone to walk alongside you') that's memorable and mission-aligned",
+          "Comprehensive list of re-engagement options presented without hierarchy or pressure",
+          "Appropriate length at approximately 180 words, respecting donor's time as requested",
+          "Natural, conversational language throughout that avoids nonprofit jargon",
+          "Effective subject line that's personal and curiosity-inducing without being clickbait-y"
+        ],
+        "weaknesses": [
+          "The webinar date (March 15) is a placeholder that could become outdated\u2014would be better as '[DATE]' or 'upcoming' without specifics",
+          "Minor: Could potentially add one more sentence acknowledging that life gets busy/priorities shift to further reduce any residual guilt"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear [First Name],\n\nI hope you\u2019re well. It\u2019s been about two years since your generous $500 gift in November 2023 to help launch our Telehealth Navigation Pilot. We\u2019ve missed you\u2014and I want you to know your support truly mattered.\n\nBecause of donors like you, the pilot has grown from a small test into a service used in 9 clinics across 6 counties. More than 1,300 patients have received one\u2011on\u2011one help to activate portals, connect to visits, and manage prescriptions, contributing to a 27% drop in missed appointments. A recent win we\u2019re excited about: we secured a state partnership to bring telehealth navigation to every critical\u2011access hospital in our region next year.\n\nIf you\u2019d like to reconnect, we\u2019d love to have you back\u2014on your terms:\n- Make a renewed gift of any size\n- Volunteer remotely as a patient\u2011portal tutor (we train you)\n- Attend our upcoming Rural Health Policy Briefing webinar (reply for the Zoom link)\n- Take our 3\u2011question check\u2011in survey (I\u2019ll send it)\n- Or simply stay in touch and tell us what you care about\n\nNo pressure\u2014just an open door. If you hit reply, I\u2019m happy to share details or hear how you\u2019re doing.\n\nWith appreciation,\n\nDr. Lena Whitaker\nDirector of Advancement\nAppalachian Rural Health Network",
+      "timestamp": "2025-11-01T17:01:21.822293Z",
+      "duration_seconds": 28.05,
+      "tokens": {
+        "input": 273,
+        "output": 2848,
+        "total": 3121
+      },
+      "cost_usd": 0.043539,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally strong re-engagement email that perfectly balances warmth with professionalism. It fulfills nearly all requirements, provides compelling impact data, and creates multiple low-pressure pathways back to engagement. The tone is authentic and relationship-focused rather than transactional.",
+        "strengths": [
+          "Excellent tone calibration\u2014warm without being overly casual, acknowledges the gap without guilt ('We've missed you' vs. 'Where have you been?')",
+          "Specific, compelling impact metrics (9 clinics, 6 counties, 1,300 patients, 27% improvement) that directly connect to the donor's original gift",
+          "Outstanding variety of re-engagement options presented clearly with helpful details (e.g., 'we train you,' 'reply for the Zoom link')",
+          "Perfect length at approximately 180 words\u2014respects donor's time as requested",
+          "Strong recent win (state partnership expansion) that shows momentum and validates the donor's initial investment",
+          "Genuine invitation to reply that feels conversational ('hear how you're doing') rather than purely transactional",
+          "Effective use of 'on your terms' and 'no pressure\u2014just an open door' language that reduces barrier to re-engagement"
+        ],
+        "weaknesses": [
+          "Minor timeline inconsistency: 'November 2023' was only about 1 year ago from late 2024, not 2 years\u2014though this reflects the scenario data provided, not the AI's error",
+          "Could potentially add one brief sentence about why the donor's perspective/input specifically would be valued, to further personalize"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Subject: Thinking of you and the impact you made!\n\nHi [Donor Name],\n\nIt\u2019s been a little while \u2013 about 14 months since your last monthly gift of $25 as a Plate Partners member in July 2024 \u2013 and we wanted to reach out. We've truly missed your consistent support and the incredible difference it made in fighting hunger in our community.\n\nSince you last gave, we've seen an even greater need, but also amazing progress thanks to allies like you. For example, your past generosity helped us launch our new \"Fresh Food Access Initiative,\" bringing nutritious produce directly to underserved neighborhoods, something we know our Plate Partners truly value.\n\nWe'd absolutely love to have you back in whatever capacity feels right. If you're open to it, would you consider restarting your monthly gift, maybe signing up for a volunteer shift at the warehouse, attending a quick 30-minute facility tour to see us in action, or even just taking a 1-minute survey to share your thoughts? Even if you just want to stay in touch, we'd love that too!\n\nNo pressure at all, but we\u2019d genuinely love to hear from you. Just hit reply to this email!\n\nWarmly,\n\nAisha Rahman\nChief Development Officer\nGreater Capital Area Food Bank",
+      "timestamp": "2025-11-01T17:01:23.881067Z",
+      "duration_seconds": 2.06,
+      "tokens": {
+        "input": 289,
+        "output": 272,
+        "total": 561
+      },
+      "cost_usd": 0.000207,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 8,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, usable email that hits most requirements effectively. The tone is appropriately casual and warm without pressure, and it successfully avoids guilt-tripping. Minor weaknesses include slightly exceeding the word count (approximately 190 words, which is acceptable but could be tighter) and one structural issue where the impact update feels somewhat generic.",
+        "strengths": [
+          "Excellent non-pressuring language throughout - phrases like 'whatever capacity feels right' and 'No pressure at all' set the right tone",
+          "Successfully includes all five re-engagement options naturally without feeling like a laundry list",
+          "Strong subject line that's warm and impact-focused rather than guilt-based",
+          "Specific acknowledgment of their Plate Partners membership status shows personalization and relationship history",
+          "Genuine invitation to reply is clear and low-barrier",
+          "The casual tone is well-executed with conversational phrases like 'It's been a little while' and 'we'd love that too'"
+        ],
+        "weaknesses": [
+          "The 'Fresh Food Access Initiative' example feels somewhat generic and could be more compelling with a specific outcome or statistic",
+          "Minor timing inconsistency: 'July 2024' as 14 months ago would place this email in September 2025, which may confuse some readers if used as a template",
+          "The phrase 'we've seen an even greater need' could inadvertently sound like a guilt trigger for some donors, though it's mild"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**Subject: We've missed you!**\n\nHi [First Name],\n\nIt's been a little while since your last Plate Partners gift in July 2024, and I wanted to reach out personally\u2014not with any pressure, just to say we've missed having you as part of our community.\n\nYour $25 monthly gifts truly mattered. They helped us provide consistent support to families who count on us, and I hope you felt good about being part of that.\n\nSince you last gave, we've had some exciting changes! We just expanded our weekend distribution program, which means kids who rely on school meals now get nutritious food to take home on Fridays. It's already reaching 1,200+ children across the region.\n\nLife gets busy, and I completely understand if Greater Capital Area Food Bank has slipped down your priority list. But if you've been thinking about reconnecting, we'd genuinely love to have you back\u2014in whatever way works for you:\n\n- Restart your monthly Plate Partners gift\n- Volunteer for a warehouse shift\n- Join us for a quick 30-minute facility tour\n- Take our 1-minute supporter survey\n- Or just reply and say hello!\n\nNo wrong answer. We're just glad you're part of our story.\n\nWarmly,\n\nAisha Rahman  \nChief Development Officer  \nGreater Capital Area Food Bank",
+      "timestamp": "2025-11-01T17:01:30.193483Z",
+      "duration_seconds": 8.37,
+      "tokens": {
+        "input": 297,
+        "output": 295,
+        "total": 592
+      },
+      "cost_usd": 0.005316,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally well-crafted re-engagement email that nails the non-pressuring, warm tone while hitting all major requirements. It feels authentic and relationship-focused rather than transactional. The only minor issues are the word count slightly exceeding the limit and the subject line could be more specific.",
+        "strengths": [
+          "Perfect execution of non-pressuring tone with phrases like 'not with any pressure' and 'No wrong answer' that genuinely reduce donor guilt",
+          "Excellent acknowledgment of relationship lapse ('Life gets busy, and I completely understand if...we've slipped down your priority list') that normalizes the gap without blame",
+          "Compelling, specific impact update (weekend distribution program reaching 1,200+ children) that's concrete and emotionally resonant",
+          "Strong variety of re-engagement options presented in scannable bullet format, from high-commitment (monthly giving) to zero-barrier (just reply)",
+          "Authentic voice throughout that sounds like a real CDO writing personally, not a mass email",
+          "Smart reference to their specific membership tier (Plate Partners) that personalizes the message",
+          "Effective closing line ('We're just glad you're part of our story') that emphasizes belonging over transactions"
+        ],
+        "weaknesses": [
+          "Word count is approximately 185-190 words in the body, which is within range but on the higher end of the 150-250 target",
+          "Subject line 'We've missed you!' is warm but generic\u2014could be more specific or intriguing to improve open rates",
+          "Minor timing inconsistency: says 'about 14 months' in scenario but July 2024 to current would be closer to 8-9 months depending on when sent (though this may be intentional flexibility)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Hi [First Name],\n\nIt\u2019s been a little while since we connected\u2014life gets busy! I just wanted to say we\u2019ve missed you. Your last monthly gift of $25 in July 2024, as a Plate Partners member, helped neighbors sit down to nourishing meals, and that support truly mattered.\n\nQuick update since then: we\u2019ve grown our partner pantry network, moved more fresh produce through new farm partnerships, and streamlined our warehouse so food gets where it\u2019s needed faster. One win we\u2019re excited about: we launched a new Mobile Market route that brings groceries directly to senior apartment communities\u2014meeting folks right where they are.\n\nIf you ever want to reconnect, we\u2019d love to have you back\u2014no pressure at all. A few easy options:\n- Restart a monthly gift (even picking back up at $25)\n- Volunteer on a warehouse shift\n- Join a 30-minute facility tour\n- Take a 1-minute check-in survey\n- Or simply stay in touch\n\nIf any of that sounds good, use these quick links [restart monthly gift] [volunteer] [tour] [survey], or just hit reply and I\u2019ll get you set up\u2014whatever\u2019s easiest.\n\nThanks for being part of the Greater Capital Area Food Bank community. We\u2019re grateful for you, whether you re-engage now or down the road. I\u2019d love to hear how you\u2019ve been.\n\nWarmly,\nAisha Rahman\nChief Development Officer\nGreater Capital Area Food Bank",
+      "timestamp": "2025-11-01T17:01:50.423674Z",
+      "duration_seconds": 28.6,
+      "tokens": {
+        "input": 277,
+        "output": 1968,
+        "total": 2245
+      },
+      "cost_usd": 0.030351,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, well-crafted re-engagement email that successfully balances warmth with professionalism. It hits all major requirements, maintains an appropriately casual tone without being unprofessional, and provides concrete, actionable next steps. The email feels genuine and would likely resonate with lapsed donors.",
+        "strengths": [
+          "Excellent non-guilt opening ('life gets busy') that normalizes the lapse without blame",
+          "Specific, compelling impact update (Mobile Market to senior communities) that's concrete and emotionally resonant",
+          "Well-structured multiple engagement options with clear hierarchy and easy-to-scan formatting",
+          "Strong closing that removes pressure ('whether you re-engage now or down the road') while maintaining warmth",
+          "Appropriate length at approximately 220 words, respecting donor time as requested",
+          "Casual tone is well-calibrated\u2014friendly without being overly informal for a CDO signature"
+        ],
+        "weaknesses": [
+          "Placeholder links [restart monthly gift] should be formatted as actual hyperlinks or with clearer instruction for implementation",
+          "Minor word count concern: while close to target, it's on the higher end and could be tightened slightly",
+          "The phrase 'I'll get you set up' might feel slightly transactional; 'I'll help connect you' could be warmer",
+          "Missing personalization token guidance (shows [First Name] but doesn't note this needs mail merge)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1194,
+    "average_score": 8.6
+  }
+}
