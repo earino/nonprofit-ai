@@ -267,6 +267,37 @@
 
 ## Phase 5: Content Creation (60-80 Prompts)
 
+### 5.0 OpenRouter Automation Strategy
+
+**Approach**: Use OpenRouter API to generate multi-model example outputs for all prompts.
+
+**Rationale:**
+- Provides actual outputs from multiple AI models (ChatGPT, Claude, Gemini)
+- Allows users to compare model performance for their specific needs
+- Validates that prompts produce usable results
+- Reduces manual effort in creating example content
+
+**Technical Implementation:**
+- [ ] Build Python script: `scripts/generate-examples.py`
+- [ ] Use OpenRouter API (single API key for multiple model providers)
+- [ ] Target models: `openai/gpt-4o`, `anthropic/claude-3.5-sonnet`, `google/gemini-pro-1.5`
+- [ ] Script reads markdown files, extracts prompt text, calls APIs, updates markdown
+- [ ] Estimated cost: ~$15-25 for all 80 prompts × 3 models
+- [ ] Add `.env.example` with `OPENROUTER_API_KEY=your_key_here`
+- [ ] Update `.gitignore` to exclude `.env`
+
+**Workflow:**
+1. Write prompt markdown file (prompt text only, no examples)
+2. Run `python scripts/generate-examples.py --prompt filename`
+3. Script generates 3 example outputs and updates markdown
+4. Review outputs, refine prompt if needed, commit
+
+**Benefits:**
+- Scalable regeneration of examples if prompts are updated
+- Quality validation (poor outputs indicate prompt needs revision)
+- Demonstrates tested, working prompts
+- Platform-agnostic approach for users
+
 ### 5.1 Fundraising & Development (25 prompts)
 #### Donor Communications (8 prompts)
 - [ ] Thank-you letter - first-time donor under $100

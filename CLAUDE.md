@@ -156,6 +156,17 @@ When adding new prompts:
 5. **Pro tips matter**: These differentiate good prompts from great ones
 6. **Mobile-friendly**: Keep prompts scannable, use lists, short paragraphs
 
+## Documentation Style
+
+When writing or updating documentation (PROJECT_PLAN.md, CLAUDE.md, README, etc.):
+
+- Use professional, measured language
+- Avoid superlatives ("brilliant", "amazing", "incredible")
+- Avoid marketing-speak or promotional tone
+- State facts and rationale objectively
+- Use "provides", "allows", "enables" instead of "is awesome at"
+- Documentation should be informative, not enthusiastic
+
 ## Tech Stack
 
 - **Astro 5.x**: Static site generator, content collections, zero JS by default
