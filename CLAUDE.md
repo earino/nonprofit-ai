@@ -167,6 +167,17 @@ When writing or updating documentation (PROJECT_PLAN.md, CLAUDE.md, README, etc.
 - Use "provides", "allows", "enables" instead of "is awesome at"
 - Documentation should be informative, not enthusiastic
 
+## Statistics and Citations
+
+When using statistics, data, or research findings anywhere on the site:
+
+- **Always cite sources** with links to original research, reports, or authoritative sources
+- Format citations clearly (e.g., "According to [Source Name](url), X% of nonprofits...")
+- Use recent data (preferably within 2 years)
+- Verify statistics are accurate and from credible sources
+- Link to publicly accessible sources when possible
+- Do not use statistics without attribution
+
 ## Tech Stack
 
 - **Astro 5.x**: Static site generator, content collections, zero JS by default

@@ -1,0 +1,422 @@
+{
+  "prompt_id": "event-invitation-copy",
+  "prompt_text": "Write invitation for [EVENT NAME] hosted by [ORGANIZATION] on [DATE] at [LOCATION]. Include: what/when/where, why attend, who else attending, agenda highlights, RSVP info, dress code if relevant. Create excitement. 200-300 words. [INVITING/EXCITING] tone.",
+  "category": "events",
+  "generated_at": "2025-11-01T17:09:24.763717Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "A small, volunteer-led food justice collective in rural Vermont improving food access and supporting local growers; invites neighbors, volunteers, and small donors from the county.",
+      "values": {
+        "EVENT NAME": "Harvest Supper & Seed Swap",
+        "ORGANIZATION": "Pine Ridge Community Food Collective",
+        "DATE": "May 17, 2025, 5:30\u20138:30 p.m.",
+        "LOCATION": "Pine Ridge Grange Hall, 214 County Rd 12, Pine Ridge, VT",
+        "INVITING/EXCITING": "inviting"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "A mid-size, membership-based professional coalition in the Minneapolis\u2013Saint Paul metro advancing equitable housing policy; engages nonprofit staff, developers, and city/county officials.",
+      "values": {
+        "EVENT NAME": "Spring Policy Forum & Reception",
+        "ORGANIZATION": "Twin Cities Affordable Housing Coalition",
+        "DATE": "April 24, 2025, 3:00\u20137:00 p.m.",
+        "LOCATION": "Mill City Museum, 704 S 2nd St, Minneapolis, MN",
+        "INVITING/EXCITING": "exciting"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "A large, well-established international NGO headquartered in Washington, DC funding clean water projects worldwide; gala targets major donors, corporate partners, and philanthropic foundations.",
+      "values": {
+        "EVENT NAME": "Blue Planet Benefit Gala",
+        "ORGANIZATION": "International Clean Water Fund",
+        "DATE": "October 9, 2025, 6:30\u201310:30 p.m.",
+        "LOCATION": "National Building Museum, 401 F St NW, Washington, DC",
+        "INVITING/EXCITING": "exciting"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**You're Invited to Our Annual Harvest Supper & Seed Swap!**\n\nGet ready to dig in and grow with your community! The Pine Ridge Community Food Collective warmly invites you to our much-anticipated Annual Harvest Supper & Seed Swap on **Friday, May 17th, 2025, from 5:30 PM to 8:30 PM** at the charming **Pine Ridge Grange Hall (214 County Rd 12, Pine Ridge, VT)**.\n\nImagine an evening brimming with delicious, locally sourced food, lively conversation, and the vibrant exchange of nature's tiniest treasures \u2013 seeds! This isn't just a dinner; it's a celebration of our abundant harvests, a chance to share the fruits of our labor, and a fantastic opportunity to prepare for an even more fruitful growing season ahead.\n\n**Why attend?** Feast on a delectable potluck supper featuring the best of Pine Ridge's gardens and kitchens (please bring a dish to share if you can!). Connect with fellow gardeners, farmers, and sustainable food enthusiasts from across our community. Most exciting of all, participate in our lively Seed Swap! Bring your heirloom seeds, your surprising successes, and your gardening advice to share, and leave with new varieties to enrich your own plot. It's a fantastic way to diversify your garden and learn from experienced growers. You'll also hear inspiring words from local growers and learn about exciting new initiatives from the Pine Ridge Community Food Collective.\n\n**Who else will be there?** Expect a vibrant mix of neighbors, seasoned gardeners, eager beginners, local farmers, and anyone passionate about good food and community connections. This is the perfect space to make new friends who share your green-thumbed enthusiasm!\n\n**Agenda Highlights:**\n* **5:30 PM:** Doors Open & Seed Swap Begins! (Bring your labeled seeds!)\n* **6:00 PM:** Potluck Dinner Feast\n* **7:00 PM:** Community Announcements & Briefly Highlighting Collective Initiatives\n* **7:30 PM:** Continued Seed Swap & Mingling\n\nThere's no strict dress code \u2013 come as you are, comfortable and ready to connect!\n\n**Please RSVP by May 10th** so we can get an accurate headcount by emailing pineridgefoodcollective@email.com or calling Joan at 802-555-GROW. Let us know if you plan to bring a dish!\n\nWe can't wait to share this joyous evening of food, fellowship, and flourishing seeds with all of you! Let's cultivate community together!",
+      "timestamp": "2025-11-01T17:08:08.469262Z",
+      "duration_seconds": 4.2,
+      "tokens": {
+        "input": 104,
+        "output": 536,
+        "total": 640
+      },
+      "cost_usd": 0.000337,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a warm, well-structured invitation that captures the grassroots spirit of a small food collective effectively. It includes all required elements and creates genuine excitement. However, it's slightly verbose at ~370 words (exceeding the 200-300 word target by 23%), and contains a minor seasonal inconsistency (calling it 'Harvest Supper' in May).",
+        "strengths": [
+          "Excellent tone matching - warm, inviting, and community-focused language ('dig in and grow,' 'green-thumbed enthusiasm') that feels authentic to a rural Vermont food collective",
+          "Complete coverage of all prompt requirements: what/when/where, why attend, who's attending, agenda highlights, RSVP details, and dress code",
+          "Strong practical details like potluck instructions, seed labeling reminder, and specific RSVP deadline that make it immediately actionable",
+          "Effective use of formatting (bold, bullets) that makes the invitation scannable and professional",
+          "Creates genuine excitement through vivid language and clear value propositions for attendees"
+        ],
+        "weaknesses": [
+          "Exceeds word count significantly (370 words vs. 200-300 requested), which may reduce usability for space-constrained communications",
+          "Seasonal inconsistency: 'Harvest Supper' typically refers to fall events, but this is scheduled for May (spring planting season) - 'Spring Supper' or 'Planting Season Supper' would be more accurate",
+          "Minor redundancy in phrasing ('vibrant' used twice, 'exciting' used multiple times) that could be tightened",
+          "The phone number format '802-555-GROW' is creative but may not be a real working format, potentially confusing readers"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# You're Invited to Our Harvest Supper & Seed Swap!\n\n**Saturday, May 17, 2025 | 5:30\u20138:30 p.m.**\nPine Ridge Grange Hall\n214 County Rd 12, Pine Ridge, VT\n\nJoin the Pine Ridge Community Food Collective for an evening of good food, great company, and the time-honored tradition of seed sharing!\n\n## Why You'll Love This Event\n\nCelebrate the growing season with fellow gardeners, farmers, and food enthusiasts over a delicious farm-to-table supper featuring local harvests. Bring seeds from your garden to trade and discover new varieties for your plot. Whether you're a seasoned grower or just getting your hands dirty for the first time, you'll find inspiration and community here.\n\n## Evening Highlights\n\n- **5:30 p.m.** \u2013 Seed swap opens (bring labeled seeds to share!)\n- **6:15 p.m.** \u2013 Community supper served\n- **7:15 p.m.** \u2013 Short talk: \"Saving Seeds for Future Seasons\"\n- **7:45 p.m.** \u2013 Continued mingling and seed trading\n\nYou'll connect with local farmers, master gardeners, sustainability advocates, and neighbors passionate about growing their own food.\n\n**What to Bring:** Seeds to swap (heirloom varieties especially welcome!), a dish to share if you're able, and your gardening questions and stories.\n\n**Dress Code:** Come as you are\u2014garden casual encouraged!\n\n**RSVP by May 10** to collective@pineridgefood.org or call (802) 555-GROW. Space is limited to 75 guests.\n\nLet's plant the seeds for a thriving community together!\n\n\ud83c\udf31 Pine Ridge Community Food Collective",
+      "timestamp": "2025-11-01T17:08:14.075202Z",
+      "duration_seconds": 9.81,
+      "tokens": {
+        "input": 116,
+        "output": 414,
+        "total": 530
+      },
+      "cost_usd": 0.006558,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a high-quality invitation that successfully captures the warm, community-oriented spirit of a small rural food collective. It includes all required elements with appropriate detail and creates genuine excitement through specific, relevant content rather than generic hype. The tone is perfectly inviting without being overly formal or corporate.",
+        "strengths": [
+          "Excellent structural clarity with clear headers and timeline that makes information easy to scan",
+          "Authentic voice that matches a grassroots Vermont food collective\u2014warm, accessible, and community-focused",
+          "All prompt requirements thoroughly addressed: what/when/where, why attend, who's attending, agenda, RSVP, and dress code",
+          "Specific, relevant details (heirloom seeds, farm-to-table, 'garden casual') that feel genuine to the organization type",
+          "Creative RSVP phone number (555-GROW) adds personality while maintaining professionalism",
+          "Appropriate length at approximately 250 words",
+          "The 'What to Bring' section adds practical value beyond basic requirements"
+        ],
+        "weaknesses": [
+          "The closing line 'Let's plant the seeds for a thriving community together' is slightly clich\u00e9d, though appropriate",
+          "Minor timing concern: 'Harvest Supper' in May is typically pre-harvest season in Vermont (spring planting time), though this could be intentional for a seed swap event"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "You\u2019re invited to Pine Ridge\u2019s Harvest Supper & Seed Swap!\n\nWhat/When/Where:\n\u2022 Saturday, May 17, 2025, 5:30\u20138:30 p.m.\n\u2022 Pine Ridge Grange Hall, 214 County Rd 12, Pine Ridge, VT\nHosted by Pine Ridge Community Food Collective\n\nWhy attend:\nCome celebrate the flavors and knowledge of our community. Share a favorite dish, pick up seeds for the season, swap tips with neighbors, and leave inspired to grow more together. It\u2019s a delicious way to strengthen local food resilience and meet the people who make it possible.\n\nWho you\u2019ll see:\nHome gardeners and market growers, Master Gardeners, the Pine Ridge Seed Library crew, Grange members, school garden students, and local food lovers\u2014plus a few toe-tapping local musicians.\n\nAgenda highlights:\n\u2022 5:30 \u2013 Welcome and community harvest supper (family-style; PRCFC will provide a few staples)\n\u2022 6:15 \u2013 Seed Swap opens with labeling station and heirloom corner\n\u2022 6:45 \u2013 Mini demos: Seed-Saving Basics + Quick Garden Planning\n\u2022 7:30 \u2013 Story and Recipe Share; Kids\u2019 pea-planting table open all evening\n\u2022 8:10 \u2013 Friendly raffle of garden goodies and closing circle\n\nRSVP:\nPlease RSVP by May 10 so we can set enough tables.\n\u2022 Online: prcfc.org/harvest\n\u2022 Email: rsvp@prcfc.org\n\u2022 Phone/Text: (802) 555-0124\n\nWhat to bring / Dress code:\nCasual, farm-friendly attire. Bring a labeled dish to share (optional) or a few pantry items for the community shelf; seed packets or cuttings to swap (clearly labeled); and small envelopes or jars for taking seeds home.\n\nLet\u2019s fill the Grange with good food, great ideas, and the seeds of our next season. See you at the table!",
+      "timestamp": "2025-11-01T17:08:24.862825Z",
+      "duration_seconds": 20.59,
+      "tokens": {
+        "input": 99,
+        "output": 1176,
+        "total": 1275
+      },
+      "cost_usd": 0.017937,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an excellent, highly usable invitation that authentically captures the warmth and community spirit of a small rural food collective. It exceeds the word count requirement (370 vs 200-300 words) but adds genuine value with specific, practical details. The tone is perfectly inviting without being overly promotional, and the content demonstrates strong understanding of grassroots food justice organizing.",
+        "strengths": [
+          "Exceptional detail and specificity in agenda\u2014mini demos, kids' activities, and timing create clear expectations and show thoughtful planning",
+          "Authentic voice that matches the organization type\u2014phrases like 'toe-tapping local musicians,' 'farm-friendly attire,' and 'seeds of our next season' feel genuinely rural Vermont",
+          "Comprehensive RSVP options (online/email/phone) appropriate for mixed-tech rural audience",
+          "Smart inclusion of 'what to bring' section addressing seed swap logistics (labeling, containers) that shows real understanding of the event format",
+          "Warm, inclusive language ('neighbors,' 'see you at the table') that reinforces community values without corporate jargon",
+          "Well-organized structure with clear headers makes information scannable and accessible"
+        ],
+        "weaknesses": [
+          "Exceeds requested word count by ~25% (370 words vs 200-300 max)\u2014though the extra content adds value, it may not fit some communication channels",
+          "Could potentially trim some details (like 'Grange members' in attendee list or specific activity times) to meet length requirement without losing essential information"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Get Ready for Spring! You're Invited to Our Policy Forum & Reception!\n\n**Mark your calendars! The Twin Cities Affordable Housing Coalition is thrilled to invite you to our highly anticipated Spring Policy Forum & Reception!**\n\nSpring is in the air, and so is a renewed energy for creating a more equitable and affordable housing landscape in the Twin Cities. Join us for an inspiring afternoon and evening on **Thursday, April 24, 2025, from 3:00 \u2013 7:00 p.m.** We're taking over the historic and picturesque **Mill City Museum (704 S 2nd St, Minneapolis, MN)** for an event you won't want to miss!\n\n**Why attend?** This isn't just another policy discussion\u2014it's a chance to be at the forefront of change! Connect with **policymakers, community leaders, fellow advocates, and passionate stakeholders** who are all dedicated to building a stronger, more inclusive Twin Cities. You'll gain invaluable insights into the latest affordable housing initiatives, network with influential figures, and contribute to solutions that will directly impact our communities.\n\n**Our agenda highlights include:** stimulating panel discussions with leading experts, a dynamic keynote address from a surprise special guest, and ample time for engaging conversation and connection during our reception. It's an unparalleled opportunity to learn, share, and collaborate!\n\n**Dress code is business casual.**\n\n**Limited spots are available, so don't delay!** Secure your place at this essential event.\n**RSVP by March 24, 2025, at [Your RSVP Link Here]**\n\nLet's work together to cultivate a future where everyone has a safe and affordable place to call home. We can't wait to see you there!",
+      "timestamp": "2025-11-01T17:08:27.092388Z",
+      "duration_seconds": 2.23,
+      "tokens": {
+        "input": 102,
+        "output": 370,
+        "total": 472
+      },
+      "cost_usd": 0.000237,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 8,
+          "usefulness": 7,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "The output successfully delivers an exciting, professional invitation that covers all required elements. However, it suffers from slightly excessive enthusiasm that borders on generic marketing language, and the 'surprise special guest' claim could be problematic if untrue. The structure is solid but would benefit from more specificity and less hyperbole.",
+        "strengths": [
+          "Includes all required elements: what/when/where, why attend, who's attending, agenda highlights, RSVP info, and dress code",
+          "Strong opening that creates energy and clearly states the invitation",
+          "Good use of formatting with bold text and clear sections for scannability",
+          "Appropriate length at approximately 270 words",
+          "Professional yet enthusiastic tone suitable for a membership-based coalition",
+          "Venue details are complete and accurate",
+          "Business casual dress code is appropriate for the audience mix"
+        ],
+        "weaknesses": [
+          "'Surprise special guest' is a risky claim that could undermine credibility if not actually planned\u2014nonprofits should avoid overpromising",
+          "Agenda highlights are vague ('stimulating panel discussions,' 'dynamic keynote')\u2014lacks concrete details that would help attendees decide to attend",
+          "Some language feels generic and marketing-heavy ('you won't want to miss,' 'unparalleled opportunity') rather than authentically nonprofit",
+          "Missing placeholder for actual RSVP link reduces immediate usefulness",
+          "No mention of cost/free admission, which is critical information for event invitations",
+          "Could better emphasize the coalition's specific policy focus areas to attract the right attendees"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "---\n\n**YOU'RE INVITED: Spring Policy Forum & Reception**\n\nJoin the Twin Cities Affordable Housing Coalition for an inspiring afternoon of connection, conversation, and action!\n\n**WHEN:** Thursday, April 24, 2025 | 3:00\u20137:00 p.m.\n\n**WHERE:** Mill City Museum | 704 S 2nd St, Minneapolis, MN\n\nSpring is the season of growth\u2014and this year, we're growing the movement for affordable housing! Connect with fellow advocates, policymakers, developers, and community leaders who are committed to creating housing solutions that work for everyone.\n\n**Why You Can't Miss This:**\n- **Policy Deep Dive:** Hear the latest on legislative initiatives shaping housing access across the Twin Cities\n- **Expert Panel:** Learn from innovative leaders tackling housing challenges head-on\n- **Networking Reception:** Build relationships with legislators, nonprofit leaders, city officials, and engaged residents over light refreshments\n- **Call to Action:** Discover concrete ways you can make a difference\n\n**Who's Coming:**\nState legislators, city council members, housing developers, nonprofit executives, community organizers, and passionate advocates like you!\n\n**Agenda Highlights:**\n- 3:00\u20134:00 p.m. \u2013 Registration & Networking\n- 4:00\u20135:30 p.m. \u2013 Policy Forum & Panel Discussion\n- 5:30\u20137:00 p.m. \u2013 Reception & Continued Conversation\n\n**Dress Code:** Business casual\n\n**RSVP by April 17** to [email/website]. Space is limited!\n\nTogether, we're building a future where every Twin Cities resident has access to safe, stable, affordable housing. Be part of the solution\u2014we'll see you there!\n\n---",
+      "timestamp": "2025-11-01T17:08:33.552694Z",
+      "duration_seconds": 8.69,
+      "tokens": {
+        "input": 106,
+        "output": 392,
+        "total": 498
+      },
+      "cost_usd": 0.006198,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a well-crafted invitation that successfully balances professionalism with excitement. It includes all required elements and uses sector-appropriate language. The main weakness is some slightly generic phrasing ('Be part of the solution') that reduces authenticity, though the overall execution is strong and usable.",
+        "strengths": [
+          "Excellent structure with clear visual hierarchy and scannable formatting",
+          "All prompt requirements thoroughly addressed: what/when/where, why attend, who's attending, agenda, RSVP, and dress code",
+          "Tone is appropriately exciting without being overly casual\u2014fits a professional coalition well",
+          "Strong opening hook with seasonal metaphor ('Spring is the season of growth') that connects to the mission",
+          "Specific, relevant benefits listed (policy deep dive, expert panel, networking) that would appeal to target audience",
+          "Word count appropriate at approximately 250 words",
+          "Agenda timeline is clear and realistic for this type of event"
+        ],
+        "weaknesses": [
+          "Some phrases feel formulaic ('Be part of the solution,' 'passionate advocates like you') reducing authenticity",
+          "RSVP information is incomplete\u2014placeholder '[email/website]' would need to be filled in, though this may be intentional",
+          "Minor: 'Space is limited' is a common urgency tactic that may or may not be accurate\u2014could feel manipulative if untrue"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "You\u2019re invited: Spring Policy Forum & Reception hosted by the Twin Cities Affordable Housing Coalition\n\nWhat/When/Where\n- Thursday, April 24, 2025 | 3:00\u20137:00 p.m.\n- Mill City Museum, 704 S 2nd St, Minneapolis, MN\n\nJoin us on the riverfront as we turn spring momentum into real policy wins for homes Minnesotans can afford. Come to connect, strategize, and leave energized with tools you can use the very next day.\n\nWhy attend\n- Shape the 2025 housing agenda before the legislative clock runs out.\n- Meet the decision-makers moving funding, zoning, and tenant stability forward.\n- Build alliances across sectors\u2014public, private, and community.\n\nWho you\u2019ll meet\n- Invited: state and local officials, Minnesota Housing and city agency leaders, nonprofit and resident advocates, mission-driven developers, philanthropy and lenders, service providers, and business partners who care about housing.\n\nAgenda highlights\n- 3:00 p.m. Check-in, networking, and optional gallery access\n- 3:30 p.m. Welcome + 2025 Housing Outlook keynote\n- 4:00 p.m. Policy Power Panel: financing, zoning, and renter stability\u2014what\u2019s next\n- 5:00 p.m. Action Breakouts: preservation & production, land use solutions, anti-displacement, funding pathways\n- 6:00 p.m. Reception with appetizers and beverages\n- 6:45 p.m. Call to Action: coalition priorities and how to plug in\n\nRSVP\nSpace is limited. RSVP required by April 15 via the Coalition\u2019s website. Early registration is encouraged; confirmation details will be sent ahead of the event.\n\nDress code\nBusiness casual. The museum is a historic space\u2014comfortable shoes recommended and spring-friendly layers for the riverfront.\n\nLet\u2019s gather, align, and accelerate housing solutions. See you at Mill City!",
+      "timestamp": "2025-11-01T17:08:54.474367Z",
+      "duration_seconds": 29.61,
+      "tokens": {
+        "input": 96,
+        "output": 1492,
+        "total": 1588
+      },
+      "cost_usd": 0.022668,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 10,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly polished, professional invitation that successfully balances excitement with credibility. It addresses all prompt requirements comprehensively and demonstrates strong understanding of nonprofit coalition communications. The tone is appropriately energizing without being overly promotional, and the content would be immediately usable with minimal edits.",
+        "strengths": [
+          "Excellent structure with clear headers and scannable formatting that respects busy professionals' time",
+          "Compelling value proposition ('turn spring momentum into real policy wins') that speaks directly to the audience's priorities",
+          "Comprehensive agenda with specific timing shows professionalism and helps attendees plan their participation",
+          "Strong stakeholder mapping in 'Who you'll meet' section demonstrates understanding of coalition work",
+          "Practical details like comfortable shoes and layers show thoughtfulness and venue awareness",
+          "Action-oriented language throughout ('Shape,' 'Build alliances,' 'accelerate') matches the exciting tone request",
+          "Appropriate urgency with RSVP deadline and space limitations without being pushy"
+        ],
+        "weaknesses": [
+          "Minor: 'RSVP required by April 15 via the Coalition's website' is slightly vague\u2014could specify URL or contact method",
+          "The phrase 'tools you can use the very next day' is somewhat generic and could be more specific to housing policy work",
+          "Very slight risk of jargon overload ('anti-displacement,' 'mission-driven developers') though appropriate for this professional audience"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Dive into an Ocean of Impact at the Blue Planet Benefit Gala!**\n\nPrepare for an unforgettable evening as the International Clean Water Fund proudly presents our dazzling **Blue Planet Benefit Gala**! Together, we'll celebrate our unwavering dedication to ensuring clean, accessible water for communities worldwide. Mark your calendars for **October 9, 2025, from 6:30 \u2013 10:30 p.m.**, at the majestic **National Building Museum (401 F St NW, Washington, D.C.)**.\n\nWhy attend? Because this isn't just a gala; it's a movement! Mingle with passionate philanthropists, influential policymakers, renowned environmentalists, and dedicated community leaders \u2013 all united by the common goal of a healthier, water-secure planet. **You'll be in incredible company, connecting with individuals who are truly making a difference.**\n\nPrepare for an evening of inspiring moments and captivating experiences. The agenda highlights include a **sumptuous gourmet dinner**, an **electrifying keynote address** by a leading figure in global water conservation, and a **thrilling live auction** featuring exclusive experiences and treasures. You'll also be treated to deeply moving testimonials from individuals whose lives have been transformed by clean water initiatives, underscoring the tangible impact of your support.\n\nThis is your chance to shine! The dress code for the evening is **black tie optional**, so don your finest attire and be ready for a night of elegance and purpose.\n\nDon't miss this extraordinary opportunity to be part of something monumental. Your presence empowers us to expand our reach, fund vital projects, and bring hope to millions.\n\n**RSVP by September 25, 2025**, at [Your Organization Website/Email Address]. We can't wait to celebrate with you as we illuminate the path to a brighter, cleaner future!",
+      "timestamp": "2025-11-01T17:08:57.928042Z",
+      "duration_seconds": 3.45,
+      "tokens": {
+        "input": 98,
+        "output": 385,
+        "total": 483
+      },
+      "cost_usd": 0.000246,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "The output successfully delivers an exciting, comprehensive gala invitation that covers all required elements. However, it leans slightly toward overly enthusiastic language that may feel less authentic for a major international NGO targeting high-level donors and foundations. The tone, while exciting as requested, occasionally crosses into hyperbolic territory that sophisticated donors might find less compelling.",
+        "strengths": [
+          "Excellent completeness - includes all required elements: what/when/where, why attend, who's attending, agenda highlights, RSVP info, and dress code",
+          "Strong structural organization with clear sections and effective use of formatting (bold text, bullets)",
+          "Appropriate level of detail for the 200-300 word target, providing specific agenda items like keynote, auction, and testimonials",
+          "Good audience targeting by mentioning philanthropists, policymakers, and community leaders relevant to this organization's profile"
+        ],
+        "weaknesses": [
+          "Language occasionally too hyperbolic for a major international NGO ('dazzling,' 'electrifying,' 'ocean of impact') - established organizations typically use more measured, sophisticated language for major donor events",
+          "Missing concrete RSVP contact information (uses placeholder text '[Your Organization Website/Email Address]')",
+          "Phrase 'This is your chance to shine!' feels misaligned with the mission-focused nature of water access work and may seem donor-centric rather than beneficiary-centric",
+          "Some clich\u00e9d nonprofit language ('making a difference,' 'be part of something monumental') reduces authenticity"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# YOU'RE INVITED TO MAKE WAVES OF CHANGE\n\n## BLUE PLANET BENEFIT GALA\n\n**Thursday, October 9, 2025 | 6:30\u201310:30 PM**\nNational Building Museum\n401 F St NW, Washington, DC\n\nJoin us for an unforgettable evening where champagne meets purpose! The International Clean Water Fund invites you to our signature Blue Planet Benefit Gala\u2014where global changemakers, environmental leaders, and philanthropic visionaries unite to transform lives through clean water access.\n\n### WHY YOU CAN'T MISS THIS:\n\nThis isn't just another gala\u2014it's a movement. Enjoy an electrifying night featuring:\n\n- **Award-winning keynote speaker** sharing groundbreaking water innovation stories\n- **Live auction** with exclusive experiences and sustainable luxury items\n- **Gourmet farm-to-table dinner** by renowned Chef Marcus Chen\n- **Live performances** celebrating water as life's essence\n- **Networking** with ambassadors, industry pioneers, and fellow ocean advocates\n\nYou'll rub shoulders with Fortune 500 executives, celebrated environmental activists, policy makers, and A-list supporters passionate about securing clean water for the 2 billion people who need it most.\n\n**100% of proceeds fund clean water projects in underserved communities worldwide.**\n\n### DRESS CODE: \nCocktail Attire | Blue-themed accessories encouraged!\n\n### RSVP BY SEPTEMBER 25, 2025:\n**www.cleanwaterfund.org/blueplanetgala**\nQuestions? Contact events@cleanwaterfund.org | 202-555-WAVE\n\n*Make a splash. Change the world. Be there.*",
+      "timestamp": "2025-11-01T17:09:05.120839Z",
+      "duration_seconds": 10.64,
+      "tokens": {
+        "input": 104,
+        "output": 386,
+        "total": 490
+      },
+      "cost_usd": 0.006102,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a polished, exciting gala invitation that hits all required elements with appropriate energy for a major donor event. The tone is appropriately elevated and exciting without being unprofessional. However, some elements feel slightly over-promised (A-list supporters, award-winning keynote) and the creative flourishes, while engaging, border on marketing hyperbole that some established NGOs might tone down.",
+        "strengths": [
+          "Excellent structure with clear visual hierarchy and scannable sections",
+          "Successfully creates excitement while maintaining professional credibility appropriate for major donors and corporate partners",
+          "Includes all required elements: what/when/where, why attend, who's attending, agenda highlights, RSVP info, and dress code",
+          "Strong mission integration with '100% of proceeds' statement and compelling statistics (2 billion people)",
+          "Creative touches like blue-themed accessories and water-related wordplay ('make waves,' 'make a splash') reinforce the theme without being cheesy",
+          "Appropriate length at approximately 250 words",
+          "Contact information is complete and realistic"
+        ],
+        "weaknesses": [
+          "Some claims lack specificity and could be seen as overpromising: 'award-winning keynote speaker' and 'A-list supporters' are vague and may not be verifiable",
+          "Chef Marcus Chen appears to be a fictional name, which could be flagged in real use\u2014nonprofits would use actual confirmed talent",
+          "Phrase 'ocean advocates' is slightly off-mission for a clean water fund (oceans vs. drinking water access)",
+          "The exclamation-heavy style in some sections may be too enthusiastic for conservative foundation representatives, though it works for the 'exciting' tone requested"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "You\u2019re invited to the Blue Planet Benefit Gala, hosted by the International Clean Water Fund\u2014an unforgettable night advancing safe water for communities worldwide.\n\nWhat/When/Where:\n- Thursday, October 9, 2025 | 6:30\u201310:30 p.m.\n- National Building Museum, 401 F St NW, Washington, DC\n\nWhy attend:\nEvery ticket helps turn tides\u2014bringing clean water, sanitation, and climate-resilient solutions to families across the globe. Celebrate measurable impact, meet the people powering it, and be part of bold commitments that will change lives this year.\n\nWho you\u2019ll meet:\nA dynamic mix of global changemakers\u2014philanthropists, corporate sustainability leaders, policy makers, innovators, artists, and ICWF field partners\u2014coming together to accelerate access to safe water.\n\nAgenda highlights:\n- 6:30 p.m. Welcome reception and immersive impact gallery\n- Signature cocktails, sustainable tasting stations, and live music\n- Seated dinner featuring seasonal, locally sourced cuisine\n- Keynote conversation with water and climate leaders\n- Live auction and paddle raise fueling on-the-ground projects\n- Special performance and the Blue Planet Impact Awards\n- Dessert lounge and networking within the museum\u2019s grand hall\n\nRSVP:\nReserve tables and tickets by September 15, 2025. Visit icwf.org/blueplanetgala or email gala@icwf.org for reservations and sponsorships. Early commitment ensures premium seating and recognition opportunities.\n\nDress code:\nBlack-tie optional. Sustainable glamour encouraged\u2014think ocean-inspired accents and materials with a lighter footprint.\n\nCome for a dazzling evening. Leave knowing you helped bring clean, reliable water to those who need it most. Let\u2019s make waves\u2014together.",
+      "timestamp": "2025-11-01T17:09:12.120490Z",
+      "duration_seconds": 17.64,
+      "tokens": {
+        "input": 92,
+        "output": 1124,
+        "total": 1216
+      },
+      "cost_usd": 0.017136,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 10,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 7
+        },
+        "reasoning": "This is a polished, professional gala invitation that hits all required elements with appropriate sophistication for a major donor event. The tone balances excitement with gravitas suitable for an established international NGO. Minor weakness in some phrases feeling slightly formulaic, but overall highly usable.",
+        "strengths": [
+          "Excellent structure with clear headers making information scannable and accessible",
+          "Comprehensive agenda that creates anticipation while showing event value and professionalism",
+          "Strong mission integration throughout\u2014connects attendance to impact without being heavy-handed",
+          "Sophisticated language appropriate for high-level donors and corporate partners ('dynamic mix of global changemakers', 'climate-resilient solutions')",
+          "Creative dress code guidance ('sustainable glamour encouraged') aligns with organizational values",
+          "Practical details well-executed: RSVP deadline, multiple contact methods, sponsorship mention",
+          "Compelling 'who you'll meet' section that emphasizes networking value for this audience",
+          "Strong closing call-to-action with memorable phrasing ('make waves\u2014together')"
+        ],
+        "weaknesses": [
+          "Some phrases border on clich\u00e9 ('turn tides', 'make waves') though thematically appropriate",
+          "Opening line 'an unforgettable night' is somewhat generic\u2014could be more distinctive",
+          "Word count appears slightly over 300 words (approximately 310-320), though still reasonable for this type of event"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.0774,
+    "average_score": 8.36
+  }
+}
