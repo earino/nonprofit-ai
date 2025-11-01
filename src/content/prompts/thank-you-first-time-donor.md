@@ -11,7 +11,9 @@ updated: 2025-11-01
 
 ## The Prompt
 
-Write a warm, appreciative thank-you letter for a first-time donor who gave $[AMOUNT] to [ORGANIZATION NAME]. The letter should:
+```
+Write a warm, appreciative thank-you letter for a first-time donor who gave
+$[AMOUNT] to [ORGANIZATION NAME]. The letter should:
 
 - Express genuine gratitude for their support
 - Explain the specific impact of their gift (e.g., "Your $50 provides...")
@@ -22,7 +24,9 @@ Write a warm, appreciative thank-you letter for a first-time donor who gave $[AM
 - Reference this campaign or appeal: [CAMPAIGN NAME]
 - Be signed by [SIGNER NAME and TITLE]
 
-The letter should make the donor feel valued and appreciated, not just like a transaction. Avoid over-the-top language or making another ask.
+The letter should make the donor feel valued and appreciated, not just like a
+transaction. Avoid over-the-top language or making another ask.
+```
 
 ## How to Customize
 

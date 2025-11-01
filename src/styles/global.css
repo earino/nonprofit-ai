@@ -9,20 +9,35 @@
   @apply text-xl font-semibold mt-6 mb-3;
 }
 
-/* Style the actual prompt text */
-.prose h2:first-of-type + p,
-.prose h2:first-of-type + ul,
-.prose h2:first-of-type + ol {
-  @apply bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-lg p-6 my-6 font-mono text-sm leading-relaxed;
+/* Hide the "The Prompt" heading from markdown since we render it separately with copy button */
+.prompt-content > h2:first-of-type {
+  display: none;
 }
 
-/* Highlight [BRACKETS] in prompts */
+/* Style the actual prompt text - modern 2025 design with subtle effects */
+.prompt-content > pre:first-of-type {
+  @apply bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 border border-blue-200/60 rounded-2xl p-6 shadow-lg shadow-blue-100/50;
+  backdrop-filter: blur(10px);
+}
+
+.prompt-content > pre:first-of-type code {
+  @apply font-sans text-base leading-relaxed text-gray-900;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+/* Highlight [BRACKETS] in prompts - inline code */
 .prose code {
-  @apply bg-yellow-100 text-yellow-900 px-1 py-0.5 rounded font-semibold;
+  @apply bg-yellow-100 text-yellow-900 px-1 py-0.5 rounded font-semibold text-sm;
 }
 
+/* Other code blocks (not the prompt) */
 .prose pre {
   @apply bg-gray-900 text-gray-100 rounded-lg p-4;
+}
+
+.prose pre code {
+  @apply text-sm font-mono;
 }
 
 .prose ul {
