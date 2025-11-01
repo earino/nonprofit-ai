@@ -1,0 +1,120 @@
+---
+// Cookie Consent Component using vanilla-cookieconsent
+// Blocks Google Analytics until user consents
+---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3/dist/cookieconsent.css">
+<script is:inline src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3/dist/cookieconsent.umd.js"></script>
+
+<script is:inline>
+  // Google Analytics placeholder - replace GA_MEASUREMENT_ID with actual ID
+  const GA_ID = 'G-XXXXXXXXXX'; // TODO: Replace with real GA4 measurement ID
+
+  // Initialize cookie consent
+  window.addEventListener('load', function () {
+    window.cookieconsent.run({
+      current_lang: 'en',
+      autoclear_cookies: true,
+      page_scripts: true,
+
+      onFirstConsent: function () {
+        // Load Google Analytics if user consents
+        const cc = window.cookieconsent;
+        if (cc.allowedCategory('analytics')) {
+          loadGoogleAnalytics();
+        }
+      },
+
+      onChange: function () {
+        const cc = window.cookieconsent;
+        if (cc.allowedCategory('analytics')) {
+          loadGoogleAnalytics();
+        }
+      },
+
+      languages: {
+        en: {
+          consent_modal: {
+            title: 'We use cookies',
+            description: 'We use Google Analytics to understand how visitors use our site and improve your experience. Your data is anonymous and helps us serve nonprofits better. <a href="/cookies" class="cc-link">Cookie Policy</a>',
+            primary_btn: {
+              text: 'Accept',
+              role: 'accept_all'
+            },
+            secondary_btn: {
+              text: 'Decline',
+              role: 'accept_necessary'
+            }
+          },
+          settings_modal: {
+            title: 'Cookie Settings',
+            save_settings_btn: 'Save settings',
+            accept_all_btn: 'Accept all',
+            reject_all_btn: 'Reject all',
+            close_btn_label: 'Close',
+            blocks: [
+              {
+                title: 'Cookie usage',
+                description: 'We use cookies to enhance your browsing experience and analyze site traffic. You can choose which cookies to accept.'
+              },
+              {
+                title: 'Strictly necessary cookies',
+                description: 'These cookies are essential for the website to function. They remember your cookie consent choice.',
+                toggle: {
+                  value: 'necessary',
+                  enabled: true,
+                  readonly: true
+                }
+              },
+              {
+                title: 'Analytics cookies',
+                description: 'These cookies help us understand how visitors use our site through Google Analytics. All data is anonymous.',
+                toggle: {
+                  value: 'analytics',
+                  enabled: false,
+                  readonly: false
+                }
+              }
+            ]
+          }
+        }
+      }
+    });
+  });
+
+  // Function to load Google Analytics
+  function loadGoogleAnalytics() {
+    if (window.gaLoaded) return; // Already loaded
+
+    // Load gtag.js
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+    document.head.appendChild(script);
+
+    // Initialize GA
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', GA_ID, {
+      anonymize_ip: true // GDPR compliance
+    });
+
+    window.gaLoaded = true;
+  }
+</script>
+
+<style is:global>
+  /* Customize cookie consent colors to match site */
+  :root {
+    --cc-bg: #fff;
+    --cc-text: #1f2937;
+    --cc-btn-primary-bg: #2563eb;
+    --cc-btn-primary-text: #fff;
+    --cc-btn-primary-hover-bg: #1d4ed8;
+    --cc-btn-secondary-bg: #e5e7eb;
+    --cc-btn-secondary-text: #1f2937;
+    --cc-btn-secondary-hover-bg: #d1d5db;
+  }
+</style>

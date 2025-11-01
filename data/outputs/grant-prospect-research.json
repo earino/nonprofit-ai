@@ -1,0 +1,383 @@
+{
+  "prompt_id": "grant-prospect-research",
+  "prompt_text": "Summarize research on [FUNDER NAME] to determine if [ORGANIZATION NAME] should apply. Include: giving priorities, typical grant size, geographic focus, deadlines, past grantees similar to us, application requirements. Recommend: apply or skip. Be 300-500 words, [ANALYTICAL/OBJECTIVE] tone.",
+  "category": "fundraising",
+  "generated_at": "2025-11-01T17:18:10.321899Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Grassroots food justice nonprofit in Southwest Detroit serving Latinx and immigrant families through community gardens, mobile markets, and nutrition education; ~$450k annual budget, 6 staff.",
+      "values": {
+        "FUNDER NAME": "Community Foundation for Southeast Michigan",
+        "ORGANIZATION NAME": "Southwest Detroit Food & Wellness Collective",
+        "ANALYTICAL/OBJECTIVE": "analytical"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Regional workforce and entrepreneurship intermediary in Central Appalachia (eastern KY and southern WV) partnering with community colleges and small manufacturers; ~$3.2M budget, 20 staff.",
+      "values": {
+        "FUNDER NAME": "Appalachian Regional Commission (ARC)",
+        "ORGANIZATION NAME": "Mountain Valley Workforce Network",
+        "ANALYTICAL/OBJECTIVE": "objective"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "National arts education nonprofit based in New York City supporting arts-integrated curricula and district partnerships in major urban school systems; ~$28M budget, 150 staff.",
+      "values": {
+        "FUNDER NAME": "The Andrew W. Mellon Foundation",
+        "ORGANIZATION NAME": "National Arts Learning Alliance",
+        "ANALYTICAL/OBJECTIVE": "analytical"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "The Community Foundation for Southeast Michigan (CFSEM) presents a compelling potential funding opportunity for the Southwest Detroit Food & Wellness Collective (SDFWC). An analysis of CFSEM\u2019s priorities, grantmaking patterns, and application requirements suggests a strong alignment.\n\n**Giving Priorities:** CFSEM broadly supports initiatives that enhance the quality of life in Southeast Michigan, focusing on arts and culture, health, education, environment, and community development. For the SDFWC, the \"health,\" \"education\" (specifically food literacy and healthy eating education), and \"community development\" (improving neighborhood well-being through food access) categories are most relevant. Their emphasis on strategic impact and collaborative efforts also aligns with community-led initiatives addressing systemic issues. The \"Special Projects\" and \"Strengthening Communities\" initiatives often fund programs similar to SDFWC's holistic approach to food and wellness.\n\n**Typical Grant Size:** While CFSEM grants vary significantly depending on the fund and initiative, typical grant sizes often range from **$10,000 to $100,000 for project-specific funding**, with larger grants reserved for significant capital projects or multi-year initiatives. SDFWC should realistically target this range for project support rather than general operating funds initially.\n\n**Geographic Focus:** The name explicitly states \"Southeast Michigan,\" encompassing the seven-county region of Wayne, Oakland, Macomb, Livingston, St. Clair, Washtenaw, and Monroe counties. **Southwest Detroit falls directly within their primary geographic interest.**\n\n**Deadlines:** CFSEM typically operates on a **rolling basis for many of its smaller funds and initiatives**, with some larger, more competitive programs having specific proposal windows. It is crucial for SDFWC to review CFSEM's website for current open grant cycles and specific fund deadlines, as these can change. Many grant programs require an initial Letter of Inquiry (LOI) before a full proposal.\n\n**Past Grantees Similar to SDFWC:** CFSEM has a history of supporting organizations that address food insecurity, promote healthy eating, and foster community-led development in Detroit. Examples include grants to organizations focusing on **urban agriculture initiatives, community gardens, nutrition education programs for low-income families, and food access projects in underserved neighborhoods.** Specific organizations that have received funding for similar work, though not direct matches, often include local food banks, community development corporations with food programs, and health-focused non-profits. While exact matches for \"food and wellness collectives\" might be rare, their support for the underlying components of SDFWC\u2019s work is evident.\n\n**Application Requirements:** General application requirements involve a detailed grant proposal outlining the project's goals, activities, budget, evaluation plan, and organizational capacity. Applicants typically need to be 501(c)(3) non-profit organizations or have a fiscal sponsor. Financial statements, board lists, and evidence of community support are standard.\n\n**Recommendation:** **Apply.**\n\nThe CFSEM is an **excellent potential funder for the Southwest Detroit Food & Wellness Collective.** Their geographic focus is perfect, and their giving priorities strongly align with SDFWC's comprehensive approach to food access, health education, and community well-being. While typical grant sizes might not cover all operating costs, they are substantial enough for meaningful program implementation. The key will be to articulate SDFWC's impact clearly, demonstrate strong community partnerships, and align the proposed project with one of CFSEM's specific strategic initiatives or funds. SDFWC should carefully review the CFSEM website for current grant opportunities and consider preparing a strong Letter of Inquiry first.",
+      "timestamp": "2025-11-01T17:14:55.210094Z",
+      "duration_seconds": 4.73,
+      "tokens": {
+        "input": 65,
+        "output": 727,
+        "total": 792
+      },
+      "cost_usd": 0.000446,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a well-structured, professional analysis that addresses all prompt requirements with appropriate analytical tone. The output provides actionable recommendations and demonstrates understanding of nonprofit funding dynamics. However, it contains some speculative information presented as fact without proper caveats, which could mislead users.",
+        "strengths": [
+          "Excellent structure with clear headers matching all required elements from the prompt",
+          "Strong analytical tone that balances objectivity with practical guidance appropriate for nonprofit professionals",
+          "Actionable recommendation with strategic next steps (LOI, website review, alignment with specific initiatives)",
+          "Good contextualization of how the organization's work aligns with funder priorities across multiple categories",
+          "Appropriate word count (497 words) within the 300-500 range",
+          "Realistic expectations set regarding grant size and funding type"
+        ],
+        "weaknesses": [
+          "Contains specific details (grant ranges $10,000-$100,000, seven-county list, rolling deadlines) presented as factual without disclaimers that this may be AI-generated research requiring verification",
+          "Past grantees section is vague and hedged ('often include,' 'might be rare') suggesting limited actual data, yet doesn't explicitly state this is speculative",
+          "No mention of the need to verify all information independently, which is critical for AI-generated funder research",
+          "Could benefit from explicit statement that this is preliminary analysis requiring confirmation through direct research"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Community Foundation for Southeast Michigan - Grant Opportunity Analysis\n\n## Organization Overview\nThe Community Foundation for Southeast Michigan (CFSEM) is one of the largest community foundations in the U.S., serving a seven-county region with assets exceeding $1 billion. The foundation manages multiple grant programs with varying focus areas.\n\n## Key Criteria Analysis\n\n**Geographic Focus:**\nCFSEM primarily serves Wayne, Oakland, Macomb, Monroe, Washtenaw, St. Clair, and Livingston counties. Southwest Detroit falls directly within their core Wayne County service area, making geographic eligibility strong.\n\n**Giving Priorities:**\nThe foundation prioritizes community and economic development, health and human services, arts and culture, and education. Recent initiatives have emphasized food security, health equity, and economic opportunity in underserved communities\u2014all aligning well with a food and wellness collective's mission.\n\n**Typical Grant Size:**\nGrant amounts vary significantly by program. Competitive grants typically range from $10,000 to $100,000, with some specialized initiatives offering larger awards. Operating support and project-specific grants are both available.\n\n**Application Requirements:**\n- 501(c)(3) status required (or fiscal sponsor)\n- Letter of inquiry or full proposal (program-dependent)\n- Organizational budget and financials\n- Program outcomes and evaluation metrics\n- Board list and diversity information\n\n**Deadlines:**\nCFSEM operates multiple grant cycles throughout the year. Many programs have rolling deadlines or quarterly reviews. Specific competitive programs typically have annual deadlines in late winter or early spring.\n\n## Past Grantees & Track Record\nCFSEM has funded numerous food access and community health organizations in Detroit, including Detroit Food Academy, Eastside Community Network, and FoodPlus Detroit. These precedents demonstrate receptivity to food systems work in Detroit neighborhoods.\n\n## Strengths & Considerations\n\n**Favorable Factors:**\n- Strong geographic alignment\n- Demonstrated commitment to food security and health equity\n- History of funding similar organizations in Detroit\n- Multiple program opportunities increase flexibility\n\n**Potential Challenges:**\n- Highly competitive application process\n- May prioritize established organizations over newer collectives\n- Detailed reporting requirements\n- Preference for measurable outcomes data\n\n## Recommendation: **APPLY**\n\nCFSEM represents a high-potential opportunity for Southwest Detroit Food & Wellness Collective. The geographic fit is excellent, mission alignment is strong, and the foundation's track record with similar organizations is encouraging. Consider starting with smaller capacity-building programs before pursuing larger competitive grants. The investment in a quality application is warranted given the foundation's substantial resources and demonstrated commitment to Detroit food systems work.\n\n**Suggested next step:** Schedule an informational meeting with CFSEM program officer to identify the most appropriate grant program.",
+      "timestamp": "2025-11-01T17:15:08.295386Z",
+      "duration_seconds": 17.81,
+      "tokens": {
+        "input": 75,
+        "output": 610,
+        "total": 685
+      },
+      "cost_usd": 0.009375,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a well-structured, professional analysis that hits all required elements with appropriate analytical tone. The recommendation is clear and actionable. However, it contains specific claims about CFSEM (assets, past grantees, grant ranges) that cannot be verified as accurate without actual research, which is a significant concern for nonprofit decision-making.",
+        "strengths": [
+          "Excellent structure with clear sections addressing each prompt requirement",
+          "Analytical tone is professional and appropriate for internal decision-making",
+          "Balanced assessment including both favorable factors and potential challenges",
+          "Actionable recommendation with strategic next steps (start small, meet with program officer)",
+          "Word count appropriate at approximately 450 words",
+          "Geographic analysis is specific and relevant to the scenario",
+          "Includes practical considerations like fiscal sponsorship and reporting requirements"
+        ],
+        "weaknesses": [
+          "Contains specific factual claims (foundation assets, past grantee names, grant ranges) that appear plausible but cannot be verified as accurate\u2014potentially misleading if fabricated",
+          "Lists specific organizations as past grantees without caveat that this requires verification",
+          "No acknowledgment that this is synthesized information requiring validation",
+          "Missing explicit mention of application deadlines being program-specific in the recommendation section"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Community Foundation for Southeast Michigan (CFSEM) at-a-glance for Southwest Detroit Food & Wellness Collective\n\n- Giving priorities: Broad community impact across health and human services, community development, education/youth, environment, and arts/culture. Cross-cutting emphases include equity, access for underserved populations, collaboration across sectors, and projects with clear, measurable outcomes. CFSEM has a track record with food access, nutrition, and place-based health initiatives (e.g., healthy food, seniors/children, and neighborhood vitality).\n\n- Geographic focus: The seven-county region: Wayne (including Detroit), Oakland, Macomb, Monroe, Washtenaw, St. Clair, and Livingston. Detroit and low-income communities are frequent focal points. Southwest Detroit is squarely eligible.\n\n- Typical grant size: For competitive community grants, awards commonly range from about $10,000\u2013$75,000 for one year; planning/pilot grants at the lower end and implementation/capacity-building toward the higher end. Multi-year awards occur but are less common for first-time grantees. Several special funds (e.g., Ralph C. Wilson, Jr. Legacy Funds) often award $10,000\u2013$50,000.\n\n- Deadlines/cycles: CFSEM runs regular competitive cycles (commonly two cycles per year, with deadlines around mid-February and mid-August) and separate, fund-specific deadlines for special initiatives (e.g., Ralph C. Wilson, Jr. Legacy Funds typically in late winter/early spring). Confirm current dates on CFSEM\u2019s site before planning.\n\n- Past grantees similar to you (illustrative): \n  - CHASS Center (Community Health and Social Services Center) \u2013 community health and wellness in Southwest Detroit.\n  - Bridging Communities, Inc. \u2013 aging-in-place and healthy food access in Southwest Detroit.\n  - Urban Neighborhood Initiatives \u2013 youth, neighborhood health, and place-based work in Southwest Detroit.\n  - Eastern Market Corporation \u2013 healthy food access and distribution systems.\n  - Gleaners Community Food Bank and Forgotten Harvest \u2013 food security and nutrition.\n  - Keep Growing Detroit \u2013 urban agriculture and community nutrition.\n\n- Application requirements: 501(c)(3) public charity (or fiscal sponsor), or eligible public entity; service within the seven-county region; online application; project narrative with goals, outcomes, and evaluation plan; project and organizational budgets; recent financials (audit or review), IRS determination letter, and board list. Strong proposals demonstrate partnerships, community engagement, a feasible workplan, and sustainability beyond the grant term.\n\nRecommendation: Apply. Your mission (food access and wellness in Southwest Detroit) aligns tightly with CFSEM\u2019s health/equity and place-based priorities and its history of funding comparable organizations. For a first approach, target a one-year request of $30,000\u2013$50,000 to pilot or scale a collaborative, culturally competent program (e.g., bilingual nutrition education + produce access + clinical/community referral pathways with CHASS, Gleaners, schools). Build in clear metrics (reach, diet quality changes, healthcare linkages), a partner MOUs framework, and a sustainability plan. Time submission to the next community grant deadline and also review the Ralph C. Wilson, Jr. Legacy Funds (some streams\u2014e.g., caregivers or design/access for active living\u2014may be adjacent fits).",
+      "timestamp": "2025-11-01T17:15:33.373541Z",
+      "duration_seconds": 42.89,
+      "tokens": {
+        "input": 69,
+        "output": 2733,
+        "total": 2802
+      },
+      "cost_usd": 0.041202,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 10,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally strong output that delivers comprehensive, actionable intelligence in a professional analytical tone. It addresses every prompt requirement with specific, relevant details and provides strategic guidance tailored to the organization's profile. Minor uncertainty exists only around verifying the specific funder details without external validation.",
+        "strengths": [
+          "Comprehensive coverage of all six required elements (priorities, grant size, geography, deadlines, past grantees, requirements) with specific, actionable details",
+          "Excellent strategic recommendation section that goes beyond yes/no to suggest specific grant amount ($30-50k), program approach, partners, and success metrics",
+          "Highly relevant past grantee examples including multiple Southwest Detroit organizations and food access nonprofits that demonstrate strong research",
+          "Professional analytical tone throughout with appropriate sector language (MOUs, fiscal sponsor, 501(c)(3), sustainability plan)",
+          "Well-organized bullet format that enables quick scanning while maintaining depth",
+          "Practical tactical advice (timing submission, reviewing adjacent funding streams, building partner frameworks) that shows sophisticated understanding of grant strategy",
+          "Appropriate length at approximately 450 words, fitting the 300-500 word requirement"
+        ],
+        "weaknesses": [
+          "Cannot independently verify accuracy of specific grant ranges, deadlines, or past grantees without access to CFSEM's actual data\u2014these details appear plausible but would require fact-checking",
+          "The recommendation section, while excellent, is quite prescriptive and might benefit from acknowledging organizational capacity constraints for a 6-person shop taking on complex partnerships"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "The Appalachian Regional Commission (ARC) is a federal-state partnership that invests in economic development across the 13-state Appalachian region. For the Mountain Valley Workforce Network (MVWN) considering an ARC grant, a review of commonalities across their funding priorities and operational characteristics is crucial.\n\n**Giving Priorities:** ARC's strategic plan, \"Investing in Appalachia's Future,\" revolves around five pillars: building a vibrant economy, strengthening the workforce, creating a healthy and resilient region, ensuring access to infrastructure, and capitalizing on natural and cultural assets. For MVWN, the \"strengthening the workforce\" pillar is directly relevant, encompassing initiatives like job training, skill development, and connecting workers to in-demand jobs. Other pillars might offer complementary opportunities, such as workforce development in support of a vibrant local economy or infrastructure projects.\n\n**Typical Grant Size:** ARC grants exhibit significant variability, ranging from tens of thousands for smaller, targeted projects to multi-million dollar investments for large-scale economic development. Many workforce development grants often fall within the \\$100,000 to \\$750,000 range, though this is not a strict limitation. The typical grant size is heavily influenced by the project's scope, regional impact, and requested resources.\n\n**Geographic Focus:** ARC's funding is strictly limited to the 423 counties designated as part of the Appalachian Region. MVWN must ensure its service area falls within these designated counties to be eligible. The specific state ARC office or local development district (LDD) often serves as the initial point of contact and can confirm eligibility.\n\n**Deadlines:** ARC primarily operates on a rolling application basis, where applicants submit proposals to their respective state ARC program managers or LDDs. These entities then review, prioritize, and submit selected projects to the federal ARC for final approval. While there isn't a single overarching federal deadline, state ARC offices or LDDs may have internal submission windows or cut-off dates. Proactive communication with the relevant state ARC office is essential to understand their specific timeline.\n\n**Past Grantees Similar to MVWN:** Many workforce development boards, community colleges, and non-profit organizations focused on job training and placement have successfully secured ARC funding. Examples include grants for developing industry-recognized certifications, expanding career pathways for underserved populations, and establishing workforce intermediaries to connect employers with skilled labor. MVWN should search ARC's publicly available award database, often categorized by state and focus area, to identify specific projects and organizations with similar missions.\n\n**Application Requirements:** While specific requirements can vary, common elements include a detailed project narrative outlining goals, activities, and measurable outcomes; a comprehensive budget; letters of support from partners; and documentation of organizational capacity. Applicants are also typically required to demonstrate local matching funds, which can be cash or in-kind contributions. Strong emphasis is placed on projects demonstrating broad community impact, sustainability, and alignment with regional economic development strategies.\n\n**Recommendation: Apply**\n\nGiven MVWN's mission to strengthen the workforce, the ARC's \"strengthening the workforce\" priority aligns perfectly. The potential grant sizes can be substantial enough to support meaningful projects. If MVWN operates within an ARC-designated county, and can demonstrate strong local partnerships, a clear project plan with measurable outcomes, and a commitment to matching funds, applying for an ARC grant appears highly advantageous. The rolling application process, while requiring diligence in understanding state-specific procedures, offers flexibility. Proactive engagement with the relevant state ARC office or LDD to discuss potential project ideas and understand their specific application process is a crucial first step.",
+      "timestamp": "2025-11-01T17:15:38.397670Z",
+      "duration_seconds": 5.02,
+      "tokens": {
+        "input": 64,
+        "output": 736,
+        "total": 800
+      },
+      "cost_usd": 0.000451,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a well-structured, comprehensive response that addresses all prompt requirements with appropriate objectivity. It provides actionable intelligence about ARC funding that would genuinely help MVWN make an informed decision. Minor weaknesses include somewhat generic language in places and lack of specific recent examples.",
+        "strengths": [
+          "Thoroughly addresses all six required elements (priorities, grant size, geography, deadlines, similar grantees, requirements) with substantive detail",
+          "Excellent contextualization of ARC's five strategic pillars and how they align with MVWN's mission",
+          "Practical, actionable guidance including the critical detail about state ARC offices/LDDs as intermediaries and the rolling application process",
+          "Strong, well-justified recommendation with clear conditions for success (geographic eligibility, matching funds, partnerships)",
+          "Appropriate objective tone throughout without being dry; maintains professional nonprofit sector language",
+          "Realistic about grant size variability and matching fund requirements, which are crucial considerations"
+        ],
+        "weaknesses": [
+          "Lacks specific, named examples of past grantees (though acknowledges where to find them), which would strengthen credibility",
+          "Some phrases feel slightly formulaic ('crucial first step,' 'highly advantageous') reducing authenticity",
+          "Could have mentioned specific ARC funding programs or initiatives by name (POWER grants, INSPIRE, etc.) for greater specificity",
+          "No mention of potential competition level or success rates, which would help MVWN calibrate expectations"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Appalachian Regional Commission (ARC) Grant Assessment\n\n## Overview\nThe Appalachian Regional Commission is a federal-state partnership serving 423 counties across 13 states, focusing on economic development in the Appalachian region.\n\n## Geographic Focus\nARC serves designated counties in Alabama, Georgia, Kentucky, Maryland, Mississippi, New York, North Carolina, Ohio, Pennsylvania, South Carolina, Tennessee, Virginia, and West Virginia. **Verification required**: Confirm Mountain Valley Workforce Network operates within ARC-designated counties, as this is a strict eligibility requirement.\n\n## Funding Priorities\nARC emphasizes five goal areas:\n- Workforce development and talent retention\n- Infrastructure improvements (broadband, transportation)\n- Economic diversification and entrepreneurship\n- Community capacity building\n- Natural and cultural asset development\n\nWorkforce development is explicitly prioritized, aligning well with workforce training organizations.\n\n## Typical Grant Size\nARC awards vary significantly by program:\n- POWER grants (economic transition): $500,000-$1.5 million\n- Standard area development grants: $50,000-$500,000\n- Partnership grants: $25,000-$150,000\n\nMost grants require 50% matching funds, though economically distressed counties may qualify for higher federal shares (up to 80%).\n\n## Application Requirements\nApplications typically require:\n- Detailed project narrative and budget\n- Letters of support from local stakeholders\n- Matching fund documentation\n- Economic impact analysis\n- Alignment with state ARC plan\n\nApplications are submitted through state ARC offices, which provide preliminary review and endorsement.\n\n## Deadlines\nDeadlines vary by state and program. Most states have quarterly or semi-annual review cycles, with many accepting applications on rolling bases. Contact your state ARC office for specific timelines\u2014applications often require 60-90 days advance preparation.\n\n## Past Grantees\nARC has funded numerous workforce initiatives including:\n- Kentucky FAME (manufacturing training): $1.2 million\n- Ohio TechCred (technology skills): $750,000\n- West Virginia STEP program (apprenticeships): $500,000\n\nThese organizations share similar missions in workforce development, skills training, and employer partnerships.\n\n## Recommendation\n**APPLY** \u2013 conditional on geographic eligibility.\n\n**Rationale**: ARC's explicit workforce development priority and history of funding similar organizations make this a strong match. The multi-year funding availability and flexible grant sizes accommodate various project scales.\n\n**Next steps**: \n1. Verify service area counties are ARC-designated\n2. Contact state ARC office to discuss project fit\n3. Identify matching fund sources (in-kind contributions often acceptable)\n4. Review your state's ARC strategic plan for alignment opportunities\n\nIf geographic eligibility is confirmed, ARC represents a high-probability funding opportunity worth the substantial application investment.",
+      "timestamp": "2025-11-01T17:15:50.535411Z",
+      "duration_seconds": 17.16,
+      "tokens": {
+        "input": 77,
+        "output": 631,
+        "total": 708
+      },
+      "cost_usd": 0.009696,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This output is exceptionally useful and well-structured for a nonprofit professional. It maintains an objective tone throughout, addresses all prompt requirements comprehensively, and provides actionable next steps. The conditional recommendation based on geographic eligibility demonstrates sophisticated analysis rather than generic advice.",
+        "strengths": [
+          "Excellent structure with clear headers that directly map to prompt requirements",
+          "Highly actionable with specific next steps and verification requirements highlighted",
+          "Strong use of concrete examples (Kentucky FAME, Ohio TechCred) that are genuinely relevant to the organization's profile",
+          "Appropriate caveats about geographic eligibility and matching requirements show realistic assessment",
+          "Grant size ranges and match requirements provide practical planning information",
+          "The conditional 'APPLY' recommendation with clear rationale demonstrates nuanced thinking",
+          "Stays within word count (approximately 450 words) while being comprehensive"
+        ],
+        "weaknesses": [
+          "Cannot verify accuracy of specific grant amounts and program names without fact-checking (Kentucky FAME, TechCred figures may be illustrative)",
+          "Slightly generic phrasing in some sections ('detailed project narrative and budget') that could apply to any funder",
+          "Could benefit from one specific detail about eastern KY/southern WV ARC designation status to be more tailored"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Appalachian Regional Commission (ARC) overview for Mountain Valley Workforce Network\n\nGiving priorities\n- Core goals: building Appalachia\u2019s workforce ecosystem (training, work-based learning, career pathways, employer engagement, wraparound services), growing businesses/entrepreneurship, critical infrastructure (e.g., broadband), community capacity/leadership, and culture/tourism.\n- Targeted initiatives relevant to workforce:\n  - POWER Initiative: coal-impacted communities; sector-based training, reemployment, entrepreneurship, broadband-enabled jobs.\n  - INSPIRE: recovery-to-work (substance use disorder) programs that connect individuals to training and employment with supports.\n  - ARISE: multi-state collaborations on systems-level solutions (can include workforce/industry partnerships).\n  - READY Appalachia: capacity-building for nonprofits and local governments.\n\nTypical grant size (varies by program and state)\n- Area Development (annual state-managed funds): roughly $50,000\u2013$600,000 for workforce/skills projects; infrastructure can be higher.\n- POWER: generally $500,000\u2013$2,000,000 for implementation; planning grants are smaller.\n- INSPIRE: commonly $150,000\u2013$500,000.\n- ARISE: larger, multi-state projects often $1,000,000+.\n- Match is required and depends on county designation (distressed counties may receive up to ~80% ARC share; transitional often ~50%; competitive ~30%).\n\nGeographic focus\n- Eligible counties within Appalachia across 13 states (must serve ARC-designated counties). Strong emphasis on distressed/at-risk and coal-impacted communities.\n\nDeadlines (confirm current-year NOFOs with ARC/state office)\n- Area Development: rolling/annual via your state ARC program; many states use fall pre-apps for the next fiscal year.\n- POWER: annual solicitation; applications typically due in spring; awards announced late summer/fall.\n- INSPIRE: annual; applications often due late winter/early spring.\n- ARISE: concept papers accepted on a rolling basis; invited full applications in rounds.\n- READY: periodic cohort announcements.\n\nPast grantees similar to a workforce network\n- Eastern Kentucky Concentrated Employment Program (EKCEP) \u2013 multi-year POWER awards for remote work hubs and sector training.\n- Coalfield Development (WV) \u2013 apprenticeship-style workforce development with wraparound supports (POWER and other ARC funding).\n- Multiple community colleges and workforce boards across KY/WV/VA/OH/PA have received ARC support for credential-based training aligned to employer demand.\n- Several Goodwill affiliates in KY/WV/OH have received INSPIRE funding for recovery-to-work pipelines.\n\nApplication requirements\n- Alignment with ARC\u2019s Strategic Investment Priorities and your state\u2019s ARC Strategy Statement; coordination with your Local Development District (LDD) and state ARC program office.\n- Clear employer-driven need, service area in ARC counties, and partnerships (employers, education, workforce boards, recovery providers as relevant).\n- Measurable outcomes (trainees, credentials, job placements, jobs created/retained, leveraged investment).\n- Detailed workplan and budget with documented non-federal match; federal compliance (UEI/SAM, 2 CFR 200). Construction requires environmental review.\n- POWER/INSPIRE require evidence of coal-impact or SUD need and strong regional collaboration.\n\nRecommendation\n- Apply if you operate in ARC-eligible counties and can document employer demand, partnerships, and match. POWER is a fit for coal-impacted areas; INSPIRE if you serve people in recovery; Area Development for regional training pipelines; READY if you need organizational capacity first.\n- Skip (or wait) if you are outside ARC geography, cannot meet match/metrics, or lack partner/employer commitments. Coordination with your LDD and state ARC manager is the best next step to validate fit and timing.",
+      "timestamp": "2025-11-01T17:16:50.054374Z",
+      "duration_seconds": 76.68,
+      "tokens": {
+        "input": 68,
+        "output": 3345,
+        "total": 3413
+      },
+      "cost_usd": 0.050379,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally useful and well-structured funder research summary that demonstrates deep knowledge of ARC's programs and provides actionable guidance. The objective tone is maintained throughout, and all prompt requirements are thoroughly addressed with specific, relevant details tailored to the organization's context in Central Appalachia.",
+        "strengths": [
+          "Highly specific and relevant content - identifies multiple ARC programs (POWER, INSPIRE, ARISE, READY) with clear explanations of which fit the organization's mission and geography",
+          "Excellent use of comparable grantees (EKCEP, Coalfield Development, community colleges) that are genuinely similar to the scenario organization, making the research credible and actionable",
+          "Practical guidance on match requirements by county designation and the critical step of coordinating with Local Development District and state ARC office - shows real understanding of how ARC funding works",
+          "Grant size ranges are realistic and appropriately varied by program type, helping the organization assess feasibility",
+          "Strong, nuanced recommendation that provides multiple pathways (different programs for different needs) rather than a simple yes/no",
+          "Appropriate length at approximately 480 words, well within the 300-500 word target"
+        ],
+        "weaknesses": [
+          "Deadline information is somewhat vague ('typically due in spring,' 'often due late winter') - while the caveat to confirm with ARC is appropriate, more specific recent-year examples would strengthen credibility",
+          "Could benefit from one concrete example of a measurable outcome expectation (e.g., 'ARC typically expects X credentials per $100K invested') to help with proposal planning",
+          "Minor authenticity concern: the level of detail and program knowledge, while accurate, reads slightly like a consultant briefing rather than organic research notes - though this may actually enhance usefulness"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Andrew W. Mellon Foundation: A Strategic Analysis for National Arts Learning Alliance\n\nThe Andrew W. Mellon Foundation (AWMP) is a prominent philanthropic institution with a deep commitment to the humanities and the arts. Before National Arts Learning Alliance (NALA) considers an application, a thorough understanding of AWMP's giving priorities, grant characteristics, and application process is crucial.\n\n**Giving Priorities:** AWMP\u2019s arts and cultural initiatives consistently prioritize the **preservation and advancement of artistic and cultural heritage, fostering artistic innovation, and enhancing access to the arts.** Key areas of focus include supporting historically underrepresented artists and cultural forms, strengthening cultural institutions (museums, libraries, archives, performing arts organizations), and promoting scholarship in the arts. Their initiatives often emphasize **diversity, equity, inclusion, and social justice** within the arts sector. AWMP's \u201cArts and Culture\u201d program, specifically, seeks to reinforce the critical role of the arts in society.\n\n**Typical Grant Size:** AWMP is known for making **substantial, multi-year grants.** While specific figures vary, grants often range from **six to seven figures**, positioning AWMP as a funder capable of supporting significant programmatic development and institutional capacity building, rather than smaller, project-based funding.\n\n**Geographic Focus:** While AWMP is a national foundation, its grantmaking has a **strong presence across the United States.** There is no explicit geographic limitation, but a compelling national scope or a project with broad national impact is often implicitly favored.\n\n**Deadlines:** AWMP **does not accept unsolicited proposals.** Instead, it operates on an **invitation-only basis.** Potential grantees typically engage in a preliminary dialogue with program officers before being invited to submit a full proposal. This makes understanding their priorities and establishing connections paramount.\n\n**Past Grantees Similar to Us:** Identifying \"similar\" grantees is challenging without a precise understanding of NALA's specific programs. However, AWMP has supported numerous organizations dedicated to **arts education, professional development for artists and arts educators, and fostering diverse artistic talent.** Examples include grants to universities for arts programs, regional arts councils supporting emerging artists, and organizations focused on arts access for underserved communities. If NALA, for instance, focuses on professional development for arts educators in underserved communities or developing innovative arts curricula with a strong DEI component, there would be alignment with specific AWMP initiatives. Their past support for organizations like the Young Arts Foundation or various university arts conservatories suggests a commitment to artistic training and talent development.\n\n**Application Requirements:** As stated, AWMP **does not have a general application process.** An invitation to apply would entail a detailed proposal outlining the project's objectives, methodology, budget, evaluation plan, and alignment with AWMP's strategic goals. Robust financial health and a demonstrated track record of impact are implied prerequisites for any organization invited to apply.\n\n**Recommendation: Skip, for now.**\n\nNALA should **skip applying directly at this time.** The primary reason is AWMP's **invitation-only application process.** Cold applications will not be considered. Instead, NALA should focus on a multi-stage strategy:\n\n1.  **Thoroughly review AWMP's current \"Arts and Culture\" program initiatives and grant archives.** Identify very specific areas of alignment between NALA's mission/programs and AWMP's stated priorities, particularly those related to diversity, equity, inclusion, and strengthening the arts ecosystem.\n2.  **Develop a compelling, concise \"Statement of Interest\" or \"Capability Statement\"** that clearly articulates NALA's mission, impact, and how it aligns with specific AWMP initiatives.\n3.  **Identify and cultivate relationships with AWMP program officers.** This may involve networking at relevant arts and philanthropy conferences, seeking introductions from mutual contacts within the arts sector, or carefully crafted, brief introductory emails to program officers whose portfolios directly align with NALA's work. The goal is to initiate a dialogue, not to immediately request funding.\n4.  **Demonstrate impact and strong financial health.** NALA should continue to build a robust track record of successful programs and responsible financial management, as these will be crucial if an invitation to apply is eventually extended.\n\nAWMP is a highly desirable funder, but their gatekeeping mechanism requires a strategic, long-term approach rather than a direct application. NALA should prepare for potential future engagement, but a current \"application\" is not feasible.",
+      "timestamp": "2025-11-01T17:16:57.958209Z",
+      "duration_seconds": 7.9,
+      "tokens": {
+        "input": 64,
+        "output": 906,
+        "total": 970
+      },
+      "cost_usd": 0.000553,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a highly professional, well-structured analysis that exceeds the basic prompt requirements by providing strategic guidance beyond a simple apply/skip recommendation. The analytical tone is appropriate and the content demonstrates sector knowledge. Minor weaknesses include some generic phrasing and the response significantly exceeds the 300-500 word limit (approximately 650 words).",
+        "strengths": [
+          "Excellent strategic thinking - goes beyond the prompt to provide a 4-step engagement strategy rather than just saying 'skip'",
+          "Accurate representation of Mellon's invitation-only process, which is critical information that prevents wasted effort",
+          "Strong alignment analysis between funder priorities (DEI, arts education, institutional capacity) and the organization's profile",
+          "Professional analytical tone with appropriate sector terminology and realistic assessment",
+          "Well-organized with clear headers that make information easy to scan and use",
+          "Practical examples of past grantees and specific program areas that demonstrate research depth"
+        ],
+        "weaknesses": [
+          "Significantly exceeds the 300-500 word limit (approximately 650 words), which violates a specific prompt requirement",
+          "Some generic phrasing like 'robust track record' and 'compelling national scope' that could appear in any funder analysis",
+          "Past grantee examples (Young Arts Foundation, university conservatories) are somewhat vague and may not be current - could benefit from more specific, recent examples",
+          "The recommendation section is somewhat repetitive, restating the invitation-only process multiple times"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# The Andrew W. Mellon Foundation: Grant Opportunity Analysis\n\n## Overview\nThe Andrew W. Mellon Foundation is one of the largest philanthropic funders in arts and humanities, with assets exceeding $7 billion and annual grantmaking around $300-400 million.\n\n## Giving Priorities\nMellon focuses on four primary program areas:\n- **Higher Education and Scholarship in the Humanities** (largest allocation)\n- **Arts and Culture** (performing arts, museums, cultural heritage)\n- **Public Knowledge** (libraries, scholarly communications)\n- **Humanities in Place** (community-based humanities work)\n\nWithin arts, priorities include equity and inclusion, organizational sustainability, arts education infrastructure (particularly at collegiate level), and preservation of cultural heritage. K-12 arts education is notably **not** a core focus area.\n\n## Grant Characteristics\n**Typical Grant Size:** $100,000-$500,000 for general operating or program support; $1-5 million for major initiatives\n**Duration:** Multi-year grants common (2-3 years)\n**Geographic Focus:** Primarily U.S.-based organizations; some international work in Southern Africa and Latin America\n\n## Application Process\n- **Deadlines:** Rolling applications (no specific deadlines)\n- **Initial approach:** Letter of inquiry (2-3 pages) submitted via online portal\n- **Requirements:** 501(c)(3) status, organizational budget, project narrative, outcomes framework\n- **Timeline:** 3-6 months from inquiry to decision\n\n## Relevant Past Grantees\nOrganizations suggesting potential alignment:\n- Wolf Trap Foundation (arts education programming)\n- Americans for the Arts (national arts advocacy)\n- Arts Education Partnership (limited, ending relationship)\n\nHowever, most arts education grantees operate **within higher education institutions** rather than as independent K-12 focused organizations.\n\n## Analysis & Recommendation\n\n**SKIP** \u2014 unless National Arts Learning Alliance has significant higher education components.\n\n**Rationale:**\nWhile Mellon's arts funding is substantial, their strategic focus centers on college-level humanities, museum infrastructure, and equity work within established cultural institutions. K-12 arts learning alliances typically fall outside their funding scope. The foundation's recent grants in \"arts education\" predominantly support university-based teacher preparation or college access programs rather than direct K-12 service delivery or network-building.\n\n**Alternative consideration:** Apply ONLY if your organization is:\n1. Partnering substantially with colleges/universities on teacher preparation\n2. Creating scholarly infrastructure around arts pedagogy\n3. Seeking $250,000+ for multi-year systemic work\n\nOtherwise, redirect resources toward funders specifically prioritizing K-12 arts education (National Endowment for the Arts, regional arts councils, or corporate foundations with explicit youth arts priorities).",
+      "timestamp": "2025-11-01T17:17:08.862878Z",
+      "duration_seconds": 18.81,
+      "tokens": {
+        "input": 74,
+        "output": 618,
+        "total": 692
+      },
+      "cost_usd": 0.009492,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally useful analysis that demonstrates strategic thinking and respects the nonprofit's time. The clear 'SKIP' recommendation with nuanced conditions shows analytical rigor. Minor concerns about verifying specific dollar amounts and grant portfolio details, but the strategic assessment appears sound.",
+        "strengths": [
+          "Directly actionable recommendation that could save significant staff time and resources",
+          "Excellent strategic analysis explaining the mismatch between funder priorities (higher ed) and org focus (K-12)",
+          "Comprehensive coverage of all required elements with appropriate depth",
+          "Thoughtful conditional pathway ('Apply ONLY if...') shows nuance rather than binary thinking",
+          "Includes alternative direction pointing to more appropriate funders",
+          "Professional analytical tone without being dry or overly academic",
+          "Well-organized structure with clear headers enabling quick scanning"
+        ],
+        "weaknesses": [
+          "Specific financial figures ($7B assets, $300-400M annual giving) should ideally include year/source for verification",
+          "Past grantees section is somewhat thin\u2014could benefit from 1-2 more examples or dates",
+          "The 'Arts Education Partnership (limited, ending relationship)' mention lacks context that might be important"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "error": "Expecting value: line 315 column 1 (char 1727)",
+      "timestamp": "2025-11-01T17:17:56.720214Z",
+      "success": false
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 8,
+    "failed_outputs": 1,
+    "total_cost_usd": 0.1216,
+    "average_score": 8.6
+  }
+}
