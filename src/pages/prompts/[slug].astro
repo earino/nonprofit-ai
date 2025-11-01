@@ -88,20 +88,6 @@ if (existsSync(outputsPath)) {
       </div>
     )}
 
-    <!-- Tags -->
-    {prompt.data.tags && prompt.data.tags.length > 0 && (
-      <div class="mt-12 pt-8 border-t border-gray-200">
-        <h3 class="text-sm font-semibold text-gray-500 mb-3">TAGS</h3>
-        <div class="flex flex-wrap gap-2">
-          {prompt.data.tags.map((tag) => (
-            <span class="text-sm px-3 py-1 bg-gray-100 text-gray-700 rounded">
-              {tag}
-            </span>
-          ))}
-        </div>
-      </div>
-    )}
-
     <!-- Related Prompts -->
     {relatedPrompts.length > 0 && (
       <div class="mt-12 pt-8 border-t border-gray-200">
