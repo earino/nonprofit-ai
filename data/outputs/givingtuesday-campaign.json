@@ -1,0 +1,453 @@
+{
+  "prompt_id": "givingtuesday-campaign",
+  "prompt_text": "Write an urgent, inspiring GivingTuesday campaign email for [ORGANIZATION NAME]\nto send on GivingTuesday morning (or day before). The email should:\n\n- Lead with the GivingTuesday movement and why TODAY matters\n- Connect GivingTuesday to your specific mission: [MISSION/CAUSE]\n- Present a specific, achievable 24-hour fundraising goal: [GOAL AMOUNT/NUMBER OF DONORS]\n- Explain what the goal will accomplish: [IMPACT OF GOAL]\n- Include suggested donation amounts with specific impact: [AMOUNT OPTIONS]\n- Create urgency (24-hour window, matching gift if applicable: [MATCH DETAILS])\n- Make it social-media-friendly with easy share links/language\n- Include multiple calls-to-action: donate, share, volunteer\n- Add progress updates if sending throughout the day: [CURRENT PROGRESS]\n- Be energetic and action-oriented without being overwhelming\n- Be 200-300 words for email (keep it scannable)\n- Use an [URGENT/EXCITED/HOPEFUL] tone\n- Be signed by [SIGNER NAME and TITLE]\n- Include P.S. with deadline reminder and easy donate link\n\nThe email should capture GivingTuesday's collective energy while focusing on your\norganization's specific impact. Make donors feel part of a global movement AND\nyour local mission.",
+  "category": "fundraising",
+  "generated_at": "2025-11-01T16:51:25.037579Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Neighborhood youth arts nonprofit in East Oakland serving low-income families; primarily individual donors and local businesses.",
+      "values": {
+        "ORGANIZATION NAME": "East Oakland Youth Arts Collective",
+        "MISSION/CAUSE": "Free, high-quality after-school and weekend arts programs for Oakland teens, with safe transportation and mentorship.",
+        "GOAL AMOUNT/NUMBER OF DONORS": "$25,000 from 300 donors in 24 hours",
+        "IMPACT OF GOAL": "Fund 100 full scholarships for our spring session, stock two studios with supplies for six months, and provide AC Transit passes so students can get to class safely.",
+        "AMOUNT OPTIONS": "- $25 supplies a sketchbook + pencils for one student\n- $50 covers a week of bus fare for a teen to attend class\n- $100 equips a student with studio supplies for a month\n- $250 brings a visiting artist for a workshop\n- $500 provides a full semester scholarship for one teen",
+        "MATCH DETAILS": "All gifts doubled today up to $7,500 thanks to Red Bay Coffee and two local families (through 6 p.m. PT).",
+        "CURRENT PROGRESS": "10:00 a.m. PT update: 68 donors, $6,420 raised (26% to goal).",
+        "URGENT/EXCITED/HOPEFUL": "EXCITED",
+        "SIGNER NAME and TITLE": "Marisol Vega, Executive Director"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Regional Org",
+      "description": "Statewide nonprofit delivering mobile dental and vision clinics across rural Kansas; donor base includes individuals, clinics, and regional businesses.",
+      "values": {
+        "ORGANIZATION NAME": "Sunflower Community Health Alliance",
+        "MISSION/CAUSE": "Bringing free and low-cost mobile dental and vision care to uninsured and underinsured residents in rural Kansas.",
+        "GOAL AMOUNT/NUMBER OF DONORS": "$50,000 or 500 donors by midnight CT",
+        "IMPACT OF GOAL": "Deploy 12 mobile clinic days across 6 counties in January\u2013February, providing exams, cleanings, fillings, and glasses to 600 patients.",
+        "AMOUNT OPTIONS": "- $35 purchases a dental exam kit for one patient\n- $75 provides prescription glasses for an adult or child\n- $150 fuels a mobile clinic for one day in a rural county\n- $500 stocks dental supplies for a full clinic day\n- $1,000 sponsors an entire clinic day in a high-need town",
+        "MATCH DETAILS": "Pioneer Prairie Bank will match the first $25,000 in gifts dollar-for-dollar today.",
+        "CURRENT PROGRESS": "1:00 p.m. CT update: $20,650 raised from 214 donors (41% of goal).",
+        "URGENT/EXCITED/HOPEFUL": "URGENT",
+        "SIGNER NAME and TITLE": "Dr. Lila Nguyen, Program Director"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Established New York City nonprofit focused on homelessness prevention and rapid rehousing; diverse donor base with major corporate partners.",
+      "values": {
+        "ORGANIZATION NAME": "CityShelter Alliance",
+        "MISSION/CAUSE": "Prevent homelessness and move families from shelters into safe, stable housing with rental assistance, case management, and employment support.",
+        "GOAL AMOUNT/NUMBER OF DONORS": "$600,000 from 2,500 donors in 24 hours",
+        "IMPACT OF GOAL": "Open 200 emergency winter beds immediately and fund 120 rapid-rehousing placements by January 31, including move-in support and 3 months of stabilization services.",
+        "AMOUNT OPTIONS": "- $50 provides hot meals and winter supplies for a family for two days\n- $150 covers a month of transit passes for job searches and appointments\n- $500 funds a move-in kit (linens, cookware, cleaning supplies) for one family\n- $1,000 bridges part of first-month rent so a family can sign a lease\n- $5,000 supports a landlord partnership and intensive case management for one placement",
+        "MATCH DETAILS": "The Morgan & Finch Foundation will match every gift dollar-for-dollar up to $300,000 today.",
+        "CURRENT PROGRESS": "4:00 p.m. ET update: 1,420 donors and $338,500 raised (56% to goal).",
+        "URGENT/EXCITED/HOPEFUL": "HOPEFUL",
+        "SIGNER NAME and TITLE": "Alicia Ramos, Chief Development Officer"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Subject: \ud83d\udd25 TODAY IS THE DAY! Let's Ignite Creativity for East Oakland Teens this GivingTuesday! \ud83d\udd25\n\nDear East Oakland Youth Arts Collective Community,\n\nIt's here! **GivingTuesday 2023 is LIVE**, and all over the world, people are coming together to unleash an incredible wave of generosity. While the world unites, TODAY, we have an urgent and exciting mission right here in East Oakland: to empower our incredible teens through the transformative power of art!\n\nAt East Oakland Youth Arts Collective, we provide FREE, high-quality after-school and weekend arts programs, complete with safe transportation and mentorship, because we believe every young person deserves a vibrant space to discover their voice.\n\n**TODAY, in just 24 HOURS, we need your help to raise $25,000 from 300 passionate donors!**\n\n**Why this goal?** Reaching it will mean:\n*   Funding **100 full scholarships** for our spring session\n*   Stocking **two studios** with essential supplies for six months\n*   Providing crucial **AC Transit passes** so students can get to class safely, every time.\n\n**Here's the BEST part: Every single gift made TODAY is DOUBLED!** That's right! Thanks to the incredible generosity of Red Bay Coffee and two local families, **all gifts up to $7,500 will be matched through 6 p.m. PT!** Your impact just got TWICE as powerful!\n\nEvery dollar makes a difference for an East Oakland teen:\n*   **$25** supplies a sketchbook + pencils for one student\n*   **$50** covers a week of bus fare for a teen to attend class\n*   **$100** equips a student with studio supplies for a month\n*   **$250** brings a visiting artist for an inspiring workshop\n*   **$500** provides a full semester scholarship for one teen!\n\n**[DONATE NOW & DOUBLE YOUR IMPACT!]**\n\n**10:00 a.m. PT update: WOW! We're off to an amazing start! 68 donors have already raised $6,420 (26% to goal)! Let's keep this momentum going!**\n\nThis isn't just a donation; it's an investment in creativity, confidence, and community. Let's make this GivingTuesday unforgettable for our youth!\n\n**Please Donate, Share, and Spread the Word!**\n*   **[Click to Donate!]**\n*   **[Share on Facebook]** | **[Share on Twitter]** | **[Share on Instagram]**\n*   Want to go even further? **[Learn about volunteering!]**\n\nThank you for being a champion for East Oakland's young artists!\n\nWith immense gratitude and excitement,\n\nMarisol Vega\nExecutive Director\nEast Oakland Youth Arts Collective\n\nP.S. Don't forget, our special matching gift ends at 6 p.m. PT, and the entire campaign closes at midnight tonight! Let's reach our goal and empower hundreds of teens! **[MAKE YOUR GIFT COUNT NOW!]**",
+      "timestamp": "2025-11-01T16:49:49.858569Z",
+      "duration_seconds": 9.3,
+      "tokens": {
+        "input": 452,
+        "output": 663,
+        "total": 1115
+      },
+      "cost_usd": 0.000466,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, energetic GivingTuesday email that hits all major requirements and captures the excitement of the day. It effectively balances the global movement with local impact. However, it exceeds the word count significantly (430+ words vs. 200-300 requested), which reduces scannability and may hurt email performance. Minor issues include the dated '2023' reference and slightly over-the-top formatting.",
+        "strengths": [
+          "Excellent tone matching - genuinely excited and energetic without being pushy or overwhelming",
+          "Complete coverage of all prompt requirements including matching gift, progress update, multiple CTAs, and social sharing",
+          "Strong impact ladder with specific, tangible donation amounts that connect directly to mission",
+          "Effective use of formatting (bold, bullets, emojis) to create visual hierarchy and energy",
+          "Compelling P.S. that reinforces both urgency elements (match deadline AND midnight deadline)",
+          "Good balance between GivingTuesday global movement framing and hyper-local Oakland mission",
+          "Multiple clear calls-to-action for donate, share, and volunteer as requested"
+        ],
+        "weaknesses": [
+          "Significantly exceeds word count (430+ words vs. 200-300 requested), which hurts scannability and mobile readability - a critical issue for email performance",
+          "Includes '2023' which will date the template and require editing - should be year-agnostic or use current year variable",
+          "Slightly excessive use of emphasis (bold, caps, exclamation points, emojis) - while energetic, borders on overwhelming in places",
+          "The 10 a.m. progress update placement interrupts flow mid-email rather than appearing as a natural update section",
+          "Could be more concise in the opening paragraphs to get to the ask faster"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**Subject: DOUBLE YOUR IMPACT for Oakland teens\u2014TODAY ONLY! \ud83c\udfa8**\n\n**[Alternative subject: It's GivingTuesday! Help us unlock $7,500 for East Oakland artists]**\n\n---\n\nToday, millions of people worldwide are opening their hearts for #GivingTuesday\u2014and East Oakland teens are counting on YOU to be part of this movement!\n\n**Our ambitious 24-hour goal: $25,000 from 300 donors by midnight tonight.**\n\nThis will fund **100 full scholarships** for our spring session, stock two studios with supplies for six months, and provide AC Transit passes so students can get to class safely.\n\n**EVEN BETTER NEWS:** Red Bay Coffee and two local families are **DOUBLING every gift** up to $7,500\u2014but only until 6 p.m. PT today!\n\n**Your impact RIGHT NOW:**\n- **$25** \u2192 supplies a sketchbook + pencils for one student\n- **$50** \u2192 covers a week of safe bus fare to class\n- **$100** \u2192 equips a student with studio supplies for a month\n- **$250** \u2192 brings a visiting artist for a workshop\n- **$500** \u2192 provides a full semester scholarship\n\n**[DONATE NOW: www.eoycollective.org/givingtuesday]**\n\nEvery teen deserves a safe space to create, mentors who believe in them, and transportation to get there. Today, you make that possible.\n\n**Can't give? SHARE THIS EMAIL** or post: \"I'm supporting @EastOaklandYAC this #GivingTuesday! Free arts programs + safe transportation for Oakland teens. Double your impact by 6pm: [LINK]\"\n\nLet's show our young artists what community looks like!\n\nWith gratitude,\n\n**Marisol Vega**  \nExecutive Director  \nEast Oakland Youth Arts Collective\n\n**P.S.** Midnight deadline! Your gift DOUBLES until 6 p.m.\u2014don't wait: **[LINK]**",
+      "timestamp": "2025-11-01T16:49:52.412352Z",
+      "duration_seconds": 11.85,
+      "tokens": {
+        "input": 478,
+        "output": 465,
+        "total": 943
+      },
+      "cost_usd": 0.008409,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional GivingTuesday email that effectively balances urgency with excitement. It hits all major requirements, uses clear formatting for scannability, and provides actionable next steps. The tone is appropriately energetic without being overwhelming, and the specific impact statements are compelling and authentic to the organization's mission.",
+        "strengths": [
+          "Excellent subject line options that create urgency and include emojis appropriate for the excited tone",
+          "Clear, scannable formatting with bold text highlighting key information and donation amounts",
+          "Strong specificity in impact statements that connect donations directly to tangible outcomes (sketchbooks, bus fare, scholarships)",
+          "Effective use of the matching gift as both urgency driver and value multiplier with clear deadline (6 p.m. PT)",
+          "Includes multiple CTAs as requested: donate buttons, social sharing language with ready-to-use copy and hashtags",
+          "Word count appropriate at approximately 250 words, making it digestible for email",
+          "P.S. effectively reinforces both the deadline and matching opportunity",
+          "Authentic voice that feels community-focused rather than corporate"
+        ],
+        "weaknesses": [
+          "Missing the requested 'CURRENT PROGRESS' update (10 a.m. PT: 68 donors, $6,420 raised) which would add social proof and momentum",
+          "Volunteer CTA mentioned in requirements but not included in the email\u2014only donate and share options provided",
+          "Could strengthen the 'global movement AND local mission' connection slightly more explicitly in opening paragraph",
+          "The alternative subject line is quite long and may get cut off in many email clients"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Subject: It\u2019s GivingTuesday\u2014double your impact for Oakland teens today!\n\nToday, the world shows up for generosity. On GivingTuesday, your gift powers free, high-quality after-school and weekend arts programs for Oakland teens\u2014with safe transportation and mentorship that keep students creating and thriving.\n\nOur 24-hour goal: $25,000 from 300 donors. What your support will do this spring:\n- Fund 100 full scholarships\n- Stock two studios with supplies for six months\n- Provide AC Transit passes so students can get to class safely\n\nGive now and your gift is doubled up to $7,500 thanks to Red Bay Coffee and two local families (through 6 p.m. PT).\n\nChoose your impact:\n- $25 = sketchbook + pencils for one student\n- $50 = a week of bus fare for a teen\n- $100 = a month of studio supplies\n- $250 = a visiting artist workshop\n- $500 = a full semester scholarship for one teen\n\nAct now:\n- Donate: eoyac.org/give\n- Share: \u201cI\u2019m supporting East Oakland Youth Arts Collective for #GivingTuesday\u2014join me! eoyac.org/give\u201d\n- Volunteer: eoyac.org/volunteer\n\n10:00 a.m. PT update: 68 donors, $6,420 raised (26% to goal).\n\nTogether, let\u2019s open doors to creativity, community, and safe pathways to the studio\u2014today.\n\nWith gratitude and urgency,\nMarisol Vega\nExecutive Director, East Oakland Youth Arts Collective\n\nP.S. All gifts doubled until 6 p.m. PT\u2014help us reach 300 donors and $25,000 by midnight. Give now: eoyac.org/give",
+      "timestamp": "2025-11-01T16:50:13.858705Z",
+      "duration_seconds": 33.3,
+      "tokens": {
+        "input": 411,
+        "output": 1764,
+        "total": 2175
+      },
+      "cost_usd": 0.027693,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a strong, professional GivingTuesday email that hits all required elements with appropriate urgency and energy. It's scannable, action-oriented, and would likely be effective. Minor weaknesses include slightly generic phrasing in places and the closing line feeling somewhat overwrought.",
+        "strengths": [
+          "Excellent structure and scannability with clear bullet points, donation tiers, and multiple CTAs",
+          "Strong subject line that immediately communicates the matching gift opportunity",
+          "Specific, concrete impact statements that connect donations to real outcomes for Oakland teens",
+          "Effective use of progress update to create momentum and social proof",
+          "Good balance of urgency without being overwhelming\u2014multiple deadlines (6pm match, midnight goal) create layered urgency",
+          "Social share language is ready-to-use and includes hashtag",
+          "Word count (approximately 230 words) fits the 200-300 word requirement perfectly",
+          "P.S. effectively reinforces key deadlines and CTA"
+        ],
+        "weaknesses": [
+          "Opening line 'Today, the world shows up for generosity' feels slightly generic/clich\u00e9d rather than authentically excited",
+          "The closing 'open doors to creativity, community, and safe pathways to the studio' is a bit wordy and abstract compared to the concrete impact statements earlier",
+          "Could strengthen the connection between GivingTuesday as a global movement and this local mission\u2014the transition feels abrupt",
+          "Minor: The progress update placement mid-email might work better near the top or in a highlighted callout box for visual emphasis"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Subject: URGENT: 24 Hours to Bring Health & Hope to Rural Kansas This GivingTuesday!**\n\nFriend,\n\nToday is **GivingTuesday**, a global day of radical generosity. But for Sunflower Community Health Alliance, today is more than a movement \u2013 it's our chance to profoundly impact the health of our rural Kansas neighbors.\n\nRight now, countless uninsured and underinsured residents in our communities lack access to basic dental and vision care. They face pain, lost productivity, and declining quality of life. **But with your urgent help today, we can change that.**\n\n**Our audacious GivingTuesday goal: Raise $50,000 or secure 500 donors by midnight CT TONIGHT!**\n\n**Why today matters:** Reaching this goal means we can immediately **deploy 12 mobile clinic days across 6 counties in January and February**, providing critical exams, cleanings, fillings, and prescription glasses to **600 patients** who desperately need them.\n\n**Your donation, no matter the size, fuels this mission:**\n\n*   **$35** purchases a dental exam kit for one patient\n*   **$75** provides prescription glasses for an adult or child\n*   **$150** fuels a mobile clinic for one day in a rural county\n*   **$500** stocks dental supplies for a full clinic day\n*   **$1,000** sponsors an entire clinic day in a high-need town\n\n**And here\u2019s the game-changer: Pioneer Prairie Bank will match the first $25,000 in gifts dollar-for-dollar today! Your impact is DOUBLED!**\n\n**This is a 24-hour window to make an unparalleled difference.**\n\n**[Click here to double your impact and donate NOW!]**\n\n**1:00 p.m. CT update: Amazing! We\u2019ve already raised $20,650 from 214 donors! That's 41% of our goal! Let's keep this momentum going!**\n\nPlease, share this message widely! Use #GivingTuesday and tag us @SunflowerHealth \u2013 let\u2019s make some noise!\n\nTogether, we can bring brighter smiles and clearer vision to rural Kansas.\n\nWith immense gratitude,\n\nDr. Lila Nguyen\nProgram Director\nSunflower Community Health Alliance\n\n**P.S. Don't let this opportunity pass! The Pioneer Prairie Bank match and our $50,000 goal expire at midnight CT TONIGHT! Give now: [Link to Donation Page]**",
+      "timestamp": "2025-11-01T16:50:17.771965Z",
+      "duration_seconds": 3.91,
+      "tokens": {
+        "input": 445,
+        "output": 541,
+        "total": 986
+      },
+      "cost_usd": 0.000391,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "This email successfully incorporates all required elements and creates genuine urgency appropriate for GivingTuesday. However, it exceeds the 200-300 word limit (approximately 340 words), uses somewhat hyperbolic language ('audacious,' 'radical generosity'), and could feel slightly overwhelming despite instructions to avoid that. The structure is strong and would likely be effective with minor refinements.",
+        "strengths": [
+          "Excellent use of all prompt elements including progress update, matching gift, specific donation tiers, and multiple CTAs",
+          "Strong concrete impact statements that clearly connect donations to outcomes (600 patients, 12 clinic days, specific counties)",
+          "Effective urgency creation through countdown language, matching gift deadline, and progress tracker without being manipulative",
+          "Good scannable format with bold text, bullet points, and clear visual hierarchy",
+          "Appropriate P.S. with deadline reminder and donation link as requested"
+        ],
+        "weaknesses": [
+          "Exceeds the specified 200-300 word count by approximately 40 words, making it less scannable than intended",
+          "Language occasionally veers toward hyperbole ('audacious,' 'radical generosity,' 'unparalleled difference') which may reduce authenticity",
+          "The phrase 'desperately need them' could be seen as potentially patronizing to beneficiaries",
+          "Social media sharing instructions are present but could be more actionable with specific suggested post language",
+          "Opening 'Friend,' salutation feels slightly generic for a personalized campaign"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**Subject: [LIVE NOW] Pioneer Prairie Bank is MATCHING your gift\u2014help us reach 600 Kansas families today! \ud83c\udf3b**\n\n**Preheader:** Every dollar DOUBLED until noon. 12 mobile clinics. 6 counties. 600 neighbors. Let's do this together.\n\n---\n\nToday is **GivingTuesday**\u2014a global movement of generosity happening RIGHT NOW in all 50 states and 80+ countries. And here in rural Kansas, we're turning that energy into **mobile dental chairs, eye exams, and hope.**\n\n**Our 24-hour mission: Raise $50,000 or reach 500 donors by midnight CT** to deploy **12 mobile clinic days across 6 counties** this January and February\u2014bringing free dental care and glasses to **600 uninsured neighbors** who would otherwise go without.\n\n**\ud83c\udf89 URGENT: Pioneer Prairie Bank is matching the first $25,000 donated TODAY, dollar-for-dollar!** Your $75 gift becomes $150. Your impact DOUBLES.\n\n### **Your gift today provides:**\n- **$35** \u2192 Dental exam kit for one patient  \n- **$75** \u2192 Prescription glasses for a child or adult  \n- **$150** \u2192 Fuel for one mobile clinic day  \n- **$500** \u2192 Dental supplies for a full clinic  \n- **$1,000** \u2192 Sponsors an entire clinic in a high-need town  \n\n**[GIVE NOW \u2014 YOUR GIFT IS DOUBLED \u2192]**\n\nShare this mission! Forward this email or post: *\"I'm supporting @SunflowerHealth's mobile clinics bringing dental and vision care to rural Kansas families. Join me: [link] #GivingTuesday\"*\n\n**Every dollar. Every share. Every hour counts.**\n\nWith urgency and gratitude,\n\n**Dr. Lila Nguyen**  \nProgram Director, Sunflower Community Health Alliance\n\n**P.S.** Midnight CT deadline. Matching funds run out at $25,000. **[Double your impact now \u2192]**",
+      "timestamp": "2025-11-01T16:50:26.187923Z",
+      "duration_seconds": 12.33,
+      "tokens": {
+        "input": 471,
+        "output": 474,
+        "total": 945
+      },
+      "cost_usd": 0.008523,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 9
+        },
+        "reasoning": "This is a strong, actionable GivingTuesday email that captures urgency and mission effectively. It hits most requirements and would be immediately usable by a nonprofit professional. However, it has notable omissions (volunteer CTA, progress update) and a confusing match deadline discrepancy that would need correction.",
+        "strengths": [
+          "Excellent subject line and preheader that create urgency and clearly communicate the match opportunity",
+          "Strong opening that connects global GivingTuesday movement to local Kansas mission authentically",
+          "Clear, scannable formatting with effective use of bold, bullets, and emoji that works well for email",
+          "Specific impact language that makes donations tangible (600 patients, 12 clinic days, 6 counties)",
+          "Good donation ladder with concrete outcomes at each level",
+          "Effective social media share language included with specific copy and hashtag",
+          "Appropriate urgent tone without being guilt-driven or overwhelming",
+          "Strong P.S. with deadline reminder as requested"
+        ],
+        "weaknesses": [
+          "Missing volunteer call-to-action entirely\u2014prompt requested multiple CTAs including donate, share, AND volunteer",
+          "Does not include the progress update provided in scenario (1:00 p.m. CT update showing $20,650 raised from 214 donors)",
+          "Confusing match deadline: preheader says 'until noon' but body and P.S. say match runs to $25,000 threshold\u2014this creates uncertainty about when match expires",
+          "Word count appears slightly under 200 words for body content (excluding subject/preheader)",
+          "Could strengthen the 'global movement AND local mission' connection requested in prompt"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Subject: URGENT: It\u2019s GivingTuesday\u2014double your impact for smiles and sight in rural Kansas\n\nToday, the world is giving. On GivingTuesday, your gift joins a global movement\u2014and here at home it powers a very local mission: bringing free and low-cost mobile dental and vision care to uninsured and underinsured residents in rural Kansas. Only today, Pioneer Prairie Bank will match the first $25,000 dollar-for-dollar. Your gift before midnight CT goes twice as far.\n\nOur 24-hour goal: raise $50,000 or engage 500 donors by midnight CT to deploy 12 mobile clinic days across 6 counties in January\u2013February\u2014delivering exams, cleanings, fillings, and glasses for 600 patients.\n\nGive now and see your impact:\n- $35 purchases a dental exam kit for one patient\n- $75 provides prescription glasses for an adult or child\n- $150 fuels a mobile clinic for one day in a rural county\n- $500 stocks dental supplies for a full clinic day\n- $1,000 sponsors an entire clinic day in a high-need town\n\nDonate now (matched): give.sunfloweralliance.org/GT\nShare the movement: \u201cI gave to Sunflower Community Health Alliance for GivingTuesday to bring mobile dental and vision care to rural Kansas. Join me: give.sunfloweralliance.org/GT\u201d\nQuick share links: Facebook: sunfloweralliance.org/GTfb | X: sunfloweralliance.org/GTx | Instagram: sunfloweralliance.org/GTig\nVolunteer on a clinic day: sunfloweralliance.org/volunteer\n\n1:00 p.m. CT update: $20,650 raised from 214 donors (41% of goal). Keep the momentum going!\n\nWith urgency and gratitude,\nDr. Lila Nguyen\nProgram Director, Sunflower Community Health Alliance\n\nP.S. Every dollar through midnight CT is doubled (up to $25,000). Give now: give.sunfloweralliance.org/GT",
+      "timestamp": "2025-11-01T16:50:45.350901Z",
+      "duration_seconds": 31.49,
+      "tokens": {
+        "input": 402,
+        "output": 2393,
+        "total": 2795
+      },
+      "cost_usd": 0.037101,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a strong, professional GivingTuesday email that hits all major requirements with appropriate urgency and clear calls-to-action. The structure is scannable and action-oriented. Minor weaknesses include slightly mechanical social share language and dense formatting that could overwhelm mobile readers.",
+        "strengths": [
+          "Excellent opening that connects global GivingTuesday movement to local mission immediately",
+          "Clear, specific impact metrics throughout (600 patients, 12 clinic days, 6 counties) that make the goal tangible",
+          "Strong tiered giving options with concrete outcomes at each level",
+          "Effective use of matching gift urgency and progress update to drive action",
+          "Multiple CTAs properly integrated (donate, share, volunteer) without feeling cluttered",
+          "Subject line is punchy and includes key motivators (urgency, match, geographic relevance)",
+          "Stays within 200-300 word target while remaining comprehensive"
+        ],
+        "weaknesses": [
+          "Social share language feels template-like ('I gave to [org]... Join me') rather than conversational\u2014could be more authentic",
+          "The middle section with donation amounts and all the CTAs/links is visually dense and could benefit from more white space or formatting breaks",
+          "The phrase 'engage 500 donors' is insider jargon\u2014'reach 500 donors' or '500 gifts' would be clearer",
+          "Multiple URLs listed in paragraph form may not render well in all email clients; bullet formatting would be safer"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Subject: GIVE HOPE THIS GIVINGTUESDAY: Your Gift DOUBLES to End Homelessness!**\n\nDear Friend,\n\nToday is GivingTuesday, a global day of radical generosity. It's a day when millions unite to make a profound difference, and TODAY, your kindness has the power to shatter the cycle of homelessness for families right here in our community.\n\nAt CityShelter Alliance, we believe every family deserves a safe, warm place to call home. This GivingTuesday, we have an ambitious, yet achievable, goal: **raise $600,000 from 2,500 donors in just 24 hours.** Why? Because 200 emergency winter beds are needed immediately, and 120 families are waiting for rapid-rehousing placements by January 31st \u2013 complete with vital move-in support and 3 months of stabilization services.\n\n**Here's the incredible news:** The Morgan & Finch Foundation will **match every gift dollar-for-dollar up to $300,000 today!** Your donation's impact is instantly doubled!\n\n**Here\u2019s how your doubled gift transforms lives:**\n\n*   **$50 ($100 matched!)** provides hot meals and winter supplies for a family for two days.\n*   **$150 ($300 matched!)** covers a month of transit passes for job searches and appointments.\n*   **$500 ($1,000 matched!)** funds a move-in kit (linens, cookware, cleaning supplies) for one family.\n*   **$1,000 ($2,000 matched!)** bridges part of first-month rent so a family can sign a lease.\n*   **$5,000 ($10,000 matched!)** supports a landlord partnership and intensive case management for one placement.\n\nThis isn't just about sheltering; it's about stability, dignity, and a future. Don't let this 24-hour window of incredible impact close!\n\n**[YES! I want to double my impact and end homelessness now!]**\n\nPlease donate, then share this urgent message with your network using #CityShelterAlliance and #GivingTuesday. Every share, every donation, every volunteer hour brings us closer to a community where everyone has a home.\n\nWith immense gratitude and hope,\n\nAlicia Ramos\nChief Development Officer\nCityShelter Alliance\n\nP.S. This GivingTuesday match ends at midnight! Help us reach our $600,000 goal and change lives today: [Direct Donation Link]",
+      "timestamp": "2025-11-01T16:50:48.346961Z",
+      "duration_seconds": 2.99,
+      "tokens": {
+        "input": 485,
+        "output": 548,
+        "total": 1033
+      },
+      "cost_usd": 0.000402,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 6,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The email captures GivingTuesday energy and effectively communicates the matching gift opportunity with clear impact metrics. However, it significantly exceeds the 200-300 word limit (approximately 340 words), omits several required elements, and contains some tone inconsistencies that undermine the requested 'hopeful' approach.",
+        "strengths": [
+          "Strong subject line that immediately highlights the matching gift opportunity",
+          "Clear, specific impact ladder with matched amounts effectively displayed",
+          "Good use of formatting (bold, bullets) to make content scannable",
+          "Effective opening that connects to the global GivingTuesday movement",
+          "Compelling P.S. with urgency and clear call-to-action",
+          "Professional signature block appropriate for the signer's role"
+        ],
+        "weaknesses": [
+          "Exceeds word count requirement by 40+ words (340 vs. 200-300 requested)",
+          "Missing the 4:00 PM progress update that was provided in the scenario data",
+          "Does not include specific volunteer call-to-action (only mentions 'volunteer hour' in passing)",
+          "Missing social media share language/copy - only includes hashtags without shareable text",
+          "Tone occasionally veers toward 'urgent/excited' rather than consistently 'hopeful' (phrases like 'shatter the cycle' and 'radical generosity' feel more aggressive than hopeful)",
+          "The donate button placeholder lacks specificity about where it should link",
+          "Does not provide easy-to-copy social share language as requested"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**Subject: [LIVE NOW] Double Your Impact for Families This GivingTuesday \u23f0**\n\nToday, millions of people across the globe are giving back. Right here in our city, **you can help 200 families find safety tonight and 120 families move into homes by January 31.**\n\n**Our GivingTuesday Goal: $600,000 from 2,500 donors in 24 hours**\n\nThe Morgan & Finch Foundation is **MATCHING every dollar up to $300,000**\u2014but only until midnight tonight.\n\n**Here's what your gift accomplishes RIGHT NOW:**\n\n\ud83d\udc99 **$50** = Hot meals & winter supplies for a family (2 days)  \n\ud83d\udc99 **$150** = Month of transit passes for job searches  \n\ud83d\udc99 **$500** = Complete move-in kit for one family  \n\ud83d\udc99 **$1,000** = First-month rent bridge so a family signs their lease  \n\ud83d\udc99 **$5,000** = Full placement with case management & landlord partnership\n\nYour donation today opens **200 emergency winter beds immediately** and funds **120 rapid-rehousing placements**\u2014including rental assistance, employment support, and stabilization services to ensure families stay housed.\n\n**[DONATE NOW - YOUR GIFT DOUBLES \u2192]**\n\n**Multiply your impact:** Share why you gave on social media using **#GivingTuesday #HomeForEveryFamily** and tag @CityShelterAlliance\n\n**Can't give today?** Sign up to volunteer at **[volunteer link]**\n\nTogether, we're part of something bigger\u2014a global day of generosity creating local miracles.\n\nWith hope and gratitude,\n\n**Alicia Ramos**  \nChief Development Officer  \nCityShelter Alliance\n\n**P.S.** Midnight deadline! Your gift **DOUBLES** today only \u2192 **[DONATE LINK]**\n\n---\n\n**[4 PM UPDATE VERSION - Insert after \"GivingTuesday Goal\" paragraph:]**\n\n**\ud83c\udf89 UPDATE 4:00 PM: 1,420 donors | $338,500 raised | 56% to goal!** We're SO CLOSE\u2014help us finish strong!",
+      "timestamp": "2025-11-01T16:50:57.435826Z",
+      "duration_seconds": 12.08,
+      "tokens": {
+        "input": 509,
+        "output": 507,
+        "total": 1016
+      },
+      "cost_usd": 0.009132,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional GivingTuesday email that successfully balances urgency with hopefulness. It hits all required elements, uses effective formatting for scannability, and creates compelling urgency without being overwhelming. The specific impact amounts are clear and actionable, and the matching gift is prominently featured.",
+        "strengths": [
+          "Excellent subject line with urgency indicator and benefit-focused language",
+          "Perfect length at approximately 240 words, highly scannable with emoji bullets and bold text",
+          "Strong opening that connects global GivingTuesday movement to local impact immediately",
+          "Clear, specific impact ladder with five giving levels that are realistic and tangible",
+          "Effective use of matching gift throughout (subject, body, P.S.) creating urgency",
+          "Multiple CTAs included (donate, share with hashtags, volunteer) as requested",
+          "Smart inclusion of both base version and 4PM update version showing flexibility",
+          "Hopeful tone maintained while still creating urgency through deadline and match",
+          "Social media integration is specific and actionable with hashtags and handle",
+          "P.S. is punchy and reinforces the two key urgency elements (deadline + match)"
+        ],
+        "weaknesses": [
+          "The phrase 'local miracles' in closing may feel slightly generic or overly sentimental for some organizational cultures",
+          "Could benefit from one brief testimonial or story element to add emotional connection beyond statistics",
+          "The 4PM update placement instruction is clear but could specify whether to replace or add to existing content"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Subject: It\u2019s GivingTuesday\u2014double your impact to move families home today\n\nFriend,\n\nToday the world turns compassion into action. On GivingTuesday, your gift fuels a global movement\u2014and powers our local mission to prevent homelessness and move families from shelters into safe, stable housing with rental assistance, case management, and employment support.\n\nIn the next 24 hours, CityShelter Alliance must raise $600,000 from 2,500 donors. The Morgan & Finch Foundation will match every gift dollar-for-dollar up to $300,000 today.\n\nWhat your GivingTuesday gift will make possible:\n- Open 200 emergency winter beds immediately\n- Fund 120 rapid-rehousing placements by January 31\u2014including move-in support and 3 months of stabilization services\n\nYour impact today:\n- $50 provides hot meals and winter supplies for a family for two days\n- $150 covers a month of transit passes for job searches and appointments\n- $500 funds a move-in kit (linens, cookware, cleaning supplies) for one family\n- $1,000 bridges part of first-month rent so a family can sign a lease\n- $5,000 supports a landlord partnership and intensive case management for one placement\n\nGive now: citieshelteralliance.org/give\nShare: \u201cI gave to @CityShelterAlliance for #GivingTuesday to move families from shelter to home. Join me: citieshelteralliance.org/give\u201d\nVolunteer: citieshelteralliance.org/volunteer\n\n4:00 p.m. ET update: 1,420 donors and $338,500 raised (56% to goal).\n\nTogether, we can make sure every family has a warm bed tonight\u2014and a front door to call their own.\n\nWith hope and gratitude,\nAlicia Ramos\nChief Development Officer, CityShelter Alliance\n\nP.S. Deadline is midnight. Every dollar is doubled today. Give now: citieshelteralliance.org/give",
+      "timestamp": "2025-11-01T16:51:11.444314Z",
+      "duration_seconds": 26.09,
+      "tokens": {
+        "input": 431,
+        "output": 1935,
+        "total": 2366
+      },
+      "cost_usd": 0.030318,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a strong, professional GivingTuesday email that hits all required elements with appropriate urgency and hope. The structure is scannable and action-oriented. Minor weaknesses include slightly generic opening language and the progress update placement feeling somewhat awkward mid-email rather than as a true update.",
+        "strengths": [
+          "Excellent subject line that immediately communicates the matching gift opportunity",
+          "Clear, scannable structure with well-organized impact tiers and multiple CTAs",
+          "Strong specificity in goals and outcomes (200 beds, 120 placements by January 31)",
+          "Effective use of the matching gift as both urgency driver and value multiplier",
+          "Good balance of global GivingTuesday movement with local mission focus",
+          "Appropriate hopeful tone without being saccharine or manipulative",
+          "Social media share language is ready-to-use and includes handle and hashtag",
+          "Word count (approximately 250 words) fits the 200-300 word target perfectly"
+        ],
+        "weaknesses": [
+          "Opening line 'Today the world turns compassion into action' feels somewhat generic and AI-like",
+          "Progress update at 4pm appears mid-email without context\u2014would work better as a separate afternoon send or clearly labeled as an update version",
+          "The greeting 'Friend,' may feel impersonal for an established org with a diverse donor base; personalization merge tag would be better",
+          "Minor redundancy: 'give now' appears three times in quick succession (CTA, P.S., and share section)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1224,
+    "average_score": 8.24
+  }
+}

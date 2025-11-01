@@ -1,0 +1,446 @@
+{
+  "prompt_id": "annual-fund-appeal",
+  "prompt_text": "Write a compelling annual fund appeal letter for [ORGANIZATION NAME] to send to\nall donors and prospects. The letter should:\n\n- Open with an engaging story or powerful statistic about [KEY ISSUE/PROBLEM]\n- Explain the organization's impact this past year: [YEAR'S ACCOMPLISHMENTS]\n- Describe the urgent need or opportunity for the coming year\n- Present a specific funding goal or program need: [CAMPAIGN GOAL/NEED]\n- Include a concrete ask for support at multiple giving levels: [SUGGESTED AMOUNTS]\n- Explain what each giving level specifically provides or accomplishes\n- Create urgency (year-end, matching gift, deadline) without being manipulative: [URGENCY FACTOR]\n- Include emotional appeal that connects to donor values\n- Make it personal with direct \"you\" language\n- Provide clear instructions for how to give (online, check, phone)\n- Be 350-500 words for direct mail\n- Use a [URGENT/HOPEFUL/INSPIRING] tone\n- Be signed by [SIGNER NAME and TITLE]\n- Include P.S. with most compelling point or deadline reminder\n\nThe letter should inspire donors to give by showing both need and impact, creating\nappropriate urgency, and making them feel their gift will make a tangible difference.",
+  "category": "fundraising",
+  "generated_at": "2025-11-01T16:54:09.353477Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Urban neighborhood nonprofit addressing food insecurity with mobile markets and youth jobs; donor base includes nearby residents and local small businesses.",
+      "values": {
+        "ORGANIZATION NAME": "Southside Fresh Food Collective",
+        "KEY ISSUE/PROBLEM": "Rising food insecurity and lack of affordable fresh produce in our neighborhood\u2019s food desert",
+        "YEAR'S ACCOMPLISHMENTS": "Operated a weekly mobile market delivering 42,300 pounds of affordable produce to 1,150 households; enrolled 312 neighbors in SNAP/Double Up Food Bucks; trained 27 local teens as paid Food Justice Interns; and partnered with two clinics to pilot food-as-medicine prescriptions.",
+        "CAMPAIGN GOAL/NEED": "$85,000 to add two new mobile market stops, subsidize 500 produce shares for seniors and families, and keep the community fridge network stocked through winter",
+        "SUGGESTED AMOUNTS": "$35, $75, $150, $300, $1,000",
+        "URGENCY FACTOR": "Every gift is doubled up to $40,000 by December 31 thanks to a match from Rivera\u2019s Markets; winter demand spikes in January, and routes must be confirmed by 12/28.",
+        "URGENT/HOPEFUL/INSPIRING": "URGENT",
+        "SIGNER NAME and TITLE": "Marisol Vega, Executive Director"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Regional adult literacy nonprofit serving urban, suburban, and rural learners across the Great Lakes region; donors include volunteers, educators, unions, and local companies.",
+      "values": {
+        "ORGANIZATION NAME": "Great Lakes Literacy Partners",
+        "KEY ISSUE/PROBLEM": "Low adult literacy rates that limit job opportunities, civic engagement, and family stability",
+        "YEAR'S ACCOMPLISHMENTS": "Provided 18,600 hours of one-on-one tutoring to 428 adult learners; 68% advanced at least two reading levels; 95 students earned a GED; launched workplace ESL at four manufacturers; and opened childcare-supported evening classes in two neighborhoods.",
+        "CAMPAIGN GOAL/NEED": "$250,000 to train 150 new volunteer tutors, expand evening classes with childcare at two learning centers, and upgrade digital learning tools",
+        "SUGGESTED AMOUNTS": "$50, $120, $365, $750, $2,500",
+        "URGENCY FACTOR": "A 1:1 challenge from the Bright Pages Foundation will match all gifts up to $125,000 through December 31; classes for the winter term begin January 8.",
+        "URGENT/HOPEFUL/INSPIRING": "HOPEFUL",
+        "SIGNER NAME and TITLE": "Avery McKnight, Executive Director"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "National conservation and active-transportation nonprofit connecting urban and rural communities through long-distance trail networks; broad donor base of outdoor enthusiasts, families, and corporate partners.",
+      "values": {
+        "ORGANIZATION NAME": "Greenways USA",
+        "KEY ISSUE/PROBLEM": "Disconnected trail networks that cut off safe, carbon-free transportation and outdoor access\u2014especially in under-resourced communities",
+        "YEAR'S ACCOMPLISHMENTS": "Completed 187 miles of trail and closed 23 critical gaps across 11 metro regions; launched Safe Routes to Parks in 40 neighborhoods; restored 1,200 acres of habitat along corridors; and secured $62 million in public co-investment.",
+        "CAMPAIGN GOAL/NEED": "$1.8 million to finish three flagship corridors (Great River Link, High Desert Loop, and Bay-to-Hills Connector) and build an open-source Trail Equity Map to guide future projects",
+        "SUGGESTED AMOUNTS": "$100, $250, $500, $1,000, $5,000",
+        "URGENCY FACTOR": "Board members have pledged a $900,000 match through December 31; a federal RAISE grant requires $1.2 million in private commitments by January 15 to unlock funds.",
+        "URGENT/HOPEFUL/INSPIRING": "INSPIRING",
+        "SIGNER NAME and TITLE": "Leah Ortega, President & CEO"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Subject: URGENT: Winter Looms \u2013 Can You Help Us Feed Our Neighbors?**\n\nImagine Miriam, a grandmother in our Southside community, pushing her worn grocery cart past rows of corner stores, each offering only processed, high-priced food. Imagine her exhaustion, the gnawing worry about feeding her grandchildren nutritious meals. This isn't an isolated story; it's the daily reality for thousands of our neighbors. Here in our own backyard, a shocking **1 in 5 households faces food insecurity, trapped in a food desert where fresh, affordable produce is practically nonexistent.**\n\nSouthside Fresh Food Collective was formed to break this devastating cycle, and **thanks to YOUR incredible support, we\u2019ve made a LIFE-CHANGING impact this past year!** We operated a vibrant weekly mobile market, delivering an astounding **42,300 pounds of affordable, fresh produce to 1,150 households** across our community. We didn't just offer food; we empowered neighbors, enrolling **312 individuals in SNAP/Double Up Food Bucks**, ensuring they could stretch their budgets and access even more healthy options. We invested in our youth, training **27 local teens as paid Food Justice Interns**, giving them valuable skills and a voice in shaping their community's health. And, in a groundbreaking initiative, we partnered with two clinics to **pilot \"food-as-medicine\" prescriptions**, proving that healthy food is indeed the best medicine.\n\nBut the fight is far from over. As winter approaches, demand for our services\nskyrockets, and the need becomes even more acute. **We have an IMMEDIATE and CRITICAL opportunity to expand our reach, but we can't do it without YOU.**\n\n**We urgently need to raise $85,000 by December 31st** to achieve these vital goals:\n\n*   **Add two new mobile market stops:** Expanding our reach to even more underserved neighborhoods.\n*   **Subsidize 500 produce shares for seniors and families:** Ensuring our most vulnerable neighbors have consistent access to nutritious food.\n*   **Keep our community fridge network stocked through the brutal winter months:** A vital lifeline for immediate food access.\n\n**Every single gift you make right now will be DOUBLED, up to $40,000, thanks to a generous matching gift from Rivera\u2019s Markets!** This means your impact automatically multiplies. Winter demand spikes dramatically in January, and to secure our new routes and ensure a robust supply, we must confirm our plans by **December 28th.**\n\n**Will you stand with us and transform lives this winter?**\n\n*   **A gift of $35** provides a week's supply of fresh produce for a senior.\n*   **A gift of $75** subsidizes a family's produce share for an entire month.\n*   **A gift of $150** helps stock a community fridge for a critical week.\n*   **A gift of $300** helps us launch one of our two new mobile market stops.\n*   **A gift of $1,000** safeguards our community fridge network from hunger all winter.\n\n**Your contribution is not just a donation; it's a lifeline.** It's the difference between a hungry night and a nourishing meal, between despair and hope. You have the power to bring fresh food, dignity, and health to Miriam and countless others.\n\n**Please, make your urgent, doubled gift today.**\n\n*   **Give online at:** [SouthsideFreshFood.org/donate](http://SouthsideFreshFood.org/donate)\n*   **Mail your check to:** Southside Fresh Food Collective, [Your Address]\n*   **Or call us at:** [Your Phone Number]\n\nThank you for being a vital part of the Southside Fresh Food Collective family. Together, we can build a healthier, stronger community.\n\nWith deepest gratitude,\n\nMarisol Vega\nExecutive Director\n\n**P.S. Your matched gift by December 31st isn't just double the impact \u2013 it's the ONLY way we can secure our expanded routes and keep our community fed through the harsh winter. Please, give generously now!**",
+      "timestamp": "2025-11-01T16:52:03.688093Z",
+      "duration_seconds": 5.78,
+      "tokens": {
+        "input": 423,
+        "output": 885,
+        "total": 1308
+      },
+      "cost_usd": 0.000594,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 5,
+          "completeness": 9,
+          "usefulness": 6,
+          "accuracy": 8,
+          "authenticity": 6
+        },
+        "reasoning": "The letter fulfills nearly all technical requirements and demonstrates strong structural competence, but significantly overshoots the 'urgent' tone into manipulative territory with excessive capitalization, dramatic language, and emotional pressure tactics. While comprehensive, it would require substantial toning down before actual use.",
+        "strengths": [
+          "Excellent completeness - includes all required elements (story, accomplishments, specific ask levels, giving instructions, P.S., matching gift urgency)",
+          "Strong concrete impact statements that clearly connect donation amounts to tangible outcomes",
+          "Effective use of specific data and numbers to demonstrate credibility and impact",
+          "Well-structured narrative arc from problem to solution to opportunity",
+          "Good personalization with 'you' language throughout"
+        ],
+        "weaknesses": [
+          "Excessive capitalization and dramatic formatting (URGENT, LIFE-CHANGING, DOUBLED, CRITICAL, ONLY) creates manipulative rather than appropriately urgent tone",
+          "Over-the-top emotional language ('brutal winter months,' 'gnawing worry,' 'devastating cycle') that feels exploitative rather than authentic",
+          "Exceeds word count at approximately 550 words vs. requested 350-500",
+          "Subject line included when this is a direct mail letter (not email)",
+          "The opening story about Miriam feels somewhat stereotypical and potentially patronizing",
+          "Repetitive urgency messaging becomes counterproductive and may trigger donor fatigue"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# **SOUTHSIDE FRESH FOOD COLLECTIVE**\n\nDear Friend,\n\n**Last Tuesday, I watched Carmen hold a butternut squash like it was made of gold.**\n\nThe 73-year-old grandmother told me she hadn't bought fresh produce in two months\u2014not because she didn't want to, but because the corner store charges $4.99 per pound while her monthly budget allows just $0.87 per meal. Carmen lives in a neighborhood where the nearest full-service grocery is 2.3 miles away, and 1 in 3 children don't know where their next meal is coming from.\n\nBut thanks to supporters like you, Carmen now has access to our weekly mobile market\u2014where that squash costs just $1.50.\n\n**This year, you've helped us create real change:**\n\n- **42,300 pounds** of fresh produce delivered to **1,150 households** through our mobile markets\n- **312 neighbors** enrolled in SNAP and Double Up Food Bucks, stretching their food dollars\n- **27 local teens** paid and trained as Food Justice Interns, breaking cycles of poverty\n- **Two clinics** now prescribing fresh food as medicine to patients with diabetes and hypertension\n\n**But here's the urgent truth:** Winter demand spikes by 40% in January, just as families recover from holiday expenses. We have **12 days** to secure funding to confirm two new routes, subsidize 500 produce shares for seniors and families like Carmen's, and keep our community fridge network stocked through the coldest months.\n\n**We need to raise $85,000 by December 31\u2014and thanks to Rivera's Markets, every dollar you give will be DOUBLED up to $40,000.**\n\n**Your gift today provides:**\n\n- **$35** = 70 pounds of fresh produce ($70 impact with match!)\n- **$75** = One month of subsidized produce for a senior\n- **$150** = Food Justice Internship wages for one teen for a week\n- **$300** = Fresh prescriptions for 6 clinic patients monthly\n- **$1,000** = Launch one new mobile market stop serving 75 families\n\n**Will you help us say YES to neighbors like Carmen?** \n\nRoutes must be confirmed by December 28. Every gift\u2014matched dollar-for-dollar\u2014means a family eating fresh greens instead of going hungry. It means teens earning their first paycheck. It means health instead of emergency rooms.\n\n**Give online at SouthsideFreshFood.org/give, call 555-0199, or mail your check today.**\n\nThank you for believing fresh food is a right, not a privilege.\n\nWith gratitude and urgency,\n\n**Marisol Vega**\nMarisol Vega, Executive Director\n\n**P.S.** The matching gift expires December 31, and our new routes launch January 7. Your $75 gift becomes $150 RIGHT NOW\u2014enough to feed a senior for two months. Please don't wait.",
+      "timestamp": "2025-11-01T16:52:15.220813Z",
+      "duration_seconds": 17.31,
+      "tokens": {
+        "input": 431,
+        "output": 673,
+        "total": 1104
+      },
+      "cost_usd": 0.011388,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 10,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is a highly effective appeal letter that skillfully balances urgency with authenticity. It opens with a memorable, humanizing story, clearly articulates impact with specific metrics, and creates genuine urgency through the matching gift deadline. The letter would require only minor customization before use.",
+        "strengths": [
+          "Exceptional opening story - Carmen and the butternut squash is vivid, specific, and emotionally resonant without being exploitative",
+          "Perfect execution of all template requirements including word count (487 words), giving levels with specific impact statements, multiple giving methods, and strong P.S.",
+          "Excellent use of concrete numbers and metrics (2.3 miles, $0.87 per meal, 40% winter spike) that build credibility and urgency",
+          "Strong donor-centric language with 'you' voice and emphasis on donor impact rather than organizational needs",
+          "The matching gift integration feels natural and creates authentic urgency tied to operational deadlines (route confirmation by 12/28)",
+          "Giving level impacts are specific, tangible, and show the match doubling effect clearly",
+          "Tone is appropriately urgent without being manipulative or guilt-inducing - focuses on opportunity rather than desperation"
+        ],
+        "weaknesses": [
+          "The statistic '1 in 3 children don't know where their next meal is coming from' may need sourcing verification - it's a strong claim that donors might question",
+          "Minor formatting inconsistency - the organization name header might be better as letterhead rather than markdown heading",
+          "The phrase 'made of gold' in the opening, while evocative, borders slightly on clich\u00e9, though it works in context",
+          "Could potentially benefit from one brief sentence acknowledging previous donors specifically versus lumping all recipients together as 'Friend'"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear Neighbor,\n\nOn Tuesdays before dawn, Ms. Alvarez waits on the corner with an empty tote. The nearest full-service grocery is miles away; bus fare and time make fresh greens a luxury she can\u2019t afford. But when our green truck turns onto her block, she smiles\u2014because neighbors like you bring an affordable farmers market to a food desert that has gone too long without choice, nutrition, or dignity.\n\nWith your support this year, Southside Fresh Food Collective turned urgency into impact:\n- Our weekly mobile market delivered 42,300 pounds of affordable produce to 1,150 households.\n- We enrolled 312 neighbors in SNAP/Double Up Food Bucks so healthy food dollars stretch further.\n- We trained 27 local teens as paid Food Justice Interns\u2014building leaders and livelihoods.\n- We partnered with two clinics to pilot food-as-medicine prescriptions, putting doctor-ordered produce in patients\u2019 hands.\n\nRight now, we face a winter surge in demand. January is our busiest month, and to meet it we must confirm routes by December 28. Our goal is $85,000 to add two new mobile market stops, subsidize 500 produce shares for seniors and families, and keep our community fridge network stocked through winter. Every gift is doubled up to $40,000 through December 31 thanks to a generous match from Rivera\u2019s Markets\u2014your impact can go twice as far when it matters most.\n\nPlease make your most generous year-end gift today:\n- $35 delivers a fresh produce bag at a mobile market stop for a neighbor like Ms. Alvarez.\n- $75 keeps one community fridge filled with fruits and vegetables for two days.\n- $150 subsidizes a full month of produce shares for a senior or family.\n- $300 fuels and staffs an additional mobile market stop for a week.\n- $1,000 underwrites a month of operations at a mobile market stop\u2014bringing affordable produce to blocks with no grocery options.\n\nYou can give online at our website, by mailing a check in the enclosed reply envelope (payable to Southside Fresh Food Collective), or by calling our office to donate by phone. Your gift today means full fridges, warmer kitchens, and healthier neighbors tomorrow.\n\nThank you for believing that everyone deserves fresh, affordable food\u2014and for acting before the coldest months arrive.\n\nWith urgency and gratitude,\n\nMarisol Vega\nExecutive Director\nSouthside Fresh Food Collective\n\nP.S. Double your impact: Every dollar is matched up to $40,000 until December 31\u2014and we must lock in January routes by 12/28. Please give today so the truck rolls where it\u2019s needed most.",
+      "timestamp": "2025-11-01T16:52:27.576232Z",
+      "duration_seconds": 29.67,
+      "tokens": {
+        "input": 389,
+        "output": 2583,
+        "total": 2972
+      },
+      "cost_usd": 0.039912,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional appeal letter that effectively balances urgency with hope while maintaining authenticity. It fulfills all prompt requirements, uses compelling storytelling, and provides clear, actionable giving options. The writing is polished and would require minimal editing for actual use.",
+        "strengths": [
+          "Excellent opening story with Ms. Alvarez that creates immediate emotional connection and visualizes the problem concretely",
+          "Perfect word count (467 words) and structure with clear sections that flow logically from story to impact to need to ask",
+          "Specific, tangible impact statements for each giving level that help donors visualize exactly what their gift accomplishes",
+          "Effective use of urgency through matching gift and route confirmation deadline without feeling manipulative or guilt-driven",
+          "Strong 'you' language throughout that makes donors feel personally connected and essential to the mission",
+          "Excellent P.S. that reinforces both urgency factors (match deadline and route deadline) concisely",
+          "Culturally appropriate details (Ms. Alvarez, Rivera's Markets) that ground the letter in authentic community context",
+          "Clear giving instructions covering all three methods (online, mail, phone) as requested"
+        ],
+        "weaknesses": [
+          "The phrase 'doubled up to $40,000' in the urgency paragraph could be slightly clearer\u2014'matched dollar-for-dollar' might be more immediately understood",
+          "Minor: The website URL could be spelled out explicitly rather than 'our website' for easier donor action",
+          "The opening 'Dear Neighbor' is warm but generic\u2014personalizing with actual donor names would strengthen impact in real use"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Dear [Donor Name],\n\nImagine waking up every day struggling to read a bus schedule, complete a job application, or even help your child with their homework. For millions of adults in our communities, this isn't an imagining \u2013 it's a daily reality. Low adult literacy rates are a silent crisis, limiting job opportunities, stifling civic engagement, and destabilizing families, leaving individuals feeling isolated and without hope.\n\nBut thanks to your generosity and the dedication of our community, last year, Great Lakes Literacy Partners brought renewed hope and tangible change! We provided **18,600 hours of life-changing one-on-one tutoring to 428 adult learners**. The impact is clear: a remarkable **68% advanced at least two reading levels**, opening doors to new possibilities. We celebrated with **95 students who earned their GED**, giving them a foundation for brighter futures. To meet the evolving needs of our region, we successfully **launched workplace ESL programs at four local manufacturers** and, crucially, **opened childcare-supported evening classes in two underserved neighborhoods**, removing critical barriers to learning.\n\nThese aren't just statistics; they represent individuals empowered to read to their children, secure better jobs, and actively participate in their community. Your support made this transformation possible.\n\nNow, we stand at a critical juncture. The demand for our services continues to grow, and the opportunity to make an even greater impact is clear. This coming year, we aim to reach even more adults eager to unlock their potential.\n\nThat's why we\u2019re asking for your help to reach our ambitious goal of **$250,000**. This vital funding will allow us to:\n\n*   **Train 150 new volunteer tutors**, expanding our capacity to provide personalized instruction.\n*   **Expand our successful evening classes with childcare at two additional learning centers**, bringing literacy and stability to more families.\n*   **Upgrade our digital learning tools**, ensuring our students have access to the most effective and engaging resources.\n\n**Your investment in Great Lakes Literacy Partners today creates a ripple effect of positive change tomorrow.**\n\nPlease consider a gift that reflects your commitment to empowering our neighbors:\n\n*   **$50** provides essential workbooks and learning materials for one student.\n*   **$120** supports one hour of crucial childcare, allowing a parent to attend evening classes.\n*   **$365** sponsors a new student's initial assessment and first month of tutoring.\n*   **$750** equips a new tutor with training and resources to guide three learners.\n*   **$2,500** fully funds a digital learning station, opening up new avenues for progress.\n\nThere's an extraordinary opportunity to maximize your impact right now! The **Bright Pages Foundation has issued a 1:1 challenge, matching every gift up to $125,000 through December 31!** This means your donation will have DOUBLE the power to change lives. Our winter term classes begin January 8, and we need your support now to be ready for the eager learners waiting at our doors.\n\nYou have the power to transform a life, one word at a time. Please make your tax-deductible gift today at [Your Website Address], mail a check using the enclosed envelope, or call us at [Your Phone Number].\n\nThank you for being a vital part of Great Lakes Literacy Partners. Together, we can build a more literate, thriving community for all.\n\nWith deepest gratitude and hope,\n\nAvery McKnight\nExecutive Director\n\nP.S. Remember, your gift will be matched dollar-for-dollar by the Bright Pages Foundation through December 31st! Double your impact and help us empower more adults to reach their full potential.",
+      "timestamp": "2025-11-01T16:52:32.058407Z",
+      "duration_seconds": 4.48,
+      "tokens": {
+        "input": 405,
+        "output": 786,
+        "total": 1191
+      },
+      "cost_usd": 0.000532,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professionally crafted appeal letter that hits all required elements with appropriate hopeful tone and compelling storytelling. It effectively balances emotional appeal with concrete impact data and creates genuine urgency through the matching gift. Minor weaknesses include slightly generic opening language and a few formatting choices that could be refined for direct mail.",
+        "strengths": [
+          "Excellent fulfillment of all prompt requirements including opening story/statistic, accomplishments, specific ask amounts with impact descriptions, urgency factor, and strong P.S.",
+          "Effective use of bold formatting to highlight key statistics and accomplishments, making the letter scannable",
+          "Strong specificity in giving level impacts (e.g., '$120 supports one hour of crucial childcare') that helps donors visualize their contribution",
+          "Appropriate hopeful tone throughout with phrases like 'renewed hope,' 'brighter futures,' and 'power to transform a life'",
+          "Good use of 'you' language and donor-centric framing ('your generosity,' 'your support made this transformation possible')",
+          "Well-structured urgency with both the matching gift deadline and the January 8 class start date",
+          "Appropriate length at approximately 475 words, fitting the 350-500 word requirement",
+          "Clear call-to-action with multiple giving methods (online, mail, phone)"
+        ],
+        "weaknesses": [
+          "Opening 'Imagine waking up every day' is somewhat clich\u00e9d for nonprofit appeals and could be more distinctive",
+          "Missing placeholder brackets for [Donor Name], [Your Website Address], and [Your Phone Number] which should be clearly marked for mail merge",
+          "The phrase 'this isn't an imagining' is slightly awkward grammatically",
+          "Bullet points with asterisks may not format well in traditional direct mail letters; numbered or indented paragraphs might be more appropriate",
+          "Could strengthen the connection between the donor's past giving and specific outcomes to make renewal donors feel more personally invested"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# GREAT LAKES LITERACY PARTNERS\n\nDear Friend,\n\n**Marcus couldn't read the warning label on his daughter's medication.**\n\nFor twelve years, he hid his struggle with reading\u2014even from his family. He worked hard at the warehouse, memorizing routes and watching what others did. But when his daughter got sick, everything changed. That terrifying moment brought Marcus to our doors.\n\nToday, Marcus reads at a seventh-grade level and is studying for his GED. His daughter is healthy. And he recently got promoted to shift supervisor.\n\nMarcus is one of **428 adult learners** you helped us serve this year. Together, we provided 18,600 hours of one-on-one tutoring. An impressive 68% of our students advanced at least two reading levels, and 95 earned their GED. We launched workplace ESL programs at four local manufacturers and opened evening classes with childcare in two neighborhoods where families needed us most.\n\n**You made this possible.** And there are hundreds more adults like Marcus waiting for their chance.\n\nRight now, we have 200 people on our waiting list\u2014parents who want to read bedtime stories, workers seeking better jobs, and immigrants building new lives. Winter term classes begin January 8, and we need your help to welcome them.\n\n**Our goal is to raise $250,000 by December 31** to train 150 new volunteer tutors, expand evening classes with childcare at two more learning centers, and upgrade our digital learning tools. Thanks to the Bright Pages Foundation, **every dollar you give will be matched dollar-for-dollar up to $125,000**\u2014doubling your impact.\n\nHere's what your gift provides:\n\n- **$50** supplies learning materials for one student for three months\n- **$120** trains one new volunteer tutor\n- **$365** provides a year of tutoring for one adult learner\n- **$750** covers childcare for 10 evening classes\n- **$2,500** funds a complete digital learning station\n\n**Your gift today means someone starts reading in January instead of waiting another year.**\n\nPlease send your most generous gift using the enclosed envelope, give online at GreatLakesLiteracy.org/donate, or call us at (616) 555-0147. Every contribution\u2014matched dollar-for-dollar\u2014turns waiting into learning and hopelessness into possibility.\n\nThank you for believing that it's never too late to learn.\n\nWith gratitude and hope,\n\nAvery McKnight  \nExecutive Director\n\n**P.S.** With the Bright Pages Foundation match, your $120 gift becomes $240\u2014enough to train TWO tutors who'll each serve multiple students for years. But the match expires December 31. Please give today!",
+      "timestamp": "2025-11-01T16:52:43.398932Z",
+      "duration_seconds": 15.82,
+      "tokens": {
+        "input": 410,
+        "output": 603,
+        "total": 1013
+      },
+      "cost_usd": 0.010275,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong appeal letter that hits all major fundraising best practices. It opens with a compelling, emotionally resonant story, clearly articulates impact and need, and creates appropriate urgency through the matching gift. The tone is perfectly hopeful while maintaining authenticity, and the structure follows proven direct mail conventions.",
+        "strengths": [
+          "Outstanding opening story with Marcus that is specific, emotional, and relatable\u2014the medication detail is particularly powerful",
+          "Excellent use of concrete numbers and percentages that demonstrate credibility and impact (428 learners, 68% advanced, 18,600 hours)",
+          "Very effective matching gift presentation that creates genuine urgency without manipulation\u2014clearly explained multiple times",
+          "Strong giving ladder with specific, tangible outcomes for each level that help donors visualize their impact",
+          "Perfect word count at approximately 425 words, ideal for direct mail",
+          "Excellent P.S. that reinforces the match and creates urgency while showing concrete impact ($120 becomes $240 for two tutors)",
+          "Consistent 'you' language throughout that makes donors feel personally connected",
+          "Clear call-to-action with multiple giving methods (envelope, online, phone)",
+          "Hopeful tone maintained throughout while acknowledging real challenges",
+          "Professional formatting with effective use of bold for emphasis on key points"
+        ],
+        "weaknesses": [
+          "The phrase 'Dear Friend' is functional but generic\u2014could be improved with mail merge personalization guidance",
+          "Minor: Could strengthen the connection between the $250,000 goal and the 200-person waiting list with slightly more explicit math",
+          "The Marcus story, while compelling, uses a common narrative arc that some might find slightly formulaic (though this is a minor concern as the execution is strong)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear Friend,\n\nOne in five adults in our region struggles to read well enough to fill out a job application, help with homework, or understand a ballot. For Maria, a warehouse worker and mother of two, that meant missing promotions and pretending she \u201cforgot her glasses\u201d at parent-teacher night. This year, she read her first chapter book\u2014and earned a raise\u2014because someone like you believed in her potential.\n\nWith your support, Great Lakes Literacy Partners delivered 18,600 hours of one-on-one tutoring to 428 adult learners. Sixty-eight percent advanced at least two reading levels. Ninety-five students earned a GED. We launched workplace ESL at four manufacturers so employees can learn while they earn, and we opened childcare-supported evening classes in two neighborhoods so parents don\u2019t have to choose between learning and caregiving.\n\nThe need is growing, and the opportunity is now. Waiting lists are long. Employers are asking for more onsite ESL. Parents are asking for additional evening classes with childcare. To meet this demand, we must raise $250,000 by year-end to train 150 new volunteer tutors, expand evening classes with childcare at two learning centers, and upgrade digital learning tools so learners can practice at home and on the job.\n\nYour gift will be doubled thanks to a 1:1 challenge from the Bright Pages Foundation\u2014matching all gifts up to $125,000 through December 31\u2014and will put learners in seats when winter term begins January 8.\n\nPlease make a generous tax-deductible gift today:\n- $50 provides a month of workbooks and bus passes for one learner.\n- $120 funds a month of digital learning licenses and a headset for one learner.\n- $365 sponsors one parent\u2019s winter term evening class with childcare.\n- $750 recruits, trains, and supports one new volunteer tutor for a year.\n- $2,500 equips a learning center with updated laptops, hotspots, and software for a full class.\n\nWhen you give, you open doors to better jobs, stronger families, and a more engaged community. You turn anxiety into dignity and potential into progress\u2014one learner, one page, one promotion at a time.\n\nGive online at GreatLakesLiteracy.org/give, mail a check to Great Lakes Literacy Partners, 123 Lake Avenue, Suite 200, Cleveland, OH 44114, or call 216-555-0142 to make your gift by phone.\n\nThank you for helping every adult in our community read, work, and thrive.\n\nWith gratitude,\n\nAvery McKnight\nExecutive Director\nGreat Lakes Literacy Partners\n\nP.S. Your gift by December 31 will be matched dollar for dollar by the Bright Pages Foundation\u2014doubling your impact\u2014and will help enroll learners before classes begin January 8. Please give today at GreatLakesLiteracy.org/give.",
+      "timestamp": "2025-11-01T16:52:56.306603Z",
+      "duration_seconds": 28.73,
+      "tokens": {
+        "input": 371,
+        "output": 1982,
+        "total": 2353
+      },
+      "cost_usd": 0.030843,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 10,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 7
+        },
+        "reasoning": "This is a strong, professional appeal letter that fulfills all prompt requirements and demonstrates excellent fundraising writing technique. It effectively balances emotional storytelling with concrete impact data, creates appropriate urgency through the matching gift, and provides clear giving options with specific impact descriptions. Minor weaknesses include some slightly formulaic phrasing that could be more distinctive.",
+        "strengths": [
+          "Excellent opening story with Maria that humanizes the issue and shows transformation",
+          "Perfect word count (497 words) and structure with clear paragraphs for story, impact, need, ask, and close",
+          "Strong use of specific numbers and percentages that build credibility (18,600 hours, 68% advanced, 95 GEDs)",
+          "Well-crafted giving levels with concrete, tangible impact statements for each amount",
+          "Effective use of matching gift to create genuine urgency without manipulation",
+          "Good 'you' language throughout that centers the donor as partner",
+          "Clear, multiple giving instructions (online, mail, phone) with complete contact information",
+          "Strong P.S. that reinforces both urgency elements (match deadline and class start date)",
+          "Hopeful tone maintained throughout with phrases like 'potential into progress' and 'read, work, and thrive'"
+        ],
+        "weaknesses": [
+          "Some phrases feel slightly generic or formulaic ('someone like you believed in her potential,' 'one learner, one page, one promotion at a time')",
+          "The transition between accomplishments and need could be slightly smoother",
+          "Minor: The fictional address format is fine for a template but a real org would need their actual address"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Dear Friend of Greenways USA,\n\nImagine Sophia, an energetic elementary school student in a vibrant, yet underserved, urban community. Her dream? To ride her bike to the park, just a few blocks away, and feel the wind in her hair. But for Sophia, that dream remains just out of reach. Disconnected trail networks in her neighborhood force her to navigate busy streets with no bike lanes, effectively cutting her off from safe, carbon-free transportation and the simple joy of outdoor play. This isn\u2019t an isolated story; it\u2019s a daily reality for millions, particularly in communities that need green spaces and safe access the most.\n\nAt Greenways USA, we believe everyone deserves the chance to connect with nature, with their community, and with each other. This past year, thanks to supporters like you, we made incredible strides toward that vision. We **completed 187 miles of vital trail and closed 23 critical gaps across 11 metro regions**, transforming fragmented paths into seamless networks. We **launched our Safe Routes to Parks initiative in 40 neighborhoods**, giving children like Sophia safer ways to access green spaces. We **restored 1,200 acres of precious habitat** along these corridors, enhancing biodiversity and creating healthier ecosystems. And critically, our dedication helped **secure an astounding $62 million in public co-investment**, amplifying every private dollar for maximum impact.\n\nNow, we stand at a pivotal moment. The momentum we've built is incredible, but the need is still immense. For the coming year, we have an ambitious, yet entirely achievable, goal: to **raise $1.8 million** to finish three flagship corridors \u2013 the **Great River Link**, the **High Desert Loop**, and the **Bay-to-Hills Connector** \u2013 and to build a groundbreaking, open-source **Trail Equity Map** that will guide our future efforts to serve communities most effectively.\n\nYour investment today is not just a donation; it\u2019s a direct contribution to a healthier, more connected, and more equitable America. **Will you join us in making this vision a reality?**\n\n*   **A gift of $100** helps us maintain a mile of existing trail, ensuring it remains safe and accessible.\n*   **A gift of $250** can support a community workshop, gathering vital input for new trail designs in underserved areas.\n*   **A gift of $500** helps plant native vegetation along newly developed corridors, restoring vital habitats.\n*   **A gift of $1,000** can fund the surveying of a critical gap, bringing us closer to connecting entire communities.\n*   **A generous gift of $5,000** could ensure the development of a key section of our Trail Equity Map, shining a light on areas most in need of greenway development.\n\nHere\u2019s why your support is so critical *right now*: Our dedicated Board members have generously pledged a **$900,000 match** for all donations received through **December 31st**. This means **your gift will be doubled**, creating twice the impact! Furthermore, we have a unique opportunity to unlock significant federal funding: a **RAISE grant requires $1.2 million in private commitments by January 15th**. Your prompt support will help us meet this deadline and leverage millions more for communities nationwide.\n\nYou have the power to create safe pathways, nurture nature, and build stronger, healthier communities. Together, we can ensure every Sophia has a safe, joyful path to the park, to school, and to a brighter future.\n\nThank you for being a champion for greenways.\n\nWith heartfelt gratitude,\n\nLeah Ortega\nPresident & CEO\nGreenways USA\n\nP.S. Don't miss this incredible opportunity to double your impact! Your gift, made by December 31st, will be matched dollar-for-dollar by our Board, making your contribution go even further to connect communities and unlock vital federal funding for transformative greenways. Please give online at [YourWebsite.org/donate], or by check to [Your Address], or call us at [Your Phone Number] today!",
+      "timestamp": "2025-11-01T16:53:02.236565Z",
+      "duration_seconds": 5.93,
+      "tokens": {
+        "input": 423,
+        "output": 862,
+        "total": 1285
+      },
+      "cost_usd": 0.000581,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a strong, professionally-crafted appeal letter that hits all required elements and demonstrates sophisticated fundraising techniques. The opening story is compelling, the case for support is clear, and the matching gift creates genuine urgency. However, some language feels slightly formulaic, and the letter runs long at approximately 550 words, exceeding the 350-500 word target.",
+        "strengths": [
+          "Excellent opening narrative with Sophia that personalizes the issue and creates emotional connection while avoiding manipulation",
+          "Strong use of concrete numbers and accomplishments (187 miles, 23 gaps, $62 million) that build credibility",
+          "Effective ladder of giving levels with specific, tangible outcomes for each amount",
+          "Well-constructed dual urgency (board match + federal grant deadline) that feels legitimate and mission-driven rather than artificial",
+          "Good use of bold formatting to highlight key achievements and calls to action",
+          "Strong P.S. that reinforces the match and includes clear giving instructions",
+          "Appropriate inspiring tone throughout that balances need with hope and accomplishment"
+        ],
+        "weaknesses": [
+          "Exceeds word count at approximately 550 words; direct mail pieces should be tighter for readability and cost",
+          "Some phrases feel generic ('champion for greenways,' 'brighter future') rather than distinctive to this organization",
+          "The Trail Equity Map concept could use one more sentence of explanation\u2014some donors may not immediately understand what this is or why it matters",
+          "Placeholder text in P.S. ([YourWebsite.org/donate], [Your Address], [Your Phone Number]) should ideally be formatted differently or noted as needing customization",
+          "The transition between the board match ($900K) and federal grant requirement ($1.2M) could be clearer about how they relate to the $1.8M goal"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# GREENWAYS USA\n\nDear Friend,\n\n**Maria walks two miles each way to reach the park where her children play\u2014along busy roads with no sidewalks.** Just three blocks from her neighborhood, a beautiful trail corridor sits incomplete, blocked by a half-mile gap that's been unfunded for eight years. This gap forces families like Maria's to choose between no outdoor access or dangerous routes.\n\nAcross America, **127 million people live within one mile of an incomplete trail network.** These missing connections aren't just inconveniences\u2014they're barriers to opportunity, health, and safe carbon-free transportation.\n\nThanks to supporters like you, we're changing this reality. **In 2024, Greenways USA:**\n\n- **Completed 187 miles of trail and closed 23 critical gaps** across 11 metro regions\n- **Launched Safe Routes to Parks in 40 neighborhoods** like Maria's\n- **Restored 1,200 acres of vital habitat** along green corridors\n- **Secured $62 million in public co-investment**\u2014proving that private philanthropy unlocks transformational public funding\n\nNow we face an extraordinary moment. **We can finish three flagship corridors that will connect 890,000 people to jobs, schools, and nature**\u2014but only if we act immediately.\n\nOur board members believe so deeply in this work that **they've pledged $900,000 in matching gifts through December 31.** Additionally, **a federal RAISE grant requires $1.2 million in private commitments by January 15** to unlock construction funds for the Great River Link, High Desert Loop, and Bay-to-Hills Connector.\n\n**Your gift today\u2014doubled by the board match\u2014will:**\n\n- **$100** = trail signage and wayfinding for 2 miles\n- **$250** = native plants to restore habitat along corridors\n- **$500** = design consultation for one Trail Equity Map neighborhood\n- **$1,000** = engineering studies for one critical gap closure\n- **$5,000** = community engagement in an under-resourced area\n\nEvery dollar you invest helps us reach our **$1.8 million goal** to finish these corridors and build our open-source Trail Equity Map\u2014ensuring future projects serve communities that need them most.\n\n**Will you help us close the gaps?** Your support means families like Maria's can walk safely to parks, commuters can bike to work without fear, and children can explore nature close to home.\n\n**Please make your most generous gift today** at **greenways-usa.org/yearend**, by calling **(555) 847-2100**, or by mailing your check in the enclosed envelope.\n\nTogether, we're building connections that transform lives.\n\nWith gratitude,\n\n**Leah Ortega**  \nPresident & CEO  \nGreenways USA\n\n**P.S.** The December 31 board match deadline is firm\u2014and the January 15 federal requirement is non-negotiable. **Your gift today will be doubled and help unlock millions more.** Please don't wait.",
+      "timestamp": "2025-11-01T16:53:13.720041Z",
+      "duration_seconds": 17.41,
+      "tokens": {
+        "input": 433,
+        "output": 679,
+        "total": 1112
+      },
+      "cost_usd": 0.011484,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional appeal letter that effectively balances emotional storytelling with concrete impact data. It fulfills virtually all prompt requirements with appropriate nonprofit fundraising language, though some elements feel slightly formulaic. The dual urgency factors (match + federal deadline) are well-integrated and create genuine motivation without manipulation.",
+        "strengths": [
+          "Excellent opening with Maria's story\u2014specific, visual, and immediately establishes the problem in human terms",
+          "Strong use of 2024 accomplishments with concrete metrics that build credibility and demonstrate organizational capacity",
+          "Effective ladder of giving levels with specific, tangible outcomes for each amount (not vague 'helps provide')",
+          "Well-structured urgency with two complementary deadlines (board match + federal grant) that feel legitimate and mission-driven rather than artificial",
+          "Good balance of 'you' language throughout that makes donors feel essential to the mission",
+          "Compelling P.S. that reinforces both deadlines and the matching opportunity",
+          "Appropriate length at approximately 425 words, fitting direct mail best practices",
+          "Clear call-to-action with multiple giving methods (online, phone, mail)"
+        ],
+        "weaknesses": [
+          "The statistic '127 million people live within one mile of an incomplete trail network' appears credible but would need verification\u2014it's the type of claim that could undermine credibility if challenged",
+          "The phrase 'Dear Friend' is functional but generic; personalization would significantly strengthen this in actual use",
+          "Some language feels slightly corporate/polished ('transformational public funding,' 'open-source Trail Equity Map') which may reduce emotional authenticity for some audiences",
+          "The giving level descriptions, while specific, could be even more emotionally resonant (e.g., '$100 helps families like Maria's walk safely to the park' vs. 'trail signage for 2 miles')"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear Friend of Greenways,\n\nOn a warm Saturday in May, nine-year-old Maya and her mom set out to bike from their apartment to the river. Halfway there, the trail simply ended\u2014no signs, no safe crossing\u2014just four lanes of speeding traffic. They turned back. For families like Maya\u2019s, especially in under-resourced neighborhoods, disconnected trail networks don\u2019t just interrupt a weekend ride; they cut off safe, carbon-free transportation to jobs, schools, parks, and nature.\n\nBecause of supporters like you, Greenways USA is stitching those fragments together. This year, we completed 187 miles of trail and closed 23 critical gaps across 11 metro regions. We launched Safe Routes to Parks in 40 neighborhoods, restored 1,200 acres of habitat along greenway corridors, and secured $62 million in public co-investment to accelerate this work. Every new mile means safer routes, cleaner air, and more equitable access to the outdoors.\n\nNow the moment to go further\u2014and faster\u2014has arrived. Communities are ready. Construction drawings are nearly complete. And we have the chance to finish three flagship corridors\u2014the Great River Link, High Desert Loop, and Bay-to-Hills Connector\u2014while building an open-source Trail Equity Map to guide future projects so the neighborhoods with the greatest need benefit first.\n\nTo seize this opportunity, we must raise $1.8 million by year-end. Our Board has pledged a $900,000 match through December 31, doubling every dollar you give. And a federal RAISE grant will unlock if we secure $1.2 million in private commitments by January 15. Your timely gift does both: it\u2019s doubled now and counts toward unlocking federal funds.\n\nHere\u2019s what your gift can make possible:\n- $100 equips a neighborhood walk/bike audit kit for Safe Routes to Parks.\n- $250 provides translation, childcare, and stipends so residents can shape a community design meeting.\n- $500 maps one mile of trail conditions and equity indicators in the Trail Equity Map.\n- $1,000 helps install wayfinding, crosswalk striping, and curb ramps to close a local gap.\n- $5,000 advances engineering and permits for a complex crossing and restores native habitat along a corridor.\n\nWill you make your most generous year-end gift of $100, $250, $500, $1,000, or $5,000 today to turn trail gaps into gateways for families like Maya\u2019s?\n\nGive online at greenwaysusa.org/donate, mail a check to Greenways USA, Attn: Annual Fund, PO Box 20450, Washington, DC 20009, or call 202-555-0148. Thank you for helping connect people to parks, opportunity, and one another.\n\nWith gratitude and resolve,\n\nLeah Ortega\nPresident & CEO, Greenways USA\n\nP.S. Give by December 31 to have your gift doubled by our Board\u2019s $900,000 match\u2014and help us meet the January 15 private commitment needed to unlock federal RAISE funds. Your gift closes gaps now.",
+      "timestamp": "2025-11-01T16:53:54.607244Z",
+      "duration_seconds": 58.3,
+      "tokens": {
+        "input": 392,
+        "output": 2419,
+        "total": 2811
+      },
+      "cost_usd": 0.037461,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 10,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is a strong, professional appeal letter that hits all required elements with skill. The opening story is compelling and specific, the accomplishments are woven naturally into the narrative, and the giving levels are concrete and meaningful. The dual urgency factors (match + federal deadline) are presented clearly without manipulation, and the tone is genuinely inspiring.",
+        "strengths": [
+          "Excellent opening story with Maya that creates immediate emotional connection and illustrates the problem concretely",
+          "All prompt requirements meticulously fulfilled: word count (487), all giving levels with specific impacts, multiple giving methods, strong P.S., inspiring tone",
+          "Sophisticated handling of dual urgency factors (board match + RAISE grant deadline) that creates legitimate time pressure without feeling manipulative",
+          "Specific, tangible impact statements for each giving level that avoid vague language ('equips audit kit,' 'provides translation and childcare,' 'maps one mile')",
+          "Natural use of 'you' language throughout that feels conversational rather than forced",
+          "Strong thematic coherence around 'closing gaps' that works literally (trail gaps) and metaphorically (equity gaps)"
+        ],
+        "weaknesses": [
+          "The phrase 'With gratitude and resolve' as a sign-off is slightly formal/stiff for the otherwise warm tone",
+          "Minor technical concern: presenting two different deadlines (Dec 31 and Jan 15) could potentially confuse some donors about urgency, though it's handled reasonably well",
+          "The Trail Equity Map concept, while important, gets less explanation than it might need for donors unfamiliar with equity mapping tools"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1431,
+    "average_score": 8.49
+  }
+}

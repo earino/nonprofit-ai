@@ -1,0 +1,427 @@
+{
+  "prompt_id": "thank-you-tribute-gift",
+  "prompt_text": "Write a compassionate, respectful thank-you letter for a donor who gave $[AMOUNT]\nto [ORGANIZATION NAME] in [HONOR/MEMORY] of [HONOREE NAME]. The letter should:\n\n- Express gratitude for the gift while acknowledging the significance of honoring someone\n- Use appropriate, sensitive language for [MEMORIAL/TRIBUTE] context\n- Explain how the gift will create meaningful impact in [HONOREE NAME]'s name\n- Mention that [HONOREE FAMILY NAME/PERSON] will be notified of the gift (but not the amount)\n- Include the specific program or fund: [PROGRAM/FUND NAME]\n- Offer to send acknowledgment card to family if desired\n- Be respectful, warm, and sincere without being overly emotional\n- Be 200-300 words\n- Use a [COMPASSIONATE/RESPECTFUL/WARM] tone\n- Be signed by [SIGNER NAME and TITLE]\n\nThe letter should honor both the donor's generosity and the person being remembered\nor celebrated. Strike a balance between gratitude and sensitivity to loss or\ncelebration. Avoid platitudes or overly religious language unless you know the donor.",
+  "category": "fundraising",
+  "generated_at": "2025-11-01T16:48:03.571338Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Rural, volunteer-led food pantry in Appalachian Kentucky serving families facing food insecurity; local individual donor made a memorial gift honoring a longtime volunteer.",
+      "values": {
+        "AMOUNT": "150",
+        "ORGANIZATION NAME": "Hollow Creek Community Pantry",
+        "HONOR/MEMORY": "memory",
+        "HONOREE NAME": "Martha Ellis",
+        "MEMORIAL/TRIBUTE": "memorial",
+        "HONOREE FAMILY NAME/PERSON": "the Ellis family",
+        "PROGRAM/FUND NAME": "Fresh Food Access Fund",
+        "COMPASSIONATE/RESPECTFUL/WARM": "compassionate",
+        "SIGNER NAME and TITLE": "Rosa Jim\u00e9nez, Executive Director"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Arts Education Org",
+      "description": "Urban arts education nonprofit serving public school students across the city; alumni parents and community members make tribute gifts honoring educators.",
+      "values": {
+        "AMOUNT": "1,000",
+        "ORGANIZATION NAME": "Metro Arts Education Alliance",
+        "HONOR/MEMORY": "honor",
+        "HONOREE NAME": "Daniel Cho",
+        "MEMORIAL/TRIBUTE": "tribute",
+        "HONOREE FAMILY NAME/PERSON": "Daniel Cho",
+        "PROGRAM/FUND NAME": "Young Musicians Scholarship Fund",
+        "COMPASSIONATE/RESPECTFUL/WARM": "warm",
+        "SIGNER NAME and TITLE": "Leah Park, Director of Development"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Hospital Foundation",
+      "description": "Established children\u2019s hospital foundation in a major metro area supporting research and family services; major donor made a memorial gift honoring a patient.",
+      "values": {
+        "AMOUNT": "25,000",
+        "ORGANIZATION NAME": "Northwest Children's Hospital Foundation",
+        "HONOR/MEMORY": "memory",
+        "HONOREE NAME": "Liam Porter",
+        "MEMORIAL/TRIBUTE": "memorial",
+        "HONOREE FAMILY NAME/PERSON": "the Porter family",
+        "PROGRAM/FUND NAME": "Pediatric Cardiology Research Fund",
+        "COMPASSIONATE/RESPECTFUL/WARM": "respectful",
+        "SIGNER NAME and TITLE": "Monica Alvarez, Chief Advancement Officer"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "[Your Organization Letterhead]\n\n[Date]\n\n[Donor Name]\n[Donor Address]\n[Donor City, State, Zip]\n\nDear [Donor Name],\n\nOn behalf of the entire team at Hollow Creek Community Pantry, please accept our deepest gratitude for your thoughtful donation of $150 to our Fresh Food Access Fund. We are especially touched that you chose to make this gift in memory of Martha Ellis. Your kindness in remembering her in such a meaningful way is truly heartwarming.\n\nWe understand that making a donation in someone's memory is a deeply personal gesture, and we are honored that you entrusted us with this tribute to Martha. Gifts like yours allow us to continue our vital work, ensuring that our neighbors have consistent access to nutritious, fresh food. Through your generosity, more families in our community will receive the healthy meals they need, and this positive impact will be a lasting testament to Martha\u2019s memory.\n\nWe want to inform you that we will be notifying the Ellis family of your thoughtful donation, letting them know that a gift has been made to Hollow Creek Community Pantry in Martha's honor. Please be assured that your specific donation amount will not be shared with the family. If you would like us to send them a separate acknowledgment card from our organization, please let us know, and we will be happy to do so.\n\nThank you once again for your compassion and generosity. Your support not only helps us provide essential services but also allows Martha Ellis's legacy of care to continue touching lives in our community.\n\nWith sincere appreciation,\n\nRosa Jim\u00e9nez\nExecutive Director",
+      "timestamp": "2025-11-01T16:46:42.220389Z",
+      "duration_seconds": 3.09,
+      "tokens": {
+        "input": 205,
+        "output": 322,
+        "total": 527
+      },
+      "cost_usd": 0.000224,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a well-crafted memorial gift acknowledgment letter that hits all required elements with appropriate sensitivity. The tone is compassionate without being overly emotional, and it successfully balances gratitude with memorial context. Minor weaknesses include some slightly formal phrasing that could feel less personal for a small rural organization.",
+        "strengths": [
+          "Excellent adherence to all prompt requirements including word count (267 words), all specified elements, and compassionate tone",
+          "Appropriate sensitivity in handling memorial context - acknowledges the personal nature of the gift without being presumptuous about grief",
+          "Clear, professional explanation of family notification policy and the discretion around gift amount",
+          "Strong connection between the gift and impact (Fresh Food Access Fund supporting nutritious meals) that creates meaningful legacy",
+          "Well-structured flow from gratitude to impact to family notification to closing appreciation"
+        ],
+        "weaknesses": [
+          "Some phrases feel slightly formulaic ('please accept our deepest gratitude,' 'truly heartwarming') which may sound less authentic for a small, volunteer-led rural pantry",
+          "The phrase 'entire team' might be overstated for a volunteer-led organization - 'all of us' or 'everyone' might feel more authentic to the context",
+          "Could benefit from one small personal touch about Martha Ellis as a volunteer to make it feel less template-driven, though the prompt didn't explicitly require this"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "Dear Friend,\n\nThank you for your thoughtful gift of $150 to Hollow Creek Community Pantry's Fresh Food Access Fund in memory of Martha Ellis. Your generosity honors her life in a meaningful way that will bring nourishment and dignity to our neighbors facing food insecurity.\n\nMemorial gifts like yours carry special significance. They transform grief into grace and ensure that someone's legacy continues through acts of kindness. Because of your contribution, families in our community will have access to fresh produce, dairy, and protein\u2014essentials that are often beyond reach for those struggling to make ends meet.\n\nMartha's memory will live on through the meals shared around kitchen tables, the children who enjoy fresh fruit, and the neighbors who experience the comfort of knowing their community cares. Your gift makes this possible, and we are deeply grateful.\n\nWe will notify the Ellis family of your tribute without disclosing the amount. If you would like us to send them an acknowledgment card on your behalf, please let us know and we'll be happy to arrange that.\n\nThank you for choosing to remember Martha Ellis through supporting our Fresh Food Access Fund. Your compassion creates ripples of hope that extend far beyond what we can measure, touching lives in ways both practical and profound.\n\nWith sincere appreciation,\n\nRosa Jim\u00e9nez\nExecutive Director\nHollow Creek Community Pantry",
+      "timestamp": "2025-11-01T16:46:46.750300Z",
+      "duration_seconds": 7.62,
+      "tokens": {
+        "input": 228,
+        "output": 286,
+        "total": 514
+      },
+      "cost_usd": 0.004974,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a well-crafted memorial acknowledgment letter that fulfills all prompt requirements with appropriate compassionate tone. It successfully balances gratitude with sensitivity to loss, though some phrases lean slightly toward formulaic nonprofit language that could be more personalized.",
+        "strengths": [
+          "Excellent fulfillment of all technical requirements: mentions amount, fund name, family notification without amount, offers acknowledgment card, appropriate word count (237 words), proper signature",
+          "Strong compassionate tone with sensitive memorial language like 'transform grief into grace' and 'legacy continues through acts of kindness'",
+          "Effective connection between the gift and concrete impact (fresh produce, dairy, protein for families), making the donation meaningful",
+          "Appropriate restraint\u2014avoids religious language, excessive emotion, or platitudes while remaining warm and sincere",
+          "Good structural flow from gratitude to impact to family notification to closing appreciation"
+        ],
+        "weaknesses": [
+          "Opening 'Dear Friend' is generic\u2014a real letter would use the donor's name, which wasn't provided in the scenario but would be expected in actual use",
+          "Some phrases feel slightly formulaic ('ripples of hope,' 'ways both practical and profound') rather than authentically voice-specific to a small rural Appalachian pantry",
+          "Could benefit from one specific detail about Martha Ellis as a volunteer to make it more personal, though this information wasn't provided in the scenario"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear [Donor Name],\n\nThank you for your generous gift of $150 to Hollow Creek Community Pantry\u2019s Fresh Food Access Fund in memory of Martha Ellis. We are honored that you chose to remember Martha in this way, and we recognize the care and thought behind a memorial contribution.\n\nThrough the Fresh Food Access Fund, your gift will help neighbors bring home the essentials that support health and dignity: seasonal produce, milk and eggs, and other nutritious staples. It will also help keep our mobile distributions running and ensure seniors and families with young children have consistent access to fresh foods. In Martha\u2019s name, this support will put wholesome meals on tables across Hollow Creek and ease the strain for households facing a difficult season.\n\nWe will notify the Ellis family of your thoughtful gift, though we do not share the amount. If you would like us to send a personalized acknowledgment card to the family, please let us know the names and address you\u2019d like us to use, and we will gladly arrange it.\n\nPlease accept our heartfelt thanks for honoring Martha Ellis while strengthening the community she helped shape. Your kindness makes a meaningful difference, and we are grateful to partner with you in this work.\n\nWith appreciation,\n\nRosa Jim\u00e9nez\nExecutive Director",
+      "timestamp": "2025-11-01T16:47:05.830405Z",
+      "duration_seconds": 26.7,
+      "tokens": {
+        "input": 202,
+        "output": 2425,
+        "total": 2627
+      },
+      "cost_usd": 0.036981,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a high-quality, professional thank-you letter that successfully balances gratitude, sensitivity, and impact messaging. It meets all prompt requirements while maintaining an authentic, compassionate tone appropriate for a small community organization. The language is warm without being overly emotional, and the specific program details feel genuine and grounded.",
+        "strengths": [
+          "Excellent balance between honoring the donor, the deceased volunteer, and explaining impact\u2014all three elements are woven together naturally",
+          "Specific, concrete impact details (seasonal produce, milk and eggs, mobile distributions, seniors and families) that feel authentic to a rural food pantry context",
+          "Appropriate sensitivity in language\u2014acknowledges loss without platitudes or excessive emotion",
+          "Clear, actionable offer regarding acknowledgment card with specific instructions",
+          "Strong closing that connects Martha's legacy to community impact",
+          "Word count is appropriate (246 words, within 200-300 range)",
+          "Professional structure with proper salutation and signature block"
+        ],
+        "weaknesses": [
+          "Missing [Donor Name] placeholder should ideally be called out more explicitly or replaced with actual merge field formatting",
+          "Phrase 'households facing a difficult season' could be slightly more specific or concrete, though it works contextually",
+          "Minor: Could potentially include one brief, specific detail about Martha's volunteer service to make it more personal, though this may not have been provided in the scenario"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "[Date]\n\n[Donor Name]\n[Donor Address]\n[Donor City, State, Zip]\n\nDear [Donor Name],\n\nOn behalf of everyone at Metro Arts Education Alliance, I extend our sincerest gratitude for your generous gift of $1,000 to the Young Musicians Scholarship Fund. Your kindness is deeply appreciated, and it is especially meaningful to us that you chose to honor Daniel Cho through this thoughtful contribution.\n\nWe understand that gifts made in honor of a loved one carry a profound significance, and we are truly touched by your decision to celebrate Daniel's life and legacy in this way. Your support speaks volumes about the impact he had and the values he championed.\n\nThis contribution to the Young Musicians Scholarship Fund will create a tangible and lasting impact, providing aspiring young musicians with the resources they need to pursue their passion and develop their talents. Through your generosity, and in Daniel Cho's name, we will enable students who might otherwise face financial barriers to access high-quality music education, fostering their creative growth and helping them achieve their dreams. This is a beautiful way to ensure Daniel\u2019s spirit of encouragement and support continues to resonate within our community.\n\nWe will be notifying Daniel Cho of your thoughtful gift in his honor, ensuring he is aware of your wonderful gesture (without disclosing the gift amount). If you would like us to send a separate acknowledgement card to Daniel's family, please do not hesitate to let us know.\n\nThank you once again for your remarkable generosity and for honoring Daniel Cho in such a meaningful way. Your support empowers us to continue our vital work and makes a real difference in the lives of our students.\n\nWith heartfelt appreciation,\n\nLeah Park\nDirector of Development\nMetro Arts Education Alliance",
+      "timestamp": "2025-11-01T16:47:09.271356Z",
+      "duration_seconds": 3.44,
+      "tokens": {
+        "input": 207,
+        "output": 352,
+        "total": 559
+      },
+      "cost_usd": 0.000242,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 7,
+          "completeness": 8,
+          "usefulness": 6,
+          "accuracy": 5,
+          "authenticity": 8
+        },
+        "reasoning": "The letter contains a critical error: it treats Daniel Cho as both deceased ('loved one,' 'celebrate Daniel's life and legacy') and living ('we will be notifying Daniel Cho'). This confusion makes the letter unusable without significant revision. The scenario indicates this is a tribute gift honoring a living educator, but the AI used memorial language.",
+        "strengths": [
+          "Well-structured format with proper letter elements and appropriate length (282 words)",
+          "Strong explanation of program impact connecting the gift to young musicians' opportunities",
+          "Warm, professional tone that balances gratitude with acknowledgment of the tribute",
+          "Includes all required elements: gratitude, impact explanation, notification mention, offer for acknowledgment card",
+          "Good transition flow between paragraphs and natural, authentic-sounding language"
+        ],
+        "weaknesses": [
+          "CRITICAL ERROR: Contradictory language treating honoree as both deceased ('loved one,' 'celebrate Daniel's life and legacy') and living ('we will be notifying Daniel Cho'), making the letter factually incorrect and potentially offensive",
+          "The phrase 'loved one' in paragraph 2 is inappropriate for a tribute gift honoring a living educator",
+          "References to 'Daniel's spirit' and 'legacy' suggest memorial context when this is clearly a tribute to a living person",
+          "Would require substantial editing before use, undermining the time-saving purpose of AI generation",
+          "The notification paragraph awkwardly says 'Daniel's family' when Daniel himself should be the primary recipient of notification"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "Dear Friend,\n\nThank you for your generous gift of $1,000 to Metro Arts Education Alliance's Young Musicians Scholarship Fund in honor of Daniel Cho. Your thoughtfulness in making this tribute gift speaks volumes about the impact Daniel has had on those who know him.\n\nHonoring someone through support of arts education creates a lasting legacy that touches lives for years to come. Your contribution will directly help young musicians access quality instruction, instruments, and performance opportunities they might not otherwise have. Each student who benefits from the Young Musicians Scholarship Fund will carry forward the spirit of excellence and creativity that your gift represents in Daniel's name.\n\nWe will be sending Daniel a notification of your thoughtful tribute, though as you may know, we do not disclose gift amounts. If you would like us to send an acknowledgment card to Daniel's family or another address, we would be happy to do so. Please simply let us know, and we'll take care of it right away.\n\nYour decision to channel your appreciation for Daniel into supporting young artists is truly meaningful. These students will have opportunities to discover their talents, build confidence, and find their voices through music\u2014a beautiful way to honor someone special.\n\nThank you again for your generosity and for thinking of Metro Arts Education Alliance. We are grateful for donors like you who help us nurture the next generation of musicians.\n\nWith sincere appreciation,\n\nLeah Park\nDirector of Development\nMetro Arts Education Alliance",
+      "timestamp": "2025-11-01T16:47:14.520323Z",
+      "duration_seconds": 8.69,
+      "tokens": {
+        "input": 229,
+        "output": 303,
+        "total": 532
+      },
+      "cost_usd": 0.005232,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a well-crafted tribute letter that hits all required elements with appropriate warmth and professionalism. The tone is pitch-perfect for honoring a living educator, and the structure flows naturally. Minor weaknesses include some generic phrasing and the salutation 'Dear Friend' which feels impersonal for a $1,000 donor.",
+        "strengths": [
+          "Excellent balance between thanking the donor and honoring the tribute recipient without being overly effusive",
+          "Clear, specific impact statement connecting the gift to young musicians and the scholarship fund",
+          "Properly handles the notification protocol (mentioning Daniel will be notified without amount disclosure)",
+          "Appropriate word count (247 words) and warm, respectful tone throughout",
+          "Includes the offer to send acknowledgment card to family as requested",
+          "Avoids platitudes and religious language while remaining sincere"
+        ],
+        "weaknesses": [
+          "Opens with 'Dear Friend' rather than a personalized salutation\u2014a $1,000 donor should have their name used",
+          "Some phrases feel slightly generic ('speaks volumes,' 'touches lives for years to come')",
+          "The phrase 'Daniel's family or another address' is slightly awkward since Daniel himself is the honoree, not deceased\u2014could be clearer"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear [Donor Name],\n\nThank you for your generous gift of $1,000 to Metro Arts Education Alliance in honor of Daniel Cho, designated to the Young Musicians Scholarship Fund. We are deeply grateful that you chose to recognize Daniel in this meaningful way.\n\nYour contribution will open doors for talented young people who might otherwise be unable to pursue their musical studies. Through the Young Musicians Scholarship Fund, your gift will help provide need-based scholarships, private lessons, access to instruments, and performance and ensemble opportunities. Students will gain the instruction and encouragement they need to grow as musicians and leaders\u2014impact made possible in Daniel\u2019s name.\n\nWe will notify Daniel Cho of your thoughtful tribute, without disclosing the amount of your gift. If you would like us to send a printed acknowledgment card to Daniel or a family member, we would be honored to do so; please let us know the preferred mailing address and any message you wish to include.\n\nThank you for honoring Daniel through support that directly nurtures the next generation of artists. Your generosity reflects a belief in young people and in the power of the arts to shape futures. We are privileged to steward this gift with care and to ensure that its impact is felt by students and their families throughout the year.\n\nWith gratitude,\n\nLeah Park\nDirector of Development\nMetro Arts Education Alliance",
+      "timestamp": "2025-11-01T16:47:29.548321Z",
+      "duration_seconds": 23.72,
+      "tokens": {
+        "input": 204,
+        "output": 1294,
+        "total": 1498
+      },
+      "cost_usd": 0.020022,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a well-crafted tribute letter that successfully balances warmth, professionalism, and specificity. It fulfills all prompt requirements while maintaining an authentic voice appropriate for an arts education nonprofit. The letter would require minimal editing for actual use.",
+        "strengths": [
+          "Excellent specificity about impact - mentions concrete program elements (scholarships, private lessons, instruments, ensemble opportunities) that make the gift tangible",
+          "Perfectly appropriate tone for a tribute (not memorial) context - warm and celebratory without being overly emotional or somber",
+          "Strong opening that immediately acknowledges both the gift and the honoree",
+          "Clear, professional handling of notification protocol and acknowledgment card offer",
+          "Good length at approximately 230 words, well within the 200-300 word target",
+          "Effective closing that connects the donor's values to organizational mission",
+          "Avoids platitudes and religious language as instructed"
+        ],
+        "weaknesses": [
+          "Missing [Donor Name] placeholder - should be filled or clearly marked as a merge field",
+          "Could include one brief, specific detail about Daniel Cho's connection to the organization to make it feel more personalized (though this may not have been provided in the scenario)",
+          "The phrase 'shape futures' in the closing paragraph is slightly generic, though not egregiously so"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "[Date]\n\n[Donor Name]\n[Donor Address]\n\nDear [Donor Name],\n\nOn behalf of the entire team at Northwest Children's Hospital Foundation, please accept our deepest and most sincere gratitude for your incredibly generous gift of $25,000 in memory of Liam Porter. Your thoughtful contribution profoundly touches our hearts, and we are truly honored that you chose to celebrate Liam\u2019s life through this meaningful act of kindness.\n\nWe understand that a gift made in memory of a cherished individual carries a special significance, and we are committed to ensuring its impact truly reflects the love and respect you hold for Liam. Your donation will be specifically directed to the Pediatric Cardiology Research Fund. This vital fund supports groundbreaking investigations into congenital heart conditions and other pediatric cardiac illnesses, striving to improve treatments and ultimately save young lives. Through your generosity, Liam's legacy will directly contribute to advancements that offer hope and healthier futures for countless children.\n\nWe have notified the Porter family of your thoughtful donation in Liam\u2019s memory, without disclosing the specific amount. Please know that if you would like us to send a separate acknowledgment card to them on your behalf, we would be honored to do so.\n\nYour compassion and commitment to our mission are deeply appreciated. Thank you again for your extraordinary support and for entrusting us with this precious tribute to Liam Porter.\n\nWith heartfelt gratitude,\n\nMonica Alvarez\nChief Advancement Officer\nNorthwest Children's Hospital Foundation",
+      "timestamp": "2025-11-01T16:47:31.766981Z",
+      "duration_seconds": 2.22,
+      "tokens": {
+        "input": 211,
+        "output": 291,
+        "total": 502
+      },
+      "cost_usd": 0.000206,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a well-crafted memorial gift acknowledgment that hits all required elements with appropriate sensitivity. The tone is respectful and warm without being overly emotional. Minor weaknesses include slightly formulaic phrasing in places and the word count exceeds the 300-word maximum (reaching approximately 240 words in the body, which is acceptable, though the overall letter structure could be tighter).",
+        "strengths": [
+          "Excellent balance between acknowledging the memorial nature and expressing gratitude without being maudlin or using religious platitudes",
+          "Clearly explains the specific impact on the Pediatric Cardiology Research Fund with meaningful detail about how the gift will honor Liam's legacy",
+          "Properly addresses all required elements: gift amount acknowledgment, family notification without amount, offer to send card, program specification, and appropriate signatory",
+          "Strong opening that immediately acknowledges both the generosity and the memorial significance",
+          "Professional formatting with placeholder fields for personalization clearly marked"
+        ],
+        "weaknesses": [
+          "Some phrases feel slightly formulaic ('profoundly touches our hearts,' 'precious tribute') which could reduce authenticity",
+          "The phrase 'celebrate Liam's life' in the first paragraph may be slightly inconsistent with the memorial/loss context\u2014'honor' might be more appropriate",
+          "Could benefit from one concrete, specific detail about the research fund's recent work to make the impact feel more tangible and immediate"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "Dear [Donor Name],\n\nThank you for your generous gift of $25,000 to the Northwest Children's Hospital Foundation in memory of Liam Porter. Your thoughtfulness in honoring Liam's life through such meaningful support touches us deeply.\n\nYour gift to the Pediatric Cardiology Research Fund will advance critical research that holds promise for children and families facing cardiac challenges. Through your generosity, Liam's memory will live on in the lives of young patients who benefit from innovations and discoveries made possible by this work. This is a beautiful and lasting tribute.\n\nWe will be notifying the Porter family of your gift, though we will not disclose the amount in accordance with standard practice. If you would like us to send a special acknowledgment card to the family on your behalf, please let us know. We would be honored to facilitate this additional gesture.\n\nGifts made in memory of someone special carry profound significance. They transform grief into hope and ensure that a beloved life continues to make a difference in the world. Your choice to support pediatric cardiology research in Liam's name reflects both your compassion and your commitment to helping other children.\n\nThank you again for your extraordinary generosity and for choosing to remember Liam in such a meaningful way. We are deeply grateful for your partnership in our mission.\n\nWith sincere appreciation,\n\nMonica Alvarez\nChief Advancement Officer\nNorthwest Children's Hospital Foundation",
+      "timestamp": "2025-11-01T16:47:36.879656Z",
+      "duration_seconds": 7.33,
+      "tokens": {
+        "input": 237,
+        "output": 301,
+        "total": 538
+      },
+      "cost_usd": 0.005226,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a well-crafted memorial gift acknowledgment that strikes an appropriate balance between gratitude and sensitivity. It fulfills all prompt requirements with respectful, professional language suitable for a major hospital foundation. Minor weaknesses include slightly formulaic phrasing in places and the missing donor name placeholder could be more prominent.",
+        "strengths": [
+          "Excellent tone calibration - respectful and warm without being overly emotional or using religious language",
+          "All required elements present: gratitude, impact explanation, family notification details, offer of acknowledgment card, appropriate word count (253 words)",
+          "Strong connection between the gift and its impact - clearly explains how the donation honors Liam through research that helps other children",
+          "Professional structure with smooth transitions between acknowledging the loss, explaining impact, and expressing gratitude",
+          "Thoughtful language choices like 'transforms grief into hope' that acknowledge the memorial context without dwelling on loss"
+        ],
+        "weaknesses": [
+          "Opening '[Donor Name]' placeholder could be more noticeable or include instruction to personalize",
+          "Phrase 'touches us deeply' in first paragraph slightly more emotional than the 'respectful' tone requested - 'respectful' typically implies more restraint",
+          "Third paragraph explanation about not disclosing amount feels slightly over-explained with 'in accordance with standard practice' - could be more concise",
+          "Some phrases like 'beautiful and lasting tribute' edge toward platitude territory, though still acceptable"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Dear [Donor Name],\n\nThank you for your generous gift of $25,000 to Northwest Children\u2019s Hospital Foundation in memory of Liam Porter. We recognize that giving in someone\u2019s memory is a deeply personal and meaningful act, and we are honored by your trust.\n\nYour contribution to the Pediatric Cardiology Research Fund will help advance promising studies, support clinician\u2013scientists, and bring new diagnostics and therapies closer to the children who need them. Through this work, funded in Liam\u2019s name, we will pursue better outcomes and brighter futures for young patients and their families. It is a thoughtful tribute that will create lasting impact.\n\nWe will notify the Porter family of your gift made in Liam\u2019s memory. In keeping with best practice, we will not share the amount. If you would like us to send a separate acknowledgment card to the family on your behalf, we would be honored to do so; please let us know the preferred name, mailing address, and any message you would like included.\n\nThank you again for your generosity and for honoring Liam in a way that helps others. We are grateful for your partnership and the trust you place in our mission.\n\nWith gratitude,\n\nMonica Alvarez\nChief Advancement Officer\nNorthwest Children\u2019s Hospital Foundation",
+      "timestamp": "2025-11-01T16:47:52.216816Z",
+      "duration_seconds": 22.67,
+      "tokens": {
+        "input": 205,
+        "output": 1276,
+        "total": 1481
+      },
+      "cost_usd": 0.019755,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a well-crafted memorial gift acknowledgment that strikes an appropriate balance between gratitude and sensitivity. It fulfills all prompt requirements with professional language suitable for a major hospital foundation. The letter is immediately usable with only minor personalization needed.",
+        "strengths": [
+          "Excellent opening that acknowledges both the gift and the deeply personal nature of memorial giving",
+          "Specific, concrete impact language about the Pediatric Cardiology Research Fund that connects the gift to meaningful outcomes",
+          "Proper handling of family notification protocol with clear explanation of privacy practices",
+          "Thoughtful offer to send acknowledgment card with specific details requested (name, address, message)",
+          "Appropriate length at approximately 220 words, fitting the 200-300 word requirement",
+          "Professional, respectful tone throughout without being overly emotional or using religious language",
+          "Strong closing that reinforces both gratitude and the tribute aspect"
+        ],
+        "weaknesses": [
+          "Missing '[Donor Name]' placeholder should ideally be more prominent or include a note to personalize",
+          "The phrase 'clinician\u2013scientists' uses an en-dash which may not render correctly in all systems; 'clinician-scientists' with hyphen is safer",
+          "Could benefit from one more sentence creating a slightly warmer connection between Liam's memory and the specific research impact, though current version is still strong"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.0929,
+    "average_score": 8.36
+  }
+}
