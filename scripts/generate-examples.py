@@ -23,17 +23,48 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 PROMPTS_DIR = Path("src/content/prompts")
 
-MODELS = {
-    "chatgpt": "openai/gpt-4o",
-    "claude": "anthropic/claude-3.5-sonnet",
-    "gemini": "google/gemini-pro-1.5"
-}
+# Model Configuration
+# Add or remove models here. Each entry should have:
+# - key: Short name used internally and for section headers in markdown
+# - model_id: OpenRouter API model identifier
+# - display_name: Human-readable name shown in generated output
+# - notes: Why this model was chosen (for future reference)
+# - selected_date: When this model was added/last verified
+#
+# To disable a model temporarily, comment it out
+# To add a new model, add an entry and it will automatically be included
 
-MODEL_DISPLAY_NAMES = {
-    "chatgpt": "ChatGPT (GPT-4o)",
-    "claude": "Claude (Sonnet 3.5)",
-    "gemini": "Gemini (1.5 Pro)"
-}
+MODELS = [
+    {
+        "key": "chatgpt",
+        "model_id": "openai/gpt-5",
+        "display_name": "ChatGPT (GPT-5)",
+        "notes": "OpenAI flagship, released Aug 2025, best writing quality",
+        "selected_date": "2025-11-01"
+    },
+    {
+        "key": "claude",
+        "model_id": "anthropic/claude-sonnet-4.5",
+        "display_name": "Claude (Sonnet 4.5)",
+        "notes": "Anthropic's most advanced, 1M context, excellent instruction following",
+        "selected_date": "2025-11-01"
+    },
+    {
+        "key": "gemini",
+        "model_id": "google/gemini-2.5-flash",
+        "display_name": "Gemini 2.5 Flash",
+        "notes": "Google's production model, hybrid-reasoning, cost-effective for writing",
+        "selected_date": "2025-11-01"
+    },
+    # Example: Add more models here as needed
+    # {
+    #     "key": "llama",
+    #     "model_id": "meta-llama/llama-3.2-90b-instruct",
+    #     "display_name": "Llama 3.2 (90B)",
+    #     "notes": "Open source alternative",
+    #     "selected_date": "2025-11-01"
+    # },
+]
 
 
 def extract_prompt_text(markdown_content):
@@ -44,10 +75,10 @@ def extract_prompt_text(markdown_content):
     return None
 
 
-def generate_output(prompt_text, model_key, dry_run=False):
+def generate_output(prompt_text, model, dry_run=False):
     """Generate output from a specific model via OpenRouter."""
     if dry_run:
-        return f"[Dry run - would call {model_key}]"
+        return f"[Dry run - would call {model['display_name']}]"
 
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
@@ -56,14 +87,14 @@ def generate_output(prompt_text, model_key, dry_run=False):
 
     try:
         completion = client.chat.completions.create(
-            model=MODELS[model_key],
+            model=model['model_id'],
             messages=[
                 {"role": "user", "content": prompt_text}
             ]
         )
         return completion.choices[0].message.content
     except Exception as e:
-        print(f"Error calling {model_key}: {e}")
+        print(f"Error calling {model['display_name']}: {e}")
         return None
 
 
@@ -81,13 +112,14 @@ def update_markdown_with_outputs(markdown_path, outputs):
     )
 
     # Build new Example Outputs section
+    num_models = len(outputs)
     example_section = "\n## Example Outputs\n\n"
-    example_section += "We tested this prompt with three AI models. Here's what each generated:\n\n"
+    example_section += f"We tested this prompt with {num_models} AI model{'s' if num_models != 1 else ''}. Here's what each generated:\n\n"
 
-    for model_key in ["chatgpt", "claude", "gemini"]:
-        if outputs.get(model_key):
-            example_section += f"### {MODEL_DISPLAY_NAMES[model_key]}\n\n"
-            example_section += f"> {outputs[model_key]}\n\n"
+    for model in MODELS:
+        if outputs.get(model['key']):
+            example_section += f"### {model['display_name']}\n\n"
+            example_section += f"> {outputs[model['key']]}\n\n"
 
     # Insert before Pro Tips or at the end
     if "## Pro Tips" in content:
@@ -125,11 +157,11 @@ def process_prompt(prompt_slug, dry_run=False):
 
     # Generate outputs from each model
     outputs = {}
-    for model_key in ["chatgpt", "claude", "gemini"]:
-        print(f"  Calling {MODEL_DISPLAY_NAMES[model_key]}...", end=" ", flush=True)
-        output = generate_output(prompt_text, model_key, dry_run)
+    for model in MODELS:
+        print(f"  Calling {model['display_name']}...", end=" ", flush=True)
+        output = generate_output(prompt_text, model, dry_run)
         if output:
-            outputs[model_key] = output
+            outputs[model['key']] = output
             print(f"✓ ({len(output)} chars)")
         else:
             print("✗ Failed")

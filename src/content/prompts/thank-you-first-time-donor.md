@@ -37,25 +37,95 @@ transaction. Avoid over-the-top language or making another ask.
 5. Replace **[SIGNER NAME and TITLE]** with who should sign the letter (e.g., "Sarah Johnson, Executive Director")
 6. Optional: Add specific details about your programs or impact metrics
 
-## Example Output
 
-> Dear [Donor Name],
->
-> Thank you so much for your generous gift of $50 to Hometown Food Bank. Your first donation to our organization means the world to us!
->
-> Your contribution will provide 200 nutritious meals to families in our community who are facing food insecurity. That's 200 times a child won't go to bed hungry, a senior will have fresh vegetables, or a parent can focus on finding work instead of finding food. Your support makes this possible.
->
-> We're so grateful to welcome you to our community of compassionate supporters. Together, we're building a future where everyone has access to healthy, nutritious food.
->
-> If you'd like to stay connected and see the impact of your gift, we'd love for you to follow us on Facebook @HometownFoodBank or sign up for our monthly email newsletter at www.hometownfoodbank.org/newsletter.
->
-> Thank you again for your kindness and generosity. We couldn't do this work without friends like you.
->
-> With deep gratitude,
->
-> Sarah Johnson
-> Executive Director
-> Hometown Food Bank
+### ChatGPT (GPT-4o)
+
+> [Date]
+
+[Donor's Name]  
+[Donor's Address]  
+[City, State, ZIP Code]  
+
+Dear [Donor's Name],
+
+I hope this message finds you well. On behalf of everyone at [Organization Name], I am writing to express our heartfelt gratitude for your generous donation of $[AMOUNT] in support of our [Campaign Name]. Your decision to contribute for the first time is truly appreciated and makes a significant difference in our efforts.
+
+Your gift is instrumental in furthering our mission. Specifically, your $[AMOUNT] enables us to [provide specific impact, e.g., "offer meals to families in need, support educational programs for underprivileged children, or ensure medical supplies reach communities in crisis"]. Thanks to your kindness, we are able to continue our work and expand our reach, touching more lives in meaningful ways.
+
+We are delighted to welcome you into our [Organization Name] community. You are now part of a group of dedicated individuals who are passionate about making a positive impact. Together, we are creating sustainable change and paving the way for a brighter future.
+
+To keep you connected with the work you're supporting, we invite you to follow us on our social media platforms and subscribe to our newsletter. This way, you can stay updated on the latest stories, events, and initiatives that your contribution makes possible. Visit our website at [website link] to join our online community.
+
+Once again, thank you for your generosity and for choosing to support [Organization Name]. Your belief in our mission energizes our team and drives us forward. We are incredibly grateful to have you with us on this journey.
+
+Warm regards,
+
+[Signer Name]  
+[Title]  
+[Organization Name]  
+
+### Claude (Sonnet 3.5)
+
+> I aim to create an engaging thank-you letter, but first I need a few key details to personalize it effectively:
+
+1. The gift amount ($[AMOUNT])
+2. Your organization's name
+3. The campaign/appeal name
+4. The signer's name and title
+5. Your preferred tone (formal, warm, or casual)
+
+Once you provide these specifics, I can craft a heartfelt thank-you letter that:
+- Makes a meaningful connection with the donor
+- Highlights the concrete impact of their specific gift amount
+- Reflects your organization's voice and mission
+- Creates a sense of community
+- Incorporates the relevant campaign context
+
+Please share those details and I'll write a personalized letter that makes your donor feel truly valued and appreciated.
+
+
+## Example Outputs
+
+We tested this prompt with three AI models. Here's what each generated:
+
+### ChatGPT (GPT-4o)
+
+> [Organization Name]  
+[Organization Address]  
+[City, State, ZIP Code]  
+[Date]  
+
+[Donor's Name]  
+[Donor's Address]  
+[City, State, ZIP Code]  
+
+Dear [Donor's Name],
+
+I hope this message finds you well. On behalf of everyone at [Organization Name], I want to extend a heartfelt thank you for your generous donation of $[AMOUNT] in support of our [Campaign Name]. As a first-time donor, your support means a great deal to us, and we are truly grateful for your decision to join our community of compassionate supporters.
+
+Thanks to your kindness, impactful work is being realized in meaningful ways. Your contribution of $[AMOUNT] will directly [explain specific impact, e.g., "help provide essential meals for underprivileged children, ensuring they receive the nutrition they need to thrive in school and beyond"]. This tangible change is made possible by caring individuals like you who understand the significance of giving back and making a difference.
+
+We are delighted to welcome you into our community where your values align with ours. At [Organization Name], we believe in the power of coming together to create sustained positive change. Your support not only fuels our mission but adds a valuable voice to our collective efforts.
+
+We would love to stay connected with you and share updates on the strides we're making together. Please consider following us on social media or subscribing to our newsletter, so you can see firsthand the powerful impact of your generosity and the stories of those you've helped.
+
+Once again, thank you for your remarkable gift. You are a vital part of our journey, and we are excited to have you with us. If you have any questions or would like to learn more about our initiatives, please do not hesitate to reach out.
+
+With sincere gratitude,  
+
+[Signer Name]  
+[Title]  
+[Organization Name]  
+
+[Contact Information, if applicable]  
+
+---
+
+### Claude (Sonnet 3.5)
+
+> I aim to help craft a heartfelt thank-you letter, but I notice you've included placeholder text in brackets for key details like the donation amount, organization name, campaign, tone preference, and signer information. Would you please provide those specific details? That way, I can write a fully personalized letter that authentically reflects your organization and the donor's gift.
+
+For example, knowing the actual donation amount and campaign will help me describe the tangible impact, while knowing your preferred tone will ensure the letter matches your organization's voice. Once you share those details, I'll draft a warm thank-you letter that makes your donor feel truly appreciated and connected to your cause.
 
 ## Pro Tips
 
