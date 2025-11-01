@@ -39,23 +39,23 @@ transaction. Avoid over-the-top language or making another ask.
 
 ## Example Output
 
-Dear [Donor Name],
-
-Thank you so much for your generous gift of $50 to Hometown Food Bank. Your first donation to our organization means the world to us!
-
-Your contribution will provide 200 nutritious meals to families in our community who are facing food insecurity. That's 200 times a child won't go to bed hungry, a senior will have fresh vegetables, or a parent can focus on finding work instead of finding food. Your support makes this possible.
-
-We're so grateful to welcome you to our community of compassionate supporters. Together, we're building a future where everyone has access to healthy, nutritious food.
-
-If you'd like to stay connected and see the impact of your gift, we'd love for you to follow us on Facebook @HometownFoodBank or sign up for our monthly email newsletter at www.hometownfoodbank.org/newsletter.
-
-Thank you again for your kindness and generosity. We couldn't do this work without friends like you.
-
-With deep gratitude,
-
-Sarah Johnson
-Executive Director
-Hometown Food Bank
+> Dear [Donor Name],
+>
+> Thank you so much for your generous gift of $50 to Hometown Food Bank. Your first donation to our organization means the world to us!
+>
+> Your contribution will provide 200 nutritious meals to families in our community who are facing food insecurity. That's 200 times a child won't go to bed hungry, a senior will have fresh vegetables, or a parent can focus on finding work instead of finding food. Your support makes this possible.
+>
+> We're so grateful to welcome you to our community of compassionate supporters. Together, we're building a future where everyone has access to healthy, nutritious food.
+>
+> If you'd like to stay connected and see the impact of your gift, we'd love for you to follow us on Facebook @HometownFoodBank or sign up for our monthly email newsletter at www.hometownfoodbank.org/newsletter.
+>
+> Thank you again for your kindness and generosity. We couldn't do this work without friends like you.
+>
+> With deep gratitude,
+>
+> Sarah Johnson
+> Executive Director
+> Hometown Food Bank
 
 ## Pro Tips
 

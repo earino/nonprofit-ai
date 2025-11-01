@@ -40,6 +40,21 @@
   @apply text-sm font-mono;
 }
 
+/* Style blockquotes (used for Example Output sections) */
+.prose blockquote {
+  @apply bg-gradient-to-br from-gray-50 to-gray-100 border-l-4 border-emerald-500 rounded-r-xl px-6 py-5 my-6 shadow-sm;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.prose blockquote p {
+  @apply text-gray-700 leading-relaxed mb-4 last:mb-0;
+}
+
+.prose blockquote::before {
+  content: '"';
+  @apply text-5xl text-emerald-500/20 font-serif absolute -ml-8 -mt-2;
+}
+
 .prose ul {
   @apply list-disc list-inside space-y-2;
 }
