@@ -1,0 +1,88 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const allPrompts = await getCollection('prompts');
+const categoryPrompts = allPrompts.filter(p => p.data.category === 'events');
+
+const grouped = categoryPrompts.reduce((acc, prompt) => {
+  const sub = prompt.data.subcategory || 'Other';
+  if (!acc[sub]) acc[sub] = [];
+  acc[sub].push(prompt);
+  return acc;
+}, {} as Record<string, typeof categoryPrompts>);
+---
+
+<BaseLayout title="Event Planning" description="AI prompts for event planning, marketing, sponsorships, and post-event follow-up">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="mb-12">
+      <div class="text-6xl mb-4">🎉</div>
+      <h1 class="text-5xl font-bold mb-4">Event Planning</h1>
+      <p class="text-xl text-gray-600 max-w-3xl">
+        AI prompts for event planning, marketing, sponsorships, and post-event follow-up
+      </p>
+      <p class="mt-4 text-lg">
+        <span class="font-semibold text-blue-600">{categoryPrompts.length} prompts</span> in this category
+      </p>
+    </div>
+
+    <div class="bg-pink-50 border-l-4 border-pink-500 p-6 mb-12 rounded-r-lg">
+      <h2 class="text-2xl font-bold mb-4">Why Event Planning Prompts Matter</h2>
+      <div class="prose prose-lg max-w-none">
+        <p>Events are major fundraising vehicles and community-building opportunities for nonprofits. According to event management research, successful events require 3-6 months of planning with dozens of coordinated tasks—from concept development to post-event stewardship.</p>
+        <p>The challenge: Event planning is detail-intensive and time-sensitive. From creating compelling invitations to securing sponsorships to managing run-of-show, each event requires significant written communication across multiple stakeholders.</p>
+        <p><strong>Where AI helps:</strong> Generate event concepts, draft sponsorship packages, write invitation copy, create marketing campaigns, and produce thank-you communications—streamlining the most time-consuming writing tasks in event management.</p>
+      </div>
+    </div>
+
+    {Object.entries(grouped).map(([subcategory, prompts]) => (
+      <div class="mb-12">
+        <h2 class="text-2xl font-bold mb-6 pb-2 border-b-2 border-gray-200">{subcategory}</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {prompts.map((prompt) => (
+            <a
+              href={`/prompts/${prompt.slug}`}
+              class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border border-gray-200 hover:border-pink-500"
+            >
+              <div class="flex items-start justify-between mb-3">
+                <span class="text-xs font-semibold px-2 py-1 bg-pink-100 text-pink-700 rounded">
+                  {subcategory}
+                </span>
+                <span class="text-xs text-gray-500">{prompt.data.difficulty}</span>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">{prompt.data.title}</h3>
+              <p class="text-gray-600 text-sm mb-4">{prompt.data.description}</p>
+              <div class="flex flex-wrap gap-1">
+                {prompt.data.role.slice(0, 2).map((role) => (
+                  <span class="text-xs px-2 py-1 bg-purple-50 text-purple-700 rounded">{role}</span>
+                ))}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+
+    <div class="bg-gray-50 rounded-lg p-8 mt-12">
+      <h2 class="text-2xl font-bold mb-4">Best Practices</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="font-semibold text-lg mb-2">Event Marketing</h3>
+          <ul class="text-gray-700 space-y-2">
+            <li>• Start promotion 6-8 weeks before event</li>
+            <li>• Multi-channel approach (email, social, direct)</li>
+            <li>• Create urgency with early-bird pricing or limited capacity</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg mb-2">Sponsorships</h3>
+          <ul class="text-gray-700 space-y-2">
+            <li>• Tiered packages with clear benefits</li>
+            <li>• Recognition opportunities at multiple levels</li>
+            <li>• Stewardship plan for sponsor retention</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

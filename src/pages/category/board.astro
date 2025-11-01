@@ -1,0 +1,88 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const allPrompts = await getCollection('prompts');
+const categoryPrompts = allPrompts.filter(p => p.data.category === 'board');
+
+const grouped = categoryPrompts.reduce((acc, prompt) => {
+  const sub = prompt.data.subcategory || 'Other';
+  if (!acc[sub]) acc[sub] = [];
+  acc[sub].push(prompt);
+  return acc;
+}, {} as Record<string, typeof categoryPrompts>);
+---
+
+<BaseLayout title="Board & Leadership" description="AI prompts for board communications, governance, strategic planning, and leadership materials">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="mb-12">
+      <div class="text-6xl mb-4">👔</div>
+      <h1 class="text-5xl font-bold mb-4">Board & Leadership</h1>
+      <p class="text-xl text-gray-600 max-w-3xl">
+        AI prompts for board communications, governance, strategic planning, and leadership materials
+      </p>
+      <p class="mt-4 text-lg">
+        <span class="font-semibold text-blue-600">{categoryPrompts.length} prompts</span> in this category
+      </p>
+    </div>
+
+    <div class="bg-indigo-50 border-l-4 border-indigo-500 p-6 mb-12 rounded-r-lg">
+      <h2 class="text-2xl font-bold mb-4">Why Board & Leadership Prompts Matter</h2>
+      <div class="prose prose-lg max-w-none">
+        <p>Effective board governance requires clear communication and strategic thinking. Executive Directors report spending 15-20% of their time on board-related work, including preparing materials, writing reports, and planning strategic direction.</p>
+        <p>The challenge: Board materials must be concise yet comprehensive, strategic yet accessible. Creating board packets, presentation talking points, and strategic planning frameworks requires synthesizing complex organizational information into digestible formats.</p>
+        <p><strong>Where AI helps:</strong> Draft board meeting materials, condense reports into executive summaries, create strategic planning frameworks, and develop governance documents—helping leadership communicate more effectively and efficiently.</p>
+      </div>
+    </div>
+
+    {Object.entries(grouped).map(([subcategory, prompts]) => (
+      <div class="mb-12">
+        <h2 class="text-2xl font-bold mb-6 pb-2 border-b-2 border-gray-200">{subcategory}</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {prompts.map((prompt) => (
+            <a
+              href={`/prompts/${prompt.slug}`}
+              class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border border-gray-200 hover:border-indigo-500"
+            >
+              <div class="flex items-start justify-between mb-3">
+                <span class="text-xs font-semibold px-2 py-1 bg-indigo-100 text-indigo-700 rounded">
+                  {subcategory}
+                </span>
+                <span class="text-xs text-gray-500">{prompt.data.difficulty}</span>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">{prompt.data.title}</h3>
+              <p class="text-gray-600 text-sm mb-4">{prompt.data.description}</p>
+              <div class="flex flex-wrap gap-1">
+                {prompt.data.role.slice(0, 2).map((role) => (
+                  <span class="text-xs px-2 py-1 bg-purple-50 text-purple-700 rounded">{role}</span>
+                ))}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+
+    <div class="bg-gray-50 rounded-lg p-8 mt-12">
+      <h2 class="text-2xl font-bold mb-4">Best Practices</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="font-semibold text-lg mb-2">Board Communications</h3>
+          <ul class="text-gray-700 space-y-2">
+            <li>• Provide materials 5-7 days before meetings</li>
+            <li>• Use executive summaries for long reports</li>
+            <li>• Clear action items and decisions needed</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg mb-2">Strategic Planning</h3>
+          <ul class="text-gray-700 space-y-2">
+            <li>• Data-driven environmental scans</li>
+            <li>• SWOT analysis with stakeholder input</li>
+            <li>• Measurable goals with accountability</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

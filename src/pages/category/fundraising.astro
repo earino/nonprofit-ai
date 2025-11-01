@@ -1,0 +1,103 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const allPrompts = await getCollection('prompts');
+const fundraisingPrompts = allPrompts.filter(p => p.data.category === 'fundraising');
+
+// Group by subcategory
+const grouped = fundraisingPrompts.reduce((acc, prompt) => {
+  const sub = prompt.data.subcategory || 'Other';
+  if (!acc[sub]) acc[sub] = [];
+  acc[sub].push(prompt);
+  return acc;
+}, {} as Record<string, typeof fundraisingPrompts>);
+---
+
+<BaseLayout title="Fundraising & Development" description="AI prompts for donor communications, fundraising appeals, grant writing, and major gifts">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <!-- Header -->
+    <div class="mb-12">
+      <div class="text-6xl mb-4">💰</div>
+      <h1 class="text-5xl font-bold mb-4">Fundraising & Development</h1>
+      <p class="text-xl text-gray-600 max-w-3xl">
+        AI prompts to help you write donor communications, fundraising appeals, grant proposals, and stewardship materials faster and more effectively.
+      </p>
+      <p class="mt-4 text-lg">
+        <span class="font-semibold text-blue-600">{fundraisingPrompts.length} prompts</span> in this category
+      </p>
+    </div>
+
+    <!-- Why This Matters Section -->
+    <div class="bg-blue-50 border-l-4 border-blue-500 p-6 mb-12 rounded-r-lg">
+      <h2 class="text-2xl font-bold mb-4">Why Fundraising Prompts Matter</h2>
+      <div class="prose prose-lg max-w-none">
+        <p>
+          Fundraising is the lifeblood of nonprofit sustainability, yet Development Directors are overwhelmed. According to <a href="https://doublethedonation.com/nonprofit-fundraising-statistics/" target="_blank" rel="noopener" class="text-blue-700 underline">2025 fundraising research</a>, nonprofits send an average of <strong>60 email messages per subscriber annually</strong>, including 29 fundraising appeals.
+        </p>
+        <p>
+          The challenge: <a href="https://www.nonprofitpro.com/article/15-compelling-nonprofit-stats-from-2024/" target="_blank" rel="noopener" class="text-blue-700 underline">56% of nonprofit leaders report</a> their organizations don't create donor engagement strategies, yet regular communication is essential for retention.
+        </p>
+        <p>
+          <strong>Where AI helps:</strong> Writing personalized thank-you letters, drafting compelling appeals, and creating donor communications that used to take hours can now be done in minutes—freeing development staff to focus on relationship-building and strategy.
+        </p>
+      </div>
+    </div>
+
+    <!-- Prompts by Subcategory -->
+    {Object.entries(grouped).map(([subcategory, prompts]) => (
+      <div class="mb-12">
+        <h2 class="text-2xl font-bold mb-6 pb-2 border-b-2 border-gray-200">{subcategory}</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {prompts.map((prompt) => (
+            <a
+              href={`/prompts/${prompt.slug}`}
+              class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border border-gray-200 hover:border-blue-500"
+            >
+              <div class="flex items-start justify-between mb-3">
+                <span class="text-xs font-semibold px-2 py-1 bg-blue-100 text-blue-700 rounded">
+                  {subcategory}
+                </span>
+                <span class="text-xs text-gray-500">
+                  {prompt.data.difficulty}
+                </span>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">{prompt.data.title}</h3>
+              <p class="text-gray-600 text-sm mb-4">{prompt.data.description}</p>
+              <div class="flex flex-wrap gap-1">
+                {prompt.data.role.slice(0, 2).map((role) => (
+                  <span class="text-xs px-2 py-1 bg-purple-50 text-purple-700 rounded">
+                    {role}
+                  </span>
+                ))}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+
+    <!-- Key Insights Section -->
+    <div class="bg-gray-50 rounded-lg p-8 mt-12">
+      <h2 class="text-2xl font-bold mb-4">Fundraising Best Practices</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="font-semibold text-lg mb-2">Donor Communications</h3>
+          <ul class="text-gray-700 space-y-2">
+            <li>• Send thank-you letters within 48 hours of gift receipt</li>
+            <li>• <a href="https://doublethedonation.com/nonprofit-fundraising-statistics/" target="_blank" rel="noopener" class="text-blue-600 underline">Email personalization can increase revenue by up to 760%</a></li>
+            <li>• 48% of donors prefer regular email updates for engagement</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg mb-2">Fundraising Trends</h3>
+          <ul class="text-gray-700 space-y-2">
+            <li>• <a href="https://www.philanthropy.com/news/donors-down-dollars-flat-trends-in-2024-set-stage-for-2025/" target="_blank" rel="noopener" class="text-blue-600 underline">Individual donors down 3.9% in 2024</a> (retention is critical)</li>
+            <li>• <a href="https://afpglobal.org/5-fundraising-trends-2025" target="_blank" rel="noopener" class="text-blue-600 underline">Monthly giving grew 18% in 2024</a></li>
+            <li>• AI tools can reduce grant writing time by 30-50%</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

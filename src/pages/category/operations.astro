@@ -1,0 +1,88 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const allPrompts = await getCollection('prompts');
+const categoryPrompts = allPrompts.filter(p => p.data.category === 'operations');
+
+const grouped = categoryPrompts.reduce((acc, prompt) => {
+  const sub = prompt.data.subcategory || 'Other';
+  if (!acc[sub]) acc[sub] = [];
+  acc[sub].push(prompt);
+  return acc;
+}, {} as Record<string, typeof categoryPrompts>);
+---
+
+<BaseLayout title="Operations & HR" description="AI prompts for HR policies, job descriptions, procedures, and operational documentation">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="mb-12">
+      <div class="text-6xl mb-4">⚙️</div>
+      <h1 class="text-5xl font-bold mb-4">Operations & HR</h1>
+      <p class="text-xl text-gray-600 max-w-3xl">
+        AI prompts for HR policies, job descriptions, procedures, and operational documentation
+      </p>
+      <p class="mt-4 text-lg">
+        <span class="font-semibold text-blue-600">{categoryPrompts.length} prompts</span> in this category
+      </p>
+    </div>
+
+    <div class="bg-gray-50 border-l-4 border-gray-500 p-6 mb-12 rounded-r-lg">
+      <h2 class="text-2xl font-bold mb-4">Why Operations & HR Prompts Matter</h2>
+      <div class="prose prose-lg max-w-none">
+        <p>Strong operations and HR infrastructure support organizational health and compliance. Small nonprofits often lack dedicated HR staff, with these responsibilities falling to Executive Directors or Operations Coordinators alongside their other duties.</p>
+        <p>The challenge: Creating clear policies, comprehensive job descriptions, and standard operating procedures is essential but time-consuming. Many nonprofits operate with outdated handbooks or incomplete documentation due to lack of HR capacity.</p>
+        <p><strong>Where AI helps:</strong> Generate job descriptions, draft policy sections, create onboarding checklists, and document procedures—providing professional HR and operations materials even without dedicated HR staff.</p>
+      </div>
+    </div>
+
+    {Object.entries(grouped).map(([subcategory, prompts]) => (
+      <div class="mb-12">
+        <h2 class="text-2xl font-bold mb-6 pb-2 border-b-2 border-gray-200">{subcategory}</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {prompts.map((prompt) => (
+            <a
+              href={`/prompts/${prompt.slug}`}
+              class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border border-gray-200 hover:border-gray-500"
+            >
+              <div class="flex items-start justify-between mb-3">
+                <span class="text-xs font-semibold px-2 py-1 bg-gray-100 text-gray-700 rounded">
+                  {subcategory}
+                </span>
+                <span class="text-xs text-gray-500">{prompt.data.difficulty}</span>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">{prompt.data.title}</h3>
+              <p class="text-gray-600 text-sm mb-4">{prompt.data.description}</p>
+              <div class="flex flex-wrap gap-1">
+                {prompt.data.role.slice(0, 2).map((role) => (
+                  <span class="text-xs px-2 py-1 bg-purple-50 text-purple-700 rounded">{role}</span>
+                ))}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+
+    <div class="bg-gray-50 rounded-lg p-8 mt-12">
+      <h2 class="text-2xl font-bold mb-4">Best Practices</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="font-semibold text-lg mb-2">HR Policies</h3>
+          <ul class="text-gray-700 space-y-2">
+            <li>• Keep employee handbooks updated annually</li>
+            <li>• Ensure compliance with local/state/federal laws</li>
+            <li>• Clear, accessible language for all staff</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg mb-2">Documentation</h3>
+          <ul class="text-gray-700 space-y-2">
+            <li>• SOPs reduce training time and errors</li>
+            <li>• Regular review and updates essential</li>
+            <li>• Make procedures accessible and searchable</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
