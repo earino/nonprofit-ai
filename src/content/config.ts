@@ -20,13 +20,27 @@ const promptsCollection = defineCollection({
       'Communications Manager',
       'Program Manager',
       'Executive Director',
-      'Operations Coordinator'
+      'Operations Coordinator',
+      'Board Chair'
     ])),
     difficulty: z.enum(['Beginner', 'Intermediate', 'Advanced']),
     updated: z.date(),
   }),
 });
 
+const blogCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    author: z.string(),
+    date: z.date(),
+    excerpt: z.string(),
+    tags: z.array(z.string()).optional(),
+    image: z.string().optional(),
+  }),
+});
+
 export const collections = {
   prompts: promptsCollection,
+  blog: blogCollection,
 };
