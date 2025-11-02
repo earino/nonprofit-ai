@@ -2,11 +2,11 @@
 
 /* Custom styles for prompt pages */
 .prose h2 {
-  @apply text-2xl font-bold mt-8 mb-4;
+  @apply text-2xl font-bold mt-12 mb-4;
 }
 
 .prose h3 {
-  @apply text-xl font-semibold mt-6 mb-3;
+  @apply text-xl font-semibold mt-8 mb-3;
 }
 
 /* Hide the "The Prompt" heading from markdown since we render it separately with copy button */
@@ -77,11 +77,16 @@
 }
 
 .prose ul {
-  @apply list-disc list-inside space-y-2;
+  @apply list-disc list-outside ml-5 space-y-2 mb-6;
 }
 
 .prose ol {
-  @apply list-decimal list-inside space-y-2;
+  @apply list-decimal list-outside ml-5 space-y-2 mb-6;
+}
+
+.prose p + ul,
+.prose p + ol {
+  @apply mt-4;
 }
 
 .prose li {
