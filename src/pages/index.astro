@@ -25,7 +25,7 @@ const base = import.meta.env.BASE_URL;
           Browse Prompts
         </a>
         <a
-          href={`${base}/getting-started`}
+          href={`${base}getting-started`}
           class="bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 transition border-2 border-white"
         >
           Getting Started
@@ -71,7 +71,7 @@ const base = import.meta.env.BASE_URL;
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Fundraising -->
         <a
-          href={`${base}/category/fundraising`}
+          href={`${base}category/fundraising`}
           class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border-2 border-transparent hover:border-blue-500"
         >
           <div class="text-3xl mb-3">💰</div>
@@ -82,7 +82,7 @@ const base = import.meta.env.BASE_URL;
 
         <!-- Communications -->
         <a
-          href={`${base}/category/communications`}
+          href={`${base}category/communications`}
           class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border-2 border-transparent hover:border-blue-500"
         >
           <div class="text-3xl mb-3">📢</div>
@@ -93,7 +93,7 @@ const base = import.meta.env.BASE_URL;
 
         <!-- Programs -->
         <a
-          href={`${base}/category/programs`}
+          href={`${base}category/programs`}
           class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border-2 border-transparent hover:border-blue-500"
         >
           <div class="text-3xl mb-3">🎯</div>
@@ -104,7 +104,7 @@ const base = import.meta.env.BASE_URL;
 
         <!-- Events -->
         <a
-          href={`${base}/category/events`}
+          href={`${base}category/events`}
           class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border-2 border-transparent hover:border-blue-500"
         >
           <div class="text-3xl mb-3">🎉</div>
@@ -115,7 +115,7 @@ const base = import.meta.env.BASE_URL;
 
         <!-- Board & Leadership -->
         <a
-          href={`${base}/category/board`}
+          href={`${base}category/board`}
           class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border-2 border-transparent hover:border-blue-500"
         >
           <div class="text-3xl mb-3">👔</div>
@@ -126,7 +126,7 @@ const base = import.meta.env.BASE_URL;
 
         <!-- Operations -->
         <a
-          href={`${base}/category/operations`}
+          href={`${base}category/operations`}
           class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition border-2 border-transparent hover:border-blue-500"
         >
           <div class="text-3xl mb-3">⚙️</div>
@@ -146,7 +146,7 @@ const base = import.meta.env.BASE_URL;
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {allPrompts.slice(0, 3).map((prompt) => (
             <a
-              href={`${base}/prompts/${prompt.slug}`}
+              href={`${base}prompts/${prompt.slug}`}
               class="bg-gray-50 p-6 rounded-lg hover:shadow-md transition border border-gray-200"
             >
               <div class="flex items-start justify-between mb-3">
