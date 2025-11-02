@@ -417,7 +417,49 @@ For each of the 60-80 prompts above:
 - [ ] Write 2-3 pro tips for better results
 - [ ] Add appropriate tags and metadata
 
-### 5.8 Supporting Content
+### 5.8 Prompt Metadata Enhancement
+
+**Goal**: Analyze bracket complexity in all prompts and provide metadata to help users understand prerequisites and compliance requirements before using prompts.
+
+**Rationale**: Some prompts require complex data (impact metrics, beneficiary quotes with consent) that users may not have readily available. Surface this upfront on the website so nonprofit professionals can:
+- Choose prompts appropriate for their data readiness
+- Understand compliance requirements (HIPAA, consent, privacy)
+- See estimated time/complexity before starting
+
+#### 5.8.1 Schema Enhancement
+- [x] Add `prerequisites: z.array(z.string()).optional()` to content schema
+- [x] Add `requiresCompliance: z.boolean().optional()` to content schema
+- [x] Commit schema changes
+
+#### 5.8.2 Bracket Analysis Tool
+- [ ] Build `scenario_generator.py` script in `/prompt-harness` directory
+- [ ] Implement bracket extraction using regex: `r'\[([^\]]+)\]'`
+- [ ] Classify brackets into 4 types:
+  - [ ] **Simple**: org name, date, amount, location (auto-fillable from master data)
+  - [ ] **Choice**: TONE, FORMAT, MEETING TYPE (enumerated options)
+  - [ ] **Complex**: impact metrics, beneficiary quotes, outcome data (requires real org data)
+  - [ ] **Manual**: consent, anonymization, privacy review (requires human oversight)
+- [ ] Generate `BracketAnalysis` dataclass with type, example, prerequisite
+- [ ] Detect compliance keywords: CONSENT, ANONYMIZATION, PRIVACY, HIPAA, FERPA
+- [ ] Output analysis JSON file for review
+
+#### 5.8.3 Metadata Enrichment
+- [ ] Run scenario_generator.py on all 80 prompts
+- [ ] Review generated metadata for accuracy
+- [ ] Update prompt frontmatter with:
+  - [ ] `prerequisites` array (e.g., ["Recent program impact data", "Donor contact information"])
+  - [ ] `requiresCompliance` flag (true if contains privacy/consent keywords)
+- [ ] Commit enriched prompts
+
+#### 5.8.4 Website Display Enhancement
+- [ ] Update prompt detail page template (`/prompts/[slug].astro`)
+- [ ] Add "Prerequisites" section if prompt has prerequisites
+- [ ] Add compliance warning badge if `requiresCompliance: true`
+- [ ] Style prerequisites as checklist for user-friendliness
+- [ ] Show bracket complexity indicators (optional enhancement)
+- [ ] Test mobile display of new sections
+
+### 5.9 Supporting Content
 - [ ] Write Getting Started guide content (see 4.4)
 - [ ] Create About page:
   - [ ] Mission statement

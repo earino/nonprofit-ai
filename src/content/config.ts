@@ -25,6 +25,8 @@ const promptsCollection = defineCollection({
     ])),
     difficulty: z.enum(['Beginner', 'Intermediate', 'Advanced']),
     updated: z.date(),
+    prerequisites: z.array(z.string()).optional(),
+    requiresCompliance: z.boolean().optional(),
   }),
 });
 
