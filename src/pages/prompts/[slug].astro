@@ -63,6 +63,15 @@ if (existsSync(outputsPath)) {
             {role}
           </span>
         ))}
+        {outputsData && outputsData.summary && (
+          <span class={`text-xs font-semibold px-3 py-1 rounded-full ${
+            outputsData.summary.average_score >= 9 ? 'bg-green-100 text-green-800' :
+            outputsData.summary.average_score >= 8 ? 'bg-blue-100 text-blue-800' :
+            'bg-gray-100 text-gray-800'
+          }`}>
+            ✓ Tested {outputsData.summary.average_score}/10
+          </span>
+        )}
       </div>
       <h1 class="text-4xl font-bold mb-4">{prompt.data.title}</h1>
       <p class="text-xl text-gray-600">{prompt.data.description}</p>
