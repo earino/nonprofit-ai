@@ -7,7 +7,8 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://nonprofit.ai',
+  site: 'https://earino.github.io',
+  base: '/nonprofit-ai',
 
   vite: {
     plugins: [tailwindcss()]

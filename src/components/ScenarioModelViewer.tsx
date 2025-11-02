@@ -113,7 +113,7 @@ function ScenarioSection({ scenario, outputs, selectedModel, setSelectedModel }:
 
       {/* Output Content */}
       <div className="p-6">
-        {currentOutput ? (
+        {currentOutput && currentOutput.content ? (
           <div>
             <div className="bg-gradient-to-br from-gray-50 to-gray-100 border-l-4 border-emerald-500 rounded-r-xl px-6 py-5 shadow-sm">
               <div className="prose prose-gray max-w-none">
