@@ -128,12 +128,12 @@ Results are saved to `data/outputs/{slug}.json` and automatically displayed on t
 ## Licensing
 
 **Code:** MIT License (see `LICENSE`)
-**Prompt Content:** Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (see `LICENSE-CONTENT`)
+**Prompt Content:** Creative Commons Attribution-ShareAlike 4.0 (see `LICENSE-CONTENT`)
 
 This means:
 - Code is freely usable for any purpose
-- Prompts can be shared and adapted for non-commercial use with attribution
-- Commercial use of prompts requires permission
+- Prompts can be shared and adapted (including commercially) with attribution
+- Derivatives must be shared under the same license (prevents proprietary forks)
 
 ## Contributing
 
