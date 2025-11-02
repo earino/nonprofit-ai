@@ -1,0 +1,559 @@
+{
+  "prompt_id": "annual-report-copy",
+  "prompt_text": "Draft an Executive Director's Executive Summary for [ORGANIZATION NAME]'s [YEAR] Annual Report.\n\nStructure & Flow: The summary should flow naturally from hook \u2192 mission context \u2192 accomplishments \u2192 challenges \u2192 gratitude \u2192 finances \u2192 future priorities \u2192 CTA. Weave in the quote and formatting cues where they strengthen the narrative. Format as a single continuous document with paragraph breaks (not bulleted lists). Use subheadings sparingly or not at all.\n\nThe executive summary should:\n- Length & Voice: 450\u2013600 words at [READING LEVEL: 8th/10th grade], written authentically in the ED's voice.\n- Opening Hook: Begin with 1\u20132 sentences reflecting the year's theme/defining moment: [YEAR THEME]. Make it specific and vivid\u2014avoid clich\u00e9s like \"challenging year\" or \"unprecedented times.\"\n- Mission Context: Reaffirm mission in plain language (who/where/why): [MISSION/FOCUS] in [GEOGRAPHY]. Ground readers in your purpose.\n- Accomplishments: Highlight 3\u20135 key accomplishments with concrete, verifiable metrics: [ACCOMPLISHMENTS + METRICS]. Tie each to strategy and community impact. Metrics should be specific (e.g., \"340 families housed\" not \"many families helped\"; \"18% increase in graduation rates\" not \"improved outcomes\").\n- Challenges & Learning: Acknowledge 1\u20132 key challenges or pivots: [CHALLENGES] and what was learned or changed as a result. Show adaptability and honesty.\n- Gratitude: Thank supporters (donors, funders, volunteers, partners), quantifying support where possible: [SUPPORTER DATA]. Be specific and genuine.\n- Financial Transparency: Provide a clear financial headline (not a full report): [REVENUE], [EXPENSES], [PROGRAM %], [AUDIT/990 STATUS], and stewardship stance. Keep to one concise paragraph.\n- Community Voice: Include one brief quote from a community member or partner (1\u20132 sentences): [QUOTE + ATTRIBUTION]. Place it where it amplifies impact.\n- Future Focus: Look ahead with 2\u20133 focused priorities for next year and what support enables them: [PRIORITIES]. Be concrete about what's next.\n- Call to Action: Close with a modest, clear CTA (read full report, subscribe, attend event): [CTA/LINKS].\n- Signature: Sign off with [SIGNATORY NAME, TITLE]. Note \"Headshot here\" with alt text: [HEADSHOT ALT TEXT]. Alt text should describe the person professionally (e.g., \"Maria Rodriguez, Executive Director, smiling in front of community garden\").\n- Formatting for Design: Tag callouts as [SIDEBAR], charts as [CHART]. Identify 3\u20135 pull-quote candidates from the text (8\u201315 words each, emotionally resonant or data-driven) and mark them with [PULL QUOTE].\n\nTone: [TONE = FORMAL (board/funders, precise, restrained) / WARM (donors/community, appreciative, conversational) / CASUAL (youth-forward, plainspoken, still professional)].\n\nConsistency Check: Ensure this year's message builds on (not repeats) last year's: [LAST YEAR THEME]. Show progression and evolution.\n\nQuality Standards: Be specific, humble, and credible. Avoid jargon, saviorism, deficit framing, hype, and phrases like \"unprecedented\" or \"now more than ever.\" Use active voice, people-first language, and numbers that can be verified. Write something a small team can publish with minimal edits and that reads well to donors, funders, partners, volunteers, and community members.\n\nExample Inputs to Get You Started:\n[MISSION/FOCUS]: \"We provide free, culturally responsive mental health counseling for youth and families\"\n[GEOGRAPHY]: \"east and south neighborhoods of Springfield, MA\"\n[YEAR THEME]: \"Growth with care\u2014expanding services while deepening relationships\"\n[ACCOMPLISHMENTS + METRICS]: \"Served 1,247 students (up 23% from 2023); launched bilingual tutoring in 3 new schools; 89% of participants improved reading levels by 2+ grades; secured 14 new employer partners for internships; 92% program retention\"\n[SUPPORTER DATA]: \"312 individual donors; 8 foundation grants totaling $450K; 2,100 volunteer hours from 89 volunteers; 27 corporate matches\"\n[CHALLENGES]: \"Mid-year loss of city contract required rapid program redesign; pivoted to fee-for-service while maintaining scholarships for 60% of families\"\n[REVENUE]: \"$2.85M\"; [EXPENSES]: \"$2.72M\"; [PROGRAM %]: \"83% program, 10% management, 7% fundraising\"; [AUDIT/990 STATUS]: \"FY24 audit clean; Form 990 filed on time\"\n[QUOTE + ATTRIBUTION]: \"This program gave my daughter confidence I never thought she'd have.\" \u2014 Luz Martinez, parent\n[PRIORITIES]: \"Launch mobile counseling unit; scale teacher training to 25 schools; build a reserves policy to cover 3 months of operations\"\n[CTA/LINKS]: \"Read the full report at example.org/2024; subscribe at example.org/subscribe; join our spring event\"\n[SIGNATORY NAME, TITLE]: \"Jordan Kim, Executive Director\"\n[HEADSHOT ALT TEXT]: \"Jordan Kim, Executive Director, smiling outdoors near the community center\"\n[TONE]: \"WARM\"\n[LAST YEAR THEME]: \"Listening first, co-creating with community\"",
+  "category": "communications",
+  "generated_at": "2025-11-02T12:36:07.983937Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "A rural, volunteer-powered food access nonprofit connecting local farms to families across Appalachian Kentucky. Heavy community involvement, modest budget, and practical, neighbor-to-neighbor programs.",
+      "values": {
+        "ORGANIZATION NAME": "Coalfield Neighbors Food Collective",
+        "YEAR": "2024",
+        "READING LEVEL: 8th/10th grade": "8th grade",
+        "YEAR THEME": "Neighbors feeding neighbors\u2014fresh food within 10 miles",
+        "MISSION/FOCUS": "We connect rural families with fresh, affordable food and support local growers",
+        "GEOGRAPHY": "Harlan and Letcher Counties, eastern Kentucky",
+        "ACCOMPLISHMENTS + METRICS": "Delivered 412,600 pounds of produce and staples; served 2,185 households (up 31% from 2023); hosted 64 pop-up markets across 11 hollers; completed 1,860 home deliveries to seniors and people with disabilities; recruited 18 new farm partners; 94% of surveyed participants reported skipping fewer meals",
+        "CHALLENGES": "July flooding damaged our Cumberland pantry and sidelined our refrigerated truck for six weeks; we shifted to church kitchens, added dry boxes, and built a backup cold chain with two loaned coolers. We learned to pre-position supplies and train neighborhood captains.",
+        "SUPPORTER DATA": "486 individual donors; 3 foundation grants totaling $210,000; 6 local business sponsors; 6,420 volunteer hours from 220 volunteers; 55 monthly donors",
+        "REVENUE": "$680,400",
+        "EXPENSES": "$654,300",
+        "PROGRAM %": "87% program, 8% management, 5% fundraising",
+        "AUDIT/990 STATUS": "FY24 financial review completed by Smith & Poe CPAs; Form 990 filed on time",
+        "QUOTE + ATTRIBUTION": "\"I didn't have to choose between medicine and groceries this month.\" \u2014 Mabel King, Black Mountain resident",
+        "PRIORITIES": "Open a satellite pantry in Cumberland; pilot a winter greenhouse cohort with 5 growers; build a two-month operating reserve",
+        "CTA/LINKS": "Read the full report at coalfieldneighbors.org/2024; subscribe at coalfieldneighbors.org/subscribe; sign up to volunteer",
+        "SIGNATORY NAME, TITLE": "Alicia Ward, Executive Director",
+        "HEADSHOT ALT TEXT": "Alicia Ward, Executive Director, standing by a mobile farm stand",
+        "SIDEBAR": [
+          "Miles driven by the Mobile Market: 9,240",
+          "Average cost per household served per month: $28",
+          "Senior deliveries completed: 1,860"
+        ],
+        "CHART": [
+          "Households served by month (2024)",
+          "Revenue vs. Expenses (FY24)",
+          "Program vs. Admin vs. Fundraising %"
+        ],
+        "PULL QUOTE": [
+          "Neighbors feeding neighbors put fresh food within a short drive.",
+          "2,185 households received 412,600 pounds of produce and staples.",
+          "We learned to pre-position supplies and train neighborhood captains.",
+          "94% of participants reported skipping fewer meals this year.",
+          "Volunteer power fueled 6,420 hours of community-led distribution."
+        ],
+        "TONE = FORMAL (board/funders, precise, restrained) / WARM (donors/community, appreciative, conversational) / CASUAL (youth-forward, plainspoken, still professional)": "WARM",
+        "LAST YEAR THEME": "Listening first, mapping gaps with neighbors",
+        "TONE": "WARM"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "An urban youth media and workforce nonprofit offering training, paid internships, and industry mentorships across Detroit. Diverse revenue base from foundations, corporations, and individuals.",
+      "values": {
+        "ORGANIZATION NAME": "Detroit Youth Media Lab",
+        "YEAR": "2024",
+        "READING LEVEL: 8th/10th grade": "10th grade",
+        "YEAR THEME": "Stories that hired\u2014creative skills leading to real jobs",
+        "MISSION/FOCUS": "We train Detroit teens and young adults in media arts and connect them to paid work",
+        "GEOGRAPHY": "Detroit, Michigan and neighboring communities",
+        "ACCOMPLISHMENTS + METRICS": "Served 1,980 youth (up 19% from 2023); placed 280 paid interns with 61 employers; launched a new Southwest Detroit studio and VR module in 6 schools; 88% of seniors graduated on time; 74% of alumni placed in college, training, or media jobs within 6 months; 92% program retention",
+        "CHALLENGES": "Spring staff turnover and delayed equipment shipments slowed two cohorts; we standardized gear kits, leaned on refurbished equipment, and strengthened mentor onboarding and cross-training",
+        "SUPPORTER DATA": "518 individual donors; 12 foundation grants totaling $1.6M; 9 corporate partners contributed $420K cash/in-kind; 4,800 volunteer hours from 145 mentors; 63 monthly donors",
+        "REVENUE": "$3.21M",
+        "EXPENSES": "$3.05M",
+        "PROGRAM %": "84% program, 9% management, 7% fundraising",
+        "AUDIT/990 STATUS": "FY24 audit clean; Form 990 posted on website within 30 days of filing",
+        "QUOTE + ATTRIBUTION": "\"Your interns arrived ready to work and to lead.\" \u2014 Marcus Reed, Producer, Lakeview Media",
+        "PRIORITIES": "Expand paid apprenticeships to 350 placements; build an alumni network of 1,000; implement a data system to track outcomes across five years",
+        "CTA/LINKS": "Read the full report at detyouthmedia.org/2024; subscribe at detyouthmedia.org/subscribe; attend our spring showcase",
+        "SIGNATORY NAME, TITLE": "Nadia Hassan, Executive Director",
+        "HEADSHOT ALT TEXT": "Nadia Hassan, Executive Director, smiling in front of mixing boards in the studio",
+        "SIDEBAR": [
+          "Average stipend per intern: $1,200",
+          "New Southwest Studio opened June 2024",
+          "Mentor-to-student ratio held at 1:6"
+        ],
+        "CHART": [
+          "Internship placements by sector (film, audio, design, XR)",
+          "Graduate outcomes at 6 months (2024 cohort)",
+          "Revenue sources (FY24)"
+        ],
+        "PULL QUOTE": [
+          "Stories became paychecks for Detroit youth this year.",
+          "280 paid internships with 61 employers across the region.",
+          "Standardized gear kits kept learning moving despite delays.",
+          "Eighty-eight percent of seniors graduated on time.",
+          "Seventy-four percent placed in college, training, or media jobs."
+        ],
+        "TONE = FORMAL (board/funders, precise, restrained) / WARM (donors/community, appreciative, conversational) / CASUAL (youth-forward, plainspoken, still professional)": "CASUAL",
+        "LAST YEAR THEME": "Root to rise\u2014building foundations for creative careers",
+        "TONE": "CASUAL"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "A regional environmental nonprofit leading multi-county coastal restoration and climate resilience projects with significant government, foundation, and major donor support.",
+      "values": {
+        "ORGANIZATION NAME": "Baylands Resilience Collaborative",
+        "YEAR": "2024",
+        "READING LEVEL: 8th/10th grade": "10th grade",
+        "YEAR THEME": "From pilots to proven\u2014scaling nature-based defenses",
+        "MISSION/FOCUS": "We restore tidal wetlands and living shorelines to protect people, wildlife, and infrastructure from sea-level rise",
+        "GEOGRAPHY": "San Francisco Bay Area, California",
+        "ACCOMPLISHMENTS + METRICS": "Restored 1,260 acres of tidal marsh across five sites; built 4.3 miles of living shoreline; achieved 97% survival of native plantings after first winter; secured $18.7M in federal match; signed co-management agreements with 3 Tribal Nations; documented a 22% reduction in nuisance flooding days in the Hamilton pilot zone; published two peer\u2011reviewed studies on blue carbon",
+        "CHALLENGES": "Permitting timelines and construction cost inflation threatened schedules; we convened agencies to pilot a regional permit framework and value\u2011engineered designs, while diversifying contractors and investing in a local restoration workforce",
+        "SUPPORTER DATA": "1,420 individual donors; 34 foundation grants totaling $12.4M; $44M in government awards; 9 corporate partners contributed $3.1M; 12,300 volunteer hours from 680 community scientists; membership reached 7,800",
+        "REVENUE": "$68.2M",
+        "EXPENSES": "$64.9M",
+        "PROGRAM %": "89% program, 6% management, 5% fundraising",
+        "AUDIT/990 STATUS": "FY24 audited financials received an unmodified opinion; Form 990 posted and available",
+        "QUOTE + ATTRIBUTION": "\"This restoration brings back work, salmon, and song for our people.\" \u2014 Elena Whitefeather, Tribal Councilmember",
+        "PRIORITIES": "Scale marsh restoration to three additional shoreline counties; launch a blue\u2011carbon credit pilot to fund long\u2011term stewardship; train and certify 200 local workers for restoration careers",
+        "CTA/LINKS": "Read the full report at baylandsresilience.org/2024; sign up for policy alerts; join our annual summit",
+        "SIGNATORY NAME, TITLE": "Dr. Samuel Ortega, President & CEO",
+        "HEADSHOT ALT TEXT": "Dr. Samuel Ortega, President & CEO, standing at a restored tidal marsh",
+        "SIDEBAR": [
+          "Nuisance flooding days down 22% in pilot zone",
+          "Acres restored in 2024: 1,260",
+          "Volunteer community science hours: 12,300"
+        ],
+        "CHART": [
+          "Revenue composition (FY24)",
+          "Program allocation (FY24)",
+          "Living shoreline miles by year"
+        ],
+        "PULL QUOTE": [
+          "From pilots to proven, we scaled nature-based defenses.",
+          "1,260 acres restored and 4.3 miles of living shoreline built.",
+          "Regional permitting shaved months off critical schedules.",
+          "Nuisance flooding days dropped twenty-two percent in the pilot.",
+          "We secured $18.7M in federal match to accelerate work."
+        ],
+        "TONE = FORMAL (board/funders, precise, restrained) / WARM (donors/community, appreciative, conversational) / CASUAL (youth-forward, plainspoken, still professional)": "FORMAL",
+        "LAST YEAR THEME": "Partnerships that hold water\u2014building the table for regional action",
+        "TONE": "FORMAL"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Neighbors feeding neighbors put fresh food within a short drive this past year as we focused on making sure fresh, healthy food was truly accessible for everyone in Harlan and Letcher Counties. ['Neighbors feeding neighbors put fresh food within a short drive.'] Our mission is simple and heartfelt: we connect rural families with fresh, affordable food and support local growers right here in eastern Kentucky. We believe that good food is a right, not a privilege, and that strong local farms build strong communities.\n\n['Households served by month (2024)'] This past year, we saw that belief turn into real change. We delivered an incredible 412,600 pounds of fresh produce and staples, reaching 2,185 households \u2014 that\u2019s a 31% increase from 2023. ['2,185 households received 412,600 pounds of produce and staples.'] Our mobile markets were buzzing, hosting 64 pop-ups across 11 different hollers, bringing food directly to where people live. We also completed 1,860 home deliveries, ensuring seniors and people with disabilities received the food they needed right at their doorsteps. ['Senior deliveries completed: 1,860'] We\u2019re so proud to have welcomed 18 new farm partners into our network, strengthening our local food economy. The impact is clear: 94% of our surveyed participants shared that they skipped fewer meals because of our work. ['94% of participants reported skipping fewer meals this year.']\n\n['Miles driven by the Mobile Market: 9,240'] Of course, the journey wasn\u2019t without its challenges. The devastating July flooding damaged our Cumberland pantry and sidelined our refrigerated truck for six weeks, a significant blow. We quickly learned to adapt, shifting our operations to church kitchens, adding dry boxes, and building a backup cold chain with two loaned coolers. It was a stressful time, but it taught us invaluable lessons about resilience; we learned to pre-position supplies and train neighborhood captains to keep things moving even when disaster struck. ['We learned to pre-position supplies and train neighborhood captains.']\n\n['Average cost per household served per month: $28'] None of this would be possible without the incredible support of our community. We are deeply grateful to our 486 individual donors, the 3 foundation grants totaling $210,000, and our 6 local business sponsors. Our 220 volunteers contributed an amazing 6,420 hours, truly fueling our distribution efforts. ['Volunteer power fueled 6,420 hours of community-led distribution.'] And to our 55 monthly donors, your steady commitment truly anchors our work. Your generosity helps us ensure that stories like Mabel King\u2019s continue to be heard: \"I didn't have to choose between medicine and groceries this month,\" shared Mabel, a Black Mountain resident.\n\n['Revenue vs. Expenses (FY24)'] We ended fiscal year 2024 with total revenue of $680,400 and expenses of $654,300. We\u2019re committed to sound financial stewardship, with 87% of our funds directly supporting programs, 8% allocated to management, and 5% to fundraising. Our FY24 financial review was completed by Smith & Poe CPAs, and our Form 990 was filed on time. ['Program vs. Admin vs. Fundraising %']\n\nLooking ahead, we\u2019re excited to build on this year\u2019s foundation of listening first and mapping gaps with neighbors. Our priorities for 2025 include opening a satellite pantry in Cumberland to better serve that community, piloting a winter greenhouse cohort with 5 local growers to extend fresh produce availability year-round, and building a two-month operating reserve to further strengthen our stability. Your continued support will make these goals a reality.\n\nTo learn more about our impact and our plans, please read the full report at coalfieldneighbors.org/2024. If you believe in our mission, consider subscribing to our updates at coalfieldneighbors.org/subscribe or signing up to volunteer and be a part of this vital work.\n\nWith sincere gratitude,\n\nAlicia Ward\n\nExecutive Director\n\n(Headshot here) (Alt text: Alicia Ward, Executive Director, standing by a mobile farm stand, smiling warmly.)",
+      "timestamp": "2025-11-02T12:33:18.773581Z",
+      "duration_seconds": 5.44,
+      "tokens": {
+        "input": 1881,
+        "output": 916,
+        "total": 2797
+      },
+      "cost_usd": 0.000832,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 7,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output demonstrates strong narrative flow and warm tone appropriate for a rural community nonprofit, with specific metrics and authentic voice. However, it suffers from formatting confusion (pull quotes marked incorrectly within the text rather than identified separately), sidebar/chart placement issues that disrupt readability, and some structural weaknesses that reduce professional polish.",
+        "strengths": [
+          "Excellent use of concrete, verifiable metrics (412,600 pounds, 2,185 households, 31% increase) that ground accomplishments in reality",
+          "Warm, accessible tone that matches the rural, neighbor-to-neighbor organizational culture without being condescending",
+          "Strong opening hook that immediately establishes the year's theme with specificity",
+          "Genuine acknowledgment of challenges with the flooding incident, showing adaptability and learning rather than defensiveness",
+          "Effective integration of the community voice quote from Mabel King at an emotionally resonant moment",
+          "Clear financial transparency paragraph that's concise and builds trust",
+          "Natural progression from last year's theme of 'listening and mapping' to this year's action-oriented delivery"
+        ],
+        "weaknesses": [
+          "Critical formatting error: pull quotes are marked with brackets WITHIN the body text (['text here']) rather than identified separately as candidates, creating confusion for designers and disrupting reading flow",
+          "Sidebar and chart markers are inserted mid-paragraph in brackets, breaking narrative continuity rather than being noted separately for design placement",
+          "Missing the required separate identification of 3-5 pull quote candidates at the end or in a design notes section",
+          "The phrase 'Our mission is simple and heartfelt' edges toward unnecessary editorializing\u2014the mission statement should speak for itself",
+          "Slightly over-explains the flooding response ('It was a stressful time') when the facts alone convey the challenge effectively",
+          "The closing signature formatting is inconsistent\u2014parenthetical notes should be cleaner design instructions, not embedded in the letter flow",
+          "Word count appears to exceed the 450-600 word target (approximately 650+ words), reducing conciseness"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Executive Director's Message\n\nThis past year, neighbors feeding neighbors put fresh food within a short drive of nearly every holler in Harlan and Letcher Counties. ['Neighbors feeding neighbors put fresh food within a short drive.'] At Coalfield Neighbors Food Collective, we believe no one should have to drive an hour over the mountain for a bag of groceries or go without greens because the corner store only stocks canned goods. We connect rural families with fresh, affordable food and support local growers right here in eastern Kentucky\u2014usually within ten miles of home.\n\nIn 2024, we moved from listening and mapping gaps to building reliable food access week after week. We delivered 412,600 pounds of produce and staples to 2,185 households, up 31% from 2023. ['2,185 households received 412,600 pounds of produce and staples.'] We hosted 64 pop-up markets across 11 hollers, completed 1,860 home deliveries to seniors and people with disabilities, and recruited 18 new farm partners who grew everything from heirloom tomatoes to winter kale. Our survey found that 94% of participants reported skipping fewer meals this year. ['94% of participants reported skipping fewer meals this year.'] That means families like Mabel King's in Black Mountain are making different choices now. \"I didn't have to choose between medicine and groceries this month,\" she told us in September.\n\nJuly flooding tested everything we'd built. Water swept through our Cumberland pantry and sidelined our refrigerated truck for six weeks. We shifted quickly\u2014partnering with church kitchens, adding dry boxes to our deliveries, and building a backup cold chain with two loaned coolers from a poultry farmer and the county health department. We learned to pre-position supplies before storm warnings and train neighborhood captains to coordinate distribution when roads close. ['We learned to pre-position supplies and train neighborhood captains.'] What could have ended our season instead made us stronger and more nimble.\n\nNone of this happens without our community. This year, 486 individual donors stepped up alongside 3 foundation grants totaling $210,000, 6 local business sponsors, and 55 faithful monthly donors. Volunteer power fueled 6,420 hours of community-led distribution, with 220 neighbors sorting boxes, driving deliveries, and staffing markets. ['Volunteer power fueled 6,420 hours of community-led distribution.'] Our farm partners showed up every week, even when markets were slow or weather turned.\n\nWe raised $680,400 and spent $654,300 in fiscal year 2024, directing 87% to programs, 8% to management, and 5% to fundraising. ['Miles driven by the Mobile Market: 9,240'] ['Average cost per household served per month: $28'] ['Senior deliveries completed: 1,860'] Smith & Poe CPAs completed our financial review, and we filed our Form 990 on time. We're committed to using every dollar wisely and reporting honestly on where resources go.\n\nLooking ahead, we're focused on three priorities: opening a satellite pantry in Cumberland so families don't lose access when the creek rises, piloting a winter greenhouse cohort with 5 growers to extend the season and income, and building a two-month operating reserve so we can weather the next flood or truck breakdown without missing a delivery. These steps require both grassroots support and patient capital willing to invest in rural food systems.\n\nRead the full report at coalfieldneighbors.org/2024, subscribe to our newsletter at coalfieldneighbors.org/subscribe, or sign up to volunteer and join us in the work.\n\n['Households served by month (2024)'] ['Revenue vs. Expenses (FY24)'] ['Program vs. Admin vs. Fundraising %']\n\nWith gratitude,\n\nAlicia Ward, Executive Director\n\n*[Headshot here: Alicia Ward, Executive Director, standing by a mobile farm stand]*",
+      "timestamp": "2025-11-02T12:33:33.744113Z",
+      "duration_seconds": 20.41,
+      "tokens": {
+        "input": 1978,
+        "output": 891,
+        "total": 2869
+      },
+      "cost_usd": 0.019299,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, publication-ready executive summary that authentically captures a rural nonprofit's voice while meeting nearly all technical requirements. It balances warmth with credibility, uses concrete metrics effectively, and tells a compelling story of resilience. Minor weaknesses include slightly awkward pull-quote placement and a few phrases that could be more distinctive.",
+        "strengths": [
+          "Excellent opening hook that's specific and vivid ('neighbors feeding neighbors put fresh food within a short drive of nearly every holler') - avoids clich\u00e9s while establishing place and mission immediately",
+          "Strong use of concrete, verifiable metrics throughout (412,600 pounds, 2,185 households, 31% increase, 1,860 deliveries, 94% survey result) that feel authentic to a small rural org",
+          "Challenges section is exceptionally well-handled - honest about July flooding, specific about solutions (church kitchens, loaned coolers), and demonstrates learning without dwelling on crisis",
+          "Warm, conversational tone perfectly calibrated for the organization - uses regional language ('holler') naturally without overdoing it, maintains professionalism while feeling neighborly",
+          "Community quote from Mabel King is placed strategically and emotionally resonant, illustrating impact without sentimentality",
+          "Financial transparency paragraph is clear and concise, includes all required elements without becoming dry",
+          "Gratitude section quantifies support effectively (486 donors, 6,420 volunteer hours, 220 volunteers) and feels genuine rather than formulaic",
+          "Future priorities are concrete and realistic for a small org (satellite pantry, greenhouse cohort, operating reserve), with clear rationale",
+          "Reading level is appropriate - accessible without being condescending, uses plain language throughout",
+          "Shows clear progression from last year's theme (listening/mapping to building/delivering) without repeating content"
+        ],
+        "weaknesses": [
+          "Pull-quote markers appear inline in brackets rather than being listed separately for the design team - formatting could confuse layout staff",
+          "Sidebar and chart markers are placed at the end rather than integrated where they'd naturally appear in the narrative flow",
+          "The phrase 'patient capital willing to invest in rural food systems' feels slightly jargony/funder-speak compared to the rest of the warm, plain-language tone",
+          "Minor: 'What could have ended our season instead made us stronger and more nimble' verges on inspirational clich\u00e9, though it's earned by the specific details preceding it",
+          "The CTA could be slightly stronger - 'join us in the work' is a bit vague compared to the concrete actions listed before it"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "This year, \u201cneighbors feeding neighbors\u201d wasn\u2019t a slogan\u2014it was a map. From Eolia to Cumberland, we kept fresh food within a short drive, most of it grown by people you know. Neighbors feeding neighbors put fresh food within a short drive.\n\nOur mission is simple and local: we connect rural families with fresh, affordable food and support local growers in Harlan and Letcher Counties, eastern Kentucky. Last year we promised to listen first and map gaps with neighbors. This year we built routes, schedules, and farmer partnerships from those maps so food gets where it\u2019s needed, when it\u2019s needed.\n\nTogether, we reached farther and deeper. 2,185 households received 412,600 pounds of produce and staples. That\u2019s a 31% increase in households from 2023, reflecting both need and trust. We hosted 64 pop-up markets across 11 hollers so families could shop close to home with dignity and choice. We completed 1,860 home deliveries to seniors and people with disabilities, because food should not depend on a car or steep steps. We recruited 18 new farm partners, strengthening our local food economy while keeping dollars here. And 94% of participants reported skipping fewer meals this year. As one neighbor told us, \u201cI didn\u2019t have to choose between medicine and groceries this month.\u201d \u2014 Mabel King, Black Mountain resident.\n\nMid-summer, the July flooding hit hard. Our Cumberland pantry took on water, and our refrigerated truck was sidelined for six weeks. We shifted to church kitchens, added dry boxes, and built a backup cold chain with two loaned coolers so produce stayed safe. We learned to pre-position supplies and train neighborhood captains. Those changes now live in our playbook, and they make us more ready for the next storm.\n\nThis work is possible because so many of you show up. Volunteer power fueled 6,420 hours of community-led distribution. In 2024, 486 individual donors invested in this approach, along with 55 monthly donors who kept the wheels turning. Three foundations provided $210,000 in grants, and six local business sponsors backed our pop-up markets and fuel. Two hundred twenty volunteers lifted, sorted, drove, called, and checked on their neighbors.\n\nWe manage dollars with care. In FY24, Coalfield Neighbors Food Collective brought in $680,400 and spent $654,300. We invested 87% in programs, 8% in management, and 5% in fundraising. Our FY24 financial review was completed by Smith & Poe CPAs, and our Form 990 was filed on time. We stretch every gift and track costs closely so a family can count on food each month.\n\nNext year, we\u2019re focused on three priorities drawn from what you told us. First, open a satellite pantry in Cumberland so we can shorten lines and add hours, even during bad weather. Second, pilot a winter greenhouse cohort with five growers to keep greens and roots coming when gardens rest. Third, build a two-month operating reserve so service is steady through storms and delays. Your support will help us equip the new pantry, coach growers, and set aside the reserve that keeps promises.\n\nPlease stay with us. Read the full report at coalfieldneighbors.org/2024; subscribe at coalfieldneighbors.org/subscribe; sign up to volunteer. With every box packed and every dollar shared, you make this a community-built solution.\n\nWith gratitude,\n\nAlicia Ward, Executive Director\nHeadshot here [Alt text: Alicia Ward, Executive Director, standing by a mobile farm stand]\n\n['Miles driven by the Mobile Market: 9,240', 'Average cost per household served per month: $28', 'Senior deliveries completed: 1,860']\n\n['Households served by month (2024)', 'Revenue vs. Expenses (FY24)', 'Program vs. Admin vs. Fundraising %']\n\n['Neighbors feeding neighbors put fresh food within a short drive.', '2,185 households received 412,600 pounds of produce and staples.', 'We learned to pre-position supplies and train neighborhood captains.', '94% of participants reported skipping fewer meals this year.', 'Volunteer power fueled 6,420 hours of community-led distribution.']",
+      "timestamp": "2025-11-02T12:34:09.854759Z",
+      "duration_seconds": 56.52,
+      "tokens": {
+        "input": 1721,
+        "output": 2787,
+        "total": 4508
+      },
+      "cost_usd": 0.046968,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is a strong, publication-ready executive summary that authentically captures a rural food access nonprofit's voice. It successfully avoids nonprofit clich\u00e9s, uses concrete metrics effectively, and maintains warmth without sentimentality. Minor formatting issues and one structural choice prevent it from being perfect.",
+        "strengths": [
+          "Exceptional opening hook that's specific and vivid ('wasn't a slogan\u2014it was a map') and avoids clich\u00e9s",
+          "Excellent use of concrete, verifiable metrics throughout (412,600 pounds, 2,185 households, 31% increase, 94% outcome)",
+          "Authentic rural Appalachian voice that feels genuine without being patronizing ('11 hollers,' 'steep steps,' 'kept dollars here')",
+          "Strong narrative flow from theme \u2192 mission \u2192 accomplishments \u2192 challenges \u2192 gratitude \u2192 finances \u2192 future \u2192 CTA",
+          "Honest, specific challenge section that shows learning and adaptation without dwelling on problems",
+          "Community quote placed perfectly to amplify impact of food security work",
+          "Financial transparency paragraph is clear, concise, and appropriately detailed",
+          "Pull quotes are well-selected\u2014emotionally resonant and data-driven",
+          "Active voice and people-first language used consistently",
+          "Demonstrates clear progression from last year's 'listening and mapping' to this year's 'building routes and partnerships'"
+        ],
+        "weaknesses": [
+          "Formatting error: Pull quote appears in body text in paragraph 1 ('Neighbors feeding neighbors put fresh food within a short drive') when it should only be tagged, not embedded\u2014breaks the narrative flow",
+          "Sidebar, chart, and pull quote data appear as raw Python lists at the end rather than being properly tagged inline with [SIDEBAR], [CHART], [PULL QUOTE] markers as requested",
+          "Word count appears to be around 550 words, which is within range but on the higher end\u2014could be tightened slightly for punchier delivery",
+          "Minor: The transition to the quote could be smoother\u2014it appears somewhat abruptly after the 94% statistic"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Stories that hired\u2014creative skills leading to real jobs. This past year, we witnessed firsthand the incredible power of young people's voices when given the right tools and opportunities. We're proud to share how Detroit Youth Media Lab continues to uplift young talent, proving that creativity isn't just an outlet, but a viable path to prosperity in our city.\n\nOur mission is clear and impactful: we train Detroit teens and young adults in media arts and connect them to paid work in Detroit, Michigan and neighboring communities. This commitment to equitable access and economic empowerment drives everything we do, transforming potential into professional careers.\n\n['Stories became paychecks for Detroit youth this year.'] This year, our impact reached new heights. We served 1,980 youth, marking a 19% increase from 2023, bringing more young people into our creative pipeline. ['280 paid internships with 61 employers across the region.'] A staggering 280 paid interns found placements with 61 different employers, demonstrating the strong demand for their media skills. ['Average stipend per intern: $1,200'] We also broadened our reach significantly by launching a new Southwest Detroit studio ['New Southwest Studio opened June 2024'] and introducing a cutting-edge VR module in six schools, opening up exciting new avenues for learning. ['Mentor-to-student ratio held at 1:6'] These strategic expansions weren't just about growth; they were about deepening our commitment to nurturing talent and ensuring pathways to success. This sustained effort led to impressive academic and career outcomes: 88% of our seniors graduated on time, and within six months, 74% of our alumni were placed in college, specialized training, or media jobs. ['Eighty-eight percent of seniors graduated on time.'] ['Seventy-four percent placed in college, training, or media jobs.'] Our program retention remained strong at 92%, reflecting the value and engagement our youth find in our programs.\n\n['Internship placements by sector (film, audio, design, XR)'] ['Graduate outcomes at 6 months (2024 cohort)'] Of course, the journey wasn't without its speed bumps. We navigated a challenging period of spring staff turnover and faced delays in equipment shipments, which slowed down two of our cohorts. However, these challenges strengthened our resolve and led to important improvements: we standardized our gear kits ['Standardized gear kits kept learning moving despite delays.'], leaned into using refurbished equipment, and significantly strengthened our mentor onboarding and cross-training processes, making us more resilient and adaptive for the future.\n\nOur achievements are truly a collective effort, and we extend our deepest gratitude to everyone who believes in our mission. We're incredibly thankful for the generosity of 518 individual donors, the crucial backing of 12 foundation grants totaling $1.6 million, and the invaluable support from 9 corporate partners who contributed $420,000 in cash and in-kind donations. Our community is also built on the dedication of 145 mentors who collectively volunteered 4,800 hours, and 63 monthly donors who provide consistent, essential support. It's this network that truly makes our work possible. As Marcus Reed, Producer at Lakeview Media, shared, \"Your interns arrived ready to work and to lead,\" a powerful testament to the caliber of young talent we cultivate.\n\n['Revenue sources (FY24)'] We are committed to transparency in our financial stewardship. For the fiscal year, our total revenue was $3.21 million, with expenditures of $3.05 million. Our financial allocation demonstrates our unwavering focus on programs, with 84% directly supporting our youth, 9% allocated to management, and 7% to fundraising. We\u2019re pleased to report a clean FY24 audit, and the full Form 990 will be posted on our website at detyouthmedia.org within 30 days of filing.\n\nLooking ahead, we're energized by ambitious goals for 2025. We plan to expand our paid apprenticeships to 350 placements, further solidifying pathways to employment. We're also committed to building a robust alumni network of 1,000, creating a lasting community of support and collaboration. Finally, we will implement a sophisticated data system to track outcomes across five years, allowing us to continuously refine our programs and demonstrate long-term impact more effectively. Your continued support is crucial as we embark on these exciting next steps.\n\nWe invite you to dive deeper into our stories and successes by reading the full report at detyouthmedia.org/2024. To stay connected and receive updates, please subscribe to our newsletter at detyouthmedia.org/subscribe, and mark your calendars to attend our spring showcase, where you can witness the incredible talent of our youth firsthand.\n\nNadia Hassan\nExecutive Director\n[Headshot here: Nadia Hassan, Executive Director, smiling in front of mixing boards in the studio.]",
+      "timestamp": "2025-11-02T12:34:16.483565Z",
+      "duration_seconds": 6.62,
+      "tokens": {
+        "input": 1870,
+        "output": 1048,
+        "total": 2918
+      },
+      "cost_usd": 0.000909,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 9,
+          "usefulness": 7,
+          "accuracy": 6,
+          "authenticity": 7
+        },
+        "reasoning": "The output is comprehensive and follows the template structure well, but suffers from mechanical implementation of formatting tags that disrupts readability. The tone occasionally slips into formal/corporate language despite the 'casual' directive, and some phrasing feels generic rather than authentically voice-driven.",
+        "strengths": [
+          "Excellent adherence to structural requirements - all elements present (hook, mission, accomplishments, challenges, gratitude, finances, future, CTA)",
+          "Strong use of specific, verifiable metrics throughout (1,980 youth, 280 interns, 88% graduation rate, etc.)",
+          "Good financial transparency paragraph that's clear and concise",
+          "Effective integration of the employer quote from Marcus Reed at a natural point in the narrative",
+          "Accomplishments are tied to strategy and impact as requested",
+          "Avoids most common nonprofit clich\u00e9s like 'unprecedented' and 'now more than ever'"
+        ],
+        "weaknesses": [
+          "Critical formatting error: Pull quotes and sidebar/chart tags are embedded in brackets within the flowing text rather than being marked separately, severely disrupting readability (e.g., '['Stories became paychecks for Detroit youth this year.']' appears mid-paragraph)",
+          "Tone inconsistency: Requested 'casual' but uses formal phrases like 'staggering,' 'unwavering focus,' 'sophisticated data system,' and 'energized by ambitious goals' that feel corporate rather than youth-forward and plainspoken",
+          "Opening hook is weak and generic ('witnessed firsthand the incredible power') - doesn't deliver the 'specific and vivid' moment requested; could be about any youth organization",
+          "Some redundancy: metrics are stated in narrative then repeated in bracket tags, creating clutter",
+          "Missing the 'builds on last year's theme' element - no reference to 'Root to rise' or showing progression from building foundations to employment outcomes",
+          "Authenticity issues: Phrases like 'transforming potential into professional careers' and 'deepening our commitment to nurturing talent' sound like boilerplate rather than an ED's authentic voice",
+          "The 'speed bumps' metaphor feels forced for casual tone; the challenges section could be more straightforward",
+          "Financial paragraph placement of chart tag ['Revenue sources (FY24)'] at the beginning is awkward"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Executive Summary\n\n['Stories became paychecks for Detroit youth this year.'] A seventeen-year-old from Southwest Detroit walked into our studio in January not knowing how to hold a camera, and by June she was earning $15 an hour editing video for a local nonprofit\u2014her first real job, doing work she loved. That story played out 280 times in 2024, and it's the heart of everything we do.\n\nDetroit Youth Media Lab trains Detroit teens and young adults in media arts and connects them to paid work in Detroit, Michigan and neighboring communities. We believe creative skills aren't just for self-expression\u2014they're pathways to income, independence, and opportunity. This year, we set out to prove that stories don't just inspire change; they can hire young people and build careers.\n\nWe served 1,980 youth in 2024, up 19 percent from the year before. ['280 paid internships with 61 employers across the region.'] We placed 280 young people in paid internships with 61 employers across film production companies, podcasting studios, graphic design agencies, and extended reality labs. The average stipend per intern was $1,200, and many of those placements turned into part-time jobs or freelance gigs after the program ended. ['Average stipend per intern: $1,200']\n\nIn June, we opened a new Southwest Detroit studio to meet students where they are, cutting commute times and building deeper roots in the neighborhood. We also launched a virtual reality module in six Detroit high schools, giving students hands-on experience with emerging tech that most of them had never touched before. ['New Southwest Studio opened June 2024'] Program retention held strong at 92 percent, and 88 percent of our seniors graduated high school on time\u2014higher than the citywide average. ['Eighty-eight percent of seniors graduated on time.'] Within six months of finishing our program, 74 percent of alumni were placed in college, job training, or media jobs. ['Seventy-four percent placed in college, training, or media jobs.'] Those aren't just numbers\u2014they're young people earning, learning, and building something real.\n\n\"Your interns arrived ready to work and to lead,\" said Marcus Reed, a producer at Lakeview Media who hired three of our graduates this year. That's the kind of feedback that keeps us going.\n\nOf course, the year had its bumps. Spring staff turnover and delayed equipment shipments slowed two cohorts and tested our flexibility. We responded by standardizing gear kits so students could check out identical setups regardless of which studio they trained in, leaning on refurbished equipment from community partners, and strengthening mentor onboarding and cross-training so no one instructor carried too much weight. ['Standardized gear kits kept learning moving despite delays.'] It wasn't seamless, but we kept our commitments to students and came out stronger on the other side. ['Mentor-to-student ratio held at 1:6']\n\nNone of this happens without the people who show up for Detroit youth. This year, 518 individual donors gave what they could. Twelve foundation grants totaling $1.6 million anchored our work. Nine corporate partners contributed $420,000 in cash and in-kind support, from software licenses to studio space. And 145 mentors logged 4,800 volunteer hours\u2014teaching, troubleshooting, and cheering students on. Sixty-three of you give monthly, which means we can plan ahead and say yes to more young people. Thank you.\n\nWe raised $3.21 million in revenue and spent $3.05 million delivering programs, managing operations, and raising the funds to do it all again. Eighty-four percent of every dollar went directly to programs, 9 percent to management and general costs, and 7 percent to fundraising. Our fiscal year 2024 audit came back clean, and our Form 990 is posted on our website within 30 days of filing\u2014we believe in full transparency and public accountability. ['Internship placements by sector (film, audio, design, XR)'] ['Graduate outcomes at 6 months (2024 cohort)'] ['Revenue sources (FY24)']\n\nLooking ahead to 2025, we're focused on three big goals: expand paid apprenticeships to 350 placements, build an alumni network of 1,000 members who can mentor and hire the next wave, and implement a data system that tracks graduate outcomes across five years so we can learn what works and do more of it. Each of those priorities depends on continued support from people like you.\n\nRead the full report at detyouthmedia.org/2024, subscribe to our newsletter at detyouthmedia.org/subscribe, and join us for our spring showcase in May\u2014you'll see the work, meet the students, and leave inspired.\n\nWith gratitude,\n\n**Nadia Hassan**  \nExecutive Director\n\n*[Headshot here: Nadia Hassan, Executive Director, smiling in front of mixing boards in the studio]*",
+      "timestamp": "2025-11-02T12:34:38.038139Z",
+      "duration_seconds": 28.18,
+      "tokens": {
+        "input": 1965,
+        "output": 1112,
+        "total": 3077
+      },
+      "cost_usd": 0.022575,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, publication-ready executive summary that successfully balances casual tone with professionalism. It meets nearly all prompt requirements with specific metrics, authentic voice, and clear narrative flow. The opening hook is vivid and specific, avoiding clich\u00e9s while demonstrating real impact through concrete storytelling.",
+        "strengths": [
+          "Excellent opening hook with specific, relatable story that avoids clich\u00e9s and immediately demonstrates impact ($15/hour editing job)",
+          "Strong adherence to casual tone while maintaining professionalism\u2014uses contractions, direct address, and accessible language appropriate for youth-forward organization",
+          "Comprehensive inclusion of all required elements: mission context, 6 specific metrics with percentages, challenges with solutions, detailed supporter data, financial transparency, community quote, future priorities, and CTA",
+          "Effective pull quote placement and identification\u2014all 5 marked quotes are emotionally resonant or data-driven (8-15 words)",
+          "Authentic voice throughout with phrases like 'That's the kind of feedback that keeps us going' and 'It wasn't seamless, but we kept our commitments'",
+          "Proper sidebar and chart callouts integrated naturally into narrative flow",
+          "Strong progression from last year's theme ('Root to rise') to current theme ('Stories that hired')\u2014shows evolution from foundation-building to employment outcomes",
+          "Excellent specificity in metrics (1,980 youth, 19% increase, 280 placements, 61 employers, $1,200 average stipend, 92% retention, 88% graduation, 74% placement)",
+          "Transparent financial reporting with clear percentages and audit status",
+          "Challenges section shows genuine adaptability without defensiveness\u2014specific solutions provided"
+        ],
+        "weaknesses": [
+          "Minor formatting inconsistency: pull quotes marked with brackets ['...'] instead of [PULL QUOTE] tag as specified in prompt, though they are clearly identifiable",
+          "Sidebar items appear as bracketed callouts mid-text rather than being explicitly tagged as [SIDEBAR] in a separate notation\u2014could cause minor confusion for design team",
+          "The phrase 'people like you' in the future priorities paragraph is slightly generic for an otherwise specific document",
+          "Word count appears to be approximately 650-700 words, slightly exceeding the 450-600 word target range"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Stories became paychecks for Detroit youth this year. We watched portfolios turn into offer letters, and first-day jitters turn into first checks.\n\nDetroit Youth Media Lab exists for this. We train Detroit teens and young adults in media arts and connect them to paid work in Detroit, Michigan and neighboring communities. Our focus is simple: real skills, real projects, real wages. Last year\u2019s theme was root to rise\u2014building foundations for creative careers. This year, those roots carried our young people into studios, agencies, and production sets.\n\nWe served 1,980 youth in 2024, a 19% increase from 2023, while keeping our mentor-to-student ratio at 1:6. We placed 280 paid interns with 61 employers across the region, from indie film houses to in-house marketing teams. \u201cYour interns arrived ready to work and to lead.\u201d \u2014 Marcus Reed, Producer, Lakeview Media. In June, we opened our new Southwest Detroit studio, giving young creators a home base on Vernor. We also launched a VR module in six schools, introducing students to immersive storytelling and new career paths in XR. Eighty-eight percent of seniors graduated on time, and seventy-four percent placed in college, training, or media jobs within six months. Program retention held at 92%, driven by consistent coaching, paid projects, and a clear path from classroom to client.\n\nWe hit bumps and learned fast. Spring staff turnover and delayed equipment shipments slowed two cohorts. Standardized gear kits kept learning moving despite delays. We leaned on refurbished equipment, strengthened mentor onboarding, and cross-trained staff so classes did not stall if one person was out. The result: smoother handoffs, faster setup, and less downtime in the field. We\u2019ll carry these practices forward.\n\nThis progress reflects a community effort. Thank you to 518 individual donors and 63 monthly donors who kept stipends flowing and lights on in the lab. Twelve foundation grants totaled $1.6M, and nine corporate partners contributed $420K in cash and in-kind support. One hundred forty-five mentors volunteered 4,800 hours, reviewing reels, teaching workshops, and opening doors. Employers hosted our interns, hired our graduates, and shared honest feedback that made us better.\n\nFinancially, we raised $3.21M and spent $3.05M in FY24. We invested 84% in programs, 9% in management, and 7% in fundraising. Our FY24 audit was clean, and we post our Form 990 on our website within 30 days of filing. We steward every dollar to turn training into paid opportunity.\n\nLooking ahead, we are focused on three priorities. First, expand paid apprenticeships to 350 placements so more young people earn while they learn. Second, build an alumni network of 1,000 to keep graduates connected to gigs, mentors, and each other. Third, implement a data system to track outcomes across five years, so we can improve supports from the first workshop to the first promotion. Your support powers all of this\u2014stipends, employer outreach, alumni coaches, and the tech backbone to measure what matters.\n\nRead the full report at detyouthmedia.org/2024; subscribe at detyouthmedia.org/subscribe; and come cheer at our spring showcase. Stories that hired are better with you in the room.\n\nWith gratitude,\n\nNadia Hassan, Executive Director\n\nHeadshot here\nAlt text: Nadia Hassan, Executive Director, smiling in front of mixing boards in the studio.\n\n['Average stipend per intern: $1,200', 'New Southwest Studio opened June 2024', 'Mentor-to-student ratio held at 1:6']\n\n['Internship placements by sector (film, audio, design, XR)', 'Graduate outcomes at 6 months (2024 cohort)', 'Revenue sources (FY24)']\n\n['Stories became paychecks for Detroit youth this year.', '280 paid internships with 61 employers across the region.', 'Standardized gear kits kept learning moving despite delays.', 'Eighty-eight percent of seniors graduated on time.', 'Seventy-four percent placed in college, training, or media jobs.']",
+      "timestamp": "2025-11-02T12:35:00.961714Z",
+      "duration_seconds": 51.11,
+      "tokens": {
+        "input": 1715,
+        "output": 2898,
+        "total": 4613
+      },
+      "cost_usd": 0.048615,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, publication-ready executive summary that successfully captures a casual-yet-professional tone appropriate for a youth media organization. It follows the template structure faithfully, integrates all required elements naturally, and delivers concrete metrics without jargon. The writing feels authentic and energetic, though a few phrases could be slightly more distinctive to avoid any hint of AI polish.",
+        "strengths": [
+          "Exceptional opening hook that's vivid and specific ('portfolios turn into offer letters, and first-day jitters turn into first checks') without clich\u00e9s",
+          "Seamless integration of all required elements\u2014quote, metrics, challenges, financials, future priorities\u2014in a natural narrative flow rather than checklist format",
+          "Consistently casual tone that remains professional ('We hit bumps and learned fast,' 'better with you in the room') appropriate for youth-serving organization",
+          "Strong use of concrete, verifiable metrics throughout (1,980 youth, 280 interns, 61 employers, 88% graduation rate, 74% placement rate)",
+          "Honest, specific challenge section that shows adaptability without dwelling on problems ('standardized gear kits,' 'cross-trained staff')",
+          "Effective year-over-year progression from 'root to rise' to 'stories that hired' showing evolution not repetition",
+          "Clear financial transparency paragraph that's concise and includes audit status",
+          "Well-chosen pull quotes that are data-driven and emotionally resonant",
+          "Proper formatting cues for design team (sidebar, chart, pull quote markers) without disrupting readability"
+        ],
+        "weaknesses": [
+          "The phrase 'Stories that hired are better with you in the room' in the closing, while creative, is slightly awkward grammatically and could be clearer",
+          "Minor formatting inconsistency: sidebar, chart, and pull quote arrays appear as raw lists at the end rather than being tagged inline with [SIDEBAR], [CHART], [PULL QUOTE] markers as the template suggests",
+          "The transition between accomplishments and challenges ('We hit bumps') could be slightly smoother, though it does match the casual tone"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "This past year, we truly transitioned ['From pilots to proven, we scaled nature-based defenses.']\u2014moving beyond initial demonstrations to significantly expand and solidify our approach to nature-based defenses across the Baylands. Our mission is clear and more urgent than ever: we restore tidal wetlands and living shorelines to protect people, wildlife, and vital infrastructure from the rising seas here in the San Francisco Bay Area, California. Every acre brought back, every shoreline strengthened, is a direct investment in the resilience and well-being of our communities and the rich biodiversity that calls this region home.\n\n['1,260 acres restored and 4.3 miles of living shoreline built.'] Our efforts in 2024 yielded remarkable progress, building on the foundation of collaboration laid in previous years. We successfully restored 1,260 acres of tidal marsh across five critical sites and constructed 4.3 miles of living shoreline, directly enhancing coastal protection. A testament to our careful planning and dedicated field teams, we achieved an impressive 97% survival rate for native plantings after their first winter, ensuring long-term ecological benefits. We secured $18.7 million in federal matching funds, a significant endorsement of our work and a boost to our capacity. Crucially, we forged deeper relationships with indigenous communities, signing co-management agreements with three Tribal Nations, integrating their invaluable traditional ecological knowledge into our practices. The tangible impact of our work was clear in the Hamilton pilot zone, where we documented a 22% reduction in nuisance flooding days for local residents ['Nuisance flooding days dropped twenty-two percent in the pilot.']. Furthermore, our commitment to scientific rigor saw us publish two peer-reviewed studies on blue carbon, contributing to the global understanding of these vital ecosystems.\n\nHowever, this expansion was not without its hurdles. Permitting timelines and the persistent challenge of construction cost inflation threatened to derail critical schedules. In response, we proactively convened regulatory agencies to successfully pilot a regional permit framework, significantly streamlining project approvals and ['Regional permitting shaved months off critical schedules.'] shaving months off critical schedules. We also value-engineered project designs to maximize impact while controlling costs, and broadened our pool of contractors, simultaneously investing in training and employment pathways for a local restoration workforce. This adaptability ensured our progress continued, making us more resilient as an organization.\n\nThe achievements of this past year are truly a collective triumph, made possible by an extraordinary network of supporters. We extend our profound gratitude to our 1,420 individual donors whose belief in our mission fuels our work, and to the 34 foundations that provided grants totaling $12.4 million. Government partners awarded us $44 million, recognizing the regional significance of our initiatives, and nine corporate partners generously contributed $3.1 million. The heart of our community engagement beats strong through our volunteers; 680 community scientists contributed an astounding 12,300 volunteer hours, directly monitoring and propagating critical plant species. Our membership also grew to 7,800, a clear signal of increasing public support. As Elena Whitefeather, a Tribal Councilmember, so eloquently shared with us: \"This restoration brings back work, salmon, and song for our people.\" ['Nuisance flooding days down 22% in pilot zone'] ['Acres restored in 2024: 1,260'] ['Volunteer community science hours: 12,300']\n\n['Revenue composition (FY24)'] ['Program allocation (FY24)'] ['Living shoreline miles by year'] Our prudent financial management ensures every dollar advances our mission. In Fiscal Year 2024, our total revenue reached $68.2 million, with expenses at $64.9 million. An impressive 89% of these funds were dedicated directly to program activities, reflecting our commitment to direct impact, while 6% supported management and 5% was allocated to fundraising. Our FY24 audited financials received an unmodified opinion, demonstrating clean and responsible stewardship, and our Form 990 is publicly available on our website for full transparency.\n\nLooking ahead, we are poised for even greater impact. Our priorities for the coming year include scaling marsh restoration to three additional shoreline counties, extending our protective reach across the Bay. We will launch a blue-carbon credit pilot program designed to create a sustainable funding source for long-term stewardship of restored sites. Crucially, we are committed to workforce development, aiming to train and certify 200 local workers for careers in the growing restoration sector. Your continued support is what makes these ambitious, yet achievable goals, a reality.\n\nI invite you to read the full report at baylandsresilience.org/2024 to delve deeper into our accomplishments and future plans. Please also consider signing up for our policy alerts to stay informed on critical regional initiatives and join us at our annual summit to connect directly with our team and partners.\n\nDr. Samuel Ortega\nPresident & CEO\n[Headshot here - Alt text: Dr. Samuel Ortega, President & CEO, standing at a restored tidal marsh.]",
+      "timestamp": "2025-11-02T12:35:08.364365Z",
+      "duration_seconds": 7.4,
+      "tokens": {
+        "input": 1928,
+        "output": 1049,
+        "total": 2977
+      },
+      "cost_usd": 0.000919,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 7,
+          "completeness": 8,
+          "usefulness": 6,
+          "accuracy": 7,
+          "authenticity": 6
+        },
+        "reasoning": "The output includes all required elements and demonstrates strong data integration, but suffers from critical formatting errors that would require significant editing before publication. The mechanical placement of pull quotes and sidebar markers disrupts readability, and phrases like 'more urgent than ever' directly violate the prompt's quality standards against clich\u00e9s.",
+        "strengths": [
+          "Comprehensive inclusion of all required elements (metrics, quote, financial data, priorities, CTA, signature)",
+          "Strong integration of specific, verifiable metrics (1,260 acres, 97% survival rate, 22% reduction in flooding)",
+          "Effective narrative arc from accomplishments through challenges to future priorities",
+          "Appropriate formal tone for board/funder audience with precise language",
+          "Good handling of the Tribal partnership element with respectful framing",
+          "Financial transparency paragraph is clear and appropriately concise"
+        ],
+        "weaknesses": [
+          "Critical formatting error: Pull quote markers ['...'] are embedded in body text instead of being tagged separately, making the document unpublishable without extensive editing",
+          "Sidebar and chart markers are awkwardly placed mid-paragraph rather than as separate tags, disrupting flow",
+          "Uses prohibited clich\u00e9 'more urgent than ever' in opening paragraph, directly violating prompt quality standards",
+          "Opening hook lacks vividness\u2014'transitioned from pilots to proven' is abstract rather than specific and concrete",
+          "Authenticity suffers from overly formal constructions ('profound gratitude,' 'extraordinary network') that feel stilted for an ED voice",
+          "Word count appears to exceed 600-word target (approximately 650+ words)",
+          "The phrase 'clear and more urgent than ever' combines mission reaffirmation with urgency framing in a way that feels generic",
+          "Gratitude section becomes a data dump rather than genuinely connecting with supporters",
+          "Missing natural placement of the community quote\u2014it appears abruptly rather than amplifying a specific point about impact"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Executive Summary\n\nIn 2024, the promise we planted became proof on the ground. ['From pilots to proven, we scaled nature-based defenses.'] After years of research and demonstration projects, Baylands Resilience Collaborative moved tidal marsh restoration and living shoreline construction from the margins to the mainstream of San Francisco Bay Area flood defense strategy. We restored 1,260 acres of tidal marsh across five sites, built 4.3 miles of living shoreline, and documented a 22% reduction in nuisance flooding days in the Hamilton pilot zone\u2014validation that nature-based infrastructure works at the scale and speed our coastal communities require.\n\nOur mission remains clear: we restore tidal wetlands and living shorelines to protect people, wildlife, and infrastructure from sea-level rise in the San Francisco Bay Area, California. The Bay's shoreline communities face accelerating flood risk, and traditional engineered seawalls cannot adapt to rising tides without enormous cost and ecological loss. We offer an alternative rooted in science, shaped by Indigenous knowledge, and proven by measurable results.\n\nThis year's accomplishments reflect the maturation of our strategy. ['1,260 acres restored and 4.3 miles of living shoreline built.'] We achieved 97% survival of native plantings after the first winter, a testament to our field teams' expertise and the ecological suitability of our designs. We secured $18.7 million in federal match funding through the Bipartisan Infrastructure Law, accelerating timelines and leveraging state and philanthropic investments. We signed co-management agreements with three Tribal Nations, honoring their ancestral stewardship and integrating traditional ecological practices into restoration protocols. We published two peer-reviewed studies quantifying blue carbon sequestration in restored marshes, strengthening the scientific foundation for policy and finance mechanisms. And we documented that 22% drop in nuisance flooding days in the Hamilton pilot zone, offering hard evidence to local decision-makers weighing infrastructure investments.\n\n\"This restoration brings back work, salmon, and song for our people.\" \u2014 Elena Whitefeather, Tribal Councilmember\n\n['Nuisance flooding days down 22% in pilot zone']\n\n['Acres restored in 2024: 1,260']\n\n['Volunteer community science hours: 12,300']\n\nProgress this year did not come without obstacles. Permitting timelines stretched as agencies navigated complex jurisdictional overlaps, and construction cost inflation threatened to push schedules into the next fiscal cycle. We responded by convening state and federal agencies to pilot a regional permit framework that shaved months off critical schedules, and by value-engineering designs without compromising ecological performance. ['Regional permitting shaved months off critical schedules.'] We diversified our contractor pool and invested in training a local restoration workforce, ensuring that benefits accrue to communities most vulnerable to flooding. These adjustments strengthened our operations and reinforced partnerships built last year when we focused on building the table for regional action.\n\nNone of this work happens without trust, partnership, and investment. We are deeply grateful to 1,420 individual donors who believe in this vision; 34 foundation grants totaling $12.4 million; $44 million in government awards from federal, state, and county sources; nine corporate partners who contributed $3.1 million; and 680 community scientists who logged 12,300 volunteer hours monitoring restoration sites. Our membership reached 7,800, reflecting growing public understanding that healthy wetlands are coastal insurance. Thank you for making this progress possible.\n\n['We secured $18.7M in federal match to accelerate work.']\n\nFiscal stewardship remains foundational to our credibility. In fiscal year 2024, we raised $68.2 million in revenue and invested $64.9 million in program delivery, management, and fundraising\u2014allocating 89% to direct program work, 6% to management and general operations, and 5% to fundraising. Our FY24 audited financials received an unmodified opinion, and our Form 990 is posted and publicly available at baylandsresilience.org/financials. We manage these resources with transparency and accountability to the communities and ecosystems we serve.\n\n['Revenue composition (FY24)']\n\n['Program allocation (FY24)']\n\n['Living shoreline miles by year']\n\nLooking to 2025, we will scale marsh restoration to three additional shoreline counties where flooding risk and community need intersect. We will launch a blue-carbon credit pilot designed to generate revenue for long-term stewardship, testing a model that could sustain restoration beyond grant cycles. And we will train and certify 200 local workers for restoration careers, building economic pathways in communities historically excluded from environmental professions. Your continued partnership makes these priorities achievable.\n\nRead the full 2024 annual report at baylandsresilience.org/2024, sign up for policy alerts to track our advocacy work, and join our annual Resilience Summit this spring to shape the next chapter of Bay Area climate adaptation.\n\nWith gratitude and resolve,\n\n**Dr. Samuel Ortega**  \nPresident & CEO\n\n[Headshot here: Dr. Samuel Ortega, President & CEO, standing at a restored tidal marsh]",
+      "timestamp": "2025-11-02T12:35:26.706122Z",
+      "duration_seconds": 25.74,
+      "tokens": {
+        "input": 2049,
+        "output": 1147,
+        "total": 3196
+      },
+      "cost_usd": 0.023352,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly polished, publication-ready executive summary that successfully balances formal tone with accessibility. It demonstrates strong command of nonprofit communications best practices, weaves data seamlessly into narrative, and avoids common pitfalls. Minor weaknesses include slightly mechanical pull-quote placement and a few phrases that edge toward formality over warmth.",
+        "strengths": [
+          "Exceptional opening hook\u2014'the promise we planted became proof on the ground' is vivid, specific, and avoids clich\u00e9s while establishing the year's theme immediately",
+          "Exemplary use of concrete, verifiable metrics throughout (1,260 acres, 97% survival rate, 22% reduction, $18.7M) that are integrated naturally into narrative rather than listed",
+          "Strong demonstration of progression from last year's theme ('building the table') to this year ('pilots to proven'), showing organizational evolution",
+          "Challenges section is honest and solution-focused, demonstrating adaptability without dwelling on problems\u2014the regional permit framework example is specific and credible",
+          "Financial transparency paragraph is clear, complete, and appropriately concise, including all required elements without becoming a data dump",
+          "Excellent people-first, asset-based language throughout\u2014'communities most vulnerable to flooding' rather than deficit framing, 'ancestral stewardship' honoring Indigenous knowledge",
+          "Pull quotes are genuinely compelling and varied (data-driven and narrative), properly formatted and strategically selected",
+          "Sidebar and chart callouts are appropriately placed and would be genuinely useful to a design team",
+          "Future priorities are concrete and connected to current work, with clear rationale (blue-carbon pilot for sustainability, workforce training for equity)",
+          "CTA is modest, specific, and multi-layered (read, subscribe, attend) without being pushy"
+        ],
+        "weaknesses": [
+          "Pull-quote formatting disrupts reading flow slightly\u2014the bracketed quotes mid-paragraph feel mechanical and would benefit from more organic placement or removal from body text",
+          "The phrase 'coastal insurance' in the gratitude section, while accessible, edges toward marketing language that feels slightly less formal than the surrounding tone",
+          "The community voice quote, while powerful, appears somewhat abruptly without transition\u2014a brief introductory phrase would improve flow",
+          "Minor redundancy: 'San Francisco Bay Area, California' appears twice in close proximity (paragraphs 1 and 2) when once would suffice",
+          "The signature block formatting with bold name could be cleaner\u2014standard practice would be name on one line, title on the next, both in regular weight"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "From January\u2019s king tides to the first autumn storms, our shoreline pilots did what they were built to do: hold the line and breathe with the Bay. Neighborhood paths stayed open, pumps cycled less, and shorebirds returned to newly forming marsh. ['From pilots to proven, we scaled nature-based defenses.']\n\nOur mission remains clear and urgent. We restore tidal wetlands and living shorelines to protect people, wildlife, and infrastructure from sea-level rise in the San Francisco Bay Area, California. We do this because working shorelines reduce flood risk, store carbon, and support local economies\u2014while keeping the Bay alive for future generations.\n\nThis year we converted pilots into proof. We restored 1,260 acres of tidal marsh across five sites, accelerating progress toward regional resilience while adding habitat for salmon, rail, and migratory birds. ['Acres restored in 2024: 1,260'] ['1,260 acres restored and 4.3 miles of living shoreline built.'] We built 4.3 miles of living shoreline that now buffers neighborhoods and critical roads, using sediment and native oyster reefs to dissipate waves. In the Hamilton pilot zone, sensors and city logs show nuisance flooding days fell by 22%, easing commutes and emergency response. ['Nuisance flooding days down 22% in pilot zone'] ['Nuisance flooding days dropped twenty-two percent in the pilot.'] Our native plantings survived their first winter at 97%, lowering replanting costs and speeding marsh maturation. We secured $18.7M in federal match, multiplying local funds and allowing us to break ground at two additional sites ahead of schedule. ['We secured $18.7M in federal match to accelerate work.'] We signed co-management agreements with three Tribal Nations, aligning stewardship with cultural knowledge and long-term caretaking. \u201cThis restoration brings back work, salmon, and song for our people.\u201d \u2014 Elena Whitefeather, Tribal Councilmember. To deepen the science that underpins policy, our team and academic partners published two peer\u2011reviewed studies on blue carbon, strengthening the case for marsh restoration as durable climate infrastructure.\n\nWe faced real headwinds. Permitting timelines and construction cost inflation threatened our schedules. We convened federal, state, and local agencies to pilot a regional permit framework and applied value\u2011engineered designs that kept ecological function while trimming materials and staging costs. ['Regional permitting shaved months off critical schedules.'] We diversified contractors and invested in a local restoration workforce to reduce bottlenecks. The lesson is lasting: design for adaptive management up front, and build capacity in the communities that will steward these places.\n\nOur progress is powered by you. This year, 1,420 individual donors, 34 foundations providing $12.4M, and 9 corporate partners contributing $3.1M sustained our work, alongside $44M in competitive government awards. Membership reached 7,800. Volunteers showed up with shovels and notebooks\u2014680 community scientists logged 12,300 hours planting, monitoring, and mapping. ['Volunteer community science hours: 12,300'] Thank you for turning last year\u2019s commitment\u2014Partnerships that hold water\u2014into the regional action we see today.\n\nFinancially, we remain strong stewards. FY24 revenue totaled $68.2M against $64.9M in expenses; 89% supported programs, 6% management, and 5% fundraising. Our audited financials received an unmodified opinion, and our Form 990 is posted and available. We budget conservatively, match restricted dollars with flexible funds, and report transparently to every partner. ['Revenue composition (FY24)'] ['Program allocation (FY24)'] ['Living shoreline miles by year']\n\nLooking ahead, we will scale marsh restoration to three additional shoreline counties, launch a blue\u2011carbon credit pilot to fund long\u2011term stewardship, and train and certify 200 local workers for restoration careers. Your support enables permits finalized on time, early construction mobilization, and paid apprenticeships that build lasting livelihoods.\n\nI invite you to read the full report at baylandsresilience.org/2024, sign up for policy alerts, and join our annual summit to help guide the next phase.\n\nDr. Samuel Ortega, President & CEO\n\nHeadshot here [alt text: Dr. Samuel Ortega, President & CEO, standing at a restored tidal marsh]\n\n['From pilots to proven, we scaled nature-based defenses.']\n['1,260 acres restored and 4.3 miles of living shoreline built.']\n['Regional permitting shaved months off critical schedules.']\n['Nuisance flooding days dropped twenty-two percent in the pilot.']\n['We secured $18.7M in federal match to accelerate work.']",
+      "timestamp": "2025-11-02T12:35:48.000541Z",
+      "duration_seconds": 47.04,
+      "tokens": {
+        "input": 1799,
+        "output": 3014,
+        "total": 4813
+      },
+      "cost_usd": 0.050607,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, publication-ready executive summary that demonstrates sophisticated understanding of nonprofit communications. It successfully balances formal tone with accessible language, delivers concrete metrics tied to impact, and follows the complex template faithfully. The opening hook is vivid and specific, avoiding clich\u00e9s while establishing the year's theme effectively.",
+        "strengths": [
+          "Exceptional opening hook\u2014'king tides to autumn storms' and 'breathe with the Bay' are specific, evocative, and avoid generic language while establishing credibility",
+          "Metrics are concrete, verifiable, and consistently tied to community impact (22% flooding reduction, 97% plant survival, 1,260 acres with context)",
+          "Formal tone executed well\u2014precise, restrained, credible without being stiff; appropriate for government/foundation audiences",
+          "Challenges section shows genuine adaptability and learning; 'design for adaptive management up front' demonstrates institutional maturity",
+          "Financial transparency paragraph is clear, complete, and appropriately positioned; includes all required elements concisely",
+          "Tribal partnership and quote placement are respectful and substantive, avoiding tokenism",
+          "Pull quotes are well-selected\u2014mix of data-driven and thematic, all under 15 words and genuinely resonant",
+          "Formatting tags are correctly applied throughout for sidebars, charts, and pull quotes",
+          "Strong narrative flow from hook through accomplishments to future priorities; builds logically on last year's 'partnerships' theme",
+          "Call to action is specific and modest (three clear options) rather than generic 'get involved'"
+        ],
+        "weaknesses": [
+          "Minor redundancy: pull quote tags appear both inline and collected at end\u2014template is slightly ambiguous but inline placement is cleaner",
+          "The phrase 'working shorelines' in mission paragraph may need brief definition for 10th-grade reading level",
+          "Volunteer gratitude could be slightly warmer even within formal tone\u2014'showed up with shovels and notebooks' works but feels marginally casual against the rest",
+          "Word count appears to be approximately 580 words, near the upper limit but acceptable; could trim 1-2 sentences if design requires it"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.2141,
+    "average_score": 8.22
+  }
+}

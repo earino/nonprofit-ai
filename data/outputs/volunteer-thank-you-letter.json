@@ -1,0 +1,511 @@
+{
+  "prompt_id": "volunteer-thank-you-letter",
+  "prompt_text": "VOLUNTEER THANK\u2011YOU LETTER GENERATOR (NONPROFIT)\n\nGoal: Generate a personalized volunteer thank\u2011you letter that strengthens retention, shows genuine appreciation, and works for email or print\u2014without any fundraising asks.\n\nHOW TO USE (QUICK START: 5 REQUIRED FIELDS)\nFill these, then add any optional fields you have.\n1) [VOLUNTEER NAME] (preferred name)\n2) [PROGRAM/PROJECT] (e.g., \u201cSaturday food distribution,\u201d \u201cafter\u2011school tutoring\u201d)\n3) [CONTRIBUTION] (what they did; e.g., \u201csorted 500 lbs,\u201d \u201cmentored 3 students\u201d)\n4) [TIME PERIOD] (e.g., \u201cin March,\u201d \u201cthis spring,\u201d \u201cJan\u2013Mar 2025\u201d)\n5) [SIGNER NAME & TITLE] (e.g., \u201cMaria Chen, Volunteer Coordinator\u201d)\n\nOptional: [ORGANIZATION NAME] (for subject line), [TONE] (WARM default / FORMAL / CASUAL), [GENERATE MODE] (SINGLE LETTER default / TEMPLATE FOR BULK)\n\nLETTER REQUIREMENTS\nStructure (follow this order):\n1) Salutation using inclusive name/pronouns\n2) Specific appreciation tied to mission and their role in [PROGRAM/PROJECT] + [CONTRIBUTION]\n3) Quantified impact with concrete numbers + one brief example/anecdote\n4) Sense of community/belonging\n5) Optional next touchpoint (non\u2011fundraising)\n6) Warm close and signature block\n7) Optional P.S. with one concise impact stat\n\nFormat:\n- 150\u2013220 words total\n- 6th\u20138th grade reading level; plain language; short sentences\n- Scannable: 2\u20134 short paragraphs (2\u20133 sentences each), plus optional P.S.\n- Dual\u2011purpose: email body or printable letter\n- If [ORGANIZATION NAME] provided, include an email subject line\n\nTone (choose one):\n- WARM (default): friendly, heartfelt, personal\n- FORMAL: polished, respectful (board/corporate/leadership)\n- CASUAL: upbeat, conversational (peers/youth)\n\nMust include:\n- At least one specific number (e.g., hours, items, people served, % change)\n- Clear link to mission and community\n- Zero fundraising or donation language\n\nAvoid:\n- Clich\u00e9s (\u201cwe couldn\u2019t do it without you,\u201d \u201crockstar\u201d)\n- Jargon (\u201cleverage,\u201d \u201cstakeholders,\u201d \u201csynergy\u201d)\n- Generic praise without specifics\n\nOPTIONAL ENHANCEMENTS (ADD WHAT YOU HAVE)\nPersonalization:\n- [VOLUNTEER LEVEL] (FIRST\u2011TIME / RECURRING / TEAM LEAD / BOARD / INTERN / EVENT\u2011DAY)\n- [TENURE] (e.g., \u201csince 2023,\u201d \u201c40 total hours,\u201d \u201cstarted 9/15/2024\u201d)\n- [PREFERRED PRONOUNS] (for inclusive salutation)\n- [VOLUNTEER COMMUNITY NAME] (e.g., \u201cGarden Squad,\u201d \u201cour volunteer family\u201d)\n\nImpact details:\n- [HOURS] (e.g., \u201c12 hours in March\u201d)\n- [OUTPUT] (e.g., \u201c600 meals packed,\u201d \u201c25 kits assembled\u201d)\n- [IMPACT METRIC] (e.g., \u201chelped 180 families,\u201d \u201c15% increase in students reached\u201d)\n- [SPECIFIC EXAMPLE] (brief anecdote or quote from staff/participant)\n\nMission and next step:\n- [MISSION SHORT] (10\u201315 words)\n- [NEXT TOUCHPOINT] (non\u2011ask; e.g., \u201ctraining on April 12,\u201d \u201cappreciation picnic,\u201d \u201cnewsletter signup\u201d)\n\nSignature and delivery:\n- [CONTACT INFO] (email/phone)\n- [SIGNATURE IMAGE ALT\u2011TEXT] (for accessibility; else omit)\n- [DELIVERY CONTEXT] (EMAIL / PRINT) if you want slight formatting tweaks\n\nFALLBACKS (IF DATA IS MISSING)\n- No anecdote? Insert [ADD SPECIFIC EXAMPLE] as a visible placeholder.\n- No hours or output? Use program\u2011level [IMPACT METRIC] if available. If none, use neutral phrasing and insert [NUMBER NEEDED] as a placeholder. Do not fabricate numbers.\n- Not sure of level/tenure? Omit those lines rather than guessing.\n\nMAIL\u2011MERGE / BULK USE\n- If [GENERATE MODE] = TEMPLATE FOR BULK, retain all [BRACKETED] fields for mail\u2011merge and do not invent data.\n- Keep placeholders visible for fields you will import later (e.g., [VOLUNTEER NAME], [HOURS], [SPECIFIC EXAMPLE]).\n\nOUTPUT WILL INCLUDE\n- Email subject line (if [ORGANIZATION NAME] provided)\n- Complete letter that follows the required structure and word count\n- Bracketed fields preserved for mail\u2011merge; no invented data\n- Signature block: [SIGNER NAME], [SIGNER TITLE], [CONTACT INFO]\n- Optional P.S. with one concise stat\n- If [SIGNATURE IMAGE ALT\u2011TEXT] provided, include one line noting it for accessibility\n\nSAMPLE OUTPUT PREVIEW\nSubject: Thank you, Jordan \u2014 your time made a real impact at FoodShare\n\nDear [VOLUNTEER NAME] [PREFERRED PRONOUNS if provided],\n\nThank you for supporting our [PROGRAM/PROJECT] [TIME PERIOD]. As a [VOLUNTEER LEVEL] volunteer, your work on [CONTRIBUTION] directly supports our mission: [MISSION SHORT].\n\nIn total, you contributed [HOURS] and helped deliver [OUTPUT]. Because of efforts like yours, we reached [IMPACT METRIC]. One moment that stood out: \u201c[SPECIFIC EXAMPLE]\u201d [ADD SPECIFIC EXAMPLE if unknown].\n\nYou\u2019re part of [VOLUNTEER COMMUNITY NAME or \u201cour volunteer family\u201d], and your presence makes this a welcoming place for everyone.\n\nIf you\u2019d like a next step, we\u2019d love to see you at [NEXT TOUCHPOINT]\u2014no pressure, just an invitation.\n\nWith gratitude,\n[SIGNER NAME]\n[SIGNER TITLE]\n[CONTACT INFO]\n\nP.S. Your service helped provide [1 concise stat, e.g., \u201cenough food for 600 meals\u201d].\n\nUSAGE TIPS\n- Timing: Send within 48 hours of a shift, after events, or on monthly/annual milestones.\n- Seasonal variations: \n  \u2022 Post\u2011event\u2014keep upbeat and specific to the event.\n  \u2022 Year\u2011end\u2014add one sentence connecting their service to annual outcomes.\n  \u2022 Milestone\u2014name their tenure (\u201cvolunteering since 2022\u201d) or total hours.\n- Accessibility: Use plain text or high\u2011contrast email. If adding a signature image or logo, include [SIGNATURE IMAGE ALT\u2011TEXT]. Avoid image\u2011only content; keep links descriptive.\n- Bulk letters: Keep [BRACKETS] for fields you\u2019ll mail\u2011merge; personalize [SPECIFIC EXAMPLE] for top\u2011priority volunteers when possible.\n\nNOW PASTE YOUR COMPLETED FIELDS AND THIS INSTRUCTION INTO YOUR AI TOOL.\n\nPROMPT TO RUN (AI, FOLLOW EXACTLY)\nCreate a personalized volunteer thank\u2011you letter for [ORGANIZATION NAME] recognizing [VOLUNTEER NAME]\u2019s contribution to [PROGRAM/PROJECT] during [TIME PERIOD].\n\nRequirements:\n- Follow the 7\u2011part structure and formatting rules above.\n- Name their role/level [VOLUNTEER LEVEL] and tenure [TENURE] if provided.\n- Quantify impact with concrete numbers: [HOURS], [OUTPUT], [IMPACT METRIC].\n- Include one specific example or short anecdote: [SPECIFIC EXAMPLE]. If unknown, insert [ADD SPECIFIC EXAMPLE].\n- Connect to mission: [MISSION SHORT] and community: [VOLUNTEER COMMUNITY NAME or \u201cour volunteer family\u201d].\n- Offer a non\u2011ask next step: [NEXT TOUCHPOINT].\n- Tone: [TONE] (default WARM). Use inclusive salutation with [PREFERRED PRONOUNS] if provided.\n- End with a hand\u2011sign\u2011ready close: [SIGNER NAME], [SIGNER TITLE], [CONTACT INFO]. Optional P.S. with one concise stat.\n- If [GENERATE MODE] = TEMPLATE FOR BULK, preserve all [BRACKETED] fields. Do not invent data.",
+  "category": "programs",
+  "generated_at": "2025-11-02T13:19:19.461791Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Rural community garden in a Vermont town; volunteer-run program fighting local food insecurity with weekly harvest shares.",
+      "values": {
+        "VOLUNTEER NAME": "Caleb Johnson",
+        "PROGRAM/PROJECT": "Saturday harvest and produce share",
+        "CONTRIBUTION": "harvested and packed 180 lbs of produce",
+        "TIME PERIOD": "June 2025",
+        "SIGNER NAME & TITLE": "Rosa Martinez, Volunteer Coordinator",
+        "ORGANIZATION NAME": "Maple Ridge Community Garden",
+        "TONE": "CASUAL",
+        "GENERATE MODE": "SINGLE LETTER",
+        "VOLUNTEER LEVEL": "FIRST-TIME",
+        "TENURE": "started 06/08/2025",
+        "PREFERRED PRONOUNS": "(he/him)",
+        "VOLUNTEER COMMUNITY NAME": "Green Thumbs Crew",
+        "HOURS": "6 hours in June",
+        "OUTPUT": "180 lbs of vegetables harvested and packed",
+        "IMPACT METRIC": "fresh produce for 60 households",
+        "SPECIFIC EXAMPLE": "When a neighbor asked about kale, you shared a quick recipe that sent them home excited to try it.",
+        "MISSION SHORT": "Grow and share healthy food with neighbors facing food insecurity.",
+        "NEXT TOUCHPOINT": "community potluck on July 12 at the garden",
+        "CONTACT INFO": "rosa@mapleridgegarden.org | 802-555-0142",
+        "SIGNATURE IMAGE ALT\u2011TEXT": "Handwritten signature of Rosa Martinez",
+        "DELIVERY CONTEXT": "EMAIL",
+        "ADD SPECIFIC EXAMPLE": "Not needed\u2014example provided",
+        "NUMBER NEEDED": "Not needed\u2014metrics provided",
+        "BRACKETED": "No",
+        "SIGNER NAME": "Rosa Martinez",
+        "SIGNER TITLE": "Volunteer Coordinator",
+        "PREFERRED PRONOUNS if provided": "(he/him)",
+        "ADD SPECIFIC EXAMPLE if unknown": "Not applicable",
+        "VOLUNTEER COMMUNITY NAME or \u201cour volunteer family\u201d": "Green Thumbs Crew",
+        "1 concise stat, e.g., \u201cenough food for 600 meals\u201d": "enough veggies for 240 meals",
+        "BRACKETS": "not used"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Urban education nonprofit partnering with public schools; volunteers are young professionals providing STEM tutoring.",
+      "values": {
+        "VOLUNTEER NAME": "Priya Shah",
+        "PROGRAM/PROJECT": "After-school coding club at Lincoln Middle School",
+        "CONTRIBUTION": "mentored 4 students weekly on Python basics and debugging",
+        "TIME PERIOD": "Jan\u2013Mar 2025",
+        "SIGNER NAME & TITLE": "Marcus Lee, Program Manager",
+        "ORGANIZATION NAME": "City Tech Tutors",
+        "TONE": "WARM",
+        "GENERATE MODE": "SINGLE LETTER",
+        "VOLUNTEER LEVEL": "TEAM LEAD",
+        "TENURE": "since 2023",
+        "PREFERRED PRONOUNS": "(she/her)",
+        "VOLUNTEER COMMUNITY NAME": "Coder Coach Network",
+        "HOURS": "36 hours Jan\u2013Mar",
+        "OUTPUT": "9 sessions led; 4 student projects completed",
+        "IMPACT METRIC": "20% increase in students completing projects this quarter",
+        "SPECIFIC EXAMPLE": "Jamal finished his first game after you guided him through a tricky loop bug.",
+        "MISSION SHORT": "Expand access to STEM learning for middle-school youth in our city.",
+        "NEXT TOUCHPOINT": "spring training on April 18 at 6 p.m.",
+        "CONTACT INFO": "volunteers@citytechtutors.org | 312-555-0199",
+        "SIGNATURE IMAGE ALT\u2011TEXT": "Signature of Marcus Lee",
+        "DELIVERY CONTEXT": "EMAIL",
+        "ADD SPECIFIC EXAMPLE": "Not needed\u2014example provided",
+        "NUMBER NEEDED": "Not needed\u2014metrics provided",
+        "BRACKETED": "No",
+        "SIGNER NAME": "Marcus Lee",
+        "SIGNER TITLE": "Program Manager",
+        "PREFERRED PRONOUNS if provided": "(she/her)",
+        "ADD SPECIFIC EXAMPLE if unknown": "Not applicable",
+        "VOLUNTEER COMMUNITY NAME or \u201cour volunteer family\u201d": "Coder Coach Network",
+        "1 concise stat, e.g., \u201cenough food for 600 meals\u201d": "a 20% boost in project completion this quarter",
+        "BRACKETS": "not used"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Regional environmental nonprofit with corporate partners and a large volunteer base; projects span multiple preserves.",
+      "values": {
+        "VOLUNTEER NAME": "Derrick O\u2019Neal",
+        "PROGRAM/PROJECT": "Wetland restoration weekend at Lakeview Preserve",
+        "CONTRIBUTION": "led a crew of 12 to plant 450 native sedges and remove 300 lbs of invasive grass",
+        "TIME PERIOD": "this spring",
+        "SIGNER NAME & TITLE": "Elena Kovacs, Director of Volunteer Engagement",
+        "ORGANIZATION NAME": "Great Lakes Habitat Conservancy",
+        "TONE": "FORMAL",
+        "GENERATE MODE": "SINGLE LETTER",
+        "VOLUNTEER LEVEL": "TEAM LEAD",
+        "TENURE": "volunteering since 2019; 220 total hours",
+        "PREFERRED PRONOUNS": "(they/them)",
+        "VOLUNTEER COMMUNITY NAME": "Habitat Crew",
+        "HOURS": "24 hours this spring",
+        "OUTPUT": "450 native plants installed; 300 lbs of invasives removed",
+        "IMPACT METRIC": "2.5 acres of wetland improved for 3 at-risk bird species",
+        "SPECIFIC EXAMPLE": "Your safety huddle kept everyone hydrated and focused during the unexpected heat spike.",
+        "MISSION SHORT": "Protect and restore freshwater habitats for wildlife and people across our region.",
+        "NEXT TOUCHPOINT": "annual Volunteer Summit on May 21",
+        "CONTACT INFO": "team@glhabitat.org | 216-555-0220",
+        "SIGNATURE IMAGE ALT\u2011TEXT": "Signature of Elena Kovacs",
+        "DELIVERY CONTEXT": "PRINT",
+        "ADD SPECIFIC EXAMPLE": "Not needed\u2014example provided",
+        "NUMBER NEEDED": "Not needed\u2014metrics provided",
+        "BRACKETED": "No",
+        "SIGNER NAME": "Elena Kovacs",
+        "SIGNER TITLE": "Director of Volunteer Engagement",
+        "PREFERRED PRONOUNS if provided": "(they/them)",
+        "ADD SPECIFIC EXAMPLE if unknown": "Not applicable",
+        "VOLUNTEER COMMUNITY NAME or \u201cour volunteer family\u201d": "Habitat Crew",
+        "1 concise stat, e.g., \u201cenough food for 600 meals\u201d": "2.5 acres restored this spring",
+        "BRACKETS": "not used"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Subject: Huge thanks from Maple Ridge Community Garden!\n\nHey Caleb (he/him),\n\nBig thanks for jumping in at our Saturday harvest and produce share this June! As a first-timer who started on 06/08/2025, you really crushed it, helping us harvest and pack 180 lbs of produce. That work directly helps us grow and share healthy food with neighbors facing food insecurity!\n\nYou put in 6 hours in June, and your efforts meant we could get 180 lbs of fresh vegetables out to the community. Because of volunteers like you, we provided fresh produce for 60 households! Remember when a neighbor asked about kale, and you shared a quick recipe that sent them home excited to try it? Awesome!\n\nYou're a vital part of our Green Thumbs Crew, and your energy makes our garden such a welcoming place.\n\nIf you're up for it, we'd love for you to join our community potluck on July 12 at the garden\u2014totally casual, no pressure!\n\nCheers,\nRosa Martinez\nVolunteer Coordinator\nrosa@mapleridgegarden.org | 802-555-0142\n\nP.S. You helped us put smiles on 60 families' faces this month!",
+      "timestamp": "2025-11-02T13:16:38.351087Z",
+      "duration_seconds": 1.84,
+      "tokens": {
+        "input": 1945,
+        "output": 272,
+        "total": 2217
+      },
+      "cost_usd": 0.000455,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "The letter successfully captures a casual, warm tone appropriate for a small community garden and delivers genuine appreciation with specific details. However, it has minor structural issues including slight redundancy and a P.S. that doesn't follow the 'one concise stat' requirement precisely. Overall, it's highly usable with minimal editing needed.",
+        "strengths": [
+          "Excellent casual tone execution with natural language ('crushed it,' 'Cheers') that fits the Vermont community garden context perfectly",
+          "Strong personalization using all provided data points effectively (pronouns, first-time status, specific kale anecdote)",
+          "Clear quantified impact with concrete numbers (180 lbs, 60 households, 6 hours) woven naturally into the narrative",
+          "Authentic voice that sounds genuinely appreciative rather than templated or corporate",
+          "Appropriate subject line that's friendly and mission-aligned",
+          "Good use of the specific anecdote to create memorable, human connection",
+          "Non-pushy invitation to next touchpoint maintains volunteer autonomy"
+        ],
+        "weaknesses": [
+          "Minor redundancy: '180 lbs of produce' appears in both paragraph 1 and paragraph 2, creating unnecessary repetition",
+          "P.S. says 'smiles on 60 families' faces' rather than providing a distinct concise stat as required (should be different from body content)",
+          "Word count appears to exceed the 150-220 word target (approximately 185-195 words in body, acceptable but on higher end)",
+          "Paragraph 2 is slightly dense with three separate data points that could be better distributed for scannability",
+          "Missing the signature image alt-text notation that was provided in the input data"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Volunteer Thank-You Letter\n\n**Subject:** Thank you, Caleb \u2014 you made June harvest day awesome!\n\n---\n\nDear Caleb,\n\nThank you for jumping in on our Saturday harvest and produce share this June! As a first-time volunteer, you harvested and packed 180 lbs of produce\u2014and that directly supports our mission: Grow and share healthy food with neighbors facing food insecurity.\n\nSince you started on June 8th, you've put in 6 hours and helped get 180 lbs of fresh veggies out the door. That meant fresh produce for 60 households in our community. One moment that stood out: when a neighbor asked about kale, you shared a quick recipe that sent them home excited to try it. That's the kind of connection that makes this work real.\n\nYou're now part of the Green Thumbs Crew, and we're so glad you're here.\n\nIf you're up for it, we'd love to see you at our community potluck on July 12 at the garden. No pressure\u2014just good food and good people.\n\nThanks again,\n\n**Rosa Martinez**  \nVolunteer Coordinator  \nMaple Ridge Community Garden  \nrosa@mapleridgegarden.org | 802-555-0142\n\n*P.S. Those 180 lbs you packed? That's enough fresh vegetables for about 240 meals.*\n\n---\n\n**Word count:** 198  \n**Tone:** Casual (warm and conversational)  \n**Reading level:** 6th\u20138th grade  \n**Format:** Ready for email or print",
+      "timestamp": "2025-11-02T13:16:44.004079Z",
+      "duration_seconds": 7.49,
+      "tokens": {
+        "input": 2101,
+        "output": 357,
+        "total": 2458
+      },
+      "cost_usd": 0.011658,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an excellent volunteer thank-you letter that successfully balances warmth, specificity, and professionalism. It nails the casual tone requested while incorporating all required structural elements and personalization fields. The letter feels genuine and actionable, with concrete impact metrics and a memorable personal anecdote that would resonate with the volunteer.",
+        "strengths": [
+          "Perfect tone execution: 'you made June harvest day awesome' and 'No pressure\u2014just good food and good people' authentically capture casual nonprofit voice without being unprofessional",
+          "Excellent use of specific data: seamlessly weaves in all metrics (180 lbs, 60 households, 6 hours, 240 meals) without feeling formulaic or number-heavy",
+          "Strong personalization: the kale recipe anecdote is specific, memorable, and illustrates community-building impact beyond just pounds harvested",
+          "Proper structure adherence: follows all 7 required elements in correct order, stays within word count (198 words), and maintains scannable formatting",
+          "Effective P.S.: translates pounds into meals, making impact more tangible and emotionally resonant",
+          "Inclusive and welcoming: naturally incorporates pronouns, volunteer level, tenure, and community name without awkwardness",
+          "Zero fundraising language: appropriately keeps focus on gratitude and invitation rather than asks"
+        ],
+        "weaknesses": [
+          "Minor repetition: '180 lbs' appears three times in a short letter (paragraph 1, paragraph 2, P.S.), which could feel slightly redundant\u2014varying the language ('those vegetables you packed') might improve flow",
+          "The phrase 'That's the kind of connection that makes this work real' is slightly generic compared to the otherwise specific tone\u2014could be more concrete"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Subject: Thank you, Caleb \u2014 your June harvest powered 60 households | Maple Ridge Community Garden\n\nDear Caleb Johnson (he/him),\n\nThanks for jumping into our Saturday harvest and produce share in June 2025. As a FIRST-TIME volunteer (started 06/08/2025), you harvested and packed 180 lbs of produce. That directly supports our mission: Grow and share healthy food with neighbors facing food insecurity.\n\nIn total, you gave 6 hours in June. That effort helped deliver 180 lbs of vegetables, providing fresh produce for 60 households. A favorite moment: when a neighbor asked about kale, you shared a quick recipe that sent them home excited to try it.\n\nYou\u2019re part of the Green Thumbs Crew now, and your presence makes the garden welcoming. We\u2019re glad you\u2019re here.\n\nNo pressure, but if you want a next step, join our community potluck on July 12 at the garden. Come say hi, swap recipes, and meet fellow volunteers.\n\nWith gratitude,\nRosa Martinez, Volunteer Coordinator, rosa@mapleridgegarden.org | 802-555-0142\n\nP.S. Your June shift helped stock fresh produce for 60 households.",
+      "timestamp": "2025-11-02T13:17:24.789941Z",
+      "duration_seconds": 48.28,
+      "tokens": {
+        "input": 1813,
+        "output": 2618,
+        "total": 4431
+      },
+      "cost_usd": 0.044709,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "authenticity": 7,
+          "authenticity_detail": 8
+        },
+        "reasoning": "The output successfully captures a casual, warm tone appropriate for a small community garden and includes most required elements. However, it suffers from redundancy (repeating the same metrics multiple times), slightly exceeds the word count target, and includes some awkward phrasing that reduces authenticity. The letter would work in practice but needs minor editing.",
+        "strengths": [
+          "Excellent casual tone that fits the Vermont community garden context\u2014conversational without being unprofessional",
+          "Strong specific example (kale recipe moment) that feels genuine and community-oriented",
+          "Good use of inclusive pronouns and welcoming language ('You're part of the Green Thumbs Crew now')",
+          "Clear, actionable next step (potluck) with no fundraising pressure",
+          "Subject line is informative and impact-focused",
+          "Appropriate reading level and scannable structure"
+        ],
+        "weaknesses": [
+          "Significant redundancy: '180 lbs of produce' appears three times, '60 households' appears twice, creating repetitive feel",
+          "Word count is ~215 words, slightly over the 150-220 target (acceptable but could be tighter)",
+          "Awkward phrasing: 'As a FIRST-TIME volunteer (started 06/08/2025)' reads like database output rather than natural language\u2014should integrate more smoothly",
+          "P.S. repeats June/60 households information already stated, missing opportunity for a different compelling stat",
+          "Minor: 'That effort helped deliver 180 lbs of vegetables' is redundant when already stated in previous sentence",
+          "The signature block lacks the handwritten signature alt-text note that was provided in the input data"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Subject: A big thank you, Priya \u2013 your impact at City Tech Tutors shines!\n\nDear Priya Shah (she/her),\n\nThank you for your fantastic work with our After-school coding club at Lincoln Middle School from Jan\u2013Mar 2025. As a TEAM LEAD volunteer since 2023, the way you mentored 4 students weekly on Python basics and debugging directly helps us Expand access to STEM learning for middle-school youth in our city.\n\nYou contributed 36 hours Jan\u2013Mar, leading 9 sessions and helping students complete 4 projects. Your dedication meant we saw a 20% increase in students completing projects this quarter \u2013 like Jamal, who finished his first game after you guided him through a tricky loop bug.\n\nYou\u2019re a vital part of our Coder Coach Network, and your commitment to these students makes our community stronger.\n\nWe'd love for you to join us for our spring training on April 18 at 6 p.m. It\u2019s a great chance to connect, with no pressure at all.\n\nWith gratitude,\nMarcus Lee\nProgram Manager\nvolunteers@citytechtutors.org | 312-555-0199\n\nP.S. Your efforts led to a 20% boost in student project completion!",
+      "timestamp": "2025-11-02T13:17:26.468073Z",
+      "duration_seconds": 1.67,
+      "tokens": {
+        "input": 1959,
+        "output": 276,
+        "total": 2235
+      },
+      "cost_usd": 0.000459,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional volunteer thank-you letter that successfully incorporates all required elements with appropriate warmth and specificity. It demonstrates clear understanding of nonprofit communications best practices, though some phrasing could be slightly more natural. The letter would be immediately usable by a nonprofit professional with minimal or no editing.",
+        "strengths": [
+          "Excellent use of specific, quantified impact data (36 hours, 9 sessions, 4 projects, 20% increase) that makes the appreciation concrete and meaningful",
+          "Strong personalization including pronouns, tenure, volunteer level, and community name seamlessly integrated without feeling formulaic",
+          "Perfect adherence to structure requirements: inclusive salutation, mission connection, impact metrics, community belonging, non-ask next step, and impactful P.S.",
+          "Appropriate word count (186 words) within the 150-220 range, maintaining scannability with short paragraphs",
+          "The Jamal anecdote is well-integrated and humanizes the impact effectively",
+          "Subject line is engaging and personal without being overly casual",
+          "Zero fundraising language as required, keeping focus purely on appreciation",
+          "Accessible formatting suitable for both email and print delivery"
+        ],
+        "weaknesses": [
+          "Minor redundancy: the P.S. repeats the 20% metric already mentioned in paragraph 2, rather than offering a fresh complementary stat",
+          "The phrase 'your fantastic work' in the opening, while warm, edges slightly toward generic praise; could be more distinctive",
+          "The mission statement integration feels slightly mechanical ('directly helps us Expand access...' with capital E) - lowercase would read more naturally"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**Subject:** Thank you, Priya \u2014 your time made a real impact at City Tech Tutors\n\n---\n\nDear Priya,\n\nThank you for supporting our after-school coding club at Lincoln Middle School from January through March 2025. As a team lead volunteer since 2023, your work mentoring 4 students weekly on Python basics and debugging directly supports our mission: expand access to STEM learning for middle-school youth in our city.\n\nIn total, you contributed 36 hours this quarter and led 9 sessions that helped 4 students complete their projects. Because of efforts like yours, we saw a 20% increase in students completing projects this quarter. One moment that stood out: Jamal finished his first game after you guided him through a tricky loop bug.\n\nYou're part of the Coder Coach Network, and your presence makes this a welcoming place for everyone. Your patience and technical skill create the kind of environment where students feel confident to try, fail, and try again.\n\nIf you'd like a next step, we'd love to see you at spring training on April 18 at 6 p.m.\u2014no pressure, just an invitation.\n\nWith gratitude,\n\nMarcus Lee  \nProgram Manager  \nCity Tech Tutors  \nvolunteers@citytechtutors.org | 312-555-0199\n\n**P.S.** Thanks to volunteers like you, we helped 20% more students complete coding projects this quarter.\n\n---\n\n**Word count:** 198  \n**Tone:** Warm  \n**Format:** Email/Print ready",
+      "timestamp": "2025-11-02T13:17:31.583513Z",
+      "duration_seconds": 6.79,
+      "tokens": {
+        "input": 2114,
+        "output": 348,
+        "total": 2462
+      },
+      "cost_usd": 0.011562,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly effective volunteer thank-you letter that successfully balances warmth with professionalism while incorporating all required elements. It demonstrates strong personalization with specific metrics and a genuine anecdote. The letter would be immediately usable by a nonprofit professional with minimal to no editing required.",
+        "strengths": [
+          "Excellent use of specific, concrete details (36 hours, 9 sessions, 4 projects, 20% increase) that make the appreciation feel substantive and earned",
+          "The Jamal anecdote is perfectly placed and genuinely illustrative of the volunteer's impact\u2014specific enough to feel real without being overly detailed",
+          "Strong adherence to structure and formatting requirements: proper word count (198), scannable paragraphs, appropriate reading level, and dual-purpose format",
+          "Effective mission integration that connects individual contribution to organizational goals without sounding preachy",
+          "The added sentence about 'patience and technical skill' and creating an environment where students can 'try, fail, and try again' elevates the letter beyond template language",
+          "Subject line is concise and personal, appropriate for email delivery",
+          "P.S. effectively reinforces impact without being redundant",
+          "Zero fundraising language as required, with appropriate non-ask next step"
+        ],
+        "weaknesses": [
+          "Minor pronoun inconsistency: prompt specified '(she/her)' but salutation uses only 'Dear Priya' without pronoun inclusion\u2014though this is actually standard practice and may be intentional to avoid awkwardness",
+          "The phrase 'efforts like yours' in paragraph 2 is slightly generic, though not egregious",
+          "Could have been slightly more distinctive in voice\u2014while warm and professional, some phrases ('makes this a welcoming place for everyone') lean toward safe nonprofit language"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Subject: Thank you, Priya \u2014 your leadership grew young coders at City Tech Tutors\n\nDear Priya Shah (she/her),\n\nThank you for leading our After-school coding club at Lincoln Middle School during Jan\u2013Mar 2025. As a TEAM LEAD since 2023, you mentored 4 students weekly on Python basics and debugging. Your service advances our mission: Expand access to STEM learning for middle-school youth in our city.\n\nIn total, you gave 36 hours Jan\u2013Mar and led 9 sessions; 4 student projects were completed. Efforts like yours contributed to a 20% increase in students completing projects this quarter. One moment we loved: Jamal finished his first game after you guided him through a tricky loop bug.\n\nYou\u2019re a valued part of the Coder Coach Network. Your calm coaching makes the club welcoming and brave for new coders. If you\u2019d like a next step, we hope to see you at spring training on April 18 at 6 p.m.\u2014totally optional, and a good way to swap tips with peers.\n\nWith gratitude,\nMarcus Lee\nProgram Manager\nvolunteers@citytechtutors.org | 312-555-0199\n\nP.S. Your leadership helped drive a 20% uptick in completed student projects this quarter.",
+      "timestamp": "2025-11-02T13:17:59.627503Z",
+      "duration_seconds": 34.84,
+      "tokens": {
+        "input": 1842,
+        "output": 2768,
+        "total": 4610
+      },
+      "cost_usd": 0.047046,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a high-quality, professional volunteer thank-you letter that successfully balances warmth with specificity. It follows the template structure precisely, incorporates all provided data naturally, and avoids common nonprofit communication pitfalls like clich\u00e9s and fundraising language. The letter feels genuine and actionable.",
+        "strengths": [
+          "Excellent use of specific, quantified impact (36 hours, 9 sessions, 4 projects, 20% increase) that makes appreciation concrete and meaningful",
+          "Strong personalization using all provided fields naturally\u2014pronouns, tenure, team lead role, and community name are woven in smoothly",
+          "The Jamal anecdote is positioned perfectly and adds authentic human connection without being overwrought",
+          "Subject line is concise, personal, and action-oriented ('your leadership grew young coders')",
+          "Word count (199 words) falls perfectly within the 150-220 target range",
+          "Reading level is accessible with short sentences and clear structure; highly scannable with logical paragraph breaks",
+          "Tone is genuinely warm without being saccharine\u2014phrases like 'calm coaching' and 'welcoming and brave' feel authentic to STEM education context",
+          "Next touchpoint invitation is low-pressure and includes practical benefit ('swap tips with peers')",
+          "P.S. reinforces impact without being repetitive, using slightly different phrasing than body",
+          "Zero fundraising language or donation asks, as required",
+          "Completely avoids clich\u00e9s like 'rockstar' or 'couldn't do it without you'"
+        ],
+        "weaknesses": [
+          "Minor redundancy: the 20% project completion metric appears in both paragraph 2 and the P.S., though phrased differently\u2014could have used a distinct stat in P.S. for variety",
+          "The phrase 'welcoming and brave' in paragraph 3, while contextually appropriate for coding education, is slightly abstract compared to the concrete language elsewhere",
+          "Signature image alt-text was provided but not explicitly noted in output (though this is a very minor formatting omission for email context)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Subject: Thank You for Your Leadership at Lakeview Preserve, Derrick O\u2019Neal\n\nDear Derrick O\u2019Neal (they/them),\n\nWe are writing to express our sincere gratitude for your exceptional contributions to the Wetland restoration weekend at Lakeview Preserve this spring. As a dedicated TEAM LEAD, your leadership in directing a crew of 12 to plant 450 native sedges and remove 300 lbs of invasive grass was vital to our mission to Protect and restore freshwater habitats for wildlife and people across our region.\n\nYour commitment of 24 hours this spring, building on your impressive 220 total hours volunteering since 2019, resulted in 450 native plants installed and 300 lbs of invasives removed. This effort directly improved 2.5 acres of wetland for 3 at-risk bird species. We especially commend you for your calm guidance; as one observer noted, \"Your safety huddle kept everyone hydrated and focused during the unexpected heat spike.\"\n\nYou are a respected member of our Habitat Crew, and your dedication fosters a strong sense of community among volunteers. Your active involvement makes a tangible difference in our conservation efforts.\n\nShould your schedule permit, we would be pleased to have you join us at our annual Volunteer Summit on May 21 to connect with fellow volunteers and learn more about upcoming initiatives.\n\nWith sincere appreciation,\nElena Kovacs\nDirector of Volunteer Engagement\nteam@glhabitat.org | 216-555-0220\n\nP.S. Your service this spring helped restore 2.5 acres of vital wetland habitat.",
+      "timestamp": "2025-11-02T13:18:02.180590Z",
+      "duration_seconds": 2.55,
+      "tokens": {
+        "input": 2021,
+        "output": 333,
+        "total": 2354
+      },
+      "cost_usd": 0.000503,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The letter successfully achieves a formal, professional tone appropriate for recognizing a long-term team lead volunteer. However, it exceeds the specified word count (150-220 words) at approximately 245 words, and contains some structural issues including redundant pronoun display and slightly stiff phrasing that reduces authenticity.",
+        "strengths": [
+          "Excellent formal tone that respects the volunteer's leadership role and tenure without being stuffy",
+          "Strong quantification with multiple specific metrics (450 plants, 300 lbs removed, 2.5 acres, 3 bird species, 24 hours, 220 total hours)",
+          "Effective integration of the specific example about the safety huddle, which demonstrates leadership qualities",
+          "Clear mission connection and community belonging ('Habitat Crew')",
+          "Professional signature block with complete contact information",
+          "Appropriate non-ask next step (Volunteer Summit)"
+        ],
+        "weaknesses": [
+          "Exceeds the 150-220 word count requirement by approximately 25 words (roughly 245 words total)",
+          "Pronoun handling is awkward\u2014displays '(they/them)' in salutation when prompt suggests using pronouns for inclusive language, not displaying them parenthetically",
+          "Some phrases feel overly formal and stiff ('We are writing to express our sincere gratitude,' 'Should your schedule permit'), reducing authenticity",
+          "The P.S. essentially repeats information already stated in paragraph 2 (2.5 acres) rather than offering a fresh, concise stat",
+          "Minor redundancy: 'vital' appears in both mission statement and P.S. describing wetland"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**Subject:** Thank you, Derrick \u2014 your leadership made a lasting impact at Great Lakes Habitat Conservancy\n\n---\n\nDear Derrick,\n\nThank you for your exceptional leadership during our Wetland restoration weekend at Lakeview Preserve this spring. As a valued team lead who has been volunteering since 2019, you brought both experience and care to every detail. Leading a crew of 12 to plant 450 native sedges and remove 300 lbs of invasive grass directly advances our mission: Protect and restore freshwater habitats for wildlife and people across our region.\n\nYour contribution of 24 hours this spring helped us achieve meaningful results\u2014450 native plants installed and 300 lbs of invasives removed. These efforts improved 2.5 acres of wetland habitat critical to three at-risk bird species. Your safety huddle kept everyone hydrated and focused during the unexpected heat spike, demonstrating the thoughtful leadership that defines your 220 total hours of service.\n\nYou are an integral part of the Habitat Crew. Your commitment strengthens our work and inspires those around you.\n\nWe hope you will join us at our annual Volunteer Summit on May 21. It would be an honor to celebrate this year's progress with you.\n\nWith sincere appreciation,\n\nElena Kovacs  \nDirector of Volunteer Engagement  \nGreat Lakes Habitat Conservancy  \nteam@glhabitat.org | 216-555-0220\n\nP.S. Volunteers like you helped restore 2.5 acres of vital wetland habitat this spring.",
+      "timestamp": "2025-11-02T13:18:07.179414Z",
+      "duration_seconds": 7.55,
+      "tokens": {
+        "input": 2219,
+        "output": 346,
+        "total": 2565
+      },
+      "cost_usd": 0.011847,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional letter that successfully balances formality with warmth and includes excellent specific details. It meets nearly all requirements and would be immediately usable by a nonprofit. Minor issues include slight redundancy in impact metrics and missing the pronoun integration in the salutation.",
+        "strengths": [
+          "Excellent tone calibration\u2014formal yet warm, appropriate for recognizing a long-term team lead with corporate-style professionalism",
+          "Strong specificity throughout: concrete numbers (450 plants, 300 lbs, 2.5 acres, 3 bird species), the safety huddle anecdote, and 220 total hours create genuine personalization",
+          "Perfect structure and readability\u2014follows the 7-part framework, stays within word count (218 words), uses short paragraphs, and works for both print and email",
+          "Mission integration is natural and meaningful, connecting volunteer action directly to conservation outcomes",
+          "The anecdote about the safety huddle during the heat spike is specific, authentic, and highlights leadership qualities beyond just task completion",
+          "Non-ask next step (Volunteer Summit) is appropriately positioned as an invitation without pressure"
+        ],
+        "weaknesses": [
+          "Salutation misses the pronoun requirement\u2014should be 'Dear Derrick (they/them),' per the prompt's inclusive salutation instruction when pronouns are provided",
+          "Minor redundancy: the output metric '450 native plants installed and 300 lbs of invasives removed' is stated twice (paragraphs 2 and in different phrasing in paragraph 1), making it slightly repetitive",
+          "The P.S. stat '2.5 acres of vital wetland habitat this spring' repeats information already in paragraph 2; a different program-wide stat would add more value",
+          "Subject line uses em-dash instead of the more email-standard hyphen or colon, which may render inconsistently across email clients"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Subject: Thank you, Derrick \u2014 your leadership at Lakeview Preserve | Great Lakes Habitat Conservancy\n\nDear Derrick O\u2019Neal (they/them),\n\nThank you for leading at the Wetland restoration weekend at Lakeview Preserve this spring. As a TEAM LEAD volunteering since 2019 (220 total hours), you kept the work organized and safe, advancing our mission: Protect and restore freshwater habitats for wildlife and people across our region.\n\nAcross 24 hours this spring, you led a crew of 12 to plant 450 native sedges and remove 300 lbs of invasive grass. That work improved 2.5 acres of wetland for 3 at-risk bird species. One moment stands out: Your safety huddle kept everyone hydrated and focused during the unexpected heat spike.\n\nYou are a valued part of our Habitat Crew. Your calm leadership helps new volunteers feel welcome.\n\nAs a next step, please join us at the annual Volunteer Summit on May 21\u2014no pressure, just an open invitation.\n\nWith gratitude,\nElena Kovacs\nDirector of Volunteer Engagement\nteam@glhabitat.org | 216-555-0220\nSignature of Elena Kovacs included for accessibility.\n\nP.S. Your service helped improve 2.5 acres of wetland for 3 at-risk bird species.",
+      "timestamp": "2025-11-02T13:19:04.026757Z",
+      "duration_seconds": 64.4,
+      "tokens": {
+        "input": 1901,
+        "output": 4300,
+        "total": 6201
+      },
+      "cost_usd": 0.070203,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "The letter successfully delivers a formal, respectful tone appropriate for a team lead with significant tenure. It includes strong specifics and quantified impact. However, it has minor structural issues: the P.S. duplicates impact already stated, word count slightly exceeds target, and some phrasing feels mechanical rather than warmly formal.",
+        "strengths": [
+          "Excellent use of specific data (450 plants, 300 lbs, 2.5 acres, 3 bird species) that demonstrates real impact",
+          "Appropriate formal tone that respects the volunteer's leadership role and 5-year tenure without being stiff",
+          "Strong personalization with pronouns, tenure milestone, and the specific safety huddle anecdote",
+          "Clean structure that works for print delivery as requested",
+          "Effective recognition of leadership qualities ('calm leadership helps new volunteers feel welcome')"
+        ],
+        "weaknesses": [
+          "Word count is approximately 165 words (body only), which is within range but could be tighter for scannability",
+          "P.S. repeats the 2.5 acres metric already mentioned in paragraph 2\u2014should offer a different stat or broader program impact",
+          "The phrase 'kept the work organized and safe' in paragraph 1 is somewhat generic; could be more specific to wetland restoration context",
+          "Minor awkwardness: 'TEAM LEAD' appears in all caps when it should be title case for formal tone",
+          "The signature accessibility note ('Signature of Elena Kovacs included for accessibility') is slightly awkward phrasing for print context\u2014could simply state the alt-text or omit the explanation"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1984,
+    "average_score": 8.42
+  }
+}

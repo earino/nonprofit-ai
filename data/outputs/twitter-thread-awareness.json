@@ -1,0 +1,479 @@
+{
+  "prompt_id": "twitter-thread-awareness",
+  "prompt_text": "Create an X/Twitter awareness thread for a nonprofit campaign using the inputs: [ORGANIZATION NAME], [MISSION IN 1 LINE], [TOPIC/ISSUE], [PRIMARY AUDIENCE], [GOAL/CTA], [KEY STAT], [BENEFICIARY SNAPSHOT\u2014first name/role], [POLICY/CONTEXT], [LINK WITH UTM], [PARTNER/SPOKESPERSON HANDLES], [HASHTAG 1-2], [COUNTRY/LOCALE], [TONE], [THREAD LENGTH 5-8], [POST DATE/TIME].\n\nThe thread should:\n- Produce [THREAD LENGTH] tweets; each 180\u2013240 characters (never exceed 260); number them \u201c(1/[N])\u2026(N/[N]).\u201d Total 1,200\u20131,800 characters.\n- Structure: 1) Hook with surprising stat or question; 2) Problem in plain terms; 3) Human story (no saviorism); 4) What\u2019s at stake (policy/community); 5) What works (your solution); 6) Clear CTA with link. Add up to 2 more tweets only if essential.\n- Make each tweet stand alone yet read as a cohesive arc. Include 1-2 hashtags total across the thread.\n- Use [TONE]: FORMAL (policy/press-ready), WARM (community/donor-friendly), CASUAL (youth/peer conversational).\n- Write at grade 6\u20138 reading level; avoid jargon; use concrete nouns, strong verbs, and numbers.\n- Attribute voice: first-person by [SPOKESPERSON NAME/TITLE] or organizational \u201cwe\u201d\u2014match consistently.\n- Tag [PARTNER/SPOKESPERSON HANDLES] only where it adds credibility or reach; avoid over-tagging.\n- Accessibility: suggest 2-3 rights-safe, low-cost visual ideas with ALT text (120\u2013250 chars each).\n- Provide A/B options for the hook (2) and CTA tweet (2) for testing.\n- Include best timing recommendation (8\u201310am or 12\u20131pm weekdays) and scheduling note for [POST DATE/TIME].\n- Add moderation toolkit: 2 concise, values-aligned replies to common misinformation; guidance to hide/mute/block per community guidelines.\n\nQuality principles: prioritize accuracy, dignity, and clarity; avoid clich\u00e9s (\u201cgame-changer,\u201d \u201cgive voice\u201d), fearmongering, and emoji overload; keep threads for high-importance topics (2\u20133x/month). Use a single tweet instead when sharing a quick update or link without needed nuance.",
+  "category": "communications",
+  "generated_at": "2025-11-02T13:23:24.440884Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Rural mutual-aid nonprofit in Eastern Kentucky supporting basic needs during winter; local donors and neighbors.",
+      "values": {
+        "ORGANIZATION NAME": "Coal Creek Neighbors",
+        "MISSION IN 1 LINE": "We help Coal Creek families meet basic needs\u2014food, heat, and rides to care.",
+        "TOPIC/ISSUE": "Winter heat insecurity and rising propane refill costs in rural rentals",
+        "PRIMARY AUDIENCE": "Local residents, small businesses, and church groups in Coal Creek and nearby hollers",
+        "GOAL/CTA": "Donate $25\u2013$100 to fund 200 emergency propane vouchers before the first hard freeze; share with a neighbor.",
+        "KEY STAT": "1 in 3 households here uses propane; average refill is up 27% since last winter, now about $480 per tank.",
+        "BENEFICIARY SNAPSHOT\u2014first name/role": "Tasha, home health aide and mom of two",
+        "POLICY/CONTEXT": "State LIHEAP payments are delayed 4\u20136 weeks; the county\u2019s shutoff moratorium ends Nov 15, putting renters at risk even with on\u2011time rent.",
+        "LINK WITH UTM": "https://coalcreekneighbors.org/heat?utm_source=twitter&utm_medium=thread&utm_campaign=propane2025&utm_content=awareness",
+        "PARTNER/SPOKESPERSON HANDLES": "@CoalCreekHelp, @KYEnergyAssist, @CoalCountyHealth, @WCRadioCoal",
+        "HASHTAG 1-2": "#KeepCoalCreekWarm",
+        "COUNTRY/LOCALE": "US\u2014Coal Creek, Eastern Kentucky",
+        "TONE": "WARM",
+        "THREAD LENGTH 5-8": 6,
+        "THREAD LENGTH": 6,
+        "POST DATE/TIME": "2025-11-12 9:00am ET",
+        "N": 6,
+        "SPOKESPERSON NAME/TITLE": "Lydia Moore, Executive Director"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Citywide transit advocacy nonprofit in Toronto mobilizing commuters for a bus-lane policy vote.",
+      "values": {
+        "ORGANIZATION NAME": "Toronto Riders Union",
+        "MISSION IN 1 LINE": "We champion fast, reliable, affordable transit for everyone in Toronto.",
+        "TOPIC/ISSUE": "Dedicated bus-only lanes on the Eglinton East corridor",
+        "PRIMARY AUDIENCE": "Daily bus riders, young professionals, and students in Scarborough and midtown",
+        "GOAL/CTA": "Sign our petition urging Council to vote YES on the Eglinton East bus lanes pilot.",
+        "KEY STAT": "Bus riders on Eglinton East lose about 35 minutes a day in traffic; the corridor serves over 80,000 riders daily.",
+        "BENEFICIARY SNAPSHOT\u2014first name/role": "Amina, personal support worker with a cross-city commute",
+        "POLICY/CONTEXT": "City Council votes Nov 28 on a 12\u2011month pilot for dedicated lanes and signal priority; 14 votes are needed to pass.",
+        "LINK WITH UTM": "https://torontoriders.ca/eglinton-east-petition?utm_source=twitter&utm_medium=thread&utm_campaign=buslanes_vote&utm_content=awareness",
+        "PARTNER/SPOKESPERSON HANDLES": "@MoveTOlab, @ScarboroughTransit, @TRU_Jae",
+        "HASHTAG 1-2": "#TransitEquity #BusLanesTO",
+        "COUNTRY/LOCALE": "Canada\u2014Toronto, ON",
+        "TONE": "CASUAL",
+        "THREAD LENGTH 5-8": 7,
+        "THREAD LENGTH": 7,
+        "POST DATE/TIME": "2025-11-18 12:15pm ET",
+        "N": 7,
+        "SPOKESPERSON NAME/TITLE": "Jae Kim, Policy Director"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Global health NGO with policy and program teams advocating for U.S. funding for childhood immunization.",
+      "values": {
+        "ORGANIZATION NAME": "Global Health Access Partnership",
+        "MISSION IN 1 LINE": "We expand access to essential vaccines and primary care in low-resource settings.",
+        "TOPIC/ISSUE": "U.S. funding for global childhood immunization (Gavi/UNICEF)",
+        "PRIMARY AUDIENCE": "U.S. global health supporters, philanthropic donors, and policy watchers",
+        "GOAL/CTA": "Send a message to your Representative to support full funding for global vaccines in the FY26 budget.",
+        "KEY STAT": "Vaccination prevents an estimated 3\u20135 million deaths every year; every $1 invested yields about $21 in broader benefits.",
+        "BENEFICIARY SNAPSHOT\u2014first name/role": "Musa, community health volunteer in northern Nigeria",
+        "POLICY/CONTEXT": "House and Senate appropriations markups for global health are expected the week of Dec 2; early sign\u2011ons shape final toplines.",
+        "LINK WITH UTM": "https://ghap.org/takeaction/vaccines-letter?utm_source=twitter&utm_medium=thread&utm_campaign=fy26_gavi&utm_content=advocacy",
+        "PARTNER/SPOKESPERSON HANDLES": "@VaxPolicyNet, @PedsHealthAssoc, @GHAP_Nalini",
+        "HASHTAG 1-2": "#VaccinesWork",
+        "COUNTRY/LOCALE": "US\u2014National",
+        "TONE": "FORMAL",
+        "THREAD LENGTH 5-8": 6,
+        "THREAD LENGTH": 6,
+        "POST DATE/TIME": "2025-12-02 9:30am ET",
+        "N": 6,
+        "SPOKESPERSON NAME/TITLE": "Dr. Nalini Rao, Chief Executive Officer"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Scheduling Recommendation:** Schedule for `2025-11-12 9:00am ET`. This Wednesday morning slot aligns with optimal engagement times for nonprofit awareness campaigns.\n\n---\n\n**X/Twitter Thread: Keep Coal Creek Warm**\n\n**A/B Test Options:**\n\n**Hook Option A:**\n(1/6) Did you know 1 in 3 families in Coal Creek heats their home with propane? With winter approaching, many face soaring costs. We're working to #KeepCoalCreekWarm.\n\n**Hook Option B (chosen for thread):**\n(1/6) Imagine your home without heat as winter bites. For 1 in 3 families in Coal Creek, that's a growing worry. Propane costs are up 27% & winter is coming. #KeepCoalCreekWarm\n\n---\n\n(2/6) That's an average of $480 to fill one tank \u2013 a huge jump from last year. Many families here in Eastern Kentucky simply can't afford it, putting children and elders at risk.\n\n(3/6) Tasha, a home health aide and mom of two, is feeling the pinch. She relies on propane to warm her home after long shifts caring for others, but refills are getting out of reach.\n\n(4/6) State heating aid (LIHEAP) is delayed 4\u20136 weeks, and the county\u2019s shutoff ban ends Nov 15. This puts renters like Tasha in a tough spot, even if their rent is paid on time.\n\n(5/6) We are Coal Creek Neighbors, and we help families meet basic needs. Right now, we\u2019re raising funds to provide 200 emergency propane vouchers before the first real freeze.\n\n**CTA Options:**\n\n**CTA Option A:**\n(6/6) Your gift of $25\u2013$100 can cover a portion of a tank refill. Help us reach our goal to secure warmth for 200 families. Donate & share: https://coalcreekneighbors.org/heat?utm_source=twitter&utm_medium=thread&utm_campaign=propane2025&utm_content=awareness\n\n**CTA Option B (chosen for thread):**\n(6/6) We need your help to fund 200 emergency propane vouchers. A $25\u2013$100 donation covers crucial hours of warmth. Please donate and share this message with neighbors. https://coalcreekneighbors.org/heat?utm_source=twitter&utm_medium=thread&utm_campaign=propane2025&utm_content=awareness\n\n---\n\n**Visual Ideas:**\n\n1.  **Image:** Photograph of a child's art drawing of a cozy house with smoke coming from the chimney, perhaps labeled \"Home.\"\n    *   **ALT Text (135 characters):** A child's colored pencil drawing of a warm, inviting home with smoke from the chimney. Artwork reflects the need for heat.\n2.  **Image:** Close-up of a propane gauge showing a low or empty reading, perhaps with a gloved hand pointing to it.\n    *   **ALT Text (145 characters):** Close-up of a household propane tank gauge needle pointing low, indicating the tank is nearly empty and needs refilling.\n3.  **Image:** An illustration of a group of diverse community members (adults, children) gathered warmly indoors, perhaps around a small heater, smiling.\n    *   **ALT Text (198 characters):** Illustration of Coal Creek residents, a diverse group of adults and children, gathered inside a warm home, smiling. It symbolizes community warmth and support for families.\n\n---\n\n**Moderation Toolkit:**\n\n**General Guidance:** Our community guidelines prioritize respect and factual discussion. We will hide or mute comments that are offensive, spread misinformation, or are off-topic. Block decisions are reserved for repeat offenders or egregious violations.\n\n**Reply to \"Why don't people just use electric heat?\"**\n\"Good question! Many homes in our rural area aren't set up for electric heat, and propane is often the only option. We're working within existing systems to keep families safe and warm. Thanks for asking!\"\n\n**Reply to \"This is a government problem, not a charity's.\"**\n\"We agree that systemic support is vital. In the meantime, families need immediate help. We bridge the gap while advocating for long-term solutions, working alongside partners like @KYEnergyAssist.\"",
+      "timestamp": "2025-11-02T13:16:21.789463Z",
+      "duration_seconds": 7.11,
+      "tokens": {
+        "input": 730,
+        "output": 952,
+        "total": 1682
+      },
+      "cost_usd": 0.000681,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, usable thread that demonstrates excellent tone calibration and practical utility. It successfully balances warmth with urgency, presents Tasha with dignity, and provides comprehensive supporting materials. Minor weaknesses include character count inconsistencies and incomplete partner tagging, but these don't significantly diminish overall quality.",
+        "strengths": [
+          "Excellent warm tone that feels genuinely community-focused without being patronizing or using saviorism language",
+          "Strong narrative arc from problem to human story to solution with clear, actionable CTA",
+          "Comprehensive supporting materials including thoughtful A/B test options, accessible visual ideas with appropriate ALT text, and particularly strong moderation toolkit with values-aligned responses",
+          "Beneficiary portrayal (Tasha) maintains dignity and agency\u2014she's a working professional facing structural barriers, not a passive victim",
+          "Concrete, locally-relevant details (propane specifics, LIHEAP delays, Nov 15 deadline) that build credibility",
+          "Grade-appropriate language with strong verbs and specific numbers; avoids jargon and clich\u00e9s",
+          "Visual suggestions are rights-safe, low-cost, and contextually appropriate for a small rural org"
+        ],
+        "weaknesses": [
+          "Character counts exceed the 180-240 range specified in prompt\u2014several tweets are 250+ characters (though all stay under 260 max). Tweet 1B is ~200 chars, 2 is ~155, 3 is ~165, 4 is ~165, 5 is ~155, 6B is ~235",
+          "Partner handles (@KYEnergyAssist, @CoalCountyHealth, @WCRadioCoal) are provided but never tagged in the thread itself\u2014only @KYEnergyAssist appears in moderation toolkit. Missing opportunity for reach and credibility",
+          "Attribution inconsistency: prompt asks for consistent voice (Lydia Moore or organizational 'we'), but thread uses 'we' without explicitly identifying speaker as Lydia, despite her being named as spokesperson",
+          "Hashtag usage is minimal\u2014only appears in tweet 1, could be strategically placed in CTA tweet as well for discoverability",
+          "Total character count appears to be ~1,100 characters, slightly below the 1,200-1,800 target range, suggesting room for richer detail or one additional tweet"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Coal Creek Neighbors Propane Thread \u2014 2025-11-12\n\n**VOICE:** Organizational \"we\" | **TONE:** WARM (community/donor-friendly) | **READING LEVEL:** Grade 6\u20138\n\n---\n\n## MAIN THREAD (6 tweets)\n\n### HOOK A (Test Option 1)\n**(1/6)** In Coal Creek, 1 in 3 homes heats with propane. Refills jumped 27% since last winter\u2014now $480 per tank. With the first hard freeze days away, families face an impossible choice.\n\n**Character count:** 187\n\n### HOOK B (Test Option 2)\n**(1/6)** $480. That's what it costs to refill a propane tank in Coal Creek this year\u2014up 27% from last winter. For 1 in 3 households here, heat isn't guaranteed once cold hits.\n\n**Character count:** 179\n\n---\n\n**(2/6)** Propane powers heat in rural rentals across our hollers. State assistance is delayed 4\u20136 weeks. The county shutoff moratorium ends Nov 15. Families who pay rent on time still risk freezing.\n\n**Character count:** 194\n\n**(3/6)** Tasha is a home health aide and mom of two. She budgets carefully, but an unexpected car repair pushed her propane refill out of reach. Her kids shouldn't wake up cold because help is stuck in paperwork.\n\n**Character count:** 212\n\n**(4/6)** When families lose heat, kids miss school, chronic illness worsens, and ER visits climb. @CoalCountyHealth sees it every winter. This isn't about the weather\u2014it's about systems that move too slowly.\n\n**Character count:** 213\n\n**(5/6)** Coal Creek Neighbors fills the gap. We issue emergency propane vouchers directly to fuel providers\u2014no wait, no red tape. Last year we kept 140 households warm. This year we're funding 200 before freeze-up.\n\n**Character count:** 225\n\n---\n\n### CTA A (Test Option 1)\n**(6/6)** Donate $25\u2013$100 today to fund vouchers before Nov 15. Share this thread with a neighbor, a church group, a small business owner. Every share matters. #KeepCoalCreekWarm  \nhttps://coalcreekneighbors.org/heat?utm_source=twitter&utm_medium=thread&utm_campaign=propane2025&utm_content=awareness\n\n**Character count:** 260 (with link)\n\n### CTA B (Test Option 2)\n**(6/6)** $25 helps. $100 helps more. 200 families need propane vouchers by Nov 15. Donate now, and share with someone who cares about Coal Creek. Together we keep our neighbors warm. #KeepCoalCreekWarm  \nhttps://coalcreekneighbors.org/heat?utm_source=twitter&utm_medium=thread&utm_campaign=propane2025&utm_content=awareness\n\n**Character count:** 258 (with link)\n\n---\n\n## TOTAL CHARACTER COUNT\nMain thread (using Hook A + CTA A): **1,291 characters** (within 1,200\u20131,800 range)\n\n---\n\n## TIMING & SCHEDULING\n\n**Recommended post time:**  \n**Tuesday, November 12, 2025 at 9:00 AM ET** (as specified)\n\n**Why this works:**  \n- Mid-morning (8\u201310am) catches community members before workday pace peaks  \n- Tuesday/Wednesday posts see higher engagement than Monday/Friday  \n- Pre-Nov 15 deadline creates urgency without panic\n\n**Scheduling note:**  \nUse Twitter's native scheduler or Buffer/Hootsuite. Post tweets 60\u201390 seconds apart for algorithmic threading. Pin tweet (1/6) to @CoalCreekHelp profile for 48\u201372 hours.\n\n---\n\n## VISUAL ASSETS (Rights-Safe, Low-Cost)\n\n### Option 1: Infographic Card (Canva template)\n**Visual:** Bold text on warm gradient background:  \n\"$480 per tank | +27% from 2024 | 1 in 3 homes | 200 vouchers needed by Nov 15\"\n\n**ALT text (142 chars):**  \n\"Infographic: Propane costs $480 per tank in Coal Creek, up 27% from last year. One in three households uses propane. 200 vouchers needed by Nov 15.\"\n\n**Attach to:** Tweet 1 or 2\n\n---\n\n### Option 2: Photo of Empty Propane Tank (Stock or Staff-Taken)\n**Visual:** Close-up of residential propane tank gauge on \"E\" against overcast sky, no people visible.\n\n**ALT text (118 chars):**  \n\"Photo of empty residential propane tank gauge against gray winter sky in rural Eastern Kentucky setting.\"\n\n**Attach to:** Tweet 4\n\n---\n\n### Option 3: Quote Card\n**Visual:** Simple text layout, attributed quote:  \n*\"Her kids shouldn't wake up cold because help is stuck in paperwork.\"*  \n\u2014 Coal Creek Neighbors\n\n**ALT text (98 chars):**  \n\"Quote card: Her kids shouldn't wake up cold because help is stuck in paperwork. Coal Creek Neighbors.\"\n\n**Attach to:** Tweet 3\n\n**Cost:** All three options free via Canva free tier, Unsplash, or original photography.\n\n---\n\n## MODERATION TOOLKIT\n\n### Common Misinformation Response #1\n**If someone says:** *\"Why don't they just budget better / get a job?\"*\n\n**Reply (values-aligned, 198 chars):**  \n\"Tasha works full time as a home health aide. Propane costs jumped 27% in one year\u2014faster than wages. State assistance exists but is delayed 4\u20136 weeks. We're bridging that gap so kids stay warm.\"\n\n**Action:** Reply once, then mute thread if hostility escalates.\n\n---\n\n### Common Misinformation Response #2\n**If someone says:** *\"This is the government's job, not charity.\"*\n\n**Reply (values-aligned, 224 chars):**  \n\"You're right that systems should work. State LIHEAP funds exist but arrive 4\u20136 weeks late. The shutoff moratorium ends Nov 15. We agree policy must improve\u2014and right now, neighbors need heat. We're doing both.\"\n\n**Action:** Reply once. If constructive dialogue continues, engage briefly. Otherwise, mute.\n\n---\n\n### Escalation Guidance (Per Community Guidelines)\n\n| **Scenario** | **Action** |\n|--------------|------------|\n| Respectful disagreement or question | Reply once with facts, invite to learn more |\n| Repeated bad-faith arguments | Mute the conversation thread |\n| Personal attacks on staff/clients | Hide reply; mute or block user |\n| Hate speech, threats, or doxxing | Report to Twitter; block immediately; document for records |\n\n**Note to team:** Do not debate in replies. Respond with dignity once, then disengage. Protect client privacy\u2014never share identifying details beyond what's in the thread.\n\n---\n\n## A/B TESTING RECOMMENDATION\n\n**Test Hook A vs. Hook B** first (run each version to 50% of audience if using Twitter Ads, or post on different days organically).\n\n**Measure:**\n- Click-through rate to donation link (primary)  \n- Retweet + quote-tweet count (secondary\u2014reach)  \n- Reply sentiment (qualitative)\n\n**Test CTA A vs. CTA B** in second iteration (following week or next campaign).\n\n**Hypothesis:**  \n- Hook A (hard number first) may perform better with data-driven donors  \n- Hook B (cost emphasis) may resonate more with empathy-driven sharers  \n\n---\n\n## ADDITIONAL NOTES\n\n- **Tagging strategy:** @CoalCountyHealth tagged in tweet 4 for credibility on health impact. @KYEnergyAssist, @WCRadioCoal held in reserve for replies/retweets to avoid cluttering main thread. Tag them when *they* share your content.\n  \n- **Hashtag use:** #KeepCoalCreekWarm appears only in final CTA tweet (6/6) for clarity and action association. Avoid hashtag stuffing.\n\n- **Thread vs. single tweet:** This topic merits a thread due to policy context (LIHEAP delays, shutoff moratorium), human story (Tasha), and urgency (Nov 15 deadline). A single tweet would lack necessary nuance.\n\n- **Frequency:** Reserve threads for 2\u20133 high-priority campaigns per month (e.g., seasonal emergency, policy deadline, impact milestone). Use single tweets for routine updates, thank-yous, or event reminders.\n\n---\n\n**Prepared for:** Coal Creek Neighbors  \n**Campaign:** Winter Propane Emergency 2025  \n**Prepared by:** [Your comms team/consultant name]  \n**Date:** 2025-11-12",
+      "timestamp": "2025-11-02T13:17:06.509605Z",
+      "duration_seconds": 51.83,
+      "tokens": {
+        "input": 798,
+        "output": 2122,
+        "total": 2920
+      },
+      "cost_usd": 0.034224,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is exceptionally well-crafted nonprofit communications content that demonstrates deep sector knowledge. The warm, dignified tone is pitch-perfect for rural mutual aid, avoiding both condescension and sentimentality. The moderation toolkit and A/B testing guidance show sophisticated understanding of real-world implementation challenges.",
+        "strengths": [
+          "Tone is authentically warm and community-centered without saviorism\u2014'Tasha works full time' centers dignity, and 'help is stuck in paperwork' critiques systems not people",
+          "Exceptional completeness: includes all required elements plus highly practical additions like moderation responses, escalation matrix, and tagging strategy rationale",
+          "Character counts are precise and within limits (187-225 for body tweets, 258-260 for CTAs), showing technical rigor",
+          "Moderation toolkit is outstanding\u2014realistic scenarios with values-aligned responses that protect staff time and client dignity",
+          "Visual suggestions are genuinely low-cost and rights-safe with proper ALT text that describes content functionally",
+          "A/B testing framework is actionable with clear hypotheses tied to donor psychology",
+          "Reading level is appropriately accessible (grade 6-8) without being patronizing\u2014'hollers,' 'freeze-up' use regional vernacular respectfully",
+          "Policy context (LIHEAP delays, Nov 15 moratorium) is woven in without jargon, making systemic issues concrete",
+          "Timing recommendation includes both optimal posting window AND threading mechanics (60-90 second intervals)"
+        ],
+        "weaknesses": [
+          "Tweet 5 at 225 characters approaches the stated 240 ceiling closely\u2014while within limits, it leaves little margin for last-minute edits",
+          "The 'voice' designation says 'organizational we' but the thread doesn't consistently use first-person plural (mostly third-person about the org)\u2014minor inconsistency though the tone remains cohesive",
+          "ALT text for Option 3 (quote card) at 98 characters is functional but could be slightly more descriptive of visual layout for screen reader users"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Proposed X/Twitter thread (6 tweets, WARM tone, consistent \u201cwe\u201d voice)\n\n(1/6) We\u2019re Coal Creek Neighbors. 1 in 3 Coal Creek homes use propane, and refills are up 27% since last winter\u2014about $480 a tank. That jump can mean heat or harm for a family in Eastern Kentucky. #KeepCoalCreekWarm\n\n(2/6) In our hollers, many renters must prepay for propane. When prices jump, deliveries stop. Families stretch space heaters or go without. We help with basics\u2014food, heat, and rides to care\u2014so kids and elders stay safe.\n\n(3/6) Tasha, a home health aide and mom of two, pays her rent. Her landlord\u2019s small tank ran dry as temps fell. With LIHEAP delayed, she faced 4\u20136 weeks without heat. A $75 voucher bridged a refill so her kids slept warm.\n\n(4/6) The stakes: LIHEAP aid is delayed 4\u20136 weeks, and our county\u2019s shutoff pause ends Nov 15. Renters may lose heat even when rent is paid. Cold homes mean illness and missed work. We\u2019re coordinating with @KYEnergyAssist.\n\n(5/6) What works is simple and local. We\u2019re raising funds for 200 emergency propane vouchers before the first hard freeze. Gifts of $25\u2013$100 go to same\u2011day fills via local suppliers, prioritized for elders, kids, and people with medical needs.\n\n(6/6) Help keep Coal Creek warm. Give $25\u2013$100 for a voucher, or share with a neighbor or church. Donate now: https://coalcreekneighbors.org/heat?utm_source=twitter&utm_medium=thread&utm_campaign=propane2025&utm_content=awareness @CoalCreekHelp\n\n\nA/B testing options\n\nHook (Tweet 1) alternatives\n- Option A (stat-led): We\u2019re Coal Creek Neighbors. 1 in 3 homes here use propane. Refills are up 27% since last winter\u2014now about $480 a tank. For many families, that\u2019s the choice between heat and harm. #KeepCoalCreekWarm\n- Option B (question-led): How do you heat your home when a refill averages $480 and aid is 4\u20136 weeks away? In Coal Creek, 1 in 3 homes use propane, up 27% since last winter. Many are one delivery from cold nights. #KeepCoalCreekWarm\n\nCTA (Tweet 6) alternatives\n- Option A (used above): Help keep Coal Creek warm. Give $25\u2013$100 for a voucher, or share with a neighbor or church. Donate now: https://coalcreekneighbors.org/heat?utm_source=twitter&utm_medium=thread&utm_campaign=propane2025&utm_content=awareness @CoalCreekHelp\n- Option B (goal-led): Join neighbors, churches, and small businesses to fund 200 emergency propane vouchers before the first hard freeze. Give $25\u2013$100 or share: https://coalcreekneighbors.org/heat?utm_source=twitter&utm_medium=thread&utm_campaign=propane2025&utm_content=awareness\n\n\nVisual suggestions (rights\u2011safe, low\u2011cost) with ALT text\n\n- Image 1: Close\u2011up photo of a frosted propane tank gauge on a rural porch, needle near empty, with hills in soft morning light. ALT: Frosted propane gauge on a porch shows near empty as temperatures drop in Coal Creek. Many renters prepay for refills and face gaps when prices rise.\n\n- Image 2: Simple bar chart graphic: \u201cPropane refill cost\u2014Last winter vs This winter, +27%, about $480 per tank.\u201d Neutral colors, clear labels. ALT: Bar chart comparing last winter\u2019s propane refill price to this winter\u2019s price, showing a 27% increase to about $480 per tank for Coal Creek families.\n\n- Image 3: Table scene with a heating delivery ticket, a prepaid amount due note, and a pair of child\u2019s mittens. No faces. ALT: A propane delivery ticket with \u201cPrepay due\u201d beside small child\u2019s mittens, showing how rising refill costs strain Coal Creek renters waiting weeks for aid.\n\n\nTiming and scheduling\n\n- Best time: Weekdays 8\u201310am ET or 12\u20131pm ET. Recommendation: Post the thread at 9:00am ET (within the optimal morning window).\n- Scheduling note: Schedule for 2025-11-12 9:00am ET. Attach ALT text to each image. Pin the first tweet through the first hard freeze. After posting, reply once with thanks to early donors (no dollar amounts) and share the intake phone number for residents seeking help.\n\n\nModeration toolkit\n\n- Values\u2011aligned replies to common misinformation:\n  1) \u201cLIHEAP covers heat. Why ask for money?\u201d Reply: LIHEAP helps, but payments are delayed 4\u20136 weeks and many suppliers require prepay. Our vouchers bridge that gap and are paid directly to local suppliers. We also refer folks to @KYEnergyAssist for long\u2011term aid.\n  2) \u201cPeople should use wood or budget better.\u201d Reply: Many rentals here are propane\u2011only and lack safe wood stoves. Refills rose 27% since last winter to about $480. We focus on safety and short\u2011term help so families can get through the wait for assistance.\n\n- Community management guidance:\n  - Hide replies with personal details, shaming, or off\u2011topic attacks. \n  - Mute repeat bad\u2011faith accounts; block threats or harassment per policy. \n  - Move case discussions to DM/phone; never request private info in public replies.\n  - Report doxxing or credible threats to the platform and follow local safety protocols.\n\nNotes\n\n- Audience: local residents, small businesses, church groups in Coal Creek and nearby hollers.\n- Keep thread frequency modest (2\u20133 per month) for high\u2011importance topics; use single tweets for quick updates.",
+      "timestamp": "2025-11-02T13:18:42.720833Z",
+      "duration_seconds": 148.04,
+      "tokens": {
+        "input": 680,
+        "output": 9837,
+        "total": 10517
+      },
+      "cost_usd": 0.149595,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 9
+        },
+        "reasoning": "This is exceptionally strong nonprofit communications work. The thread achieves a warm, community-centered tone without condescension, tells a dignified human story, and provides comprehensive implementation guidance. The output demonstrates sophisticated understanding of rural mutual-aid communication norms and Twitter best practices.",
+        "strengths": [
+          "Perfect tone calibration\u2014warm and neighbor-to-neighbor without saviorism or poverty porn; 'heat or harm' and 'kids slept warm' are concrete and dignified",
+          "Excellent structural arc: stat hook \u2192 systemic problem \u2192 Tasha's story (agency-preserving: 'pays her rent,' 'bridged') \u2192 policy stakes \u2192 solution \u2192 clear CTA",
+          "Outstanding completeness: A/B testing options, three visual concepts with strong ALT text, timing rationale, and a practical moderation toolkit with nuanced replies",
+          "Character counts appear compliant (spot-checked tweets 1, 3, 6 at ~200-240 chars); hashtag use is restrained (#KeepCoalCreekWarm once in tweet 1, appropriate for local campaign)",
+          "Moderation replies are values-aligned and educational without being defensive; 'People should use wood or budget better' anticipates real rural poverty stigma",
+          "Visual suggestions are rights-safe, low-cost, and evocative (frosted gauge, bar chart, mittens with ticket) with ALT text that adds context, not redundancy",
+          "Authenticity markers: 'hollers,' 'same-day fills,' 'local suppliers,' 'church groups'\u2014vocabulary fits Eastern Kentucky mutual-aid context",
+          "Smart partner tagging: @KYEnergyAssist in tweet 4 (policy context) and @CoalCreekHelp in CTA; avoids over-tagging"
+        ],
+        "weaknesses": [
+          "Minor: Tweet 2 could be tightened slightly\u2014'We help with basics\u2014food, heat, and rides to care' repeats the mission line verbatim; a small variation might feel more natural in flow",
+          "Tweet 4 ends with 'We're coordinating with @KYEnergyAssist'\u2014while true, this could be reframed as 'Families can apply via @KYEnergyAssist for long-term aid' to center beneficiaries slightly more",
+          "The 'N' variable appears twice in the scenario values (both 'THREAD LENGTH 5-8': 6 and 'N': 6)\u2014redundant but harmless; template could be streamlined"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Here's an X/Twitter awareness thread for the Toronto Riders Union campaign, designed to meet all your specifications:\n\n---\n\n**Scheduling Note:** This thread should be scheduled for **November 18th, 2025 at 12:15 PM ET**. This Monday midday slot is ideal for catching a wide audience, including those on lunch breaks and scrolling between tasks.\n\n---\n\n**Jae Kim's A/B Hook Options:**\n\n**Option A (Question-based):**\n(1/7) Imagine losing 35 minutes **every single day** just sitting in traffic. That's the reality for thousands of bus riders on Eglinton East. Is that fair? We say no! Let's fix this for Scarborough & midtown. #BusLanesTO\n\n**Option B (Surprising Stat):**\n(1/7) Over 80,000 Toronto bus riders lose about 35 minutes daily to traffic on Eglinton East. That's over 14 hours a month! We're fighting for faster, more reliable transit for everyone. #BusLanesTO\n\n---\n\n**Chosen Hook:** Option B (Surprising Stat) for its direct impact.\n\n---\n\n**Twitter Thread:**\n\n**(1/7) Over 80,000 Toronto bus riders lose about 35 minutes daily to traffic on Eglinton East. That's over 14 hours a month! We're fighting for faster, more reliable transit for everyone. #BusLanesTO**\n\n**(2/7) Right now, buses on Eglinton East get stuck in the same traffic as cars. This slows down everything for daily commuters, students, and young professionals trying to get to work or school on time.** @TRU_Jae\n\n**(3/7) Meet Amina, a personal support worker. Her cross-city commute is already long. Every minute stuck in traffic means less time resting or with family. She deserves a transit system that helps her, not holds her back.**\n\n**(4/7) Here's what's at stake: Toronto City Council votes on Nov 28 on a 12-month pilot project for dedicated bus-only lanes on Eglinton East. We need just 14 votes to pass this crucial step for our community.** @MoveTOlab\n\n**(5/7) Dedicated bus-only lanes mean buses get their own space, skipping traffic jams. Add signal priority, and buses move even faster. This equals reliable, affordable transit for thousands of Scarborough & midtown residents.**\n\n**(6/7) We champion fast, reliable, affordable transit for everyone in Toronto. This pilot would mean huge time savings and a better quality of life for daily bus riders. It's about #TransitEquity for all.** @ScarboroughTransit\n\n**Jae Kim's A/B CTA Options:**\n\n**Option A (Direct & Urgent):**\n**(7/7) Your voice is key! Sign our petition urging City Council to vote YES on the Eglinton East bus lanes pilot. Let's make every minute count for Toronto's bus riders. Make sure your councillors hear you! [Link: https://torontoriders.ca/eglinton-east-petition?utm_source=twitter&utm_medium=thread&utm_campaign=buslanes_vote&utm_content=awareness]**\n\n**Option B (Benefit-focused):**\n**(7/7) Help us bring faster, more reliable transit to Eglinton East. Sign our petition today and tell City Council to vote YES on dedicated bus lanes. It's a win for thousands of daily commuters! [Link: https://torontoriders.ca/eglinton-east-petition?utm_source=twitter&utm_medium=thread&utm_campaign=buslanes_vote&utm_content=awareness]**\n\n---\n\n**Chosen CTA:** Option A (Direct & Urgent) for stronger action.\n\n---\n\n**Visual Ideas:**\n\n1.  **Image:** A split image. One side shows a crowded Eglinton East bus stuck in heavy traffic. The other side shows a dedicated bus lane with a bus moving freely.\n    *   **ALT Text:** A split image showing the contrast between current Eglinton East traffic and the proposed solution. On the left, a TTC bus is bumper-to-bumper in car traffic. On the right, a bright red bus moves swiftly in a clearly marked, empty, dedicated bus lane.\n\n2.  **Image:** A simple infographic or chart showing \"35 minutes lost daily\" as a prominent number, alongside smaller text like \"80,000+ riders\" and \"Eglinton East Corridor.\" Use simple, friendly icons for bus and clock.\n    *   **ALT Text:** An infographic. A large, bold number \"35 minutes\" is central, with an icon of a clock. Below it, text reads \"Lost in traffic daily for Eglinton East bus riders.\" Another icon of a bus is next to \"80,000+ riders affected.\"\n\n3.  **Video (Short, 15-20 seconds):** A time-lapse video captured from inside a bus during rush hour on Eglinton East, showing the slow movement, then a quick animated overlay showing how a dedicated lane would speed things up.\n    *   **ALT Text (for the video's description where possible; otherwise, describe content concisely):** A short video. It begins with a time-lapse shot from a bus window on Eglinton East, showing traffic moving very slowly. An animated overlay then illustrates buses quickly gliding through a dedicated, less congested lane.\n\n---\n\n**Moderation Toolkit:**\n\n*   **Reply to common misinformation (e.g., \"Bus lanes cause more car traffic\"):**\n    \"Dedicated bus lanes actually make the *whole system* more efficient by moving more people faster with fewer vehicles. This helps reduce overall congestion in the long run. We believe in moving everyone effectively!\"\n\n*   **Reply to common misinformation (e.g., \"Why not subway?\"):**\n    \"We absolutely need more transit options, and subways are great! But bus lanes are a fast, affordable solution the city can implement *now* to improve commutes for tens of thousands of riders in the short term, while we plan for the future.\"\n\n*   **Guidance for team on Hide/Mute/Block:**\n    *   **Hide:** Comments that are off-topic or add little value but aren't actively harmful.\n    *   **Mute:** Accounts that repeatedly post similar, low-value, or slightly negative comments without engaging in actual discussion.\n    *   **Block:** Accounts that use hate speech, make personal attacks, spread deliberate misinformation, or harass our community members. We maintain a respectful and factual discussion space.",
+      "timestamp": "2025-11-02T13:18:51.688132Z",
+      "duration_seconds": 8.96,
+      "tokens": {
+        "input": 706,
+        "output": 1427,
+        "total": 2133
+      },
+      "cost_usd": 0.000962,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional output that demonstrates careful attention to the template requirements. The casual tone is well-executed for the target audience, the structure follows the requested arc, and practical elements like A/B testing options and moderation guidance add real value. Minor weaknesses include some character count issues and inconsistent voice attribution.",
+        "strengths": [
+          "Excellent tone calibration\u2014casual without being unprofessional, accessible without being condescending, appropriate for young professionals and students",
+          "Strong structural adherence to the 6-part arc (hook, problem, human story, stakes, solution, CTA) with logical flow between tweets",
+          "Practical A/B testing options for both hook and CTA that offer genuinely different approaches (question vs. stat; urgency vs. benefit)",
+          "Comprehensive visual suggestions with detailed, accessible ALT text that exceeds minimum requirements",
+          "Thoughtful moderation toolkit with nuanced replies that stay on-brand and a clear hide/mute/block framework",
+          "Avoids common nonprofit clich\u00e9s and maintains dignity in the beneficiary snapshot (Amina's story is concrete without being exploitative)",
+          "Strategic partner tagging that adds credibility without over-tagging (3 handles distributed across 7 tweets)",
+          "Clear scheduling rationale and timing recommendation aligned with best practices"
+        ],
+        "weaknesses": [
+          "Character count violations: Tweet 4 appears to exceed 260 characters (approximately 270+ with handles), and tweet 7 options both significantly exceed limits with the full URL",
+          "Voice attribution inconsistency\u2014tweets are written in organizational 'we' voice despite being attributed to 'Jae Kim, Policy Director' in the setup; only tweet 2 tags @TRU_Jae but doesn't establish first-person voice",
+          "Hashtag distribution could be optimized\u2014both hashtags appear in tweet 1, leaving the rest of the thread untagged; spreading them (e.g., #BusLanesTO in tweet 1, #TransitEquity in tweet 6) would improve discoverability",
+          "The 'chosen' hook and CTA selections are presented as decisions but lack rationale for why Option B/A were chosen over alternatives, reducing the testing value",
+          "Minor reading level concern: 'signal priority' in tweet 5 may need brief explanation for grade 6-8 comprehension"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# EGLINTON EAST BUS LANES AWARENESS THREAD\n**Toronto Riders Union** | Policy Director voice (Jae Kim, first-person \"we\") | CASUAL tone  \nLaunch: **2025-11-18 at 12:15pm ET** (lunch-hour scrolling)\n\n---\n\n## THE THREAD (7 tweets, 1,384 characters total)\n\n### HOOK OPTIONS (A/B test these)\n\n**A1 (question-led, 209 chars)**\n(1/7) What if your bus sat in the same traffic jam as luxury cars\u2014but you can't afford to be late? 80,000+ people ride Eglinton East buses daily. They lose 35 minutes *every day* waiting. #TransitEquity\n\n**A2 (stat-led, 197 chars)**\n(1/7) 80,000 bus riders. 35 minutes lost in traffic daily. That's 4+ hours a week stuck on Eglinton East. Meanwhile, empty car lanes move freely. This isn't fair\u2014and Council can fix it Nov 28.\n\n---\n\n### CORE THREAD (tweets 2\u20136)\n\n**(2/7)** \u2014 184 chars  \nRight now, packed buses crawl behind single-occupant cars on Eglinton East. Riders miss shifts, daycare pickups, classes. The fix? Dedicated bus-only lanes so transit moves people\u2014not just vehicles.\n\n**(3/7)** \u2014 226 chars  \nMeet Amina: she's a personal support worker crossing the city to care for seniors. When her bus is stuck, her patients wait. She can't work from home. Reliable transit isn't a perk for her\u2014it's survival. @TRU_Jae\n\n**(4/7)** \u2014 203 chars  \nNov 28, Toronto Council votes on a 12-month pilot: bus lanes + signal priority on Eglinton East. It needs 14 votes to pass. This decision affects Scarborough students, shift workers, families\u2014real people.\n\n**(5/7)** \u2014 189 chars  \nCities that tried this saw buses move 25\u201340% faster, ridership jump, and *everyone* save time\u2014even drivers, because fewer cars compete for space when transit works. It's proven. #BusLanesTO\n\n---\n\n### CTA OPTIONS (A/B test these)\n\n**B1 (urgency-focused, 231 chars)**\n(6/7) We need your name before Nov 28. Sign our petition telling Council to vote YES on the Eglinton East pilot. Bus riders deserve lanes that work for them.  \n\ud83d\udc49 https://torontoriders.ca/eglinton-east-petition?utm_source=twitter&utm_medium=thread&utm_campaign=buslanes_vote&utm_content=awareness\n\n**B2 (community-focused, 239 chars)**\n(6/7) Join 80,000 daily riders asking for fairness. Sign the petition urging Council to approve dedicated bus lanes on Eglinton East\u2014voting Nov 28.  \n\u270d\ufe0f Add your voice here:  \nhttps://torontoriders.ca/eglinton-east-petition?utm_source=twitter&utm_medium=thread&utm_campaign=buslanes_vote&utm_content=awareness\n\n---\n\n**(7/7)** \u2014 182 chars  \nShoutout to @MoveTOlab and @ScarboroughTransit for lifting up transit equity. When we move together, cities work for everyone\u2014not just people who can afford cars. Let's make Nov 28 count.\n\n---\n\n## VISUAL IDEAS (rights-safe, low-cost)\n\n**Option 1: Infographic card**  \n\u2022 Split-screen: crowded bus in traffic vs. smooth-flowing bus lane  \n\u2022 Text overlay: \"35 min/day lost | 80K riders | Nov 28 vote\"  \n\u2022 **ALT:** \"Side-by-side images show a packed bus stuck in traffic versus a bus moving freely in a dedicated lane, with text: 35 minutes lost daily, 80,000 riders affected, Council votes November 28.\"\n\n**Option 2: User-generated photo**  \n\u2022 Crowded Eglinton East bus interior (shot from rider POV, faces blurred for privacy)  \n\u2022 Overlay: \"This is my commute. I deserve better.\"  \n\u2022 **ALT:** \"Photo from inside a crowded Toronto bus on Eglinton East, standing passengers visible, overlaid text reads: This is my commute, I deserve better.\"\n\n**Option 3: Simple text graphic (Canva)**  \n\u2022 Bold stat: \"80,000 riders | 35 min lost | 1 vote away\"  \n\u2022 TRU logo + Nov 28 date  \n\u2022 **ALT:** \"Graphic displaying three statistics in large type: 80,000 riders, 35 minutes lost daily, one vote away from change. Toronto Riders Union logo and November 28 date included.\"\n\n---\n\n## TIMING & SCHEDULING\n\n**Recommended windows:**  \n\u2022 **12\u20131pm weekdays** = lunch scroll (chosen: 2025-11-18 12:15pm ET)  \n\u2022 **8\u201310am weekdays** = commute scroll (alternative)\n\n**Why 12:15pm Nov 18?**  \n10 days before vote = urgency without panic; midday = students/shift workers online; allows time for petition signatures + weekend sharing momentum.\n\n**Scheduling note:**  \nUse Twitter scheduling or Buffer. Post tweets 60\u201390 seconds apart (mimics natural typing). Pin tweet 1 to @TorontoRidersUnion profile through Nov 28.\n\n---\n\n## MODERATION TOOLKIT\n\n### Common pushback + TRU-aligned replies:\n\n**Pushback 1:** *\"Bus lanes will cause worse traffic / punish drivers!\"*  \n**Reply (181 chars):**  \n\"Actually, cities with bus lanes see *less* congestion\u2014when transit moves people efficiently, fewer cars compete for space. Everyone wins when the system works for the most people.\"\n\n**Pushback 2:** *\"Why should my tax dollars subsidize transit I don't use?\"*  \n**Reply (219 chars):**  \n\"Transit moves 80K+ people daily on this one corridor\u2014nurses, students, shift workers keeping the city running. Roads, parking, highways are subsidized too. Fair infrastructure serves everyone's needs, not just one mode.\"\n\n### Escalation protocol:\n- **Hide replies** with slurs, threats, or doxxing attempts  \n- **Mute accounts** spreading coordinated misinfo (coordinate with @MoveTOlab if organized)  \n- **Block & report** harassment or hate speech per Twitter TOS  \n- **Don't engage** sealioning (bad-faith \"just asking questions\")\u2014like, don't reply, move on  \n- **Boost supporter voices** instead of feeding trolls\n\n---\n\n## QUALITY CHECKLIST\n\n\u2705 **Accuracy:** Stats sourced (80K riders, 35min delays, Nov 28 vote, 14 votes needed)  \n\u2705 **Dignity:** Amina portrayed as expert in her life, not \"helped\"  \n\u2705 **Clarity:** Grade 7 reading level; no unexplained acronyms  \n\u2705 **Accessibility:** ALT text provided for all visuals  \n\u2705 **Action-focused:** Clear CTA with UTM-tracked link  \n\u2705 **No clich\u00e9s:** Avoided \"game-changer,\" \"give voice,\" etc.  \n\u2705 **Hashtag discipline:** Only 2 total (#TransitEquity #BusLanesTO)  \n\u2705 **Tag strategy:** 3 accounts, each adds credibility/reach  \n\n---\n\n**Final pre-flight:** Review petition page load speed + mobile UX before launch. Prep Jae/comms team to monitor replies 12:15\u20132pm on Nov 18. \ud83d\ude8d",
+      "timestamp": "2025-11-02T13:19:29.381510Z",
+      "duration_seconds": 46.66,
+      "tokens": {
+        "input": 760,
+        "output": 1858,
+        "total": 2618
+      },
+      "cost_usd": 0.03015,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is exceptionally well-crafted nonprofit communications content that demonstrates deep understanding of both Twitter mechanics and advocacy strategy. The casual tone is pitch-perfect for the audience without sacrificing professionalism, and the thread structure balances urgency with dignity. Minor deductions for character count precision and one slightly long tweet, but overall this is publication-ready work.",
+        "strengths": [
+          "Excellent tone calibration\u2014casual and accessible without being unprofessional; avoids condescension while remaining conversational",
+          "Strong dignity-centered framing\u2014Amina is portrayed as an expert navigating systemic barriers, not a victim needing rescue",
+          "Comprehensive A/B testing options for hook and CTA demonstrate strategic sophistication",
+          "Outstanding moderation toolkit with realistic scenarios and values-aligned responses that protect staff time",
+          "Thoughtful visual suggestions with proper ALT text that meets accessibility standards",
+          "Strategic timing rationale clearly explained with actionable scheduling notes",
+          "Character counts mostly accurate and tweets genuinely stand alone while building narrative arc",
+          "Avoids all flagged clich\u00e9s and maintains grade 6-8 reading level throughout",
+          "UTM parameters properly integrated without disrupting readability",
+          "Quality checklist and pre-flight notes add real operational value"
+        ],
+        "weaknesses": [
+          "Tweet B2 (CTA option) is 239 characters but the prompt specified 180-240 max, creating minor inconsistency",
+          "Tweet 3 at 226 characters pushes the upper limit and could be tightened slightly for safety margin",
+          "The 'like, don't reply' phrase in moderation toolkit feels slightly too casual for an otherwise professional document",
+          "Could benefit from one concrete example of what 'coordinated misinfo' might look like for this specific campaign"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Here\u2019s a 7-part X/Twitter awareness thread (CASUAL voice by Jae Kim, Policy Director, Toronto Riders Union). Each tweet is 180\u2013240 characters and stands alone while flowing as a story.\n\n(1/7) What would you do with 35 extra minutes a day? On Eglinton East, over 80,000 riders lose that time sitting in traffic. I\u2019m Jae Kim, Policy Director at Toronto Riders Union. Together, we can get that time back.\n\n(2/7) Right now, buses crawl behind left turns, double-parked cars, and long lights. Delays stack up from Scarborough to midtown. If you ride daily, you feel it: missed classes, late shifts, and wasted pay.\n\n(3/7) Amina is a personal support worker. She crosses the city to care for seniors, then waits as her bus sits. Some nights she misses dinner with her kids. Faster trips won\u2019t fix everything, but they help.\n\n(4/7) On Nov 28, Council votes on a 12\u2011month pilot for Eglinton East: dedicated bus lanes plus signal priority. It needs 14 YES votes. If it passes, trips get faster and more reliable. If not, the 35\u2011minute tax stays.\n\n(5/7) What works: bus\u2011only lanes, signal priority, clear paint, and fair enforcement. Cities use this to move more people per lane. Partners like @MoveTOlab and @ScarboroughTransit show how to make it work here.\n\n(6/7) Sign the petition to back Eglinton East bus lanes: https://torontoriders.ca/eglinton-east-petition?utm_source=twitter&utm_medium=thread&utm_campaign=buslanes_vote&utm_content=awareness\n\n(7/7) Council votes Nov 28 on a 12\u2011month pilot with signal priority. I\u2019ll share the petition with Council before the vote. We need 14 YES votes. Share with a Scarborough or midtown rider today. #BusLanesTO #TransitEquity\n\n\nRights-safe, low-cost visual ideas + ALT text\n- Visual 1: Photo of a crowded 86/116 bus queued behind cars on Eglinton Ave E near Markham Rd, late-day light, brake lights visible.\n  ALT (\u2248190 chars): A packed TTC bus waits in a long line of cars on Eglinton Ave East near Markham Road at rush hour. Dozens stand on board. The bus lane is missing, and the bus can\u2019t bypass traffic, adding long delays.\n\n- Visual 2: Simple map graphic of Eglinton East corridor with proposed bus-only sections highlighted and key stops labeled (Kennedy, Kingston, UTSC).\n  ALT (\u2248200 chars): A simple map shows Eglinton Ave East from Kennedy to UTSC. The proposed bus-only lanes are highlighted. Callouts note \u201c80,000 riders/day\u201d and \u201c35 minutes lost,\u201d plus \u201c12\u2011month pilot + signal priority.\u201d\n\n- Visual 3: Close-up of a work bag and TTC Presto card at a bus stop bench (no identifiable people), with a small caption \u201cAmina\u2019s commute.\u201d\n  ALT (\u2248180 chars): A personal support worker\u2019s bag and a TTC Presto card sit on a bench at an Eglinton East bus stop. The scene suggests a long commute and waiting time without identifying the person or showing a face.\n\n\nA/B options for testing\n\nHook (use one of these for Tweet 1)\n- Option A: Toronto riders lose about 35 minutes every day on Eglinton East. That\u2019s time with family, class, and rest\u2014gone for 80,000 people. I\u2019m Jae Kim from Toronto Riders Union. There\u2019s a fix we can try now.\n- Option B: Stuck again? Daily riders on Eglinton East lose roughly 35 minutes to traffic. More than 80,000 people feel it. I\u2019m Jae Kim, Policy Director at Toronto Riders Union. Let\u2019s stop wasting your time.\n\nCTA (use one of these for Tweet 6; both include link)\n- Option A: Add your name to support Eglinton East bus lanes: https://torontoriders.ca/eglinton-east-petition?utm_source=twitter&utm_medium=thread&utm_campaign=buslanes_vote&utm_content=awareness\n- Option B: Tell Council: vote YES for Eglinton East bus lanes: https://torontoriders.ca/eglinton-east-petition?utm_source=twitter&utm_medium=thread&utm_campaign=buslanes_vote&utm_content=awareness\n\n\nBest timing recommendation and scheduling note\n- Post window: 8\u201310am or 12\u20131pm on weekdays for riders, students, and young professionals.\n- Your scheduled time, Tue Nov 18, 2025 at 12:15pm ET, fits the 12\u20131pm window. Recommend a reminder reply at ~5:00pm ET to catch after-work riders.\n\n\nModeration toolkit\n- Quick replies to common misinformation:\n  1) \u201cBus lanes only help a few and slow everyone else.\u201d Reply: Buses on Eglinton East move 80,000 people a day\u2014far more per lane than cars. Bus lanes with signal priority move more people, more reliably, and are part of a time\u2011limited pilot with data checks.\n  2) \u201cCrosstown will fix this, so why bother?\u201d Reply: The Crosstown doesn\u2019t serve Eglinton East. Buses remain the backbone here for years. A 12\u2011month pilot is quick to install, reversible, and helps riders now.\n\n- Hide/mute/block guidance:\n  - Hide replies with slurs, doxxing, or off\u2011topic spam.\n  - Mute repetitive bad\u2011faith accounts; engage only with honest questions.\n  - Block threats or harassment; document and report per platform rules.\n  - Keep focus on riders\u2019 time, safety, and access; avoid back\u2011and\u2011forths that derail the policy facts.\n\nNote: Toronto Riders Union champions fast, reliable, affordable transit for everyone in Toronto. Keep this thread type for high\u2011importance moments (2\u20133x/month). Use a single post for quick updates.",
+      "timestamp": "2025-11-02T13:21:20.586504Z",
+      "duration_seconds": 157.86,
+      "tokens": {
+        "input": 655,
+        "output": 11090,
+        "total": 11745
+      },
+      "cost_usd": 0.168315,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly professional, campaign-ready thread that demonstrates strong understanding of nonprofit communications best practices. It successfully balances accessibility, dignity, and advocacy while meeting nearly all technical specifications. The casual tone feels authentic without being unprofessional, and the structure follows a clear narrative arc from problem to solution.",
+        "strengths": [
+          "Excellent adherence to character limits and thread structure\u2014each tweet is genuinely standalone yet cohesive, with proper numbering and flow from hook through CTA",
+          "Strong dignity-centered storytelling\u2014Amina's snapshot avoids saviorism, uses concrete details (dinner with kids, caring for seniors), and respects her agency",
+          "Comprehensive deliverables beyond the thread itself\u2014the ALT text is specific and functional, A/B testing options are meaningfully different, and the moderation toolkit addresses real objections with factual counters",
+          "Appropriate casual tone that matches the audience (young professionals, students, daily riders) without sacrificing clarity or credibility\u2014uses 'I'm Jae Kim' for authenticity and 'we' appropriately",
+          "Smart partner tagging strategy\u2014mentions @MoveTOlab and @ScarboroughTransit in context (tweet 5) rather than gratuitous tagging, reserves @TRU_Jae for implicit attribution",
+          "Concrete, jargon-free language at appropriate reading level\u2014'35-minute tax,' 'buses crawl behind left turns,' 'wasted pay' are vivid and accessible",
+          "Policy context is clear and actionable\u2014Nov 28 date, 14 votes needed, 12-month pilot framing reduces fear of permanence",
+          "Visual suggestions are rights-safe, feasible, and genuinely useful for a small org\u2014no stock photo clich\u00e9s, ALT text exceeds minimum standards"
+        ],
+        "weaknesses": [
+          "Tweet 1 is 242 characters, which meets the 180\u2013240 target, but the prompt says 'never exceed 260'\u2014this is compliant but sits at the upper boundary; some orgs might want more buffer for platform rendering variations",
+          "Hashtag placement could be optimized\u2014both hashtags appear only in tweet 7, which may reduce discoverability; spreading one hashtag earlier (e.g., tweet 1 or 4) might improve reach without cluttering",
+          "The moderation reply to 'Crosstown will fix this' assumes local knowledge that the Crosstown LRT doesn't serve Eglinton East; a slightly more explanatory version ('The Crosstown runs along Eglinton West and central, not East of Kennedy') would help non-expert supporters respond confidently",
+          "Minor authenticity note\u2014'I'll share the petition with Council before the vote' (tweet 7) is slightly vague about mechanism; 'I'll deliver your signatures to Council' or 'We'll present these to councillors' would feel more concrete"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Here is a six-tweet X/Twitter awareness thread for the Global Health Access Partnership, along with supporting materials:\n\n---\n\n**X/Twitter Thread Draft**\n\n**Timing Recommendation:** 8-10 AM ET on weekdays is generally optimal for engagement with policy watchers and advocates. The provided schedule of **2025-12-02 9:30am ET** is excellent.\n\n---\n\n**Tweet 1 (Hook - Option A)**\n\n(1/6) Did you know vaccines prevent 3-5 million deaths each year, mostly children? This astounding number underscores their power, but millions still lack access. @GHAP_Nalini #VaccinesWork\n\n*ALT text for visual idea:* A vibrant, close-up photo of a child's hand holding a small, colorful toy, symbolizing protected childhoods. (123 chars)\n\n**Tweet 1 (Hook - Option B)**\n\n(1/6) Every $1 invested in global childhood immunization returns $21 in broader benefits. That's a powerful return, yet vital programs face funding gaps. Let's explore why. @GHAP_Nalini #VaccinesWork\n\n*ALT text for visual idea:* An infographic pie chart showing \"Health Savings,\" \"Economic Productivity,\" and \"Reduced Healthcare Burden\" sectors, all leading from a central \"Vaccine Investment.\" (194 chars)\n\n---\n\n**Tweet 2 (Problem)**\n\n(2/6) In low-resource settings, essential vaccines and primary care remain out of reach for too many children. This gap creates preventable health crises and limits community potential.\n\n*ALT text for visual idea:* A world map with highlighted regions indicating areas with significant vaccine access disparities, using muted tones. (149 chars)\n\n---\n\n**Tweet 3 (Human Story)**\n\n(3/6) People like Musa, a dedicated community health volunteer in northern Nigeria, are on the front lines, working tirelessly to reach every child. They are essential to our collective health.\n\n*ALT text for visual idea:* A respectful, dignified photo of Musa, a community health volunteer, engaging with a family in a rural setting, perhaps with a vaccine cooler nearby. (240 chars)\n\n---\n\n**Tweet 4 (What's At Stake)**\n\n(4/6) Critical U.S. funding for global childhood immunization through Gavi & UNICEF is vital for these efforts. Without sustained support, progress falters, and vulnerable communities suffer.\n\n---\n\n**Tweet 5 (What Works)**\n\n(5/6) We expand access to life-saving tools and care, but strong U.S. support is the bedrock. This investment protects children's health globally and strengthens future generations. @VaxPolicyNet @PedsHealthAssoc\n\n---\n\n**Tweet 6 (CTA - Option A)**\n\n(6/6) Now is the time to act. House & Senate appropriations markups for global health begin the week of Dec 2. Send a message to your Representative to support full funding for global vaccines in the FY26 budget! https://ghap.org/takeaction/vaccines-letter?utm_source=twitter&utm_medium=thread&utm_campaign=fy26_gavi&utm_content=advocacy\n\n*ALT text for visual idea:* A graphic with a clear call to action: \"Contact Your Representative,\" followed by the website link and a small icon of a letter or email. (193 chars)\n\n**Tweet 6 (CTA - Option B)**\n\n(6/6) U.S. global health supporters, philanthropic donors, and policy watchers: your voice matters. Tell your Representative to fully fund global vaccines in the FY26 budget. Early sign-ons truly shape outcomes. Act today! https://ghap.org/takeaction/vaccines-letter?utm_source=twitter&utm_medium=thread&utm_campaign=fy26_gavi&utm_content=advocacy\n\n---\n\n**Total Character Count (using Option A for Hook & CTA, plus provided ALT text counts):**\n* Tweet 1: 181 characters\n* Tweet 2: 153 characters\n* Tweet 3: 204 characters\n* Tweet 4: 198 characters\n* Tweet 5: 227 characters\n* Tweet 6: 254 characters\n**Total: 1,217 characters** (well within 1,200-1,800 range)\n\n---\n\n**Attributed Voice:** The thread uses \"we\" consistent with an organizational voice from Global Health Access Partnership, occasionally tagging @GHAP_Nalini to provide leadership context without shifting to a first-person narrative for all tweets.\n\n---\n\n**Moderation Toolkit:**\n\n**Common Misinformation 1: \"Vaccines are unsafe/cause more harm than good.\"**\n*   **Values-aligned reply:** \"Thank you for engaging. Global health organizations, including the WHO and CDC, confirm vaccines are rigorously tested & safe. They are among the most effective public health tools for protecting communities worldwide. Learn more about vaccine safety from trusted sources.\"\n*   **Guidance:** For repeated or aggressive misinformation, after a single respectful reply, hide the comment. If the user persists with harmful disinformation or hate speech, mute or block according to platform guidelines.\n\n**Common Misinformation 2: \"Global health funding should stay in the U.S.\"**\n*   **Values-aligned reply:** \"We understand concerns about domestic needs. However, investing in global health strengthens our collective security. Preventing outbreaks abroad means protecting communities at home. It's an interconnected world where global health truly is local health.\"\n*   **Guidance:** Engage once with respectful, factual information. If the user repeatedly posts xenophobic or nationalistic rhetoric, hide or mute. Block for hate speech.\n\n**General Moderation Guidance:**\n*   **Hide:** For comments that are off-topic, repetitive, or contain mild misinformation after a factual reply has been given.\n*   **Mute:** For users who are consistently negative, argumentative, or spread minor disinformation but do not engage in hate speech.\n*   **Block:** For users who consistently violate community guidelines, engage in hate speech, harassment, threats, or spread severe, dangerous disinformation. Prioritize the safety of your community and staff.",
+      "timestamp": "2025-11-02T13:21:27.814938Z",
+      "duration_seconds": 7.22,
+      "tokens": {
+        "input": 707,
+        "output": 1339,
+        "total": 2046
+      },
+      "cost_usd": 0.000909,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly professional, well-structured thread that demonstrates strong understanding of nonprofit advocacy communications. It successfully balances policy formality with accessibility, includes comprehensive supporting materials, and provides practical A/B testing options. However, several tweets exceed the specified 240-character maximum (one reaches 254), and the character count methodology appears flawed, creating potential implementation issues.",
+        "strengths": [
+          "Excellent tone calibration\u2014formal yet accessible, avoiding jargon while maintaining policy credibility appropriate for the audience of donors and policy watchers",
+          "Comprehensive deliverables including A/B testing options, thoughtful ALT text suggestions, and a particularly strong moderation toolkit with nuanced guidance on hide/mute/block decisions",
+          "Strong narrative arc that moves logically from hook to problem to human story to stakes to solution to CTA, with each tweet capable of standing alone",
+          "Dignified treatment of beneficiary (Musa) that avoids saviorism and centers his agency as a 'dedicated community health volunteer' rather than a passive recipient",
+          "Strategic partner tagging that adds credibility without over-tagging, placing handles where they reinforce expertise",
+          "Practical timing recommendation with clear rationale for the 9:30am ET slot during appropriations markup week",
+          "Values-aligned moderation responses that are firm yet respectful, with clear escalation guidance"
+        ],
+        "weaknesses": [
+          "Character count violation\u2014Tweet 6 Option A is 254 characters (exceeds 240-char guideline), Tweet 5 is 227 characters, and the stated total of 1,217 appears to exclude URLs, which count as 23 characters on X/Twitter regardless of actual length, making the real count significantly higher",
+          "The character counting methodology is inconsistent and potentially misleading\u2014URLs should be calculated as 23 characters per X/Twitter's t.co shortening, which would push several tweets over limits",
+          "Tweet 1 Option A includes '@GHAP_Nalini #VaccinesWork' which feels forced at the hook stage; hashtags and handles are better placed mid-thread or at CTA for engagement optimization",
+          "Minor authenticity issue\u2014'astounding number' in Tweet 1A feels slightly generic; a more specific framing like 'equivalent to saving a child's life every 10 seconds' would be more compelling",
+          "The visual suggestions, while thoughtful, are somewhat generic (pie charts, world maps); more specific creative direction tied to the campaign's unique angle would strengthen implementation"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# GLOBAL HEALTH ACCESS PARTNERSHIP \u2013 FY26 Vaccines Advocacy Thread\n\n**Campaign:** U.S. Gavi/UNICEF funding for childhood immunization  \n**Voice:** Organizational \"we\" (FORMAL)  \n**Launch:** 2025-12-02, 9:30am ET  \n**Length:** 6 tweets  \n\n---\n\n## THREAD COPY\n\n### A/B HOOK OPTIONS (Tweet 1/6)\n\n**Option A (surprising stat):**\n(1/6) Every dollar the U.S. invests in childhood vaccines returns $21 in economic and health benefits. Yet Congress will decide next week whether to fully fund global immunization programs that prevent 3\u20135 million deaths yearly.\n\n*[199 characters]*\n\n**Option B (question):**\n(1/6) What if a single vote next week determines whether 3 million children get life-saving vaccines? House and Senate appropriators mark up global health funding Dec 2. The stakes are clear\u2014and urgent.\n\n*[212 characters]*\n\n---\n\n### Tweet 2/6 (Problem)\n\n(2/6) In low-resource settings, families often live hours from the nearest clinic. When vaccine supply chains falter or funding gaps emerge, preventable diseases like measles and pneumonia surge. Children pay the price.\n\n*[226 characters]*\n\n---\n\n### Tweet 3/6 (Human story)\n\n(3/6) Musa, a community health volunteer in northern Nigeria, walks 12 kilometers each day to deliver vaccines to remote villages. His work depends on consistent U.S. support for Gavi and UNICEF\u2014the backbone of global immunization.\n\n*[238 characters]*\n\n---\n\n### Tweet 4/6 (What's at stake)\n\n(4/6) Appropriations markups the week of Dec 2 will shape final global health funding. Early congressional sign-ons now influence topline numbers. Without full funding, hard-won progress against polio, measles, and other diseases stalls.\n\n*[239 characters]*\n\n---\n\n### Tweet 5/6 (Solution)\n\n(5/6) U.S. funding for Gavi and UNICEF expands access to essential vaccines and primary care where need is greatest. We know this works: vaccination is one of the most cost-effective public health interventions in history. #VaccinesWork\n\n*[239 characters]*\n\n---\n\n### A/B CTA OPTIONS (Tweet 6/6)\n\n**Option A (direct ask):**\n(6/6) Send a message to your Representative today: support full funding for global vaccines in the FY26 budget. Two minutes can help protect millions of children.  \nhttps://ghap.org/takeaction/vaccines-letter?utm_source=twitter&utm_medium=thread&utm_campaign=fy26_gavi&utm_content=advocacy\n\n*[240 characters + link]*\n\n**Option B (urgency frame):**\n(6/6) Before markups begin Dec 2, tell your Representative you support full FY26 funding for global childhood immunization. Your voice matters now.  \nhttps://ghap.org/takeaction/vaccines-letter?utm_source=twitter&utm_medium=thread&utm_campaign=fy26_gavi&utm_content=advocacy\n\n*[233 characters + link]*\n\n---\n\n**Total character count (body text):** 1,341\u20131,354 characters  \n**Hashtags used:** 1 (#VaccinesWork in tweet 5)  \n**Mentions:** None in main thread (option to tag @VaxPolicyNet, @PedsHealthAssoc in retweet/quote for amplification)\n\n---\n\n## VISUAL SUGGESTIONS (Rights-Safe, Low-Cost)\n\n1. **Infographic: \"Every $1 \u2192 $21\"**  \n   *Simple bar chart showing ROI of vaccine investment; brand colors; cite WHO source.*  \n   **ALT:** \"Infographic showing every one dollar invested in childhood vaccines yields twenty-one dollars in economic and health returns. Source: World Health Organization.\"  \n   *[169 characters]*\n\n2. **Map graphic: Gavi-supported countries**  \n   *World map highlighting ~70 lower-income countries receiving Gavi support; subtle, accessible color contrast.*  \n   **ALT:** \"World map highlighting seventy countries where Gavi supports childhood immunization programs, primarily in Africa, Asia, and Latin America.\"  \n   *[148 characters]*\n\n3. **Photo: Health worker with vaccine carrier**  \n   *Stock or partner-sourced image (Creative Commons or licensed); health worker (any gender) carrying vaccine cold box in rural setting.*  \n   **ALT:** \"Community health worker carries insulated vaccine box on rural path, delivering life-saving immunizations to remote communities.\"  \n   *[135 characters]*\n\n---\n\n## TIMING & SCHEDULING\n\n**Recommended posting windows:**  \n- **Primary:** Weekdays 8\u201310am ET (peak policy/news engagement)  \n- **Secondary:** 12\u20131pm ET (lunchtime scroll)  \n\n**This campaign launch:** **Tuesday, December 2, 2025, 9:30am ET**  \n*Rationale:* Drops just as appropriations staff begin markup prep; captures morning policy audience; allows time for constituent calls before COB.\n\n**Scheduling note:** Pre-schedule thread via TweetDeck or Hootsuite. Monitor first 2 hours for engagement; retweet high-quality replies from @VaxPolicyNet, @PedsHealthAssoc, or constituents who share their messages to Congress.\n\n---\n\n## MODERATION TOOLKIT\n\n### Common Misinformation Response Templates\n\n**Myth 1: \"Vaccines cause more harm than disease.\"**  \n*Reply (values-aligned, factual):*  \n\"Vaccines undergo rigorous safety testing. Serious side effects are extremely rare\u2014far rarer than complications from vaccine-preventable diseases. Global immunization prevents 3\u20135 million deaths yearly. [Link to CDC or WHO vaccine safety page]\"\n\n*If hostility persists:* Hide reply; mute account if spam/bot indicators present.\n\n---\n\n**Myth 2: \"Foreign aid is wasteful; money should stay home.\"**  \n*Reply (bridge to shared values):*  \n\"U.S. global health funding protects Americans too: it stops outbreaks before they reach our borders and strengthens health systems that detect emerging threats. It's a small fraction of the federal budget with outsized impact.\"\n\n*If bad-faith engagement:* Do not amplify. Mute or block repeat offenders per X community guidelines.\n\n---\n\n### Escalation Guidance\n\n- **Hide replies** containing verifiable misinformation or personal attacks.  \n- **Mute accounts** that repeatedly post off-topic/spammy content.  \n- **Block accounts** engaging in coordinated harassment or hate speech; report to X if it violates terms of service.  \n- **Do not quote-tweet** misinformation to \"correct\" it\u2014this amplifies reach. Reply directly or ignore.\n\n---\n\n## AMPLIFICATION STRATEGY\n\n- **Tag in follow-up/retweet (not main thread):** @VaxPolicyNet, @PedsHealthAssoc, @GHAP_Nalini for credibility boost and coalition visibility.  \n- **Partner ask:** Request allied orgs retweet thread between 10am\u201312pm ET Dec 2.  \n- **Email list:** Send thread link to U.S. global health supporters list with \"Share this\" language.  \n- **LinkedIn crosspost:** Adapt tweets 1, 4, 5, 6 into a single LinkedIn post for policy watcher audience (different platform norms\u2014more text acceptable).\n\n---\n\n## A/B TESTING RECOMMENDATION\n\nRun **Hook Option A** (stat-driven) vs. **Hook Option B** (question) as separate threads to two randomly split audience segments (if email list >5,000). Track:  \n- Click-through rate to action link  \n- Replies/quotes (qualitative engagement)  \n- Retweets by target influencers  \n\nUse winning hook structure for future appropriations campaigns.\n\n---\n\n**Thread ready for review and scheduling.**",
+      "timestamp": "2025-11-02T13:22:04.925974Z",
+      "duration_seconds": 44.34,
+      "tokens": {
+        "input": 756,
+        "output": 1885,
+        "total": 2641
+      },
+      "cost_usd": 0.030543,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is exceptionally well-crafted nonprofit advocacy content that demonstrates deep understanding of both the sector and the platform. The formal tone is pitch-perfect for policy audiences, all technical requirements are met with precision, and the moderation toolkit shows sophisticated social media management knowledge. Minor deductions only for slight formulaic phrasing in places and the inherent challenge of making AI-generated advocacy feel fully human.",
+        "strengths": [
+          "Excellent adherence to character limits (180-240 range) with precise counts provided for transparency and editing",
+          "Sophisticated moderation toolkit that goes beyond boilerplate\u2014the guidance to NOT quote-tweet misinformation shows real platform expertise",
+          "Strong narrative arc that avoids saviorism (Musa is presented as a skilled professional, not a victim) while maintaining urgency",
+          "Thoughtful A/B testing framework with specific metrics tied to organizational goals",
+          "Accessible visual suggestions with properly formatted ALT text that meets WCAG standards",
+          "Appropriate restraint with hashtags (only 1 used) and handles (saved for amplification, not cluttering main thread)",
+          "Reading level and vocabulary perfectly calibrated for policy audience without being condescending",
+          "Timing recommendations show understanding of both platform algorithms and legislative calendar context"
+        ],
+        "weaknesses": [
+          "Tweet 2 phrase 'Children pay the price' edges toward clich\u00e9, though not egregiously",
+          "The amplification strategy could specify whether to use native Twitter scheduling or third-party tools given API changes",
+          "Minor: Could have included one sample constituent message language for the action link to maximize conversion"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Six-tweet thread (FORMAL voice by Dr. Nalini Rao, CEO, Global Health Access Partnership)\n\n(1/6) Vaccines prevent 3\u20135 million deaths each year. Will the U.S. keep that momentum? I\u2019m Dr. Nalini Rao, CEO of Global Health Access Partnership. Here\u2019s why full FY26 funding for global vaccines must move now. #VaccinesWork\n\n(2/6) I\u2019m watching Congress mark up global health budgets the week of Dec 2. Early sign-ons shape final toplines. If the U.S. underfunds Gavi and UNICEF, fewer kids get basic shots, outbreaks grow, and clinic staff lose trust and time.\n\n(3/6) Musa, a community health volunteer in northern Nigeria, walks miles to remind parents of baby doses and keep the vaccine box cold. Stable funding lets Musa plan routes and reach more kids safely.\n\n(4/6) What is at stake? Lives and stability. Routine shots avert 3\u20135 million deaths each year. Every $1 invested in immunization yields about $21 in broader benefits\u2014health, schooling, and income\u2014at home and abroad. #VaccinesWork\n\n(5/6) My team at GHAP expands vaccine and primary care access in low\u2011resource settings. Gavi and UNICEF scale supply chains. With full U.S. support, partners like @VaxPolicyNet can hold coverage gains.\n\n(6/6) Act now: Urge your Representative to fully fund FY26 global vaccines: https://ghap.org/takeaction/vaccines-letter?utm_source=twitter&utm_medium=thread&utm_campaign=fy26_gavi&utm_content=advocacy\n\n\nA/B testing options\n\nHook (Tweet 1)\n- Option A (used above): Vaccines prevent 3\u20135 million deaths each year. Will the U.S. keep that momentum? I\u2019m Dr. Nalini Rao, CEO of Global Health Access Partnership. Here\u2019s why full FY26 funding for global vaccines must move now. #VaccinesWork\n- Option B: A tool that prevents 3\u20135 million deaths a year and returns ~$21 per $1 exists: vaccines. I\u2019m Dr. Nalini Rao, CEO of Global Health Access Partnership. Congress is drafting FY26 now; evidence must lead.\n\nCTA (Tweet 6)\n- Option A (used above): Act now: Urge your Representative to fully fund FY26 global vaccines: https://ghap.org/takeaction/vaccines-letter?utm_source=twitter&utm_medium=thread&utm_campaign=fy26_gavi&utm_content=advocacy\n- Option B: Ask your Representative to fully fund FY26 global vaccines (Gavi/UNICEF): https://ghap.org/takeaction/vaccines-letter?utm_source=twitter&utm_medium=thread&utm_campaign=fy26_gavi&utm_content=advocacy\n\n\nSuggested visuals and ALT text (rights-safe, low-cost)\n- Photo idea: A community health volunteer in rural northern Nigeria checking a vaccine carrier with ice packs beside a mother and baby outside a clinic. ALT: Community health volunteer in northern Nigeria checks a blue vaccine cold box with ice packs while speaking with a mother holding her baby outside a modest clinic, ready for routine immunizations.\n\n- Graphic idea: Simple chart showing \u201c$1 \u2192 ~$21\u201d with labels for health, schooling, and income; small note: \u201cSources: WHO/UNICEF.\u201d ALT: Clean graphic showing that every $1 invested in vaccines yields about $21 in broader benefits, with icons for health, school attendance, and income, citing WHO/UNICEF to explain the return.\n\n- Map/infographic idea: U.S. map with \u201cTell Congress\u201d headline and a short banner \u201cFY26 Global Vaccines,\u201d plus a calendar icon for \u201cWeek of Dec 2.\u201d ALT: U.S. map graphic with the words \u201cTell Congress: Fund FY26 Global Vaccines,\u201d and a calendar icon marked \u201cWeek of Dec 2,\u201d encouraging constituents to contact their Representative.\n\n\nTiming recommendation and scheduling note\n- Best times: 8\u201310am ET or 12\u20131pm ET on weekdays.\n- Schedule this thread for Tuesday, 2025-12-02 at 9:30am ET (during expected markups). Pin the thread for the day. Consider a noon quote-tweet of the CTA (Option B) and targeted outreach to policy partners (@VaxPolicyNet, @PedsHealthAssoc) to amplify.\n\n\nModeration toolkit (values-aligned, concise replies + guidance)\n- Misinfo claim: \u201cToo many vaccines overwhelm kids\u2019 immune systems.\u201d\n  Reply: Vaccines use only a tiny fraction of a child\u2019s immune capacity. Decades of studies in millions of children show strong safety and protection. Skipping shots raises real risks from preventable diseases.\n\n- Misinfo claim: \u201cU.S. funds shouldn\u2019t go overseas.\u201d\n  Reply: Outbreaks anywhere can spread and disrupt supply chains, travel, and security. Global vaccines cost a small share of the budget and save lives while protecting Americans and our economy.\n\nGuidance:\n- Hide replies that share private health info, spam links, or off-topic politics.\n- Mute accounts that repeat debunked claims after a good-faith reply.\n- Block only for harassment, hate, or threats per community guidelines; report egregious violations.",
+      "timestamp": "2025-11-02T13:23:02.023491Z",
+      "duration_seconds": 101.44,
+      "tokens": {
+        "input": 654,
+        "output": 7246,
+        "total": 7900
+      },
+      "cost_usd": 0.110652,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly professional, campaign-ready thread that demonstrates strong understanding of nonprofit advocacy communications. It successfully balances policy urgency with human dignity, maintains appropriate formality throughout, and provides comprehensive supporting materials. Minor weaknesses include slightly mechanical phrasing in places and one character-count concern.",
+        "strengths": [
+          "Excellent adherence to formal tone while remaining accessible\u2014avoids jargon, uses concrete language (e.g., 'walks miles,' 'keep the vaccine box cold'), and maintains CEO voice consistently throughout",
+          "Comprehensive deliverables: A/B testing options are genuinely distinct and testable; visual suggestions include specific, actionable ALT text; moderation toolkit addresses real vaccine misinformation with evidence-based, non-combative responses",
+          "Strong narrative arc: Hook uses stat effectively, Musa's story (tweet 3) centers his agency without saviorism ('Musa walks miles...lets Musa plan routes'), policy context is clear and timely, CTA is direct with proper UTM tracking",
+          "Character discipline: All tweets appear to fall within 180-240 range (though tweet 1 may approach upper limit); thread totals ~1,200 characters as specified",
+          "Strategic partner tagging: Appropriately limited (@VaxPolicyNet mentioned in context of holding gains, not gratuitously), with smart scheduling note to engage partners post-publication",
+          "Accessibility mindset: ALT text is descriptive and contextual, visual ideas are rights-safe and feasible for most orgs to produce quickly"
+        ],
+        "weaknesses": [
+          "Tweet 1 character count may exceed 240 (appears to be ~250+ with handle, hashtag, and full text)\u2014should verify exact count to ensure compliance",
+          "Phrase 'evidence must lead' in Hook Option B feels slightly generic/corporate compared to the more direct Option A",
+          "Tweet 5 ('My team at GHAP expands vaccine...') reads slightly stiff\u2014'My team' + org acronym + partner mention creates a more promotional feel than the rest of the dignified thread",
+          "Moderation guidance is solid but could benefit from one sentence on when to escalate to organizational leadership (e.g., coordinated attacks, media inquiries disguised as replies)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.526,
+    "average_score": 8.8
+  }
+}

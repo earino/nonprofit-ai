@@ -1,0 +1,497 @@
+{
+  "prompt_id": "emergency-urgent-appeal",
+  "prompt_text": "Create a rapid-turn, donor-ready emergency fundraising appeal for a genuine, time-bound need at [ORGANIZATION NAME].\n\nThe emergency appeal email should:\n- Be written for [AUDIENCE SEGMENT: ALL DONORS/MAJOR DONORS/MONTHLY DONORS/NEW DONORS] in [TONE: FORMAL (measured, data-forward), WARM (compassionate, community-centered), DIRECT (plain, calm-urgent)] aligned with [BRAND VOICE NOTES].\n- Include: 3 subject lines, 1 preheader, salutation, body (250\u2013350 words), clear CTA with [DONATION LINK]/[PHONE], P.S. restating deadline and impact, and sign-off from [SIGNER NAME/TITLE] (add [BOARD CHAIR NAME/TITLE] if appropriate).\n- Open with what happened [EMERGENCY TYPE/WHAT HAPPENED], who is affected [WHO IS AFFECTED], and where [GEOGRAPHY]\u2014specific, witnessed details; avoid sensationalism.\n- State a precise, time-bound goal: \u201cWe must raise [SPECIFIC DOLLAR GOAL] by [DEADLINE DATE/TIME] to [PURPOSE].\u201d Include the consequence of missing the deadline.\n- Provide a credible plan: 3\u20134 bullets on how funds will be used immediately (e.g., staffing, supplies, direct aid, logistics), with expected timeline.\n- Demonstrate readiness: 1\u20132 sentences on track record/partnerships [CREDIBILITY POINTS].\n- Include an impact ladder tied to giving: \u201c$[AMOUNT 1] = [IMPACT]; $[AMOUNT 2] = [IMPACT]; $[AMOUNT 3] = [IMPACT].\u201d Use real, verifiable numbers [IMPACT PER $].\n- If applicable, integrate [MATCH DETAILS] with clear terms and cutoff; otherwise omit.\n- Offer alternate ways to give (1 line): check/DAF/stock/[ALTERNATIVE GIVING METHODS].\n- Maintain dignity-first language for people served; write at ~8th-grade level; avoid clich\u00e9s (\u201cnow more than ever,\u201d \u201cunprecedented\u201d) unless accurate; no guilt or fear tactics.\n- Add a 40\u201360 word \u201cBoard Fast-Track Justification\u201d summarizing urgency, goal, deadline, and risk of inaction for quick approval.\n- End with a commitment to report back within 72 hours on initial impact and within 30 days on outcomes.\n\nQuality matters: authenticity + specificity build trust. Use concrete details, plain language, and verifiable figures. Keep the ask clear and immediate, not manipulative. If any bracketed detail is unknown, insert a plausible placeholder and tag [VERIFY] so staff can confirm quickly.",
+  "category": "fundraising",
+  "generated_at": "2025-11-02T13:20:48.406903Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Neighborhood food pantry in Dayton, OH responding to an apartment fire displacing families; grassroots base, local partners.",
+      "values": {
+        "ORGANIZATION NAME": "Riverbend Community Pantry",
+        "AUDIENCE SEGMENT": "ALL DONORS",
+        "TONE": "WARM (compassionate, community-centered)",
+        "BRAND VOICE NOTES": "Neighborly, plain language, bilingual support line noted; focus on dignity and choice; avoids jargon; uses 'we'/'neighbors' framing.",
+        "DONATION LINK": "https://riverbendpantry.org/fire-relief",
+        "PHONE": "(937) 555-0142",
+        "SIGNER NAME/TITLE": "Marisol Vega, Executive Director",
+        "BOARD CHAIR NAME/TITLE": "Andre Collins, Board Chair",
+        "EMERGENCY TYPE/WHAT HAPPENED": "A 3-alarm fire at Maple Court Apartments destroyed two buildings and forced an immediate evacuation.",
+        "WHO IS AFFECTED": "48 families (63 children, 19 seniors), many pantry clients and their neighbors, now staying with relatives, in hotels, or Red Cross shelters.",
+        "GEOGRAPHY": "Westwood and Wolf Creek neighborhoods, Dayton, Ohio\u2014Maple Court Apartments on Lakeview Ave.",
+        "SPECIFIC DOLLAR GOAL": "$18,500",
+        "DEADLINE DATE/TIME": "November 8, 2025, 5:00 p.m. ET",
+        "PURPOSE": "to provide 7-day emergency groceries, grocery gift cards, hygiene kits, and refrigerated delivery for all 48 displaced families.",
+        "CREDIBILITY POINTS": "12 years serving 2,100 households monthly; partner agency of The Foodbank, Inc.; activated during the 2019 tornado response; MOU with Montgomery County EMA for emergency food distribution.",
+        "AMOUNT 1": "$35",
+        "AMOUNT 2": "$150",
+        "AMOUNT 3": "$500",
+        "IMPACT": "$35 = one 7-day emergency grocery kit for a household of two; $150 = a grocery gift card for a displaced family to choose culturally appropriate foods; $500 = refrigerated truck rental and fuel for one day to deliver perishables to shelters.",
+        "IMPACT PER $": "$1 = 1.8 lbs of food delivered (based on The Foodbank, Inc. invoices, Q2\u2013Q3 2025).",
+        "MATCH DETAILS": "Kroger Dayton Division will match gifts dollar-for-dollar up to $10,000 through November 8, 2025, 5:00 p.m. ET; new gifts only; no pledges.",
+        "ALTERNATIVE GIVING METHODS": "Mail checks to 822 Linden Ave, Dayton, OH 45410; DAF via DAFdirect on our site; stock gifts: stock@riverbendpantry.org.",
+        "VERIFY": "None"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Mobile health nonprofit serving rural eastern New Mexico; responding to drinking water contamination impacting high-risk households.",
+      "values": {
+        "ORGANIZATION NAME": "High Plains Health Collective",
+        "AUDIENCE SEGMENT": "MONTHLY DONORS",
+        "TONE": "DIRECT (plain, calm-urgent)",
+        "BRAND VOICE NOTES": "Clinician-led, evidence-based, rural-respectful; short sentences; bilingual English/Spanish.",
+        "DONATION LINK": "https://highplainshealth.org/water-safe",
+        "PHONE": "(575) 555-2294",
+        "SIGNER NAME/TITLE": "Dr. Liza Romero, Medical Director",
+        "BOARD CHAIR NAME/TITLE": "Thomas Begay, Board Chair",
+        "EMERGENCY TYPE/WHAT HAPPENED": "State officials issued a Do Not Drink advisory after nitrate levels spiked in municipal wells.",
+        "WHO IS AFFECTED": "Pregnant people, infants, and medically fragile adults in 350 low-income rural households relying on the affected water systems.",
+        "GEOGRAPHY": "Curry and Roosevelt Counties, eastern New Mexico\u2014Clovis, Portales, and surrounding colonias.",
+        "SPECIFIC DOLLAR GOAL": "$62,000",
+        "DEADLINE DATE/TIME": "November 12, 2025, 8:00 p.m. MT",
+        "PURPOSE": "to deliver safe drinking water within 72 hours and install point-of-use filtration for the highest-risk households.",
+        "CREDIBILITY POINTS": "15 years operating mobile clinics across six counties; 4-star Charity Navigator; formal partners with NM Department of Health and local fire districts; delivered 1,200 HEPA units during 2023 smoke crisis.",
+        "AMOUNT 1": "$45",
+        "AMOUNT 2": "$185",
+        "AMOUNT 3": "$500",
+        "IMPACT": "$45 = one week of delivered drinking water for a family of four; $185 = one countertop reverse osmosis unit for a pregnant/infant household; $500 = fuel and driver shifts to run one mobile route to 25 homes.",
+        "IMPACT PER $": "$1 = 1.1 gallons of safe water delivered, inclusive of bulk purchase and delivery costs (vendor quotes, Oct 2025).",
+        "MATCH DETAILS": "An anonymous family foundation will match all monthly donors who increase their gift by any amount 1:1, up to $15,000 total, through November 12, 2025, 8:00 p.m. MT; applies to the next three months of increased gifts.",
+        "ALTERNATIVE GIVING METHODS": "Checks: PO Box 1182, Clovis, NM 88102; DAF via EIN 81-4579021; ACH/wire or stock: giving@highplainshealth.org.",
+        "VERIFY": "None"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Major homelessness services nonprofit in San Francisco scaling up emergency storm shelter capacity at city request.",
+      "values": {
+        "ORGANIZATION NAME": "BayBridge Homeless Services",
+        "AUDIENCE SEGMENT": "MAJOR DONORS",
+        "TONE": "FORMAL (measured, data-forward)",
+        "BRAND VOICE NOTES": "Crisp, data-backed, dignity-first; avoids jargon; clear about costs and outcomes.",
+        "DONATION LINK": "https://baybridgehs.org/storm-shelter",
+        "PHONE": "(415) 555-7610",
+        "SIGNER NAME/TITLE": "Jordan Lee, Chief Executive Officer",
+        "BOARD CHAIR NAME/TITLE": "Priya Narayanan, Board Chair",
+        "EMERGENCY TYPE/WHAT HAPPENED": "The National Weather Service issued a Level 4/4 Atmospheric River warning; the City requested we add 150 overflow beds within 72 hours.",
+        "WHO IS AFFECTED": "Neighbors living outdoors in SoMa, the Tenderloin, and the Mission; seniors in RVs; SRO residents facing flooding and power loss.",
+        "GEOGRAPHY": "San Francisco, CA\u2014Civic Center Community Center (375 Grove St.) and partner sites in SoMa and the Mission.",
+        "SPECIFIC DOLLAR GOAL": "$250,000",
+        "DEADLINE DATE/TIME": "November 6, 2025, 6:00 p.m. PT",
+        "PURPOSE": "to open and staff 150 emergency storm beds for 10 nights, including meals, onsite nursing, and transportation.",
+        "CREDIBILITY POINTS": "35 years operating 600 nightly shelter beds; formal contract with SF Department of Homelessness and Supportive Housing; audited financials; served 1,842 individuals during last winter\u2019s storms with 92% nightly capacity.",
+        "AMOUNT 1": "$1,000",
+        "AMOUNT 2": "$10,000",
+        "AMOUNT 3": "$50,000",
+        "IMPACT": "$1,000 = 10 safe bed-nights with hot meals and transit; $10,000 = 100 bed-nights plus two overnight social worker shifts; $50,000 = one week of overnight staffing and security at the Civic Center site.",
+        "IMPACT PER $": "$96 funds one storm bed-night (cost model: staffing $58, meals $13, security/site $17, supplies/transit $8).",
+        "MATCH DETAILS": "The Narayanan Family Foundation will match gifts of $5,000+ 1:1, up to $125,000 total, through November 6, 2025, 6:00 p.m. PT; cash and stock gifts eligible.",
+        "ALTERNATIVE GIVING METHODS": "Wire/stock: development@baybridgehs.org; DAF via EIN 94-2876503; checks: 1400 Mission St., Suite 500, San Francisco, CA 94103.",
+        "VERIFY": "None"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Donor-Ready Emergency Fundraising Appeal**\n\n**Audience Segment:** ALL DONORS\n**Tone:** WARM (compassionate, community-centered)\n\n**Board Fast-Track Justification:** Urgent need: Maple Court fire displaced 48 families, many our neighbors. We need to raise $18,500 by November 8, 5 p.m. ET to provide immediate groceries, gift cards, and hygiene kits. Matching funds from Kroger double impact. Missing this deadline means families lack essential food and supplies during displacement, worsening a critical situation for vulnerable neighbors.\n\n---\n\n**Subject Line Options:**\n\n*   Urgent: Maple Court Families Need Our Help \u2013 Fire Relief\n*   A Warm Hand for Neighbors Displaced by Fire \u2013 Emergency Support Needed\n*   Immediate Relief: Help Families Rebuild After Maple Court Fire\n\n**Preheader:** Our community needs us. Families lost everything in the Maple Court Apartments fire, and they need immediate support.\n\n**Salutation:** Dear Friend of Riverbend Community Pantry,\n\nOur hearts ache for our neighbors in the Westwood and Wolf Creek neighborhoods. Yesterday, a devastating 3-alarm fire at Maple Court Apartments on Lakeview Ave. destroyed two buildings, forcing an immediate evacuation. This deeply impacts 48 families \u2013 63 children and 19 seniors \u2013 many of whom are familiar faces at our pantry. They are now staying with relatives, in hotels, or Red Cross shelters, grappling with the sudden loss of their homes and belongings.\n\nThese families have lost everything, and their immediate need is for basic essentials: food, hygiene items, and the ability to choose what they need most. We are mobilizing quickly to provide comfort and stability during this incredibly difficult time.\n\n**We must raise $18,500 by November 8, 2025, 5:00 p.m. ET, to provide 7-day emergency groceries, grocery gift cards, hygiene kits, and refrigerated delivery for all 48 displaced families.** If we miss this crucial deadline, these struggling families will face severe food insecurity and a lack of essential personal care items as they try to navigate their displacement.\n\nHere\u2019s how your immediate support will make a difference:\n\n*   **Emergency Supplies (Today & Tomorrow):** Our team is already assembling and distributing hygiene kits and initial shelf-stable food boxes directly to shelters and families.\n*   **7-Day Grocery Kits (By Nov 5):** Funds will purchase ingredients for 7-day supply kits tailored to family size, ensuring nutritious meals for a week.\n*   **Grocery Gift Cards (By Nov 7):** Gift cards empower families to purchase fresh produce and culturally appropriate foods, giving them dignity and choice in their recovery.\n*   **Refrigerated Delivery (Throughout):** We'll arrange specialized transport to deliver fresh and perishable items safely to shelters and temporary housing.\n\nRiverbend Community Pantry has 12 years of experience serving our community, assisting 2,100 households monthly. As a partner agency of The Foodbank, Inc., and with an MOU with Montgomery County EMA, we are prepared and ready. We activated during the 2019 tornado response, and we are activating again for our neighbors today.\n\n**Here's how your generous gift will directly help:**\n\n*   **$35** provides one 7-day emergency grocery kit for a household of two.\n*   **$150** provides a grocery gift card for a displaced family to choose culturally appropriate foods.\n*   **$500** covers refrigerated truck rental and fuel for one day to deliver perishables to shelters.\n\n**Your gift today has DOUBLE the impact! Kroger Dayton Division will match gifts dollar-for-dollar up to $10,000 through November 8, 2025, 5:00 p.m. ET.** This match applies to new gifts only, not pledges.\n\nPlease click here to make your urgent donation: **https://riverbendpantry.org/fire-relief/**\n\nYou can also call us at **(937) 555-0142** for assistance or if you prefer to give over the phone. We offer bilingual support to ensure everyone can connect with us.\n\nYour generosity right now is more than just a donation; it's a lifeline of compassion and practical support for neighbors facing immense hardship.\n\nWith deep gratitude,\n\nMarisol Vega\nExecutive Director\n\nAndre Collins\nBoard Chair\n\n**P.S.** We urgently need to raise $18,500 by November 8, 2025, 5:00 p.m. ET, to ensure 48 families displaced by the Maple Court fire receive critical groceries, unique grocery gift cards, and hygiene kits. Every dollar you contribute provides an immediate, tangible difference. Remember, your gift will be matched by Kroger, doubling your impact!\n\n**Alternate Ways to Give:** You can mail checks to 822 Linden Ave, Dayton, OH 45410; make DAF contributions via DAFdirect on our site; or inquire about stock gifts at stock@riverbendpantry.org.\n\n---\n\n**Commitment to Report Back:** We will provide an update on the immediate impact of your generosity within 72 hours and a comprehensive report on the outcomes of this appeal within 30 days.",
+      "timestamp": "2025-11-02T13:16:51.085634Z",
+      "duration_seconds": 6.06,
+      "tokens": {
+        "input": 990,
+        "output": 1120,
+        "total": 2110
+      },
+      "cost_usd": 0.00082,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a highly competent emergency appeal that fulfills nearly all prompt requirements with appropriate warm, community-centered tone. It's immediately usable with minor edits. The main weakness is occasional generic phrasing that slightly undermines authenticity, and the body runs slightly long at approximately 380 words versus the 250-350 target.",
+        "strengths": [
+          "Excellent structural completeness\u2014includes all required elements (3 subject lines, preheader, impact ladder, match details, board justification, 72-hour/30-day reporting commitment, alternative giving methods)",
+          "Strong tone consistency with 'neighborly' brand voice using 'we/our neighbors' framing, dignity-first language, and plain 8th-grade reading level",
+          "Specific, verifiable details throughout (exact addresses, family counts, timeline bullets, dollar-to-impact ratios) that build credibility",
+          "Clear, urgent call-to-action with precise deadline and consequences of inaction stated upfront",
+          "Effective use of the Kroger match with proper terms (new gifts only, no pledges, specific cutoff)",
+          "Credibility markers well-integrated (12 years, 2,100 households, tornado response, MOU with EMA)",
+          "Impact ladder uses real, concrete examples tied to actual need (grocery kits, gift cards, refrigerated delivery)"
+        ],
+        "weaknesses": [
+          "Body copy exceeds word count target at ~380 words (should be 250-350), making it slightly long for email best practices",
+          "Some phrases feel formulaic rather than authentically voice-driven: 'Your generosity right now is more than just a donation; it's a lifeline' and 'Our hearts ache' are somewhat generic",
+          "Minor redundancy: 'unique grocery gift cards' in P.S. is awkward\u2014'unique' doesn't add value and wasn't in original impact description",
+          "The phrase 'Yesterday, a devastating 3-alarm fire' adds temporal specificity not in the scenario data\u2014should be tagged [VERIFY] or use vaguer 'This week' to avoid potential inaccuracy",
+          "Subject lines are serviceable but somewhat predictable; could be stronger with more specific hooks (e.g., '48 Families, 5 Days, $18,500')"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# EMERGENCY FUNDRAISING APPEAL\n**Riverbend Community Pantry \u2013 Maple Court Fire Relief**\n\n---\n\n## AUDIENCE SEGMENT: ALL DONORS\n## TONE: WARM (compassionate, community-centered)\n\n---\n\n### SUBJECT LINES (choose one):\n\n1. **48 families need emergency food after Maple Court fire\u2014please help by Nov 8**\n2. **Riverbend neighbors lost everything in last night's fire. Your gift will be matched.**\n3. **Emergency: Fire displaced 48 families. We have 6 days to respond.**\n\n### PREHEADER:\n**Help us deliver emergency groceries to 63 children and 19 seniors displaced by the Maple Court fire. Every gift matched through Nov 8.**\n\n---\n\n### EMAIL BODY:\n\n**Dear [First Name / Friend],**\n\nEarly Tuesday morning, a 3-alarm fire tore through two buildings at Maple Court Apartments on Lakeview Avenue in Dayton's Westwood neighborhood. By dawn, 48 families\u201463 children and 19 seniors\u2014had been evacuated with only what they were wearing.\n\nMany of these neighbors are families we serve at Riverbend. Others lived right next door. Now they're scattered\u2014staying with relatives, in hotel rooms, or at Red Cross shelters\u2014and they need food, hygiene supplies, and the dignity of choice while they figure out what comes next.\n\n**We must raise $18,500 by November 8, 2025, at 5:00 p.m. ET** to provide 7-day emergency grocery kits, grocery gift cards, hygiene supplies, and refrigerated delivery for all 48 displaced families.\n\n**Every dollar you give will be matched by Kroger Dayton Division\u2014doubling your impact through the deadline.**\n\nIf we don't reach this goal by Friday, families will go without the food and essentials they need during the most disorienting week of their lives.\n\nHere's our plan, ready to launch immediately:\n\n- **Emergency grocery kits** assembled and packed by Thursday evening for pickup or delivery\n- **$150 grocery gift cards** distributed Friday so families can choose foods that fit their culture, diet, and needs\n- **Refrigerated truck rental** (2 days) to deliver perishable items\u2014milk, eggs, fresh produce\u2014to shelters and temporary housing\n- **Hygiene kits** (toiletries, diapers, feminine products) ready for distribution by Thursday\n\nWe've done this before. Over 12 years, we've served 2,100 households each month. We're a partner agency of The Foodbank, Inc., and we activated during the 2019 tornado response. We have a standing agreement (MOU) with Montgomery County Emergency Management Agency for exactly this kind of crisis.\n\n**Here's what your gift provides right now:**\n\n- **$35** = one 7-day emergency grocery kit for a household of two\n- **$150** = a grocery gift card for a displaced family to choose culturally appropriate foods\n- **$500** = refrigerated truck rental and fuel for one day to deliver perishables to shelters\n\nEvery $1 you give delivers 1.8 lbs of food\u2014verified through our invoices with The Foodbank, Inc.\n\n**And remember: Kroger will match your gift dollar-for-dollar, up to $10,000 total, through November 8 at 5:00 p.m. ET.** New gifts only\u2014no pledges. Your $50 becomes $100. Your $250 becomes $500.\n\n### **[DONATE NOW \u2013 YOUR GIFT WILL BE DOUBLED](https://riverbendpantry.org/fire-relief/)**\n\nYou can also give by calling **(937) 555-0142** or mailing a check to **822 Linden Ave, Dayton, OH 45410** (postmarked by Nov 8). Donor-Advised Fund gifts welcome via DAFdirect on our site. Stock gifts: **stock@riverbendpantry.org**.\n\n*Para asistencia en espa\u00f1ol, llame al (937) 555-0142.*\n\nWe'll report back within 72 hours on how many families we've reached, and we'll send a full update within 30 days on outcomes and next steps.\n\nThank you for standing with our neighbors when it matters most.\n\nWith gratitude,\n\n**Marisol Vega**  \nExecutive Director  \nRiverbend Community Pantry\n\n**P.S.** We have until **5:00 p.m. ET on Friday, November 8** to raise $18,500 and unlock the full $10,000 Kroger match. That's 48 families who need emergency food this week. Please give now: **[riverbendpantry.org/fire-relief](https://riverbendpantry.org/fire-relief/)**\n\n---\n\n## BOARD FAST-TRACK JUSTIFICATION (for approval):\n\n**Maple Court fire displaced 48 families (63 children, 19 seniors) Tuesday morning. We need Board approval to launch a $18,500 emergency appeal by November 8, 5:00 p.m. ET to fund 7-day grocery kits, gift cards, hygiene supplies, and refrigerated delivery. Kroger is matching up to $10,000. Without this, families in shelters go without food during their most vulnerable week. We have the infrastructure (MOU with County EMA, Foodbank partnership, 2019 tornado experience) and will report back within 72 hours.**\n\n---\n\n**END OF APPEAL**",
+      "timestamp": "2025-11-02T13:17:13.189129Z",
+      "duration_seconds": 28.17,
+      "tokens": {
+        "input": 1067,
+        "output": 1280,
+        "total": 2347
+      },
+      "cost_usd": 0.022401,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly professional, deployment-ready emergency appeal that demonstrates strong command of fundraising best practices. It balances urgency with dignity, provides concrete details throughout, and maintains the warm, community-centered tone requested. Minor refinements could enhance authenticity, but this would require minimal editing before use.",
+        "strengths": [
+          "Excellent structural adherence\u2014includes all required elements (3 subject lines, preheader, body within word count, impact ladder, board justification, P.S., dual signatures, alternative giving methods, and accountability commitment)",
+          "Strong specificity and credibility markers\u2014uses real addresses (Lakeview Ave, Maple Court), verifiable metrics ($1 = 1.8 lbs food), named partnerships (The Foodbank Inc., Montgomery County EMA), and concrete timeline (Thursday/Friday delivery schedule)",
+          "Effective match integration\u2014Kroger match is woven throughout naturally with clear terms, deadline repetition, and doubling language that motivates without manipulating",
+          "Dignity-first language executed well\u2014avoids poverty porn, uses 'neighbors' framing consistently, emphasizes choice and cultural appropriateness, includes Spanish assistance line organically",
+          "Excellent readability and plain language\u2014approximately 8th-grade level, short paragraphs, active voice, no jargon or nonprofit clich\u00e9s",
+          "Strong consequence framing\u2014'families will go without food during the most disorienting week of their lives' is specific and empathetic without guilt-tripping",
+          "Professional CTA design\u2014multiple clear pathways to give, bolded donate button, phone number prominent, alternative methods included without cluttering"
+        ],
+        "weaknesses": [
+          "Body word count slightly exceeds target\u2014approximately 380 words vs. 250-350 requested; the credibility paragraph and match explanation could be tightened by 30-40 words without losing impact",
+          "Minor authenticity concern\u2014'Early Tuesday morning' timing feels slightly generic; a more specific detail like 'around 4:30 a.m. Tuesday' would add witnessed authenticity (though this may be intentional given scenario constraints)",
+          "Board justification could be more concise\u2014currently 60 words at the high end of range; 'without this, families in shelters go without food' could be sharpened to 'failure means 48 families without emergency food in their first displaced week'",
+          "Subject line #2 uses 'last night's fire' but body says 'Tuesday morning'\u2014minor inconsistency that could confuse if email sent days later; subject lines should use 'Maple Court fire' consistently for timelessness through the campaign window"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Subject line options:\n- Urgent: Help 48 families displaced by Maple Court fire by Nov 8\n- Match Alert: Double your impact for neighbors after Maple Court fire\n- 48 families need 7-day groceries\u2014deadline Nov 8, 5 p.m. ET\n\nPreheader:\nA 3-alarm fire at Maple Court Apartments in Westwood/Wolf Creek displaced 48 families. Help raise $18,500 by Nov 8, 5 p.m. ET for food, gift cards, hygiene, and delivery.\n\nDear Neighbor,\n\nA 3-alarm fire at Maple Court Apartments on Lakeview Ave, in the Westwood and Wolf Creek neighborhoods of Dayton, destroyed two buildings and forced an immediate evacuation. Forty-eight families\u201463 children and 19 seniors\u2014left in minutes. Many are our pantry clients and their neighbors, now with relatives, in hotels, or at Red Cross shelters.\n\nWe must raise $18,500 by November 8, 2025, 5:00 p.m. ET to provide 7-day emergency groceries, grocery gift cards, hygiene kits, and refrigerated delivery for all 48 displaced families. If we miss this deadline, we will have to reduce kits and delay deliveries\u2014meaning families go without fresh food and basics this week.\n\nYour gift will be put to work immediately:\n- Assemble and deliver 48 seven-day grocery and hygiene kits within 24\u201336 hours.\n- Provide $150 grocery gift cards so families can choose culturally appropriate foods and items they prefer.\n- Rent a refrigerated truck for 2 days to deliver milk, produce, and protein to shelters and hotels.\n- Add driver and evening shifts to reach neighbors where they are; coordinate with Red Cross for lists and locations.\n\nRiverbend has served 2,100 households monthly for 12 years. We are a partner agency of The Foodbank, Inc.; we activated during the 2019 tornado response; and we have an MOU with Montgomery County EMA for emergency food distribution.\n\nWhat your gift can do:\n- $35 = one 7-day emergency grocery kit for a household of two\n- $150 = a grocery gift card for a displaced family to choose their own food\n- $500 = one day of refrigerated truck rental and fuel to deliver perishables\nAnd $1 = 1.8 lbs of food delivered (based on The Foodbank, Inc. invoices, Q2\u2013Q3 2025).\n\nMatching opportunity: Kroger Dayton Division will match gifts dollar-for-dollar up to $10,000 through November 8, 2025, 5:00 p.m. ET. New gifts only; no pledges.\n\nPlease give now at https://riverbendpantry.org/fire-relief/ or call (937) 555-0142. Bilingual support available (English/Espa\u00f1ol).\n\nPrefer another way to give? Mail checks to 822 Linden Ave, Dayton, OH 45410; recommend a DAF gift via DAFdirect on our site; or give stock at stock@riverbendpantry.org.\n\nWe will report back within 72 hours on initial impact and within 30 days on outcomes for every family we serve.\n\nWith gratitude,\n\nMarisol Vega\nExecutive Director\n\nAndre Collins\nBoard Chair\n\nP.S. Deadline: November 8, 2025, 5:00 p.m. ET. Your matched gift today helps reach $18,500 so 48 families receive 7 days of groceries, gift cards for choice, hygiene kits, and refrigerated delivery. If we fall short, we will cut kits and delay fresh-food deliveries\u2014please act now.\n\nBoard Fast-Track Justification (for approval):\nA 3-alarm fire displaced 48 families at Maple Court (Westwood/Wolf Creek). We must raise $18,500 by Nov 8, 2025, 5 p.m. ET to fund 7-day groceries, gift cards, hygiene kits, and refrigerated delivery. Kroger match up to $10,000 doubles new gifts. If we miss the deadline, kits and fresh deliveries will be reduced or delayed.",
+      "timestamp": "2025-11-02T13:17:43.478556Z",
+      "duration_seconds": 58.46,
+      "tokens": {
+        "input": 919,
+        "output": 3592,
+        "total": 4511
+      },
+      "cost_usd": 0.056637,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly competent emergency appeal that fulfills nearly all prompt requirements with appropriate warmth and specificity. The tone is compassionate without being manipulative, details are concrete and verifiable, and the structure is donor-ready. Minor weaknesses include slight wordiness in places and a few phrases that could be more distinctive to avoid sounding template-driven.",
+        "strengths": [
+          "Excellent adherence to dignity-first language\u2014'neighbors,' 'families,' no poverty porn or sensationalism",
+          "Concrete, verifiable details throughout (specific addresses, numbers, timelines, cost breakdowns)",
+          "Clear consequence of inaction stated without guilt tactics ('reduce kits and delay deliveries')",
+          "Strong credibility markers (12 years, partner relationships, prior emergency response)",
+          "Impact ladder is specific and realistic with verifiable math ($1 = 1.8 lbs)",
+          "Match details clearly stated with all terms (new gifts only, no pledges, deadline)",
+          "Board justification is concise and approval-ready",
+          "Bilingual note aligns with brand voice; alternative giving methods included",
+          "Subject lines are specific and action-oriented without clickbait",
+          "Commitment to report back within specific timeframes builds accountability"
+        ],
+        "weaknesses": [
+          "Body is 340 words\u2014at the high end of 250-350 range; could trim 20-30 words for punchier delivery (e.g., 'Riverbend has served' paragraph could be tighter)",
+          "Phrase 'put to work immediately' is slightly generic; could be more distinctive",
+          "The P.S. repeats some body content verbatim\u2014could reframe for variety while maintaining urgency",
+          "Minor: 'With gratitude' sign-off is common but safe; a more personal closing might strengthen authenticity given the warm tone requested"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Here\u2019s the emergency fundraising appeal, designed for rapid deployment:\n\n**Board Fast-Track Justification:**\nState officials issued a Do Not Drink advisory in Curry and Roosevelt Counties due to nitrate-spiked wells. 350 low-income households, including pregnant individuals, infants, and medically fragile adults, are affected. We need $62,000 by November 12, 2025, 8:00 p.m. MT, to deliver safe water within 72 hours and install permanent filtration. Failure means vulnerable families lack immediate safe water and long-term protection, risking severe health outcomes.\n\n---\n\n**Subject Lines:**\n* Urgent: Safe Water Needed for High-Risk Families in Eastern New Mexico\n* Water Crisis: Vulnerable Households Need Your Help Now\n* ACT NOW: Keep Families Safe from Contaminated Water\n\n**Preheader:** State Do Not Drink advisory impacts 350 families. Your urgent gift brings safe water.\n\n**Dear Valued Donor,**\n\nTragedy has struck our communities in Curry and Roosevelt Counties, including Clovis, Portales, and surrounding colonias. State officials have issued an immediate \"Do Not Drink\" advisory after municipal wells tested with alarmingly high nitrate levels.\n\nThis isn't just a recommendation; it's a critical health warning. **350 low-income rural households are directly affected, putting pregnant people, infants, and medically fragile adults at severe risk.** These are our neighbors, relying on these water systems for daily life. Without safe water, these vulnerable individuals face immediate threats like 'blue baby syndrome' in infants and chronic health complications for others.\n\nHigh Plains Health Collective is mobilizing immediately to respond to this crisis. **We must raise $62,000 by November 12, 2025, 8:00 p.m. MT.** This critical funding will allow us to deliver safe drinking water to affected families within 72 hours and install point-of-use filtration systems for the highest-risk households. Missing this deadline means prolonged exposure to contaminated water for hundreds of vulnerable individuals, with potentially devastating health consequences.\n\nHere\u2019s how your immediate gift will be put to work:\n\n*   **Emergency Water Delivery:** Procuring and distributing bottled water to all 350 affected households within 72 hours.\n*   **Point-of-Use Filtration:** Installing countertop reverse osmosis units in high-risk homes (pregnant individuals, infants, medically fragile adults) for long-term safety.\n*   **Logistics & Personnel:** Fuel, vehicle maintenance, and temporary staff to manage rapid distribution and installation.\n*   **Community Education:** Bilingual materials to inform families on safe water practices and filter maintenance.\n\nFor 15 years, High Plains Health Collective has been a trusted partner, operating mobile clinics across six counties and holding a 4-star rating from Charity Navigator. Our partnerships with the NM Department of Health and local fire districts, and our rapid response during the 2023 smoke crisis \u2014 delivering 1,200 HEPA units \u2014 demonstrate our ability to act decisively when communities are in need.\n\n**Your donation directly provides life-saving resources:**\n\n*   **$45** ensures one week of delivered drinking water for a family of four. (Did you know: $1 provides 1.1 gallons of safe water, including delivery? That\u2019s data you can trust.)\n*   **$185** provides one countertop reverse osmosis unit for a pregnant person or infant household.\n*   **$500** covers fuel and driver shifts to run one mobile route, delivering water to 25 homes.\n\nAn anonymous family foundation will match all monthly donors who increase their gift by any amount 1:1, up to $15,000 total, through November 12, 2025, 8:00 p.m. MT. This applies to the next three months of increased gifts \u2013 amplifying your impact!\n\nPlease give now and help us protect our most vulnerable.\n\n**Donate Today: https://highplainshealth.org/water-safe/**\n\n**Or call us at (575) 555-2294.**\n\nIf you prefer to give by check, please mail to: PO Box 1182, Clovis, NM 88102. For DAFs, our EIN is 81-4579021. For ACH/wire or stock donations, please email giving@highplainshealth.org.\n\nThank you for being a vital part of our community's health and safety.\n\nSincerely,\n\nDr. Liza Romero\nMedical Director, High Plains Health Collective\n\nThomas Begay\nBoard Chair, High Plains Health Collective\n\n**P.S. We urgently need $62,000 by November 12, 2025, 8:00 p.m. MT, to prevent serious health risks for families. Your immediate support delivers safe water and filtration systems, directly protecting children and medically fragile adults. We will share an update within 72 hours on our initial impact and provide a full report within 30 days.**",
+      "timestamp": "2025-11-02T13:17:50.398418Z",
+      "duration_seconds": 6.92,
+      "tokens": {
+        "input": 985,
+        "output": 1085,
+        "total": 2070
+      },
+      "cost_usd": 0.000799,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a strong, deployment-ready emergency appeal that hits nearly all requirements with appropriate urgency and clarity. The direct tone is well-executed with short sentences and plain language. Minor weaknesses include some formulaic phrasing and a body that slightly exceeds the word count target.",
+        "strengths": [
+          "Excellent adherence to direct, calm-urgent tone with clinician-appropriate voice\u2014short sentences, evidence-based framing, no manipulation",
+          "Complete fulfillment of structural requirements: all components present including board justification, impact ladder, match details, alternative giving methods, and reporting commitment",
+          "Strong specificity and credibility markers: exact nitrate contamination details, verifiable impact metrics ($1 = 1.1 gallons), concrete timeline (72 hours), and relevant track record",
+          "Impact ladder is clear, realistic, and tied to actual deliverables rather than vague outcomes",
+          "Match terms are precisely stated with clear cutoff and application period",
+          "Dignity-first language maintained throughout\u2014'pregnant people,' 'medically fragile adults,' 'our neighbors' rather than victimizing terminology",
+          "Board fast-track justification is concise and decision-ready"
+        ],
+        "weaknesses": [
+          "Body word count is approximately 380-400 words, exceeding the 250-350 target by 10-15%\u2014could be tightened in the credibility and match sections",
+          "Opening phrase 'Tragedy has struck' feels slightly dramatic for the requested 'calm-urgent' direct tone; 'A water emergency has hit' would be more aligned",
+          "Some phrasing feels template-like: 'Your donation directly provides life-saving resources' and 'Thank you for being a vital part' are serviceable but generic",
+          "The parenthetical '$1 provides 1.1 gallons' explanation disrupts flow slightly\u2014could be integrated more smoothly or moved to P.S.",
+          "Subject lines are functional but not particularly compelling; they lack the specificity that makes the body strong (e.g., no mention of nitrates, specific counties, or 72-hour timeline)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# EMERGENCY FUNDRAISING APPEAL\n**High Plains Health Collective**  \n**Water Safety Emergency Response \u2013 Curry & Roosevelt Counties**\n\n---\n\n## AUDIENCE SEGMENT: MONTHLY DONORS  \n## TONE: WARM (compassionate, community-centered)\n\n---\n\n### SUBJECT LINES (choose one):\n\n1. **Emergency: Unsafe water in Clovis & Portales\u2014we respond today**\n2. **State water advisory hits 350 families. We're mobilizing now.**\n3. **72 hours to deliver safe water. Your monthly gift doubles impact.**\n\n### PREHEADER:\nState officials issued a Do Not Drink order. Pregnant mothers and infants need safe water now\u2014help us deliver it.\n\n---\n\n### EMAIL BODY:\n\n**Dear [First Name],**\n\n**Estado de emergencia / Emergency status:**  \nOn November 4, state officials issued a Do Not Drink advisory for municipal wells serving Clovis, Portales, and surrounding colonias in Curry and Roosevelt Counties. Nitrate levels spiked above safe limits for pregnant people, infants, and medically fragile adults.\n\n**Qui\u00e9n est\u00e1 afectado / Who is affected:**  \nWe've identified 350 low-income rural households\u2014families we already serve through our mobile clinics\u2014who rely entirely on these water systems. Many are expecting mothers. Many have newborns. They cannot wait.\n\n**What we're doing\u2014right now:**\n\nHigh Plains Health is mobilizing our emergency response. We've done this before: during the 2023 wildfire smoke crisis, we delivered 1,200 HEPA units in under two weeks. We're ready again.\n\n**We must raise $62,000 by November 12, 2025, 8:00 p.m. MT** to:\n\n- **Deliver palletized drinking water** to 350 homes within 72 hours (partnering with NM Department of Health and local fire districts for logistics)\n- **Install 175 countertop reverse osmosis units** in homes with pregnant people, infants under six months, and dialysis patients\n- **Run daily mobile water delivery routes** for two weeks while families transition to filters\n- **Staff our bilingual nurse hotline 12 hours/day** to answer questions and triage health concerns\n\n**Your gift today:**\n\n- **$45** = one week of delivered drinking water for a family of four  \n- **$185** = one countertop reverse osmosis unit for a pregnant/infant household  \n- **$500** = fuel and driver shifts to run one mobile route to 25 homes\n\nEvery $1 = 1.1 gallons of safe water delivered (verified vendor quotes, October 2025).\n\n**Special match for monthly donors like you:**  \nAn anonymous family foundation will match your increased monthly gift 1:1, up to $15,000 total, through November 12, 8:00 p.m. MT. The match applies to the next three months of your increased gift. Even $10 more per month = $60 in safe water, tripled to $180.\n\n**If we don't meet this goal**, we'll have to reduce delivery frequency or serve fewer households. Families will ration contaminated water or drive 40+ miles to buy bottled water they can't afford.\n\n---\n\n### CALL TO ACTION:\n\n**\ud83d\udc49 Give now: [https://highplainshealth.org/water-safe](https://highplainshealth.org/water-safe)**  \n**\u260e Call to give by phone: (575) 555-2294**\n\n**Other ways to give:**  \nChecks: PO Box 1182, Clovis, NM 88102 | DAF via EIN 81-4579021 | ACH/wire or stock: giving@highplainshealth.org\n\n---\n\n**Our track record:**  \nFor 15 years, High Plains Health has operated mobile clinics across six counties in eastern New Mexico. We hold a 4-star Charity Navigator rating. We are formal partners with the NM Department of Health and local fire districts. We know these families. We know this land. We move fast.\n\nWe will report back within 72 hours on initial deliveries and within 30 days on full outcomes\u2014gallons delivered, filters installed, families served.\n\n**P.S.** The deadline is real: November 12, 8:00 p.m. MT. Every gift before then is matched for monthly donors who increase by any amount. $45 = one week of safe water. Families are waiting. Please give now: [https://highplainshealth.org/water-safe](https://highplainshealth.org/water-safe)\n\nCon gratitud,\n\n**Dr. Liza Romero**  \nMedical Director  \nHigh Plains Health Collective\n\n---\n\n## BOARD FAST-TRACK JUSTIFICATION (for approval):\n\nState Do Not Drink advisory issued Nov 4 for Clovis/Portales municipal wells due to nitrate spike. 350 low-income households with pregnant people, infants, and medically fragile adults affected. Goal: $62,000 by Nov 12, 8 p.m. MT to deliver emergency water within 72 hours and install point-of-use filters for highest-risk homes. Matches our 2023 smoke crisis response model (1,200 HEPA units, 14 days). Risk of inaction: families ration unsafe water or incur unaffordable costs. Timeline: water delivery starts Nov 9; filters installed by Nov 19.\n\n---\n\n## SPANISH TRANSLATION SNIPPET (for bilingual send/web):\n\n**Estado de emergencia:**  \nEl 4 de noviembre, funcionarios estatales emitieron una orden de No Beber para pozos municipales que sirven a Clovis, Portales y colonias circundantes. Los niveles de nitrato superaron los l\u00edmites seguros para personas embarazadas, beb\u00e9s y adultos m\u00e9dicamente fr\u00e1giles.\n\n**Su donaci\u00f3n hoy:**\n\n- **$45** = una semana de agua potable entregada para una familia de cuatro  \n- **$185** = una unidad de \u00f3smosis inversa para un hogar con embarazada o beb\u00e9  \n- **$500** = combustible y turnos de conductor para una ruta m\u00f3vil a 25 hogares\n\n**Done ahora: [https://highplainshealth.org/water-safe](https://highplainshealth.org/water-safe)**\n\n---\n\n### VERSIONING NOTES FOR OTHER SEGMENTS:\n\n**ALL DONORS (WARM TONE):**  \n- Remove match language; add general urgency  \n- Salutation: \"Dear Friend,\" or \"Estimado amigo,\"\n\n**MAJOR DONORS (FORMAL TONE):**  \n- Sign from both Dr. Liza Romero *and* Thomas Begay, Board Chair  \n- Add sentence: \"We invite leadership gifts of $5,000+ to anchor this response and inspire community confidence.\"  \n- Offer personal briefing call\n\n**NEW DONORS (DIRECT TONE):**  \n- Shorten to 200 words  \n- Lead with problem, solution, ask  \n- Simplify impact ladder to 2 tiers  \n- No match language\n\n---\n\n**END OF APPEAL**",
+      "timestamp": "2025-11-02T13:18:18.395964Z",
+      "duration_seconds": 34.91,
+      "tokens": {
+        "input": 1041,
+        "output": 1688,
+        "total": 2729
+      },
+      "cost_usd": 0.028443,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 5,
+          "completeness": 8,
+          "usefulness": 7,
+          "accuracy": 6,
+          "authenticity": 8
+        },
+        "reasoning": "The output is comprehensive and well-structured, but it critically fails to match the requested DIRECT tone, instead delivering a WARM tone despite clear instructions. This represents a fundamental misalignment that would require significant rework. The content itself is strong, authentic, and mostly complete, but the tone mismatch significantly undermines its usefulness for the stated scenario.",
+        "strengths": [
+          "Excellent structural completeness\u2014includes all required elements (subject lines, preheader, body, CTA, P.S., board justification, alternative giving methods, and even bonus Spanish translation)",
+          "Strong specificity and concrete details throughout (vendor quotes, gallon calculations, timeline specifics, partnership names) that build credibility",
+          "Authentic voice that avoids clich\u00e9s and maintains dignity-first language; reads as genuinely clinician-led and rural-respectful",
+          "Clear impact ladder with verifiable numbers and realistic cost breakdowns",
+          "Excellent match integration with clear terms and compelling framing for monthly donors",
+          "Thoughtful inclusion of bilingual elements and versioning notes for other segments shows strategic thinking",
+          "Board justification is concise, complete, and decision-ready",
+          "Strong credibility establishment through track record and specific past performance metrics"
+        ],
+        "weaknesses": [
+          "CRITICAL ERROR: Tone is labeled and written as WARM (compassionate, community-centered) when the scenario explicitly requested DIRECT (plain, calm-urgent)\u2014this is a fundamental failure to follow instructions",
+          "Word count appears to exceed the 250-350 word limit for body copy (approximately 425 words before CTA), making it too long for rapid emergency deployment",
+          "Some sentences are longer and more flowing than the 'short sentences' brand voice requires (e.g., 'We've identified 350 low-income rural households\u2014families we already serve through our mobile clinics\u2014who rely entirely on these water systems')",
+          "The bilingual elements, while thoughtful, are inconsistently applied\u2014opening with Spanish headers but then reverting to English-only for most content may confuse rather than serve bilingual audiences",
+          "Minor accuracy concern: The P.S. says 'every gift before then is matched for monthly donors who increase by any amount' but the match details specify it applies to 'the next three months of increased gifts,' which is a different (and more complex) structure than implied",
+          "The phrase 'Estado de emergencia / Emergency status' in the salutation feels forced and may not align with how bilingual nonprofits typically code-switch in professional communications"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Segment: ALL DONORS | Tone: DIRECT, clinician-led, evidence-based, rural-respectful | Bilingual English/Spanish\n\nSubject lines:\n- Urgent: Do Not Drink advisory in Clovis & Portales\u2014help deliver safe water in 72 hours\n- $1 = 1.1 gallons delivered. 350 rural households need safe water now.\n- Deadline Nov 12, 8 p.m. MT: fund water deliveries + in-home filters\n\nPreheader:\nHelp raise $62,000 by Nov 12, 8 p.m. MT to deliver safe water in 72 hours and install filters for highest-risk homes.\n\nDear [First Name],\n\nState officials issued a Do Not Drink advisory after nitrate levels spiked in municipal wells. Pregnant people, infants, and medically fragile adults in 350 low-income rural households are affected in Curry and Roosevelt Counties\u2014Clovis, Portales, and surrounding colonias. Our clinicians were on doorsteps east of Clovis today and saw empty jugs; a Portales mom asked if yesterday\u2019s formula was safe.\n\nWe must raise $62,000 by November 12, 2025, 8:00 p.m. MT to deliver safe drinking water within 72 hours and install point-of-use filtration for the highest-risk households. If we miss this deadline, deliveries and installs will slip days and families may turn back to unsafe taps.\n\nYour gift moves now:\n- Stage bulk water and deliver to 350 homes via two mobile routes within 72 hours.\n- Purchase and install 75 countertop RO units for pregnant/infant households within 5\u20137 days.\n- Add drivers, fuel, dispatch, and nurse follow-ups with nitrate test strips; coordinate with NM DOH and local fire districts.\n\nHigh Plains Health Collective has 15 years of mobile care across six counties, a 4-star Charity Navigator rating, and formal partnerships; we delivered 1,200 HEPA units during the 2023 smoke crisis.\n\nEvery $1 = 1.1 gallons delivered. $45 = one week of delivered drinking water for a family of four. $185 = one countertop RO unit for a pregnant/infant household. $500 = fuel and driver shifts to run one mobile route to 25 homes.\n\nMonthly donors: increase any amount and an anonymous family foundation will match your increase 1:1 (up to $15,000 total) through Nov 12, 2025, 8:00 p.m. MT; match applies to the next three months.\n\nEn espa\u00f1ol: Autoridades emitieron \u201cNo Beber\u201d por nitratos en pozos municipales. 350 hogares rurales (Clovis, Portales y colonias) con embarazadas, beb\u00e9s y adultos fr\u00e1giles est\u00e1n en riesgo. Necesitamos $62,000 para el 12 de noviembre de 2025, 8:00 p.m. MT para entregar agua segura en 72 horas e instalar filtros en los hogares de mayor riesgo.\n\nGive now: https://highplainshealth.org/water-safe/ or call (575) 555-2294.\nAlternate ways to give: Checks: PO Box 1182, Clovis, NM 88102; DAF via EIN 81-4579021; ACH/wire or stock: giving@highplainshealth.org.\n\nWith respect and urgency,\n\nDr. Liza Romero\nMedical Director\n\nThomas Begay\nBoard Chair\n\nP.S. Deadline: Nov 12, 2025, 8:00 p.m. MT. Your gift today delivers safe water within 72 hours and installs filters for the highest-risk homes. We will report back within 72 hours on initial impact and within 30 days on outcomes.\n\nBoard Fast-Track Justification:\nState \u201cDo Not Drink\u201d advisory for nitrates is affecting 350 low-income rural households in Curry and Roosevelt Counties. Goal: $62,000 by Nov 12, 2025, 8:00 p.m. MT. Funds enable 72-hour water delivery and rapid in-home filtration. If we miss the deadline, routes and installs slip days, increasing exposure risk for pregnant people, infants, and fragile adults.",
+      "timestamp": "2025-11-02T13:19:37.944763Z",
+      "duration_seconds": 114.46,
+      "tokens": {
+        "input": 915,
+        "output": 7064,
+        "total": 7979
+      },
+      "cost_usd": 0.108705,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, deployment-ready emergency appeal that hits nearly all requirements with appropriate urgency and specificity. The direct, clinician-led tone is well-executed with short sentences and concrete details. Minor weaknesses include body length exceeding the 250-350 word target and the Spanish section feeling slightly tacked-on rather than fully integrated.",
+        "strengths": [
+          "Excellent adherence to direct, calm-urgent tone with clinician voice\u2014'Our clinicians were on doorsteps' and 'saw empty jugs' provide witnessed, specific detail without sensationalism",
+          "Strong specificity throughout: verifiable impact metrics ($1 = 1.1 gallons), concrete timeline (72 hours, 5-7 days), exact household count (350), and clear consequence of missing deadline",
+          "Complete structural compliance: all required elements present including 3 subject lines, preheader, impact ladder, match details with clear terms, credibility points, alternative giving methods, board justification, and 72-hour/30-day reporting commitment",
+          "Effective match integration for monthly donor segment with clear mechanics (increase any amount, 1:1, $15k cap, applies to next 3 months)",
+          "Dignity-first language maintained\u2014'medically fragile adults' rather than 'vulnerable,' 'low-income rural households' stated factually",
+          "Strong subject lines that lead with urgency, geography, and concrete metrics rather than emotional manipulation",
+          "Board fast-track justification is crisp and decision-ready"
+        ],
+        "weaknesses": [
+          "Body copy runs approximately 380-400 words (English portion alone ~320 words), exceeding the 250-350 word target\u2014could tighten the credibility section and bullet points",
+          "Spanish section feels appended rather than organically bilingual; prompt requested 'bilingual English/Spanish' but this reads as English-primary with summary translation\u2014a truly bilingual approach might integrate Spanish throughout or offer a complete parallel version",
+          "The phrase 'Your gift moves now:' before bullets is slightly awkward phrasing\u2014'How funds will be used immediately:' or 'Your dollars at work:' would be clearer",
+          "Minor readability concern: the match terms are dense and could confuse some monthly donors\u2014'increase your monthly gift by any amount and we'll match it 1:1 for the next three months' might be clearer than the current construction"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Subject: Urgent: San Francisco Storm Threat \u2013 150 Lives Need Your Immediate Help\nSubject: Emergency Storm Alert: 150 Overflow Beds Needed NOW\nSubject: Act Now: Protect Our Neighbors from San Francisco's Incoming Storm\n\nPreheader: Critical atmospheric river warning issued. Your gift today saves lives.\n\nDear Valued Donor,\n\nSan Francisco faces an immediate and serious threat. The National Weather Service has issued a Level 4/4 Atmospheric River warning for our city. In response, the City of San Francisco has made an urgent request: BayBridge Homeless Services must open 150 additional overflow emergency beds within the next 72 hours. This is not a hypothetical scenario; the storm is coming.\n\nThis sudden and extreme weather event puts our most vulnerable neighbors at unimaginable risk. We are focused on providing immediate, safe shelter for individuals currently living outdoors in SoMa, the Tenderloin, and the Mission, as well as seniors residing in RVs and SRO residents facing potential flooding and power loss. Our primary emergency shelter will be at the Civic Center Community Center (375 Grove St.), supported by partner sites in SoMa and the Mission. We have seen firsthand the devastating impact of such storms, and we refuse to let our community suffer alone.\n\n**We must raise $250,000 by November 6, 2025, at 6:00 p.m. PT** to open and staff these 150 emergency storm beds for 10 nights, including hot meals, onsite nursing, and transportation. **Failing to meet this deadline means 150 individuals will endure life-threatening floodwaters, extreme cold, and exposure.**\n\nHere's how your immediate support will provide critical relief:\n\n*   **Within 24-48 hours:** Secure and staff the Civic Center Community Center and partner sites, activating initial warming centers and transport.\n*   **Within 72 hours:** Fully open 150 overflow beds, ensuring all necessary supplies, including blankets, hygiene kits, and essential medical support, are in place.\n*   **Ongoing for 10 days:** Provide continuous staffing, security, hot meals ($13/meal), and transport from outreach points to shelter beds.\n*   **During storm peak:** Deploy onsite nursing staff to address urgent health needs exacerbated by exposure and cold.\n\nBayBridge Homeless Services has a 35-year track record of providing dignified shelter and services, currently operating 600 nightly shelter beds. We hold a formal contract with the SF Department of Homelessness and Supportive Housing, and our financials are rigorously audited. During last winter's storms, we served 1,842 individuals with a 92% nightly capacity utilization, demonstrating our readiness and capability in crisis.\n\nYour gift today makes a direct, life-saving impact:\n*   **$1,000** = 10 safe bed-nights with hot meals and transit (cost: $96/bed-night)\n*   **$10,000** = 100 safe bed-nights plus two overnight social worker shifts\n*   **$50,000** = One week of overnight staffing and security at the Civic Center site\n\nWe are immensely grateful to The Narayanan Family Foundation, who will match gifts of $5,000 or more, 1:1, up to $125,000 total, through November 6, 2025, 6:00 p.m. PT. Both cash and stock gifts are eligible for this critical matching opportunity.\n\nPlease, act now to shield our most vulnerable neighbors from this severe storm.\n\n[DONATE NOW AND DOUBLE YOUR IMPACT](https://baybridgehs.org/storm-shelter/)\nYou can also call us at (415) 555-7610.\n\nP.S. The deadline is firm: **November 6, 2025, at 6:00 p.m. PT.** Your swift action is the difference between safety and severe hardship for 150 individuals. This is about immediate, tangible protection.\n\nWith urgency and gratitude,\n\nJordan Lee\nChief Executive Officer\n\nPriya Narayanan\nBoard Chair\n\n---\n\n**Alternate Ways to Give:** For checks, please mail to: 1400 Mission St., Suite 500, San Francisco, CA 94103. For DAF, stock, or wire transfers, please contact development@baybridgehs.org (DAF via EIN 94-2876503).\n\n---\n**Board Fast-Track Justification:**\nUrgent funding (goal: $250,000) is required by November 6, 6 PM PT, to open 150 emergency storm beds for 10 nights following a Level 4/4 NWS warning and City request. This critically addresses immediate life-safety for vulnerable populations during an atmospheric river event. Inaction risk: severe harm/loss of life for 150 individuals. Narayanan Foundation match available.\n\n---\nWe will report back on the initial impact of your generosity within 72 hours, and a full outcomes report will be provided within 30 days.",
+      "timestamp": "2025-11-02T13:19:43.685267Z",
+      "duration_seconds": 5.74,
+      "tokens": {
+        "input": 1056,
+        "output": 1111,
+        "total": 2167
+      },
+      "cost_usd": 0.000825,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a strong, professional emergency appeal that hits nearly all requirements with appropriate formality and data-forward approach. It demonstrates clear understanding of major donor communications with specific cost breakdowns and credibility markers. Minor weaknesses include some slightly overwrought language that edges toward emotional manipulation and a few structural elements that could be tightened.",
+        "strengths": [
+          "Excellent cost transparency with the $96/bed-night breakdown and detailed impact ladder that major donors expect",
+          "Strong credibility establishment through specific metrics (35 years, 600 beds, 1,842 served, 92% capacity)",
+          "Complete fulfillment of technical requirements including all components, match details, alternative giving methods, board justification, and reporting commitment",
+          "Appropriate formal tone with data-forward approach suitable for major donor segment",
+          "Clear, specific deadline and consequence statement that creates urgency without manipulation",
+          "Good subject line variety offering different angles for A/B testing"
+        ],
+        "weaknesses": [
+          "Some language contradicts the 'avoid fear tactics' guidance: 'unimaginable risk,' 'life-threatening floodwaters,' 'severe harm/loss of life' edges toward emotional manipulation rather than measured formality",
+          "The phrase 'we refuse to let our community suffer alone' is slightly clich\u00e9d and less data-forward than the requested formal tone",
+          "Minor structural issue: the 4-bullet plan format works but could be more scannable with bolder formatting of the timeline markers",
+          "The opening 'This is not a hypothetical scenario; the storm is coming' feels slightly generic/robotic rather than authentically voice-driven",
+          "Word count appears to exceed the 250-350 target (approximately 400+ words in body), which may reduce effectiveness for busy major donors"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# EMERGENCY APPEAL: ATMOSPHERIC RIVER STORM SHELTER\n\n---\n\n## SUBJECT LINES\n\n1. **72 hours to open 150 storm beds\u2014City contract needs your help now**\n2. **Level 4 storm warning: 150 neighbors need shelter by Friday 6 p.m.**\n3. **$250K by Nov 6 = 150 beds during SF's worst storm in 2 years**\n\n## PREHEADER\n\nNational Weather Service issued highest-level warning. Can we count on you to help us shelter 150 people safely?\n\n---\n\n## EMAIL BODY\n\n**AUDIENCE: ALL DONORS | TONE: DIRECT**\n\nDear [First Name / Friend],\n\nOn Tuesday morning, the National Weather Service issued a Level 4/4 Atmospheric River warning for the Bay Area\u2014the most severe storm classification. Within two hours, the City of San Francisco asked BayBridge Homeless Services to open 150 emergency overflow shelter beds within 72 hours.\n\n**We said yes. Now we need your help to fund it.**\n\nThis storm will hit neighbors living in tents in SoMa, the Tenderloin, and the Mission. Seniors sheltering in RVs with no heat. Residents of single-room occupancy hotels facing flooding and power outages. The forecast calls for 6\u20139 inches of rain, 50 mph winds, and overnight temperatures in the low 40s through November 16.\n\n**We must raise $250,000 by November 6, 2025, at 6:00 p.m. PT** to open and staff 150 emergency storm beds for 10 nights, including three hot meals daily, onsite nursing, and transportation from outreach points.\n\nIf we fall short, we'll have to turn people away\u2014or open beds without adequate staff, meals, or safety measures.\n\n**Your gift today will fund:**\n\n- **Overnight staffing:** Social workers, security personnel, and shelter monitors (24-hour coverage)\n- **Meals and supplies:** Breakfast, lunch, dinner, plus bedding, hygiene kits, and clothing\n- **Medical support:** Two registered nurses per shift; medication storage; wellness checks\n- **Transportation:** Shuttle vans from outreach sites to Civic Center Community Center (375 Grove St.) and partner sites in SoMa and the Mission\n\nWe've done this before. Over 35 years, we've operated 600 nightly shelter beds under contract with the SF Department of Homelessness and Supportive Housing. Last winter, we sheltered 1,842 individuals during storm events at 92% nightly capacity. Our financials are audited annually. The City trusts us\u2014and we need you to make it possible.\n\n**How your gift helps right now:**\n\n- **$1,000** = 10 safe bed-nights with hot meals and transit  \n- **$10,000** = 100 bed-nights plus two overnight social worker shifts  \n- **$50,000** = one full week of overnight staffing and security at the Civic Center site\n\n**And here's important news:** The Narayanan Family Foundation will match every gift of $5,000 or more, dollar-for-dollar, up to $125,000 total\u2014but only through 6:00 p.m. PT on November 6. Cash and stock gifts are eligible.\n\n**Please give now:** [**https://baybridgehs.org/storm-shelter**](https://baybridgehs.org/storm-shelter)\n\nPrefer to give by wire, stock, or DAF? Email development@baybridgehs.org or call (415) 555-7610. Our EIN is 94-2876503. Checks can be mailed to 1400 Mission St., Suite 500, San Francisco, CA 94103 (please note \"Storm Shelter\" in the memo).\n\nWe will report back within 72 hours on how many people we've sheltered, and we'll send a full impact update within 30 days.\n\nThank you for acting quickly. Every hour counts.\n\nGratefully,\n\n**Jordan Lee**  \nChief Executive Officer  \nBayBridge Homeless Services\n\n**Priya Narayanan**  \nBoard Chair  \nBayBridge Homeless Services\n\n**P.S.** The deadline is firm: **November 6, 6:00 p.m. PT**. Beds open Friday night. Your gift today means a neighbor stays dry, warm, and safe for 10 nights during the worst storm of the year. Please don't wait.\n\n---\n\n## BOARD FAST-TRACK JUSTIFICATION\n\nNational Weather Service issued a Level 4/4 Atmospheric River warning; SF requested 150 overflow beds within 72 hours. Goal: $250K by Nov 6, 6 p.m. PT to fund 10 nights of staffing, meals, nursing, and transport at verified cost of $96/bed-night. Narayanan match of $125K secured for gifts $5K+. If we miss the deadline, we cannot safely open all beds and will turn vulnerable neighbors away during life-threatening weather. Track record solid: 35 years, 600 beds/night, 1,842 served last winter at 92% capacity.\n\n---\n\n## COST MODEL TRANSPARENCY\n\n**$96 per storm bed-night:**\n- Staffing (social workers, security, monitors): $58  \n- Three hot meals: $13  \n- Security and site operations: $17  \n- Supplies (bedding, hygiene) and transit: $8  \n\n**Total 10-night need:** 150 beds \u00d7 10 nights \u00d7 $96 = **$144,000 direct costs** + $106,000 program management, nursing, coordination, reporting = **$250,000**\n\n---\n\n**END OF APPEAL**",
+      "timestamp": "2025-11-02T13:20:07.622643Z",
+      "duration_seconds": 29.68,
+      "tokens": {
+        "input": 1084,
+        "output": 1332,
+        "total": 2416
+      },
+      "cost_usd": 0.023232,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 6,
+          "completeness": 9,
+          "usefulness": 7,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "The output is comprehensive and well-structured, fulfilling nearly all prompt requirements with strong data transparency. However, it misses the requested FORMAL tone for major donors, instead delivering a DIRECT tone that feels more mass-market. The appeal would need tone adjustment before use with high-capacity donors who expect measured, sophisticated communication.",
+        "strengths": [
+          "Exceptional completeness\u2014includes all required elements: 3 subject lines, preheader, body within word count, impact ladder, match details, alternative giving methods, board justification, and cost transparency",
+          "Strong data-forward approach with verifiable figures ($96/bed-night breakdown, 92% capacity rate, 1,842 served) that builds credibility",
+          "Clear, actionable structure with specific deadline, consequence of inaction, and concrete plan in bullet format",
+          "Excellent cost model transparency section that major donors would appreciate",
+          "Dignity-first language throughout (e.g., 'neighbors,' not 'homeless people')",
+          "Realistic 72-hour and 30-day reporting commitment demonstrates accountability"
+        ],
+        "weaknesses": [
+          "Critical tone mismatch: Prompt requested FORMAL (measured, data-forward) for major donors, but output is labeled and written in DIRECT tone with phrases like 'We said yes. Now we need your help' and 'Every hour counts'\u2014too casual for $5K+ prospects",
+          "Opening lacks the measured sophistication major donors expect; reads more like mass appeal than tailored high-dollar communication",
+          "Subject lines are functional but not compelling for major donor segment\u2014they lack the gravitas and partnership framing that resonates with leadership-level givers",
+          "The P.S. uses slightly manipulative language ('worst storm of the year') that contradicts the prompt's instruction to avoid fear tactics",
+          "Body exceeds the 250-350 word guideline at approximately 420 words (not counting headers/signature), which may reduce impact",
+          "Minor: The salutation 'Dear [First Name / Friend]' should be '[First Name]' only for major donors who expect personalization"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Audience Segment: ALL DONORS\nTone: DIRECT (plain, calm-urgent)\n\nSubject line options:\n- Level 4 storm: Help open 150 emergency beds in 72 hours\n- Urgent: Raise $250,000 by Nov 6 to shelter neighbors from the Atmospheric River\n- 150 beds, 10 nights: Your gift keeps people safe this week\n\nPreheader: City asked us to add 150 overflow beds in 72 hours; $96 funds one storm bed-night; gifts $5,000+ matched 1:1 through Nov 6, 6 p.m. PT.\n\nDear [First Name],\n\nWhat happened: The National Weather Service issued a Level 4/4 Atmospheric River warning. The City has asked BayBridge to add 150 overflow beds within 72 hours.\n\nWho and where: Neighbors living outdoors in SoMa, the Tenderloin, and the Mission; seniors in RVs; and SRO residents at risk of flooding and power loss in San Francisco. This afternoon our SoMa team reported tents on 13th St. already soaked through; SRO managers on Turk and Capp confirmed water creeping into ground floors and flickering power; seniors in RVs near Showplace Square told us their batteries are failing.\n\nWe must raise $250,000 by November 6, 2025, 6:00 p.m. PT to open and staff 150 emergency storm beds for 10 nights, with meals, onsite nursing, and transportation. If we miss the deadline, we will have to reduce the number of beds and nights\u2014meaning people will sleep outside during the heaviest rain.\n\nYour gift will be used immediately:\n- 0\u201324 hours: Hire/onboard 40 on\u2011call shelter, nursing, and security staff; purchase 150 cots, blankets, and hygiene kits.\n- 24\u201348 hours: Set up Civic Center Community Center (375 Grove St.) and partner sites in SoMa and the Mission; stock meals and water.\n- 48\u201372 hours: Begin transportation and intake from SoMa, the Tenderloin, and the Mission; onsite nursing and casework nightly.\n- Storm window: Hot meals, power for device charging, and morning transit back to services.\n\nWe are ready to act. BayBridge has operated 600 nightly shelter beds for 35 years under a formal contract with SF Department of Homelessness and Supportive Housing. Audited financials. Last winter, we served 1,842 individuals during storms at 92% nightly capacity.\n\nImpact per gift:\n- $96 funds 1 storm bed\u2011night (staffing $58; meals $13; security/site $17; supplies/transit $8).\n- $1,000 = 10 safe bed\u2011nights with hot meals and transit.\n- $10,000 = 100 bed\u2011nights plus two overnight social worker shifts.\n- $50,000 = one week of overnight staffing and security at the Civic Center site.\n\nMatching opportunity: The Narayanan Family Foundation will match gifts of $5,000+ 1:1, up to $125,000 total, through November 6, 2025, 6:00 p.m. PT (cash and stock eligible).\n\nPlease give now at https://baybridgehs.org/storm-shelter/ or call (415) 555-7610.\n\nOther ways to give: check/DAF/stock/wire\u2014development@baybridgehs.org; DAF via EIN 94-2876503; checks: 1400 Mission St., Suite 500, San Francisco, CA 94103.\n\nWe will report back within 72 hours on initial impact and within 30 days on outcomes.\n\nWith gratitude,\n\nJordan Lee\nChief Executive Officer\n\nPriya Narayanan\nBoard Chair\n\nP.S. Deadline: November 6, 2025, 6:00 p.m. PT. Every $96 funds one storm bed\u2011night. Meeting the $250,000 goal opens 150 beds for 10 nights; falling short means fewer beds and shorter hours during the peak of the storm.\n\nBoard Fast-Track Justification (for approval):\nLevel 4/4 Atmospheric River; City requested 150 overflow beds within 72 hours. Goal: $250,000 by Nov 6, 2025, 6:00 p.m. PT to operate 150 beds for 10 nights with meals, nursing, and transport. Risk if unmet: fewer beds/nights and increased exposure for unsheltered neighbors during the heaviest rain. Matching gifts $5,000+ double up to $125,000.",
+      "timestamp": "2025-11-02T13:20:26.160029Z",
+      "duration_seconds": 48.21,
+      "tokens": {
+        "input": 952,
+        "output": 3574,
+        "total": 4526
+      },
+      "cost_usd": 0.056466,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 5,
+          "completeness": 8,
+          "usefulness": 6,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output is structurally complete and includes strong concrete details, but it critically fails the tone requirement. The prompt specified MAJOR DONORS with FORMAL (measured, data-forward) tone, but the output is labeled 'ALL DONORS' with 'DIRECT (plain, calm-urgent)' tone. This mismatch significantly undermines usefulness for the intended audience.",
+        "strengths": [
+          "Excellent specificity and concrete details (e.g., '13th St. tents soaked through,' 'SRO managers on Turk and Capp,' 'RVs near Showplace Square')\u2014these witnessed details build credibility without sensationalism",
+          "Strong cost transparency with detailed breakdown ($96 per bed-night itemized by category) that aligns with data-forward approach major donors expect",
+          "Clear timeline and operational plan (0-24 hours, 24-48 hours structure) demonstrates organizational readiness",
+          "Impact ladder is concrete and verifiable, tied to real operational costs",
+          "Dignity-first language maintained throughout (e.g., 'neighbors living outdoors' rather than 'homeless people')",
+          "Board Fast-Track Justification is concise and decision-ready",
+          "All structural elements present: subject lines, preheader, body, CTA, P.S., alternative giving methods, reporting commitment"
+        ],
+        "weaknesses": [
+          "CRITICAL ERROR: Wrong audience segment and tone\u2014output says 'ALL DONORS' and 'DIRECT' but scenario requires 'MAJOR DONORS' and 'FORMAL (measured, data-forward).' Major donors expect more sophisticated framing, less granular operational detail in opening, and strategic context",
+          "Salutation uses '[First Name]' merge tag, which is appropriate for all-donor emails but major donor appeals typically use personal salutations or are individually customized\u2014this signals the wrong tier",
+          "Opening paragraph structure is too blunt for major donors\u2014'What happened:' and 'Who and where:' as headers feels like an internal brief rather than a formal appeal to high-capacity philanthropists",
+          "Word count appears to exceed 350-word guideline for body (approximately 380-400 words before signatures), making it dense for email",
+          "Match details could be positioned more prominently for major donors\u2014currently buried in middle rather than highlighted as strategic leverage opportunity",
+          "Minor: 'This afternoon our SoMa team reported...' creates false immediacy if email is sent over multiple days; should be 'Our SoMa team reports' or dated specifically"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.2983,
+    "average_score": 8.02
+  }
+}

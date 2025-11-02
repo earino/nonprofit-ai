@@ -1,0 +1,511 @@
+{
+  "prompt_id": "instagram-caption-bts",
+  "prompt_text": "Write an Instagram behind-the-scenes caption for a nonprofit that humanizes your organization and drives authentic engagement.\n\nREQUIRED INPUTS (fill these in):\n- [ORGANIZATION NAME]\n- [MISSION IN 1 LINE]\n- [PHOTO DESCRIPTION] \u2014 what\u2019s literally visible in the image\n- [WHO IS IN PHOTO] + [CONSENT STATUS: approved/not approved/no people]\n- [GOAL FOR POST: awareness/engagement/volunteer recruitment/donations/education]\n\nOPTIONAL INPUTS (defaults used if skipped):\n- [PROGRAM/PROJECT] (default: general org work)\n- [LOCATION] (city/region; default: org\u2019s main location)\n- [IS CAROUSEL: YES/NO] (default: NO)\n- [CTA] (default: AI suggests based on goal)\n- [HASHTAG THEMES] (default: derived from mission)\n- [STAFF/PARTNER TAGS] (default: none)\n- [SENSITIVE DETAILS TO OMIT] (default: no minors\u2019 full names; no restricted info)\n- [EMOJI POLICY: NONE/LIGHT (1\u20132)/PLAYFUL (3\u20135)] (default: LIGHT)\n- [TONE: FORMAL/WARM/CASUAL] (default: WARM)\n\nCAPTION STRUCTURE:\n\n1) HOOK (3\u20138 words)\n- Spark curiosity using a detail from [PHOTO DESCRIPTION]\n- Avoid clickbait or questions you don\u2019t answer\n- Example: \"This whiteboard holds 47 ideas\" or \"Meet the 6am crew\"\n\n2) BODY (40\u201380 words)\n- Micro-story formula:\n  \u2022 What\u2019s happening: describe the action/moment in the photo\n  \u2022 Why it matters: connect to [MISSION IN 1 LINE] or community impact\n  \u2022 Concrete detail: one sensory element from [PHOTO DESCRIPTION] (sound, object, quote, expression, small win)\n- Use 1\u20132 line breaks for mobile readability\n- Consent-first: Use first names/roles only if [CONSENT STATUS]=approved; no minors\u2019 full names. If not approved, avoid identifying details and write in group/general terms.\n- If the image is simple, highlight a small win or sensory detail.\n\n3) IF [IS CAROUSEL]=YES\n- Add after the body (before CTA): \"Swipe to see [what slide 2 shows] and [what slide 3 shows]\" (be specific)\n- This line does NOT count toward the 40\u201380 word body limit\n\n4) CALL-TO-ACTION\n- Align to [GOAL FOR POST]. If [CTA] is provided, use it. Otherwise choose one:\n  \u2022 Awareness: \"What surprised you most?\"\n  \u2022 Engagement: \"Have you experienced this too?\"\n  \u2022 Volunteer recruitment: \"Volunteer info in bio\u2014join us!\"\n  \u2022 Donations: \"Link in bio to support this work.\"\n  \u2022 Education: \"What questions do you have for our team?\"\n\n5) HASHTAGS (5\u20138 total)\n- Mix:\n  \u2022 2 cause-related (e.g., #FoodJustice #YouthMentalHealth)\n  \u2022 2 location-specific (e.g., #PhillyNonprofit #BayAreaVolunteers)\n  \u2022 1\u20132 community/identity (e.g., #NonprofitLife #SocialWorkersOfIG)\n  \u2022 1\u20132 campaign-specific if applicable (e.g., #GivingTuesday #VolunteerWeek)\n- Prioritize specificity over popularity; avoid generic #Nonprofit #Charity unless truly needed\n\n6) TAGGING\n- In-caption: Tag up to 2 handles from [STAFF/PARTNER TAGS] only if [CONSENT STATUS]=approved\n- Note separately: \"Also tag in photo: [handles]\" if applicable\n- If consent not approved or no people in photo: do not tag individuals\n\n7) ACCESSIBILITY: ALT TEXT\n- Write 120\u2013200 characters describing:\n  \u2022 Who: roles/activities (not names unless public figures)\n  \u2022 Where: setting/environment\n  \u2022 What: key actions/objects\n- Describe what\u2019s visible; avoid value judgments\n\n8) SUGGESTED POST TIME\n- Recommend 11am\u20131pm or 7\u20139pm in [LOCATION]\u2019s time zone (infer from [LOCATION]; if missing, use org\u2019s main location)\n- Briefly explain why this window fits the audience and [GOAL FOR POST] for this content\n\nOUTPUT ORDER:\n1. Hook line\n2. Body (with 1\u20132 line breaks)\n3. Carousel swipe line (only if [IS CAROUSEL]=YES)\n4. CTA/Question\n5. Hashtags\n6. Handles to tag (in-caption + in-photo)\n7. Alt text\n8. Suggested post time + rationale\n\nTONE GUIDE:\n- FORMAL: Clear, professional, 0\u20131 emoji. For funders/partners or sensitive topics.\n- WARM: Neighborly, appreciative, 1\u20132 emojis. Default nonprofit voice\u2014approachable and credible.\n- CASUAL: Playful, youth-friendly, 3\u20135 emojis; light slang OK. For peer audiences or informal programs.\n\nWHAT TO AVOID:\n- Savior language (\"giving them a voice,\" \"saving,\" \"helping the less fortunate\")\n- Clich\u00e9s (\"changing the world,\" \"making a difference\" without specifics)\n- Jargon or acronyms without context\n- Clickbait hooks that don\u2019t deliver\n- Any info from [SENSITIVE DETAILS TO OMIT]; no minors\u2019 full names\n- Corporate/salesy tone\u2014keep it mission- and community-centered\n- Individual staff sign-offs\u2014voice represents [ORGANIZATION NAME]\n\nCONFLICT RESOLUTION:\n- If [PHOTO DESCRIPTION] and [GOAL FOR POST] don\u2019t align (e.g., candid volunteer laughter vs. donation ask), prioritize authentic storytelling and adjust the CTA to engagement/awareness. Add a note if needed: \"This image may perform better for engagement; for a donation ask, pair a direct impact photo or testimonial.\"\n\nEXAMPLE OUTPUT:\n\nHook: This is what 4am looks like\n\nBody:\nOur street outreach team starts before sunrise, when the city's quietest and conversations happen easier.\n\nThis morning, Maria (our peer navigator) connected two people to shelter beds and shared 14 warm meals. The thermoses in this photo? Donated by a local caf\u00e9 owner who believes everyone deserves hot coffee. \u2615\n\nCTA: Have questions about street outreach? Drop them below.\n\nHashtags: #StreetOutreach #PhillyHomeless #HarmReduction #PeerSupport #CommunityFirst #SocialWorkersOfInstagram\n\nHandles to tag:\nIn caption: @peersupportnetwork\nAlso tag in photo: @mariapeersupport (with consent)\n\nAlt text: Street outreach worker in a winter jacket holds two thermoses beside a supply cart at dawn on a quiet city street; buildings and streetlights in view.\n\nSuggested post time: 7\u20139pm ET \u2014 catches supporters after work when engagement peaks for Q&A-style posts; evening contrast with a predawn scene sparks conversation.\n\nYour caption should feel like a trusted colleague sharing a meaningful moment\u2014specific, warm, and consent-first. Invite people in rather than perform impact.",
+  "category": "communications",
+  "generated_at": "2025-11-02T13:19:17.835131Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Neighborhood mutual aid group in an urban setting focused on food access; relies on volunteers and local partners.",
+      "values": {
+        "ORGANIZATION NAME": "Eastriver Mutual Aid",
+        "MISSION IN 1 LINE": "Neighbors sharing food, care, and resources across Detroit\u2019s east side.",
+        "PHOTO DESCRIPTION": "Sunlit church basement with metal shelves and colorful produce crates; two volunteers in blue tees restock a community fridge while a third wipes down a table; a handwritten sign reads \u201cTake what you need.\u201d",
+        "WHO IS IN PHOTO": "Two adult volunteers and the program coordinator (no minors)",
+        "CONSENT STATUS": "approved",
+        "GOAL FOR POST": "volunteer recruitment",
+        "PROGRAM/PROJECT": "Community Fridge + Pantry",
+        "LOCATION": "Detroit, MI",
+        "IS CAROUSEL": "NO",
+        "CTA": "Volunteer info in bio\u2014join us!",
+        "HASHTAG THEMES": [
+          "Food security",
+          "Mutual aid",
+          "Detroit volunteers",
+          "Community pantry",
+          "Neighborhood care"
+        ],
+        "STAFF/PARTNER TAGS": [
+          "@StMarksOnJefferson",
+          "@MotorCityCares"
+        ],
+        "SENSITIVE DETAILS TO OMIT": "No client names or faces without consent; do not share the exact pantry address; avoid showing any personal notes on request forms.",
+        "EMOJI POLICY": "LIGHT (1\u20132)",
+        "TONE": "WARM",
+        "what slide 2 shows": "N/A",
+        "what slide 3 shows": "N/A",
+        "handles": [
+          "@eastrivermutualaid",
+          "@StMarksOnJefferson",
+          "@MotorCityCares"
+        ]
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Regional literacy nonprofit serving rural communities; programmatic focus on adult education and workforce readiness.",
+      "values": {
+        "ORGANIZATION NAME": "High Plains Literacy Council",
+        "MISSION IN 1 LINE": "We provide free adult literacy, ESL, and GED tutoring across southwest Kansas.",
+        "PHOTO DESCRIPTION": "Quiet library classroom; volunteer tutor and adult learner sit side-by-side at a wooden table with an open grammar workbook; sticky notes on a whiteboard read \u201cjob app\u201d and \u201ccitizenship\u201d; a mug of tea steams nearby.",
+        "WHO IS IN PHOTO": "One volunteer tutor and one adult learner",
+        "CONSENT STATUS": "not approved",
+        "GOAL FOR POST": "education",
+        "PROGRAM/PROJECT": "Workforce English",
+        "LOCATION": "Dodge City, KS",
+        "IS CAROUSEL": "YES",
+        "CTA": "What questions do you have for our team?",
+        "HASHTAG THEMES": [
+          "Adult literacy",
+          "ESL education",
+          "Rural learning",
+          "Workforce readiness",
+          "Libraries"
+        ],
+        "STAFF/PARTNER TAGS": [
+          "@DodgeCityLibrary",
+          "@SouthwestKSWorks"
+        ],
+        "SENSITIVE DETAILS TO OMIT": "No client names or identifying details; do not mention immigration status or employers; avoid clear shots of faces.",
+        "EMOJI POLICY": "NONE",
+        "TONE": "FORMAL",
+        "what slide 2 shows": "Close-up of vocabulary flashcards and a bilingual word list on the table.",
+        "what slide 3 shows": "Bookshelf with free GED prep books and a small sign that reads \u201cTake one.\u201d",
+        "handles": [
+          "@highplainsliteracy",
+          "@DodgeCityLibrary",
+          "@SouthwestKSWorks"
+        ]
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Well-resourced disaster relief nonprofit operating across the West Coast; active corporate and individual donor base.",
+      "values": {
+        "ORGANIZATION NAME": "Pacific Relief Coalition",
+        "MISSION IN 1 LINE": "We mobilize volunteers and supplies to help West Coast communities prepare for and recover from disasters.",
+        "PHOTO DESCRIPTION": "Busy warehouse with assembly tables; staff in branded vests pack N95 masks, air filter replacements, and bilingual smoke safety cards into kits; a pallet jack and shrink-wrapped pallets sit in the background; a clipboard checklist rests by tape dispensers.",
+        "WHO IS IN PHOTO": "Warehouse team (four adults) preparing kits",
+        "CONSENT STATUS": "approved",
+        "GOAL FOR POST": "donations",
+        "PROGRAM/PROJECT": "Wildfire Smoke Relief Kits",
+        "LOCATION": "Seattle, WA",
+        "IS CAROUSEL": "YES",
+        "CTA": "Link in bio to support this work.",
+        "HASHTAG THEMES": [
+          "Disaster response",
+          "Wildfire smoke",
+          "Public health",
+          "West Coast relief",
+          "Emergency preparedness"
+        ],
+        "STAFF/PARTNER TAGS": [
+          "@RainierHealthClinic",
+          "@PNWLogisticsCorp"
+        ],
+        "SENSITIVE DETAILS TO OMIT": "Do not show warehouse address, personal phone numbers, or close-ups of staff ID badges; avoid revealing delivery route specifics.",
+        "EMOJI POLICY": "LIGHT (1\u20132)",
+        "TONE": "WARM",
+        "what slide 2 shows": "A volunteer sealing kits and labeling boxes by neighborhood.",
+        "what slide 3 shows": "Stacked pallets ready for delivery with a route map pinned on the wall.",
+        "handles": [
+          "@pacificrelief",
+          "@RainierHealthClinic",
+          "@PNWLogisticsCorp"
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Hook: Take what you need\n\nBody:\nBehind every full Community Fridge + Pantry in Detroit, there are hands working with care. Here, two dedicated volunteers and our program coordinator restock shelves, ensuring our neighbors have access to fresh groceries.\n\nIt\u2019s about more than just food; it's Neighbors sharing food, care, and resources across Detroit\u2019s east side, creating a cycle of mutual support. That handwritten \"Take what you need\" sign? Pure heart. \ud83c\udf4e\n\nCTA: Volunteer info in bio\u2014join us!\n\nHashtags: #FoodSecurity #MutualAid #DetroitVolunteers #CommunityPantry #NeighborhoodCare #Detroit\n\nHandles to tag:\nIn caption: @StMarksOnJefferson @MotorCityCares\nAlso tag in photo: @eastrivermutualaid @StMarksOnJefferson @MotorCityCares\n\nAlt text: Two volunteers in blue shirts and a program coordinator restock a community fridge and shelves with colorful produce crates in a sunlit church basement; a handwritten sign reads \u201cTake what you need.\u201d\n\nSuggested post time: 11am\u20131pm ET \u2014 This window typically sees high engagement during lunch breaks, making it ideal for reaching potential volunteers looking for ways to get involved in the community during their day.",
+      "timestamp": "2025-11-02T13:15:51.507682Z",
+      "duration_seconds": 1.94,
+      "tokens": {
+        "input": 1778,
+        "output": 257,
+        "total": 2035
+      },
+      "cost_usd": 0.000421,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "The output follows the template structure well and maintains an appropriate warm, community-centered tone. However, it has some notable weaknesses: the hook lacks specificity and curiosity-building power, the body includes a somewhat awkward full mission statement insertion, and there are minor tagging inconsistencies. The caption would likely work but needs light editing before use.",
+        "strengths": [
+          "Excellent adherence to consent protocols and sensitivity guidelines (no client details, appropriate volunteer identification)",
+          "Strong sensory detail with the handwritten sign callback that humanizes the work",
+          "Appropriate emoji use (1-2, matching LIGHT policy) and warm, neighborly tone without savior language",
+          "Comprehensive alt text that describes roles and setting without naming individuals",
+          "Solid hashtag strategy mixing cause, location, and community themes with good specificity",
+          "Logical post time recommendation with clear rationale tied to volunteer recruitment goal"
+        ],
+        "weaknesses": [
+          "Hook is weak\u2014'Take what you need' is just the sign text, not a curiosity-sparking detail (template calls for 3-8 words that create intrigue; something like 'This sign gets rewritten weekly' or 'Three hands, 200 neighbors fed' would be stronger)",
+          "Body awkwardly inserts the full mission statement verbatim ('Neighbors sharing food, care, and resources across Detroit's east side') which reads as forced rather than natural storytelling",
+          "Tagging confusion: lists @eastrivermutualaid under 'Also tag in photo' but this is the organization's own handle (should be implicit); the template asks for staff/partner tags only, and it's unclear if the org should tag itself in its own photo",
+          "Body is 79 words (just under the 80-word limit) but feels slightly padded with the mission statement insertion\u2014could be tighter",
+          "Missing a concrete sensory detail beyond the sign\u2014could mention the sunlight, the sound of crates, the smell of fresh produce, or a specific volunteer action to add more texture"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**Hook:** \"Take what you need\" means it\n\n**Body:**\nThursday mornings at the community fridge look like this: restocking fresh greens and potatoes, wiping down tables, making sure the space feels welcoming.\n\nOur volunteers keep this corner of Detroit's east side stocked so neighbors can grab what they need without questions or paperwork. That handwritten sign? It's been on the wall since day one\u2014a reminder that food is a right, not a favor.\n\nThis week we've already restocked twice. \ud83e\udd6c\n\n**CTA:** Volunteer info in bio\u2014join us!\n\n**Hashtags:** #DetroitMutualAid #FoodJustice #EastsideDetroit #CommunityFridge #NeighborhoodCare #DetroitVolunteers\n\n**Handles to tag:**\nIn caption: @StMarksOnJefferson @MotorCityCares\nAlso tag in photo: @StMarksOnJefferson @MotorCityCares\n\n**Alt text:** Sunlit church basement with metal shelves holding colorful produce crates; three volunteers in blue t-shirts restock a community fridge and clean tables; handwritten sign reads \"Take what you need.\"\n\n**Suggested post time:** 11am\u20131pm EST \u2014 Catches the lunch-scroll crowd when people are thinking about food and community; strong window for volunteer recruitment as folks browse opportunities during their midday break.",
+      "timestamp": "2025-11-02T13:15:59.190861Z",
+      "duration_seconds": 9.63,
+      "tokens": {
+        "input": 2000,
+        "output": 327,
+        "total": 2327
+      },
+      "cost_usd": 0.010905,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This output demonstrates strong adherence to the prompt template with appropriate warm tone, consent-first language, and mutual aid values. The caption avoids savior language and feels authentic to grassroots organizing. Minor weakness: the hook could be slightly more specific/curiosity-driving, and the body is at the lower end of the 40-80 word range.",
+        "strengths": [
+          "Excellent avoidance of savior language\u2014'food is a right, not a favor' centers dignity and mutual aid principles authentically",
+          "Strong concrete detail (handwritten sign, restocked twice this week) that grounds the story without being performative",
+          "Proper consent handling and partner tagging; alt text is descriptive and appropriate length",
+          "Hook is punchy and connects directly to the visible sign in the photo",
+          "Hashtags are specific and well-balanced between cause, location, and community themes",
+          "Post timing rationale is thoughtful and connects food imagery to lunch-scroll behavior",
+          "Body structure uses effective line breaks for mobile readability"
+        ],
+        "weaknesses": [
+          "Body word count is ~58 words, functional but on the lower end of the 40-80 range\u2014could add one more sensory or impact detail",
+          "Hook 'means it' is slightly vague; could be more curiosity-sparking (e.g., 'This sign has been up since day one' or 'Take what you need\u2014no questions asked')",
+          "The emoji placement after 'restocked twice' feels slightly tacked on rather than organic to the sentence flow"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Sunlight, blue tees, open fridge\n\nIn a sunlit church basement, two volunteers restock the community fridge while our coordinator wipes down the table, getting the space ready for the next neighbor stop-in.  \nMetal shelves clink as colorful crates slide into place, and the handwritten sign says, \u201cTake what you need.\u201d At Eastriver Mutual Aid, this is how Detroit\u2019s east side shares food and care\u2014steady, neighbor to neighbor. \ud83e\udd55\n\nVolunteer info in bio\u2014join us!\n\nHashtags: #FoodSecurity #MutualAid #CommunityFridge #DetroitMI #EastsideDetroit #DetroitVolunteers #CommunityCare #NonprofitLife\n\nHandles to tag:\nIn caption: (none)\nAlso tag in photo: ['@eastrivermutualaid', '@StMarksOnJefferson', '@MotorCityCares']\n\nAlt text: Sunlit church basement with metal shelves and colorful produce crates. Two adult volunteers in blue T-shirts restock a community fridge while a program coordinator wipes a table; a sign reads \u201cTake what you need.\u201d\n\nSuggested post time: 7\u20139pm ET \u2014 evening scroll time in Detroit, when neighbors are off work and more likely to DM, save, and sign up for volunteer shifts.",
+      "timestamp": "2025-11-02T13:16:59.442952Z",
+      "duration_seconds": 69.88,
+      "tokens": {
+        "input": 1717,
+        "output": 3715,
+        "total": 5432
+      },
+      "cost_usd": 0.060876,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output demonstrates strong tone and authentic nonprofit voice with concrete sensory details. However, it has notable structural issues: the hook exceeds the 3-8 word limit, the body is under the 40-80 word minimum, and the tagging instructions contain a formatting error (Python list syntax instead of plain text).",
+        "strengths": [
+          "Excellent sensory detail ('Metal shelves clink as colorful crates slide into place') that brings the scene to life",
+          "Warm, neighbor-centered language that avoids savior tropes and aligns perfectly with mutual aid values",
+          "Strong mission integration connecting the moment to 'steady, neighbor to neighbor' care",
+          "Appropriate emoji use (1 carrot emoji) matching LIGHT policy",
+          "Well-crafted alt text that describes without interpreting",
+          "Thoughtful post timing rationale specific to Detroit audience and volunteer recruitment goal",
+          "Hashtag mix balances cause (#FoodSecurity #MutualAid), location (#DetroitMI #EastsideDetroit), and community (#NonprofitLife)"
+        ],
+        "weaknesses": [
+          "Hook is 5 words ('Sunlight, blue tees, open fridge') which technically fits 3-8 range but reads awkwardly\u2014lacks verb or clear intrigue compared to template examples",
+          "Body is only 62 words when counting generously, but feels thin; could use one more concrete detail or micro-moment",
+          "Critical error in tagging section: 'Also tag in photo: ['@eastrivermutualaid', '@StMarksOnJefferson', '@MotorCityCares']' uses Python list syntax instead of natural language\u2014would confuse a nonprofit user",
+          "In-caption tagging shows '(none)' but the scenario provides partner tags (@StMarksOnJefferson, @MotorCityCares) that could strengthen community connection; missed opportunity",
+          "Word count appears borderline for body (may be under 40 words depending on how line breaks are counted)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Here's the Instagram caption for High Plains Literacy Council:\n\nQuiet learning in session. \ud83d\udcda\n\nThis scene captures the heart of what High Plains Literacy Council does: a volunteer tutor and an adult learner, side-by-side, navigating a grammar workbook. Whether it's for a \"job app\" or \"citizenship\" (as those sticky notes hint \ud83d\ude09), every warm mug of tea represents focused dedication to a brighter future here in southwest Kansas. We\u2019re empowering dreams, one lesson at a time.\n\nWhat questions do you have for our team?\n\n#AdultLiteracy #ESLEducation #RuralLearning #WorkforceReadiness #Libraries #DodgeCityKS #SouthwestKansas\n\nHandles to tag:\nIn caption: @DodgeCityLibrary @SouthwestKSWorks\nAlso tag in photo: @highplainsliteracy\n\nAlt text: A volunteer tutor and adult learner sit at a wooden table in a quiet library classroom, looking at an open grammar workbook. Sticky notes on a whiteboard say \"job app\" and \"citizenship.\" A steaming mug of tea sits nearby.\n\nSuggested post time: 7\u20139pm CT \u2014 This evening window is often when our community members are winding down and more likely to engage with educational content and Q&A posts about local services in Dodge City, KS.",
+      "timestamp": "2025-11-02T13:17:01.143016Z",
+      "duration_seconds": 1.7,
+      "tokens": {
+        "input": 1820,
+        "output": 265,
+        "total": 2085
+      },
+      "cost_usd": 0.000432,
+      "success": true,
+      "evaluation": {
+        "overall_score": 5.2,
+        "criteria_scores": {
+          "tone": 3,
+          "completeness": 4,
+          "usefulness": 6,
+          "accuracy": 5,
+          "authenticity": 8
+        },
+        "reasoning": "The output violates multiple critical requirements: it uses emojis and a winking emoticon despite EMOJI POLICY: NONE and TONE: FORMAL; it completely omits the required carousel swipe line despite IS CAROUSEL: YES; and it includes problematic language ('empowering dreams') that the prompt explicitly warns against. The consent-first approach is handled well, but these structural failures significantly undermine usability.",
+        "strengths": [
+          "Excellent consent-first handling\u2014no identifying details, appropriate generalized language for unapproved consent status",
+          "Strong sensory detail (steaming mug of tea) and concrete photo elements (sticky notes) woven naturally into narrative",
+          "Alt text is well-crafted, descriptive, and appropriately avoids names while conveying the scene",
+          "Hook is simple and effective ('Quiet learning in session')",
+          "Hashtags are appropriately specific and well-balanced across themes",
+          "Post timing rationale is thoughtful and audience-appropriate"
+        ],
+        "weaknesses": [
+          "Critical violation: Uses 2 emojis (\ud83d\udcda and \ud83d\ude09) when EMOJI POLICY explicitly set to NONE and TONE set to FORMAL",
+          "Missing required carousel swipe line\u2014prompt explicitly states 'Add after the body (before CTA): Swipe to see [what slide 2 shows] and [what slide 3 shows]' but this is completely absent",
+          "Uses clich\u00e9 language the prompt warns against: 'empowering dreams, one lesson at a time' falls into the 'making a difference without specifics' category",
+          "Body exceeds the 40-80 word limit (appears to be ~85 words)",
+          "The winking emoji \ud83d\ude09 creates an inappropriately casual tone for formal setting and potentially sensitive educational context",
+          "Does not mention the program name 'Workforce English' which was provided as context"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**Hook:** Those sticky notes? Two big dreams.\n\n**Body:**\nEvery Tuesday evening at Dodge City Library, our volunteer tutors sit side-by-side with adult learners working toward goals that matter: landing a job, passing the citizenship test, earning a GED.\n\nTonight's lesson? Grammar for workplace emails. The workbook is open, the tea is still warm, and somewhere between verb tenses and vocabulary lists, confidence is building. \ud83d\udcda\n\nThis is Workforce English in action\u2014practical skills that open doors across southwest Kansas.\n\n**CTA:** What questions do you have for our team?\n\n**Hashtags:** #AdultLiteracy #ESLEducation #WorkforceReadiness #RuralLearning #SouthwestKS #DodgeCityKS #NonprofitLife\n\n**Handles to tag:**\nIn caption: @DodgeCityLibrary @SouthwestKSWorks\nAlso tag in photo: @DodgeCityLibrary @SouthwestKSWorks\n\n**Alt text:** Volunteer tutor and adult learner sit at wooden library table with open grammar workbook; whiteboard behind them shows sticky notes reading \"job app\" and \"citizenship\"; mug steams nearby.\n\n**Suggested post time:** 7\u20139pm CST \u2014 Evening window reaches working adults and potential volunteers after dinner when they're scrolling for meaningful content; education-focused posts perform well when audiences have time to reflect and ask thoughtful questions.",
+      "timestamp": "2025-11-02T13:17:08.778074Z",
+      "duration_seconds": 9.33,
+      "tokens": {
+        "input": 2045,
+        "output": 330,
+        "total": 2375
+      },
+      "cost_usd": 0.011085,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 5,
+          "completeness": 7,
+          "usefulness": 7,
+          "accuracy": 6,
+          "authenticity": 9
+        },
+        "reasoning": "The output is well-written and authentic but contains critical errors. It violates the FORMAL tone requirement by including an emoji, misses the carousel swipe instruction entirely despite IS CAROUSEL=YES, and the alt text exceeds the 120-200 character limit. These are significant compliance failures that would require editing before use.",
+        "strengths": [
+          "Excellent hook that draws from photo details ('Those sticky notes? Two big dreams') and avoids clickbait",
+          "Strong consent-first approach\u2014no identifying details about learners, appropriately general language",
+          "Body storytelling is concrete and mission-aligned with sensory details (warm tea, verb tenses) and avoids savior language",
+          "Hashtags are appropriately specific and well-balanced across cause, location, and community themes",
+          "Post timing rationale is thoughtful and audience-appropriate for rural Kansas context",
+          "Authentic voice that feels genuinely nonprofit rather than corporate or robotic"
+        ],
+        "weaknesses": [
+          "CRITICAL: Violates EMOJI POLICY: NONE by including \ud83d\udcda emoji\u2014FORMAL tone explicitly requires 0-1 emoji, and NONE was specified",
+          "CRITICAL: Missing carousel swipe instruction\u2014prompt requires 'Swipe to see [slide 2] and [slide 3]' after body when IS CAROUSEL=YES, but this is completely absent",
+          "Alt text is 181 characters but reads awkwardly compressed; could be more naturally written within the 120-200 limit",
+          "Body is 79 words, at the very top of the 40-80 range\u2014could be tightened slightly for mobile readability",
+          "Minor: 'Tonight's lesson?' uses a question format that slightly softens the formal tone, though not egregious"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Steam, sticky notes, steady progress\n\nIn a quiet corner of the Dodge City library, a volunteer tutor and an adult learner work through a grammar page together\u2014slow, steady, side-by-side.  \nOn the whiteboard, sticky notes read \u201cjob app\u201d and \u201ccitizenship,\u201d mapping tonight\u2019s goals. The tea is warm, the wins are small but real: clearer sentences, stronger confidence. High Plains Literacy Council offers free adult literacy, ESL, and GED tutoring across southwest Kansas. \u2615\ud83d\udcda\n\nHave you experienced this too?\n\nHashtags: #AdultLiteracy #ESLEducation #RuralLearning #WorkforceReadiness #DodgeCityKS #SouthwestKansas #LibrariesOfInstagram #NonprofitLife\n\nHandles to tag:\nIn caption: \nAlso tag in photo: ['@highplainsliteracy', '@DodgeCityLibrary', '@SouthwestKSWorks']\n\nAlt text: Quiet library classroom in Dodge City, KS. A volunteer tutor and an adult learner sit side-by-side at a wooden table with an open grammar workbook; whiteboard shows \u201cjob app\u201d and \u201ccitizenship\u201d; a mug of tea steams.\n\nSuggested post time: 7\u20139pm CT \u2014 evening windows capture volunteers, adult learners, and supporters after work, and engagement-style prompts tend to get more thoughtful comments at night.",
+      "timestamp": "2025-11-02T13:17:56.332809Z",
+      "duration_seconds": 56.89,
+      "tokens": {
+        "input": 1761,
+        "output": 3222,
+        "total": 4983
+      },
+      "cost_usd": 0.053613,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 5,
+          "completeness": 6,
+          "usefulness": 7,
+          "accuracy": 7,
+          "authenticity": 9
+        },
+        "reasoning": "The output demonstrates strong storytelling and authentic voice, but contains critical errors in following explicit instructions. The tone requirement (FORMAL, EMOJI POLICY: NONE) was violated with two emojis, the wrong CTA was used, the carousel swipe line is missing, and hashtag count/composition doesn't match guidelines. These are not subjective quality issues but clear instruction failures that would require editing before use.",
+        "strengths": [
+          "Excellent hook that's specific and evocative ('Steam, sticky notes, steady progress')",
+          "Strong consent-first approach\u2014no identifying details, appropriate generalization for unapproved consent status",
+          "Authentic, grounded storytelling with concrete sensory details (warm tea, sticky notes, 'slow, steady, side-by-side')",
+          "Avoids savior language and clich\u00e9s; maintains dignity-centered framing",
+          "Alt text is descriptive and appropriate length",
+          "Good body structure with clear mission connection and specific program detail"
+        ],
+        "weaknesses": [
+          "CRITICAL: Used 2 emojis (\u2615\ud83d\udcda) when EMOJI POLICY explicitly set to NONE and TONE set to FORMAL",
+          "CRITICAL: Missing carousel swipe line\u2014prompt specified IS CAROUSEL: YES with specific slide descriptions provided, but no 'Swipe to see...' instruction included",
+          "Wrong CTA used: prompt provided specific CTA 'What questions do you have for our team?' but output used 'Have you experienced this too?' (an engagement CTA)",
+          "Hashtag issues: used 8 hashtags (correct count) but composition is off\u2014#NonprofitLife and #LibrariesOfInstagram are generic; missing campaign-specific tags; only 1 cause-related instead of 2",
+          "Tag formatting error: 'Also tag in photo:' shows a Python list format ['@handle'] instead of clean handle listing",
+          "Body word count appears to exceed 80 words (approximately 85-90 words by manual count)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Hook line: Behind the scenes of West Coast wildfire preparedness.\n\nBody:\nOur Pacific Relief Coalition team in Seattle is hard at work assembling Wildfire Smoke Relief Kits. Every N95 mask, air filter, and bilingual smoke safety card packed ensures families are better prepared when disaster strikes.\n\nThat clipboard checklist isn't just paper\u2014it's a promise to communities like yours that every kit is complete and ready. \ud83d\udce6\n\nCTA: Link in bio to support this work.\n\nHashtags: #DisasterResponse #WildfireSmoke #PublicHealth #WestCoastRelief #EmergencyPreparedness #SeattleNonprofit #CommunitySafety\n\nHandles to tag:\nIn caption: @RainierHealthClinic @PNWLogisticsCorp\nAlso tag in photo: @pacificrelief @RainierHealthClinic @PNWLogisticsCorp\n\nAlt text: Four adults in branded vests pack N95 masks, air filters, and smoke safety cards into relief kits at assembly tables in a busy warehouse. Pallets of supplies are in the background.\n\nSuggested post time: 11am\u20131pm PT \u2014 During midday, people often browse social media during breaks, and this timing allows for maximum visibility and engagement with content promoting donations.",
+      "timestamp": "2025-11-02T13:17:58.648917Z",
+      "duration_seconds": 2.31,
+      "tokens": {
+        "input": 1833,
+        "output": 247,
+        "total": 2080
+      },
+      "cost_usd": 0.000423,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 5,
+          "usefulness": 6,
+          "accuracy": 7,
+          "authenticity": 6
+        },
+        "reasoning": "The output follows the warm tone and includes most structural elements, but fails critical requirements: the hook is generic and too long (8 words), misses the carousel swipe instruction entirely despite IS CAROUSEL=YES, and lacks the sensory/concrete detail that makes behind-the-scenes content compelling. The body reads more like a press release than an authentic peek behind the curtain.",
+        "strengths": [
+          "Tone is appropriately warm and professional for a large established nonprofit",
+          "Alt text is well-constructed and descriptive without being overly detailed",
+          "Hashtags are specific and well-balanced across cause, location, and community themes",
+          "Consent handling is correct\u2014tags approved staff/partners appropriately",
+          "CTA matches the donation goal as specified"
+        ],
+        "weaknesses": [
+          "Hook violates the 3\u20138 word guideline and lacks curiosity spark\u2014'Behind the scenes of West Coast wildfire preparedness' is 8 words but reads like a headline, not an engaging hook. Compare to template examples like 'This whiteboard holds 47 ideas'",
+          "CRITICAL MISS: Completely omits the carousel swipe line ('Swipe to see...') despite IS CAROUSEL=YES and detailed slide descriptions provided. This is a structural requirement",
+          "Body lacks the required concrete sensory detail\u2014mentions the clipboard but doesn't bring it to life with a quote, sound, or micro-moment. The 'promise' line feels abstract rather than grounded",
+          "Body word count appears to be only ~50 words, on the lower end of the 40\u201380 range, and could use more storytelling depth",
+          "Authenticity suffers from corporate phrasing: 'communities like yours' feels presumptive, and 'hard at work' is clich\u00e9. Missing the human micro-story that makes BTS content work",
+          "Post time rationale is generic ('people browse during breaks') rather than specific to donation asks or this audience type"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**Hook:** 500 kits, 4 pairs of hands\n\n**Body:**\nYesterday our warehouse team packed Wildfire Smoke Relief Kits bound for communities across the Pacific Northwest\u2014each one holds N95 masks, air filter replacements, and bilingual safety cards.\n\nThe checklist by the tape? It's how we make sure families who need clean air don't have to wait. Thanks to @RainierHealthClinic and @PNWLogisticsCorp, these kits will reach doorsteps before the next smoke event hits. \ud83d\udc99\n\n**CTA:** Link in bio to support this work.\n\n**Hashtags:** #WildfirePreparedness #SeattleNonprofit #DisasterRelief #PNWCommunity #CleanAirForAll #EmergencyResponse #WestCoastRelief\n\n**Handles to tag:**\nIn caption: @RainierHealthClinic @PNWLogisticsCorp\nAlso tag in photo: @pacificrelief @RainierHealthClinic @PNWLogisticsCorp\n\n**Alt text:** Four staff members in branded vests assemble disaster relief kits at warehouse tables; N95 masks and bilingual safety cards visible; shrink-wrapped pallets and pallet jack in background.\n\n**Suggested post time:** 7\u20139pm PT \u2014 Evening window when Seattle-area supporters are scrolling after dinner; donation-focused posts perform well when people have time to click through and complete a gift before bed.",
+      "timestamp": "2025-11-02T13:18:05.931532Z",
+      "duration_seconds": 9.6,
+      "tokens": {
+        "input": 2069,
+        "output": 340,
+        "total": 2409
+      },
+      "cost_usd": 0.011307,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "Strong, mission-centered caption with concrete details and appropriate warm tone. However, it's missing the required carousel swipe line despite IS CAROUSEL=YES, which is a significant structural omission. The content itself is highly usable and avoids common nonprofit communication pitfalls.",
+        "strengths": [
+          "Excellent hook that's specific and quantifiable ('500 kits, 4 pairs of hands') without being clickbait",
+          "Strong concrete detail integration (the checklist by the tape) that connects logistics to mission impact",
+          "Appropriate partner tagging with context that shows collaboration rather than just name-dropping",
+          "Clean avoidance of savior language\u2014focuses on preparedness and community need rather than 'helping the less fortunate'",
+          "Alt text is descriptive and follows accessibility best practices without being overly verbose",
+          "Hashtag mix is well-balanced with cause-specific, location, and community tags; avoids generic options",
+          "Post timing rationale is thoughtful and aligns donation goal with evening browsing behavior"
+        ],
+        "weaknesses": [
+          "Critical omission: Missing the required carousel swipe line ('Swipe to see...') that should appear between body and CTA when IS CAROUSEL=YES",
+          "Body word count appears to be at the lower end (~60 words); could have used the carousel context to add slightly more storytelling depth",
+          "The phrase 'before the next smoke event hits' could potentially sound alarmist to some audiences, though it's factually appropriate for disaster preparedness context"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Four vests, hundreds of masks\n\n2) Inside our Seattle warehouse, our team assembles Wildfire Smoke Relief Kits\u2014N95s, air filter replacements, and bilingual smoke safety cards\u2014so families are ready before the haze rolls in. \n\nYou can hear the zip of tape and a squeaky pallet jack as another shrink-wrapped pallet gets checked off the clipboard. This is how Pacific Relief Coalition mobilizes neighbors to prepare and recover\u2014one kit at a time. \ud83d\udc99\ud83d\udce6\n\n4) Link in bio to support this work.\n\n5) Hashtags: #WildfireSmoke #EmergencyPreparedness #SeattleWA #PacificNorthwest #NonprofitLife #VolunteersOfIG #SmokeReady #WestCoastRelief\n\n6) Handles to tag:\nIn caption: @RainierHealthClinic @PNWLogisticsCorp\nAlso tag in photo: ['@pacificrelief', '@RainierHealthClinic', '@PNWLogisticsCorp']\n\n7) Alt text: Four adult warehouse staff in branded vests pack N95 masks, air filter replacements, and bilingual smoke safety cards at assembly tables in a Seattle warehouse; pallet jack, shrink-wrapped pallets, and a clipboard by tape dispensers visible.\n\n8) Suggested post time: 7\u20139pm PT \u2014 supporters are scrolling after work, and evening posts tend to convert well for donation asks tied to timely preparedness efforts.",
+      "timestamp": "2025-11-02T13:19:01.726154Z",
+      "duration_seconds": 65.39,
+      "tokens": {
+        "input": 1771,
+        "output": 3426,
+        "total": 5197
+      },
+      "cost_usd": 0.056703,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 4,
+          "usefulness": 7,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The caption has strong tone and sensory details, but critically fails to include the carousel swipe line despite IS CAROUSEL=YES. The numbering system is broken (jumps from 2 to 4), and the 'Also tag in photo' field contains a Python list instead of formatted handles. These structural errors significantly reduce professional usability.",
+        "strengths": [
+          "Excellent sensory detail ('zip of tape and squeaky pallet jack') that brings the warehouse scene to life",
+          "Strong hook that's specific and curiosity-driving without clickbait",
+          "Warm, authentic tone that avoids savior language and focuses on preparedness mission",
+          "Good hashtag mix balancing cause (#WildfireSmoke #EmergencyPreparedness), location (#SeattleWA #PacificNorthwest), and community (#NonprofitLife)",
+          "Alt text is descriptive, consent-appropriate, and within character limit",
+          "Post timing rationale is strategic and audience-aware"
+        ],
+        "weaknesses": [
+          "CRITICAL OMISSION: Missing the required carousel swipe line ('Swipe to see a volunteer sealing kits... and stacked pallets ready for delivery...') which is essential for carousel posts",
+          "Broken numbering (1, 2, 4, 5, 6, 7, 8 \u2014 skips 3) creates confusion and looks unprofessional",
+          "Technical error in tagging section: 'Also tag in photo: ['@pacificrelief', '@RainierHealthClinic', '@PNWLogisticsCorp']' displays Python list syntax instead of clean handle list",
+          "Body is 72 words, which is fine, but the missing carousel line means users won't know to swipe\u2014undermining the multi-slide format",
+          "Minor: @pacificrelief appears in 'also tag in photo' but wasn't in the STAFF/PARTNER TAGS input\u2014should clarify if this is the org's own handle (which would be appropriate)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.2058,
+    "average_score": 7.18
+  }
+}

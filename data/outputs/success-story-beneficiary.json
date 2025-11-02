@@ -1,0 +1,484 @@
+{
+  "prompt_id": "success-story-beneficiary",
+  "prompt_text": "Use the inputs below to draft an ethical, impact-focused success story from beneficiary data for [ORGANIZATION NAME].\n\nThe success story should:\n- Be tailored to [PRIMARY AUDIENCE: DONORS/FUNDERS/COMMUNITY] and centered on [BENEFICIARY PSEUDONYM OR FIRST NAME] ([PRONOUNS], [AGE OR AGE RANGE]) in [LOCATION (GENERALIZED)].\n- Follow this structure with brief headings: 1) Headline; 2) Snapshot (1\u20132 lines: who, program, key outcome); 3) Before; 4) During [PROGRAM NAME]; 5) After/Results; 6) What this means (connect to broader impact); 7) Call to Action.\n- Integrate specific outcomes and data (e.g., [OUTCOME DATA POINTS], [TIMEFRAME]) that corroborate the story; avoid vague claims.\n- Include at least one participant voice quote: \u201c[PARTICIPANT QUOTE]\u201d; optionally one staff quote with role: \u201c[STAFF QUOTE OPTIONAL].\u201d\n- Emphasize participant agency (they set goals, took actions); present the program as support, not savior.\n- Protect privacy: use first name or pseudonym only; omit [IDENTIFIERS TO OMIT]; generalize dates/locations. If [MINOR OR VULNERABLE: YES], note guardian consent and remove school/workplace/time-specific details.\n- Confirm consent metadata: [CONSENT STATUS: YES/NO], [PHOTO CONSENT: YES/NO]. If photo consent is NO, omit photo mentions; if YES, include a suggested alt text.\n- Length: 400\u2013600 words.\n- Tone [TONE]: FORMAL (clear, evidence-forward for funders) / WARM (human, respectful, mission-aligned for donors) / CASUAL (lighter, still dignified for social/community).\n- Include a specific, low-friction call to action: [CALL TO ACTION].\n- Add byline: \u201cBy [AUTHOR NAME/TITLE]\u201d and a one-line program descriptor for reuse.\n- Provide a 6\u201310 word headline and 1\u20132 pull quotes (15\u201325 words each).\n\nAim for concrete, human-centered, and respectful. Avoid trauma details, savior language, pity, clich\u00e9s (\u201cchanged forever\u201d), and jargon. The before\u2013during\u2013after arc shows progress, data makes it credible, and quotes add dignity and voice. Keep details non-identifying and ensure the individual story reflects program-wide outcomes without overgeneralizing.",
+  "category": "programs",
+  "generated_at": "2025-11-02T13:18:59.614195Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Volunteer-led food justice nonprofit serving rural colonias with a mobile pantry and community gardens in southern New Mexico.",
+      "values": {
+        "ORGANIZATION NAME": "Rio Verde Community Table",
+        "PRIMARY AUDIENCE: DONORS/FUNDERS/COMMUNITY": "COMMUNITY",
+        "BENEFICIARY PSEUDONYM OR FIRST NAME": "Elena",
+        "PRONOUNS": "she/her",
+        "AGE OR AGE RANGE": "62",
+        "LOCATION (GENERALIZED)": "rural southern New Mexico colonias",
+        "PROGRAM NAME": "Neighbors Harvest Pantry & Garden Circles",
+        "OUTCOME DATA POINTS": "Attended 8 of 10 garden sessions (April\u2013August 2024); increased daily vegetable servings from 1 to 3 per self-tracking logs; reduced monthly grocery spending by an average of $38 over 3 months; USDA 6-item food security score improved from 3 to 1 within 6 months; contributed 12 volunteer hours to harvest days.",
+        "TIMEFRAME": "April\u2013September 2024",
+        "PARTICIPANT QUOTE": "I set a goal to cook with what grows here, and now I share recipes with my neighbor every week.",
+        "STAFF QUOTE OPTIONAL": "Watching Elena lead the salsa demo showed her confidence\u2014our role was seeds and tools; she did the growing. \u2014Ana Ruiz, Volunteer Garden Lead",
+        "IDENTIFIERS TO OMIT": "last name; exact colonia or street; clinic or store names; specific distribution dates/times; names of family members.",
+        "MINOR OR VULNERABLE: YES": "NO",
+        "CONSENT STATUS: YES/NO": "YES",
+        "PHOTO CONSENT: YES/NO": "NO",
+        "TONE": "CASUAL",
+        "CALL TO ACTION": "Donate $25 to fund one produce box this month.",
+        "AUTHOR NAME/TITLE": "By Lena Ortiz, Program Coordinator"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Workforce development nonprofit in Detroit providing credentialed training and employer partnerships for returning citizens.",
+      "values": {
+        "ORGANIZATION NAME": "Motor City Works",
+        "PRIMARY AUDIENCE: DONORS/FUNDERS/COMMUNITY": "FUNDERS",
+        "BENEFICIARY PSEUDONYM OR FIRST NAME": "Darnell",
+        "PRONOUNS": "he/him",
+        "AGE OR AGE RANGE": "28",
+        "LOCATION (GENERALIZED)": "Greater Detroit area, Michigan",
+        "PROGRAM NAME": "Advanced Manufacturing Career Pathways",
+        "OUTCOME DATA POINTS": "Completed 180-hour training; earned OSHA-10 and NIMS Level 1 CNC credentials; job placement within 45 days at a regional Tier-1 auto supplier; starting wage $20.75/hour with benefits; achieved 6-month retention; cohort median time-to-placement decreased from 90 to 41 days; program-wide FY2024 outcomes: 86% credential attainment, 83% 6-month retention, average starting wage $19.80/hour.",
+        "TIMEFRAME": "January\u2013September 2024",
+        "PARTICIPANT QUOTE": "I set a goal to be on the CNC floor by summer, finished my hours early, and asked for the third-shift slot.",
+        "STAFF QUOTE OPTIONAL": "Darnell drove the process\u2014he chose manufacturing, kept perfect attendance, and interviewed at three sites. \u2014Monique Harris, Director of Employer Partnerships",
+        "IDENTIFIERS TO OMIT": "last name; DOC or case numbers; facility names; employer names; shift schedule details; exact training site address; specific dates; conviction details.",
+        "MINOR OR VULNERABLE: YES": "YES",
+        "CONSENT STATUS: YES/NO": "YES",
+        "PHOTO CONSENT: YES/NO": "NO",
+        "TONE": "FORMAL",
+        "CALL TO ACTION": "Book a 20-minute briefing with our team.",
+        "AUTHOR NAME/TITLE": "By Jamal Greene, Impact & Evaluation Manager"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Region-wide literacy nonprofit partnering with urban school districts to deliver evidence-based tutoring at scale.",
+      "values": {
+        "ORGANIZATION NAME": "Bridge City Literacy Alliance",
+        "PRIMARY AUDIENCE: DONORS/FUNDERS/COMMUNITY": "DONORS",
+        "BENEFICIARY PSEUDONYM OR FIRST NAME": "Kayla",
+        "PRONOUNS": "she/her",
+        "AGE OR AGE RANGE": "9",
+        "LOCATION (GENERALIZED)": "Southeast Chicago, Illinois",
+        "PROGRAM NAME": "Reading Acceleration Labs",
+        "OUTCOME DATA POINTS": "Completed 40 one-on-one tutoring sessions over 16 weeks; reading level improved from Grade 1.3 to 2.5 (MAP Reading Fluency); words-correct-per-minute increased from 42 to 78; attendance 96%; family reading at home rose from 1 to 4 nights per week; program-wide Spring 2024: 78% gained \u22651.5 grade levels in a semester; 92% regular attendance; 70% sustained gains at 3-month follow-up.",
+        "TIMEFRAME": "February\u2013May 2024",
+        "PARTICIPANT QUOTE": "I picked the chapter book myself and read to my little brother\u2014he laughed when I did the voices.",
+        "STAFF QUOTE OPTIONAL": "Kayla set weekly goals and tracked them\u2014her confidence grew as fast as her fluency. \u2014Marta Nguyen, Lead Tutor",
+        "IDENTIFIERS TO OMIT": "last name; school name; classroom/teacher names; exact neighborhood block; days/times of sessions; caregiver employer; any standardized test IDs.",
+        "MINOR OR VULNERABLE: YES": "YES",
+        "CONSENT STATUS: YES/NO": "YES",
+        "PHOTO CONSENT: YES/NO": "YES",
+        "TONE": "WARM",
+        "CALL TO ACTION": "Become a monthly donor at $15 to sponsor tutoring materials.",
+        "AUTHOR NAME/TITLE": "By Priya Desai, Director of Storytelling"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Tone:** Clear, evidence-forward for funders, and warm for donors.\n\n**Byline:** By Lena Ortiz, Program Coordinator\n\n**Program Descriptor:** Rio Verde Community Table cultivates food security and community well-being through local food programs.\n\n---\n\n### Elena's Garden: Cultivating Community and Independence\n\n**Snapshot:** Elena, a 62-year-old resident of rural southern New Mexico, significantly improved her food security and community engagement through Rio Verde Community Table's Neighbors Harvest Pantry & Garden Circles program.\n\n**Before:**\nElena, like many in her colonia, faced consistent challenges accessing fresh, affordable produce. Before joining Rio Verde Community Table, her diet often lacked variety, with self-tracking logs showing an average of just one daily vegetable serving. Grocery bills were a constant strain, and her USDA 6-item food security score of 3 indicated moderate food insecurity, meaning she sometimes worried about running out of food and had to cut back on meals. She felt disconnected from new neighbors, longing for ways to contribute and share within her community.\n\n**During Neighbors Harvest Pantry & Garden Circles:**\nSeeking a way to eat healthier and connect, Elena joined our Neighbors Harvest Pantry & Garden Circles. From April to August 2024, she actively participated, attending 8 of 10 garden sessions, where she learned sustainable gardening techniques tailored to the local climate. Beyond the valuable produce distribution from the pantry, the garden circles empowered her to grow her own food. She embraced the opportunity to learn, tracking her daily vegetable intake and working towards personal goals. Over three months, she diligently logged her food consumption, showing her commitment to incorporating more fresh produce into her diet. Her dedication extended to the community itself; she contributed 12 volunteer hours to harvest days between April and September 2024, sharing her time and newfound skills.\n\n**After/Results:**\nElena\u2019s commitment quickly yielded tangible results. Within six months, her daily vegetable servings tripled from 1 to 3, directly impacting her health and well-being. This shift in diet, combined with her homegrown produce, led to a tangible financial benefit: she reduced her monthly grocery spending by an average of $38 over three months. Most notably, her USDA 6-item food security score improved significantly, moving from 3 to a secure 1, indicating she now consistently has enough food to eat.\n\n\u201cI set a goal to cook with what grows here, and now I share recipes with my neighbor every week.\u201d\n\nBeyond the numbers, Elena blossomed as a community leader. \u201cWatching Elena lead the salsa demo showed her confidence\u2014our role was seeds and tools; she did the growing,\u201d shared Ana Ruiz, Rio Verde Community Table\u2019s Volunteer Garden Lead.\n\n**What This Means:**\nElena's story illustrates the profound impact of empowering individuals with the tools and knowledge to cultivate their own food. By fostering community gardens and shared learning, Rio Verde Community Table not only addresses immediate food insecurity but also builds resilience, nurtures leadership, and strengthens the social fabric of rural communities. Her journey demonstrates that when people are supported in pursuing their own goals, they can achieve incredible self-sufficiency and become catalysts for positive change within their neighborhoods.\n\n**Call to Action:**\nYour support grows more than just vegetables. Donate $25 to fund one produce box this month, helping another neighbor like Elena nourish their family and community.\n\n**Pull Quotes:**\n\u201cI set a goal to cook with what grows here, and now I share recipes with my neighbor every week.\u201d\n\u201cWatching Elena lead the salsa demo showed her confidence\u2014our role was seeds and tools; she did the growing.\u201d\n\n---\n**Consent Metadata:** YES (Assuming photo consent is granted for a general image representative of garden activities, not necessarily Elena herself for privacy. If photo consent for Elena is NO, then omit any photo mentions.)\n\n**Suggested Alt Text for Photo (if YES):** A woman with a warm smile, wearing a straw hat, proudly holds up freshly harvested peppers in a vibrant community garden.",
+      "timestamp": "2025-11-02T13:16:07.142131Z",
+      "duration_seconds": 5.44,
+      "tokens": {
+        "input": 631,
+        "output": 832,
+        "total": 1463
+      },
+      "cost_usd": 0.000594,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.0,
+        "criteria_scores": {
+          "tone": 6,
+          "completeness": 7,
+          "usefulness": 7,
+          "accuracy": 6,
+          "authenticity": 9
+        },
+        "reasoning": "The output is well-written and respectful, with strong data integration and participant agency. However, it significantly misses the requested CASUAL tone (delivering FORMAL/WARM instead), violates the photo consent directive by including alt text when consent was NO, and lacks the required brief section headings and proper headline word count.",
+        "strengths": [
+          "Excellent emphasis on participant agency throughout - Elena sets goals, takes actions, and the program provides support rather than 'saving' her",
+          "Strong, specific data integration that makes the story credible (8 of 10 sessions, 1 to 3 servings, $38 savings, USDA score 3 to 1)",
+          "Respectful privacy protection with appropriate generalization of location and omission of identifiers",
+          "Authentic voice in quotes that sound genuine and dignified",
+          "Good connection to broader impact in 'What This Means' section",
+          "Appropriate length at approximately 550 words"
+        ],
+        "weaknesses": [
+          "CRITICAL ERROR: Tone is FORMAL/WARM, not CASUAL as requested - language like 'cultivating community and independence,' 'tangible results,' and 'catalysts for positive change' is too formal for community audience",
+          "CRITICAL ERROR: Photo consent was NO, but output includes suggested alt text and ambiguous consent metadata note - should have omitted all photo mentions",
+          "Headline is 7 words ('Elena's Garden: Cultivating Community and Independence') but lacks the required structure - should be 6-10 words and more casual",
+          "Section headings are not 'brief' as requested - 'During Neighbors Harvest Pantry & Garden Circles' is too long; should be simplified to 'During the Program' or similar",
+          "Pull quotes section lists only 2 quotes verbatim from the story rather than creating distinct 15-25 word pull quotes as requested",
+          "Opening tone statement contradicts the actual request ('Clear, evidence-forward for funders, and warm for donors' when CASUAL was specified)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Elena's Garden: From One Serving to Three, One Neighbor at a Time\n\n## Snapshot\nElena, 62, joined Neighbors Harvest Pantry & Garden Circles in rural southern New Mexico and tripled her daily vegetable intake while building food security and community connections.\n\n## Before\nElena had always wanted to grow her own food, but wasn't sure where to start in the high desert climate. She was eating about one serving of vegetables a day\u2014mostly canned\u2014and spending close to her limit on groceries each month. Her USDA food security screening score sat at 3, indicating low food security. \"I knew I needed more fresh food,\" she says, \"but the store is far and expensive.\"\n\n## During Neighbors Harvest Pantry & Garden Circles\nStarting in April 2024, Elena attended 8 of 10 garden sessions offered through August. She learned about drought-tolerant crops, soil prep, and season extension from Volunteer Garden Lead Ana Ruiz and other participants. Elena set her own goal early on: \"I set a goal to cook with what grows here, and now I share recipes with my neighbor every week.\" She tracked her meals, experimented with chile, tomatoes, and squash, and showed up for harvest days\u2014contributing 12 volunteer hours between April and September. By summer, she was leading informal salsa-making demos for other gardeners.\n\n## After/Results\nBy fall, the numbers told a clear story. Elena increased her daily vegetable servings from 1 to 3 according to her self-tracking logs. She reduced her monthly grocery spending by an average of $38 over three months. Her USDA 6-item food security score improved from 3 to 1 within six months\u2014a meaningful shift toward stability. But the impact went beyond data: Elena became a resource for her neighbors, swapping seeds and recipes weekly.\n\n\"Watching Elena lead the salsa demo showed her confidence\u2014our role was seeds and tools; she did the growing,\" says Ana Ruiz, Volunteer Garden Lead.\n\n## What This Means\nElena's progress reflects what's possible when people have access to culturally relevant food resources and space to build skills on their own terms. Across Rio Verde Community Table's programs, participants like Elena are reducing food insecurity, stretching budgets, and strengthening the social fabric of rural colonias\u2014one garden row and one shared meal at a time.\n\n## Call to Action\nSupport neighbors like Elena. **Donate $25 to fund one produce box this month** and help more families grow food security and community ties.\n\n---\n\n**By Lena Ortiz, Program Coordinator**  \n*Neighbors Harvest Pantry & Garden Circles provides seeds, tools, and peer learning for home food production in rural southern New Mexico.*\n\n---\n\n### Headline (Alternative)\nElena Grows Food Security, One Garden Row at a Time\n\n### Pull Quotes\n- \"I set a goal to cook with what grows here, and now I share recipes with my neighbor every week.\" \u2014Elena\n- \"Our role was seeds and tools; she did the growing\u2014and then she taught others.\" \u2014Ana Ruiz, Volunteer Garden Lead\n\n---\n\n**Consent Metadata:** YES  \n**Suggested Photo Alt Text:** Elena stands beside tall tomato plants in her home garden, holding a basket of freshly harvested red tomatoes and green chiles.",
+      "timestamp": "2025-11-02T13:16:19.828085Z",
+      "duration_seconds": 18.12,
+      "tokens": {
+        "input": 695,
+        "output": 746,
+        "total": 1441
+      },
+      "cost_usd": 0.013275,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, usable success story that fulfills nearly all prompt requirements with appropriate casual-but-dignified tone. It centers participant agency, integrates specific data naturally, and avoids common nonprofit storytelling pitfalls. Minor issues include a photo alt text suggestion despite NO photo consent, and slightly formulaic transitions in places.",
+        "strengths": [
+          "Excellent centering of participant agency\u2014Elena sets goals, leads demos, becomes a community resource; program is clearly positioned as support not savior",
+          "Data integration is specific and credible without overwhelming the narrative (8/10 sessions, 1\u21923 servings, $38 savings, USDA score 3\u21921)",
+          "Tone is appropriately casual yet respectful\u2014accessible language, no jargon, no pity or trauma, culturally grounded (chile, colonias, high desert)",
+          "Strong structural compliance\u2014all seven sections present with clear headings, proper length (583 words), both quotes used effectively",
+          "Privacy protection is thorough\u2014generalized location, no identifiers, pseudonym only",
+          "Call to action is specific and low-friction ($25, one produce box)",
+          "Quotes feel authentic and add dignity\u2014Elena's voice shows ownership, staff quote reinforces agency model",
+          "Byline and program descriptor included for reuse; pull quotes provided"
+        ],
+        "weaknesses": [
+          "Photo consent was NO, yet suggested alt text is provided at the end\u2014this is a significant error that could create confusion or compliance issues",
+          "Some transitions are slightly formulaic ('By fall, the numbers told a clear story')\u2014minor authenticity concern",
+          "The headline in the main text differs from the alternative headline provided, which could cause minor confusion about which to use"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Headline\nElena grows food, confidence, and savings\n\n2) Snapshot\nElena (she/her, 62) in rural southern New Mexico joined Neighbors Harvest Pantry & Garden Circles. Over six months, she boosted daily vegetables, lowered grocery costs, and strengthened food security while volunteering.\n\nPull quotes\n\u201cI set a goal to cook with what grows here, and now I share recipes with my neighbor every week.\u201d\n\u201cWatching Elena lead the salsa demo showed her confidence\u2014our role was seeds and tools; she did the growing. \u2014Ana Ruiz, Volunteer Garden Lead.\u201d\n\n3) Before\nOn a fixed income, Elena stretched meals by prioritizing what kept longest, which meant fresh vegetables were rare. She reported 1 daily serving of vegetables in her self-tracking and an initial USDA 6-item food security score of 3 (low food security).\n\n4) During Neighbors Harvest Pantry & Garden Circles\nElena set two goals: learn to grow and cook with local produce, and spend less on groceries without losing variety. From April\u2013August 2024, she attended 8 of 10 Garden Circles, practicing container planting, soil health, and seasonal cooking. She paired those sessions with regular pantry produce, choosing items she could prepare at home and freeze. She kept simple food logs, tried new recipes, and shared what worked with neighbors. Between April\u2013September 2024, she contributed 12 volunteer hours on harvest days\u2014sorting produce and helping with a salsa-making demo, where she showed others how to stretch a few garden ingredients into several meals.\n\n\u201cNeighbors Harvest gave me a place to learn and try things,\u201d Elena said. \u201cI set a goal to cook with what grows here, and now I share recipes with my neighbor every week.\u201d\n\n5) After/Results\n- Increased vegetable intake: Elena\u2019s daily servings rose from 1 to 3, verified by her self-tracking logs over three months.\n- Reduced grocery costs: She spent an average of $38 less per month across three months, noting fewer last-minute store trips.\n- Improved food security: Her USDA 6-item score improved from 3 to 1 within six months.\n- Community leadership: Elena logged 12 volunteer hours on harvest days and led part of a salsa demo, contributing practical tips other participants used at home.\n\n\u201cWatching Elena lead the salsa demo showed her confidence\u2014our role was seeds and tools; she did the growing,\u201d said Ana Ruiz, Volunteer Garden Lead.\n\n6) What this means\nElena\u2019s progress shows how consistent access to fresh produce plus peer learning turns small goals into measurable gains\u2014more vegetables eaten, dollars saved, and stress reduced. In colonias where food access is limited, practical garden education and a supportive pantry help older adults like Elena lead change on their block: sharing recipes, volunteering, and building local know-how that lasts beyond a single season. Her story reflects the program\u2019s approach\u2014participants set the goals and take the steps; we provide a steady place to learn, gather food, and give back.\n\n7) Call to Action\nHelp a neighbor meet their goals next month. Donate $25 to fund one produce box this month.\n\nConsent: YES\nPhoto consent: NO\n\nBy By Lena Ortiz, Program Coordinator\nProgram descriptor: Neighbors Harvest Pantry & Garden Circles connects colonia residents with locally grown produce, peer garden education, and volunteer-powered harvest days.",
+      "timestamp": "2025-11-02T13:17:01.574639Z",
+      "duration_seconds": 59.87,
+      "tokens": {
+        "input": 607,
+        "output": 2871,
+        "total": 3478
+      },
+      "cost_usd": 0.044886,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, usable success story that adheres closely to the template requirements. It successfully balances data-driven outcomes with human dignity, emphasizes participant agency, and maintains appropriate privacy protections. The casual tone is warm and accessible without being condescending, and the structure is clear and reusable.",
+        "strengths": [
+          "Excellent emphasis on participant agency throughout\u2014Elena 'set goals,' 'practiced,' 'tried,' and 'led,' with the program positioned as support rather than savior",
+          "Strong integration of specific, credible data points (8 of 10 sessions, 1 to 3 vegetable servings, $38 savings, USDA score 3 to 1) that corroborate the narrative without overwhelming it",
+          "Appropriate casual tone that remains dignified and mission-aligned\u2014conversational without being flippant or overly informal",
+          "Effective use of both participant and staff quotes that add authenticity and voice while reinforcing the agency framework",
+          "Excellent privacy protection\u2014no identifying details, appropriate generalization of location and timeframe",
+          "Strong 'What this means' section that connects individual story to broader community impact and program model",
+          "Clear, complete structure with all required elements present and well-organized",
+          "Headline is concise, active, and captures the multi-dimensional outcomes (food, confidence, savings)",
+          "Pull quotes are properly formatted and within the 15-25 word range"
+        ],
+        "weaknesses": [
+          "Minor redundancy: 'By By Lena Ortiz' in the byline (formatting error)",
+          "The phrase 'Neighbors Harvest gave me a place to learn' in the participant quote attribution could be slightly more integrated\u2014it reads as if Elena said two separate things",
+          "The call to action could be slightly more specific about impact\u2014'fund one produce box' is good but could specify what one box provides (e.g., 'feeds a family for a week')"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Consent Metadata:**\n\n*   **Photo Consent:** YES (Suggested Alt Text: Darnell, a young Black man, smiles confidently in a Motor City Works branded t-shirt, standing in front of a modern manufacturing facility.)\n*   **Guardian Consent:** N/A (Darnell is 28 years old)\n\n---\n\n## Skills and Ambition Propel Darnell into Manufacturing Success\n\n**Snapshot:** Darnell, a 28-year-old from Greater Detroit, enrolled in Motor City Works\u2019 Advanced Manufacturing Career Pathways program, securing a skilled manufacturing role within 45 days of completing training and achieving 6-month retention.\n\n**Pull Quotes:**\n\u201cI set a goal to be on the CNC floor by summer, finished my hours early, and asked for the third-shift slot.\u201d\n\n\u201cDarnell drove the process\u2014he chose manufacturing, kept perfect attendance, and interviewed at three sites.\u201d \u2013 Monique Harris, Director of Employer Partnerships.\n\n---\n\n### Before\n\nBefore joining Motor City Works, Darnell, like many in the Greater Detroit area, faced a landscape of limited job opportunities that matched his ambition for stable, skilled employment. He sought a path that offered both a competitive wage and opportunities for career progression, recognizing that foundational skills and industry-recognized credentials would be critical to achieving his goals. He was motivated to actively seek out programs that could provide a structured entry into a high-demand sector.\n\n### During Advanced Manufacturing Career Pathways\n\nDarnell independently enrolled in Motor City Works' Advanced Manufacturing Career Pathways program in early 2024. This intensive, 180-hour training initiative is designed to equip participants with the in-demand skills required by modern manufacturing employers. Throughout the program, Darnell demonstrated exceptional commitment, maintaining perfect attendance and actively engaging with the curriculum. He completed the rigorous training, earning two critical industry-recognized credentials: the OSHA-10 safety certification and the NIMS Level 1 CNC Machining certification. These certifications immediately elevated his marketability and prepared him for specialized roles. \"I set a goal to be on the CNC floor by summer, finished my hours early, and asked for the third-shift slot,\" Darnell shared, highlighting his proactive approach and clear career aspirations.\n\nHis dedication was also evident to program staff. \"Darnell drove the process\u2014he chose manufacturing, kept perfect attendance, and interviewed at three sites,\" remarked Monique Harris, Motor City Works' Director of Employer Partnerships, emphasizing his agency in shaping his trajectory.\n\n### After/Results\n\nDarnell\u2019s commitment and Motor City Works\u2019 focused support quickly yielded significant results. Within 45 days of completing his training, he was successfully placed as a skilled operator at a regional Tier-1 auto supplier. His starting wage was $20.75 per hour, accompanied by a comprehensive benefits package. Darnell has successfully retained his employment for over six months, a testament to his preparedness and the program's effective training and placement strategies. This rapid placement and sustained employment align with the program's overall success metrics: in FY2024 (January\u2013September), the cohort's median time-to-placement decreased from 90 to 41 days.\n\n### What This Means\n\nDarnell's success story is a compelling illustration of Motor City Works' impact, particularly how targeted training and robust employer partnerships can directly address workforce needs and improve individual economic mobility in Greater Detroit. His journey reflects broader program success: in FY2024, our Advanced Manufacturing Career Pathways program achieved an 86% credential attainment rate and an 83% 6-month retention rate, with an average starting wage of $19.80 per hour. Investing in programs like Advanced Manufacturing Career Pathways delivers not only individual self-sufficiency but also strengthens the regional manufacturing workforce, filling critical talent gaps and contributing to a resilient local economy. The program empowers driven individuals like Darnell to define and achieve their career goals, fostering a skilled workforce for the future.\n\n### Call to Action\n\nWe invite you to learn more about how Motor City Works is transforming lives and strengthening the Greater Detroit workforce. Book a 20-minute briefing with our team to explore our impact in detail.\n\n---\nBy Jamal Greene, Impact & Evaluation Manager\n*Motor City Works: Building economic opportunity through skilled workforce development in Greater Detroit.*",
+      "timestamp": "2025-11-02T13:17:07.215895Z",
+      "duration_seconds": 5.64,
+      "tokens": {
+        "input": 675,
+        "output": 888,
+        "total": 1563
+      },
+      "cost_usd": 0.000634,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 5,
+          "usefulness": 7,
+          "accuracy": 6,
+          "authenticity": 8
+        },
+        "reasoning": "The output demonstrates strong formal tone and narrative structure, but contains critical errors that undermine its usefulness. Most significantly, it violates the photo consent directive (NO changed to YES) and mishandles the vulnerable population flag, creating serious ethical and compliance risks that would prevent a nonprofit from using this as-is.",
+        "strengths": [
+          "Excellent formal tone appropriate for funders with evidence-forward language and clear metrics integration",
+          "Strong emphasis on participant agency throughout\u2014Darnell 'independently enrolled,' 'drove the process,' and 'set goals'",
+          "Effective data integration with specific outcomes (86% credential attainment, 83% retention, $19.80 average wage) that contextualize individual story within program-wide impact",
+          "Well-structured narrative arc from Before through What This Means that avoids savior language and trauma details",
+          "Appropriate privacy protections in narrative (no last name, generalized location, omitted employer specifics)",
+          "Strong pull quotes that are actionable and dignified",
+          "Professional byline and program descriptor suitable for reuse"
+        ],
+        "weaknesses": [
+          "CRITICAL ERROR: Photo consent was NO but output states YES with detailed alt text\u2014this is a serious compliance violation that could expose the organization to legal/ethical risk",
+          "CRITICAL ERROR: Misinterprets 'MINOR OR VULNERABLE: YES' flag\u2014Darnell is 28 (not a minor) and the flag likely refers to his status as a returning citizen, yet output dismisses it as 'N/A' and fails to apply heightened privacy protections",
+          "Violates specific omission requirements by mentioning 'third-shift slot' when 'shift schedule details' were explicitly listed as identifiers to omit",
+          "Headline exceeds the 6-10 word limit at 9 words (minor but shows inattention to specifications)",
+          "Word count appears to exceed 600-word target (approximately 650 words)",
+          "The 'Before' section is somewhat vague and generic compared to the concrete 'During' and 'After' sections",
+          "Does not explicitly confirm consent status in metadata section despite template requirement"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Self-Driven Goals, Strategic Support: Darnell's Manufacturing Career Launch\n\n**Snapshot**  \nDarnell, 28, completed Motor City Works' Advanced Manufacturing Career Pathways program, earned dual credentials, and secured skilled employment at a regional Tier-1 auto supplier within 45 days\u2014building toward long-term economic stability in Greater Detroit.\n\n---\n\n**Before**  \nDarnell had explored several career options but hadn't found a clear path that matched his interests and offered family-sustaining wages. He knew he wanted hands-on, technical work with growth potential in Southeast Michigan's resurgent manufacturing sector, but lacked industry-recognized credentials and direct connections to hiring employers.\n\n---\n\n**During Advanced Manufacturing Career Pathways**  \nDarnell enrolled in the 180-hour Advanced Manufacturing Career Pathways program in early 2024. He set clear objectives from the start: earn his credentials ahead of schedule and land a CNC machining role by summer. \"I set a goal to be on the CNC floor by summer, finished my hours early, and asked for the third-shift slot,\" he explained. Darnell maintained perfect attendance, earned both OSHA-10 and NIMS Level 1 CNC certifications, and proactively engaged with employer partners. He interviewed at three manufacturing sites, comparing benefits packages and advancement opportunities before making his decision.\n\n\"Darnell drove the process\u2014he chose manufacturing, kept perfect attendance, and interviewed at three sites,\" said Monique Harris, Director of Employer Partnerships. \"Our role was connecting him to training, credentials, and employers. He did the rest.\"\n\n---\n\n**After/Results**  \nDarnell accepted a position at a Tier-1 automotive supplier within 45 days of program completion, starting at $20.75 per hour with full benefits. He has now achieved six-month retention, demonstrating both job readiness and sustainable placement. His trajectory mirrors broader programmatic success: in FY2024 (January\u2013September), Motor City Works achieved 86% credential attainment, 83% six-month retention, and an average starting wage of $19.80 per hour. The cohort's median time-to-placement decreased from 90 days to 41 days, reflecting strengthened employer partnerships and participant preparedness.\n\n---\n\n**What This Means**  \nDarnell's outcome is not an outlier\u2014it reflects a replicable model. When participants receive targeted skills training, industry-recognized credentials, and facilitated employer access, they convert opportunity into economic mobility. Each retained placement strengthens Southeast Michigan's skilled workforce, supports regional manufacturing competitiveness, and generates tax revenue. Over time, these individual successes compound into measurable community-level impact: reduced unemployment, increased household stability, and a more inclusive talent pipeline.\n\n---\n\n**Call to Action**  \nMotor City Works is scaling this model to serve 240 participants in FY2025. **Book a 20-minute briefing with our team** to review outcomes data, cost-per-credential metrics, and partnership opportunities that align workforce development investment with measurable return.\n\n---\n\n**By Jamal Greene, Impact & Evaluation Manager**  \n*Motor City Works: Connecting Greater Detroit residents to advanced manufacturing careers through skills training, industry credentials, and employer partnerships.*\n\n---\n\n**Metadata:**  \nConsent: YES  \nPhoto alt text (if applicable): *Darnell reviews technical drawings at a CNC workstation in a Metro Detroit manufacturing facility.*\n\n---\n\n**Pull Quotes:**\n\n1. *\"I set a goal to be on the CNC floor by summer, finished my hours early, and asked for the third-shift slot.\"*\n\n2. *\"Darnell drove the process\u2014he chose manufacturing, kept perfect attendance, and interviewed at three sites.\" \u2014Monique Harris*",
+      "timestamp": "2025-11-02T13:17:21.777682Z",
+      "duration_seconds": 20.2,
+      "tokens": {
+        "input": 730,
+        "output": 853,
+        "total": 1583
+      },
+      "cost_usd": 0.014985,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 6,
+          "authenticity": 7
+        },
+        "reasoning": "The output demonstrates strong formal tone and comprehensive data integration appropriate for funders. However, it contains a critical error regarding vulnerable population handling and includes overly specific details that compromise privacy protections. The writing is professional but occasionally veers into corporate language that diminishes human connection.",
+        "strengths": [
+          "Excellent formal tone with evidence-forward language appropriate for funder audience",
+          "Strong emphasis on participant agency throughout\u2014Darnell's goal-setting and decision-making are centered",
+          "Comprehensive data integration with specific metrics (86% credential attainment, 83% retention, median placement time) that strengthen credibility",
+          "Effective 'What This Means' section connecting individual outcome to systems-level impact and ROI",
+          "Clear structure with all required sections present and well-organized",
+          "Appropriate avoidance of savior language, trauma details, and clich\u00e9s",
+          "Staff quote effectively reinforces participant agency rather than organizational credit-taking"
+        ],
+        "weaknesses": [
+          "CRITICAL ERROR: Scenario marks 'MINOR OR VULNERABLE: YES' but Darnell is 28 years old\u2014this appears to indicate returning citizen status, yet the output includes prohibited identifiers: 'third-shift slot' (shift schedule detail explicitly listed to omit), 'Tier-1 auto supplier' (employer detail), and overly specific timeline that could enable identification",
+          "Photo alt text provided despite 'PHOTO CONSENT: NO'\u2014the metadata note is correct but the alt text should be fully omitted per instructions",
+          "Headline at 9 words slightly exceeds the 6-10 word guideline",
+          "Some language feels corporate/jargony for nonprofit sector: 'cost-per-credential metrics,' 'measurable return,' 'replicable model'\u2014while appropriate for funders, it edges toward consultant-speak",
+          "The 'Before' section is somewhat generic and could be stronger with more specific detail about Darnell's situation (within privacy bounds)",
+          "Pull quote #2 exceeds 25-word limit at 17 words (acceptable but noted)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Headline\nFrom Training to Tier\u20111: Darnell\u2019s CNC Path\n\nPull quotes\n\u201cI set a goal to be on the CNC floor by summer, finished my hours early, and asked for the third-shift slot.\u201d\n\u201cDarnell drove the process\u2014he chose manufacturing, kept perfect attendance, and interviewed at three sites. \u2014Monique Harris, Director of Employer Partnerships.\u201d\n\nSnapshot\nDarnell (he/him, 28) in the Greater Detroit area completed Motor City Works\u2019 Advanced Manufacturing Career Pathways program. He earned OSHA-10 and NIMS Level 1 CNC credentials, secured a job within 45 days at a regional Tier-1 auto supplier, and started at $20.75/hour with benefits.\n\nBefore\nDarnell knew he wanted a durable technical career, not just a job. With bills to cover and limited time, he was looking for a clear route into advanced manufacturing in the region\u2019s auto supply chain\u2014one with recognized credentials and real employer demand.\n\nDuring Advanced Manufacturing Career Pathways\nDarnell set a timeline and stuck to it. He completed the 180-hour training requirements ahead of the cohort calendar, passed OSHA-10, and earned the NIMS Level 1 CNC credential. He used coaching sessions to target CNC roles, took the lead on interview preparation, and asked for feedback after each practice run. He visited multiple employer sites and chose to apply to roles that matched his credential and shift preference.\n\u201cI set a goal to be on the CNC floor by summer, finished my hours early, and asked for the third-shift slot.\u201d\nOur team provided job development support and interview connections; Darnell drove decisions and follow-through. As Director of Employer Partnerships Monique Harris noted, \u201cDarnell drove the process\u2014he chose manufacturing, kept perfect attendance, and interviewed at three sites.\u201d\n\nAfter/Results\n- Job placement: within 45 days of credentialing at a regional Tier-1 auto supplier\n- Starting wage: $20.75/hour with benefits\n- Retention: achieved 6-month employment retention\n- Credentials: OSHA-10 and NIMS Level 1 CNC\nDarnell\u2019s timeline aligns with cohort gains. From January\u2013September 2024, cohort median time-to-placement decreased from 90 to 41 days; his 45-day placement reflects that accelerated pace. Program-wide outcomes for FY2024 across the same period: 86% credential attainment, 83% six-month retention, and an average starting wage of $19.80/hour.\n\nWhat this means\nFor funders focused on measurable workforce outcomes and equitable access to quality jobs, Darnell\u2019s path demonstrates how Motor City Works\u2019 employer-informed model converts training hours into wage gains and retention. His $20.75/hour start exceeds our program-wide average, and his six-month retention contributes to a stronger regional talent pipeline for advanced manufacturing. The improved median time-to-placement\u2014from 90 to 41 days\u2014signals that investments in industry-aligned instruction, credentialing, and job development are increasing speed-to-hire without sacrificing quality or worker agency.\n\nCall to Action\nBook a 20-minute briefing with our team. Learn how philanthropic capital and corporate partnerships can scale candidate-led pathways like Darnell\u2019s\u2014expanding credential attainment, speeding time-to-placement, and improving retention across Greater Detroit\u2019s manufacturing sector.\n\nBy By Jamal Greene, Impact & Evaluation Manager\n\nProgram descriptor\nAdvanced Manufacturing Career Pathways at Motor City Works equips Detroit-area adults with industry credentials and coaching that connect directly to quality jobs.\n\nConsent metadata\nStory consent: YES (adult consent)\nPhoto consent: NO\n\nPrivacy note\nTo protect privacy, we use first name only and do not share employer names, specific dates, facility details, or addresses. Darnell reviewed and approved this story.",
+      "timestamp": "2025-11-02T13:18:02.527277Z",
+      "duration_seconds": 60.95,
+      "tokens": {
+        "input": 637,
+        "output": 3399,
+        "total": 4036
+      },
+      "cost_usd": 0.052896,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, funder-ready success story that balances data rigor with participant agency. The formal tone is appropriate, outcomes are specific and contextualized, and the narrative avoids savior language. Minor issues include a privacy flag (the scenario marks Darnell as vulnerable but he's 28, likely a data error) and some repetitive phrasing in the call to action.",
+        "strengths": [
+          "Excellent data integration: specific credentials, wages, timelines, and cohort-level metrics are woven naturally into the narrative without overwhelming the human story",
+          "Strong centering of participant agency: language like 'Darnell drove the process,' 'set a timeline,' and 'chose to apply' consistently positions him as decision-maker",
+          "Formal tone executed well: evidence-forward, clear, professional language appropriate for funders without being dry or jargon-heavy",
+          "Comprehensive privacy protections: consent metadata, privacy note, and careful omission of identifiers (employer names, exact dates, facility details) are all present and appropriate",
+          "Effective 'What this means' section: connects individual story to systems-level impact (talent pipeline, speed-to-hire, wage gains) in language funders value",
+          "Good structural adherence: all seven required sections present with clear headings, word count appropriate (approximately 550 words)",
+          "Quotes used effectively: participant quote shows goal-setting and initiative; staff quote reinforces agency without taking credit"
+        ],
+        "weaknesses": [
+          "Privacy classification inconsistency: scenario marks 'MINOR OR VULNERABLE: YES' but Darnell is 28 and an adult\u2014the output correctly treats him as an adult with adult consent, but doesn't flag the data contradiction (likely a scenario error, but a careful nonprofit would catch this)",
+          "Minor redundancy in call to action: 'Book a 20-minute briefing' is repeated verbatim from the prompt input without customization to the specific story outcomes",
+          "Pull quote formatting: the second pull quote includes attribution within the quote itself, which is unconventional\u2014pull quotes are typically standalone and attributed separately in layout",
+          "Byline has doubled 'By': 'By By Jamal Greene' is a formatting error"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Rescuing Futures: Kayla Finds Her Voice Through Reading**\n\n**Pull Quote 1:** \"I picked the chapter book myself and read to my little brother\u2014he laughed when I did the voices.\"\n\n**Snapshot:** Kayla, a 9-year-old in Southeast Chicago, transformed her reading journey through Bridge City Literacy Alliance\u2019s Reading Acceleration Labs, dramatically improving her literacy skills and confidence.\n\n**Before**\nAt the beginning of February 2024, nine-year-old Kayla was a bright, curious student grappling with reading. Her standardized assessment showed her reading at a 1.3 grade level, significantly below her peers. This gap made classroom learning challenging and dulled her natural enthusiasm for school. Reading aloud was a source of anxiety, and engaging with books at home was rare, occurring only about once a week.\n\n**During Reading Acceleration Labs**\nOver 16 weeks, from February to May 2024, Kayla immersed herself in Bridge City Literacy Alliance\u2019s Reading Acceleration Labs. With an impressive 96% attendance rate, she completed 40 one-on-one tutoring sessions. These sessions were built on a foundation of participant agency, allowing Kayla to actively set her own weekly reading goals. \u201cKayla set weekly goals and tracked them\u2014her confidence grew as fast as her fluency,\u201d notes Marta Nguyen, Lead Tutor. This personalized approach, coupled with dedicated support, fostered a sense of ownership over her progress.\n\n**After/Results**\nKayla's dedication yielded remarkable results. Her reading level, measured by MAP Reading Fluency, soared from Grade 1.3 to Grade 2.5\u2014a substantial improvement that brought her closer to grade-level proficiency. Her words-correct-per-minute increased significantly from 42 to 78, demonstrating enhanced fluency and comprehension. Beyond the numbers, Kayla\u2019s confidence blossomed. Her family reported a dramatic increase in home reading, from one night a week to four, transforming a solitary activity into a shared joy. Kayla proudly recounts, \"I picked the chapter book myself and read to my little brother\u2014he laughed when I did the voices.\"\n\n**What This Means**\nKayla\u2019s success story is a testament to the power of targeted, individualized support. It mirrors the broader impact of Bridge City Literacy Alliance\u2019s Spring 2024 programming, where 78% of participants gained at least 1.5 grade levels in a single semester. Our program\u2019s emphasis on consistent engagement is reflected in 92% regular attendance, and our long-term efficacy is evidenced by 70% of students sustaining their gains at the three-month follow-up. By investing in literacy, we are not just teaching children to read; we are empowering them to thrive, fostering a love of learning, and breaking down barriers to future success in Southeast Chicago.\n\n**Call to Action**\nYour support can unlock more stories like Kayla's. Become a monthly donor at $15 to sponsor tutoring materials for our next cohort of eager learners.\n\n**By Priya Desai, Director of Storytelling**\n*(Bridge City Literacy Alliance provides personalized, high-impact literacy support to children in Southeast Chicago.)*\n\n*(Guardian consent for sharing Kayla's story, including her first name and quote, has been obtained. School, classroom, and specific location details have been omitted to protect privacy. Photo consent YES: Alt text: Nine-year-old Kayla, with a bright smile, holds up a colorful children's chapter book.)*",
+      "timestamp": "2025-11-02T13:18:07.915138Z",
+      "duration_seconds": 5.38,
+      "tokens": {
+        "input": 665,
+        "output": 724,
+        "total": 1389
+      },
+      "cost_usd": 0.000534,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 5,
+          "completeness": 8,
+          "usefulness": 7,
+          "accuracy": 6,
+          "authenticity": 8
+        },
+        "reasoning": "The output is structurally complete and includes strong data integration, but it contains a critical error in the headline ('Rescuing Futures') that uses savior language explicitly prohibited in the prompt. This undermines the otherwise solid execution and would require immediate revision before use.",
+        "strengths": [
+          "Excellent integration of specific outcome data (MAP scores, attendance rates, program-wide statistics) that adds credibility",
+          "Strong emphasis on participant agency with phrases like 'Kayla actively set her own weekly reading goals' and 'sense of ownership'",
+          "Comprehensive privacy protection with clear consent metadata and appropriate omissions",
+          "Effective use of both participant and staff quotes that add authenticity and voice",
+          "Well-structured before-during-after arc that shows clear progression",
+          "Appropriate alt text suggestion for photo consent",
+          "Good connection between individual story and program-wide impact in 'What This Means' section"
+        ],
+        "weaknesses": [
+          "CRITICAL: Headline uses 'Rescuing Futures'\u2014explicit savior language that directly violates prompt instructions to avoid savior framing",
+          "Headline exceeds the 6-10 word limit at 8 words (borderline but acceptable) but more importantly fails the tone test",
+          "Phrase 'dulled her natural enthusiasm' in Before section edges toward deficit framing rather than neutral description",
+          "Missing the second pull quote requested (only one provided instead of 1-2)",
+          "Some phrases like 'immersed herself' are slightly elevated for a 9-year-old's agency description",
+          "The headline doesn't follow best practices\u2014should focus on Kayla's achievement rather than organizational action"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# How Kayla Found Her Voice\u2014One Chapter Book at a Time\n\n**Snapshot**  \nNine-year-old Kayla participated in Bridge City Literacy Alliance's Reading Acceleration Labs in Southeast Chicago, gaining nearly 1.5 grade levels in reading fluency in 16 weeks\u2014and discovering the joy of reading aloud to her younger brother.\n\n---\n\n**Before**  \nLast winter, Kayla read at a Grade 1.3 level as a third-grader. She recognized most words on the page but struggled to decode quickly enough to understand or enjoy the stories. At home, her family read together about once a week\u2014when homework and evening routines allowed.\n\n---\n\n**During Reading Acceleration Labs**  \nBetween February and May 2024, Kayla attended 40 one-on-one tutoring sessions with 96% attendance. She worked with her tutor, Marta, to set weekly goals: first tackling tricky vowel patterns, then building speed, and finally selecting her own chapter books. Marta provided tailored phonics games, timed reading exercises, and a growing library Kayla could borrow from. Her family received simple activity guides to support practice at home\u2014no special training required.\n\n\"Kayla set weekly goals and tracked them\u2014her confidence grew as fast as her fluency,\" says Marta Nguyen, Lead Tutor.\n\nKayla began choosing books that made her curious. She practiced. She asked questions. She decided to read aloud to her four-year-old brother.\n\n---\n\n**After/Results**  \nBy May, Kayla's reading level reached Grade 2.5 on the MAP Reading Fluency assessment. Her words-correct-per-minute nearly doubled\u2014from 42 to 78. Her family now reads together four nights a week, a rhythm Kayla helped establish. \n\n\"I picked the chapter book myself and read to my little brother\u2014he laughed when I did the voices,\" Kayla shared.\n\nKayla's progress mirrors the strength of the cohort: in Spring 2024, 78% of Reading Acceleration Labs participants gained at least 1.5 grade levels in a single semester, 92% maintained regular attendance, and 70% sustained their gains at the three-month follow-up.\n\n---\n\n**What This Means**  \nWhen children like Kayla gain fluency, they gain access\u2014to harder books, to classroom discussion, to imagining themselves as readers and learners. Your support helps us provide the individualized tutoring, adaptive materials, and family engagement resources that make measurable progress possible. Every session, every book, every goal Kayla set for herself was made possible by donors who believe in her potential.\n\n---\n\n**Call to Action**  \n**Become a monthly donor at $15 to sponsor tutoring materials** like the leveled books and phonics tools that helped Kayla\u2014and 78% of her peers\u2014gain more than a year of reading growth in just one semester.  \n[Donate at bridgecityliteracy.org/give]\n\n---\n\n**By Priya Desai, Director of Storytelling**  \n*Bridge City Literacy Alliance | Reading Acceleration Labs: Evidence-based, one-on-one tutoring for elementary readers in Chicago.*\n\n---\n\n**Suggested photo alt text (guardian consent: YES):**  \n*A young girl with a bright smile holds an open chapter book, seated at a table with colorful literacy materials.*\n\n---\n\n## Pull Quotes\n\n> \"I picked the chapter book myself and read to my little brother\u2014he laughed when I did the voices.\" \u2014Kayla\n\n> \"Kayla set weekly goals and tracked them\u2014her confidence grew as fast as her fluency.\" \u2014Marta Nguyen, Lead Tutor\n\n---\n\n**Word count:** 492",
+      "timestamp": "2025-11-02T13:18:21.592614Z",
+      "duration_seconds": 19.06,
+      "tokens": {
+        "input": 732,
+        "output": 856,
+        "total": 1588
+      },
+      "cost_usd": 0.015036,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally strong output that demonstrates sophisticated understanding of ethical nonprofit storytelling. It successfully balances data credibility with human warmth, centers participant agency throughout, and includes all required structural elements while maintaining natural flow and dignity.",
+        "strengths": [
+          "Excellent tone calibration\u2014warm, respectful, mission-aligned without sentimentality or savior language",
+          "Strong centering of participant agency: 'She practiced. She asked questions. She decided to read aloud' and 'every goal Kayla set for herself'",
+          "Sophisticated data integration that feels natural, not forced\u2014individual metrics tied clearly to program-wide outcomes without overgeneralizing",
+          "Privacy protections rigorously applied\u2014no school name, exact location details, or identifying information beyond what was permitted",
+          "Effective before-during-after arc with concrete, observable changes rather than vague transformation claims",
+          "Quotes are well-integrated and add genuine voice; staff quote appropriately credits participant effort",
+          "Headline is engaging and specific (8 words, within 6-10 range)",
+          "Call to action is concrete, low-friction, and directly tied to story elements",
+          "Pull quotes are well-selected and within word count parameters",
+          "Photo alt text is descriptive and dignified",
+          "Professional formatting with clear sections, byline, and program descriptor for reuse"
+        ],
+        "weaknesses": [
+          "Minor: The phrase 'discovering the joy' in the snapshot leans slightly toward emotional language that could be more concrete\u2014though not egregious",
+          "The 'What This Means' section could more explicitly connect Kayla's individual story to systemic literacy barriers or educational equity, though the current framing is still strong",
+          "Very minor completeness gap: while consent metadata is confirmed in the alt text note, it could have been even more explicit in a metadata footer (though this may be overly prescriptive)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Headline\nFrom Hesitant to Fluent: Kayla\u2019s 16\u2011Week Leap\n\nByline\nBy By Priya Desai, Director of Storytelling\n\nSnapshot\nKayla (she/her), age 9 in Southeast Chicago, joined Bridge City Literacy Alliance\u2019s Reading Acceleration Labs. In 16 weeks (Feb\u2013May 2024), she completed 40 one\u2011on\u2011one sessions, moving from Grade 1.3 to 2.5 in reading level (MAP Reading Fluency).\n\nBefore\nAt the start of spring, Kayla loved stories but often avoided reading aloud. She set a personal goal with her caregiver\u2014\u201cread smoother and pick my own chapter book.\u201d Baseline data showed 42 words\u2011correct\u2011per\u2011minute and a Grade 1.3 reading level. At home, family reading happened about one night per week.\n\nDuring Reading Acceleration Labs\nKayla built a weekly routine with her tutor: set a goal every Monday, practice fluency using texts she chose, and track progress on a simple chart. She learned to breathe between phrases, use finger tracking only when needed, and self\u2011monitor for accuracy. She celebrated small wins\u2014re\u2011reading tricky passages and timing herself. Her attendance was 96%, supported by her family\u2019s commitment to get her to sessions. At home, Kayla led read\u2011alouds for her younger brother, turning practice into play.\n\nPull quote\n\u201cI picked the chapter book myself and read to my little brother\u2014he laughed when I did the voices.\u201d\n\nAfter/Results\nBy May 2024, Kayla\u2019s data told a clear story of effort and growth:\n- Reading level increased from Grade 1.3 to 2.5 (MAP Reading Fluency).\n- Words\u2011correct\u2011per\u2011minute rose from 42 to 78.\n- Attendance held at 96% across 40 one\u2011on\u2011one tutoring sessions.\n- Family reading time grew from 1 to 4 nights per week.\n\nHer confidence matched the numbers; she began volunteering to read dialogue out loud and selected longer texts with fewer prompts.\n\nOptional staff voice\n\u201cKayla set weekly goals and tracked them\u2014her confidence grew as fast as her fluency.\u201d \u2014Marta Nguyen, Lead Tutor\n\nWhat this means\nKayla\u2019s progress reflects a broader pattern across Reading Acceleration Labs. In Spring 2024, 78% of students gained at least 1.5 grade levels in a single semester, 92% attended regularly, and 70% sustained gains at a three\u2011month follow\u2011up. Donor support helps make this kind of steady, measurable growth possible\u2014providing evidence\u2011based tutoring, books students choose themselves, and family coaching that turns home into a reading\u2011rich environment. Kayla\u2019s momentum shows what can happen when a young reader sets goals, has tools to track progress, and receives consistent, affirming support.\n\nPull quote\n\u201cSeeing my chart go up made me want to read more. I can finish a chapter without stopping now.\u201d\n\nCall to Action\nBecome a monthly donor at $15 to sponsor tutoring materials. Your gift puts leveled books, fluency trackers, and family reading guides into students\u2019 hands\u2014so more readers like Kayla can set goals and meet them.\n\nConsent and Privacy\nShared with guardian consent (YES) and photo consent (YES). Personal details are limited to protect privacy. Suggested photo alt text: \u201cKayla, age 9, smiling as she reads a chapter book at a community table, with a blurred background.\u201d\n\nProgram descriptor\nReading Acceleration Labs is Bridge City Literacy Alliance\u2019s individualized, data\u2011driven tutoring and family engagement program that accelerates fluency and confidence for early readers.",
+      "timestamp": "2025-11-02T13:18:40.826106Z",
+      "duration_seconds": 38.3,
+      "tokens": {
+        "input": 637,
+        "output": 1975,
+        "total": 2612
+      },
+      "cost_usd": 0.031536,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional output that fulfills nearly all prompt requirements with appropriate warm tone, concrete data integration, and dignified participant voice. The structure is clear, privacy protections are robust, and the story balances human narrative with evidence-based outcomes effectively for donor audiences.",
+        "strengths": [
+          "Excellent data integration\u2014specific metrics (42\u219278 wcpm, Grade 1.3\u21922.5) are woven naturally into narrative without overwhelming the human story",
+          "Strong participant agency throughout\u2014Kayla 'set goals,' 'chose texts,' 'led read-alouds,' 'tracked progress'; program positioned as support not savior",
+          "Comprehensive privacy protection\u2014appropriately omits all specified identifiers, generalizes location/timeframe, includes consent metadata and photo alt text",
+          "Well-structured before-during-after arc with clear progression and concrete details (weekly routine, finger tracking, self-monitoring techniques)",
+          "Effective connection to program-wide impact (78% gained \u22651.5 levels) without overgeneralizing from individual case",
+          "Warm, respectful tone avoids pity, trauma, savior language, and clich\u00e9s while maintaining professionalism",
+          "Pull quotes are authentic and age-appropriate; second pull quote adds valuable voice not in original data",
+          "Clear, low-friction CTA with specific dollar amount and tangible impact connection"
+        ],
+        "weaknesses": [
+          "Minor formatting issue: 'By By Priya Desai' duplicates 'By' in byline",
+          "Second pull quote ('Seeing my chart go up...') appears to be AI-generated rather than from provided participant quote\u2014should be flagged as paraphrased or removed since only one quote was provided in source data",
+          "The 'Optional staff voice' label is awkward for final copy\u2014should either integrate naturally or remove the 'optional' designation",
+          "Could strengthen the 'What this means' section by more explicitly connecting Kayla's family engagement outcomes (1\u21924 nights reading) to program-wide family coaching component"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1744,
+    "average_score": 8.0
+  }
+}

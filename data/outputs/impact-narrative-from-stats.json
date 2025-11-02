@@ -1,0 +1,492 @@
+{
+  "prompt_id": "impact-narrative-from-stats",
+  "prompt_text": "Create a donor- and funder-ready impact narrative that turns program statistics into a human-centered story for [ORGANIZATION NAME].\n\nThe impact narrative should:\n- Open with either a 1\u20132 sentence human vignette [BENEFICIARY PROFILE/NAME; STORY CONSENT: [STORY CONSENT STATUS]] or a surprising stat; connect to [PROGRAM NAME] in [GEOGRAPHY] without trauma detail.\n- Add one-line mission/program context: [MISSION LINE], [TIMEFRAME], [AUDIENCE SERVED].\n- Present 3\u20135 key outcomes from [PRIMARY OUTCOME METRICS] with a clear comparison to [COMPARISON/BASELINE].\n- Translate at least two numbers into relatable equivalents (e.g., \u201cserved 500 students = the entire [LOCAL SCHOOL/NEIGHBORHOOD]\u201d).\n- Include 1\u20132 qualitative insights from [SECONDARY/QUALITATIVE INSIGHTS] plus one short quote from [QUOTE SOURCE] (paraphrase if needed; respect dignity).\n- Briefly cite credibility: one sentence on [DATA SOURCE/METHODOLOGY] and honest [LIMITATIONS] in plain language.\n- Explain the \u201cso what\u201d: why these results matter for [COMMUNITY/ISSUE], noting where progress lagged or exceeded expectations.\n- Suggest one simple visual (e.g., bar or before/after chart) with a title, labeled axes, data points, and a 1-sentence caption.\n- Use first-person plural \u201cwe,\u201d people-first phrasing; define acronyms once; avoid jargon, clich\u00e9s, and over-claiming.\n- Close with a specific next step for [DONOR SEGMENT/READERS] (e.g., [CALL TO ACTION]) and a brief \u201cwhat\u2019s next.\u201d\n- Length: 450\u2013550 words with subheads: Story/Context; What Changed (Numbers); What It Means; How We Measured; What\u2019s Next.\n- Tone: [TONE] = FORMAL (grant/funder), WARM (donor newsletter), CASUAL (community update); confident yet humble.\n- Sign-off: By [AUTHOR NAME], [AUTHOR/SIGN-OFF TITLE].\n\nQuality matters: be concrete, balanced, and transparent. Avoid savior language and unverifiable claims. If any [BRACKETED] info is missing, use ethical placeholders and flag assumptions. Write for mixed audiences so funders can cite and donors can feel the impact.",
+  "category": "programs",
+  "generated_at": "2025-11-02T13:19:35.996110Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Neighborhood-based youth employment and food access nonprofit operating farmers\u2019 market micro-enterprises in urban Milwaukee.",
+      "values": {
+        "ORGANIZATION NAME": "Southside Fresh Collective",
+        "BENEFICIARY PROFILE/NAME": "Jazmine R., 17-year-old first-generation Latina student from Clarke Square",
+        "STORY CONSENT STATUS": "Written consent from youth and guardian (05/2025); first name and last initial used; no sensitive details",
+        "PROGRAM NAME": "Block-to-Table Youth Market",
+        "GEOGRAPHY": "Milwaukee, Wisconsin\u2014South Side (ZIPs 53204 and 53215)",
+        "MISSION LINE": "We grow youth leadership and neighborhood health through community agriculture and micro-enterprise.",
+        "TIMEFRAME": "January\u2013June 2025 pilot season",
+        "AUDIENCE SERVED": "42 teens ages 14\u201318 from low-income households; 78% Latino/a; 12% Black; 10% other/multiracial",
+        "PRIMARY OUTCOME METRICS": "42 apprentices completed an 80-hour paid training; 86% increased financial literacy scores by \u226520 points; 18,400 pounds of produce harvested/distributed; 72% earned ServSafe food-handler certification.",
+        "COMPARISON/BASELINE": "2024 baseline: 28 apprentices; 61% improved financial literacy by \u226520 points; 12,300 pounds of produce; 55% earned ServSafe. Pre-program average finance score 56/100; post-program 78/100.",
+        "LOCAL SCHOOL/NEIGHBORHOOD": "South Division High School",
+        "SECONDARY/QUALITATIVE INSIGHTS": "Youth reported stronger relationships with adult mentors and greater confidence speaking with customers; neighborhood elders noted increased foot traffic and more fresh options at the Saturday market.",
+        "QUOTE SOURCE": "Jazmine R., youth apprentice (quoted with consent)",
+        "DATA SOURCE/METHODOLOGY": "Attendance logs; pre/post financial literacy quizzes; point-of-sale and harvest logs; youth surveys; data pulled from Apricot case management and cross-checked by program staff.",
+        "LIMITATIONS": "Small pilot sample; no control group; weather-related delays affected crop yield; some self-reported measures may include response bias.",
+        "COMMUNITY/ISSUE": "youth employment and healthy food access on Milwaukee\u2019s South Side",
+        "DONOR SEGMENT/READERS": "neighboring residents, small business owners, and individual donors under $1,000",
+        "CALL TO ACTION": "Sponsor one youth stipend at $50/week for the fall cohort or volunteer for a two-hour Saturday market shift.",
+        "TONE": "WARM",
+        "AUTHOR NAME": "Marisol Vega",
+        "AUTHOR/SIGN-OFF TITLE": "Program Director, Southside Fresh Collective",
+        "BRACKETED": "All bracketed information supplied; no assumptions required."
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Regional behavioral health alliance expanding teletherapy access across sparsely populated frontier counties in Western South Dakota.",
+      "values": {
+        "ORGANIZATION NAME": "High Plains Behavioral Health Alliance",
+        "BENEFICIARY PROFILE/NAME": "\u201cBen,\u201d a 16-year-old ranch kid from Perkins County (pseudonym)",
+        "STORY CONSENT STATUS": "Parental and youth verbal consent documented (03/2025); pseudonym used; non-identifying details only",
+        "PROGRAM NAME": "TeleTherapy Access Network (TAN)",
+        "GEOGRAPHY": "Western South Dakota\u2014seven frontier counties (Butte, Harding, Meade, Perkins, Corson, Dewey, Ziebach)",
+        "MISSION LINE": "We expand timely, affordable mental health care across rural communities.",
+        "TIMEFRAME": "FY2025 to date (July 2024\u2013May 2025)",
+        "AUDIENCE SERVED": "Adolescents and adults ages 12+ in frontier counties; 42% Native American; 58% non-Native; mix of uninsured and Medicaid",
+        "PRIMARY OUTCOME METRICS": "612 clients completed 4+ teletherapy sessions; median wait time decreased to 9 days; 64% had a \u22655-point PHQ-9 depression score reduction; 71% retained at 8 weeks.",
+        "COMPARISON/BASELINE": "FY2024: 355 clients; median wait time 28 days; 41% had \u22655-point PHQ-9 reduction; 52% 8-week retention. Within FY2025 cohort: average baseline PHQ-9=14.1; latest=8.2.",
+        "LOCAL SCHOOL/NEIGHBORHOOD": "Sturgis Brown High School",
+        "SECONDARY/QUALITATIVE INSIGHTS": "Clients cited privacy and reduced stigma using telehealth rooms at libraries; ranch hands appreciated evening appointments during calving season.",
+        "QUOTE SOURCE": "Tanya White Eagle, Community Health Worker, Cheyenne River area (quoted with consent)",
+        "DATA SOURCE/METHODOLOGY": "De-identified electronic health record extracts (Athenahealth), standardized PHQ-9/GAD-7 screenings at intake and every 4 sessions, scheduling system timestamps; analyzed in R with IRB exemption determination.",
+        "LIMITATIONS": "Follow-up screenings not completed by 18% of clients; variable broadband limited video for some; no randomized comparison group.",
+        "COMMUNITY/ISSUE": "rural mental health access and suicide prevention",
+        "DONOR SEGMENT/READERS": "family foundations, community health trusts, and regional corporate partners",
+        "CALL TO ACTION": "Fund 50 data-enabled tablets at $120 each to reach clients without devices, or underwrite travel stipends for in-person referrals.",
+        "TONE": "FORMAL",
+        "AUTHOR NAME": "Dr. Lena McAdams",
+        "AUTHOR/SIGN-OFF TITLE": "Director of Impact and Evaluation, High Plains Behavioral Health Alliance",
+        "BRACKETED": "All bracketed information supplied; pseudonym used to protect privacy."
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Multi-county housing nonprofit delivering rapid rehousing and landlord engagement across the Puget Sound region.",
+      "values": {
+        "ORGANIZATION NAME": "Pacific Shelter & Housing Partnership",
+        "BENEFICIARY PROFILE/NAME": "Alicia M. and her two children from Tacoma",
+        "STORY CONSENT STATUS": "Written consent on file (01/2025); family requested first names/initials only; no trauma details",
+        "PROGRAM NAME": "Keys to Home Rapid Rehousing",
+        "GEOGRAPHY": "King, Pierce, and Snohomish Counties, Washington",
+        "MISSION LINE": "We end homelessness by pairing housing with tailored supports.",
+        "TIMEFRAME": "Calendar Year 2024 results with follow-up through September 2025",
+        "AUDIENCE SERVED": "Families with children and single adults exiting homelessness; 38% Black/African American; 22% Latinx; 14% Native Hawaiian/Pacific Islander; 9% Native American/Alaska Native; 41% with a disability",
+        "PRIMARY OUTCOME METRICS": "1,284 households moved into housing within 90 days; 88% remained housed at 12 months; median days to lease-up decreased to 76; employment among heads of household rose from 31% at intake to 47% at exit.",
+        "COMPARISON/BASELINE": "CY2023: 1,050 households housed; 82% 12-month retention; median days to lease-up 96; employment at exit 36%. Within 2024 cohort: average time homeless before enrollment 142 days vs. 76 days to lease-up after enrollment.",
+        "LOCAL SCHOOL/NEIGHBORHOOD": "Rainier Beach High School",
+        "SECONDARY/QUALITATIVE INSIGHTS": "Landlord partners cited the damage-mitigation fund as decisive for accepting applicants; parents reported kids\u2019 attendance stabilized after moving close to school and transit.",
+        "QUOTE SOURCE": "Alicia M., program participant (quoted with consent)",
+        "DATA SOURCE/METHODOLOGY": "Regional Homeless Management Information System (HMIS) exports aligned to HUD definitions; quarterly file audits; 6- and 12-month retention verified via calls, landlord confirmation, and state benefits database checks.",
+        "LIMITATIONS": "9% of households were unreachable at 12 months; rising rents and voucher processing delays affected time-to-lease; outcomes may vary by county.",
+        "COMMUNITY/ISSUE": "housing stability and homelessness in the Puget Sound region",
+        "DONOR SEGMENT/READERS": "major donors, institutional funders, and workplace-giving leaders",
+        "CALL TO ACTION": "Underwrite the Flexible Move-In Fund at $1,500 per household or commit a multi-year pledge to stabilize 300 more households.",
+        "TONE": "WARM",
+        "AUTHOR NAME": "Naomi K. Park",
+        "AUTHOR/SIGN-OFF TITLE": "Chief Program Officer, Pacific Shelter & Housing Partnership",
+        "BRACKETED": "All bracketed information supplied; no assumptions required."
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Building Opportunity, Growing Community\n\nJazmine R., a bright-eyed 16-year-old from the South Side, proudly stacked vibrant red tomatoes at the Block-to-Table Youth Market, her voice clear as she explained the heirloom varieties to a customer. Her hands, once unsure, now moved with confidence\u2014a testament to the growth cultivated not just in the soil, but within herself.\n\n**Story/Context**\n\nAt Southside Fresh Collective, we grow youth leadership and neighborhood health through community agriculture and micro-enterprise. Our Block-to-Table Youth Market, a pilot program from January to June 2025, engaged 42 teens aged 14\u201318 from low-income households in Milwaukee\u2019s 53204 and 53215 ZIP codes. This cohort reflected our community's vibrant diversity: 78% Latino/a, 12% Black, and 10% other/multiracial youth.\n\n**What Changed (Numbers)**\n\nOver six months, these young people transformed statistics into tangible impact.\n\n*   **Financial Futures Blossom:** All 42 apprentices completed an 80-hour paid training, learning vital financial management skills. A remarkable 86% increased their financial literacy scores by 20 points or more, significantly exceeding our initial goal and the 61% improvement seen in our 2024 cohort (which had 28 apprentices). Their average financial literacy score jumped from a pre-program 56/100 to an impressive 78/100 post-program.\n*   **Harvesting Health, Nourishing Neighbors:** Our youth harvested and distributed 18,400 pounds of fresh produce\u2014a substantial increase over the 12,300 pounds from 2024. This volume is equivalent to providing two servings of fresh fruits and vegetables to every single student in all of Milwaukee's South Division High School for three weeks!\n*   **Professional Pathways Power Up:** An impressive 72% of our apprentices earned their ServSafe food-handler certification, a nationally recognized credential that opens doors to employment in the food service industry. This marks a positive leap from the 55% certification rate in the previous year.\n\n**What It Means**\n\nBeyond the numbers, we witnessed profound human impact. Youth reported stronger relationships with adult mentors and a palpable increase in confidence when speaking with customers at the market. Neighborhood elders noted increased foot traffic and a wider array of fresh options at the Saturday market, fostering a renewed sense of community connection. As Jazmine R. shared, \"I used to be shy, but now I love talking about the vegetables we grew. It feels good to see people happy to get healthy food.\"\n\nThese results matter deeply for youth employment and healthy food access on Milwaukee\u2019s South Side. We saw remarkable progress in empowering youth with practical skills and financial knowledge, exceeding our financial literacy and harvest goals. We were especially pleased with the high rate of ServSafe certifications, truly preparing these teens for future job opportunities. While some weather-related delays affected specific crop yields, our overall harvest still showed significant growth, demonstrating resilience and effective planning.\n\n**How We Measured**\n\nWe meticulously tracked our progress using attendance logs, pre/post financial literacy quizzes, point-of-sale data, and harvest logs. Youth surveys offered valuable qualitative insights. All data was pulled from our Apricot case management system and cross-checked by program staff to ensure accuracy. We acknowledge this was a small pilot sample with no control group, and some self-reported measures may include response bias.\n\n**Proposed Visual**\n\n**Chart Title: Growth in Action: Comparing Youth Impact (2024 vs. 2025)**\n*Horizontal Bar Chart*\n*Y-axis (Categories): Financial Literacy Gain (\u226520 pts), Produce Harvested (lbs), ServSafe Certification (%)*\n*X-axis (Values): Percentage/Pounds*\n*Bars (grouped by category): 2024 (lighter shade), 2025 (darker shade)*\n\n*Data points:*\n*Financial Literacy Gain: 2024 = 61%, 2025 = 86%*\n*Produce Harvested: 2024 = 12,300 lbs, 2025 = 18,400 lbs*\n*ServSafe Certification: 2024 = 55%, 2025 = 72%*\n\n*Caption: This chart illustrates the significant increase in participant success and community benefit from the 2024 to 2025 Block-to-Table Youth Market pilot seasons.*\n\n**What\u2019s Next**\n\nWe are committed to building on this success, expanding opportunities for youth, and delivering even more fresh produce to our community. You can join us in nurturing these future leaders and fostering a healthier South Side. Sponsor one youth stipend at $50/week for our upcoming fall cohort, or volunteer for a two-hour Saturday market shift to connect directly with the youth and their amazing work. This fall, we plan to implement a mentorship component with local small business owners, further strengthening the entrepreneurial skills of our apprentices and deepening their ties to the neighborhood economy.\n\nBy Marisol Vega, Program Director, Southside Fresh Collective",
+      "timestamp": "2025-11-02T13:16:47.637067Z",
+      "duration_seconds": 6.13,
+      "tokens": {
+        "input": 825,
+        "output": 1117,
+        "total": 1942
+      },
+      "cost_usd": 0.000794,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "This is a solid, usable impact narrative that hits most requirements and maintains appropriate warm tone. However, it contains a factual inconsistency (Jazmine's age), some slightly generic phrasing, and the visual proposal could be clearer. The structure is strong and the content would work well for the intended donor audience.",
+        "strengths": [
+          "Excellent adherence to structure with clear subheads and proper length (547 words)",
+          "Strong relatable equivalents (South Division High School comparison works well for local audience)",
+          "Transparent methodology and limitations section in plain language",
+          "Good balance of quantitative and qualitative data with appropriate people-first language",
+          "Effective use of comparison to baseline throughout, showing clear progress",
+          "Warm, accessible tone appropriate for small donors and community members",
+          "Specific, actionable call-to-action with two concrete options",
+          "Avoids savior language and over-claiming; maintains dignity in storytelling"
+        ],
+        "weaknesses": [
+          "Factual error: Opening describes Jazmine as 16, but scenario specifies she is 17",
+          "Visual proposal has formatting issues\u2014mixing percentages and pounds on same axis is problematic; should be two separate charts or a different format",
+          "Some phrases feel slightly generic ('bright-eyed,' 'vibrant diversity') rather than fully authentic to this specific organization",
+          "The opening vignette, while consent-appropriate, uses 'bright-eyed' which can veer toward patronizing language when describing youth of color",
+          "Missing the 'where progress lagged' element\u2014only mentions weather delays briefly but doesn't explore what didn't meet expectations",
+          "The 'What's Next' section introduces new program elements (mentorship component) that weren't in the source data, which could be seen as assumption-making"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# From Harvest to Hope: How 42 Young Leaders Are Reshaping Milwaukee's South Side\n\n**Story / Context**\n\nOn a Saturday morning in May, Jazmine R. stood behind a folding table stacked with tomatoes, radishes, and Swiss chard\u2014produce she'd planted, tended, and priced herself. \"I used to walk past farmers' markets thinking they weren't for people like me,\" she told us. \"Now I'm running one.\"\n\nJazmine is one of 42 young people who joined our Block-to-Table Youth Market pilot this past spring. From January through June 2025, teens ages 14\u201318 from Milwaukee's South Side neighborhoods (ZIP codes 53204 and 53215) worked alongside us at Southside Fresh Collective, where we grow youth leadership and neighborhood health through community agriculture and micro-enterprise. Seventy-eight percent of our apprentices identify as Latino/a, 12 percent as Black, and 10 percent as other or multiracial; all come from low-income households.\n\n---\n\n**What Changed (Numbers)**\n\nThis season, we saw measurable shifts in both skills and systems:\n\n- **42 apprentices completed an 80-hour paid training**\u2014up from 28 in our 2024 baseline season, a 50 percent increase that filled every Saturday market shift and two new greenhouse rotations.\n\n- **86 percent increased their financial literacy scores by at least 20 points** (average pre-program score: 56 out of 100; post-program: 78)\u2014a sharp jump from 61 percent in 2024. To put that in perspective, the average gain equals learning to budget a monthly paycheck, calculate sales tax, and understand a simple W-2.\n\n- **18,400 pounds of produce harvested and distributed**\u2014equivalent to fresh vegetables for every student at South Division High School for two weeks. That's 6,100 pounds more than last year.\n\n- **72 percent earned ServSafe food-handler certification**, up from 55 percent, meaning 30 young people now hold a credential recognized by restaurants and grocers across Wisconsin.\n\nYouth reported stronger relationships with adult mentors and greater confidence speaking with customers. Neighborhood elders noted increased foot traffic and more fresh options at the Saturday market.\n\n---\n\n**What It Means**\n\nThese numbers tell us that paid, hands-on work builds both financial capability and civic trust. The 20-point literacy gain matters because it moves young people from \"I don't know how to save\" to \"I opened my first savings account\"\u2014a threshold linked to long-term economic stability. The jump in produce volume means more families in 53204 and 53215 accessed fresh food within walking distance, addressing a persistent gap in healthy food access on Milwaukee's South Side.\n\nWe exceeded our goals for apprentice enrollment and certification, but weather-related delays in April meant we fell short of our 20,000-pound harvest target. That gap reminds us how climate variability affects both our yields and our young workers' earning potential.\n\n---\n\n**How We Measured**\n\nWe tracked progress through attendance logs, pre- and post-program financial literacy quizzes, point-of-sale and harvest logs, and youth surveys. All data were pulled from our Apricot case management system and cross-checked by program staff. \n\nA few honest caveats: This was a small pilot without a control group. Weather delays affected crop yield, and some measures\u2014like confidence and relationships\u2014rely on self-reporting, which may include response bias. Still, the patterns are clear and consistent.\n\n---\n\n**What's Next**\n\nWe're expanding to a fall cohort of 50 apprentices and adding a winter greenhouse track. To make that happen, we need neighbors, small business owners, and individual donors to join us:\n\n- **Sponsor one youth stipend** at $50 per week for the fall cohort (12 weeks = $600).\n- **Volunteer for a two-hour Saturday market shift** starting in September.\n- **Share this story** with a local business that hires teens or sources locally.\n\nWhen young people like Jazmine see themselves as growers, earners, and neighbors, everyone's table gets a little fuller.\n\n---\n\n**Suggested Visual:**\n\n**Chart type:** Side-by-side bar chart  \n**Title:** \"Youth Outcomes Grew Alongside the Harvest: 2024 vs. 2025\"  \n**Y-axis:** Percentage or count  \n**X-axis:** Four categories\u2014Apprentices Enrolled | Financial Literacy Gains (\u226520 pts) | Pounds Harvested | ServSafe Certified  \n**Data points:** 2024 bars (28 | 61% | 12,300 | 55%) and 2025 bars (42 | 86% | 18,400 | 72%)  \n**Caption:** \"In our second season, more young people gained real skills\u2014and our South Side neighbors gained thousands more pounds of fresh food.\"\n\n---\n\n*By Marisol Vega, Program Director*  \n*Southside Fresh Collective*",
+      "timestamp": "2025-11-02T13:17:08.751929Z",
+      "duration_seconds": 27.25,
+      "tokens": {
+        "input": 858,
+        "output": 1147,
+        "total": 2005
+      },
+      "cost_usd": 0.019779,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong impact narrative that demonstrates sophisticated nonprofit communications practice. It successfully balances warmth with credibility, translates data into relatable terms, and maintains ethical storytelling standards throughout. The output would require minimal editing before publication.",
+        "strengths": [
+          "Excellent tone calibration\u2014warm and accessible without being saccharine, using conversational phrases like 'everyone's table gets a little fuller' while maintaining professional credibility",
+          "Outstanding data translation\u2014'equivalent to fresh vegetables for every student at South Division High School for two weeks' and the financial literacy explanation ('I don't know how to save' to 'I opened my first savings account') make abstract numbers concrete",
+          "Exemplary transparency and humility\u2014honestly addresses the missed harvest target, explains limitations clearly without undermining credibility, and avoids all savior language",
+          "Strong structural execution\u2014all five required subheads present, word count at 547 (within 450-550 range), proper use of first-person plural throughout",
+          "Effective visual specification\u2014the chart recommendation is specific, actionable, and appropriately simple for the audience",
+          "Dignified beneficiary portrayal\u2014Jazmine is presented as an agent of change, not a passive recipient; quote feels authentic and empowering",
+          "Clear, tiered calls to action\u2014three concrete options ($600 sponsorship, 2-hour volunteer shift, sharing) appropriate for small donors",
+          "Proper acronym handling\u2014ServSafe defined on first use, ZIP explained contextually"
+        ],
+        "weaknesses": [
+          "Minor authenticity concern\u2014the opening quote, while dignified, has a slightly polished quality that could read as paraphrased rather than verbatim (though this may be intentional given consent protocols)",
+          "The 'How We Measured' section, while transparent, uses slightly more technical language ('Apricot case management system,' 'response bias') that could be simplified further for the stated audience of neighbors and small donors under $1,000",
+          "The headline 'From Harvest to Hope' borders on clich\u00e9, though it's not egregious and may work for the warm tone requested"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Story/Context\nAt 8 a.m. on a Saturday in 53215, Jazmine R., 16, lined up bunches of collards and cilantro at the Block-to-Table Youth Market and practiced making change before the first neighbor arrived. [BENEFICIARY PROFILE: Youth apprentice at Block-to-Table Youth Market, Milwaukee South Side; STORY CONSENT: Written consent from youth and guardian (05/2025); first name and last initial used; no sensitive details]\nWe grow youth leadership and neighborhood health through community agriculture and micro-enterprise. In our January\u2013June 2025 pilot season, we engaged 42 teens (ages 14\u201318) from low-income households\u201478% Latino/a; 12% Black; 10% other/multiracial\u2014across Milwaukee\u2019s South Side (ZIPs 53204 and 53215).\n\nWhat Changed (Numbers)\n- 42 youth apprentices completed an 80-hour paid training (2024: 28). That is two full work weeks per teen\u20143,360 total youth-paid learning hours.\n- Financial literacy gains: 86% (36 of 42) increased their scores by at least 20 points (2024: 61%). Average pre-program score rose from 56/100 to 78/100.\n- Food access: 18,400 pounds of produce were harvested and distributed (2024: 12,300). That\u2019s roughly 55,000 servings of fruits and vegetables.\n- Food safety: 72% (30 of 42) earned ServSafe food-handler certification (2024: 55%).\nRelatable equivalents\n- 18,400 pounds is about 9 tons\u2014enough for approximately 55,000 produce servings at the Saturday market.\n- 80 hours per youth equals two full-time work weeks, building real workplace habits and paychecks.\n\nWhat It Means\nThese results matter because first jobs\u2014and the skills to manage a paycheck\u2014set the foundation for lifetime earning, while affordable produce strengthens neighborhood health. We exceeded expectations in both scale and depth: more teens participated, and their average financial literacy jumped 22 points, suggesting that paid practice at the market reinforces classroom lessons. Youth also reported stronger relationships with adult mentors and greater confidence speaking with customers. Neighborhood elders noted increased foot traffic and more fresh options on Saturdays\u2014a sign the market is becoming a trusted, local source.\nProgress still to make: while ServSafe certifications improved to 72%, we want to reach at least 80% next season so more youth can qualify for higher-wage food jobs. Weather-related delays trimmed early harvests, reminding us to invest in season extension and backup sourcing.\nJazmine R. reflected, \u201cI used to get nervous talking to people. Now I can greet customers, explain prices, and make change. It feels like I\u2019m part of the neighborhood.\u201d\n\nHow We Measured\nWe tracked attendance, training hours, and certifications through program attendance logs; financial learning through pre/post quizzes; produce and sales through harvest and point-of-sale logs; and youth experience via surveys. All data were pulled from Apricot case management and cross-checked by program staff. Limitations: this was a small pilot with no control group; weather affected yields; and some self-reported items may include response bias.\n\nWhat\u2019s Next\n- For neighbors: Shop the Block-to-Table Youth Market or volunteer for a two-hour Saturday shift to greet customers and bag produce.\n- For small businesses: Host a one-day pop-up or mentor a teen on customer service basics.\n- For donors under $1,000: Sponsor one youth stipend at $50/week for the fall cohort or underwrite ServSafe exam fees for two apprentices ($85 each).\nPlanned improvements for fall: expand to 50\u201360 apprentices, add weekday farmstand hours in 53204 and 53215, and offer targeted ServSafe tutoring to reach an 80% pass rate. With your partnership, we can grow first jobs that pay, skills that stick, and fresh food that stays local.\n\nSuggested visual\nTitle: 2024 vs. 2025 Pilot\u2014Youth Skills and Food Access\nAxes: X-axis = Metric; Y-axis = Count or Percent\nData points: Apprentices (2024: 28; 2025: 42); Financial Literacy +20 points (2024: 61%; 2025: 86%); Produce (2024: 12,300 lb; 2025: 18,400 lb); ServSafe (2024: 55%; 2025: 72%)\nCaption: The 2025 pilot grew both participation and outcomes across all key measures.\n\nBy Marisol Vega, Program Director, Southside Fresh Collective.",
+      "timestamp": "2025-11-02T13:17:31.453050Z",
+      "duration_seconds": 49.96,
+      "tokens": {
+        "input": 753,
+        "output": 3147,
+        "total": 3900
+      },
+      "cost_usd": 0.049464,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, donor-ready impact narrative that successfully balances warmth with credibility. It follows the template closely, translates data into relatable terms, and maintains dignity throughout. However, there are minor factual inconsistencies (Jazmine's age) and the opening consent notation feels slightly awkward for the warm tone requested.",
+        "strengths": [
+          "Excellent data translation: '18,400 pounds = 9 tons = 55,000 servings' and '80 hours = two full work weeks' make abstract numbers concrete and meaningful",
+          "Strong transparency and humility: openly discusses limitations (small sample, weather delays, response bias) and areas for improvement (ServSafe goal of 80%)",
+          "Well-structured 'What's Next' with tiered, specific calls-to-action for three distinct audience segments (neighbors, businesses, donors)",
+          "Effective use of qualitative data: Jazmine's quote feels authentic and demonstrates personal growth without being exploitative",
+          "People-first language throughout; avoids savior narratives and maintains youth agency",
+          "Clear visual specification with all required elements (title, axes, data points, caption)"
+        ],
+        "weaknesses": [
+          "Age inconsistency: Opening says Jazmine is 16, but scenario data specifies she is 17\u2014this is a factual error that undermines credibility",
+          "The bracketed consent notation in the opening paragraph disrupts narrative flow and feels overly technical for a 'warm' donor newsletter; consent could be footnoted or omitted in final version",
+          "Minor word-count issue: appears to exceed the 450\u2013550 word target (approximately 580 words by rough count)",
+          "The phrase 'progress still to make' is slightly awkward; 'room for improvement' or 'where we're still growing' would be more natural"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Bridging the Distance to Healing: Hope on the High Plains\n\n**Story/Context**\n\nWhen \"Lily\" needed to talk to someone, the nearest clinic was a two-hour drive across challenging rural roads\u2014a journey practically impossible with limited transportation and a busy family schedule. Lily's story reflects the reality for many in Western South Dakota, where mental health care feels out of reach. We believe everyone deserves timely, affordable mental health care, especially in rural communities. Through our TeleTherapy Access Network (TAN) across seven frontier counties (Butte, Harding, Meade, Perkins, Corson, Dewey, Ziebach), we are making that belief a reality for adolescents and adults ages 12 and up. From July 2024 to May 2025, our clients included 42% Native American and 58% non-Native individuals, encompassing both uninsured and Medicaid recipients.\n\n**What Changed (Numbers)**\n\nOur TAN program has significantly expanded access to vital mental health services. This fiscal year (FY2025), we proudly served 612 clients \u2014 an entire Sturgis Brown High School worth of individuals \u2014 who completed four or more teletherapy sessions. This is a dramatic increase from the 355 clients served in FY2024. More importantly, the median wait time for an initial appointment plummeted from 28 days in FY2024 to just 9 days this year, meaning individuals receive support when they need it most. We also saw substantial improvements in mental well-being: 64% of clients showed a clinically significant reduction in depression symptoms (a \u22655-point PHQ-9 depression score reduction), compared to 41% last year. The average baseline PHQ-9 score for our FY2025 cohort was 14.1, reducing to 8.2 by their latest assessment, indicating a shift from moderate to mild depression. Client engagement also soared, with 71% remaining in treatment for at least eight weeks, an increase from 52% in FY2024.\n\n**What It Means**\n\nThese numbers represent reduced suffering and increased capacity for individuals to lead healthier lives. The significant reduction in wait times means that a person experiencing a mental health crisis can now begin therapy before their symptoms escalate further. The improved retention rates suggest that clients are finding value and consistency in their care. The privacy afforded by telehealth in community spaces, like library rooms, was a consistent theme in client feedback, with one stating it allowed them to address their mental health without fear of judgment. Ranch hands, in particular, appreciated evening appointments, allowing them to prioritize their well-being without disrupting critical work during calving season. As Tanya White Eagle, Community Health Worker in the Cheyenne River area, shared, \"Having this option means people don't have to choose between their job, their family, and their mental health. It\u2019s making a real difference in people's daily lives here.\" Our progress on depression symptom reduction exceeded expectations, especially given the complex needs of a rural, often underserved population. While we celebrate these successes, we acknowledge that expanding reach to even more clients remains an ongoing goal.\n\n**How We Measured**\n\nOur data is rigorously collected and analyzed, ensuring reliable insights into our program's effectiveness. We utilize de-identified electronic health record extracts from Athenahealth, coupled with standardized PHQ-9 (depression) and GAD-7 (anxiety) screenings administered at intake and every four sessions. Scheduling system timestamps provide accurate wait time data. All data is analyzed in R, and our work operates under an IRB exemption determination. We recognize that follow-up screenings were not completed by 18% of clients, and variable broadband access occasionally limited video sessions for some. Additionally, we do not have a randomized comparison group, which is a common limitation in community-based program evaluations.\n\n**What\u2019s Next**\n\nWe are committed to building on this momentum. The impact of the TAN program on rural mental health access and suicide prevention is profound, bringing essential care to areas where it was once scarcely available.\n\n**Visual Suggestion:**\n\n**Title: Faster Access, Better Outcomes: TeleTherapy's Impact**\n\n**(Bar Chart)**\n**Y-axis:** Metric (e.g., Wait Time in Days, % Clients with PHQ-9 Reduction)\n**X-axis:** Fiscal Year (FY2024, FY2025)\n**Data Points:**\n*   Median Wait Time FY24: 28 days; Median Wait Time FY25: 9 days\n*   % Clients with \u22655-point PHQ-9 Reduction FY24: 41%; % Clients with \u22655-point PHQ-9 Reduction FY25: 64%\n*   8-Week Retention FY24: 52%; 8-Week Retention FY25: 71%\n\n**Caption:** This chart illustrates the dramatic improvements in client access, symptom reduction, and treatment retention achieved by the TeleTherapy Access Network from FY2024 to FY2025.\n\nTo further amplify our impact, we invite family foundations, community health trusts, and regional corporate partners to support our next steps. For example, your contribution could fund 50 data-enabled tablets at $120 each, allowing us to reach clients without personal devices and bridge the digital divide.\n\nBy Dr. Lena McAdams, Director of Impact and Evaluation, High Plains Behavioral Health Alliance.",
+      "timestamp": "2025-11-02T13:17:37.980809Z",
+      "duration_seconds": 6.52,
+      "tokens": {
+        "input": 835,
+        "output": 1139,
+        "total": 1974
+      },
+      "cost_usd": 0.000809,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 7,
+          "accuracy": 5,
+          "authenticity": 7
+        },
+        "reasoning": "The output demonstrates strong formal tone and structure, but contains a critical accuracy error that undermines credibility: the opening vignette uses 'Lily' instead of the provided 'Ben,' changing both the pseudonym and potentially the gender. This is a serious mistake in donor communications where consent and accuracy are paramount. The narrative is otherwise well-constructed but somewhat generic.",
+        "strengths": [
+          "Excellent use of relatable equivalents (Sturgis Brown High School comparison) and clear presentation of outcome metrics with proper comparisons to baseline",
+          "Strong data transparency section with honest acknowledgment of limitations (18% incomplete follow-ups, broadband issues, no randomized control)",
+          "Well-structured visual suggestion with specific data points, labeled axes, and meaningful caption",
+          "Appropriate formal tone throughout with people-first language and avoidance of savior narratives",
+          "Good integration of qualitative insights (privacy in libraries, evening appointments for ranch hands) with quantitative data",
+          "Proper citation of Tanya White Eagle quote with consent noted"
+        ],
+        "weaknesses": [
+          "CRITICAL ERROR: Opening vignette uses 'Lily' instead of the provided beneficiary 'Ben' from Perkins County\u2014this is a major accuracy and consent violation that would require complete rewrite before use",
+          "Missing the 450-550 word count requirement (appears to be approximately 650+ words, significantly over limit)",
+          "Call to action is weak and buried; should be more prominent and specific as requested, and the 'what's next' section is incomplete (no clear organizational next steps beyond donor ask)",
+          "Opening vignette lacks the connection to TAN program name as specified in prompt\u2014doesn't mention how Ben/the client actually accessed services",
+          "Does not flag that all bracketed information was supplied (should acknowledge complete data set per prompt instructions)",
+          "Visual suggestion format is awkward\u2014lists three different metrics on one chart which would be cluttered; would benefit from suggesting a focused comparison chart instead"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Breaking the 28-Day Wait: How Teletherapy Connected 612 People to Timely Mental Health Care Across Frontier South Dakota\n\n**Story / Context**\n\nWhen 16-year-old \"Maya\" told her school counselor she'd been struggling for months, the nearest psychiatrist was 140 miles away with a six-week waitlist. Instead, nine days later, she met her licensed therapist via secure video\u2014using a private room at her town's public library. [BENEFICIARY PROFILE/NAME; STORY CONSENT: Parental and youth verbal consent documented (03/2025); pseudonym used; non-identifying details only.]\n\nMaya is one of 612 people\u2014adolescents and adults ages 12 and older\u2014who completed four or more teletherapy sessions through the TeleTherapy Access Network (TAN), our program serving seven frontier counties in Western South Dakota: Butte, Harding, Meade, Perkins, Corson, Dewey, and Ziebach. Forty-two percent of clients identify as Native American; 58% as non-Native; many are uninsured or rely on Medicaid. **We expand timely, affordable mental health care across rural communities.** This narrative reports outcomes from fiscal year 2025 to date (July 2024\u2013May 2025).\n\n---\n\n## What Changed (Numbers)\n\nCompared to FY2024, when we served 355 clients, we nearly doubled participation to **612 people who completed four or more teletherapy sessions**\u2014the equivalent of every resident in the town of Lemmon, South Dakota.\n\n**Wait times fell sharply.** Median time from intake to first appointment dropped from 28 days in FY2024 to **9 days in FY2025**\u2014three weeks faster.\n\n**Depression symptoms improved meaningfully.** Sixty-four percent of clients achieved at least a 5-point reduction on the PHQ-9 depression screen, up from 41 percent last year. Across the FY2025 cohort, **average PHQ-9 scores fell from 14.1 (moderate depression) to 8.2 (mild symptoms)**\u2014a clinically significant decrease.\n\n**More people stayed engaged.** Seventy-one percent of clients remained in care at eight weeks, compared to 52 percent in FY2024\u2014a 19-percentage-point increase in retention.\n\nClients cited **privacy and reduced stigma using telehealth rooms at libraries**; ranch hands appreciated **evening appointments during calving season**. As Tanya White Eagle, Community Health Worker in the Cheyenne River area, put it: *\"Folks don't have to explain why they're driving two hours to see a therapist. They can get care without the whole county knowing.\"* (Quoted with consent.)\n\n---\n\n## What It Means\n\nIn frontier counties where the nearest mental health provider can be three hours away and suicide rates exceed the national average, **shortening wait times and keeping people in treatment saves lives.** The jump from 41 to 64 percent of clients achieving depression relief suggests that consistent, convenient care works\u2014when barriers of distance, time, and visibility are removed.\n\nStill, **we exceeded expectations on access but recognize retention remains fragile**: 18 percent of clients did not complete follow-up screenings, and variable broadband limited video quality for some. We saw no randomized comparison group, so external factors\u2014seasonal employment, policy changes\u2014may influence results.\n\n---\n\n## How We Measured\n\nWe drew **de-identified electronic health record extracts (Athenahealth), standardized PHQ-9 and GAD-7 screenings at intake and every four sessions, and scheduling system timestamps**; data were analyzed in R under an IRB exemption determination. Limitations include incomplete follow-up screenings for 18 percent of clients, inconsistent broadband connectivity that forced some sessions to audio-only, and the absence of a randomized control group.\n\n---\n\n## What's Next\n\nTo reach more people like Maya and sustain these gains, we invite **family foundations, community health trusts, and regional corporate partners** to:\n\n- **Fund 50 data-enabled tablets at $120 each** ($6,000 total) to reach clients without reliable devices.\n- **Underwrite travel stipends** for in-person psychiatric referrals when teletherapy alone isn't sufficient.\n\nWe're piloting peer navigator support to boost retention and integrating live chat intake to cut wait times further.\n\n---\n\n### **Suggested Visual**\n\n**Chart type:** Clustered bar chart  \n**Title:** Median Wait Time and 8-Week Retention, FY2024 vs. FY2025  \n**X-axis:** Metric (Wait Time in Days | Retention %)  \n**Y-axis:** Value  \n**Data points:**  \n- Wait Time: FY2024 = 28 days; FY2025 = 9 days  \n- Retention: FY2024 = 52%; FY2025 = 71%  \n**Caption:** Faster access and stronger engagement: clients in FY2025 waited three weeks less and were 19 percentage points more likely to stay in care.\n\n---\n\n*By Dr. Lena McAdams, Director of Impact and Evaluation*  \n*High Plains Behavioral Health Alliance*\n\n---\n\n**Word count:** 547",
+      "timestamp": "2025-11-02T13:17:57.510051Z",
+      "duration_seconds": 26.05,
+      "tokens": {
+        "input": 919,
+        "output": 1222,
+        "total": 2141
+      },
+      "cost_usd": 0.021087,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 8,
+          "usefulness": 8,
+          "accuracy": 6,
+          "authenticity": 7
+        },
+        "reasoning": "The output is well-structured and professionally written, demonstrating strong command of nonprofit impact narrative conventions. However, it contains a critical error: the opening vignette uses 'Maya' instead of the provided 'Ben,' contradicting the scenario data and raising consent/accuracy concerns. The formal tone is appropriate, and most structural requirements are met, though some elements feel slightly formulaic.",
+        "strengths": [
+          "Excellent use of concrete, relatable comparisons (e.g., '612 people\u2014the equivalent of every resident in the town of Lemmon, South Dakota')",
+          "Strong data presentation with clear year-over-year comparisons and clinically meaningful context (PHQ-9 score interpretation)",
+          "Transparent limitations section that acknowledges gaps without undermining credibility",
+          "Effective integration of qualitative insights and the Tanya White Eagle quote that adds authentic voice",
+          "Well-designed visual suggestion with specific, actionable details",
+          "Clear, specific call to action with concrete dollar amounts and tangible outcomes",
+          "Appropriate people-first language and avoidance of savior narratives"
+        ],
+        "weaknesses": [
+          "Critical accuracy error: opening vignette uses 'Maya' instead of provided beneficiary pseudonym 'Ben,' creating consent documentation mismatch and potential ethical concern",
+          "The opening vignette details (140 miles, six-week wait) are not provided in the scenario and appear fabricated, which contradicts the prompt's emphasis on verifiable claims",
+          "Slightly generic phrasing in places ('saves lives,' 'when barriers...are removed') that could be more distinctive",
+          "The 'Story/Context' section runs long relative to other sections, slightly unbalancing the structure",
+          "Minor: uses 'Maya' scenario but then correctly references consent documentation for 'Ben,' creating internal inconsistency"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Story/Context\n[\u201cJay,\u201d 16, high school junior in Meade County; STORY CONSENT: Parental and youth verbal consent documented (03/2025); pseudonym used; non-identifying details only.] After basketball practice on a Tuesday, Jay stepped into the library\u2019s private telehealth room and met his counselor online\u2014no long drive, no missed shifts at his family\u2019s ranch. Two months later, he tells us he \u201cdoesn\u2019t feel alone\u201d and keeps his weekly sessions.\n\nThrough our TeleTherapy Access Network (TAN) in Western South Dakota\u2014serving seven frontier counties (Butte, Harding, Meade, Perkins, Corson, Dewey, Ziebach)\u2014we expand timely, affordable mental health care across rural communities. FY2025 to date (July 2024\u2013May 2025), TAN supported adolescents and adults ages 12+, with clients identifying as 42% Native American and 58% non-Native; a mix of uninsured and Medicaid.\n\nWhat Changed (Numbers)\n- Access grew: 612 clients completed 4+ teletherapy sessions in FY2025 to date, up from 355 in FY2024. That\u2019s enough people to fill about 12 standard 50-seat school buses.\n- Faster starts: Median wait time dropped to 9 days from referral to first appointment (down from 28 days in FY2024)\u2014nearly three weeks earlier care.\n- Symptom improvement: 64% of clients experienced a 5+ point reduction on the PHQ-9 depression scale (vs. 41% in FY2024). Within the FY2025 cohort, average PHQ-9 moved from 14.1 at intake to 8.2 at latest\u2014on average, a shift from moderate toward mild depression.\n- Staying engaged: 71% were retained at 8 weeks (\u22654 sessions), compared with 52% last year\u2014about 7 out of every 10 neighbors stayed with care.\n\nRelatable context: 612 clients is roughly the number of people served in a busy county clinic month; a 19-day faster start means first help comes almost three weeks sooner, which matters in crisis-prone seasons.\n\nQualitative insights: Clients cited privacy and reduced stigma when using telehealth rooms at libraries; ranch hands appreciated evening appointments during calving season. As Tanya White Eagle, Community Health Worker in the Cheyenne River area, shared (quoted with consent), \u201cWhen counseling is just a secure link away\u2014and there\u2019s a quiet room at the library\u2014people actually come. It fits life out here.\u201d\n\nWhat It Means\nIn frontier counties where winter roads, long distances, and tight budgets delay care, earlier starts and steady engagement are essential for mental health access and suicide prevention. The scale-up from 355 to 612 clients and the improvement in both symptoms and retention exceeded our FY2025 expectations. Progress lagged where broadband was weak and when clients lacked devices, which limited video quality and sometimes led to phone-only sessions. Still, moving the average PHQ-9 from 14.1 to 8.2 suggests many clients are experiencing meaningful relief.\n\nHow We Measured\nWe analyzed de-identified electronic health record extracts (Athenahealth), standardized PHQ-9/GAD-7 screenings at intake and every four sessions, and scheduling system timestamps; analyses were conducted in R with an IRB exemption determination. Limitations: 18% of clients did not complete follow-up screenings, variable broadband limited video for some visits, and we did not use a randomized comparison group.\n\nSimple visual to include\nTitle: TAN Outcomes\u2014FY2024 vs. FY2025 to Date (July 2024\u2013May 2025)\nAxes: X-axis = Metric (Clients Served, Median Wait Days, PHQ-9 \u22655-pt Improvement %, 8-week Retention %); Y-axis = Value\nData points: FY2024\u2014Clients 355; Wait 28; PHQ-9 Improvement 41%; Retention 52%. FY2025\u2014Clients 612; Wait 9; PHQ-9 Improvement 64%; Retention 71%.\nCaption: TAN expanded access and improved engagement while reducing time to first care.\n\nWhat\u2019s Next\nWith partners, we can close remaining gaps. Immediate opportunity: Fund 50 data-enabled tablets at $120 each to reach clients without devices, and underwrite 100 travel stipends at $40 each for in-person referrals when teletherapy indicates higher-acuity care. Next, we will deepen evening and weekend coverage through calving and harvest seasons and report subgroup outcomes to ensure equitable progress for Native and non-Native clients.\n\nBy Dr. Lena McAdams, Director of Impact and Evaluation, High Plains Behavioral Health Alliance.",
+      "timestamp": "2025-11-02T13:18:20.945139Z",
+      "duration_seconds": 49.49,
+      "tokens": {
+        "input": 795,
+        "output": 3215,
+        "total": 4010
+      },
+      "cost_usd": 0.05061,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, funder-ready impact narrative that balances quantitative rigor with human story. It follows the template meticulously, uses appropriate formal tone, avoids common nonprofit pitfalls (savior language, over-claiming), and presents data transparently with honest limitations. The writing is clear, concrete, and would be immediately usable in a grant report or foundation briefing.",
+        "strengths": [
+          "Excellent data presentation: translates statistics into relatable terms (12 school buses, 3 weeks earlier) and provides clear before/after comparisons with appropriate context",
+          "Strong ethical grounding: uses pseudonym correctly, cites consent documentation, employs people-first language ('clients,' not 'beneficiaries'), and honestly discloses limitations (18% missing follow-ups, no randomized control)",
+          "Culturally appropriate and specific: acknowledges 42% Native American population, quotes a Native Community Health Worker with consent, references local realities (calving season, ranch work, frontier geography)",
+          "Transparent methodology: clearly describes data sources (Athenahealth EHR, PHQ-9/GAD-7 standardized tools, R analysis, IRB exemption) in accessible language",
+          "Actionable call-to-action: specific, costed asks ($120 tablets, $40 travel stipends) with clear quantities that funders can underwrite",
+          "Proper structure and length: 547 words with all required subheads, stays within 450-550 range, includes visual specification with title, axes, data points, and caption"
+        ],
+        "weaknesses": [
+          "Minor inconsistency: Opens with 'Jay' from Meade County but scenario specified 'Ben' from Perkins County\u2014appears to be an intentional variation for additional privacy, but creates slight confusion against the input data",
+          "Visual specification could be stronger: A grouped bar chart would work better than the implied format; could specify 'grouped bar chart' explicitly rather than leaving chart type ambiguous",
+          "Slight repetition: 'FY2025 to date (July 2024\u2013May 2025)' appears twice in opening paragraphs; second instance could be trimmed",
+          "The 'so what' section could push slightly harder on the suicide prevention angle given it's named in COMMUNITY/ISSUE\u2014currently mentions it but doesn't connect improved PHQ-9 scores explicitly to reduced suicide risk"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Pacific Shelter & Housing Partnership: A Year of Renewed Hope\n\n**Story/Context**\n\nAfter months of uncertainty, Maria and her two children moved into their own apartment last summer, just blocks from their school and a bus line. Now, her son's attendance has stabilized, and her daughter is thriving in after-school programs. Maria's story, and countless others like hers, is at the heart of our mission.\n\nAt Pacific Shelter & Housing Partnership, we end homelessness by pairing housing with tailored supports. Our Keys to Home Rapid Rehousing program, operating in King, Pierce, and Snohomish Counties, actively works to connect individuals and families with stable homes. In Calendar Year 2024, our program served a diverse population exiting homelessness, with 38% identifying as Black/African American, 22% Latinx, 14% Native Hawaiian/Pacific Islander, and 9% Native American/Alaska Native. Notably, 41% of our participants were individuals with a disability, reflecting our commitment to serving those most vulnerable. We provided follow-up services through September 2025 for these households.\n\n**What Changed (Numbers)**\n\nThis past year, we celebrated significant strides in our Keys to Home program. We successfully moved 1,284 households into stable housing within 90 days of enrollment. To put this in perspective, that's nearly two high schools\u2019 worth of lives transformed \u2013 individuals, couples, and families \u2013 finding the security of home. Our retention rates are strong: 88% of these households remained housed at the 12-month mark. We also significantly reduced the median time it took to secure a lease, dropping to 76 days from when participants entered the program. Furthermore, employment among heads of household saw a positive upward trend, increasing from 31% at intake to 47% at exit.\n\nThese achievements demonstrate substantial improvement compared to Calendar Year 2023, when we housed 1,050 households, achieved an 82% 12-month retention rate, and had a median lease-up time of 96 days. Employment at exit in 2023 was 36%. It's important to recognize that for the 2024 cohort, the average time individuals experienced homelessness before enrolling in our program was 142 days \u2013 making their rapid transition to housing in an average of 76 days an even more remarkable testament to the program\u2019s effectiveness.\n\n**What It Means**\n\nOur success is rooted in strong partnerships. Landlord partners consistently cited our damage-mitigation fund as decisive in their willingness to accept applicants. This fund builds trust and reduces financial risk, opening doors for our participants. The impact on families is profound: parents reported that their children\u2019s school attendance stabilized after moving closer to school and public transit, creating a foundation for educational success. As Alicia M., a program participant, shared, \"Having a safe place to call our own has made all the difference. My kids are sleeping better, and I can finally focus on finding a job.\"\n\n**How We Measured**\n\nOur data is rigorously collected and aligned with industry standards. We obtain Regional Homeless Management Information System (HMIS) exports, adhering to Housing and Urban Development (HUD) definitions. Quarterly file audits ensure data accuracy, and our 6- and 12-month retention rates are verified through follow-up calls, landlord confirmations, and checks against state benefits databases. We are also transparent about our challenges: 9% of households were unreachable at 12 months, and rising rents coupled with voucher processing delays sometimes affected the time it took to secure a lease. We acknowledge that outcomes may vary by county.\n\n**Visual Suggestion:**\n\n**Bar Chart: Keys to Home Program Progress: 2023 vs. 2024**\n\n![Bar Chart Placeholder](https://via.placeholder.com/600x400?text=Bar+Chart+Placeholder)\n*X-axis: Metrics (Households Housed, 12-Month Retention, Median Days to Lease-Up, Employment at Exit)*\n*Y-axis: Values*\n*Bars for CY2023 (e.g., light blue)*\n*Bars for CY2024 (e.g., dark blue)*\n\n*Caption: This chart illustrates the significant improvements in housing outcomes between our 2023 and 2024 program years.*\n\n**What\u2019s Next**\n\nThese results underscore the critical importance of sustained investment in housing solutions. The progress we\u2019ve made in King, Pierce, and Snohomish Counties directly translates into fewer individuals and families experiencing the trauma of homelessness and more people contributing to the health and vitality of our communities. Our ability to accelerate rehousing and increase stability while navigating a challenging housing market demonstrates where our strategies are exceeding expectations.\n\nYour support is vital to continuing this momentum. We invite major donors, institutional funders, and workplace-giving leaders to underwrite the Flexible Move-In Fund at $1,500 per household. This fund directly addresses move-in barriers and accelerates housing placement. Alternatively, a multi-year pledge would allow us to stabilize 300 more households, charting a path toward a Puget Sound region where everyone has a place to call home.\n\nBy Naomi K. Park, Chief Program Officer, Pacific Shelter & Housing Partnership",
+      "timestamp": "2025-11-02T13:18:26.395925Z",
+      "duration_seconds": 5.45,
+      "tokens": {
+        "input": 852,
+        "output": 1125,
+        "total": 1977
+      },
+      "cost_usd": 0.000803,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 7,
+          "completeness": 6,
+          "usefulness": 7,
+          "accuracy": 5,
+          "authenticity": 9
+        },
+        "reasoning": "The output demonstrates strong narrative flow and authentic voice, but contains critical errors that undermine its usefulness. Most significantly, it introduces 'Maria' in the opening when the scenario explicitly provides 'Alicia M.' as the consented participant, raising serious ethical concerns about beneficiary representation. Several template requirements are missed or inadequately addressed.",
+        "strengths": [
+          "Excellent narrative structure with smooth transitions between sections that would engage both donors and funders",
+          "Strong people-first language throughout, avoiding savior narratives and maintaining dignity ('individuals and families finding the security of home')",
+          "Effective use of relatable comparisons ('nearly two high schools' worth of lives') that translate statistics into human scale",
+          "Transparent acknowledgment of limitations and challenges (9% unreachable, rising rents, county variation) demonstrates appropriate humility",
+          "Well-integrated qualitative insights about landlord partnerships and children's school attendance that add depth beyond numbers",
+          "Clear data methodology section that builds credibility without jargon",
+          "Specific, actionable call-to-action with concrete dollar amounts ($1,500 per household)"
+        ],
+        "weaknesses": [
+          "CRITICAL ERROR: Opens with 'Maria and her two children' when scenario explicitly provides 'Alicia M. and her two children' with written consent\u2014this is an unacceptable mistake that violates beneficiary consent protocols and could not be used",
+          "Missing the required 'surprising stat' alternative opening option; template asks for 'either a vignette OR a surprising stat'",
+          "Quote attribution error: attributes quote to 'Alicia M.' but the opening vignette incorrectly uses 'Maria'\u2014creates confusion about whether these are the same person",
+          "Exceeds word count: approximately 620 words vs. requested 450-550 range (13% over)",
+          "Visual suggestion includes placeholder image link rather than describing the chart in text as requested; caption doesn't include specific data points",
+          "Missing explicit 'so what' language about where progress 'lagged or exceeded expectations'\u2014mentions 'exceeding expectations' only briefly in What's Next",
+          "Doesn't clearly define the one acronym used on first mention (HMIS is introduced in How We Measured without definition, though HUD is defined)",
+          "The 'What Changed' section could better integrate the baseline comparison (142 days homeless vs. 76 days to lease-up) earlier for clarity"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# **From 142 Days Homeless to 76 Days Housed: How Keys to Home Accelerated Stability Across Puget Sound**\n\n**Story & Context**\n\n\"I didn't know if my daughter would finish fifth grade in the same classroom,\" says Alicia M., a single mother who enrolled in our Keys to Home program last spring after months in doubled-up situations and emergency shelter. \"Now she's never missed a day. That's everything.\"\n\nPacific Shelter & Housing Partnership ends homelessness by pairing housing with tailored supports. Our Keys to Home Rapid Rehousing program operates across King, Pierce, and Snohomish Counties in Washington, serving families with children and single adults exiting homelessness. In calendar year 2024, 38% of participants identified as Black or African American, 22% as Latinx, 14% as Native Hawaiian or Pacific Islander, 9% as Native American or Alaska Native, and 41% reported living with a disability. The results below reflect exits through September 2025.\n\n**What Changed (Numbers)**\n\nIn 2024, we moved **1,284 households into housing within 90 days**\u2014the equivalent of every household in Bainbridge Island's downtown core, plus two full apartment towers. That's **234 more households than in 2023**, when we served 1,050.\n\n- **88% remained housed at 12 months**, up from 82% in 2023\u2014a gain of 6 percentage points that represents roughly 77 more households maintaining stability a year later.\n- **Median days to lease-up dropped from 96 to 76 days**, cutting wait time by nearly three weeks.\n- **Employment among heads of household rose from 31% at intake to 47% at exit**, compared to 36% in 2023\u2014an 11-point improvement.\n\nFor context: participants experiencing homelessness spent an average of 142 days without stable shelter *before* enrolling\u2014yet we connected them to a lease in just 76 days *after* enrollment, nearly cutting that timeline in half.\n\n**What It Means**\n\nThese gains matter because speed and stability are the foundation of recovery. Faster lease-up means children settle into schools, parents secure jobs, and chronic stress begins to ease. The jump in 12-month retention signals that housing plus tailored supports\u2014flexible financial assistance, employment coaching, case management\u2014can interrupt the cycle of homelessness across the region's most under-resourced communities.\n\nLandlord partners cited our damage-mitigation fund as decisive for accepting applicants with rental histories affected by homelessness. Parents reported that kids' school attendance stabilized after moving close to transit and familiar neighborhoods.\n\nStill, progress was uneven. Rising rents and voucher processing delays stretched time-to-lease in some cases, and 9% of households were unreachable at 12 months despite multiple outreach attempts. Outcomes varied by county, with Pierce showing stronger early retention and King facing tighter rental markets.\n\n**How We Measured**\n\nWe extract data from the Regional Homeless Management Information System (HMIS), aligned to HUD definitions, and conduct quarterly file audits. We verify 6- and 12-month retention through participant calls, landlord confirmation, and cross-checks with state benefits databases. Where contact is lost, we report it.\n\n**What's Next**\n\nWe're expanding our landlord recruitment in Snohomish County and piloting a post-exit employment cohort to sustain income gains beyond program exit.\n\n**Your partnership can accelerate this work:**\n- **Major donors:** Underwrite the Flexible Move-In Fund at $1,500 per household to cover deposits, first month's rent, and damage mitigation.\n- **Institutional funders:** Commit a multi-year pledge to stabilize 300 more households and strengthen our employment navigator capacity.\n- **Workplace-giving leaders:** Sponsor a cohort of 25 households ($37,500) and invite employees to tour housing sites.\n\nEvery day faster matters. Every household that stays matters.\n\n---\n\n**Suggested Visual:**\n\n**Chart type:** Grouped bar chart  \n**Title:** \"Faster Move-In, Stronger Retention: Keys to Home 2023 vs. 2024\"  \n**X-axis:** Households Housed | 12-Month Retention Rate (%) | Median Days to Lease-Up  \n**Y-axis (left):** Count / Percentage | **Y-axis (right):** Days  \n**Data points:**  \n- 2023: 1,050 households | 82% | 96 days  \n- 2024: 1,284 households | 88% | 76 days  \n\n**Caption:** In 2024, we housed 22% more households, reduced move-in time by 20 days, and improved year-long housing retention by 6 points.\n\n---\n\n*By Naomi K. Park, Chief Program Officer*  \n*Pacific Shelter & Housing Partnership*\n\n---\n\n**Word count:** 547",
+      "timestamp": "2025-11-02T13:18:45.900122Z",
+      "duration_seconds": 24.95,
+      "tokens": {
+        "input": 905,
+        "output": 1131,
+        "total": 2036
+      },
+      "cost_usd": 0.01968,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional impact narrative that successfully balances warmth with credibility. It translates complex housing data into compelling, donor-ready content while maintaining ethical standards and transparency. The output demonstrates sophisticated understanding of nonprofit communications best practices.",
+        "strengths": [
+          "Excellent opening quote that humanizes data without exploiting trauma\u2014Alicia's voice focuses on her daughter's school attendance, a concrete, dignity-preserving detail",
+          "Outstanding numerical translation ('equivalent of every household in Bainbridge Island's downtown core') that grounds scale in local context",
+          "Transparent limitations section that builds rather than undermines credibility\u2014acknowledges 9% unreachable, county variation, and systemic barriers like voucher delays",
+          "Strong 'so what' explanation connecting speed to child stability, employment, and cycle interruption with specific mechanisms (damage-mitigation fund)",
+          "Tiered, actionable calls-to-action with specific dollar amounts ($1,500, $37,500) tailored to three distinct donor segments",
+          "Proper people-first language throughout ('participants experiencing homelessness' not 'the homeless'; 'reported living with a disability')",
+          "Well-designed visual with dual y-axes, clear labels, and a caption that interprets rather than just describes the data",
+          "Effective use of comparison data showing both year-over-year improvement AND the 142-days-before vs. 76-days-after contrast within 2024"
+        ],
+        "weaknesses": [
+          "Word count at 547 slightly exceeds the 450-550 target (though only by 2 words if author byline excluded from body count)",
+          "The Bainbridge Island comparison, while creative, may not resonate with all Puget Sound readers\u2014Rainier Beach High School was provided as the local anchor but underutilized",
+          "Minor authenticity concern: 'Every day faster matters. Every household that stays matters.' reads slightly formulaic as a closing\u2014could be more distinctive to this organization's voice"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Story/Context\n\u201cAlicia M. unlocked her new apartment in Tacoma and pointed out the bus stop to her daughter: \u2018That\u2019s how we\u2019ll get to school and work on time.\u2019\u201d [STORY CONSENT: Written consent on file (01/2025); family requested first names/initials only; no trauma details] Through Keys to Home Rapid Rehousing in King, Pierce, and Snohomish Counties, we help neighbors like Alicia move quickly from homelessness into stable homes.\nWe end homelessness by pairing housing with tailored supports. In Calendar Year 2024 (with follow-up through September 2025), we served families with children and single adults exiting homelessness: 38% Black/African American; 22% Latinx; 14% Native Hawaiian/Pacific Islander; 9% Native American/Alaska Native; and 41% living with a disability.\n\nWhat Changed (Numbers)\n- 1,284 households moved into housing within 90 days (up from 1,050 in CY2023).\n- 88% remained housed at 12 months (up from 82% in CY2023)\u2014about nine out of ten neighbors sustaining housing.\n- Median days to lease-up fell to 76 (from 96 in CY2023)\u2014about the length of a school quarter.\n- Employment among heads of household rose from 31% at intake to 47% at exit (vs. 36% at exit in CY2023).\n- Within the 2024 cohort, people were homeless an average of 142 days before enrolling; after enrollment, the median time to lease fell to 76 days\u2014nearly cutting the wait in half.\n\nQualitative insights: Landlord partners told us the damage\u2011mitigation fund was decisive in approving applications. Parents shared that once housed near transit and school, children\u2019s attendance stabilized. As Alicia put it, \u201cHaving a lease changed our routine\u2014now I can say yes to extra shifts and still be there for pickup.\u201d\n\nWhat It Means\nFaster lease-ups and stronger 12\u2011month retention show that pairing rent assistance with tailored supports is working across Puget Sound. The jump in employment at exit signals growing financial stability, which is critical to staying housed in a high-cost market. We also saw progress in enrolling and housing communities disproportionately impacted by homelessness, including Black, Latinx, Native Hawaiian/Pacific Islander, and Native American/Alaska Native households. Where we lagged: rising rents and voucher processing delays continued to slow time-to-lease in some properties, and county-level market differences shaped outcomes. Still, 2024 outperformed 2023 on every core measure\u2014fewer days to keys, more people stably housed, and more earners at exit.\n\nHow We Measured\nWe use Regional Homeless Management Information System (HMIS) exports aligned with U.S. Department of Housing and Urban Development (HUD) definitions, conduct quarterly file audits, and verify 6\u2011 and 12\u2011month housing retention through participant calls, landlord confirmation, and checks against state benefits databases. Nine percent of households were unreachable at 12 months. We are transparent that rising rents and voucher processing delays affected some timelines, and results vary by county.\n\nSuggested Visual\nTitle: Keys to Home\u2014Faster, Stronger Results (CY2023 vs. CY2024)\n- X\u2011axis: Year (2023, 2024)\n- Left Y\u2011axis (bars): Households housed (1,050; 1,284) and Median days to lease (96; 76)\n- Right Y\u2011axis (line): 12\u2011month retention (82%; 88%)\nCaption: From 2023 to 2024, Keys to Home housed more households, cut lease-up time, and improved one\u2011year housing stability.\n\nWhat\u2019s Next\nTo keep pace with need and shorten time-to-lease further:\n- Major donors: Underwrite the Flexible Move\u2011In Fund at $1,500 per household to secure units fast.\n- Institutional funders: Commit a multi\u2011year pledge to stabilize 300 additional households and expand landlord risk-mitigation in Pierce and Snohomish.\n- Workplace-giving leaders: Sponsor the Employment Bridge so 250 heads of household can connect to jobs during the first 90 days of housing.\nNext, we will deepen landlord partnerships, streamline voucher processing with housing authorities, and scale school\u2011adjacent placements so kids can stay in class and caregivers can sustain work.\n\nBy Naomi K. Park, Chief Program Officer, Pacific Shelter & Housing Partnership.",
+      "timestamp": "2025-11-02T13:19:18.023902Z",
+      "duration_seconds": 57.08,
+      "tokens": {
+        "input": 798,
+        "output": 3237,
+        "total": 4035
+      },
+      "cost_usd": 0.050949,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional impact narrative that successfully balances warmth with credibility. It adheres closely to the template requirements, translates data into relatable terms, and maintains ethical storytelling practices. The writing is clear, donor-ready, and demonstrates sophisticated nonprofit communications skills with only minor areas for refinement.",
+        "strengths": [
+          "Excellent ethical consent handling\u2014the opening vignette respects dignity, uses only first name/initial as requested, avoids trauma detail, and clearly documents consent status",
+          "Strong data translation with concrete comparisons ('nine out of ten neighbors,' '76 days\u2014about the length of a school quarter,' 'nearly cutting the wait in half') that make statistics accessible",
+          "Transparent methodology and limitations section that builds credibility without undermining impact\u2014acknowledges 9% unreachable, rising rents, and county variation honestly",
+          "Well-structured visual suggestion with all required elements (title, labeled axes, data points, caption) that would be immediately usable by a designer",
+          "Effective 'What It Means' section that interprets data, notes where progress lagged (voucher delays, county differences), and contextualizes results within the high-cost market reality",
+          "People-first language throughout ('neighbors,' 'households,' 'people were homeless' rather than 'the homeless')",
+          "Specific, tiered calls-to-action for three distinct donor segments with concrete dollar amounts and household targets",
+          "Proper acronym definition (HMIS, HUD) and avoidance of jargon",
+          "Appropriate use of 'we' voice and confident-yet-humble tone that matches 'WARM' request while remaining funder-credible"
+        ],
+        "weaknesses": [
+          "The opening quote, while dignified, feels slightly constructed\u2014'That's how we'll get to school and work on time' is functional but could be more emotionally resonant or specific to feel fully authentic",
+          "Word count appears to be approximately 580-600 words, exceeding the 450-550 target by roughly 10%; tightening the 'What Changed' or 'What's Next' sections would improve adherence",
+          "The phrase 'neighbors like Alicia' in the opening paragraph, while well-intentioned, risks slight condescension; 'participants' or 'households' might be more neutral",
+          "Minor redundancy: 'Calendar Year 2024 (with follow-up through September 2025)' appears in both Story/Context and is implied in How We Measured\u2014one mention would suffice"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.214,
+    "average_score": 8.09
+  }
+}

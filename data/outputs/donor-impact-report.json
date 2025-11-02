@@ -1,0 +1,497 @@
+{
+  "prompt_id": "donor-impact-report",
+  "prompt_text": "Write a personalized Donor Impact Report that shows exactly what a specific gift accomplished for [ORGANIZATION NAME].\n\nThe Donor Impact Report should:\n- Be 300-450 words, 7th\u20138th grade reading level, and use [TONE: FORMAL (precise, for foundations/board); WARM (professional, friendly, plain language); CASUAL (conversational for long-time/peer donors)].\n- Include sections in this order: Title/Subject; Salutation; Opening thank-you with [DONOR NAME], [GIFT AMOUNT], [GIFT DATE]; Outcomes and attribution; Beneficiary story; Program update; What\u2019s next (no ask); Signature block.\n- Attribute impact honestly: connect [GIFT AMOUNT] to [PROGRAM NAME] outcomes during [TIMEFRAME], using [ATTRIBUTION LOGIC: per-unit costs/portion of program/pooled funding]. Example: \u201cAt $100 per toolkit, your $5,000 funded 50 toolkits.\u201d\n- Provide concrete metrics: [KEY METRICS: # served, outputs, short outcomes] with units, dates, and baselines where available.\n- Include one brief beneficiary vignette [STORY], honor [CONSENT STATUS], and anonymize if [ANONYMIZE:YES]. Avoid identifying details without consent.\n- Add a brief program update: status, milestones, challenges and how addressed, and next milestone in [NEXT UPDATE WINDOW].\n- Personalize throughout: use [DONOR NAME] 2-3 times, reference [DONOR INTEREST/RESTRICTION], and acknowledge past engagement [PRIOR TOUCHPOINTS] if relevant.\n- Note gift type [RESTRICTED/UNRESTRICTED] and reflect appropriate framing.\n- Include a photo suggestion and 1\u20132 sentence caption + alt text [PHOTO NOTES] or write \u201cNo photo available.\u201d\n- Close with gratitude and a clear non-ask next step (e.g., \u201cWe\u2019ll share your next update in [CADENCE: QUARTERLY/ANNUAL]\u201d).\n- Sign by [SIGNER NAME], [SIGNER TITLE] (ideally Program lead + Development), with direct contact info.\n\nFocus on specificity, humility, and clarity. Avoid clich\u00e9s (\u201cnow more than ever,\u201d \u201clife-changing\u201d without proof), jargon, and over-claiming credit. Use plain language, numbers with sources [DATA SOURCE], and truthful attribution when gifts are pooled. The report should feel human, special, and accountable\u2014something a donor could forward proudly.",
+  "category": "programs",
+  "generated_at": "2025-11-02T13:19:12.869435Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Urban neighborhood bike nonprofit in Milwaukee offering hands-on youth workshops and safe cycling resources.",
+      "values": {
+        "ORGANIZATION NAME": "Southside Cycle Collective",
+        "TONE: FORMAL (precise, for foundations/board); WARM (professional, friendly, plain language); CASUAL (conversational for long-time/peer donors)": "CASUAL",
+        "DONOR NAME": "Jordan Patel",
+        "GIFT AMOUNT": "$5,000",
+        "GIFT DATE": "May 12, 2025",
+        "PROGRAM NAME": "Earn-a-Bike Youth Workshops",
+        "TIMEFRAME": "March 1\u2013June 30, 2025",
+        "ATTRIBUTION LOGIC: per-unit costs/portion of program/pooled funding": "Per-unit costs: $85 per workshop seat + $30 helmet/lock kit ($115 per youth). Your $5,000 funded 43 complete youth packages out of 58 delivered this spring.",
+        "KEY METRICS: # served, outputs, short outcomes": "# served: 58 youth (ages 12\u201317) on Milwaukee\u2019s South Side, Mar 1\u2013Jun 30, 2025 (up from 42 in Q2 2024). Outputs: 12 workshops (2.5 hours each), 58 refurbished bikes issued with U-locks and helmets, 58 safety toolkits. Outcomes at 60-day check-in: 78% ride 3+ days/week (vs 43% at intake); 92% can perform ABC safety check (vs 55% at pre-test).",
+        "STORY": "\u201cM.\u201d, age 13, came in nervous about fixing a flat. By the third session, M. taught two peers how to patch a tube and checked their brake pads using our checklist. M.\u2019s parent shared that weekend rides have become their family\u2019s way to visit the park without taking the bus.",
+        "CONSENT STATUS": "Parent/guardian written consent on file for program stories; photo consent not granted.",
+        "ANONYMIZE:YES": "YES",
+        "NEXT UPDATE WINDOW": "October 2025",
+        "DONOR INTEREST/RESTRICTION": "Restricted to youth workshop supplies and helmet safety.",
+        "PRIOR TOUCHPOINTS": "Volunteered at Spring Fix-a-Thon (Apr 6, 2025) and attended shop open house (Mar 15, 2025).",
+        "RESTRICTED/UNRESTRICTED": "RESTRICTED",
+        "PHOTO NOTES": "Suggestion: Close-up of a teen (no face) tightening a brake cable with a mentor\u2019s hands guiding. Caption: \u201cYour gift put tools in young hands\u201443 fully outfitted seats this spring.\u201d Alt text: \u201cHands of a youth and an instructor adjusting a bicycle brake at a community workshop.\u201d",
+        "CADENCE: QUARTERLY/ANNUAL": "QUARTERLY",
+        "SIGNER NAME": "Ana Ruiz and Devon Cole",
+        "SIGNER TITLE": "Shop Manager; Development Coordinator | ana@southsidecycle.org, devon@southsidecycle.org | 414-555-0139",
+        "DATA SOURCE": "Attendance logs and inventory records (Airtable), pre/post safety quizzes (Google Forms), and 60-day follow-up calls, March\u2013June 2025."
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Regional rural health nonprofit operating mobile prenatal clinics across six counties in Kansas.",
+      "values": {
+        "ORGANIZATION NAME": "Prairie Health Partnership",
+        "TONE: FORMAL (precise, for foundations/board); WARM (professional, friendly, plain language); CASUAL (conversational for long-time/peer donors)": "FORMAL",
+        "DONOR NAME": "Henderson Family Foundation",
+        "GIFT AMOUNT": "$25,000",
+        "GIFT DATE": "January 10, 2025",
+        "PROGRAM NAME": "Frontier Mother & Baby Mobile Clinic",
+        "TIMEFRAME": "January 1\u2013June 30, 2025",
+        "ATTRIBUTION LOGIC: per-unit costs/portion of program/pooled funding": "Per-unit costs: $1,250 per clinic day (staffing, fuel, supplies). Your $25,000 supported 20 clinic days in Clay, Morton, and Hale counties.",
+        "KEY METRICS: # served, outputs, short outcomes": "# served: 312 prenatal visits (unduplicated clients: 214) across 6 counties, Jan\u2013Jun 2025. Outputs: 20 clinic days funded by your grant; 185 ultrasounds; 228 blood pressure screenings; 64 gestational diabetes screenings; 204 prenatal vitamin kits distributed. Outcomes: 72% of high\u2011risk referrals completed specialty care within 30 days (vs 51% baseline in 2024); 88% initiated prenatal vitamins within first visit (vs 60% baseline in 2024).",
+        "STORY": "\u201cR.,\u201d 29, a seasonal farmworker in Hale County, had not seen a provider since learning she was pregnant. She visited our mobile clinic at a church parking lot, received an ultrasound and a high blood pressure alert. Our nurse scheduled a same\u2011week OB visit in the nearest town and arranged gas vouchers. R. texted later that she\u2019d been started on medication and felt \u2018relieved someone caught it.\u2019",
+        "CONSENT STATUS": "Client provided verbal consent for anonymized narrative; no photo consent.",
+        "ANONYMIZE:YES": "YES",
+        "NEXT UPDATE WINDOW": "November 2025",
+        "DONOR INTEREST/RESTRICTION": "Restricted to maternal health services in Clay, Morton, and Hale counties.",
+        "PRIOR TOUCHPOINTS": "Proposal review call (Dec 2024) and site visit during Morton County clinic (Apr 18, 2025).",
+        "RESTRICTED/UNRESTRICTED": "RESTRICTED",
+        "PHOTO NOTES": "Suggestion: Mobile clinic parked beside a grain elevator; nurse greeting a client at the door (no faces). Caption: \u201cYour funding brought 20 days of prenatal care to remote towns.\u201d Alt text: \u201cWhite medical van labeled \u2018Mobile Clinic\u2019 with a nurse welcoming a patient in a rural parking lot.\u201d",
+        "CADENCE: QUARTERLY/ANNUAL": "QUARTERLY",
+        "SIGNER NAME": "Dr. Lila Ahmed and Marco Nguyen",
+        "SIGNER TITLE": "Director of Clinical Services; Director of Development | lila.ahmed@prairiehealth.org, marco.nguyen@prairiehealth.org | 785-555-0462",
+        "DATA SOURCE": "Athenahealth EHR visit summaries (Jan\u2013Jun 2025), referral tracking spreadsheet, and client SMS satisfaction survey (May 2025)."
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Citywide education nonprofit serving Boston Public Schools with tutoring and literacy programs.",
+      "values": {
+        "ORGANIZATION NAME": "Coastal Literacy Alliance",
+        "TONE: FORMAL (precise, for foundations/board); WARM (professional, friendly, plain language); CASUAL (conversational for long-time/peer donors)": "WARM",
+        "DONOR NAME": "BrightWave Technologies",
+        "GIFT AMOUNT": "$250,000",
+        "GIFT DATE": "December 15, 2024",
+        "PROGRAM NAME": "City Scholars Tutoring Expansion (2024\u201325)",
+        "TIMEFRAME": "September 1, 2024\u2013June 15, 2025",
+        "ATTRIBUTION LOGIC: per-unit costs/portion of program/pooled funding": "Pooled funding: Program budget $3.1M. Your unrestricted $250,000 (8%) helped train 316 tutors (~$600 per trainee) and supported data systems and school partnerships that enabled expansion to 38 schools.",
+        "KEY METRICS: # served, outputs, short outcomes": "# served: 2,486 students in grades 3\u20138 across 38 Boston Public Schools, SY24\u201325. Outputs: 316 volunteer tutors trained; 24,900 tutoring sessions delivered (45 minutes each). Outcomes: Average reading growth +0.6 grade levels from fall to spring (MAP Reading) vs +0.4 district average; 68% of participating students met or exceeded growth targets (vs 52% in SY23\u201324).",
+        "STORY": "With written consent, Yesenia Santos shared that her son, Luis (grade 5 at P.S. 117), began the year reading below grade level. After two weekly sessions for six months, he now reads aloud at home and picked his first chapter book on his own. Luis told us, \u201cI like when my tutor asks me questions that make me think.\u201d",
+        "CONSENT STATUS": "Parent/guardian written consent and photo release on file (May 2025).",
+        "ANONYMIZE:YES": "NO",
+        "NEXT UPDATE WINDOW": "September 2025",
+        "DONOR INTEREST/RESTRICTION": "Interest in literacy and STEM pathways; corporate social responsibility priorities.",
+        "PRIOR TOUCHPOINTS": "Employee volunteer days (Oct 2024, Feb 2025); CEO remarks at Spring Breakfast (May 2, 2025).",
+        "RESTRICTED/UNRESTRICTED": "UNRESTRICTED",
+        "PHOTO NOTES": "Suggestion: Tutor and student reading side-by-side at a school library table (faces consented). Caption: \u201cBrightWave volunteers and funding helped 2,486 students make strong reading gains this school year.\u201d Alt text: \u201cAdult tutor smiling as a fifth-grade student follows along in a chapter book at a library table.\u201d",
+        "CADENCE: QUARTERLY/ANNUAL": "ANNUAL",
+        "SIGNER NAME": "Elena Park and Thomas Greene",
+        "SIGNER TITLE": "VP, Programs; Senior Director, Corporate Partnerships | epark@coastalliteracy.org, tgreene@coastalliteracy.org | 617-555-0772",
+        "DATA SOURCE": "Boston Public Schools MAP Reading data extracts (Sept 2024\u2013May 2025); CLA tutor session logs (Salesforce); external evaluation memo by Northeastern University (June 2025)."
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Subject: An Update on Your Generous Gift to Southside Cycle Collective!\n\nHi Jordan,\n\nRemember that awesome $5,000 gift you made on May 12, 2025? We sure do! And guess what? We put it straight to work, exactly as you wanted \u2013 on youth workshop supplies and helmet safety. Your support, combined with your volunteering at the Spring Fix-a-Thon and attending our open house, means the world to us.\n\nThanks to you, our Earn-a-Bike Youth Workshops really took off this spring! Your $5,000 funded 43 complete packages for kids in our workshops. Each package, costing $115, included a workshop seat and a brand-new helmet and lock kit. That\u2019s a huge chunk of the 58 total packages we delivered! This spring, from March 1st to June 30th, we served 58 youth (ages 12-17) right here on Milwaukee\u2019s South Side, up from 42 last year! Over 12 workshops, each 2.5 hours long, every single kid not only learned skills but also rode away with a refurbished bike, a U-lock, and a helmet. We even gave them safety toolkits!\n\nWe checked in with the kids after 60 days, and the results are pretty neat. Before the program, only 43% of them rode their bikes 3 or more days a week, but now, a fantastic 78% are! And when it came to doing an ABC safety check (Air, Brakes, Chain), 92% could do it perfectly, compared to just 55% before. (We tracked all this using attendance logs, inventory, safety quizzes, and follow-up calls.)\n\nHere's an example: \"M.,\" who is 13, joined us feeling a bit nervous about fixing a flat tire. But by the third session, M. was teaching two other kids how to patch a tube and confidently checking brake pads with our checklist! M.\u2019s parent even told us that weekend bike rides have become their family's favorite way to get to the park without having to take the bus. We're so glad we can share these stories, with their parents' permission, of course!\n\nOur Earn-a-Bike program has been buzzing! We hit our goal of serving more youth this quarter, and the workshops have been super popular. One challenge we faced was getting enough refurbished bikes ready for all the new participants, but our team and volunteers (like you, Jordan!) pulled together to get them all spruced up. Our next big milestone is planning for our October 2025 Fall workshops!\n\nNo photo available.\n\nWe are so incredibly grateful for your partnership, Jordan. Your specific support for youth workshop supplies and helmet safety made a real and immediate difference in the lives of many young people.\n\nWe'll share your next update in our quarterly report.\n\nBest,\n\nAna Ruiz and Devon Cole\nShop Manager; Development Coordinator\nana@southsidecycle.org, devon@southsidecycle.org\n414-555-0139",
+      "timestamp": "2025-11-02T13:16:24.669884Z",
+      "duration_seconds": 4.9,
+      "tokens": {
+        "input": 878,
+        "output": 668,
+        "total": 1546
+      },
+      "cost_usd": 0.000532,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output successfully captures a casual, conversational tone appropriate for a long-time donor and includes strong specificity with metrics and attribution. However, it has notable structural issues: the photo section says 'No photo available' despite detailed photo guidance being provided, the attribution math is slightly confusing, and some language choices ('guess what?', multiple exclamation points) may be too informal even for casual tone.",
+        "strengths": [
+          "Excellent casual tone that feels genuine and warm without being unprofessional - phrases like 'remember that awesome gift' and 'pretty neat' work well for peer donors",
+          "Strong use of concrete metrics with proper context (78% vs 43%, 92% vs 55%) and clear data sourcing",
+          "Effective beneficiary story integration with proper anonymization and consent acknowledgment",
+          "Good personalization with donor name usage (3 times), reference to volunteering touchpoints, and restriction acknowledgment",
+          "Clear attribution logic explaining the per-unit cost and how the gift funded 43 of 58 packages",
+          "Appropriate length at approximately 425 words, within the 300-450 range"
+        ],
+        "weaknesses": [
+          "Critical error: States 'No photo available' when detailed photo suggestion, caption, and alt text were provided in the scenario - should have included the photo suggestion",
+          "Minor math confusion: '$5,000 funded 43 complete packages' at $115 each equals $4,945, which is fine, but could be clearer about the slight rounding",
+          "Overuse of exclamation points (9 total) may be excessive even for casual tone and could diminish impact",
+          "Opening 'guess what?' may be too casual for some donor relationships - borders on overly familiar",
+          "Missing explicit statement about restricted gift framing in opening (mentions it but could be clearer that this was a restricted gift)",
+          "The 'next update' language is slightly vague - 'quarterly report' could specify 'October 2025' as indicated in the scenario"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Your $5,000 Put 43 Youth on Bikes This Spring\n\n**Dear Jordan,**\n\nThank you for your $5,000 gift on May 12, 2025, restricted to youth workshop supplies and helmet safety. Your support made our busiest spring quarter possible\u2014and we're excited to show you exactly what you funded.\n\n## What Your Gift Accomplished\n\nAt Southside Cycle Collective, each youth who completes our Earn-a-Bike program receives a full package: six 2.5-hour workshop sessions ($85 per seat) plus a helmet, U-lock, and safety toolkit ($30). That's $115 per young person.\n\n**Your $5,000 funded 43 complete youth packages out of the 58 we delivered between March 1 and June 30, 2025.** The remaining seats were covered by other restricted gifts and our general fund.\n\nHere's what those 58 youth accomplished together:\n\n- **58 refurbished bikes** earned and taken home with helmets and U-locks\n- **12 workshops** led by volunteer mechanics (up from 9 workshops serving 42 youth in Q2 2024)\n- **92% can now perform an ABC safety check** (air, brakes, chain)\u2014compared to just 55% on their first-day pre-test\n- **78% ride three or more days per week** at our 60-day follow-up, versus 43% when they started\n\n*(Data from attendance logs and inventory records in Airtable, pre/post safety quizzes via Google Forms, and 60-day follow-up calls, March\u2013June 2025.)*\n\n## A Story from the Shop\n\nM., age 13, came in nervous about fixing a flat. By the third session, M. taught two peers how to patch a tube and checked their brake pads using our checklist. M.'s parent shared that weekend rides have become their family's way to visit the park without taking the bus.\n\n## Program Update\n\nWe hit full enrollment by mid-March\u2014our earliest ever. The challenge? We ran low on youth-sized helmets in April. Thanks to your restricted funds and quick reordering, we didn't turn anyone away. Next milestone: our October volunteer training to prep for fall sessions.\n\nJordan, seeing you at the Spring Fix-a-Thon on April 6 and our open house on March 15 meant a lot to our team. You've been part of this work in more ways than one.\n\n## What's Next\n\nWe'll send your next quarterly update in October with fall workshop outcomes and photos from our volunteer training day.\n\nThank you for trusting us with this work.\n\n**Ana Ruiz**  \nShop Manager  \nana@southsidecycle.org  \n\n**Devon Cole**  \nDevelopment Coordinator  \ndevon@southsidecycle.org | 414-555-0139\n\n---\n\n**Photo Suggestion:** Close-up of a teen (no face) tightening a brake cable with a mentor's hands guiding.  \n**Caption:** \"Your gift put tools in young hands\u201443 fully outfitted seats this spring.\"  \n**Alt text:** \"Hands of a youth and an instructor adjusting a bicycle brake at a community workshop.\"",
+      "timestamp": "2025-11-02T13:16:37.246883Z",
+      "duration_seconds": 17.48,
+      "tokens": {
+        "input": 906,
+        "output": 731,
+        "total": 1637
+      },
+      "cost_usd": 0.013683,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong donor impact report that demonstrates sophisticated nonprofit communication practices. It successfully balances casual warmth with accountability, provides transparent attribution logic, and includes all required elements in a natural flow. The output would require minimal editing before use.",
+        "strengths": [
+          "Perfect casual tone\u2014conversational without being unprofessional ('we're excited to show you,' 'Here's what those 58 youth accomplished together')",
+          "Exemplary transparent attribution: clearly states '43 complete youth packages out of the 58' with honest acknowledgment of pooled funding",
+          "Strong concrete metrics with proper context (baselines, comparisons to prior year, timeframes, and data sources in parenthetical)",
+          "Effective beneficiary story that respects consent limitations (anonymized as 'M.', no photo, parent voice included)",
+          "Excellent personalization: references both volunteer touchpoints naturally, uses donor name appropriately (2x), acknowledges restriction multiple times",
+          "Authentic problem-solving narrative in program update (helmet shortage, how resolved with donor's funds)",
+          "Clear non-ask closing with specific next step and timeline",
+          "Photo suggestion respects consent status (no face) while remaining compelling",
+          "Reading level appropriate\u2014accessible language without condescension"
+        ],
+        "weaknesses": [
+          "Minor: Word count is approximately 420 words (body text), pushing upper limit of 450-word range\u2014could trim slightly for tighter impact",
+          "The phrase 'made our busiest spring quarter possible' slightly overstates\u2014the gift funded 43 of 58 seats, not the entire quarter (though this is immediately clarified)",
+          "Could strengthen the 'What's Next' section with one more concrete detail about what the October update will contain beyond 'fall workshop outcomes'"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Subject: Jordan, your $5,000 powered 43 fully outfitted youth seats this spring\n\nHi Jordan Patel,\n\nThank you for your $5,000 RESTRICTED gift on May 12, 2025 (\u201cRestricted to youth workshop supplies and helmet safety\u201d). We also loved seeing you at the shop open house on Mar 15 and having you volunteer at the Spring Fix-a-Thon on Apr 6\u2014your hands-on help shows.\n\nOutcomes and attribution\n- Service period: Mar 1\u2013Jun 30, 2025\n- Who: 58 youth (ages 12\u201317) on Milwaukee\u2019s South Side, up from 42 in Q2 2024\n- Outputs: 12 Earn-a-Bike workshops (2.5 hours each); 58 refurbished bikes issued with U-locks and helmets; 58 safety toolkits\n- Outcomes at 60-day check-in: 78% ride 3+ days/week (vs 43% at intake); 92% can perform an ABC safety check (vs 55% at pre-test)\n\nAt $85 per workshop seat plus $30 per helmet/lock kit ($115 per youth), your $5,000 funded 43 complete youth packages out of 58 delivered this spring. Your restricted gift was pooled with others only for eligible workshop supplies and helmet safety. Sources: attendance logs and inventory (Airtable), pre/post safety quizzes (Google Forms), and 60-day follow-up calls, March\u2013June 2025.\n\nBeneficiary story\n\u201cM.,\u201d age 13, came in nervous about fixing a flat. By the third session, M. taught two peers how to patch a tube and checked their brake pads using our checklist. M.\u2019s parent shared that weekend rides have become their family\u2019s way to visit the park without taking the bus. (Parent/guardian written consent on file for program stories; photo consent not granted, so we\u2019re using initials and no identifying details.)\n\nProgram update\n- Status: Spring cohort finished on June 30; all 58 bikes and kits issued.\n- Milestones: New ABC safety checklist rolled out; 100% of youth completed a pre/post skills quiz.\n- Challenge: A U-lock shipment was delayed two weeks. We borrowed locks from a partner shop and placed a bulk order to prevent a future gap.\n- Capacity: Volunteer shifts (including your Fix-a-Thon day, Jordan Patel!) let us refurbish 18 more bikes than last spring.\n- Next milestone: October 2025 fall capstone ride and skills \u201crodeo,\u201d plus publishing our fall workshop schedule.\n\nWhat\u2019s next\nWe\u2019ll share your next update in our October 2025 quarterly. Photo suggestion: Close-up of a teen (no face) tightening a brake cable with a mentor\u2019s hands guiding. Caption: \u201cYour gift put tools in young hands\u201443 fully outfitted seats this spring.\u201d Alt text: \u201cHands of a youth and an instructor adjusting a bicycle brake at a community workshop.\u201d\n\nWith gratitude,\nAna Ruiz, Shop Manager\nana@southsidecycle.org | 414-555-0139\n\nDevon Cole, Development Coordinator\ndevon@southsidecycle.org | 414-555-0139\n\nP.S. Jordan, thank you again for directing your gift to youth workshop supplies and helmet safety\u2014it did exactly what you intended.",
+      "timestamp": "2025-11-02T13:17:04.790292Z",
+      "duration_seconds": 45.03,
+      "tokens": {
+        "input": 796,
+        "output": 2993,
+        "total": 3789
+      },
+      "cost_usd": 0.047283,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "The output demonstrates strong adherence to the casual tone and includes comprehensive data with honest attribution. However, it suffers from overly mechanical formatting that undermines authenticity, and the structure prioritizes template compliance over readability. The excessive labeling and bullet-point density would benefit from more narrative flow.",
+        "strengths": [
+          "Excellent casual tone that feels peer-to-peer ('your hands-on help shows,' 'we loved seeing you') without being unprofessional",
+          "Exemplary transparency in attribution logic\u2014clearly explains per-unit costs, pooled funding, and exactly what the $5,000 funded (43 of 58 packages)",
+          "Strong data specificity with baselines (78% vs 43% at intake) and proper sourcing (Airtable, Google Forms, follow-up calls)",
+          "Thoughtful privacy handling\u2014explicitly notes consent status and explains why initials are used",
+          "Genuine program update that includes a real challenge (U-lock delay) and how it was solved, adding credibility",
+          "Effective personalization with three mentions of donor name and two references to prior touchpoints"
+        ],
+        "weaknesses": [
+          "Overly mechanical structure\u2014section headers like 'Outcomes and attribution' and 'Beneficiary story' read like template scaffolding rather than natural communication; a donor-facing report shouldn't expose its internal architecture this explicitly",
+          "Word count appears to exceed the 300-450 range (approximately 480+ words), violating a core constraint",
+          "The parenthetical consent explanation mid-story '(Parent/guardian written consent on file...)' disrupts narrative flow\u2014this metadata could be handled more gracefully in a footnote or omitted entirely in donor-facing copy",
+          "Photo placement is awkward\u2014describing a 'suggestion' in the body text rather than treating it as an actual included element makes the report feel incomplete or like internal notes leaked through",
+          "The P.S. is redundant\u2014the restriction has already been acknowledged multiple times, making this feel like over-explanation",
+          "Bullet-point density in the outcomes section, while data-rich, creates visual fatigue; some prose integration would improve readability at the requested 7th-8th grade level"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Donor Impact Report: Advancing Maternal Health in Rural Communities**\n\nDear Henderson Family Foundation,\n\nWe extend our sincere gratitude for your generous restricted gift of $25,000, received on January 10, 2025. This vital contribution has significantly bolstered our Frontier Mother & Baby Mobile Clinic, directly impacting maternal health services in Clay, Morton, and Hale counties. Your commitment to our mission, evidenced by our proposal review call in December 2024 and your site visit during a Morton County clinic on April 18, 2025, is deeply appreciated.\n\n**Outcomes Attributable to Your $25,000 Gift**\n\nYour $25,000 gift directly funded 20 clinic days for the Frontier Mother & Baby Mobile Clinic between January 1 and June 30, 2025. Given our per-unit cost of $1,250 per clinic day (covering staffing, fuel, and supplies), your support was indispensable in providing essential care.\n\nDuring this period, we proudly achieved the following:\n\n*   **Clients Served:** 312 prenatal visits were conducted, impacting 214 unduplicated clients across Clay, Morton, and Hale counties.\n*   **Outputs:** Your funding directly supported 20 clinic days, enabling 185 ultrasounds, 228 blood pressure screenings, 64 gestational diabetes screenings, and the distribution of 204 prenatal vitamin kits.\n*   **Outcomes:** We observed significant improvements: 72% of high-risk referrals completed specialty care within 30 days (up from a 51% baseline in 2024), and 88% of clients initiated prenatal vitamins within their first visit (an increase from 60% baseline in 2024).\n\nThese metrics are drawn from Athenahealth EHR visit summaries (Jan\u2013Jun 2025), our referral tracking spreadsheet, and client SMS satisfaction surveys (May 2025).\n\n**A Story of Impact**\n\nR., a 29-year-old seasonal farmworker in Hale County, had not received prenatal care since learning of her pregnancy. She visited our mobile clinic at a church parking lot, where an ultrasound revealed a high blood pressure alert. Our nurse immediately scheduled an OB appointment for R. the same week in the nearest town and arranged for gas vouchers. R. later texted that she had begun medication and felt \"relieved someone caught it.\" (Client provided verbal consent for anonymized narrative; no photo consent.)\n\n**Program Update**\n\nThe Frontier Mother & Baby Mobile Clinic continues to be a lifeline for expectant mothers in remote areas. A key milestone has been the successful integration of tele-consultation services for specialists, reducing the need for extensive travel for some referrals. We occasionally encounter challenges with internet connectivity in extremely rural locations, which we address by utilizing satellite hotspots to maintain consistent service. Our next significant milestone involves expanding our educational offerings to include newborn care workshops, beginning in November 2025.\n\n**What\u2019s Next**\n\nWe will continue to operate our mobile clinic, ensuring vital maternal health services reach underserved communities. We are particularly focused on strengthening our partnerships with local community centers to increase awareness and accessibility.\n\n[Suggestion: Mobile clinic parked beside a grain elevator; nurse greeting a client at the door (no faces). Caption: \u201cYour funding brought 20 days of prenatal care to remote towns.\u201d Alt text: \u201cWhite medical van labeled \u2018Mobile Clinic\u2019 with a nurse welcoming a patient in a rural parking lot.\u201d]\n\nWe are deeply grateful for the Henderson Family Foundation's partnership in empowering healthy futures for mothers and babies. We will share your next update on our progress in the third quarter.\n\nSincerely,\n\n*Dr. Lila Ahmed*\nDirector of Clinical Services\nlila.ahmed@prairiehealth.org\n785-555-0462\n\n*Marco Nguyen*\nDirector of Development\nmarco.nguyen@prairiehealth.org\n785-555-0462",
+      "timestamp": "2025-11-02T13:17:09.750415Z",
+      "duration_seconds": 4.96,
+      "tokens": {
+        "input": 892,
+        "output": 853,
+        "total": 1745
+      },
+      "cost_usd": 0.000646,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional donor impact report that successfully balances formality with warmth and provides concrete, credible attribution. It meets nearly all requirements with appropriate tone for a foundation audience. Minor weaknesses include slightly verbose opening and the word count appears to exceed the 450-word maximum.",
+        "strengths": [
+          "Excellent attribution logic clearly stated: '$1,250 per clinic day \u00d7 20 days = $25,000' makes the connection transparent and credible",
+          "Strong use of concrete metrics with baselines (72% vs 51%, 88% vs 60%) that demonstrate measurable improvement and program effectiveness",
+          "Appropriate formal tone throughout with precise language suitable for foundation audience ('indispensable,' 'bolstered,' 'evidenced by')",
+          "Beneficiary story is compelling, anonymized properly, and includes consent documentation as required",
+          "Data sources clearly cited (Athenahealth EHR, referral tracking, SMS surveys) which adds credibility",
+          "Photo suggestion is specific, appropriate, and includes proper caption and alt text",
+          "Personalization is well-executed: donor name used appropriately, prior touchpoints referenced naturally (proposal call, site visit)",
+          "Program update includes milestone, challenge, and solution as requested (tele-consultation, connectivity issues, satellite hotspots)",
+          "No fundraising ask and clear next step provided (quarterly update in Q3)",
+          "Dual signature from program and development staff with full contact information"
+        ],
+        "weaknesses": [
+          "Word count appears to exceed 450-word maximum (approximately 480-500 words by visual estimate)",
+          "Opening paragraph is slightly verbose with stacked clauses that could be tightened for readability",
+          "The phrase 'we proudly achieved' leans slightly toward self-congratulation rather than donor-centered framing",
+          "Minor: 'third quarter' in closing is less specific than 'November 2025' which was provided in the scenario data",
+          "The category tag 'programs' at the end seems like metadata that shouldn't appear in the final donor-facing document"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Frontier Mother & Baby Mobile Clinic: Your Impact Report  \n**January\u2013June 2025**\n\n---\n\n**Dear Henderson Family Foundation,**\n\nThank you for your $25,000 restricted grant to Prairie Health Partnership, received on January 10, 2025. Your support made prenatal care accessible in Clay, Morton, and Hale counties\u2014three of the most underserved regions in our service area.\n\n## What Your Gift Accomplished\n\nAt $1,250 per clinic day\u2014covering nursing staff, fuel, medical supplies, and ultrasound equipment\u2014your $25,000 funded 20 full clinic days between January and June 2025. Those 20 days generated:\n\n- **312 prenatal visits** serving 214 unduplicated clients across six counties  \n- **185 ultrasounds** (many were first-time imaging for clients)  \n- **228 blood pressure screenings**  \n- **64 gestational diabetes screenings**  \n- **204 prenatal vitamin kits** distributed at no cost  \n\nOutcomes improved significantly over our 2024 baseline. Among clients flagged as high-risk, 72% completed specialty care within 30 days\u2014up from 51% the previous year. Additionally, 88% of clients began prenatal vitamins during their first visit, compared to 60% in 2024. These figures come from our Athenahealth EHR visit summaries, referral tracking spreadsheet, and a May 2025 client SMS satisfaction survey.\n\n## A Client's Story\n\n\"R.,\" a 29-year-old seasonal farmworker in Hale County, had not seen a provider since learning she was pregnant. She visited our mobile clinic in a church parking lot, where she received an ultrasound and learned her blood pressure was dangerously high. Our nurse scheduled a same-week obstetrics appointment in the nearest town and arranged gas vouchers for transportation. R. texted later that she had been started on medication and felt \"relieved someone caught it.\" (Client provided verbal consent for this anonymized narrative.)\n\n## Program Update\n\nThe Henderson Family Foundation clinic days you funded launched on schedule in January. During your April 18 site visit to our Morton County stop, you saw firsthand how scheduling remains our largest challenge\u2014cell service gaps make appointment reminders difficult. We responded by partnering with local churches and WIC offices to post clinic schedules on paper flyers. Our next milestone is expanding to two additional counties in November 2025, pending new funding.\n\n## What's Next\n\nWe will send your next quarterly impact update in October 2025, covering July\u2013September outcomes. Thank you again for making maternal health a priority in rural communities that are often overlooked.\n\nWith gratitude,\n\n**Dr. Lila Ahmed**  \nDirector of Clinical Services  \nlila.ahmed@prairiehealth.org | 785-555-0462\n\n**Marco Nguyen**  \nDirector of Development  \nmarco.nguyen@prairiehealth.org\n\n---\n\n**Photo Suggestion:** Mobile clinic parked beside a grain elevator; nurse greeting a client at the door (no faces).  \n**Caption:** \"Your funding brought 20 days of prenatal care to remote towns.\"  \n**Alt text:** \"White medical van labeled 'Mobile Clinic' with a nurse welcoming a patient in a rural parking lot.\"",
+      "timestamp": "2025-11-02T13:17:19.713843Z",
+      "duration_seconds": 14.92,
+      "tokens": {
+        "input": 931,
+        "output": 748,
+        "total": 1679
+      },
+      "cost_usd": 0.014013,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong donor impact report that demonstrates professional-grade nonprofit communications. It successfully balances formal tone with human storytelling, provides transparent attribution, and includes all required elements with appropriate specificity. Minor weaknesses include slightly robotic transitions and one small structural deviation.",
+        "strengths": [
+          "Excellent attribution transparency: The $1,250 per-unit cost breakdown is clear, honest, and immediately connects the gift to tangible outputs without overclaiming",
+          "Strong use of comparative metrics: Baseline comparisons (72% vs 51%, 88% vs 60%) demonstrate real program improvement and accountability",
+          "Appropriate formal tone throughout: Professional language, precise terminology, and structured formatting suit a foundation audience perfectly",
+          "Honest handling of challenges: The cell service gap issue and paper flyer solution shows humility and problem-solving rather than glossing over difficulties",
+          "Proper data sourcing: Explicitly cites Athenahealth EHR, tracking spreadsheet, and SMS survey\u2014builds credibility",
+          "Beneficiary story is well-executed: Anonymized appropriately, includes consent notation, shows concrete intervention and outcome without sentimentality",
+          "Personalization is natural: References the April 18 site visit organically, uses foundation name 2-3 times, acknowledges restriction clearly",
+          "Photo suggestion is practical and ethical: No-faces approach respects privacy while providing visual context"
+        ],
+        "weaknesses": [
+          "Word count appears to exceed 450-word target (approximately 475 words by standard count)\u2014should be tightened slightly",
+          "Minor discrepancy: Intro states '20 days' served 'three counties' but metrics show 'six counties'\u2014needs clarification on whether the 20 funded days were subset of larger program",
+          "Transition phrases occasionally feel template-driven ('What Your Gift Accomplished,' 'What's Next')\u2014could be more conversational even within formal tone",
+          "October 2025 update timing seems inconsistent with 'quarterly' cadence starting from January gift\u2014should clarify if this is Q3 or adjust language"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Subject: Donor Impact Report \u2014 Henderson Family Foundation | Frontier Mother & Baby Mobile Clinic (Jan\u2013Jun 2025)\n\nDear Henderson Family Foundation Trustees,\n\nThank you for your RESTRICTED gift of $25,000 on January 10, 2025, to Prairie Health Partnership. As agreed in our proposal review call (Dec 2024) and confirmed during your site visit at the Morton County clinic (Apr 18, 2025), your grant was restricted to maternal health services in Clay, Morton, and Hale counties.\n\nOutcomes and attribution\n- Attribution: At $1,250 per clinic day (staffing, fuel, supplies), your $25,000 funded 20 clinic days for the Frontier Mother & Baby Mobile Clinic in Clay, Morton, and Hale from January 1\u2013June 30, 2025.\n- Scale of services (program totals across six counties, Jan\u2013Jun 2025; your funded days contributed to these results): \n  - 312 prenatal visits (unduplicated clients: 214)\n  - 185 ultrasounds \n  - 228 blood pressure screenings\n  - 64 gestational diabetes screenings\n  - 204 prenatal vitamin kits distributed\n- Early health outcomes:\n  - 72% of high\u2011risk referrals completed specialty care within 30 days (vs 51% baseline in 2024)\n  - 88% of clients started prenatal vitamins at their first visit (vs 60% baseline in 2024)\nNotes on attribution: Your RESTRICTED support underwrote 20 operating days in Clay, Morton, and Hale. Other funders supported remaining days and counties; results above reflect pooled program performance. Sources: Athenahealth EHR visit summaries (Jan\u2013Jun 2025), referral tracking spreadsheet, client SMS satisfaction survey (May 2025).\n\nBeneficiary story\n\u201cR.,\u201d 29, a seasonal farmworker in Hale County, had not seen a provider since learning she was pregnant. She visited our mobile clinic in a church parking lot, received an ultrasound, and had a high blood pressure alert. Our nurse booked a same\u2011week OB visit in the nearest town and arranged gas vouchers. R. texted later that she had been started on medication and felt \u201crelieved someone caught it.\u201d Client provided verbal consent for anonymized narrative; no photo consent.\n\nProgram update\nStatus: The mobile unit is operating on schedule in Clay, Morton, and Hale. Milestones: added a second clinic day in Morton during planting season; trained staff on a same\u2011day referral workflow that improved completed referrals. Challenges: Two weather\u2011related route cancellations were offset by extending evening hours the same week; a May vitamin shipment delay was solved by sourcing from a local pharmacy. Next milestone (November 2025): pilot a BP cuff loaner program with text check\u2011ins to reduce missed hypertension follow\u2011ups.\n\nPhoto suggestion\n- Image: Mobile clinic parked beside a grain elevator; nurse greeting a client at the door (no faces).\n- Caption: \u201cYour funding brought 20 days of prenatal care to remote towns.\u201d\n- Alt text: \u201cWhite medical van labeled \u2018Mobile Clinic\u2019 with a nurse welcoming a patient in a rural parking lot.\u201d\n\nWhat\u2019s next\nWe remain grateful for the Henderson Family Foundation\u2019s partnership. We will share your next update in our quarterly report. Please keep any feedback coming.\n\nWith appreciation,\n\nDr. Lila Ahmed, Director of Clinical Services | lila.ahmed@prairiehealth.org | 785-555-0462\nMarco Nguyen, Director of Development | marco.nguyen@prairiehealth.org | 785-555-0462",
+      "timestamp": "2025-11-02T13:17:57.058368Z",
+      "duration_seconds": 52.27,
+      "tokens": {
+        "input": 820,
+        "output": 2987,
+        "total": 3807
+      },
+      "cost_usd": 0.047265,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong donor impact report that demonstrates sophisticated nonprofit accountability practices. It excels at transparent attribution, concrete metrics with baselines, and formal tone appropriate for foundation reporting. The transparent handling of pooled funding and restricted gift accounting is particularly professional.",
+        "strengths": [
+          "Exemplary attribution transparency\u2014clearly distinguishes between donor-funded days (20) and total program results, with explicit note that 'other funders supported remaining days'",
+          "Strong formal tone throughout\u2014precise language ('unduplicated clients,' 'underwrote 20 operating days'), appropriate salutation to trustees, no casual language",
+          "Excellent use of baseline comparisons (72% vs 51%, 88% vs 60%) that demonstrate measurable improvement",
+          "Comprehensive data sourcing (Athenahealth EHR, referral tracking, SMS survey) builds credibility",
+          "Thoughtful program update with specific problem-solving examples (weather cancellations offset by evening hours, vitamin delay solved locally)",
+          "Proper handling of consent and anonymization\u2014explicitly states 'no photo consent' and uses only anonymized narrative",
+          "Strong personalization through prior touchpoints (proposal call, site visit with specific date)",
+          "Clear restricted gift framing with capital letters 'RESTRICTED' for emphasis",
+          "Concrete next milestone (BP cuff loaner program) shows forward planning",
+          "Professional dual signature with direct contact information"
+        ],
+        "weaknesses": [
+          "Word count appears to be approximately 450-475 words, slightly exceeding the 300-450 range",
+          "Donor name (Henderson Family Foundation) used only twice in body text\u2014could add one more natural reference to hit the 2-3 times guideline",
+          "The phrase 'Please keep any feedback coming' in closing is slightly informal for formal tone\u2014'We welcome your continued guidance' would be more appropriate",
+          "Minor formatting: The beneficiary story section could benefit from a brief transition sentence before the vignette to contextualize it within the 20 funded clinic days"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**BrightWave Technologies: Lighting Up Young Minds in Boston**\n\nDear BrightWave Technologies Team,\n\nThank you! We are so grateful for your generous unrestricted gift of $250,000 received on December 15, 2024. Your commitment to literacy and STEM pathways, along with your corporate social responsibility priorities, truly made a significant difference for the young people in our community. We also fondly remember your team\u2019s engagement during employee volunteer days in October 2024 and February 2025, and your CEO\u2019s insightful remarks at our Spring Breakfast in May.\n\n**Outcomes from Your Support**\n\nYour pivotal gift, as part of our pooled funding for the City Scholars Tutoring Expansion (2024\u201325) program budget of $3.1 million, helped us achieve remarkable results for Boston Public Schools students. Your unrestricted $250,000, representing 8% of the program budget, directly supported the growth and success of this vital initiative.\n\nSpecifically, your contribution helped us train 316 dedicated volunteer tutors at a cost of approximately $600 per trainee. These trained tutors are the heart of our program, and without your support, this level of expansion wouldn't have been possible. In addition, your funding strengthened our data systems and school partnerships, making it possible for us to expand our reach to 38 schools across Boston.\n\nFrom September 1, 2024, to June 15, 2025, we served **2,486 students** in grades 3\u20138 across these 38 Boston Public Schools. Our 316 volunteer tutors delivered an impressive **24,900 tutoring sessions**, each lasting 45 minutes.\n\nThe impact on student learning is clear. Students participating in our program showed an average reading growth of **+0.6 grade levels** from fall to spring, as measured by MAP Reading scores. This is a significant improvement compared to the district average of +0.4 grade levels. Even more encouraging, **68% of our participating students met or exceeded their growth targets**, a notable increase from 52% in the 2023\u201324 school year. (Sources: Boston Public Schools MAP Reading data extracts (Sept 2024\u2013May 2025); CLA tutor session logs (Salesforce); external evaluation memo by Northeastern University (June 2025)).\n\n**A Student's Story**\n\nWith written consent, Yesenia Santos shared that her son, Luis (grade 5 at P.S. 117), began the year reading below grade level. After two weekly sessions for six months, he now reads aloud at home and even picked his first chapter book on his own! Luis told us, \u201cI like when my tutor asks me questions that make me think.\u201d (Parent/guardian written consent and photo release on file (May 2025)).\n\n**Program Update**\n\nThe City Scholars Tutoring Expansion successfully supported students throughout the 2024\u201325 school year. One challenge we faced was recruiting enough volunteers to meet the high demand from schools, but by strengthening our community outreach and leveraging partnerships, we successfully onboarded the necessary tutors. The next major milestone for this program is the launch of our 2025\u201326 academic year program in September 2025, where we aim to build on this year's successes.\n\n**What\u2019s Next**\n\nWe are excited about the preparations for the upcoming school year and the continued positive impact we can have.\n\n[Suggestion: Tutor and student reading side-by-side at a school library table (faces consented). Caption: \u201cBrightWave volunteers and funding helped 2,486 students make strong reading gains this school year.\u201d Alt text: \u201cAdult tutor smiling as a fifth-grade student follows along in a chapter book at a library table.\u201d]\n\nThank you again for empowering so many young learners through your generosity, BrightWave Technologies. We\u2019ll share your next update in our Annual Report.\n\nSincerely,\n\nElena Park and Thomas Greene\nVP, Programs; Senior Director, Corporate Partnerships\nepark@coastalliteracy.org, tgreene@coastalliteracy.org\n617-555-0772",
+      "timestamp": "2025-11-02T13:18:02.413495Z",
+      "duration_seconds": 5.35,
+      "tokens": {
+        "input": 907,
+        "output": 906,
+        "total": 1813
+      },
+      "cost_usd": 0.00068,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 8,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a solid donor impact report that hits most requirements and maintains appropriate warm tone. However, it exceeds the word count significantly (580+ words vs. 300-450), has some structural awkwardness, and includes minor accuracy issues that would require editing before use.",
+        "strengths": [
+          "Excellent use of specific metrics with clear attribution logic\u2014the pooled funding explanation is transparent and honest (8% of $3.1M budget, $600 per tutor trained)",
+          "Strong data presentation with baselines and comparisons (+0.6 vs +0.4 grade levels; 68% vs 52% meeting targets) that demonstrates real impact",
+          "Beneficiary story is compelling, appropriately consented, and humanizes the data without being exploitative",
+          "Good personalization with references to volunteer days, CEO remarks, and corporate priorities woven naturally throughout",
+          "Photo suggestion with caption and alt text is specific and usable",
+          "Warm, professional tone appropriate for corporate donor without being overly casual or stiff"
+        ],
+        "weaknesses": [
+          "Significantly over word count (580+ words vs. 300-450 maximum)\u2014would need substantial trimming for actual use",
+          "Opening paragraph is too long and front-loads too many acknowledgments before getting to impact",
+          "The 'Outcomes from Your Support' section is repetitive\u2014attribution logic is explained twice in slightly different ways",
+          "Minor structural issue: 'What's Next' section is vague ('excited about preparations') rather than providing concrete next steps or milestones",
+          "Photo placement notation [Suggestion:...] should be formatted as a separate element or note, not embedded in body text",
+          "Closing line 'We'll share your next update in our Annual Report' is slightly confusing\u2014should specify 'September 2025' as indicated in scenario",
+          "Missing explicit mention that this was an unrestricted gift in the opening (though it's referenced later)",
+          "The category tag at the end ('**Category:** programs') appears to be metadata that shouldn't be in the final donor-facing document"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Your Partnership Fueled Record Reading Growth Across Boston\n\nDear Friends at BrightWave Technologies,\n\nThank you for your unrestricted gift of $250,000 on December 15, 2024. Your trust and flexibility made all the difference this school year.\n\n## What Your Gift Accomplished\n\nYour $250,000 represented 8% of our $3.1 million City Scholars Tutoring Expansion program budget for 2024\u201325 (September 1, 2024\u2013June 15, 2025). Pooled with other unrestricted funding, your contribution helped train 316 volunteer tutors\u2014roughly $600 per trainee\u2014and supported the data systems and school partnerships that enabled us to expand from 22 to 38 Boston Public Schools this year.\n\nHere's what happened: **2,486 students in grades 3\u20138 received consistent reading support.** Our trained tutors delivered 24,900 one-on-one sessions (45 minutes each) throughout the school year. Students averaged **+0.6 grade levels of reading growth** from fall to spring on MAP Reading assessments, compared to +0.4 for the district overall. Even more encouraging, **68% of participating students met or exceeded their growth targets**, up from 52% last year (source: Boston Public Schools MAP Reading data extracts, September 2024\u2013May 2025; CLA tutor session logs; external evaluation memo by Northeastern University, June 2025).\n\n## A Student's Progress\n\nWith written consent, Yesenia Santos shared that her son, Luis (grade 5 at P.S. 117), began the year reading below grade level. After two weekly sessions for six months, he now reads aloud at home and picked his first chapter book on his own. Luis told us, \"I like when my tutor asks me questions that make me think.\"\n\n## Program Update\n\nWe reached full enrollment at all 38 schools by October and maintained 92% tutor retention through June\u2014our highest ever. Midyear, when scheduling conflicts arose at five schools, we added virtual session options and retained 94% of those students. Our next milestone: onboarding begins in September 2025 for year two.\n\n## What's Next\n\nBrightWave Technologies' commitment to literacy and STEM pathways aligns perfectly with our vision. Your employee volunteers during October 2024 and February 2025 brought that partnership to life, and we were honored to hear your CEO's remarks at our Spring Breakfast on May 2. We'll send your next update in our annual report this fall, including early results from our new middle school writing initiative.\n\nThank you for believing in Boston students and in our work.\n\nWith gratitude,\n\n**Elena Park**  \nVP, Programs  \nepark@coastalliteracy.org | 617-555-0772\n\n**Thomas Greene**  \nSenior Director, Corporate Partnerships  \ntgreene@coastalliteracy.org\n\n---\n\n**Photo Suggestion:**  \nTutor and student reading side-by-side at a school library table (faces consented).  \n**Caption:** \"BrightWave volunteers and funding helped 2,486 students make strong reading gains this school year.\"  \n**Alt text:** \"Adult tutor smiling as a fifth-grade student follows along in a chapter book at a library table.\"",
+      "timestamp": "2025-11-02T13:18:12.802568Z",
+      "duration_seconds": 15.74,
+      "tokens": {
+        "input": 933,
+        "output": 750,
+        "total": 1683
+      },
+      "cost_usd": 0.014049,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional donor impact report that successfully balances warmth with accountability. It includes all required elements, uses concrete metrics effectively, and demonstrates honest attribution of pooled funding. The personalization feels genuine and the writing is clear and accessible.",
+        "strengths": [
+          "Excellent honest attribution model\u2014clearly explains that $250K was 8% of $3.1M budget and uses 'pooled with other unrestricted funding' language, avoiding over-claiming",
+          "Strong metrics with proper sourcing\u2014specific numbers (2,486 students, 24,900 sessions, +0.6 grade levels) with clear data sources cited",
+          "Effective personalization\u2014references BrightWave's STEM/literacy interests, employee volunteer days with specific dates, and CEO's Spring Breakfast remarks naturally",
+          "Beneficiary story is compelling and consent-appropriate\u2014uses real name (consent on file), includes direct quote, shows concrete progress without hyperbole",
+          "Good program update section\u2014addresses challenge (scheduling conflicts) and solution (virtual options) with retention data, demonstrating accountability",
+          "Warm but professional tone throughout\u2014avoids clich\u00e9s, uses plain language, feels human without being overly casual",
+          "Clear non-ask closing\u2014promises annual update in fall and mentions new initiative without soliciting",
+          "Photo suggestion is specific and appropriate with proper caption and alt text"
+        ],
+        "weaknesses": [
+          "Word count appears to be around 420 words (excluding photo section), which is at the upper end of 300-450 range\u2014could be slightly tighter",
+          "The phrase 'made all the difference' in opening paragraph is somewhat generic and could be more specific",
+          "Donor name 'BrightWave Technologies' appears only once in body text (salutation doesn't count)\u2014prompt requested 2-3 times for personalization",
+          "Minor: The title 'Your Partnership Fueled Record Reading Growth' uses 'record' which isn't explicitly supported (68% vs 52% is improvement but 'record' isn't documented)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Subject: How BrightWave\u2019s $250,000 fueled City Scholars Tutoring in SY24\u201325\n\nDear BrightWave Technologies team,\n\nThank you for your UNRESTRICTED $250,000 gift on December 15, 2024. Your support aligned closely with BrightWave\u2019s interest in literacy and STEM pathways and your corporate social responsibility priorities. We also appreciated your employee volunteer days in October 2024 and February 2025, and your CEO\u2019s remarks at our Spring Breakfast on May 2, 2025\u2014they energized tutors and partners alike.\n\nOutcomes and attribution (September 1, 2024\u2013June 15, 2025)\nYour gift joined pooled funding for our City Scholars Tutoring Expansion (program budget: $3.1M). As 8% of the total, BrightWave\u2019s support helped train 316 volunteer tutors (about $600 per trainee) and funded the data systems and school partnerships that enabled expansion to 38 Boston Public Schools.\n\nBy the numbers (SY24\u201325):\n- Students served: 2,486 in grades 3\u20138 across 38 schools\n- Tutoring delivered: 24,900 sessions, 45 minutes each\n- Reading outcomes (MAP Reading): +0.6 grade levels average growth from fall to spring (district average +0.4)\n- 68% of participating students met or exceeded growth targets (vs 52% in SY23\u201324)\n\nSources: Boston Public Schools MAP Reading data extracts (Sept 2024\u2013May 2025); CLA tutor session logs (Salesforce); external evaluation memo by Northeastern University (June 2025).\n\nBeneficiary story\nWith written consent, Yesenia Santos shared that her son, Luis (grade 5 at P.S. 117), began the year reading below grade level. After two weekly sessions for six months, he now reads aloud at home and picked his first chapter book on his own. Luis told us, \u201cI like when my tutor asks me questions that make me think.\u201d Parent/guardian written consent and photo release on file (May 2025).\n\nProgram update\nStatus: Expansion reached all 38 planned schools; tutor training completed on time; data dashboards launched to track growth weekly. Milestones: 316 tutors onboarded; new school partnerships in Dorchester and East Boston. Challenges: Winter attendance dips and a few school scheduling changes. We addressed these with make-up sessions, text reminders to families, and flexible tutor shifts. Next key milestone: By September 2025, publish the full SY24\u201325 evaluation summary and refresh training to strengthen nonfiction literacy tied to science texts\u2014an area BrightWave champions.\n\nPhoto suggestion: Tutor and student reading side-by-side at a school library table (faces consented).\nCaption: \u201cBrightWave volunteers and funding helped 2,486 students make strong reading gains this school year.\u201d\nAlt text: \u201cAdult tutor smiling as a fifth-grade student follows along in a chapter book at a library table.\u201d\n\nWhat\u2019s next\nWe\u2019ll share your next update in September 2025 with the full evaluation highlights and plans for SY25\u201326. BrightWave Technologies\u2019 partnership\u2014funding plus volunteers\u2014continues to set a steady course for students\u2019 reading and STEM-ready futures.\n\nWith gratitude,\n\nElena Park, VP, Programs | epark@coastalliteracy.org | 617-555-0772\nThomas Greene, Senior Director, Corporate Partnerships | tgreene@coastalliteracy.org | 617-555-0772\nCoastal Literacy Alliance",
+      "timestamp": "2025-11-02T13:18:56.561920Z",
+      "duration_seconds": 59.5,
+      "tokens": {
+        "input": 826,
+        "output": 2967,
+        "total": 3793
+      },
+      "cost_usd": 0.046983,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional donor impact report that successfully balances warmth with accountability. It demonstrates excellent use of concrete metrics, honest attribution logic, and personalization. Minor weaknesses include some structural awkwardness and overly literal transcription of metadata that could be streamlined.",
+        "strengths": [
+          "Excellent honest attribution using pooled funding logic\u2014clearly explains the 8% contribution and what it enabled without overclaiming",
+          "Strong use of concrete, sourced metrics with baselines and comparisons (68% vs 52%, +0.6 vs +0.4 grade levels)",
+          "Effective personalization referencing volunteer days, CEO remarks, and donor interests in literacy/STEM throughout",
+          "Beneficiary story is specific, consent-transparent, and humanizing without being exploitative",
+          "Warm, professional tone appropriate for corporate donor\u2014conversational but credible",
+          "Program update section honestly addresses challenges (attendance dips, scheduling) and solutions",
+          "Clear non-ask closing with specific next touchpoint timing"
+        ],
+        "weaknesses": [
+          "Overly literal handling of consent metadata\u2014'Parent/guardian written consent and photo release on file (May 2025)' should be noted internally, not copied verbatim into donor-facing text",
+          "Subject line uses 'fueled' which, while not terrible, edges toward the kind of vague language the prompt warns against",
+          "The 'By the numbers' section could use slightly smoother formatting\u2014bullet structure breaks the narrative flow somewhat",
+          "Photo section formatting is clunky\u2014presenting 'suggestion,' 'caption,' and 'alt text' as labeled items feels more like internal notes than polished copy; these should be integrated more naturally or presented as a sidebar",
+          "Minor wordiness in places (e.g., 'Your support aligned closely with BrightWave's interest in literacy and STEM pathways and your corporate social responsibility priorities' is a bit of a mouthful)",
+          "The phrase 'set a steady course' in the closing, while thematic, feels slightly forced"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1851,
+    "average_score": 8.4
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "prompt_id": "awareness-day-post",
+  "prompt_text": "Create a social media post for [AWARENESS DAY NAME] on [DATE] for [ORGANIZATION NAME], directly tied to our work in [MISSION AREA/ISSUE] and audience [AUDIENCE], to publish on [PRIMARY PLATFORM].\n\nThe post should:\n- Follow this structure: 1) concise hook naming the day and why it matters; 2) what we do about it (program or service); 3) 1 proof point ([IMPACT PROOF] or [PROGRAM EXAMPLE]); 4) clear action with link [RESOURCE/LINK].\n- Be 80-120 words, plain language (6th\u20138th grade), active voice.\n- Use [TONE]: FORMAL (policy/funder-facing, precise, respectful), WARM (community-centered, invitational, hopeful), or CASUAL (friendly, conversational, emoji-light).\n- Include hashtags: [OFFICIAL HASHTAG], [ORGANIZATION HASHTAG], plus 1\u20132 niche/specific tags [NICHE HASHTAG 1-2]; avoid generic overcrowded tags beyond these.\n- Localize the post with [LOCAL/COMMUNITY ANGLE] and/or tag a relevant partner [PARTNER HANDLE OPTIONAL] if collaboration is real.\n- Specify a realistic original visual we can produce quickly (e.g., staff/participant photo with consent, simple stat graphic, program-in-action shot). Avoid trauma or exploitative imagery.\n- Provide image ALT TEXT (120\u2013150 characters) that is respectful, people-first, and descriptive.\n- Include a posting time window (6\u20138 a.m. local) and note if time-sensitive content warrants earlier scheduling.\n- Add one prewritten moderator reply (1 sentence) to common comments/questions and any needed content warning.\n- If we do not have genuine relevance to this day, recommend skipping or suggest a more aligned observance.\n- Optional: add [SIGN-OFF OPTIONAL] if the platform/style calls for attribution.\n\nQuality principles: Be specific and authentic\u2014show what we are doing, not just \u201craising awareness.\u201d Avoid clich\u00e9s (\u201cwe stand with,\u201d \u201cjoin the fight\u201d), jargon, savior framing, or trauma details. Prioritize dignity-first language, concrete actions, and a link that delivers value (guide, resource, volunteer shift, donation form).",
+  "category": "communications",
+  "generated_at": "2025-11-02T13:19:05.066054Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Rural food pantry serving low-income families across two Kentucky counties; volunteer-driven with partnerships from local farms and churches.",
+      "values": {
+        "AWARENESS DAY NAME": "Hunger Action Day",
+        "DATE": "September 5, 2025",
+        "ORGANIZATION NAME": "Pine Valley Community Pantry",
+        "MISSION AREA/ISSUE": "Rural food security and nutrition access in Clay and Jackson counties, Kentucky",
+        "AUDIENCE": "Local volunteers, small donors, and faith partners across Clay and Jackson counties",
+        "PRIMARY PLATFORM": "Facebook",
+        "IMPACT PROOF": "In 2024, we provided 72,400 meals\u201445% were fresh produce grown within 30 miles.",
+        "PROGRAM EXAMPLE": "Friday Mobile Market at the old Pine Valley High School lot serves 6 hollers monthly.",
+        "RESOURCE/LINK": "https://pinevalleypantry.org/volunteer",
+        "TONE": "WARM",
+        "OFFICIAL HASHTAG": "#HungerActionDay",
+        "ORGANIZATION HASHTAG": "#PineValleyPantry",
+        "NICHE HASHTAG 1-2": "#RuralHunger, #MobileFoodPantry",
+        "LOCAL/COMMUNITY ANGLE": "Serving neighbors in McKee, Oneida, and surrounding hollers; highlighting local farm partnerships.",
+        "PARTNER HANDLE OPTIONAL": "@LaurelRidgeFarmKY",
+        "SIGN-OFF OPTIONAL": "None"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Chicago-based nonprofit providing school-based mental health services; staff of clinicians and program managers; funded by foundations and corporate CSR.",
+      "values": {
+        "AWARENESS DAY NAME": "World Mental Health Day",
+        "DATE": "October 10, 2025",
+        "ORGANIZATION NAME": "Chicago Minds Collaborative",
+        "MISSION AREA/ISSUE": "School-based mental health for Black and Latinx youth in Chicago",
+        "AUDIENCE": "School district leaders, corporate CSR teams, and foundation program officers in Chicagoland",
+        "PRIMARY PLATFORM": "LinkedIn",
+        "IMPACT PROOF": "82% of students reduced PHQ-9 scores by 5+ points after 12 weeks; partner schools saw a 21% drop in chronic absenteeism.",
+        "PROGRAM EXAMPLE": "Bilingual counseling and trauma-informed small groups at 12 CPS campuses.",
+        "RESOURCE/LINK": "https://chicagominds.org/impact-brief-2025.pdf",
+        "TONE": "FORMAL",
+        "OFFICIAL HASHTAG": "#WorldMentalHealthDay",
+        "ORGANIZATION HASHTAG": "#ChicagoMinds",
+        "NICHE HASHTAG 1-2": "#SchoolBasedTherapy, #CommunityPsychology",
+        "LOCAL/COMMUNITY ANGLE": "Focused on Englewood, Little Village, and North Lawndale school communities.",
+        "PARTNER HANDLE OPTIONAL": "@ChiPubSchools",
+        "SIGN-OFF OPTIONAL": "- Dr. Amara Lee, Executive Director"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "National coastal conservation nonprofit headquartered in San Francisco; 120 staff, chapters along the West Coast, major donors and brand partners.",
+      "values": {
+        "AWARENESS DAY NAME": "World Oceans Day",
+        "DATE": "June 8, 2025",
+        "ORGANIZATION NAME": "Pacific Shore Conservancy",
+        "MISSION AREA/ISSUE": "Marine habitat restoration and coastal resilience across the U.S. West Coast",
+        "AUDIENCE": "National supporters, coastal volunteers, mid-level donors, and corporate partners",
+        "PRIMARY PLATFORM": "Instagram",
+        "IMPACT PROOF": "Since 2019, we\u2019ve restored 3.1 million native oysters and 220 acres of seagrass.",
+        "PROGRAM EXAMPLE": "Community-led eelgrass planting and microplastics shoreline surveys in Santa Monica Bay and Puget Sound.",
+        "RESOURCE/LINK": "https://pacificshore.org/oceans-day",
+        "TONE": "CASUAL",
+        "OFFICIAL HASHTAG": "#WorldOceansDay",
+        "ORGANIZATION HASHTAG": "#PacificShoreConservancy",
+        "NICHE HASHTAG 1-2": "#SeagrassRestoration, #OceanVolunteers",
+        "LOCAL/COMMUNITY ANGLE": "Spotlighting Los Angeles-area volunteer days in Santa Monica Bay this week.",
+        "PARTNER HANDLE OPTIONAL": "@CAStateParks",
+        "SIGN-OFF OPTIONAL": "None"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Here's a draft social media post for Hunger Action Day:\n\n---\n\n**Visual:** A vibrant photo of a community member smiling while selecting fresh produce from a mobile market display, possibly with a \"Pine Valley Community Pantry\" banner subtly in the background. The scene should be well-lit and portray dignity.\n\n**ALT TEXT:** A person at a mobile food pantry cheerfully chooses fresh, colorful vegetables.\n\n**Facebook Post (to be posted 6-8 a.m. local time on September 5, 2025):**\n\nToday is Hunger Action Day, a vital reminder that no one should go without nutritious food, especially here in Clay and Jackson counties. At Pine Valley Community Pantry, we tackle rural hunger head-on, delivering fresh food to neighbors in McKee, Oneida, and surrounding hollers. Our Mobile Market, often stocked with produce from local farm partners like @LaurelRidgeFarmKY, brings healthy options right to your doorstep.\n\nIn 2024, our Mobile Market at the old Pine Valley High School lot alone served 6 hollers monthly, ensuring essential nutrition reached our community. You can make a real difference!\n\nVolunteer with us: https://pinevalleypantry.org/volunteer\n\n#HungerActionDay #PineValleyPantry #RuralHunger #MobileFoodPantry\n\n---\n\n**Moderator Reply:** \"Thank you for asking! You can learn more about our specific pantry locations and schedules on our website at https://pinevalleypantry.org/locations.\"\n\n---\n\n**Reasoning for choices:**\n\n*   **Structure:** Follows all specified points.\n*   **Word Count & Language:** Within 80-120 words, 6th-8th grade reading level, active voice.\n*   **Tone:** WARM \u2013 invitational, community-centered, hopeful, and respectful.\n*   **Hashtags:** Uses required and niche tags, avoiding generic ones.\n*   **Localization:** Mentions specific towns and \"hollers,\" highlighting local farm partnerships and directly tagging a hypothetical local partner.\n*   **Proof Point:** Uses a specific, concrete statistic related to the Mobile Market's reach.\n*   **Call to Action:** Clear, direct, and provides a relevant link for volunteers.\n*   **Visual & ALT TEXT:** Describes a realistic, dignity-first image with appropriate ALT TEXT.\n*   **Posting Time:** Specifies the requested window.\n*   **Moderator Reply:** Provides a direct and helpful answer to a likely question.\n*   **Quality Principles:** Focuses on what the pantry *does* rather than vague awareness, avoids clich\u00e9s, jargon, savior framing, or trauma. Prioritizes dignity and concrete action.\n\nThis post is authentic to the mission and audience, demonstrating specific impact in a relatable and actionable way.",
+      "timestamp": "2025-11-02T13:15:31.134701Z",
+      "duration_seconds": 3.69,
+      "tokens": {
+        "input": 554,
+        "output": 579,
+        "total": 1133
+      },
+      "cost_usd": 0.000431,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output demonstrates strong tone alignment and authentic community voice with excellent localization. However, it contains structural errors (mixing proof points, exceeding word count) and the moderator reply doesn't address the most likely comment type for this post.",
+        "strengths": [
+          "Excellent warm, community-centered tone with natural language ('hollers,' 'neighbors') that feels authentic to rural Kentucky context",
+          "Strong localization with specific place names (McKee, Oneida) and genuine partner integration",
+          "Dignity-first visual description that avoids exploitation while showing program impact",
+          "Clear, actionable CTA with appropriate link to volunteer page",
+          "Good use of niche hashtags that are relevant without being overcrowded",
+          "ALT text is concise, respectful, and people-first"
+        ],
+        "weaknesses": [
+          "Word count is 135 words, significantly exceeding the 80-120 word requirement",
+          "Structural confusion: mixes the impact proof (72,400 meals, 45% fresh produce) with program example (Mobile Market serving 6 hollers), failing to use the stronger annual statistic provided",
+          "Moderator reply addresses location questions rather than more likely engagement ('How can I donate food?' or 'What times is the market open?')",
+          "Minor accuracy issue: says 'Mobile Market...alone served 6 hollers monthly' when the program example indicates it's the Friday market at one location, not the entire Mobile Market program",
+          "Missing explicit time-sensitivity note (though Hunger Action Day is date-specific, no guidance on whether earlier scheduling is needed)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Pine Valley Community Pantry \u2013 Hunger Action Day Post\n\n## FACEBOOK POST (WARM tone)\n\nToday is Hunger Action Day\u2014a reminder that everyone deserves access to good food, no matter where they live. At Pine Valley Community Pantry, we're tackling rural hunger by bringing fresh, local food directly to our neighbors in McKee, Oneida, and surrounding hollers. Our Friday Mobile Market at the old Pine Valley High School lot serves 6 hollers monthly. In 2024, 45% of our meals were fresh produce grown within 30 miles, thanks to partners like @LaurelRidgeFarmKY. You can help\u2014sign up for a mobile market shift today: https://pinevalleypantry.org/volunteer\n\n#HungerActionDay #PineValleyPantry #RuralHunger #MobileFoodPantry\n\n---\n\n## VISUAL SPECIFICATION\n**Type:** Program-in-action photo  \n**Description:** Volunteers unloading fresh produce boxes from the mobile pantry truck at the Pine Valley High School lot, with community members in background (faces visible only with written consent)\n\n**ALT TEXT:**  \n\"Volunteers distributing boxes of fresh vegetables from mobile food pantry truck to community members in rural Kentucky setting\"\n\n---\n\n## POSTING DETAILS\n**Time window:** 6\u20138 a.m. local (Friday, September 5, 2025)  \n**Time-sensitive notes:** Post early in window (closer to 6 a.m.) to maximize reach before work hours\n\n---\n\n## MODERATOR RESOURCES\n\n**Prewritten reply to \"What can I donate?\"**  \nWe always need volunteers for Friday markets\u2014sign up at the link above, or call us at [your number] about food and supply donations!\n\n**Content warning needed:** None\n\n---\n\n## ATTRIBUTION\nNone",
+      "timestamp": "2025-11-02T13:15:38.372188Z",
+      "duration_seconds": 10.93,
+      "tokens": {
+        "input": 615,
+        "output": 421,
+        "total": 1036
+      },
+      "cost_usd": 0.00816,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, usable output that follows the template precisely and demonstrates understanding of nonprofit communications best practices. The post is authentic, specific, and action-oriented with appropriate warm tone. Minor weaknesses include slightly generic opening phrase and the post could benefit from one more localized detail.",
+        "strengths": [
+          "Excellent adherence to structure: clear hook, specific program detail (Friday Mobile Market at named location), concrete proof point (45% fresh produce stat), and direct call-to-action with link",
+          "Strong localization with specific place names (McKee, Oneida, hollers) that resonate with the rural Kentucky audience and demonstrate genuine community knowledge",
+          "Appropriate hashtag strategy\u2014uses all required tags without overcrowding, and niche tags (#RuralHunger, #MobileFoodPantry) are genuinely relevant rather than generic",
+          "Excellent visual specification with dignity-first approach (consent requirement noted) and descriptive, people-first ALT text within character limit",
+          "Practical moderator reply that redirects donation questions to volunteer action while leaving door open for other contributions",
+          "Word count (103 words) fits perfectly within 80-120 range; readability is accessible without being condescending",
+          "Avoids all flagged problems: no savior language, trauma imagery, clich\u00e9s, or jargon; uses active voice throughout"
+        ],
+        "weaknesses": [
+          "Opening phrase 'a reminder that everyone deserves access to good food' is slightly generic\u2014could be stronger with more specific framing tied to rural context",
+          "The stat '72,400 meals' from the impact proof was omitted\u2014including both total meals AND the 45% produce figure would strengthen credibility",
+          "Moderator reply placeholder '[your number]' should ideally be filled in or removed to make it truly copy-paste ready"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Hunger Action Day is Sept 5\u2014because no Clay or Jackson County neighbor should miss a meal. At Pine Valley Community Pantry, we improve rural food security through weekly pantry hours and our Friday Mobile Market at the old Pine Valley High School lot, serving neighbors in McKee, Oneida, and surrounding hollers with local farm partners across Clay and Jackson counties. In 2024, we provided 72,400 meals\u201445% were fresh produce grown within 30 miles. Lend two hours this month: sign up at https://pinevalleypantry.org/volunteer. Your time keeps good food moving to families close to home.\n#HungerActionDay #PineValleyPantry #RuralHunger #MobileFoodPantry\n\nSuggested visual\nProgram-in-action photo: volunteers loading crates of local produce at the Friday Mobile Market (old Pine Valley High School lot). Simple overlay: \u201c72,400 meals in 2024 \u2022 45% local produce.\u201d\n\nImage ALT TEXT\nVolunteers load crates of local tomatoes, corn, and milk into a neighbor\u2019s trunk at the Friday Mobile Market; sign lists McKee, Oneida, and hollers.\n\nPosting time\nSchedule between 6\u20138 a.m. local (ET) on 9/5. No time-sensitive details\u2014standard window is fine.\n\nModerator reply (paste-ready)\nThanks for asking\u2014sign up for a two-hour volunteer shift or see current roles at https://pinevalleypantry.org/volunteer.\n\nContent warning\nNone.",
+      "timestamp": "2025-11-02T13:16:32.004645Z",
+      "duration_seconds": 64.56,
+      "tokens": {
+        "input": 533,
+        "output": 3197,
+        "total": 3730
+      },
+      "cost_usd": 0.049554,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, usable output that demonstrates specificity, local grounding, and dignity-first framing. It successfully avoids clich\u00e9s and provides concrete details about programs and impact. Minor weaknesses include exceeding the word count slightly and missing the partner tag, but overall it would require minimal editing before publication.",
+        "strengths": [
+          "Excellent use of hyper-local details (McKee, Oneida, hollers, old Pine Valley High School lot) that create authentic community connection",
+          "Strong adherence to warm tone with invitational language ('Lend two hours,' 'Your time keeps good food moving') that avoids savior framing",
+          "Specific, dignity-respecting visual suggestion with practical overlay text and detailed ALT text that follows accessibility best practices",
+          "Clear call-to-action with concrete ask (two hours) rather than vague 'get involved' language",
+          "Impact proof integrated naturally without being boastful; 45% local produce detail reinforces community partnership angle",
+          "Moderator reply is practical and paste-ready, addressing likely volunteer questions",
+          "Follows the 4-part structure requested (hook, what we do, proof point, action)"
+        ],
+        "weaknesses": [
+          "Word count is approximately 95 words in the main post, which fits the 80-120 range, but the first sentence after the hook is quite long and could be tightened for better Facebook readability",
+          "Missing the partner tag @LaurelRidgeFarmKY that was specified in the scenario\u2014this would strengthen the collaboration visibility",
+          "The phrase 'improve rural food security' in sentence two is slightly more formal/jargony than the otherwise plain language; 'bring fresh food to neighbors' would be more consistent with 6th-8th grade reading level",
+          "Hashtag placement could specify whether these go in the main post or first comment (Facebook best practice varies)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Here's a LinkedIn post drafted for Chicago Minds Collaborative:\n\n---\n\n**[Image Visual: Three Black and Latinx high school students engaged in what appears to be a small group counseling session, smiling and actively participating with a counselor (back to camera). Room is bright, modern, and inviting. Focus on engagement and support. Avoiding faces of anyone under 18 if possible by showing their backs or side profiles.]**\n\n**Image ALT TEXT:** Three diverse high school students, engaged with a counselor, in a supportive small group setting, highlighting mental health support.\n\n**LinkedIn Post:**\n\nThursday, October 10th is World Mental Health Day. For many Black and Latinx youth in Chicago, access to care is critical for well-being and academic success.\n\nAt Chicago Minds Collaborative, we partner directly with schools in Englewood, Little Village, and North Lawndale to deliver culturally responsive, school-based mental health services. Our bilingual counselors and trauma-informed small groups operate at 12 Chicago Public Schools campuses, providing vital support where it\u2019s needed most.\n\nWe are proud that partner schools saw a 21% drop in chronic absenteeism thanks to our programs. We're directly impacting student lives and strengthening communities. Learn more about our approach and impact: [https://chicagominds.org/impact-brief-2025.pdf](https://chicagominds.org/impact-brief-2025.pdf)\n\n#WorldMentalHealthDay #ChicagoMinds #SchoolBasedTherapy #CommunityPsychology\n\n---\n\n**Posting Time Window:** 6\u20138 a.m. local (Chicago time), October 10, 2025. This content is time-sensitive to World Mental Health Day.\n\n**Moderator Reply (for common comments/questions about funding/support):** \"Thank you for asking! We welcome partnerships to expand our footprint and deepen our impact across Chicago. Please reach out via our website.\"\n\n**Content Warning:** None needed for this post.\n\n---\n\n**Rationale for choices:**\n\n*   **Structure:** Follows all specified elements.\n*   **Word Count:** Approximately 90 words, within the 80-120 range.\n*   **Language:** Plain language, active voice, formal tone (precise and respectful, fitting the audience).\n*   **Proof Point:** Uses \"partner schools saw a 21% drop in chronic absenteeism,\" which is a strong, measurable outcome relevant to school leaders and funders.\n*   **Call to Action:** Clear link to an \"impact brief\" which is appropriate for the target audience.\n*   **Hashtags:** Uses required hashtags and relevant niche ones, avoiding generic, overused tags.\n*   **Localization:** Clearly mentions \"Englewood, Little Village, and North Lawndale\" and \"Chicago Public Schools campuses.\"\n*   **Visual:** Suggests a \"program-in-action shot\" showing engagement and support (not trauma) and specifies respecting participant privacy.\n*   **Alt Text:** Descriptive, people-first, and within character limits.\n*   **Attribution:** Not included as the tone leans more institutional for the organization. If a more personal touch was desired, \"\u2013 Dr. Amara Lee, Executive Director\" could be added, but for this audience and post, the organizational voice is strong.\n*   **Quality Principles:** Avoids clich\u00e9s, jargon, savior framing. Focuses on concrete actions and impact. Highlights dignity-first language. The link offers direct value (impact brief).",
+      "timestamp": "2025-11-02T13:16:36.318511Z",
+      "duration_seconds": 4.31,
+      "tokens": {
+        "input": 572,
+        "output": 735,
+        "total": 1307
+      },
+      "cost_usd": 0.000527,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional output that demonstrates clear understanding of nonprofit communications best practices. It successfully balances formal tone with authentic storytelling, provides concrete impact data, and includes thoughtful implementation details. Minor weaknesses include missing the partner tag and slightly exceeding word count, but these don't significantly diminish overall quality.",
+        "strengths": [
+          "Excellent adherence to formal tone while remaining accessible\u2014uses precise language ('culturally responsive,' 'trauma-informed') appropriate for funders and district leaders without jargon",
+          "Strong use of concrete impact data (21% drop in chronic absenteeism) that speaks directly to school administrator priorities",
+          "Thoughtful visual guidance that prioritizes student privacy and dignity, avoiding exploitative imagery while showing authentic program engagement",
+          "Comprehensive implementation details including moderator reply, posting window, and clear rationale demonstrating strategic thinking",
+          "Effective localization with specific Chicago neighborhood names that ground the work geographically",
+          "Avoids common nonprofit clich\u00e9s and savior framing\u2014focuses on partnership and concrete services rather than 'raising awareness'"
+        ],
+        "weaknesses": [
+          "Missing the @ChiPubSchools partner tag that was specified in the scenario\u2014this is a concrete omission from requirements",
+          "Word count appears to be approximately 105-110 words (not the stated 90), though still within acceptable range",
+          "Could strengthen the 'hook' in the opening sentence\u2014'access to care is critical' is somewhat generic and could be more compelling for the professional audience",
+          "The decision to omit the sign-off is explained but contradicts the scenario input which provided it\u2014should either use it or explicitly recommend against it in the rationale"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# World Mental Health Day LinkedIn Post\n\n## POST COPY (117 words)\n\n**Today, on World Mental Health Day, mental health is a right\u2014not a luxury\u2014for every young person in Chicago.**\n\nChicago Minds Collaborative delivers school-based mental health services to Black and Latinx students in Englewood, Little Village, and North Lawndale. We provide bilingual counseling and trauma-informed small groups at 12 CPS campuses, meeting students where they are.\n\nThe results: 82% of students reduced PHQ-9 scores by 5+ points after 12 weeks, and partner schools saw a 21% drop in chronic absenteeism.\n\nReady to see how school-based mental health transforms outcomes? Download our 2025 Impact Brief: https://chicagominds.org/impact-brief-2025.pdf\n\n#WorldMentalHealthDay #ChicagoMinds #SchoolBasedTherapy #CommunityPsychology\n\n---\n\n## VISUAL SPECIFICATION\n\n**Image Type:** Simple stat graphic with brand colors\n- Headline: \"School-Based Mental Health Works\"\n- Two data callouts in clean typography:\n  - \"82% of students reduced depression scores after 12 weeks\"\n  - \"21% drop in chronic absenteeism at partner schools\"\n- Footer: Chicago Minds Collaborative logo + \"2024\u201325 School Year Data\"\n- Background: Solid color or subtle geometric pattern (avoid stock photos)\n\n**ALT TEXT (148 characters):**\n\"Infographic showing Chicago Minds Collaborative student outcomes: 82% reduced depression scores, 21% drop in chronic absenteeism at CPS schools.\"\n\n---\n\n## POSTING DETAILS\n\n**Posting Window:** 6:00\u20137:00 a.m. CT, Friday, October 10, 2025\n- Post early in the window (6:00\u20136:15 a.m.) to capture morning commute scrolling by decision-makers\n- **Time-sensitive:** Yes\u2014day-of observance; schedule no later than 7:00 a.m.\n\n**Tone:** FORMAL + WARM (professional funder-facing language with invitational close)\n\n**Attribution:** Add \"\u2014 Dr. Amara Lee, Executive Director\" as signature line if posting from organizational account (not personal profile)\n\n---\n\n## COMMENT MODERATION\n\n**Prewritten Reply to \"How can our district get involved?\"**\n\"We'd love to explore partnership\u2014please email partnerships@chicagominds.org or grab time on our calendar via the Impact Brief link above.\"\n\n**Prewritten Reply to \"Do you serve other neighborhoods?\"**\n\"Currently serving 12 CPS campuses in Englewood, Little Village, and North Lawndale, with expansion plans for 2026\u2014stay tuned or reach out to discuss your community's needs.\"\n\n**Content Warning:** None needed (no trauma imagery or sensitive disclosures)\n\n---\n\n## QUALITY CHECK\n\n\u2705 **Authentic relevance:** Direct alignment\u2014we provide the service the day honors  \n\u2705 **Specific proof:** Two concrete outcomes, named communities, bilingual services  \n\u2705 **Actionable CTA:** PDF delivers immediate value to target audience  \n\u2705 **Dignity-first:** People-first language, no deficit framing or trauma exploitation  \n\u2705 **Localized:** Named neighborhoods, CPS context, Chicagoland audience  \n\u2705 **Avoids:** \"Raising awareness\" language, savior tone, generic platitudes\n\n---\n\n**Recommendation:** \u2705 **POST\u2014strong fit.** This observance directly aligns with organizational mission and provides timely opportunity to showcase impact to key decision-maker audiences.",
+      "timestamp": "2025-11-02T13:16:52.373470Z",
+      "duration_seconds": 20.37,
+      "tokens": {
+        "input": 640,
+        "output": 846,
+        "total": 1486
+      },
+      "cost_usd": 0.01461,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong output that demonstrates deep understanding of nonprofit communications best practices. It delivers a professional, data-driven LinkedIn post perfectly calibrated for the funder/district leader audience, with comprehensive implementation guidance. Minor weaknesses include slight tone inconsistency and a missing partner tag, but these are easily correctable.",
+        "strengths": [
+          "Excellent structural adherence: hook (mental health as right), program specifics (bilingual counseling, 12 campuses, named neighborhoods), concrete proof points (82% PHQ-9 reduction, 21% absenteeism drop), and clear CTA with valuable resource",
+          "Outstanding usefulness for practitioners: includes realistic visual specification (stat graphic vs. photo requirement), specific posting time rationale tied to audience behavior, prewritten moderator replies addressing likely questions, and quality checklist",
+          "Strong dignity-first framing: avoids trauma imagery, uses outcomes-focused language rather than deficit narratives, respects student privacy while demonstrating impact",
+          "Appropriate formality for LinkedIn/funder audience: professional without being stiff, data-driven without jargon, invitational close balances formal tone",
+          "Excellent localization: specific Chicago neighborhoods named, CPS context clear, audience-appropriate niche hashtags (#SchoolBasedTherapy, #CommunityPsychology)",
+          "Practical visual guidance: acknowledges the scenario's capacity constraints by recommending simple stat graphic over photo requiring consent/coordination"
+        ],
+        "weaknesses": [
+          "Minor tone inconsistency: opening line 'mental health is a right\u2014not a luxury' leans slightly more WARM/advocacy-oriented than pure FORMAL; could be more measured for corporate CSR audience (e.g., 'Every young person deserves access to mental health support')",
+          "Missing partner tag: prompt specified tagging @ChiPubSchools if collaboration is real, which it clearly is (12 CPS campuses), but tag is absent from post copy",
+          "Word count at upper limit (117 words): leaves no buffer for platform-specific adjustments or last-minute edits while staying under 120-word ceiling",
+          "Attribution placement ambiguity: note says 'if posting from organizational account' but doesn't clearly recommend whether to include signature given LinkedIn context (organizational posts rarely use signatures)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "On World Mental Health Day (Oct 10), we focus on what helps students learn: mental health. Chicago Minds Collaborative delivers school-based counseling, bilingual support, and trauma-informed small groups with @ChiPubSchools, centered on Black and Latinx youth. Focused on Englewood, Little Village, and North Lawndale school communities. Partner schools saw a 21% drop in chronic absenteeism. School district leaders, CSR teams, and foundations: review our 2025 impact brief and explore site-based partnerships that fit your goals: https://chicagominds.org/impact-brief-2025.pdf. - Dr. Amara Lee, Executive Director\n#WorldMentalHealthDay #ChicagoMinds #SchoolBasedTherapy #CommunityPsychology\n\nSuggested visual: Simple stat graphic in brand colors showing \u201c21% drop in chronic absenteeism,\u201d with a small Chicago map highlighting Englewood, Little Village, and North Lawndale.\n\nImage ALT TEXT (120\u2013150 chars): Graphic with Chicago Minds logo reads \u201c21% drop in chronic absenteeism at partner schools,\u201d over a Chicago map highlighting Englewood, Little Village, North Lawndale.\n\nPosting time: Publish between 6\u20138 a.m. CT on Oct 10, 2025; schedule by 6:15 a.m. CT for day-of visibility.\n\nModerator reply (prewritten): Thanks for reaching out\u2014please review the impact brief and email partnerships@chicagominds.org to explore a school or CSR partnership.\n\nContent note: Discusses youth mental health in schools; no trauma details.",
+      "timestamp": "2025-11-02T13:17:48.402028Z",
+      "duration_seconds": 76.4,
+      "tokens": {
+        "input": 545,
+        "output": 4681,
+        "total": 5226
+      },
+      "cost_usd": 0.07185,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional output that fulfills nearly all requirements with appropriate formal tone for LinkedIn and the funder/district leader audience. The post is specific, action-oriented, and avoids common nonprofit clich\u00e9s. However, there are minor structural issues: the word count appears to exceed 120 words, and the flow could be tightened for better readability on LinkedIn.",
+        "strengths": [
+          "Excellent tone calibration for formal/professional audience\u2014precise, respectful, outcome-focused without being dry",
+          "Strong specificity: names neighborhoods, cites concrete impact data (21% absenteeism drop), describes actual services (bilingual counseling, trauma-informed groups)",
+          "Authentic partnership acknowledgment with @ChiPubSchools tag that appears genuine to the mission",
+          "Clear, valuable call-to-action directed at the specific audience (district leaders, CSR teams, foundations) with relevant resource link",
+          "Thoughtful visual recommendation (stat graphic with map) that is dignified, non-exploitative, and quickly producible",
+          "Comprehensive auxiliary elements: appropriate ALT text, realistic posting window, useful moderator reply, content note",
+          "Avoids savior language, trauma pornography, and generic awareness-raising platitudes"
+        ],
+        "weaknesses": [
+          "Word count appears to be approximately 105-110 words in the main post body, which is within range but the structure feels dense\u2014could benefit from line breaks for LinkedIn readability",
+          "The opening hook 'what helps students learn: mental health' is somewhat abstract for a formal audience; could be more direct",
+          "ALT text is 148 characters including spaces, pushing the upper limit and could be slightly more concise",
+          "Minor: The sign-off placement after the URL and before hashtags is unconventional for LinkedIn\u2014typically would appear at the very end or be omitted on this platform for organizational accounts"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Here's an Instagram post for World Oceans Day 2025:\n\n---\n\n**Image:** A vibrant, eye-level photo of a diverse group of volunteers (wearing Pacific Shore Conservancy branded shirts if available) carefully planting eelgrass shoots in shallow, clear water at a specified location, such as Malibu Lagoon. The sun is shining, and there's a sense of collaborative activity.\n\n**ALT TEXT:** Volunteers, a mix of ages and ethnicities, plant eelgrass in clear coastal waters under a sunny sky, revitalizing marine habitats.\n\n---\n\n**Caption:**\n\nHappy World Oceans Day! Our oceans nurture all life, but they face many challenges. At Pacific Shore Conservancy, we're actively restoring vital marine habitats and building coastal resilience along the U.S. West Coast. Since 2019, we\u2019ve restored 3.1 million native oysters and 220 acres of seagrass. We're even Spotlighting Los Angeles-area volunteer days in Santa Monica Bay this week! Want to help protect our blue planet? Learn more and find ways to get involved at the link in bio.\n\n#WorldOceansDay #PacificShoreConservancy #SeagrassRestoration #OceanVolunteers\n\n---\n\n**Posting Time Window:** 6\u20138 a.m. PST (Local time for West Coast audience engagement, ensuring peak morning reach).\n\n**Moderator Reply (Prewritten):**\n\"Thanks for your interest! We're always looking for new ways to engage. You can find more details about our volunteer opportunities here: https://pacificshore.org/oceans-day\"\n\n**Content Warning:** None needed.\n\n---\n\n**Justification for choices:**\n\n*   **Structure:** Follows the requested structure precisely.\n*   **Word Count:** Approximately 80 words, fitting within the 80-120 word target.\n*   **Language:** Plain language (6th\u20138th grade level) and active voice are used (\"we're actively restoring,\" \"we've restored\").\n*   **Tone:** WARM \u2013 it's invitational, hopeful, and community-centered while still being informative.\n*   **Hashtags:** Includes the required and niche hashtags, avoiding generic ones.\n*   **Localization:** \"Spotlighting Los Angeles-area volunteer days in Santa Monica Bay this week\" directly localizes the post for a key region.\n*   **Visual:** The suggested photo (volunteers planting eelgrass) is a realistic, positive, and action-oriented visual that can be quickly produced. It avoids trauma imagery.\n*   **ALT TEXT:** Descriptive, people-first, and within the character limit.\n*   **Posting Time:** Aligns with West Coast morning engagement.\n*   **Moderator Reply:** Provides a direct and helpful answer to a common inquiry, directing to the action link.\n*   **Relevance:** Directly tied to the organization's work, authentic, and avoids clich\u00e9s. It shows concrete actions rather than just \"raising awareness,\" delivering value through the linked resource/engagement opportunities.",
+      "timestamp": "2025-11-02T13:17:51.808966Z",
+      "duration_seconds": 3.4,
+      "tokens": {
+        "input": 552,
+        "output": 632,
+        "total": 1184
+      },
+      "cost_usd": 0.000462,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 6,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 9
+        },
+        "reasoning": "The output is well-structured and authentic, with strong concrete details and appropriate visual guidance. However, it misses the CASUAL tone request (delivering WARM instead), omits the partner tag, and fails to include the critical 'link in bio' instruction for Instagram. The justification section incorrectly identifies the tone as WARM when CASUAL was requested.",
+        "strengths": [
+          "Excellent specificity with concrete impact numbers (3.1 million oysters, 220 acres) that avoid vague 'awareness-raising' language",
+          "Strong visual description that is realistic, dignity-focused, and actionable for production teams",
+          "Good localization with Santa Monica Bay reference and appropriate posting time window for West Coast audience",
+          "Authentic voice that avoids nonprofit clich\u00e9s and savior framing while maintaining professionalism",
+          "Comprehensive ALT text that is people-first and descriptive within character limits"
+        ],
+        "weaknesses": [
+          "Tone mismatch: Requested CASUAL (friendly, conversational, emoji-light) but delivered WARM tone with no emojis and more formal phrasing like 'nurture all life'",
+          "Missing partner tag: @CAStateParks was specified but not included in the post",
+          "Instagram-specific error: Says 'link in bio' but the prompt specified a direct link (https://pacificshore.org/oceans-day) - Instagram allows links in Stories, Reels, and now some posts",
+          "Word count appears closer to 90-95 words, not 80 as claimed in justification",
+          "Moderator reply could be more conversational to match platform norms ('Thanks so much! Here's where to jump in: [link]')"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# World Oceans Day Instagram Post \u2013 June 8, 2025\n\n## POST COPY\n\n\ud83c\udf0a Today is #WorldOceansDay\u2014a moment to celebrate the ocean that connects us all and take action to protect it.\n\nPacific Shore Conservancy restores critical marine habitats up and down the West Coast. Since 2019, we've restored 3.1 million native oysters and 220 acres of seagrass\u2014helping ecosystems rebound and coastlines become more resilient.\n\nThis week, volunteers in Santa Monica Bay are planting eelgrass and surveying shorelines for microplastics. Want to join the work? Find volunteer days, restoration updates, and ways to give at pacificshore.org/oceans-day\n\n#WorldOceansDay #PacificShoreConservancy #SeagrassRestoration #OceanVolunteers\n\n---\n\n## VISUAL SPECIFICATION\n\n**Image:** Photo of volunteers wading in shallow water in Santa Monica Bay, planting eelgrass shoots\u2014visible hands in water, smiles, bright day, shoreline in background. 2\u20134 people, diverse group, wearing Pacific Shore Conservancy t-shirts or hats. Candid, action-focused, joyful.\n\n**ALT TEXT:**  \n\"Volunteers plant eelgrass in shallow water at Santa Monica Bay, working together on ocean habitat restoration.\"\n\n---\n\n## POSTING DETAILS\n\n**Time Window:** 6\u20138 a.m. PDT, June 8, 2025  \n*(Post early in window\u20146\u20136:30 a.m.\u2014to maximize reach for day-of engagement)*\n\n**Time-Sensitive?** Yes\u2014observance day content performs best early morning.\n\n---\n\n## MODERATION\n\n**Prewritten Reply to \"How can I volunteer?\"**  \n\"Thanks for your interest! Head to pacificshore.org/oceans-day to see upcoming volunteer shifts in your area.\"\n\n**Content Warning Needed?** None\n\n---\n\n## PARTNER TAG (if applicable)\n\nTag **@CAStateParks** only if they are confirmed collaborators on Santa Monica Bay volunteer days this week. Otherwise, omit.\n\n---\n\n## AUTHENTICITY CHECK\n\n\u2705 **Genuine relevance:** Yes\u2014World Oceans Day aligns directly with marine habitat restoration mission.  \n\u2705 **Concrete action:** Volunteer opportunities and restoration metrics included.  \n\u2705 **Localized:** Santa Monica Bay volunteer days spotlighted.\n\n---\n\n## ATTRIBUTION\n\nNone",
+      "timestamp": "2025-11-02T13:18:02.596926Z",
+      "duration_seconds": 14.19,
+      "tokens": {
+        "input": 615,
+        "output": 572,
+        "total": 1187
+      },
+      "cost_usd": 0.010425,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly polished, professional output that fulfills nearly all prompt requirements with strong attention to nonprofit communications best practices. The post avoids common pitfalls (savior language, trauma imagery, vague calls to action) and delivers concrete, localized content. Minor deductions for slightly exceeding word count and one small structural element.",
+        "strengths": [
+          "Excellent adherence to casual tone with appropriate emoji use (single ocean wave) without overdoing it",
+          "Strong specificity with quantified impact (3.1M oysters, 220 acres) and named location (Santa Monica Bay)",
+          "Comprehensive auxiliary elements: realistic visual specification, proper ALT text with people-first language, strategic posting time with rationale, and practical moderator reply",
+          "Authentic localization with genuine program example rather than generic awareness messaging",
+          "Clear action hierarchy: volunteer opportunity \u2192 link \u2192 resource, avoiding vague 'raise awareness' language",
+          "Thoughtful partner tagging guidance (conditional on confirmed collaboration)",
+          "Well-chosen niche hashtags that are specific but not overly obscure (#SeagrassRestoration, #OceanVolunteers)",
+          "Dignity-centered visual description focusing on action and joy rather than deficit or savior framing"
+        ],
+        "weaknesses": [
+          "Word count is 121 words, slightly exceeding the 80-120 word target (minor overage)",
+          "The structure could more explicitly separate element 3 (proof point) from element 2 (what we do)\u2014they blend slightly in the second paragraph",
+          "Opening hook could be slightly stronger\u2014'a moment to celebrate' is somewhat generic phrasing for casual tone"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Instagram caption (WARM):\nWorld Oceans Day is today\u2014because healthy seas protect our coasts, feed communities, and store carbon. At Pacific Shore Conservancy, we restore marine habitat and build coastal resilience along the West Coast, from living shorelines to kelp and eelgrass. Since 2019, we\u2019ve restored 3.1 million native oysters and 220 acres of seagrass. Los Angeles: volunteer days in Santa Monica Bay run this week\u2014eelgrass plantings and beach microplastics surveys. Be part of it: sign up, bring a team (businesses welcome), or make a gift at https://pacificshore.org/oceans-day. #WorldOceansDay #PacificShoreConservancy #SeagrassRestoration #OceanVolunteers\n\nVisual suggestion:\nProgram-in-action shot: PSC staff and volunteers knee-deep in Santa Monica Bay at low tide, carefully planting eelgrass shoots; branded hats or vests; photo consent gathered.\n\nImage ALT TEXT (120\u2013150 chars):\nVolunteers and PSC staff, knee-deep in Santa Monica Bay at low tide, planting eelgrass by hand; buckets and gloves visible in soft morning light.\n\nPosting time:\nJune 8, 6\u20138 a.m. local. If volunteer shifts fill fast, schedule a teaser post and Stories on June 6\u20137 to drive early sign-ups.\n\nModerator reply (prewritten):\nThanks for your support\u2014sign up, donate, or request a corporate team day at the link in our bio (pacificshore.org/oceans-day)!\n\nContent warning:\nNone.",
+      "timestamp": "2025-11-02T13:18:46.555916Z",
+      "duration_seconds": 58.15,
+      "tokens": {
+        "input": 527,
+        "output": 3850,
+        "total": 4377
+      },
+      "cost_usd": 0.059331,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 6,
+          "completeness": 8,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output is comprehensive and follows most requirements, but has a critical tone mismatch\u2014it's labeled WARM when CASUAL was requested. The content is solid and usable, with good specificity and actionable elements, though the caption exceeds the word count and the partner tag is missing.",
+        "strengths": [
+          "Excellent adherence to structure: clear hook, program description, concrete proof point, and actionable CTA with link",
+          "Strong visual suggestion with realistic, dignity-first imagery (volunteers in action, consent noted) and descriptive ALT text",
+          "Specific local angle well-integrated (Santa Monica Bay volunteer days) with business volunteer option",
+          "Avoids clich\u00e9s and savior framing; uses active voice and concrete impact numbers",
+          "Helpful moderator reply and strategic posting time guidance with teaser post recommendation",
+          "Good hashtag selection\u2014official, org, and niche tags without generic overcrowding"
+        ],
+        "weaknesses": [
+          "Tone mismatch: labeled 'WARM' but scenario requested 'CASUAL'\u2014the actual tone is somewhat warm but lacks casual elements like emoji or conversational language that Instagram casual typically includes",
+          "Word count violation: caption is approximately 125-130 words, exceeding the 80-120 word requirement",
+          "Missing partner tag: @CAStateParks was provided but not included in the caption",
+          "ALT text is 148 characters including spaces, slightly over the 150-character limit (minor but technically non-compliant)",
+          "Could be more casual for Instagram\u2014phrases like 'make a gift' and 'Be part of it' are slightly formal for the requested casual tone"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.2153,
+    "average_score": 8.24
+  }
+}

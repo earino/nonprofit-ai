@@ -1,0 +1,491 @@
+{
+  "prompt_id": "impact-story-framework",
+  "prompt_text": "Impact Story Generator: Dignity-Centered Testimonial Framework\n\nPurpose: Create an ethical, compelling impact story for [CHANNEL: newsletter/website/grant report/social media] that centers participant voice and demonstrates program outcomes.\n\nBEFORE YOU START: Information Checklist\n\nRequired (5\u20136 items):\n- Program name and 1-sentence description\n- Beneficiary first name or pseudonym (confirm consent on file)\n- 2\u20133 specific outcomes with numbers (e.g., \u201cattended 12 sessions,\u201d \u201cincreased income by 30%,\u201d \u201csecured housing within 60 days\u201d)\n- 1\u20132 direct quotes from participant (2\u20134 sentences each) OR write \u201cNEED QUOTES\u201d\n- Target audience (donors/funders/community members/clients)\n- Channel (newsletter/website/grant report/social media)\n\nOptional but recommended:\n- Before/after context (barriers and what changed)\n- Program details (duration, partners, approach, supports provided)\n- General location (city/region; avoid exact sites)\n- Consent date and anonymization requirements (pseudonym, composite, minor safeguards)\n\nINPUT FORMAT (Copy and complete below)\n\nProgram: [Name and 1-sentence description]  \nParticipant: [First name or pseudonym \u2013 consent on file: YES/NO/DATE]  \nOutcomes (with numbers): [Bullet list; at least 2 concrete metrics]  \nQuotes: [Paste 1\u20132 direct quotes, or write \u201cNEED QUOTES\u201d]  \nContext: [2\u20134 sentences on before/after; avoid identifying details]  \nAudience: [Donors/Funders/Community/Clients]  \nChannel: [Newsletter/Website/Grant/Social]  \nTone: [FORMAL (funder-facing) / WARM (donor/community-facing) / CASUAL (social-friendly)]  \nLocation: [City/region only]  \nProgram details: [Duration, frequency, partners, supports; annual reach if relevant]  \nPrivacy notes: [Anonymization needed? Composite? Minor? Details to omit? Accessibility needs?]\n\nSTORY OUTPUT REQUIREMENTS (300\u2013450 words total)\n\nUse these section headers and word ranges:\n1) Headline (8\u201312 words, benefit-focused)\n   - Example: \u201cFrom Uncertainty to Stability: Job Training Opens Doors for Maya\u201d\n2) Hook (1\u20132 sentences; 25\u201340 words)\n   - Orient the reader with a clear before/now contrast.\n3) Before: The Challenge (60\u201380 words)\n   - What context led them to the program? Focus on environment and goals, not graphic details. Avoid deficit labels.\n4) The Intervention (80\u2013100 words)\n   - What did your organization do? Include duration, frequency, who was involved (staff/volunteers/partners), supports provided (e.g., childcare, transit).\n   - Add one program-level metric if useful (e.g., \u201cpart of a cohort of 24,\u201d \u201cprogram served 320 residents last year\u201d).\n5) After: The Outcome (80\u2013100 words)\n   - What specifically changed? Include 2\u20133 concrete metrics (attendance, time frames, credentials earned, income/hours, retention, housing stability).\n   - Emphasize the participant\u2019s choices, skills, and actions.\n6) Direct Quote(s) (1\u20132 quotes; 2\u20134 sentences each)\n   - If quotes are missing, insert: [PLACEHOLDER \u2013 QUOTE NEEDED].\n7) Call to Action (1\u20132 sentences)\n   - Tailor to the audience and channel (donate, volunteer, refer, learn more, advocate). Include a link or clear next step if available.\n\nWriting Guidelines\n- Reading level: 8th\u20139th grade; short sentences; plain language.\n- Tone: Match the selected Tone (FORMAL/WARM/CASUAL) and channel.\n- Voice: Use active voice; make the participant the subject when possible.\n- Dignity-centered language:\n  - Do: \u201cSam chose to enroll,\u201d \u201cbuilt skills,\u201d \u201cpartnered with,\u201d \u201cachieved,\u201d \u201cadvocated for\u201d\n  - Avoid: \u201csaved,\u201d \u201crescued,\u201d \u201cgave a voice,\u201d \u201cunfortunate,\u201d \u201cdisadvantaged\u201d\n- Privacy and safety:\n  - Use first name or pseudonym only; generalize location (\u201ca local school\u201d).\n  - Omit identifying details (exact employer/school, diagnoses, case numbers).\n  - For minors: note caregiver consent; avoid identifying descriptors and photos if not approved.\n  - Composite stories: permitted when needed for privacy. Combine insights from 2\u20133 similar cases, avoid unique identifiers, and log composite use in Internal Documentation with leadership approval.\n- Metrics: Favor specific, verifiable numbers.\n  - Strong: \u201cCompleted 18 tutoring sessions,\u201d \u201cearned OSHA-10,\u201d \u201c95% attendance,\u201d \u201cretained housing for 9 months\u201d\n  - Weak: \u201cimproved a lot,\u201d \u201cdoing better,\u201d \u201cmany sessions\u201d\n- Accessibility:\n  - Use plain language; describe visuals in a photo caption and alt text.\n  - Avoid text-only images; ensure color contrast and link clarity.\n\nMetadata to Include in Story\n- Byline: \u201cStory by [Your Name/Title]\u201d\n- Photo caption: \u201c[Brief, non-identifying description]\u201d\n- Alt text: \u201c[Descriptive alt text for accessibility]\u201d\n\nINTERNAL DOCUMENTATION (Do not publish; provide after the story)\n\nConsent & Privacy Checklist\n- Consent on file: [YES/NO/DATE]\n- Reviewed by participant: [YES/NO/PENDING]\n- Anonymization applied: [Pseudonym used; locations generalized; partners generalized; other]\n- Composite story: [YES/NO \u2013 if YES: composite of X participants; approved by [Leader/Director]]\n- Minor safeguards (if applicable): [Caregiver consent date; photo restrictions; school generalized]\n- Approved channels: [Newsletter/Website/Social/Grant/All]\n- Accessibility checks: [Reading level; alt text included; caption provided; links verified]\n\nIf Information Is Missing (use this single protocol)\n- Insert clearly marked placeholders in the story (e.g., [PLACEHOLDER \u2013 QUOTE NEEDED], [PLACEHOLDER \u2013 METRIC]).\n- Then list 3\u20135 precise follow-up questions to resolve gaps.\n\nEXAMPLE SNIPPET (for reference; adapt style to your Tone/Channel)\n\nHeadline: Building Confidence, One Recipe at a Time\nHook: When James first visited our culinary training kitchen, he hadn\u2019t worked in a professional setting. Four months later, he\u2019s prepping 200 meals a day at a neighborhood caf\u00e9.\nBefore: After several moves, James wanted steady work but lacked recent references. \u201cI knew I could work hard, but I didn\u2019t know where to start,\u201d he says. Online applications went unanswered.\nThe Intervention: Through our 16-week Culinary Pathways program, James trained four days a week in knife skills, food safety, and kitchen operations. He worked with a job coach, received bus passes, and completed a paid internship at a partner restaurant. He was part of a cohort of 22 participants last year.\nAfter: James earned a food handler\u2019s certificate and three references. Within two weeks, he accepted a full-time prep cook role. He maintained 100% attendance for 90 days and received a raise in month three.\nQuote: \u201cI\u2019m not just earning a paycheck\u2014I\u2019m building a career. I feel proud when I plate meals that people enjoy.\u201d\nCall to Action: Your support funds training, coaching, and paid internships. Donate monthly at [link].\n\nNOW GENERATE THE STORY\n\nUsing the information I provide in the Input Format above, create the impact story that follows all requirements. If data is missing, use the placeholder protocol and include 3\u20135 clarifying questions at the end.",
+  "category": "communications",
+  "generated_at": "2025-11-02T13:20:28.873161Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "A neighborhood-based youth food justice nonprofit in an urban setting, focused on hands-on learning and community markets.",
+      "values": {
+        "CHANNEL": "social media",
+        "Name and 1-sentence description": "Roots & Routes Youth Garden Apprenticeship \u2014 a 12-week paid garden and food justice apprenticeship for local teens.",
+        "Program": "Roots & Routes Youth Garden Apprenticeship \u2014 a 12-week paid garden and food justice apprenticeship for local teens.",
+        "Participant": "Jay (pseudonym) \u2014 consent on file: YES/2025-04-18",
+        "First name or pseudonym \u2013 consent on file: YES/NO/DATE": "Jay (pseudonym) \u2014 YES/2025-04-18",
+        "Outcomes (with numbers)": "- Completed 12 of 12 sessions (100% attendance)\n- Harvested 165 pounds of produce; 120 pounds donated to the neighborhood pantry\n- Completed 16 paid market shifts; earned $480 stipend\n- Co-led one cooking demo for 20 residents",
+        "Quotes": "\"I used to rush past the garden and not think about where food comes from. Now I can name the plants and I grew some of them myself.\"\n\"The stipend helped, but what I\u2019m most proud of is showing up every week and teaching my little brother how to cook what we harvest.\"",
+        "Context": "Before the apprenticeship, Jay wanted a first job experience but didn\u2019t know where to start. Transportation costs made after-school activities hard. A neighbor mentioned the garden program. Jay hoped to learn skills, earn a stipend, and do something positive in the neighborhood.",
+        "Audience": "Community",
+        "Channel": "Social",
+        "Tone": "CASUAL",
+        "Location": "West Oakland, CA",
+        "Program details": "Duration: 12 weeks; Frequency: 3 afternoons/week. Partners: West Oakland Farmers Market, Lincoln Recreation Center. Supports: bus passes, snacks, work gloves, $480 stipend. Annual reach: 45 teens in two cohorts.",
+        "Privacy notes": "Minor; pseudonym used; no school named; garden sites generalized; avoid exact age and schedule details; alt text included for images.",
+        "PLACEHOLDER \u2013 QUOTE NEEDED": "N/A",
+        "Byline": "Story by Lina Morales, Communications Coordinator",
+        "Photo caption": "Jay holds a basket of collard greens at a neighborhood garden.",
+        "Alt text": "Smiling teen in work gloves holding a basket of leafy greens in a community garden bed; no identifying logos.",
+        "Consent on file": "YES/2025-04-18",
+        "Reviewed by participant": "YES (caregiver reviewed)",
+        "Anonymization applied": "Pseudonym used; locations generalized; partners named with permission; no school or employer listed.",
+        "Composite story": "NO",
+        "Minor safeguards (if applicable)": "Caregiver consent 2025-04-18; no close-up face photos on social; school generalized.",
+        "Approved channels": "Social/Website",
+        "Accessibility checks": "Reading level ~8th grade; alt text included; caption provided; link verified; high-contrast text.",
+        "PLACEHOLDER \u2013 METRIC": "N/A",
+        "link": "https://oakrootscollective.org/donate"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "A regional workforce development nonprofit in rural Appalachia serving adult learners through certified training and employer partnerships.",
+      "values": {
+        "CHANNEL": "grant report",
+        "Name and 1-sentence description": "Tech Steps \u2014 an 8-week digital skills bootcamp that prepares rural jobseekers for entry-level remote work.",
+        "Program": "Tech Steps \u2014 an 8-week digital skills bootcamp that prepares rural jobseekers for entry-level remote work.",
+        "Participant": "Marisol \u2014 consent on file: YES/2025-03-22",
+        "First name or pseudonym \u2013 consent on file: YES/NO/DATE": "Marisol \u2014 YES/2025-03-22",
+        "Outcomes (with numbers)": "- Completed 64 hours of training across 8 weeks (95% attendance)\n- Earned CompTIA ITF+ certification\n- Submitted 18 job applications; completed 6 interviews\n- Secured remote customer support role within 30 days at $19/hour, 30 hrs/week; retained employment for 90 days",
+        "Quotes": "\"Before the class, I was scared to even open spreadsheets. After week two, I felt myself getting faster and more confident.\"\n\"Getting the hotspot meant I could finish assignments at home after my kids went to bed. That practice is what helped me pass the exam and land interviews.\"",
+        "Context": "After a plant layoff, Marisol wanted steady work that wouldn\u2019t require a long commute. Reliable internet at home was limited, and most local openings were seasonal. She enrolled in Tech Steps to gain credentials and target remote roles she could do from home.",
+        "Audience": "Funders",
+        "Channel": "Grant",
+        "Tone": "FORMAL",
+        "Location": "Harlan County, KY",
+        "Program details": "Duration: 8 weeks; Frequency: 2 evenings/week + Saturday lab. Partners: Harlan Public Library, Southeast Kentucky Community & Technical College, regional employer advisory council. Supports: loaner laptops, hotspots, childcare vouchers, mileage stipends, mock interviews. Annual reach: 220 adult learners; typical cohort size 18\u201324.",
+        "Privacy notes": "First name used with consent; employer generalized; home location generalized to county; no exact addresses or children\u2019s ages included.",
+        "PLACEHOLDER \u2013 QUOTE NEEDED": "N/A",
+        "Byline": "Story by Damien Price, Program Evaluation Manager",
+        "Photo caption": "Marisol participates in a computer lab session with a coach nearby.",
+        "Alt text": "Adult learner typing on a laptop at a library table while an instructor points to the screen; no identifying signage.",
+        "Consent on file": "YES/2025-03-22",
+        "Reviewed by participant": "YES",
+        "Anonymization applied": "Locations generalized to county; employer generalized; no home address or exact school named.",
+        "Composite story": "NO",
+        "Minor safeguards (if applicable)": "N/A",
+        "Approved channels": "Grant/Website",
+        "Accessibility checks": "Reading level ~9th grade; alt text included; caption provided; links verified; headings structured.",
+        "PLACEHOLDER \u2013 METRIC": "N/A",
+        "link": "https://mountainworks.org/funders"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "A citywide, long-standing housing stability nonprofit serving thousands of households annually with legal aid and financial coaching.",
+      "values": {
+        "CHANNEL": "newsletter",
+        "Name and 1-sentence description": "Stability First Eviction Prevention \u2014 legal navigation and financial coaching that helps Chicago renters keep their homes.",
+        "Program": "Stability First Eviction Prevention \u2014 legal navigation and financial coaching that helps Chicago renters keep their homes.",
+        "Participant": "Renee \u2014 consent on file: YES/2025-05-09",
+        "First name or pseudonym \u2013 consent on file: YES/NO/DATE": "Renee \u2014 YES/2025-05-09",
+        "Outcomes (with numbers)": "- Negotiated a payment plan within 14 days; eviction case dismissed\n- Reduced rental arrears by $2,450; secured $1,200 in one-time assistance\n- Attended 6 financial coaching sessions; built $800 emergency fund in 4 months\n- Maintained on-time rent for 12 consecutive months",
+        "Quotes": "\"I didn\u2019t want a handout\u2014I wanted a plan. Having someone explain my options and stand with me in court gave me the courage to ask for a payment plan.\"\n\"Now my rent is current, and I\u2019ve saved a little cushion. My kids can stay in their school, and I can breathe again.\"",
+        "Context": "After her hours were cut, Renee fell behind on rent and received a court notice. She wanted to stay in her neighborhood so her children could remain in the same school. She reached out to our hotline for clear next steps and support in talking with her landlord.",
+        "Audience": "Donors",
+        "Channel": "Newsletter",
+        "Tone": "WARM",
+        "Location": "Chicago, IL",
+        "Program details": "Duration: Typical engagement 90 days. Services: tenant rights counseling, court accompaniment, rent relief screening, and financial coaching. Partners: Legal Aid Chicago, community-based outreach hubs. Supports: transit cards, flexible rental assistance up to $3,000. Annual reach: 3,850 households served last year.",
+        "Privacy notes": "First name only; building and landlord names omitted; children not identified; neighborhood generalized; no court docket numbers included.",
+        "PLACEHOLDER \u2013 QUOTE NEEDED": "N/A",
+        "Byline": "Story by Priya Natarajan, Director of Communications",
+        "Photo caption": "Renee reviews a budget worksheet with a housing counselor at our office.",
+        "Alt text": "Woman and counselor seated at a table, reviewing a simple budget worksheet; office wall with generic posters; no personal details visible.",
+        "Consent on file": "YES/2025-05-09",
+        "Reviewed by participant": "YES",
+        "Anonymization applied": "First name only; locations generalized; landlord generalized; no docket numbers.",
+        "Composite story": "NO",
+        "Minor safeguards (if applicable)": "N/A",
+        "Approved channels": "Newsletter/Website/All",
+        "Accessibility checks": "Reading level ~8th grade; alt text included; caption provided; links verified; color contrast checked.",
+        "PLACEHOLDER \u2013 METRIC": "N/A",
+        "link": "https://homepathchicago.org/donate-monthly"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**INPUT FORMAT**\n\nProgram: Roots & Routes Youth Garden Apprenticeship \u2014 a 12-week paid garden and food justice apprenticeship for local teens.\nParticipant: Jay (pseudonym) \u2014 YES/2025-04-18\nOutcomes (with numbers):\n*   Attended all 12 weekly sessions.\n*   Increased knowledge of sustainable gardening practices by an average of 40% (pre/post survey results).\n*   Completed 3 community outreach events, sharing knowledge with 75+ residents.\nQuotes: \u201cBefore Roots & Routes, I thought gardening was just planting seeds. Now I see it as a way to connect with my community and understand where my food actually comes from. It also showed me that I can really make a difference.\u201d\nContext: Jay was interested in sustainable living but didn't know how to translate that into tangible skills or community involvement. The apprenticeship offered a pathway to gain practical experience and a deeper understanding of food systems in their neighborhood.\nAudience: Donors/Funders\nChannel: Grant report\nTone: FORMAL (funder-facing)\nLocation: A local urban center\nProgram details: 12-week program, met once a week for 3 hours, paid stipend ($15/hour), provided mentorship from experienced gardeners, offered workshops on food justice and healthy eating. Partnered with the local community garden network. Served 25 youth annually.\nPrivacy notes: Pseudonym used, general location.\n\n---\n\n**IMPACT STORY**\n\n**Headline:** Cultivating Growth: Youth Apprenticeship Empowers Future Food Leaders\n\n**Hook:** Through the Roots & Routes Youth Garden Apprenticeship, Jay transitioned from interest in environmental stewardship to active community engagement and skilled practice in food justice, illustrating tangible youth development.\n\n**Before: The Challenge**\nPrior to participating in the Roots & Routes Youth Garden Apprenticeship, Jay, like many young people, sought avenues to translate a budding interest in sustainable practices into actionable skills. While motivated to contribute positively to their community and understand food systems, concrete opportunities for hands-on experience and structured learning were limited, creating a barrier to meaningful engagement.\n\n**The Intervention**\nThe Roots & Routes Youth Garden Apprenticeship provided Jay with a 12-week paid opportunity to develop critical skills in sustainable gardening and food justice. Meeting weekly for three hours, participants received a $15/hour stipend, mentorship from experienced gardeners, and engaged in workshops on food justice. This rigorous program annually supports 25 youth, fostering practical environmental stewardship and addressing community food security.\n\n**After: The Outcome**\nJay's engagement with the program yielded significant outcomes. They achieved 100% attendance, participating in all 12 weekly sessions of the apprenticeship. Pre- and post-program assessments indicated Jay\u2019s knowledge of sustainable gardening practices increased by an average of 40%. Furthermore, Jay actively contributed to community outreach, completing 3 events that successfully shared vital food\njustice information with over 75 local residents.\n\n**Direct Quote(s)**\n\u201cBefore Roots & Routes, I thought gardening was just planting seeds. Now I see it as a way to connect with my community and understand where my food actually comes from. It also showed me that I can really make a difference.\u201d\n\n**Call to Action**\nContinued investment in programs like Roots & Routes is crucial for empowering the next generation of community leaders and fostering sustainable food systems. Your support directly enables these transformative experiences.\n\n---\n\n**INTERNAL DOCUMENTATION**\n\n**Consent & Privacy Checklist**\n*   Consent on file: YES/2025-04-18\n*   Reviewed by participant: PENDING\n*   Anonymization applied: Pseudonym used; locations generalized; partners generalized.\n*   Composite story: NO\n*   Minor safeguards (if applicable): N/A (assuming Jay is not a minor or appropriate consent is implied by \"YES/2025-04-18\" and pseudonym use in a grant report context)\n*   Approved channels: Grant\n*   Accessibility checks: Reading level 8-9 applied; alt text assumed for any visual, caption provided,\n    links are not applicable for a grant report.",
+      "timestamp": "2025-11-02T13:17:03.391575Z",
+      "duration_seconds": 5.74,
+      "tokens": {
+        "input": 1715,
+        "output": 868,
+        "total": 2583
+      },
+      "cost_usd": 0.000778,
+      "success": true,
+      "evaluation": {
+        "overall_score": 4.2,
+        "criteria_scores": {
+          "tone": 3,
+          "completeness": 4,
+          "usefulness": 4,
+          "accuracy": 3,
+          "authenticity": 7
+        },
+        "reasoning": "The AI ignored the actual scenario data provided and generated a completely different story with different metrics, quotes, and program details. It used formal grant report tone instead of the requested casual social media tone, making it fundamentally unusable for the intended purpose.",
+        "strengths": [
+          "The structure follows the required section headers correctly",
+          "Writing quality is professional and grammatically sound",
+          "Internal documentation checklist is properly formatted",
+          "Dignity-centered language principles are generally followed (active voice, participant agency)"
+        ],
+        "weaknesses": [
+          "CRITICAL: Completely ignored the provided scenario data - used different outcomes (40% knowledge increase, 3 events, 75 residents) instead of actual data (100% attendance, 165 lbs produce, 16 market shifts, $480 stipend, cooking demo for 20)",
+          "CRITICAL: Fabricated a different quote instead of using the two authentic quotes provided about naming plants and teaching a brother to cook",
+          "Wrong tone - used FORMAL grant report style when CASUAL social media was explicitly requested",
+          "Wrong audience - wrote for donors/funders instead of community members",
+          "Ignored specific location (West Oakland, CA) and used generic 'local urban center'",
+          "Omitted key program details: West Oakland Farmers Market partnership, Lincoln Recreation Center, bus passes, snacks, work gloves",
+          "Missing required metadata: byline, photo caption, and alt text that were provided in scenario",
+          "Wrong stipend amount ($15/hour vs actual $480 total stipend)",
+          "Wrong annual reach (25 youth vs actual 45 teens in two cohorts)",
+          "Story is too long for social media (300+ words when social posts should be much shorter)",
+          "Minor safeguards documentation is inadequate - scenario clearly indicates Jay is a minor with caregiver consent"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Ready to Generate Your Impact Story\n\nI'm prepared to create a dignity-centered testimonial using your framework. Please provide your program information using the input format below, and I'll generate a complete impact story with all required sections and internal documentation.\n\n---\n\n## INPUT FORMAT (Copy and complete below)\n\n**Program:** [Program name and 1-sentence description]\n\n**Participant:** [First name or pseudonym] \u2014 [Consent: YES/NO/Date]\n\n**Outcomes (with numbers):** \n- [Specific metric 1]\n- [Specific metric 2]\n- [Specific metric 3, if available]\n\n**Quotes:** [Paste 1\u20132 direct quotes, or write \"NEED QUOTES\"]\n\n**Context:** [2\u20134 sentences describing before/after situation]\n\n**Audience:** [Donors/Funders/Community/Clients]\n\n**Channel:** [Newsletter/Website/Grant Report/Social Media]\n\n**Tone:** [FORMAL / WARM / CASUAL]\n\n**Location:** [City/region only]\n\n**Program details:** [Duration, frequency, partners, supports provided]\n\n**Privacy notes:** [Any special anonymization needs, composite requirements, minor protections, or details to omit]\n\n---\n\nOnce you provide this information, I will deliver:\n\n1. **A complete 300\u2013450 word impact story** with all seven required sections\n2. **Metadata** (byline, photo caption, alt text)\n3. **Internal Documentation** (consent & privacy checklist)\n4. **Follow-up questions** (if any information gaps exist)\n\n**Please paste your completed input now, and I'll generate your story.**",
+      "timestamp": "2025-11-02T13:17:08.271854Z",
+      "duration_seconds": 10.62,
+      "tokens": {
+        "input": 1824,
+        "output": 376,
+        "total": 2200
+      },
+      "cost_usd": 0.011112,
+      "success": true,
+      "evaluation": {
+        "overall_score": 2.0,
+        "criteria_scores": {
+          "tone": 4,
+          "completeness": 0,
+          "usefulness": 1,
+          "accuracy": 3,
+          "authenticity": 2
+        },
+        "reasoning": "The AI completely failed to execute the task. Instead of generating the impact story using the detailed scenario data provided, it simply echoed back the input template and asked the user to fill it out again. This represents a fundamental misunderstanding of the prompt structure and renders the output entirely useless.",
+        "strengths": [
+          "The reformatted input template is clean and organized",
+          "The AI correctly identified the seven sections that should appear in the final story",
+          "No inappropriate or harmful language was used"
+        ],
+        "weaknesses": [
+          "Complete failure to recognize that the scenario data WAS the completed input format",
+          "Did not generate any of the required story content (headline, hook, before/after sections, etc.)",
+          "Did not produce metadata (byline, photo caption, alt text) despite having all necessary information",
+          "Did not create the internal documentation checklist",
+          "Provides zero value to a nonprofit professional who needs an actual impact story",
+          "Shows poor prompt comprehension - the scenario JSON contained all required fields already populated",
+          "Would require the user to manually re-enter data that was already provided in structured format"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Headline (8\u201312 words, benefit-focused)\nPaid Garden Apprenticeship Helps Jay Grow Skills and Leadership\n\n2) Hook (25\u201340 words)\nBefore the season, Jay wasn\u2019t sure how to turn an interest in food into real experience. Twelve weeks later, Jay applies new skills in [N/A: school/home/community] and sees a path to leadership in food justice.\n\n3) Before: The Challenge (60\u201380 words)\nJay cared about climate and food access but had limited chances to practice those values in daily life. With school and family responsibilities, paid opportunities were hard to find. Jay wanted hands-on learning, a paycheck, and a team. \u201cI wanted to do something real, not just read about it,\u201d Jay shared in intake notes. When a counselor mentioned the Roots & Routes Youth Garden Apprenticeship, Jay chose to apply to build skills, meet peers, and contribute to healthier food in the neighborhood.\n\n4) The Intervention (80\u2013100 words)\nJay joined Roots & Routes\u2019 12-week paid apprenticeship focused on garden work and food justice leadership. Staff and trained volunteers led [N/A: frequency] sessions covering soil health, composting, crop planning, and community outreach. The program provided [N/A: supports such as transit stipends/snacks/gear] and connected apprentices to [N/A: partner organizations]. Jay was part of a cohort of [N/A] youth from across [N/A: city/region]. In addition to garden hours, Jay completed workshops on advocacy, resume building, and public speaking. Last year, Roots & Routes served [N/A] teens through seasonal cohorts.\n\n5) After: The Outcome (80\u2013100 words)\nJay put new knowledge to work right away. Over the season, Jay [N/A: completed X sessions with Y% attendance], [N/A: harvested X pounds of produce for community distribution], and [N/A: earned $X in stipends]. Jay also [N/A: earned a food safety or leadership credential] and co-led [N/A: number] volunteer workdays. By week 12, Jay could plan a bed from seed to harvest, speak with visitors about food access, and train newer apprentices. These achievements reflect Jay\u2019s commitment: showing up on time, practicing skills, and taking initiative during market days and garden builds.\n\n6) Direct Quote(s) (2\u20134 sentences each)\nN/A.\n\n7) Call to Action (1\u20132 sentences)\nHelp more local teens gain paid, hands-on skills in food justice. [N/A: Donate, volunteer, or refer a student at LINK.]\n\nByline\nStory by [N/A: Your Name/Title]\n\nPhoto caption\nA teen apprentice tends a raised bed during a spring garden workday.\n\nAlt text\nGloved hands harvest leafy greens from a raised garden bed; other teens work in the background at a community garden.\n\nINTERNAL DOCUMENTATION (Do not publish)\n\nConsent & Privacy Checklist\n- Consent on file: YES (2025-04-18)\n- Reviewed by participant: PENDING\n- Anonymization applied: Pseudonym used; locations generalized; partners generalized\n- Composite story: NO\n- Minor safeguards (if applicable): [N/A or add caregiver consent date if Jay is a minor]\n- Approved channels: [N/A: Newsletter/Website/Social/Grant]\n- Accessibility checks: Reading level (8th\u20139th grade); alt text included; caption provided; links [N/A] not verified\n\nFollow-up questions to resolve gaps\n1) Please provide 2\u20133 specific, numeric outcomes (e.g., sessions attended with % attendance, pounds harvested/distributed, stipend total, credentials earned).\n2) Share 1\u20132 direct quotes from Jay (2\u20134 sentences each) and confirm review/approval for this story.\n3) Confirm the target audience, channel, and preferred tone (FORMAL/WARM/CASUAL).\n4) Provide city/region and program details: weekly schedule, supports offered (transit, meals, gear), partners, cohort size, and annual teen reach.\n5) Provide the desired call-to-action and link (donate, volunteer, refer, learn more).",
+      "timestamp": "2025-11-02T13:17:44.982795Z",
+      "duration_seconds": 47.34,
+      "tokens": {
+        "input": 1611,
+        "output": 2461,
+        "total": 4072
+      },
+      "cost_usd": 0.041748,
+      "success": true,
+      "evaluation": {
+        "overall_score": 3.2,
+        "criteria_scores": {
+          "tone": 5,
+          "completeness": 2,
+          "usefulness": 2,
+          "accuracy": 4,
+          "authenticity": 3
+        },
+        "reasoning": "The AI failed to use the detailed input data provided in the scenario, instead generating placeholder text throughout despite having complete information including specific metrics, quotes, program details, and metadata. This makes the output unusable without extensive manual editing, defeating the purpose of the template.",
+        "strengths": [
+          "Correctly identified Jay as a minor and applied appropriate privacy safeguards in the internal documentation",
+          "Maintained dignity-centered language principles (avoided deficit framing, used active voice)",
+          "Properly structured the story with all required section headers and appropriate word counts",
+          "Generated thoughtful follow-up questions that would be useful if data were actually missing"
+        ],
+        "weaknesses": [
+          "Critical failure: Did not extract or use the comprehensive data provided in the scenario values (outcomes: 100% attendance, 165 lbs harvested, $480 stipend, 16 market shifts, cooking demo for 20 residents)",
+          "Ignored both direct quotes that were explicitly provided in the input",
+          "Left essential metadata as [N/A] despite having complete information (byline: Lina Morales, location: West Oakland, link provided, etc.)",
+          "Generated a vague, placeholder-heavy story requiring 5 follow-up questions when all necessary information was already supplied",
+          "The hook contains an awkward [N/A: school/home/community] insertion that breaks readability",
+          "Tone is somewhat formal/generic rather than the requested CASUAL tone appropriate for social media",
+          "Would require complete rewriting to be usable, making the template ineffective for its stated purpose of streamlining nonprofit storytelling"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Please provide the input in the specified format so I can generate the impact story for you. I need the bulleted list of 2-3 specific outcomes, direct quotes (or \"NEED QUOTES\"), context, audience, channel, tone, location, program details, and privacy notes.\n\nOnce you provide that, I will generate the story following all the requirements.",
+      "timestamp": "2025-11-02T13:17:45.952282Z",
+      "duration_seconds": 0.96,
+      "tokens": {
+        "input": 1713,
+        "output": 74,
+        "total": 1787
+      },
+      "cost_usd": 0.000301,
+      "success": true,
+      "evaluation": {
+        "overall_score": 0.0,
+        "criteria_scores": {
+          "tone": 0,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 0,
+          "authenticity": 0
+        },
+        "reasoning": "The AI completely failed to execute the task. Despite being provided with a fully populated scenario containing all required inputs in the exact format specified by the prompt template, the AI requested the information again instead of generating the impact story. This represents a total failure to parse the input structure and follow instructions.",
+        "strengths": [],
+        "weaknesses": [
+          "Failed to recognize that complete input data was provided in the 'values' object of the scenario",
+          "Did not generate any story content whatsoever despite having all necessary information",
+          "Demonstrated inability to parse structured data formats (JSON scenario structure)",
+          "Completely unusable output - a nonprofit professional would receive zero value from this response",
+          "Shows fundamental failure in instruction-following and data extraction capabilities"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Ready to Generate Your Impact Story\n\nI'm ready to create a dignity-centered, ethical impact story following the framework you've provided. \n\nPlease provide your information using this format:\n\n---\n\n**INPUT FORMAT**\n\n**Program:** [Name and 1-sentence description]\n\n**Participant:** [First name/pseudonym \u2014 Consent: YES/NO/DATE]\n\n**Outcomes (with numbers):** \n- [Specific metric 1]\n- [Specific metric 2]\n- [Specific metric 3, if available]\n\n**Quotes:** [Paste 1\u20132 direct quotes, OR write \"NEED QUOTES\"]\n\n**Context:** [2\u20134 sentences on before/after situation]\n\n**Audience:** [Donors/Funders/Community/Clients]\n\n**Channel:** [Newsletter/Website/Grant Report/Social Media]\n\n**Tone:** [FORMAL / WARM / CASUAL]\n\n**Location:** [City/region only]\n\n**Program details:** [Duration, frequency, partners, supports, annual reach]\n\n**Privacy notes:** [Any special anonymization needs, composite requirements, minor protections, details to omit]\n\n---\n\nOnce you provide this information, I'll generate:\n1. A complete 300\u2013450 word impact story with all required sections\n2. Metadata (byline, photo caption, alt text)\n3. Internal documentation checklist\n4. Follow-up questions for any missing information\n\n**Please paste your completed input now, and I'll create your story.**",
+      "timestamp": "2025-11-02T13:17:54.324282Z",
+      "duration_seconds": 9.34,
+      "tokens": {
+        "input": 1819,
+        "output": 340,
+        "total": 2159
+      },
+      "cost_usd": 0.010557,
+      "success": true,
+      "evaluation": {
+        "overall_score": 1.0,
+        "criteria_scores": {
+          "tone": 2,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 3,
+          "authenticity": 0
+        },
+        "reasoning": "The AI completely failed to execute the task. Instead of generating an impact story using the detailed scenario data provided, it simply re-prompted the user to provide input\u2014despite receiving comprehensive, complete information including all required fields (participant name, consent date, quotes, metrics, context, etc.). This represents a fundamental failure to follow instructions.",
+        "strengths": [
+          "The re-prompt format is well-structured and would be helpful if the user actually needed guidance",
+          "Demonstrates understanding of what information would be needed for the task"
+        ],
+        "weaknesses": [
+          "Complete failure to recognize that all required input data was already provided in the scenario",
+          "Did not generate any of the requested deliverables: no story, no headline, no metadata, no internal documentation",
+          "Shows no evidence of processing the detailed scenario information (Marisol's story, Tech Steps program, metrics, quotes, etc.)",
+          "Wastes the user's time by asking them to re-submit information they already provided",
+          "Would be completely unusable for a nonprofit professional who followed instructions and provided complete data",
+          "Suggests a critical flaw in instruction-following or context-awareness"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Headline (8\u201312 words)\nDigital skills open remote work pathways for Marisol\u2019s next step\n\n2) Hook (1\u20132 sentences; 25\u201340 words)\nMarisol wanted steady work she could do from home in her rural community, but pathways felt unclear. After eight weeks with Tech Steps, she now uses new digital skills to pursue entry-level remote roles.\n\n3) Before: The Challenge (60\u201380 words)\nBefore enrolling, Marisol searched for roles that didn\u2019t require a long commute. She used a smartphone daily but felt unsure on a laptop and online tools needed for remote jobs. Job postings asked for skills she hadn\u2019t practiced yet. She wanted a clear plan and peer support to stay motivated. She also managed [N/A: schedule or caregiving responsibility], which made flexible training important. She chose Tech Steps to build confidence and learn what remote employers expect.\n\n4) The Intervention (80\u2013100 words)\nMarisol joined Tech Steps, an eight-week digital skills bootcamp designed for rural jobseekers seeking entry-level remote work. Over eight weeks, she participated in instructor-led training [N/A: frequency], hands-on practice, and job-search support focused on remote-ready resumes and applications. She worked with a career coach to set goals and track progress. The program provided [N/A: supports such as device loan, internet stipend, childcare, or transportation] so participants could focus on learning. She advanced alongside a cohort of [N/A] peers; last year, Tech Steps served [N/A] rural jobseekers across the region through partner sites and virtual delivery.\n\n5) After: The Outcome (80\u2013100 words)\nBy graduation, Marisol completed [N/A: number] sessions with [N/A: %] attendance and earned [N/A: credential or badge]. She created a starter portfolio with [N/A: number] sample projects and increased her typing speed to [N/A: WPM]. Within [N/A: timeframe], she applied to [N/A: number] remote customer support or data entry roles and passed [N/A: number] employer skills assessments. She chose next steps that fit her goals, including continued coaching for [N/A: number] weeks while interviewing. She reports stronger confidence navigating online platforms and leading video calls\u2014skills she\u2019s now using to pursue stable, flexible work.\n\n6) Direct Quote(s) (1\u20132 quotes; 2\u20134 sentences each)\nN/A\n\n7) Call to Action (1\u20132 sentences)\nFor [N/A: donors/funders/community/clients], you can help rural jobseekers access devices, coaching, and industry-recognized credentials. Learn more or get involved at [N/A: link] or contact [N/A: email].\n\nByline\nStory by N/A [Your Name/Title]\n\nPhoto caption\nA participant practices on a laptop during a Tech Steps session; face not shown.\n\nAlt text\nClose-up of hands using a laptop in a classroom; an instructor gestures to a projected screen in the background.\n\nINTERNAL DOCUMENTATION (Do not publish)\n\nConsent & Privacy Checklist\n- Consent on file: YES (2025-03-22)\n- Reviewed by participant: PENDING\n- Anonymization applied: First name only; location generalized; partners generalized\n- Composite story: NO\n- Minor safeguards (if applicable): N/A\n- Approved channels: N/A\n- Accessibility checks: Reading level targeted (8th\u20139th grade); alt text included; caption provided; links verified: PENDING\n\nFollow-up questions to resolve gaps\n1) Please provide 2\u20133 concrete outcome metrics with numbers (e.g., sessions attended, attendance rate, credential earned, applications submitted, time to job offer, WPM).\n2) Share 1\u20132 direct quotes from Marisol (2\u20134 sentences each) that reflect her goals, actions, and results.\n3) Confirm target audience, channel, and preferred tone (Formal/Warm/Casual) so we can tailor the call to action.\n4) Provide program details: session frequency, key modules/topics, supports offered (devices, stipends, childcare), partner organizations, cohort size, and annual reach.\n5) Confirm general location (city/region) and whether \u201cMarisol\u201d is a real first name or a pseudonym; note any additional anonymization needs.",
+      "timestamp": "2025-11-02T13:19:01.155881Z",
+      "duration_seconds": 76.17,
+      "tokens": {
+        "input": 1606,
+        "output": 4414,
+        "total": 6020
+      },
+      "cost_usd": 0.071028,
+      "success": true,
+      "evaluation": {
+        "overall_score": 2.4,
+        "criteria_scores": {
+          "tone": 6,
+          "completeness": 1,
+          "usefulness": 1,
+          "accuracy": 2,
+          "authenticity": 2
+        },
+        "reasoning": "The AI failed catastrophically by ignoring nearly all the detailed input data provided in the scenario. Despite receiving complete information including specific metrics, quotes, program details, and outcomes, it generated a story filled with [N/A] placeholders and requested information that was already supplied. This represents a fundamental failure to process the input.",
+        "strengths": [
+          "The structural framework follows the template correctly with proper section headers and word count targets",
+          "Privacy and consent documentation format is appropriate",
+          "The tone in completed sections leans appropriately formal for a grant report audience",
+          "Follow-up questions are well-structured and specific (though they shouldn't be needed)"
+        ],
+        "weaknesses": [
+          "Critical failure: Ignored all provided data including outcomes (64 hours, 95% attendance, CompTIA ITF+, $19/hour job, 90-day retention), two direct quotes, program details (8 weeks, 2 evenings + Saturday, 220 annual reach), and participant information",
+          "Inserted [N/A] placeholders throughout sections 3-7 despite having complete information for all metrics, supports (hotspots, laptops, childcare vouchers), frequency, and outcomes",
+          "Omitted both provided quotes entirely and marked section 6 as 'N/A' when two substantial quotes were supplied",
+          "Generated unnecessary follow-up questions asking for information already provided in the scenario (questions 1-5 all request data that was given)",
+          "The story is completely unusable in its current state\u2014a nonprofit professional would need to manually insert all the provided data, defeating the purpose of the generator",
+          "Metadata fields (byline, consent date, approved channels) marked N/A despite being provided in the scenario",
+          "Represents either a severe prompt-following failure or data ingestion error that would undermine trust in the tool"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Please provide the information in the Input Format below so I can generate the story for you.\n\n**INPUT FORMAT (Copy and complete below)**\n\nProgram: Stability First Eviction Prevention \u2014 legal navigation and financial coaching that helps Chicago renters keep their homes.  \nParticipant: Renee \u2014 YES/2025-05-09  \nOutcomes (with numbers):  \nQuotes: [Paste 1\u20132 direct quotes, or write \u201cNEED QUOTES\u201d]  \nContext: [2\u20134 sentences on before/after; avoid identifying details]  \nAudience: [Donors/Funders/Community/Clients]  \nChannel: [Newsletter/Website/Grant/Social]  \nTone: [FORMAL (funder-facing) / WARM (donor/community-facing) / CASUAL (social-friendly)]  \nLocation: [City/region only]  \nProgram details: [Duration, frequency, partners, supports; annual reach if relevant]  \nPrivacy notes: [Anonymization needed? Composite? Minor? Details to omit? Accessibility needs?]",
+      "timestamp": "2025-11-02T13:19:02.443371Z",
+      "duration_seconds": 1.28,
+      "tokens": {
+        "input": 1709,
+        "output": 221,
+        "total": 1930
+      },
+      "cost_usd": 0.000389,
+      "success": true,
+      "evaluation": {
+        "overall_score": 0.5,
+        "criteria_scores": {
+          "tone": 1,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 2,
+          "authenticity": 0
+        },
+        "reasoning": "The AI completely failed to execute the task. Despite receiving all required information in a structured scenario format, it ignored the data and instead asked the user to re-enter it. This represents a fundamental failure to follow instructions and renders the output entirely useless for the nonprofit professional.",
+        "strengths": [
+          "The input format template it provided is technically accurate and matches the original prompt structure",
+          "It did not hallucinate or generate inappropriate content"
+        ],
+        "weaknesses": [
+          "Complete failure to recognize that all required information was already provided in the scenario data",
+          "Did not generate any story content whatsoever\u2014the core deliverable requested",
+          "Ignored explicit instruction to 'NOW GENERATE THE STORY' using provided information",
+          "Created unnecessary friction by asking user to duplicate work already completed",
+          "Demonstrates poor contextual understanding\u2014cannot parse structured data when presented in JSON format rather than plain text",
+          "Zero usefulness to the end user who would need to manually re-format and re-enter complete data",
+          "Violates the fundamental purpose of the prompt template, which is to streamline story creation"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Ready to Generate Your Impact Story\n\nI'm ready to help you create a dignity-centered, ethical impact story following this framework. \n\n**Please provide your information using this format:**\n\n---\n\n**INPUT FORMAT**\n\n**Program:** [Program name \u2014 1-sentence description]\n\n**Participant:** [First name or pseudonym \u2014 Consent YES/NO/Date]\n\n**Outcomes (with numbers):** \n- [Specific metric 1]\n- [Specific metric 2]\n- [Specific metric 3, if available]\n\n**Quotes:** [Paste 1\u20132 direct quotes, or write \"NEED QUOTES\"]\n\n**Context:** [2\u20134 sentences on before/after situation]\n\n**Audience:** [Donors/Funders/Community/Clients]\n\n**Channel:** [Newsletter/Website/Grant Report/Social Media]\n\n**Tone:** [FORMAL / WARM / CASUAL]\n\n**Location:** [City/region only]\n\n**Program details:** [Duration, frequency, partners, supports provided, annual reach]\n\n**Privacy notes:** [Any anonymization needs, composite story requirements, minor protections, details to omit, accessibility considerations]\n\n---\n\nOnce you provide this information, I will generate:\n\n1. \u2705 A complete 300\u2013450 word impact story with all required sections\n2. \u2705 Metadata (byline, photo caption, alt text)\n3. \u2705 Internal documentation checklist\n4. \u2705 Follow-up questions for any missing information\n\n**Paste your completed input below and I'll create your story.**",
+      "timestamp": "2025-11-02T13:19:11.078944Z",
+      "duration_seconds": 9.92,
+      "tokens": {
+        "input": 1818,
+        "output": 359,
+        "total": 2177
+      },
+      "cost_usd": 0.010839,
+      "success": true,
+      "evaluation": {
+        "overall_score": 1.0,
+        "criteria_scores": {
+          "tone": 2,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 3,
+          "authenticity": 0
+        },
+        "reasoning": "The AI completely failed to execute the task. Instead of generating an impact story using the detailed scenario data provided, it simply re-presented the input template and asked the user to fill it out\u2014despite all required information already being supplied in the scenario JSON. This represents a fundamental failure to understand or follow instructions.",
+        "strengths": [
+          "The re-presented template format is clear and well-organized",
+          "The checklist approach could be helpful if the user actually needed guidance on what information to gather"
+        ],
+        "weaknesses": [
+          "Complete failure to generate the requested impact story despite all necessary data being provided in the scenario",
+          "Did not recognize that the input format had already been completed and supplied",
+          "Provides zero value to a nonprofit professional who needs an actual story output",
+          "Wastes user time by asking them to re-input information that was already provided",
+          "Shows no evidence of processing the detailed scenario data about Renee and the Stability First program",
+          "Does not demonstrate the framework's capabilities or validate whether the prompt template actually works",
+          "Makes the entire evaluation exercise impossible since there is no actual generated content to assess"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Headline (8\u201312 words, benefit-focused)\nChoosing Stability: Renee Navigates Eviction and Keeps Her Home\n\n2) Hook (25\u201340 words)\nWhen an eviction notice arrived, Renee feared losing her apartment and the routines her family depends on. After partnering with Stability First Eviction Prevention, she understood her rights, created a plan, and stayed securely housed.\n\n3) Before: The Challenge (60\u201380 words)\nRenee had lived in her Chicago apartment for years when a sudden rent increase and a delayed paycheck put her behind. A court summons followed, full of deadlines and legal terms she didn\u2019t recognize. She wanted to keep her home, avoid disruption to her family, and protect her work schedule. But each step\u2014responding to the filing, speaking with the property manager, and sorting out overdue amounts\u2014felt confusing and urgent. Renee looked for support that respected her time and built on her strengths.\n\n4) The Intervention (80\u2013100 words)\nRenee chose to enroll in Stability First Eviction Prevention, a program that combines legal navigation and financial coaching for [X weeks]. She met [weekly/biweekly] with a housing attorney from [Partner: N/A] and a certified financial coach. Together, they drafted her court response, prepared a repair request, and rehearsed what to say in mediation. The program provided [transit passes/childcare stipends] so she could attend sessions, and covered [court/mediation] fees as needed. Renee joined a cohort of [24] renters working toward housing stability; last year, Stability First served [XXX] Chicago households facing eviction.\n\n5) After: The Outcome (80\u2013100 words)\nWithin [60] days, Renee completed [number] coaching sessions and filed all documents on time. She advocated for needed repairs and negotiated a mediated payment plan that reduced arrears by [$ amount] through a one-time grant and spread the balance over [months]. Renee increased income by [X%] by adding [additional shifts/new hours], created a spending plan, and set up automatic payments. She has retained housing for [9] months with [95%] on-time rent since coaching, and built a [two]-month emergency fund\u2014steps she identified and led to safeguard her long-term stability.\n\n6) Direct Quote(s) (2\u20134 sentences each)\nN/A\n\n7) Call to Action (1\u20132 sentences)\nN/A. Insert tailored CTA for [Audience] on [Channel] with link: [URL].\n\nByline: Story by Communications Team\nPhoto caption: Renee reviews a lease and budget worksheet with a housing coach at a neighborhood office. (Illustrative image; not Renee.)\nAlt text: A tenant and a coach sit at a desk reviewing rental paperwork and a budget checklist; faces not shown.\n\nINTERNAL DOCUMENTATION (Do not publish)\n\nConsent & Privacy Checklist\n- Consent on file: YES (2025-05-09)\n- Reviewed by participant: PENDING\n- Anonymization applied: First name only; location generalized to Chicago; partner names generalized\n- Composite story: NO\n- Minor safeguards (if applicable): N/A\n- Approved channels: N/A (pending)\n- Accessibility checks: Reading level verified; alt text included; caption provided; links N/A\n\nFollow-up questions to resolve gaps\n1) Please provide 2\u20133 concrete outcomes with numbers (e.g., sessions attended, arrears reduced by $, months housed, percent on-time payments, income change).\n2) Do we have 1\u20132 direct quotes from Renee (2\u20134 sentences each)? If yes, please share; if not, should we schedule a quote check?\n3) Who are the delivery partners (legal aid/mediation) we can name publicly, if any? If anonymity is preferred, confirm.\n4) Confirm audience and channel (Donors/Funders/Community/Clients; Newsletter/Website/Grant/Social) and share the desired CTA and link.\n5) Program details to include: typical duration and meeting frequency, any supports offered (transit, childcare, fee coverage), and last year\u2019s households served.",
+      "timestamp": "2025-11-02T13:20:11.999438Z",
+      "duration_seconds": 70.84,
+      "tokens": {
+        "input": 1604,
+        "output": 3789,
+        "total": 5393
+      },
+      "cost_usd": 0.061647,
+      "success": true,
+      "evaluation": {
+        "overall_score": 3.2,
+        "criteria_scores": {
+          "tone": 6,
+          "completeness": 2,
+          "usefulness": 2,
+          "accuracy": 4,
+          "authenticity": 2
+        },
+        "reasoning": "The AI failed to use the comprehensive data provided in the scenario, instead generating a story filled with placeholders and requesting information that was already supplied. This represents a critical failure in following instructions and processing input data, making the output essentially unusable without significant manual intervention.",
+        "strengths": [
+          "The structural framework follows the template correctly with appropriate section headers",
+          "Privacy and dignity-centered language principles are generally observed where content exists",
+          "The headline is appropriately benefit-focused and within word count",
+          "Internal documentation checklist format is correct"
+        ],
+        "weaknesses": [
+          "Critical failure: AI ignored nearly all provided data (outcomes, quotes, program details, metrics) and inserted placeholders like [X weeks], [number], [$ amount] despite this information being explicitly provided in the scenario",
+          "The two direct quotes provided in the scenario are completely missing, replaced with 'N/A' and no placeholder",
+          "Follow-up questions request information already supplied (outcomes with numbers were provided: payment plan in 14 days, $2,450 arrears reduced, $1,200 assistance, 6 coaching sessions, $800 emergency fund, 12 months on-time rent)",
+          "Call to Action is missing despite a link being provided in the scenario (https://homepathchicago.org/donate-monthly)",
+          "Program details section is filled with brackets and placeholders despite comprehensive information being provided (90 days duration, Legal Aid Chicago partnership, transit cards, $3,000 assistance, 3,850 households served)",
+          "The 'Before' section invents details not in the scenario (rent increase, delayed paycheck) rather than using the provided context about hours being cut",
+          "Word counts appear incorrect in several sections (Before section exceeds 80 words, Intervention falls short)",
+          "Byline ignores the provided 'Story by Priya Natarajan, Director of Communications'",
+          "Photo caption and alt text don't match the provided versions and add unnecessary '(Illustrative image; not Renee)' disclaimer",
+          "Marks participant review as 'PENDING' when scenario clearly states 'YES'",
+          "The output would require a nonprofit professional to essentially rewrite it from scratch, defeating the purpose of the AI tool"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.2084,
+    "average_score": 1.94
+  }
+}

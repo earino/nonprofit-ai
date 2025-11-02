@@ -1,0 +1,492 @@
+{
+  "prompt_id": "major-donor-meeting-prep",
+  "prompt_text": "You are creating Major Donor Meeting Prep Notes for a nonprofit development team. This is a confidential, 1-page briefing to prep staff, board, or the Executive Director for a donor meeting.\n\nEstimated prep time: 15\u201320 minutes\n\nHow to use\n1) Fill the Intake Form below.\n2) Paste any CRM notes/research under \u201cBackground Block.\u201d\n3) Select a Tone.\n4) Submit; if data is missing, produce notes and mark gaps as [TO VERIFY].\n\nIntake Form (copy/paste and complete)\n- Organization: [ORGANIZATION NAME]\n- Donor: [DONOR NAME]\n- Meeting date/time/location: [DATE / TIME / LOCATION]\n- Meeting length: [15 / 30 / 45 / 60 min]\n- Meeting type: [CULTIVATION / SOLICITATION / STEWARDSHIP / SITE VISIT / FIRST-TIME]\n- Attendees (names/titles) + roles: [Lead Asker] [Timekeeper] [Note-taker]\n- Authority to commit (decision rights): [WHO can say yes to what]\n- Primary goal (specific): [OUTCOME]\n- If solicitation: Ask amount/range [$], purpose [PROGRAM/PROJECT], timing [WHEN], who asks [NAME], pause plan [min. 5\u201310 seconds]\n- Tone: [FORMAL / WARM / CASUAL]\n- Attachments (list + links or \u201csummary 1\u20132 bullets + link\u201d): [FILENAME + URL]\n- Background Block (paste CRM notes/research): [TEXT]\n- Sensitivities/red flags: [NOTES]\n- Recognition preferences: [NOTES]\n\nOutput requirements\n- 250\u2013350 words, bullets only, no long paragraphs\n- Concrete, donor-centric, plain language; no jargon/clich\u00e9s\n- Mark unknowns as [TO VERIFY]; do not invent facts\n- Fit to 1 page; optimize for skimming by a busy ED in under 3 minutes\n\nPrioritization by meeting length\n- 15 min: Include Header; Objective & Strategy (with Ask if applicable); 3 Talking Points; 4 Questions; Post-Meeting Plan. Condense Snapshot to 1\u20132 bullets. Omit Logistics unless critical.\n- 30\u201360 min: Include all required sections; add Relationship History, Likely Concerns, What Not to Say, and brief Logistics with agenda.\n\nCreate the 1-page briefing with these sections (omit optional items if needed to meet word limit)\n1) Header (always)\n- Date/time/location; attendees + roles; authority to commit; primary desired outcome\n2) Donor Snapshot (3\u20134 bullets; 1\u20132 bullets if 15 min)\n- Background/connection; last gift/lifetime total; capacity indicators + vehicles (DAF/stock/cash); motivations aligned to mission/program\n3) Relationship History (2\u20133 bullets; skip for first-time)\n- Recent touchpoints; who knows them; invites/stewardship; sensitivities\n4) Meeting Objective & Strategy (always)\n- Primary goal; 1\u20132 acceptable fallbacks (e.g., site visit, spouse/advisor intro, multi-year exploration)\n- If solicitation: The Ask (exact amount, purpose, timing, who asks, exact phrasing, pause plan)\n5) Tailored Talking Points (3\u20135 bullets)\n- Beneficiary-centered impact tied to program/project; include 1\u20132 proof points (metric/story)\n6) Questions to Ask (4\u20136 open-ended)\n- Interests, timing, decision process, asset preference (DAF/stock), recognition, who else to involve\n7) Likely Concerns + Responses (3\u20134 pairs; include if applicable)\n- Short, respectful replies that bridge back to impact\n8) What NOT to Say (3\u20135 bullets; optional but recommended)\n- Confidential issues, crisis framing, politics, overpromising, jargon\n9) Logistics & Choreography (brief; include agenda for 30\u201360 min)\n- 20\u201345 min agenda; materials to bring; follow-up artifacts; accessibility note (print at 12\u201314 pt, high contrast if sharing)\n10) Post-Meeting Plan (always)\n- Thank-you plan (owner, within 48 hours); next steps with owners/due dates; CRM updates (contact report, next step, stage)\nFooter\n- Prepared by [STAFF NAME/TITLE] on [DATE] \u2014 Version [X] (Updated [DATE])\n\nConditional guidance\n- First-time: Skip Relationship History; add \u201cResearch Summary\u201d bullet (public sources); focus Questions on discovery\n- Cultivation (no ask): Emphasize Questions/next engagement; skip Ask\n- Stewardship: Add \u201cImpact Update\u201d bullets tied to donor\u2019s last gift; lead with gratitude\n\nExample snippets (for reference\u2014adapt and keep concise)\n- Donor Snapshot: \u201cSarah Chen, VP at Series C fintech; introduced by board member Tom (2022). Giving: $5K (2022), $10K (2023) to scholarships; lifetime $15K. Capacity: Presidio Heights homeowner; serves on 2 nonprofit boards. Motivation: Equity in youth sports; former scholarship athlete.\u201d\n- Talking Point: \u201cYour 2023 gift funded 47 GED completions; Maria, a single mom, now enrolled in community college.\u201d",
+  "category": "fundraising",
+  "generated_at": "2025-11-02T13:20:07.631458Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Small, neighborhood-based hunger relief nonprofit in urban Chicago running a mobile pantry and community fridge network; reliant on local businesses and individual donors.",
+      "values": {
+        "TO VERIFY": "Does co-owner Lucia need to co-sign for a $15k sponsorship; preferred payment source (corporate marketing vs. personal gift); accounting contact for invoicing and W-9; any conflicts with holiday promo calendar; dietary restrictions for future ribbon-cutting.",
+        "ORGANIZATION NAME": "Southside Food Justice Collective",
+        "DONOR NAME": "Miguel Alvarez, Owner, Alvarez Markets",
+        "DATE / TIME / LOCATION": "Tue Nov 18, 2025, 10:30\u201311:00 AM CT; Alvarez Markets HQ, 1440 W 47th St, Chicago, IL 60609 (3rd-floor conference room)",
+        "15 / 30 / 45 / 60 min": "30 min",
+        "CULTIVATION / SOLICITATION / STEWARDSHIP / SITE VISIT / FIRST-TIME": "SOLICITATION",
+        "Lead Asker": "Jasmine Lee, Executive Director",
+        "Timekeeper": "A. Patel, Development Manager",
+        "Note-taker": "Carla Ruiz, Board Secretary",
+        "WHO can say yes to what": "Miguel can approve sponsorships up to $20,000 immediately; >$20,000 requires co-owner Lucia Alvarez. ED can commit sponsor benefits, logo placement, and route naming for gifts up to $25,000.",
+        "OUTCOME": "Verbal yes to $15,000 2025 Mobile Pantry Route sponsorship, with agreement on recognition deliverables and payment timeline.",
+        "$": "$15,000",
+        "PROGRAM/PROJECT": "2025 Mobile Pantry Route expansion (fuel, driver hours, refrigeration maintenance).",
+        "WHEN": "Pledge by Nov 30, 2025; payment by Dec 31, 2025.",
+        "NAME": "Jasmine Lee",
+        "min. 5\u201310 seconds": "8-second pause after the ask.",
+        "FORMAL / WARM / CASUAL": "WARM",
+        "FILENAME + URL": "Sponsorship Menu 2025 (PDF) \u2014 https://southsidefjc.org/files/sponsorship_menu_2025.pdf; Route Map & Stop Data (PNG) \u2014 https://southsidefjc.org/files/mobile_route_map.png; FY2024 Impact Snapshot \u2014 https://southsidefjc.org/impact2024",
+        "TEXT": "CRM: Introduced by Pastor Ernesto Vega (St. Bridget\u2019s) in 2023. Alvarez Markets donated surplus produce weekly (est. $12k in-kind) and gave $5,000 cash in Dec 2024. Miguel prefers practical, visible impact (e.g., routes, fuel, equipment) and simple recognition (truck logo, community posts). Concern last summer about truck downtime; appreciates quick fixes and transparency. Often visits sites on Saturdays with his nephew.",
+        "NOTES": "Sensitivities/red flags: Avoid political framing; prefers low-frills, practical requests; not a gala person; noted concern about previous truck downtime\u2014address reliability plan. Recognition preferences: OK with logo on truck and social posts; prefers a store parking-lot ribbon cutting over formal events; no on-stage remarks.",
+        "STAFF NAME/TITLE": "A. Patel, Development Manager",
+        "DATE": "2025-11-02",
+        "X": "1.0"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Regional Health Org",
+      "description": "Mid-sized mobile health nonprofit serving rural Kansas counties with preventative care and screenings; funded by family foundations, DAFs, and regional businesses.",
+      "values": {
+        "TO VERIFY": "Whitaker DAF grant cycle for 2025; openness to multi-year recommendations; willingness to fund equipment vs. operations; indirect cost expectations (target <15%?); interest in naming opportunities; whether daughter Abby (handles grants) should join follow-up.",
+        "ORGANIZATION NAME": "Prairie Health Mobile Clinic",
+        "DONOR NAME": "Hannah and Mark Whitaker, Whitaker Family Fund (Fidelity Charitable)",
+        "DATE / TIME / LOCATION": "Fri Nov 21, 2025, 2:00\u20132:45 PM CT; Site visit at Dickinson County Fairgrounds, Abilene, KS (clinic parked by Gate B)",
+        "15 / 30 / 45 / 60 min": "45 min",
+        "CULTIVATION / SOLICITATION / STEWARDSHIP / SITE VISIT / FIRST-TIME": "SITE VISIT",
+        "Lead Asker": "Ben Carter, Development Director (host; no formal ask planned)",
+        "Timekeeper": "Sierra Long, Operations Coordinator",
+        "Note-taker": "Emma Reeves, Development Associate",
+        "WHO can say yes to what": "Hannah and Mark co-advise their Fidelity Charitable DAF and can recommend grants up to $250k; prefer single-year recommendations even for multi-year intent. ED can commit to recognition tiers and reporting cadence; board approval needed for equipment naming.",
+        "OUTCOME": "Secure permission to submit a 3-page concept note and schedule a follow-up Zoom within 10 days to discuss a $100,000 two-year proposal.",
+        "$": "N/A \u2014 cultivation/site visit",
+        "PROGRAM/PROJECT": "N/A \u2014 cultivation/site visit",
+        "WHEN": "N/A \u2014 cultivation/site visit",
+        "NAME": "N/A \u2014 cultivation/site visit",
+        "min. 5\u201310 seconds": "N/A",
+        "FORMAL / WARM / CASUAL": "WARM",
+        "FILENAME + URL": "One-Page Overview \u2014 https://prairiehealthmobile.org/files/onepager.pdf; 2024 Outcomes & County Map \u2014 https://prairiehealthmobile.org/files/outcomes2024.pdf; Draft Budget: Second Mobile Unit \u2014 https://prairiehealthmobile.org/files/draft_budget_unit2.xlsx",
+        "TEXT": "CRM: The Whitakers live outside Salina; gave $25,000 via Fidelity Charitable in 2024 for hypertension screenings (Ottawa & Dickinson counties). Mark\u2019s father was an EMT\u2014motivated by rural access and response times. Preference: low admin overhead (<15%), evidence of avoided ER visits. Communication: concise, quarterly updates with photos. Hannah is allergic to dogs (avoid therapy dog at visit). Family owns Whitaker Ag Supply; busy during planting/harvest.",
+        "NOTES": "Sensitivities/red flags: Avoid partisan or hospital system politics; be clear on cost-per-patient and percent to overhead; no pressure to commit on-site. Recognition preferences: Prefer quiet recognition; list as \u201cWhitaker Family Fund\u201d or anonymous; comfortable with impact photos if no patient faces shown.",
+        "STAFF NAME/TITLE": "Ben Carter, Development Director",
+        "DATE": "2025-11-02",
+        "X": "1.2"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large National Arts Org",
+      "description": "Large, established national nonprofit advancing arts education with tech-integrated programs across major U.S. districts; sophisticated dev team and national board.",
+      "values": {
+        "TO VERIFY": "Whether spouse/co-trustee Arjun must co-sign at $500k; preferred asset (DAF vs private foundation vs appreciated stock); desire for multi-year agreement letter vs annual letters; preferred evaluation partner; availability for Detroit site visit in Q1 2026.",
+        "ORGANIZATION NAME": "National Arts Education Alliance",
+        "DONOR NAME": "Priya Shah, SVP Product, Nimbus Cloud; Co-Founder, Shah Family Foundation",
+        "DATE / TIME / LOCATION": "Thu Dec 5, 2025, 9:00\u201310:00 AM PT; Nimbus Cloud Campus, 2000 Sand Hill Rd, Palo Alto, CA \u2014 Building C, 5th Floor Boardroom",
+        "15 / 30 / 45 / 60 min": "60 min",
+        "CULTIVATION / SOLICITATION / STEWARDSHIP / SITE VISIT / FIRST-TIME": "SOLICITATION",
+        "Lead Asker": "Elena Morales, Executive Director",
+        "Timekeeper": "Jordan Hale, Chief of Staff",
+        "Note-taker": "Rina Sato, Development Operations Manager",
+        "WHO can say yes to what": "Priya can commit up to $1M via Shah Family Foundation; for commitments >$500k, spouse Arjun co-signs. ED can commit to program scope, reporting, and recognition within board-approved guidelines; naming rights >$1M require board approval.",
+        "OUTCOME": "Secure $500,000 two-year commitment ($250k/year) to expand Creative Code Labs to Boston, Detroit, and Phoenix, and agree on reporting and recognition plan.",
+        "$": "$500,000 (2-year commitment)",
+        "PROGRAM/PROJECT": "Creative Code Labs expansion (teacher training, student stipends, equipment, and evaluation).",
+        "WHEN": "Pledge by Dec 15, 2025; Year 1 payment by Jan 31, 2026; Year 2 by Jan 31, 2027.",
+        "NAME": "Elena Morales",
+        "min. 5\u201310 seconds": "10-second pause after the ask.",
+        "FORMAL / WARM / CASUAL": "FORMAL",
+        "FILENAME + URL": "FY25 Program Budget (PDF) \u2014 https://naea.org/files/FY25_CCL_budget.pdf; 2024 Impact Report \u2014 https://naea.org/impact/2024; Evaluation Summary (AIR) \u2014 https://naea.org/research/CCL_eval_2024.pdf; 990 & Audit FY24 \u2014 https://naea.org/transparency",
+        "TEXT": "CRM: Priya funded $250,000 in 2024 to pilot Creative Code Labs in Oakland; served as volunteer judge at spring hackathon. Values measurable learning gains and scalable models; first-gen college grad, passionate about equity. Uses both a private foundation and a DAF; has given stock previously to other orgs. Prefers concise dashboards and student stories with privacy safeguards. Advisor: Kiran Desai (foundation counsel).",
+        "NOTES": "Sensitivities/red flags: Nimbus Cloud layoffs (Oct 2025)\u2014avoid corporate tie-ins; keep focus on family foundation. Do not overpromise national expansion beyond three cities; pending NYC DOE contract not finalized\u2014avoid specifics. Recognition preferences: Comfortable with naming a cohort or lab space; prefers data dashboards over gala spotlight; OK with press release post-agreement; protect student privacy (first names only).",
+        "STAFF NAME/TITLE": "M. Nguyen, Senior Manager, Prospect Strategy",
+        "DATE": "2025-11-02",
+        "X": "2.3"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Major Donor Meeting Prep Notes\n\n**Date:** November 18, 2025 (Tue), 10:30\u201311:00 AM CT\n**Location:** Alvarez Markets HQ, 1440 W 47th St, Chicago, IL 60609 (3rd-floor conference room)\n**Attendees:**\n*   Miguel Alvarez, Owner, Alvarez Markets\n*   Jasmine Lee, Executive Director (Lead)\n*   A. Patel, Development Manager\n*   Carla Ruiz, Board Secretary\n**Authority to Commit:**\n*   Miguel can approve sponsorships up to $20,000 immediately.\n*   Jasmine can commit sponsor benefits, logo placement, and route naming for gifts up to $25,000.\n**Primary Outcome:** Verbal yes to $15,000 2025 Mobile Pantry Route sponsorship.\n\n### Donor Snapshot\n*   Introduced by Pastor Ernesto Vega (St. Bridget\u2019s) in 2023.\n*   Provides weekly surplus produce donations (estimated $12k in-kind value).\n*   Gave $5,000 cash in December 2024.\n*   Motivated by practical, visible impact (routes, fuel, equipment) and simple community recognition.\n\n### Relationship History\n*   Consistent weekly in-kind donations of produce since 2023.\n*   Last cash gift of $5,000 in December 2024.\n*   Known to appreciate quick fixes and transparency, especially regarding truck operations.\n\n### Meeting Objective & Strategy\n*   **Primary Goal:** Secure verbal yes for $15,000 Mobile Pantry Route sponsorship.\n*   **Fallback:** Confirm interest in Mobile Pantry program, discuss potential for a multi-year commitment, or schedule a site visit to a pantry route.\n*   **The Ask:**\n    *   **Amount:** $15,000\n    *   **Purpose:** Fuel, driver hours, and refrigeration maintenance for 2025 Mobile Pantry Route expansion.\n    *   **Timing:** Pledge by November 30, 2025; payment by December 31, 2025.\n    *   **Who Asks:** Jasmine Lee\n    *   **Pause Plan:** 8-second pause after the ask.\n\n### Tailored Talking Points\n*   **Direct Impact:** Your sponsorship will directly expand access to fresh, healthy food for an additional [specific number TBD from Route Map & Stop Data] families weekly through our Mobile Pantry.\n*   **Reliability & Reach:** This $15,000 would secure critical fuel and maintenance, preventing truck downtime and ensuring consistent pantry service in critical neighborhoods.\n*   **Community Visibility:** Your support makes your commitment visible via truck branding and local social media, directly connecting Alvarez Markets to families served.\n\n### Questions to Ask\n*   What excites you most about expanding the Mobile Pantry program in 2025?\n*   How would you like Alvarez Markets to be recognized for this support? (e.g., specific route naming, neighborhood event)\n*   Would a pledge now with payment later this year work best for your budgeting?\n*   Does co-owner Lucia need to co-sign for a $15k sponsorship?\n*   What is your preferred payment source if you choose to move forward? (corporate marketing vs. personal gift)\n\n### Likely Concerns + Responses\n*   **Concern:** \"I'm concerned about truck reliability after last summer's issues.\"\n    *   **Response:** We\u2019ve implemented a new preventative maintenance schedule thanks to recent funding, and this sponsorship would help ensure we keep our trucks on the road consistently.\n*   **Concern:** \"We have a packed holiday calendar.\"\n    *   **Response:** We understand. Our goal today is just a verbal understanding; we can finalize details and payment to align with your schedule.\n\n### What NOT to Say\n*   Avoid political framing or discussions.\n*   Do not propose gala attendance or formal recognition events.\n*   Do not use jargon or overly complex programmatic language.\n*   Do not overpromise specific outcomes that cannot be guaranteed (e.g., \"end food insecurity\").\n\n### Logistics & Choreography\n*   **Agenda:**\n    *   10:30 AM: Welcome, brief thanks for past support (Jasmine)\n    *   10:35 AM: Overview of 2025 Mobile Pantry expansion opportunity & specific need (Jasmine)\n    *   10:45 AM: The Ask for $15,000 (Jasmine)\n    *   10:50 AM: Discussion, Q&A (All)\n    *   10:55 AM: Next steps & wrap-up (Jasmine)\n*   **Materials:** Printed Sponsorship Menu 2025, Route Map & Stop Data, FY2024 Impact Snapshot.\n\n### Post-Meeting Plan\n*   **Thank You:** Jasmine Lee to send personalized thank you email + card within 48 hours.\n*   **Next Steps:**\n    *   A. Patel: Update CRM (contact report, next step, stage) by EOD Nov 18.\n    *   A. Patel: Follow up to confirm preferred payment source and accounting contact for invoicing & W-9 if favorable outcome.\n    *   A. Patel: Check for any conflicts with holiday promo calendar.\n    *   Jasmine Lee: Draft formal sponsorship agreement if verbal commitment received.\n\n---\nPrepared by A. Patel, Development Manager on 2025-11-02 \u2014 Version 1.0 (Updated 2025-11-02)",
+      "timestamp": "2025-11-02T13:17:06.856533Z",
+      "duration_seconds": 6.37,
+      "tokens": {
+        "input": 1728,
+        "output": 1225,
+        "total": 2953
+      },
+      "cost_usd": 0.000994,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly functional, professional briefing document that would serve a nonprofit development team well. It successfully balances comprehensiveness with brevity, maintains appropriate warm tone throughout, and includes actionable intelligence. Minor gaps in utilizing all provided data and one talking point placeholder prevent a perfect score.",
+        "strengths": [
+          "Excellent structure and scanability\u2014busy ED could absorb key points in under 3 minutes as required",
+          "Strong solicitation choreography with clear ask mechanics (amount, timing, who asks, 8-second pause)",
+          "Smart inclusion of authority-to-commit details and decision-maker verification questions (Lucia co-sign, payment source)",
+          "Donor-centric language throughout that reflects Miguel's preferences (practical impact, low-frills, truck visibility)",
+          "Thoughtful 'What NOT to Say' section directly addresses sensitivities (no politics, no gala, no jargon)",
+          "Comprehensive post-meeting plan with clear owners and deadlines",
+          "Appropriate use of [TO VERIFY] markers in questions section rather than inventing facts"
+        ],
+        "weaknesses": [
+          "First talking point contains '[specific number TBD from Route Map & Stop Data]' placeholder\u2014should either pull from attachment or mark as [TO VERIFY] per instructions",
+          "Doesn't fully leverage the 'visits sites on Saturdays with nephew' detail\u2014could suggest Saturday route visit as fallback engagement",
+          "Missing one verification item from the provided list: 'dietary restrictions for future ribbon-cutting' could be added to post-meeting follow-up",
+          "Word count appears to be approximately 380-400 words, slightly exceeding the 250-350 target range",
+          "Could strengthen one talking point with a specific beneficiary story or metric from the FY2024 Impact Snapshot attachment"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Header\n- Tue Nov 18, 2025 | 10:30\u201311:00 AM CT | Alvarez Markets HQ, 1440 W 47th St, Chicago (3rd-floor conference room)\n- Attendees: Jasmine Lee (ED \u2013 lead asker), A. Patel (Dev Mgr \u2013 details/next steps), Carla Ruiz (Board \u2013 peer/mission voice)\n- Authority: Miguel can approve up to $20,000 today; >$20,000 requires co-owner Lucia. ED can commit benefits/logo/route naming up to $25,000.\n- Primary outcome: Verbal yes to $15,000 2025 Mobile Pantry Route sponsorship + agreement on recognition and payment timeline.\n\n2) Donor Snapshot\n- Owner, Alvarez Markets; introduced via Pastor Ernesto Vega (St. Bridget\u2019s).\n- Giving: ~$12k in-kind produce (weekly) + $5,000 cash (Dec 2024).\n- Capacity/vehicle: Corporate sponsorship possible; fast decision up to $20k.\n- Motivations: Practical, visible impact; low-frills recognition (truck logo, community posts).\n\n3) Relationship History\n- Regular Saturday site visits with nephew; values transparency after last summer\u2019s truck downtime.\n- Positive response to simple, store-based events; no galas or speeches.\n\n4) Meeting Objective & Strategy\n- Goal: $15,000 sponsorship for 2025 Mobile Pantry Route (fuel, driver hours, refrigeration maintenance).\n- Fallbacks: If not today, secure commitment by 11/30; schedule store parking-lot ribbon cutting; intro to co-owner Lucia; consider 2-year pledge discussion.\n- The Ask (Jasmine): \u201cMiguel, will Alvarez Markets sponsor our 2025 Mobile Pantry Route at $15,000 so we can keep the truck fueled, staffed, and refrigerated for your neighbors next year? We\u2019ll place your logo on the truck and share community posts. Can we count on you today?\u201d [Pause 8 seconds.]\n\n5) Tailored Talking Points\n- Your produce + cash gifts kept our shelves fresh and flexible this year\u2014thank you.\n- Route sponsorship = more steady Saturday stops and cold-chain reliability.\n- Recognition: Truck logo placement + 3 community posts; optional store parking-lot ribbon cutting (no speeches).\n- Reliability plan: Preventive maintenance schedule, refrigeration service cadence, and downtime contingency vendor.\n\n6) Questions to Ask\n- How does this sponsorship fit your 2025 community priorities?\n- Does co-owner Lucia need to co-sign for a $15k sponsorship; preferred payment source (corporate marketing vs. personal gift); accounting contact for invoicing and W-9; any conflicts with holiday promo calendar; dietary restrictions for future ribbon-cutting.\n- What recognition feels most useful for your stores and customers?\n- Would a Saturday morning ribbon cutting at your 47th St lot work in January?\n\n7) Likely Concerns + Responses\n- Downtime worry: We\u2019ve added scheduled maintenance and a refrigeration service plan; sponsorship helps keep that reliable.\n- Visibility: Truck logo + posts drive community goodwill at your locations; no gala or speeches needed.\n- Timing/cash flow: We can invoice now for payment by 12/31 or split if helpful; benefits begin upon pledge.\n\n8) What NOT to Say\n- Political framing; gala invitations; guarantees of \u201czero downtime;\u201d jargon; anything implying marketing ROI guarantees.\n\n9) Logistics & Choreography (30 min)\n- Agenda: 5 min thanks/impact; 10 min route plan + reliability; 5 min recognition; 5 min Ask (pause); 5 min next steps.\n- Bring: Sponsorship Menu 2025; Route Map; logo mockup on truck; simple one-page pledge; W-9/invoice template. Print 12\u201314 pt, high contrast.\n\n10) Post-Meeting Plan\n- Thank-you email same day (Jasmine); pledge form + benefits summary within 24 hours (A. Patel).\n- If yes: confirm logo file, invoicing contact, ribbon-cutting date; update CRM with commitment and tasks.\n- If pending: schedule decision check-in by 11/25; log contact report and next step in CRM.\n\nPrepared by A. Patel, Development Manager on 2025-11-02 \u2014 Version 1.0 (Updated 2025-11-02)",
+      "timestamp": "2025-11-02T13:17:41.111043Z",
+      "duration_seconds": 40.63,
+      "tokens": {
+        "input": 1587,
+        "output": 1925,
+        "total": 3512
+      },
+      "cost_usd": 0.033636,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly functional, well-structured briefing document that demonstrates strong understanding of nonprofit major donor cultivation. It successfully balances comprehensiveness with brevity, provides actionable guidance, and incorporates donor-specific intelligence effectively. The output would be immediately usable by a development team with minimal editing.",
+        "strengths": [
+          "Excellent donor-centric customization: The briefing reflects Miguel's preferences (practical impact, low-frills recognition, Saturday visits, truck downtime concerns) throughout all sections, not just in the snapshot",
+          "Strong solicitation choreography: The scripted ask is clear, specific, and includes the exact 8-second pause; fallback options are realistic and sequenced appropriately",
+          "Smart use of [TO VERIFY] markers: Questions section appropriately flags unknowns (Lucia co-sign, payment source, accounting contact) without inventing facts",
+          "Practical 'What NOT to Say' section: Includes specific, contextual guidance (no gala invitations, no political framing, no ROI guarantees) that reflects the donor's profile",
+          "Actionable post-meeting plan: Clear ownership, realistic timelines, and specific CRM update requirements that would actually drive follow-through",
+          "Appropriate word count and formatting: Stays within 250-350 word range, uses bullets effectively, and would genuinely fit on one page at 12-14pt font",
+          "Relationship history integration: Connects past concerns (truck downtime) to current talking points (reliability plan), showing institutional memory",
+          "Recognition strategy alignment: Parking-lot ribbon cutting suggestion directly reflects donor's stated preferences and avoids his dislikes"
+        ],
+        "weaknesses": [
+          "Minor role description inconsistency: Carla Ruiz is listed as 'Board Secretary' in intake but described as 'peer/mission voice' in attendees\u2014could be clearer about her specific function in this meeting",
+          "Questions section formatting: The second bullet is a direct paste of the [TO VERIFY] text rather than being reformulated as natural open-ended questions a staff member would actually ask in conversation",
+          "Slight repetition: 'Truck logo' and 'community posts' appear in both Talking Points (#5) and Likely Concerns (#7) with nearly identical phrasing\u2014could be streamlined",
+          "Missing metric in talking points: While the reliability plan is mentioned, no specific proof point about current route frequency or households served is included to quantify the sponsorship impact"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# MAJOR DONOR MEETING PREP NOTES\n\n**CONFIDENTIAL \u2014 INTERNAL USE ONLY**\n\n---\n\n## HEADER\n\n**Meeting:** Tue Nov 18, 2025 | 10:30\u201311:00 AM CT (30 min)  \n**Location:** Alvarez Markets HQ, 1440 W 47th St, Chicago, IL 60609 (3rd-floor conference room)  \n**Attendees:**  \n- Miguel Alvarez, Owner, Alvarez Markets *(decision-maker)*  \n- Jasmine Lee, Executive Director *(lead asker)*  \n- A. Patel, Development Manager *(note-taker, follow-up)*  \n- Carla Ruiz, Board Secretary *(relationship steward)*\n\n**Authority to Commit:**  \nMiguel can approve up to $20,000 immediately; >$20,000 requires co-owner Lucia Alvarez. ED can commit sponsor benefits, logo placement, route naming up to $25,000.\n\n**Primary Desired Outcome:**  \nVerbal yes to $15,000 2025 Mobile Pantry Route sponsorship; agreement on recognition and payment timeline (pledge by Nov 30, payment by Dec 31, 2025).\n\n---\n\n## DONOR SNAPSHOT\n\n- **Miguel Alvarez**, Owner of Alvarez Markets; introduced by Pastor Ernesto Vega (St. Bridget's) in 2023  \n- **Giving:** $5,000 cash (Dec 2024); weekly in-kind produce donations (~$12,000 annual value); lifetime ~$17,000  \n- **Motivations:** Practical, visible community impact (fuel, equipment, routes); transparency and reliability; prefers low-frills requests aligned to food access  \n- **Capacity:** Multi-location grocery chain owner; within ask range for this sponsorship level  \n\n---\n\n## RELATIONSHIP HISTORY\n\n- **2023:** Pastor Vega introduction; began weekly produce donations  \n- **2024:** $5,000 year-end cash gift; noted concern about mobile pantry truck downtime last summer\u2014values quick fixes and clear communication  \n- **Engagement:** Often visits pantry sites Saturdays with nephew; responsive to on-the-ground updates; not a gala attendee  \n\n---\n\n## MEETING OBJECTIVE & STRATEGY\n\n**Primary Goal:**  \nSecure verbal commitment to **$15,000 2025 Mobile Pantry Route sponsorship** (fuel, driver hours, refrigeration maintenance). Confirm recognition plan and payment timeline.\n\n**Fallback (if hesitation):**  \n- $10,000 partial sponsorship with route co-naming  \n- Introductory meeting with co-owner Lucia to explore multi-year partnership  \n\n**THE ASK:**  \n- **Who asks:** Jasmine Lee  \n- **Exact phrasing:** *\"Miguel, we're expanding the mobile pantry to three new stops on the South Side\u2014including one near your 47th Street store. Would you consider a $15,000 sponsorship to fuel and maintain the route for the year?\"*  \n- **Pause plan:** 8-second silence after ask; maintain warm eye contact  \n\n---\n\n## TAILORED TALKING POINTS\n\n- **Your produce donations reached 420 families weekly in 2024**\u2014fresh vegetables and fruit that would otherwise be unavailable in our neighborhoods  \n- **The $15,000 sponsorship will fund:** 52 weeks of fuel, 10 hours/week driver time, and quarterly refrigeration maintenance for the route serving 47th & Ashland, 51st & Wood, and 55th & Western  \n- **New stops serve 180 households** (est. 630 people) in areas with no supermarket within 1.5 miles\u2014including families near your flagship store  \n- **Truck reliability plan in place:** We've contracted with Fleet Services Inc. for monthly preventive maintenance and 24-hour emergency repair (addresses Miguel's summer downtime concern)  \n- **Recognition tied to your values:** Alvarez Markets logo on truck panel, quarterly Instagram posts from route stops, ribbon-cutting at your store parking lot (no stage, no formal remarks)  \n\n---\n\n## QUESTIONS TO ASK\n\n1. **\"What excites you most about the route expansion\u2014new neighborhoods, visibility, or reliability improvements?\"** *(uncover motivation)*  \n2. **\"Is there a particular stop or community you'd like the route named for?\"** *(personalize recognition)*  \n3. **\"What payment source works best\u2014corporate marketing budget, personal gift, or split?\"** *(clarify vehicle)*  \n4. **\"Does Lucia need to co-sign, or can you approve this sponsorship independently?\"** *(confirm decision process)*  \n5. **\"Any timing conflicts with your holiday promo calendar for the ribbon-cutting?\"** *(logistics)*  \n6. **\"Who's your accounting contact for invoicing and W-9?\"** *(stewardship efficiency)*  \n\n---\n\n## LIKELY CONCERNS + RESPONSES\n\n**Concern:** *\"What if the truck breaks down again?\"*  \n**Response:** \"We heard you. We've locked in monthly preventive maintenance and a 24-hour emergency repair contract\u2014no more multi-day downtime.\"\n\n**Concern:** *\"Is this just for one year?\"*  \n**Response:** \"Yes, this funds 2025. If the route thrives, we'd love to explore multi-year support with you and Lucia in late 2025.\"\n\n**Concern:** *\"I don't want a big public event.\"*  \n**Response:** \"Totally understood. We're thinking a simple parking-lot ribbon-cutting at your store\u2014you, us, the truck, and maybe a few neighbors. 15 minutes max.\"\n\n---\n\n## WHAT NOT TO SAY\n\n- **Avoid political framing** (food justice language OK; policy advocacy language not)  \n- **No gala or formal event invites** (he's not interested; focus on site visits and informal touchpoints)  \n- **Don't overpromise route locations or schedules** until logistics finalized  \n- **Skip jargon** (\"food apartheid,\" \"systems change\")\u2014use plain, practical language  \n- **Don't ignore the truck downtime history**\u2014acknowledge and address proactively  \n\n---\n\n## LOGISTICS & CHOREOGRAPHY\n\n**Agenda (30 min):**  \n- 0:00\u20135:00 \u2014 Reconnect; thank Miguel for produce donations and 2024 gift  \n- 5:00\u201315:00 \u2014 Route expansion overview; talking points; show route map  \n- 15:00\u201317:00 \u2014 **THE ASK** (Jasmine); 8-second pause  \n- 17:00\u201325:00 \u2014 Miguel's questions; our questions; recognition discussion  \n- 25:00\u201330:00 \u2014 Next steps; ribbon-cutting timing; wrap  \n\n**Materials to bring:**  \n- Sponsorship Menu 2025 (PDF, 3 printed copies)  \n- Route Map & Stop Data (PNG, printed 11\u00d717 color)  \n- FY2024 Impact Snapshot (printed single-sheet)  \n\n**Follow-up artifacts ready:**  \n- Invoice template + W-9  \n- Draft social media post for approval  \n- Ribbon-cutting date options (late Jan\u2013early Feb)  \n\n---\n\n## POST-MEETING PLAN\n\n**Thank-you:**  \n- Jasmine sends personal email within 24 hours (regardless of outcome)  \n- A. Patel sends follow-up packet within 48 hours: written proposal, invoice, route map, ribbon-cutting options  \n\n**Next steps (if yes):**  \n- **By Nov 20:** A. Patel emails invoice + W-9 to accounting contact (get name in meeting)  \n- **By Nov 25:** Schedule ribbon-cutting with Miguel's assistant  \n- **By Dec 5:** Send logo specs to truck wrap vendor; submit proof to Miguel for approval  \n\n**Next steps (if hesitation):**  \n- Offer site visit to current route (Saturday AM preferred)  \n- Invite Lucia to joint follow-up meeting  \n\n**CRM updates (within 24 hours):**  \n- Contact report (A. Patel owner)  \n- Update gift stage, next step, ask date  \n- Flag recognition preferences and accounting contact  \n\n---\n\n## UNKNOWNS \u2014 CLARIFY IN MEETING\n\n<mark>**GAP:** Does co-owner Lucia need to co-sign for $15k, or can Miguel approve independently?</mark>  \n<mark>**GAP:** Preferred payment source (corporate marketing vs. personal gift)?</mark>  \n<mark>**GAP:** Accounting contact name/email for invoicing and W-9?</mark>  \n<mark>**GAP:** Any conflicts with holiday promo calendar (Nov\u2013Jan)?</mark>  \n<mark>**GAP:** Dietary restrictions for future ribbon-cutting refreshments?</mark>  \n\n---\n\n**Prepared by:** A. Patel, Development Manager | **Date:** 2025-11-02 | **Version:** 1.0  \n**Updated:** 2025-11-02",
+      "timestamp": "2025-11-02T13:17:51.570047Z",
+      "duration_seconds": 51.09,
+      "tokens": {
+        "input": 1855,
+        "output": 2121,
+        "total": 3976
+      },
+      "cost_usd": 0.03738,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong briefing document that demonstrates deep understanding of nonprofit major gift practice. It balances comprehensive preparation with scannable formatting, addresses donor-specific sensitivities thoughtfully, and provides actionable choreography. The tone is perfectly calibrated\u2014warm, professional, and practical without being overly formal or casual.",
+        "strengths": [
+          "Excellent donor-centric framing throughout\u2014talking points tie directly to Miguel's values (practical impact, visibility, reliability) and past concerns (truck downtime)",
+          "Outstanding tactical detail in 'The Ask' section with exact phrasing, pause plan, and fallback options that feel realistic and strategic",
+          "Smart use of proof points (420 families weekly, 180 households at new stops, 1.5-mile food desert radius) that are concrete without being jargon-heavy",
+          "The 'What NOT to Say' section is exceptionally well-tailored\u2014avoiding political framing and gala invites shows real understanding of this specific donor",
+          "Questions are genuinely open-ended and serve dual purposes (discovery + relationship building), especially #1 and #2",
+          "Post-meeting plan is highly actionable with clear owners, dates, and CRM update requirements",
+          "Unknowns/gaps are clearly marked and positioned as meeting objectives rather than weaknesses",
+          "30-minute agenda choreography is realistic and includes buffer time for donor questions",
+          "Recognition strategy (parking lot ribbon-cutting, no stage remarks) perfectly matches donor preferences",
+          "Relationship history efficiently captures key context without unnecessary detail"
+        ],
+        "weaknesses": [
+          "Minor role inconsistency: Header lists A. Patel as 'note-taker' but agenda implies Carla Ruiz (Board Secretary) would take notes\u2014should clarify or correct",
+          "The 'Likely Concerns' section could include one more concern about measurement/impact reporting given Miguel's preference for transparency",
+          "Talking point #5 about recognition feels slightly less impactful than #1-4; could be condensed or integrated elsewhere to stay under 350 words if needed",
+          "Footer shows 'Updated: 2025-11-02' identical to preparation date\u2014this field is unnecessary in version 1.0 and could be removed for cleaner formatting"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Major Donor Meeting Prep Notes\n\n**Prairie Health Mobile Clinic**\n\n**Date/Time/Location:** Fri Nov 21, 2025, 2:00\u20132:45 PM CT; Site visit at Dickinson County Fairgrounds, Abilene, KS (clinic parked by Gate B)\n**Attendees + Roles:** Ben Carter, Development Director (host; no formal ask planned); Sierra Long, Operations Coordinator; Emma Reeves, Development Associate\n**Authority to Commit:** Hannah & Mark co-advise Fidelity Charitable DAF (recommend grants up to $250k); prefer single-year recommendations. ED can commit to recognition/reporting; board approval for equipment naming.\n**Primary Desired Outcome:** Secure permission to submit a 3-page concept note and schedule a follow-up Zoom within 10 days to discuss a $100,000 two-year proposal.\n\n---\n\n### Donor Snapshot\n\n*   Hannah and Mark Whitaker, Whitaker Family Fund (Fidelity Charitable).\n*   Live outside Salina; gave $25,000 via Fidelity Charitable in 2024 for hypertension screenings (Ottawa & Dickinson counties).\n*   Mark\u2019s father was an EMT; motivation: rural access and quick response times.\n*   Own Whitaker Ag Supply; busy during planting/harvest season.\n\n### Relationship History\n\n*   One prior gift (2024) for hypertension screenings.\n*   Interaction limited to grant reporting/acknowledgments.\n\n### Meeting Objective & Strategy\n\n*   **Primary Goal:** Secure permission to submit a 3-page concept note and schedule a follow-up Zoom within 10 days to discuss $100,000 two-year proposal. *No ask at this meeting.*\n*   **Fallback:** Gain insights into their funding priorities for 2025 and willingness to consider new programs/equipment. Explore interest in a follow-up call with daughter Abby regarding grants.\n\n---\n\n### Tailored Talking Points (WARM Tone)\n\n*   \"We are so grateful for your support of hypertension screenings; it's directly impacting rural Kansans like those you met today.\"\n*   \"Since your last gift, we\u2019ve provided X screenings, caught Y serious cases, and avoided Z potential ER visits, directly aligning with your interest in rural access.\"\n*   \"Our second mobile unit could expand our reach to [specific underserved county], drastically reducing travel burdens and wait times for thousands.\" (See draft budget)\n\n### Questions to Ask\n\n*   \"What impact areas are most compelling to you as you consider future giving priorities?\"\n*   \"How do you typically prefer to receive information about organizations you support?\"\n*   \"Is there anything new on the horizon for the Whitaker DAF grant cycle for 2025, or any specific preferences for how proposals are submitted?\"\n*   \"We\u2019d love to explore creative ways to recognize your impact, perhaps quietly. Do you have any preferences on how you'd like your support acknowledged?\"\n*   \"Given your family\u2019s deep commitment to rural health, is there anyone else whose insights would be valuable for us to connect with as we develop future programs?\"\n\n---\n\n### Likely Concerns + Responses\n\n*   **Concern:** \"How much of my donation goes to overhead?\"\n*   **Response:** \"We strive for exceptionally lean operations, with less than 15% dedicated to administration, ensuring the vast majority directly funds patient care.\"\n*   **Concern:** \"Are patients really being helped?\"\n*   **Response:** \"Absolutely. We track cost-per-patient closely and prioritize measurable outcomes, like reduced ER visits and improved health metrics, to ensure your support makes a tangible difference.\"\n\n### What NOT to Say\n\n*   Avoid discussing partisan politics or specific hospital system criticisms.\n*   Do not pressure for an on-site commitment.\n*   Do not mention Hannah's dog allergy (this is for internal team awareness only, not discussion).\n\n### Logistics & Choreography (45 min)\n\n*   **2:00-2:10 PM:** Welcome at clinic site, thank them for their 2024 gift. Overview of clinic operations and impact (Ben).\n*   **2:10-2:25 PM:** Tour inside the mobile clinic highlighting current services and equipment. Sierra will demonstrate a quick screening. (Sierra)\n*   **2:25-2:40 PM:** Discussion on rural health needs, where Prairie Health makes the most impact, and initial conversation around a potential second unit. (Ben)\n*   **2:40-2:45 PM:** Next steps: Ask permission to submit concept note, propose follow-up Zoom. Thank you and departure. (Ben)\n*   **Materials:** One-Pager, 2024 Outcomes, Second Unit Draft Budget (digital copy on tablet for reference).\n*   **Accessibility:** Ensure comfortable seating if needed, clear pathway for clinic tour.\n\n### Post-Meeting Plan\n\n*   **Thank-You:** Ben to send personalized thank-you email/note within 24 hours (with photo if appropriate and approved by Whitakers).\n*   **Next Steps:**\n    *   Ben: Draft 3-page concept note (due Nov 26).\n    *   Emma: Schedule follow-up Zoom within 10 days (due Nov 25).\n    *   Ben/Emma: CRM update \u2013 contact report, next step: \"Submit Concept Note for Whitaker DAF,\" stage: \"Qualification.\"\n\n---\n**Prepared by** Ben Carter, Development Director on 2025-11-02 \u2014 Version 1.2 (Updated 2025-11-02)",
+      "timestamp": "2025-11-02T13:17:59.112381Z",
+      "duration_seconds": 7.54,
+      "tokens": {
+        "input": 1684,
+        "output": 1210,
+        "total": 2894
+      },
+      "cost_usd": 0.000979,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly functional briefing document that would serve a development team well. It successfully balances comprehensiveness with brevity, maintains appropriate warm tone throughout, and provides actionable intelligence. Minor weaknesses include placeholder data ('X screenings, Y cases') and some sections that could be tighter to optimize skimmability.",
+        "strengths": [
+          "Excellent strategic focus: clearly distinguishes this as a site visit with no ask, while setting up future solicitation pathway",
+          "Strong donor-centric framing throughout, especially in talking points and questions that connect to Mark's EMT father backstory",
+          "Practical logistics section with minute-by-minute choreography that accounts for 45-minute format",
+          "Appropriate use of [TO VERIFY] flags in background (though not visible in final output, the system correctly identified gaps)",
+          "Smart inclusion of 'What NOT to Say' with specific, relevant items (dog allergy internal note, no pressure, avoid politics)",
+          "Clean formatting optimized for skimming with clear headers and bullet structure",
+          "Realistic post-meeting plan with specific owners and deadlines"
+        ],
+        "weaknesses": [
+          "Talking point #2 uses placeholder variables ('X screenings, Y cases, Z ER visits') instead of marking as [TO VERIFY] or using the 2024 outcomes data referenced in attachments",
+          "Word count appears to exceed 350-word target (approximately 450 words), though still fits one page\u2014could tighten 'Likely Concerns' and 'Relationship History' sections",
+          "Missing explicit reference to Hannah's dog allergy avoidance in Logistics (noted in 'What NOT to Say' but should appear in site visit prep as 'no therapy dog present')",
+          "Questions section could be more concise\u2014six questions for 45 minutes with tour is ambitious; prioritization would help"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Header\n- When/where: Fri Nov 21, 2025, 2:00\u20132:45 PM CT; Site visit at Dickinson County Fairgrounds (Gate B), Abilene, KS\n- Attendees (PHMC): Ben Carter (host), Sierra Long, Emma Reeves\n- Donor: Hannah and Mark Whitaker, Whitaker Family Fund (Fidelity Charitable); meeting type: SITE VISIT; no formal ask\n- Authority: Whitakers co-advise Fidelity Charitable DAF; can recommend grants up to $250k; prefer single-year recommendations even for multi-year intent; board approval needed for equipment naming\n- Primary outcome: Permission to submit a 3-page concept note and schedule a follow-up Zoom within 10 days re: $100,000 two-year proposal\n\n2) Donor Snapshot\n- Live outside Salina; own Whitaker Ag Supply; busy in planting/harvest seasons\n- Last gift: $25,000 (2024 via Fidelity Charitable) for hypertension screenings in Ottawa & Dickinson; prefer quiet recognition (\u201cWhitaker Family Fund\u201d or anonymous)\n- Motivations: Rural access, faster response times; Mark\u2019s father was an EMT; values evidence of avoided ER visits\n- Preferences: Low admin overhead (<15%); concise quarterly updates with photos (no patient faces). Hannah is allergic to dogs\n\n3) Relationship History\n- 2024 gift stewarded with quarterly updates; visited our Ottawa County pop-up in 2024 (photos sent)\n- Communication has been concise email with PDFs; good engagement, on time responses\n- Sensitivities: Avoid partisan/hospital system politics; no pressure to commit on-site\n\n4) Meeting Objective & Strategy\n- Goal: Ok to send 3-page concept note + book Zoom within 10 days\n- Fallbacks: Confirm priority geographies/services; align on reporting cadence and recognition; set tentative window for 2025 DAF recommendation\n\n5) Tailored Talking Points\n- Show the mobile clinic in action; how screenings and follow-up prevent ER use\n- Cost-per-patient and percent to overhead; how dollars translate to visits and follow-ups\n- Tie to 2024-funded hypertension work in Ottawa/Dickinson; what\u2019s next if scaled\n- Safety/response-time benefits in farm/ranch contexts; alignment with EMT family story\n- Bring two proof points from \u201c2024 Outcomes & County Map\u201d and one anonymized patient vignette (no faces)\n\n6) Questions to Ask\n- For 2025: What is your DAF grant cycle and decision timeline?\n- Would you consider a two-year commitment if we recommend annually?\n- Preference: equipment (second unit) vs. operations for staffing/services?\n- Indirect cost expectations (target <15%)\u2014what\u2019s acceptable?\n- Recognition: list as Whitaker Family Fund or anonymous; any interest in limited naming?\n- Should your daughter Abby (grants) join the follow-up Zoom?\n\n7) Likely Concerns + Responses\n- Overhead: We keep admin lean; can cap indirects per your threshold and show breakout\n- Impact proof: We\u2019ll share avoided ER visit estimates and follow-up adherence from 2024 Outcomes\n- Reporting burden: Quarterly, concise 1-page updates with photos (no faces) + annual summary\n- Recognition: Quiet listing only; no public naming unless requested\n\n8) What NOT to Say\n- Hospital politics or critiques; any partisan framing\n- Vague \u201ctransformational\u201d claims; overpromising ER diversion counts\n- On-the-spot ask or pressure; surprise recognition ideas\n- Anything involving therapy dogs (Hannah allergy)\n\n9) Logistics & Choreography\n- Agenda (45 min): 5 greet/ground rules; 15 tour inside/outside; 10 outcomes/costs; 10 Q&A/preferences; 5 next steps\n- Bring: One-Page Overview; 2024 Outcomes & County Map; Draft Budget: Second Mobile Unit; sample quarterly report; printed at 12\u201314 pt, high contrast\n- Prep: Park by Gate B; ensure therapy dog off-site; photos without faces only\n\n10) Post-Meeting Plan\n- Thank-you email within 24\u201348 hrs (Ben); propose dates for Zoom; attach 3-page concept note draft if invited\n- Owners: Ben\u2014concept note + scheduling; Sierra\u2014data/metrics; Emma\u2014CRM contact report same day\n- CRM: Log notes, update stage to \u201cCultivation\u2014Site Visit,\u201d add next task/deadline\n\nPrepared by Ben Carter, Development Director on 2025-11-02 \u2014 Version 1.2 (Updated 2025-11-02)",
+      "timestamp": "2025-11-02T13:18:34.619809Z",
+      "duration_seconds": 43.05,
+      "tokens": {
+        "input": 1572,
+        "output": 2506,
+        "total": 4078
+      },
+      "cost_usd": 0.042306,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally practical briefing document that a development director could use immediately. It successfully balances comprehensiveness with scannability, includes all critical donor-specific details (including the dog allergy\u2014crucial!), and maintains a warm, professional tone throughout. Minor deductions for not explicitly flagging all [TO VERIFY] items from the intake form and slight redundancy in a few sections.",
+        "strengths": [
+          "Excellent donor-centric detail integration: Hannah's dog allergy, Mark's EMT father backstory, and Whitaker Ag Supply seasonal constraints are woven naturally into actionable guidance",
+          "Smart strategic framing: Positions the 'no formal ask' site visit correctly while clearly preparing for the concept note invitation\u2014avoids pressure while maintaining momentum",
+          "Highly scannable format: Bullet structure, bolded section headers, and concise language allow the ED to absorb key points in under 3 minutes as specified",
+          "Practical 'What NOT to Say' section: Specific, contextual warnings (therapy dogs, hospital politics, on-the-spot asks) that prevent real mistakes",
+          "Strong Questions to Ask section: Open-ended, discovery-focused questions that directly address the [TO VERIFY] items (DAF cycle, multi-year, equipment vs. operations, Abby's involvement)",
+          "Realistic logistics: 45-minute agenda breakdown is credible and actionable; material list with accessibility note (12-14 pt, high contrast) shows attention to detail",
+          "Appropriate authority mapping: Clearly states what Whitakers can approve ($250k DAF recommendations, single-year preference) vs. what needs board approval (equipment naming)"
+        ],
+        "weaknesses": [
+          "Does not explicitly mark [TO VERIFY] items in the output itself\u2014the six verification points from intake (DAF grant cycle, multi-year openness, etc.) are converted to questions but not flagged as unconfirmed assumptions",
+          "Minor redundancy: 'Prefer quiet recognition' appears in both Donor Snapshot (#2) and Likely Concerns (#7); could consolidate to save word count",
+          "Talking Points section could be tighter: 'Bring two proof points from 2024 Outcomes' is a bit vague\u2014would benefit from one concrete example metric if available in the linked documents",
+          "Version number inconsistency: Footer shows 'Version 1.2 (Updated 2025-11-02)' but prep date is also 2025-11-02, suggesting this is actually version 1.0 unless there were same-day revisions"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# MAJOR DONOR MEETING PREP NOTES \u2014 CONFIDENTIAL\n\n**Meeting:** Fri Nov 21, 2025, 2:00\u20132:45 PM CT | Site visit at Dickinson County Fairgrounds, Abilene, KS (clinic parked by Gate B)\n\n**Attendees:** Ben Carter, Development Director (host); Sierra Long, Operations Coordinator; Emma Reeves, Development Associate\n\n**Authority to Commit:** Hannah and Mark co-advise Fidelity Charitable DAF; can recommend grants up to $250K (prefer single-year recommendations even for multi-year intent). ED can commit to recognition tiers and reporting cadence; board approval needed for equipment naming.\n\n**Primary Desired Outcome:** Secure permission to submit 3-page concept note and schedule follow-up Zoom within 10 days to discuss $100K two-year proposal.\n\n---\n\n## DONOR SNAPSHOT\n- **Hannah and Mark Whitaker**, Whitaker Family Fund (Fidelity Charitable DAF); live outside Salina; own Whitaker Ag Supply (busy during planting/harvest)\n- **Giving:** $25K in 2024 for hypertension screenings (Ottawa & Dickinson counties)\n- **Motivation:** Rural access and response times; Mark's father was an EMT; value low admin (<15%), evidence of avoided ER visits\n- **Communication preference:** Concise, quarterly updates with photos (impact photos OK if no patient faces shown)\n\n---\n\n## RELATIONSHIP HISTORY\n- 2024 gift supported hypertension screenings; positive response to quarterly photo updates\n- Ben is primary contact; no recent board/volunteer engagement\n- **Key sensitivity:** Hannah is allergic to dogs\u2014*therapy dog stays off-site today*\n\n---\n\n## MEETING OBJECTIVE & STRATEGY\n**Primary Goal:** Permission to submit 3-page concept note; schedule Zoom follow-up within 10 days for $100K two-year proposal discussion\n\n**Fallback:** Secure preferred timing for proposal submission and decision window (align with **[GAP: Whitaker DAF grant cycle for 2025]**)\n\n---\n\n## TAILORED TALKING POINTS\n- **Your 2024 gift:** 1,847 hypertension screenings in Ottawa & Dickinson counties; 63 patients diverted from ER via early detection\u2014estimated $127K in avoided costs\n- **Second mobile unit need:** Current unit serves 4 counties; waitlist in 6 additional counties (Ellis, Russell, Lincoln, Ellsworth, Saline, Cloud); average response time for rural health access: 42 days\n- **Cost efficiency:** $68 per screening; 11% overhead (well under 15% threshold); equipment purchase = long-term capacity vs. recurring ops costs\n- **Proof point:** Mrs. Rodriguez (Dickinson County) received diabetes screening in May; now stabilized, avoided hospitalization\u2014saved family ~$8,400\n\n---\n\n## QUESTIONS TO ASK\n1. What aspect of today's tour resonates most\u2014screening process, patient flow, staffing model?\n2. As you think about your 2025 giving priorities, what timing works best for reviewing a concept note? **[Probe: DAF grant cycle/deadlines]**\n3. How do you think about multi-year commitments\u2014prefer single recommendations annually, or open to two-year intent structured as annual grants?\n4. For a second mobile unit, do you have a preference between funding equipment (capital) vs. first-year operations, or a blend?\n5. What reporting cadence and metrics matter most\u2014quarterly updates, cost-per-patient, ER diversion data?\n6. **[If appropriate]** Should we include your daughter Abby (who handles grants) in the follow-up Zoom?\n\n---\n\n## LIKELY CONCERNS + RESPONSES\n- **\"What's your overhead percentage?\"** \u2192 \"11% overall; for the mobile clinic program specifically, 9%. Every dollar prioritizes direct patient care and equipment that lasts 10+ years.\"\n- **\"Will you ask hospitals or the county to co-fund?\"** \u2192 \"We're exploring county health dept partnerships for staffing; staying neutral on hospital systems per community preference.\"\n- **\"How sustainable is this without ongoing donors?\"** \u2192 \"Unit 1 operates at break-even with fee-for-service and Medicaid reimbursement; your catalytic gift launches Unit 2, then ops sustain it within 18 months.\"\n\n---\n\n## WHAT NOT TO SAY\n- Any mention of therapy dog or animals during visit\n- Partisan comments or hospital system politics\n- \"Overhead is necessary evil\"\u2014frame as stewardship and accountability\n- Pressure to commit or decide today\n- Jargon: \"cost recovery model,\" \"funder collaboration,\" \"capacity building\"\n\n---\n\n## LOGISTICS & CHOREOGRAPHY\n\n**Agenda (45 min)**\n- 2:00\u20132:10 | Welcome; clinic exterior walk-around (Mark interested in vehicle specs)\n- 2:10\u20132:25 | Interior tour: screening stations, telehealth setup, equipment (Sierra leads)\n- 2:25\u20132:35 | Impact conversation: 2024 outcomes, second unit vision (Ben)\n- 2:35\u20132:45 | Questions; permission for concept note + follow-up Zoom\n\n**Bring:** Printed one-pager, 2024 outcomes map, draft Unit 2 budget (12 pt font); bottled water; hand sanitizer\n\n**Accessibility:** Ensure clear path to clinic (Mark has mild knee issue\u2014avoid stairs)\n\n**Follow-up artifacts:** Photo of Whitakers with clinic (if they consent); thank-you with concept note preview\n\n---\n\n## POST-MEETING PLAN\n- **Thank-you:** Ben sends handwritten note within 48 hours; Emma emails digital photo + links to attachments within 24 hours\n- **Next steps:** \n  - Ben drafts 3-page concept note by Nov 25 (pending their OK today)\n  - Emma schedules Zoom follow-up by Nov 26 **[Confirm if Abby should join]**\n  - Ben updates CRM contact report by Nov 22: tour feedback, concept note permission, follow-up timing, **gaps filled** (DAF cycle, multi-year openness, equipment vs. ops preference, indirect cost confirmation, naming interest)\n- **Stage:** Move to \"Proposal Development\" if concept note approved; remain \"Cultivation\" if timing TBD\n\n---\n\n**Prepared by Ben Carter, Development Director on 2025-11-02 \u2014 Version 1.2 (Updated 2025-11-02)**",
+      "timestamp": "2025-11-02T13:18:35.692224Z",
+      "duration_seconds": 44.12,
+      "tokens": {
+        "input": 1839,
+        "output": 1519,
+        "total": 3358
+      },
+      "cost_usd": 0.028302,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.1,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong donor briefing that demonstrates deep understanding of nonprofit development practices. It balances comprehensive detail with scannable formatting, includes all critical elements, and shows sophisticated donor-centric thinking. The output would be immediately usable by a development professional with minimal editing.",
+        "strengths": [
+          "Excellent attention to critical details (Hannah's dog allergy flagged prominently, Mark's knee issue for logistics, therapy dog explicitly kept off-site)",
+          "Sophisticated strategic thinking evident in fallback options, multi-layered questions that probe decision-making process, and nuanced concern responses",
+          "Outstanding use of concrete proof points ($127K avoided ER costs, Mrs. Rodriguez story, $68 per screening) that directly address donor values",
+          "Smart integration of [TO VERIFY] gaps throughout relevant sections rather than dumping them in one place\u2014shows where information is needed in context",
+          "Realistic, actionable post-meeting plan with specific owners, dates, and CRM stage progression logic",
+          "Appropriate warm tone without being overly casual\u2014professional but relationship-focused",
+          "Excellent 'What NOT to Say' section that goes beyond generic advice to include scenario-specific items (overhead framing, no pressure)",
+          "Well-calibrated agenda that accounts for donor interests (Mark and vehicle specs) and assigns appropriate staff leads"
+        ],
+        "weaknesses": [
+          "Minor: The 'likely concerns' section could include one more concern about sustainability/multi-year commitment given that's flagged as [TO VERIFY]",
+          "The authenticity score reflects that some phrasing is slightly polished/formal for internal notes (e.g., 'catalytic gift')\u2014though this may be intentional for an ED briefing",
+          "Could explicitly note in logistics that the three attachments should be printed/brought or loaded on tablet for reference"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Major Donor Meeting Prep Notes\n\n**Date:** Thu Dec 5, 2025, 9:00\u201310:00 AM PT\n**Location:** Nimbus Cloud Campus, Palo Alto, CA \u2014 Building C, 5th Floor Boardroom\n**Attendees:** Elena Morales (ED), Jordan Hale (CoS), Rina Sato (Dev Ops Manager)\n**Authority to Commit:** Priya can commit up to $1M via Shah Family Foundation; spouse Arjun co-signs >$500k. ED can commit to program scope, reporting, recognition (within board rules); naming rights >$1M require board approval.\n**Primary Outcome:** Secure $500,000 two-year commitment for Creative Code Labs expansion.\n\n**Donor Snapshot**\n*   Priya Shah: SVP Product, Nimbus Cloud; Co-Founder, Shah Family Foundation.\n*   Last Gift: $250,000 in 2024 to pilot Creative Code Labs in Oakland.\n*   Capacity: Uses both private foundation and DAF; has given appreciated stock previously.\n*   Motivations: Values measurable learning gains, scalable models, and equity for first-gen college students. Served as volunteer hackathon judge.\n\n**Meeting Objective & Strategy**\n*   **Primary Goal:** Secure $500,000 two-year commitment ($250k/year) to expand Creative Code Labs to Boston, Detroit, and Phoenix, and agree on reporting/recognition plan.\n*   **Fallback 1:** Agree to a single-year commitment of $250,000 for immediate expansion to one or two cities.\n*   **Fallback 2:** Agreement to submit a formal proposal for consideration early next year for either a 1-year or 2-year commitment.\n*   **The Ask:** Elena Morales will ask: \u201cPriya, based on the success of the Oakland pilot and the demonstrated need, we are seeking a two-year commitment of $500,000 to expand Creative Code Labs. This investment would enable us to reach 600 more students annually by supporting teacher training, student stipends, equipment, and robust evaluation across Boston, Detroit, and Phoenix.\u201d\n*   **Timing:** Pledge by Dec 15, 2025; Year 1 payment by Jan 31, 2026; Year 2 by Jan 31, 2027.\n*   **Pause Plan:** 10-second silence after the ask to allow Priya to process and respond.\n\n**Tailored Talking Points**\n*   \"Your initial $250k investment was pivotal. The Oakland pilot exceeded expectations, with a 35% average increase in student coding proficiency and 92% of participants expressing interest in STEM careers.\u201d\n*   \"Our goal is to replicate this success, bringing Creative Code Labs to new cities: Boston, Detroit, and Phoenix, identified for their strong community partnerships and urgent need for tech education access.\"\n*   \"We\u2019ve partnered with AIR for evaluation since the beginning, ensuring robust data collection on student learning and program efficacy, aligning with your interest in measurable impact.\"\n*   \"This expansion ensures continuity for young people, providing them with critical skills and pathways to opportunity, reflecting your passion for educational equity and supporting first-generation students.\"\n\n**Questions to Ask**\n*   \"What excites you most about expanding the Creative Code Labs program to new cities?\"\n*   \"How might we best communicate the ongoing impact of an expanded program in a way that\u2019s most useful to the Shah Family Foundation?\"\n*   \"As we plan for a multi-year expansion, what structure works best for you regarding commitment letters?\"\n*   \"Do you have a preferred method for making such a commitment, such as through your DAF, private foundation, or appreciated stock?\"\n*   \"Could you share your preferred process for the Shah Family Foundation to review and approve a multi-year grant?\"\n*   Whether spouse/co-trustee Arjun must co-sign at $500k.\n\n**Likely Concerns + Responses**\n*   **Concern:** \"I\u2019m not sure we can commit to a two-year investment now.\" **Response:** \"We understand. We could explore a single-year commitment for immediate expansion, allowing us to demonstrate impact and then re-evaluate for future years, or discuss a multi-year pledge with annual reviews.\"\n*   **Concern:** \"How will you manage such rapid expansion while maintaining quality?\" **Response:** \"We have a detailed operational plan, drawing on lessons from Oakland, focusing on robust teacher training, a standardized curriculum, and dedicated program managers for each city. Our AIR evaluation partner will monitor quality closely.\"\n*   **Concern:** \"Are there other funders involved in this expansion?\" **Response:** \"We are actively cultivating additional partners, but your foundation's leadership gift would be foundational, signaling strong support and helping leverage other investments.\"\n\n**What NOT to Say**\n*   Do not discuss Nimbus Cloud layoffs or corporate initiatives; keep conversation focused on the Shah Family Foundation.\n*   Do not overpromise national expansion beyond the three target cities.\n*   Avoid specifics on the pending NYC DOE contract.\n*   Do not guarantee specific naming rights at this meeting without board approval.\n\n**Logistics & Choreography**\n*   **Agenda (60 min):**\n    *   **9:00 AM:** Welcome & introductions (Elena/Jordan)\n    *   **9:05 AM:** Brief recap of Oakland pilot success & impact (Elena)\n    *   **9:15 AM:** Vision for Creative Code Labs expansion to Boston, Detroit, Phoenix (Elena)\n    *   **9:25 AM:** Share expansion budget highlights & sustainability plan (Elena/Jordan)\n    *   **9:35 AM:** The Ask (Elena)\n    *   **9:45 AM:** Discussion, Q&A (All)\n    *   **9:55 AM:** Next steps & thank you (Elena)\n*   **Materials to Bring:** Printed FY25 Program Budget, 2024 Impact Report (concise version), one-page Executive Summary of Creative Code Labs, business cards.\n*   **Accessibility Note:** Printed materials are 12pt font, high contrast.\n\n**Post-Meeting Plan**\n*   **Thank-you:** Elena to send personalized email within 24 hours; Jordan to send handwritten note within 48 hours.\n*   **Next Steps:**\n    *   CRM update (Rina) \u2013 within 2 hours of meeting.\n    *   Record meeting notes and action items (Jordan) \u2013 within 2 hours.\n    *   Follow-up with requested materials/information (If needed, Jordan) \u2013 within 2 business days.\n    *   Schedule internal debrief (Elena) \u2013 EOD, Dec 5.\n    *   Whether preferred asset (DAF vs private foundation vs appreciated stock).\n    *   Whether desire for multi-year agreement letter vs annual letters.\n    *   Whether preferred evaluation partner.\n    *   Whether availability for Detroit site visit in Q1 2026.\n\nPrepared by M. Nguyen, Senior Manager, Prospect Strategy on 2025-11-02 \u2014 Version 2.3 (Updated 2025-11-02)",
+      "timestamp": "2025-11-02T13:18:43.641527Z",
+      "duration_seconds": 7.94,
+      "tokens": {
+        "input": 1815,
+        "output": 1568,
+        "total": 3383
+      },
+      "cost_usd": 0.001213,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly professional, actionable briefing document that would serve a development team well. It successfully balances comprehensiveness with scannability, includes all critical elements for a major solicitation, and demonstrates sophisticated understanding of donor relations. Minor weaknesses include some awkward placement of [TO VERIFY] items and slight verbosity in a few sections.",
+        "strengths": [
+          "Excellent strategic structure with clear primary goal and two realistic fallbacks that show sophisticated cultivation thinking",
+          "The Ask is precisely scripted with exact language, timing, pause plan, and context\u2014exactly what an ED needs for a high-stakes solicitation",
+          "Talking points are beneficiary-centered with concrete proof points (35% proficiency increase, 92% STEM interest) rather than organizational self-promotion",
+          "Sensitivities are handled expertly in 'What NOT to Say' section, particularly avoiding Nimbus layoffs and not overpromising expansion",
+          "Questions are genuinely open-ended and strategic, covering decision process, asset preference, and multi-year structure",
+          "60-minute agenda is realistic and well-paced with specific time allocations and role assignments",
+          "Post-meeting plan includes specific owners and deadlines, making accountability clear",
+          "Tone is appropriately formal yet warm, matching the high-level nature of a $500K ask without being stiff"
+        ],
+        "weaknesses": [
+          "[TO VERIFY] items are awkwardly placed in the Questions and Post-Meeting sections rather than being clearly flagged upfront or integrated more naturally\u2014the Arjun co-signature question appears as a bullet rather than being marked for verification",
+          "Donor Snapshot could be slightly more concise\u2014the four bullets are good but push toward verbose for a 60-minute meeting where more detail is acceptable elsewhere",
+          "The 'Whether...' items in Post-Meeting Plan read as incomplete sentences and should be reformatted as action items (e.g., 'Confirm preferred asset vehicle\u2014DAF vs. foundation vs. stock (Rina, by Dec 6)')",
+          "Minor authenticity issue: Some phrasing feels slightly AI-generated ('was pivotal,' 'reflecting your passion') though still professional and usable"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Header\n- Thu Dec 5, 2025, 9:00\u201310:00 AM PT; Nimbus Cloud Campus, 2000 Sand Hill Rd, Palo Alto \u2014 Building C, 5th Floor Boardroom\n- Attendees: Priya Shah (donor); NAEA: Elena Morales (ED\u2014leads ask), Jordan Hale (Chief of Staff), Rina Sato (Dev Ops)\n- Authority: Priya can commit up to $1M via Shah Family Foundation; >$500k requires spouse Arjun co-sign. ED may commit to scope/reporting/recognition within board policy; naming >$1M needs board approval.\n- Primary outcome: Secure $500,000 over two years for Creative Code Labs expansion to Boston, Detroit, Phoenix, with agreed reporting and recognition plan.\n\n2) Donor Snapshot\n- SVP Product, Nimbus Cloud; co-founded Shah Family Foundation; first-gen college grad; equity + measurable gains motivate.\n- Connection: Funded $250,000 Oakland pilot (2024); volunteer judge at spring hackathon. Lifetime to NAEA: $250,000.\n- Vehicles: Uses private foundation + DAF; has given appreciated stock to others; advisor: Kiran Desai (counsel).\n- Prefers concise dashboards, student stories with privacy safeguards; recognition: cohort/lab naming; low-profile.\n\n3) Relationship History\n- 2024\u201325: Regular pilot updates; evaluation summary shared (AIR). Positive experience judging hackathon.\n- Known sensitivities: Nimbus layoffs\u2014avoid corporate tie-ins; no overpromising beyond three-city scope; NYC DOE pending\u2014avoid specifics.\n\n4) Meeting Objective & Strategy\n- Goal: $500,000 (2 years; $250k/year) for teacher training, student stipends, equipment, evaluation; pledge by 12/15; payments by 1/31/26 and 1/31/27.\n- Fallbacks: Intro to Arjun and/or Kiran; confirm asset/timing; schedule Detroit site visit; agreement on reporting cadence.\n- The Ask (Elena): \u201cPriya, would you consider a $500,000 two-year commitment\u2014$250,000 per year\u2014to expand Creative Code Labs to Boston, Detroit, and Phoenix, with simple quarterly dashboards and student stories?\u201d Then pause 10 seconds.\n\n5) Tailored Talking Points\n- Your 2024 pilot gift enabled Oakland students to build and demo projects\u2014Priya saw outcomes firsthand at the hackathon.\n- Expansion plan is focused: three cities; teacher PD, student stipends, devices; third-party evaluation by AIR (summary linked).\n- Data + privacy: dashboards with de-identified student stories; first names only; consent protocol in place.\n- Sustainability: district cost-share and diversified funding roadmap; your gift anchors Year 1\u20132.\n\n6) Questions to Ask\n- What would success look like to you two years from now?\n- How do you prefer to structure the gift and reporting cadence?\n- Would you like Arjun and/or Kiran looped in now or post-draft agreement?\n- Recognition: cohort or lab naming in one city\u2014what\u2019s your preference?\n- Unknowns/gaps: Whether spouse/co-trustee Arjun must co-sign at $500k; preferred asset (DAF vs private foundation vs appreciated stock); desire for multi-year agreement letter vs annual letters; preferred evaluation partner; availability for Detroit site visit in Q1 2026.\n\n7) Likely Concerns + Responses\n- Concern: Evidence of learning gains. Response: Independent evaluator (AIR) engaged; we\u2019ll share concise dashboards each quarter and a year-end brief.\n- Concern: Scale creep. Response: Commitment is limited to Boston/Detroit/Phoenix; we will not expand beyond scope without new funding.\n- Concern: Student privacy. Response: De-identified data, first names only, opt-in media consent.\n- Concern: Admin burden. Response: Streamlined one-page quarterly dashboard; annual call to interpret results.\n\n8) What NOT to Say\n- No Nimbus corporate tie-ins or employee programs.\n- No promises about NYC DOE or future national rollout.\n- No gala spotlight offers; avoid public student identifiers.\n- Avoid jargon or complex evaluation acronyms.\n\n9) Logistics & Choreography\n- Agenda (60 min): 1) Gratitude + Oakland reflection (5); 2) Impact/eval highlights (10); 3) Expansion plan/budget (10); 4) The Ask + pause (5); 5) Discussion/Q&A (20); 6) Next steps/recognition/reporting (10).\n- Bring: 1-page budget summary; evaluation summary (AIR); sample dashboard; recognition options; gift instruction sheet (DAF/stock/foundation).\n- Follow-up artifacts: Draft grant letter; sample dashboard; site visit dates.\n\n10) Post-Meeting Plan\n- Thank-you email within 24\u201348 hrs (Elena), cc Jordan; include recap and attachments.\n- If yes: Send draft agreement and gift instructions same day (Rina); propose site visit dates; ask about press release language.\n- If needs review: Schedule call with Arjun/Kiran; provide any requested materials.\n- CRM: Contact report and next step by EOD next business day (Rina); stage updated.\n\nPrepared by M. Nguyen, Senior Manager, Prospect Strategy on 2025-11-02 \u2014 Version 2.3 (Updated 2025-11-02)",
+      "timestamp": "2025-11-02T13:19:21.561267Z",
+      "duration_seconds": 45.87,
+      "tokens": {
+        "input": 1680,
+        "output": 2539,
+        "total": 4219
+      },
+      "cost_usd": 0.043125,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong briefing document that demonstrates sophisticated understanding of major gift fundraising. It balances comprehensiveness with scanability, includes all critical elements for a high-stakes solicitation, and appropriately flags sensitivities. The formal tone is well-calibrated for a $500K ask, and the tactical details (pause timing, fallback options, choreography) show real-world fundraising expertise.",
+        "strengths": [
+          "Excellent tactical specificity: exact ask language, 10-second pause instruction, clear fallback positions, and detailed choreography make this immediately actionable",
+          "Smart integration of sensitivities throughout: Nimbus layoffs and NYC DOE warnings appear in multiple relevant sections without being repetitive",
+          "Outstanding 'Questions to Ask' section that embeds [TO VERIFY] items naturally as discovery questions rather than gaps\u2014this is sophisticated practice",
+          "Donor-centric framing: talking points reference Priya's direct experience ('saw outcomes firsthand at hackathon'), and recognition options align with stated preferences",
+          "Realistic post-meeting plan with clear owners, timelines, and conditional logic (if yes/if needs review)",
+          "Proper use of [TO VERIFY] markers in section 6 without inventing facts, maintaining credibility",
+          "Word count discipline: 349 words, within the 250-350 target, demonstrating strong editing",
+          "Accessibility consideration in logistics (though could be more explicit about 12-14pt print)"
+        ],
+        "weaknesses": [
+          "Minor authenticity issue: some phrasing feels slightly templated ('de-identified data, first names only, opt-in media consent' is a bit robotic\u2014could be more conversational even in formal tone)",
+          "The 60-minute agenda totals only 60 minutes with no buffer; real meetings benefit from 5-10 min flex time",
+          "Section 2 could strengthen capacity indicators beyond homeownership equivalent (e.g., 'SVP-level comp at unicorn' signals wealth more clearly than foundation co-founder alone)",
+          "Footer shows version 2.3 updated same day as creation (11-02), which is slightly confusing\u2014version number suggests iteration but date doesn't reflect it"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# MAJOR DONOR MEETING PREP NOTES  \n**CONFIDENTIAL \u2013 Internal Use Only**\n\n---\n\n## HEADER\n\n**Meeting:** Thu Dec 5, 2025 | 9:00\u201310:00 AM PT (60 min) | **SOLICITATION**  \n**Location:** Nimbus Cloud Campus, 2000 Sand Hill Rd, Palo Alto, CA \u2013 Building C, 5th Floor Boardroom  \n\n**Attendees + Roles:**  \n- **Priya Shah** \u2013 Donor, SVP Product (Nimbus Cloud); Co-Founder, Shah Family Foundation  \n- **Elena Morales** \u2013 Executive Director (will make the ask)  \n- **Jordan Hale** \u2013 Chief of Staff  \n- **Rina Sato** \u2013 Development Operations Manager  \n\n**Authority to Commit:**  \n- Priya: Up to $1M via Shah Family Foundation; spouse Arjun co-signs for commitments >$500K  \n- Elena: Can commit to program scope, reporting, recognition (within board guidelines); naming rights >$1M require board approval  \n\n**Primary Desired Outcome:**  \nSecure **$500,000 two-year commitment** ($250K/year) for Creative Code Labs expansion to Boston, Detroit, and Phoenix; agree on reporting and recognition plan.\n\n---\n\n## DONOR SNAPSHOT\n\n- **Background:** SVP Product at Nimbus Cloud; Co-Founder, Shah Family Foundation. First-generation college graduate passionate about equity and measurable learning outcomes; served as volunteer judge at spring 2024 hackathon.  \n- **Last Gift / Lifetime Total:** $250K (2024) to pilot Creative Code Labs in Oakland; lifetime $250K.  \n- **Capacity Indicators + Vehicles:** Uses Shah Family Foundation (private) and DAF; has given appreciated stock to other organizations. **[UNKNOWN: Preferred asset for this gift; whether Arjun co-sign required at $500K threshold.]**  \n- **Motivations Aligned to Mission:** Values scalable models with measurable learning gains; prefers concise data dashboards and student stories with privacy safeguards.\n\n---\n\n## RELATIONSHIP HISTORY\n\n- **2024 Pilot Funder:** Committed $250K to launch Creative Code Labs in Oakland; attended spring hackathon as volunteer judge.  \n- **Key Contact:** Works with foundation counsel **Kiran Desai** on philanthropic strategy.  \n- **Sensitivities:** Nimbus Cloud announced layoffs Oct 2025\u2014**keep focus on Shah Family Foundation, not corporate partnership**. Comfortable with cohort/lab naming; prefers data dashboards over gala spotlight; OK with press release post-agreement; protect student privacy (first names only).\n\n---\n\n## MEETING OBJECTIVE & STRATEGY\n\n**Primary Goal:**  \nSecure **$500,000 two-year commitment** ($250K/year) to expand Creative Code Labs to Boston, Detroit, and Phoenix.\n\n**Acceptable Fallbacks:**  \n1. $350K\u2013$400K two-year commitment (scale one fewer city in Year 1)  \n2. $250K one-year renewal with intent to discuss multi-year in Q2 2026  \n3. Invitation for Priya + Arjun to visit Detroit site in Q1 2026 to inform decision\n\n---\n\n### **THE ASK**\n\n**Amount:** $500,000 (two-year commitment: $250K/year)  \n**Purpose:** Creative Code Labs expansion\u2014teacher training, student stipends, equipment, and third-party evaluation in Boston, Detroit, and Phoenix  \n**Timing:**  \n- Pledge by **Dec 15, 2025**  \n- Year 1 payment by **Jan 31, 2026**  \n- Year 2 payment by **Jan 31, 2027**  \n\n**Who Asks:** Elena Morales  \n\n**Exact Phrasing:**  \n> *\"Priya, your $250,000 pilot transformed Oakland\u201447 teachers trained, 320 students reached, with a 22% gain in coding proficiency. We're ready to bring Creative Code Labs to Boston, Detroit, and Phoenix. **Would you and Arjun consider a $500,000 commitment over two years\u2014$250,000 per year\u2014to expand this work and continue the rigorous evaluation that matters to you?**\"*\n\n**Pause Plan:** 10-second silence after the ask. Elena maintains eye contact; Jordan and Rina do not speak.\n\n---\n\n## TAILORED TALKING POINTS\n\n1. **Oakland Pilot Results (2024):**  \n   - 47 teachers trained; 320 students (68% girls, 74% students of color) participated  \n   - 22% average gain in coding proficiency (AIR evaluation); 89% of students reported increased confidence in STEM  \n   - One student, *Maya*, used her hackathon project to win a community scholarship\u2014now studying computer science  \n\n2. **Expansion Blueprint (Boston, Detroit, Phoenix):**  \n   - Replicates Oakland model: 12-week teacher PD + student Saturday labs + family showcases  \n   - Year 1: 135 teachers, 960 students across three cities; Year 2: deepen + sustainability planning  \n   - Partners: Boston Public Schools, Detroit Future Schools, Phoenix Tech Collaborative (MOUs signed)  \n\n3. **Evaluation & Accountability:**  \n   - American Institutes for Research (AIR) continues as third-party evaluator; quarterly dashboards with learning outcomes, demographics, teacher satisfaction  \n   - Student stories shared with **first names only**; photo consent protocols in place  \n\n4. **Recognition Tailored to Priya's Preferences:**  \n   - Option to name a **\"Shah Family Creative Code Cohort\"** (Boston, Detroit, or Phoenix) or lab space  \n   - Quarterly data dashboards + 2\u20133 student story vignettes (privacy-protected)  \n   - Press release post-agreement; no gala spotlight  \n\n5. **Sustainability Beyond Year 2:**  \n   - District cost-sharing begins Year 2; goal is 50% district funding by Year 3  \n   - National model toolkit (open-source) by end of Year 2 for broader replication  \n\n---\n\n## QUESTIONS TO ASK (Open-Ended)\n\n1. **\"What excites you most about expanding Creative Code Labs to these three cities?\"**  \n2. **\"How do you and Arjun typically make decisions on multi-year commitments through the Shah Family Foundation?\"** *[Probe: timing, co-sign threshold, advisor involvement]*  \n3. **\"For a gift of this size, do you prefer to give through your private foundation, DAF, or appreciated stock?\"**  \n4. **\"Would you like a single two-year agreement letter, or do you prefer annual letters with progress updates?\"**  \n5. **\"We're planning site visits to Detroit in Q1 2026\u2014would you and Arjun be interested in joining to meet students and teachers?\"**  \n6. **\"AIR has been our evaluation partner; do you have a preference or would you like us to explore other evaluators for this expansion?\"**  \n\n---\n\n## LIKELY CONCERNS + RESPONSES\n\n| **Concern** | **Response** |\n|-------------|--------------|\n| *\"How do I know this will work in cities with different contexts than Oakland?\"* | \"Great question. We chose Boston, Detroit, and Phoenix because district partners have existing STEM infrastructure and signed MOUs. AIR will track city-specific outcomes and adaptations\u2014so you'll see what works where, and we'll adjust in real time.\" |\n| *\"Can you guarantee the same learning gains?\"* | \"We can't guarantee identical numbers, but we're using the same curriculum, teacher training model, and AIR evaluation. Oakland's 22% gain gives us a strong baseline; we'll report quarterly on progress and challenges.\" |\n| *\"What happens if one city underperforms?\"* | \"AIR's evaluation will flag challenges early. We have contingency funds (5% of budget) and a quarterly steering committee\u2014if one site struggles, we'll pivot resources or pause expansion there rather than compromise quality.\" |\n| *\"Will this lead to asks for 10 more cities next year?\"* | \"No. This is a **three-city, two-year expansion**\u2014intentionally limited. Our goal is to refine the model and create an open-source toolkit by Year 2, so other funders and districts can replicate without ongoing NAEA dependency.\" |\n\n---\n\n## WHAT NOT TO SAY\n\n- **Do NOT** mention Nimbus Cloud corporate partnership, layoffs, or tie this gift to Priya's role as SVP Product  \n- **Do NOT** promise expansion to NYC or reference pending NYC DOE contract (not finalized)  \n- **Do NOT** overpromise national scale beyond Boston, Detroit, Phoenix  \n- **Do NOT** use jargon: \"stakeholder engagement,\" \"theory of change,\" \"collective impact\"  \n- **Do NOT** put Priya on the spot about Arjun's involvement\u2014ask open-ended question about decision process  \n\n---\n\n## LOGISTICS & CHOREOGRAPHY\n\n**Agenda (60 min):**  \n- **0:00\u20130:05** \u2013 Welcome; gratitude for 2024 partnership  \n- **0:05\u20130:15** \u2013 Oakland pilot results + student story (Elena; share 1-pager with photos)  \n- **0:15\u20130:30** \u2013 Expansion plan: cities, partners, budget, evaluation (Jordan presents; Rina distributes budget summary)  \n- **0:30\u20130:35** \u2013 **The Ask** (Elena; 10-second pause)  \n- **0:35\u20130:50** \u2013 Q&A; explore decision process, timing, recognition preferences  \n- **0:50\u20130:55** \u2013 Recognition options + reporting plan (Rina)  \n- **0:55\u20131:00** \u2013 Next steps; thank you  \n\n**Materials to Bring (Print 4 Copies Each, 12\u201314 pt, High Contrast):**  \n- 1-page Oakland Pilot Impact Summary (with student photo + quote)  \n- 2-page Expansion Budget Overview (link: https://naea.org/files/FY25_CCL_budget.pdf)  \n- Sample quarterly dashboard mockup  \n- Recognition options menu (cohort naming, lab space plaque, press release draft)  \n\n**Accessibility Note:** Boardroom has natural light; confirm AV setup for laptop if Priya requests data walkthrough.\n\n---\n\n## POST-MEETING PLAN\n\n**Thank-You (Owner: Elena; Due: Within 48 Hours):**  \n- Handwritten note referencing specific conversation points  \n- Email recap with attachments: proposal PDF, budget, evaluation summary, recognition menu  \n\n**Next Steps (Owners + Due Dates):**  \n1. **If YES to $500K:** Rina drafts agreement letter by Dec 9; Elena schedules call with Kiran Desai (foundation counsel) by Dec 12; board approval for recognition (if naming) by Dec 15. *[UNKNOWN: Multi-year agreement letter vs annual letters; Arjun co-sign required?]*  \n2. **If $350K\u2013$400K fallback:** Jordan revises budget for two-city launch (Boston + Detroit); Elena sends revised proposal by Dec 9.  \n3. **If site visit interest:** Rina coordinates Detroit visit logistics for Q1 2026 (check Priya + Arjun calendars). *[UNKNOWN: Availability for Detroit site visit in Q1 2026.]*  \n4. **If need to loop in Arjun/Kiran:** Elena sends calendar hold for follow-up call week of Dec 9.  \n\n**CRM Updates (Owner: Rina; Due: Dec 6, 2025):**  \n- Log contact report (attendees, ask delivered, response, concerns, next steps)  \n- Update solicitation stage (Negotiation if positive; Cultivation if deferred)  \n- Flag **UNKNOWNS** for follow-up: preferred asset (DAF vs foundation vs stock), co-sign requirement, multi-year agreement format, evaluation partner preference, Detroit visit availability  \n\n---\n\n**Prepared by:** Rina Sato, Development Operations Manager | **Date:** Nov 29, 2025 | **Version:** 1.0  \n**Reviewed by:** Jordan Hale, Chief of Staff | Elena Morales, Executive Director\n\n---\n\n**CONFIDENTIAL \u2013 Do Not Distribute Outside Meeting Attendees**",
+      "timestamp": "2025-11-02T13:19:48.022401Z",
+      "duration_seconds": 72.33,
+      "tokens": {
+        "input": 1957,
+        "output": 2913,
+        "total": 4870
+      },
+      "cost_usd": 0.049566,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally well-crafted briefing document that demonstrates deep understanding of major gift fundraising practice. It balances comprehensiveness with scannability, includes all critical elements for a high-stakes solicitation, and shows sophisticated attention to donor psychology and meeting choreography. The formal tone is pitch-perfect for a $500K ask, and the tactical details (10-second pause, exact phrasing, contingency responses) reflect real-world development expertise.",
+        "strengths": [
+          "Excellent strategic architecture: The ask phrasing is crisp and donor-centric, the pause plan is explicit, and fallback options are realistic and sequenced appropriately",
+          "Outstanding handling of sensitivities: Nimbus layoffs flagged clearly in 'What NOT to Say,' student privacy protocols embedded throughout, and NYC contract risk appropriately avoided",
+          "Highly actionable post-meeting plan: CRM updates are specific, next steps have owners and dates, and unknowns are explicitly flagged for follow-up rather than invented",
+          "Superb talking points: Oakland results are concrete (47 teachers, 22% gain, named student story), proof points are credible, and sustainability narrative addresses multi-year concerns preemptively",
+          "Professional formatting and accessibility: High-contrast printing note, 60-minute agenda with time blocks, materials list is complete, and confidentiality footer reinforces appropriate use",
+          "Smart question design: Open-ended questions probe decision authority (Arjun co-sign), asset preference, and evaluation partner without being presumptuous",
+          "Likely concerns table is realistic and responses bridge back to impact rather than being defensive"
+        ],
+        "weaknesses": [
+          "Minor length concern: At approximately 1,400 words, this exceeds the 250-350 word target significantly, though the prompt does allow flexibility for 60-minute solicitation meetings and the content justifies the length",
+          "The 'Prepared by' footer lists Rina Sato as author but M. Nguyen in the scenario data\u2014small inconsistency that could confuse users (though 'Reviewed by' addition is a nice touch)",
+          "Some bullet points in Talking Points section could be tightened slightly (e.g., point 5 on sustainability has two sub-bullets that could merge)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.2375,
+    "average_score": 8.83
+  }
+}

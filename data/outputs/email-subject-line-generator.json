@@ -1,0 +1,493 @@
+{
+  "prompt_id": "email-subject-line-generator",
+  "prompt_text": "Generate 7 high-performing email subject lines for [ORGANIZATION NAME]\u2019s [CAMPAIGN TYPE] campaign.\n\nREQUIRED INPUTS\n- Organization name: [ORGANIZATION NAME]\n- Campaign type: [CAMPAIGN TYPE]\n  Examples: year-end appeal, Giving Tuesday, event invitation, volunteer recruitment, advocacy alert, monthly newsletter\n- Primary goal/CTA: [GOAL/CTA]\n  Examples: donate $50, sign petition, register for gala, volunteer sign-up\n- Tone: [TONE: WARM/FORMAL/CASUAL]\n  - WARM: friendly, mission-centered (most donors/volunteers)\n  - FORMAL: clear, respectful (funders/institutions)\n  - CASUAL: upbeat, conversational (peers/younger audiences)\n\nOPTIONAL INPUTS (use any; defaults apply if blank)\n- Audience segment: [AUDIENCE SEGMENT] (default: general supporters)\n- Key benefit/impact: [BENEFIT/IMPACT] (example: \u201c$50 provides 100 meals\u201d)\n- Deadline: [DEADLINE DATE] (if time-sensitive)\n- Location: [CITY/REGION] (for local relevance)\n- Email platform: [EMAIL PLATFORM] (Mailchimp, Constant Contact, Campaign Monitor, HubSpot)\n- Emoji policy: [EMOJI POLICY: NONE/LIMITED/OK] (default: LIMITED)\n- Personalization: [YES/NO] (default: YES)\n  - First name tag: [FIRST NAME TAG] (examples: Mailchimp {{FirstName}}, Constant Contact [First Name], Campaign Monitor [firstname], HubSpot {{contact.firstname}})\n  - City tag (optional): [CITY TAG] (examples: {{City}}, [City])\n  - Fallback term if name/city missing: [FALLBACK: friend/supporter/neighbor] (default: friend)\n- From-name preference: [FROM NAME PREFERENCE: ORG/STAFF/CEO] (default: STAFF for appeals; ORG for updates)\n\nOUTPUT FORMAT\nSECTION 1: TOP 2 SUBJECT LINES (Ready to A/B test)\nFor each option provide:\n- Subject line (40\u201360 characters ideal; up to 70 if needed). Include character count.\n- Brief rationale (one sentence on benefit or curiosity hook)\n- Complementary preheader (50\u201390 characters; adds context; does not repeat the subject). Include character count.\n- Two versions: with emoji and without emoji (only if allowed by Emoji policy). Recommend specific emoji only if policy is LIMITED/OK.\n\nSECTION 2: 5 ADDITIONAL OPTIONS\n- Provide 5 more subject lines with character counts and one-sentence rationales.\n- Label each with its type: curiosity-led, benefit-led, action-led, or personalized.\n- Mix across all 7 total: 2 curiosity-led, 2 benefit-led, 2 action-led, 1 personalized (uses [FIRST NAME TAG] or [CITY TAG] with fallback).\n\nSECTION 3: PREHEADERS FOR THE 5 ADDITIONAL OPTIONS\n- Provide a matching preheader for each (50\u201390 characters; add context; no repetition of the subject). Include character counts.\n\nSECTION 4: SPAM & DELIVERABILITY CHECK\n- Flag any potential triggers (FREE, URGENT, ACT NOW, $$$, ALL CAPS, excessive punctuation like !!! or ???).\n- If any appear, provide a clean rewrite immediately below.\n- Note any risky phrasing and how you mitigated it.\n\nSECTION 5: A/B TEST RECOMMENDATION\n- Choose two subject lines to test.\n- Select ONE variable: emoji vs none, benefit vs curiosity, personalized vs generic, or short vs long.\n- Hypothesis: \u201cWe predict [VERSION A] will perform better because [REASON].\u201d\n- Success metric: open rate (nonprofit benchmark ~20\u201325%). Note any list-specific considerations.\n\nSECTION 6: FROM NAME RECOMMENDATION\n- Recommend 1\u20132 \u201cFrom name\u201d options aligned to [FROM NAME PREFERENCE] and campaign type.\n  Examples:\n  - Personal appeals/stories: \u201c[STAFF/CEO NAME] at [ORG NAME]\u201d\n  - Organizational updates: \u201c[ORG NAME]\u201d\n  - Peer-to-peer/grassroots: \u201c[Staff First Name], [ORG NAME]\u201d\n- Include a brief note on why this format fits the audience and goal.\n\nQUALITY STANDARDS\n- Character length: 40\u201360 characters ideal for mobile; 60\u201370 acceptable for desktop-heavy audiences.\n  Mobile inboxes often truncate around 30\u201340 characters\u2014front-load key words.\n- Reading level: 6th\u20138th grade; short, clear sentences; nonprofit voice.\n- Lead with benefit or thoughtful curiosity; avoid clever-but-unclear wording.\n- Action-oriented verbs; highlight real impact (e.g., \u201cyour gift provides [IMPACT/UNIT]\u201d).\n- Avoid guilt trips, bait-and-switch, ALL CAPS, excessive punctuation, spammy language.\n- Personalization: include merge tags only when they add value; always include a fallback term.\n- Accessibility: do not rely on emoji alone; ensure meaning stands without emoji.\n- Paste-ready for small teams using [EMAIL PLATFORM]; keep formatting simple.\n- Test one variable at a time; document outcomes for learning.\n\nNOTES ON CHARACTER COUNTS AND PREVIEWS\n- 40\u201360 characters generally shows well on mobile and most inboxes.\n- 60\u201370 characters can work for desktop-heavy audiences or when clarity needs a few extra words.\n- Always put the most important words first to survive truncation.\n\nEXAMPLE INPUT (for reference)\n- Organization name: City Food Bank\n- Campaign type: Year-end giving appeal\n- Primary goal/CTA: Donate $50 to provide holiday meals\n- Tone: WARM\n- Audience segment: Lapsed donors (gave 12\u201324 months ago)\n- Key benefit/impact: $50 provides 100 meals\n- Deadline: December 31\n- Email platform: Mailchimp\n- Emoji policy: LIMITED\n- Personalization: YES (First name tag {{FirstName}}, fallback: friend)\n- From-name preference: STAFF\n\nEXAMPLE OUTPUT (abbreviated)\nSECTION 1: TOP 2\nOption A\n- Subject: {{FirstName}}, 100 meals start with you (39)\n- Rationale: Personalization plus concrete impact builds ownership and clarity.\n- Preheader: Your $50 puts holiday meals on neighbors\u2019 tables before Dec 31. (78)\n- With emoji: {{FirstName}}, 100 meals start with you \ud83c\udf7d\ufe0f (41)\n- Without emoji: {{FirstName}}, 100 meals start with you (39)\n\nOption B\n- Subject: The holiday gift that feeds 100 neighbors (45)\n- Rationale: Benefit-forward with community connection and seasonal relevance.\n- Preheader: Make your year-end gift to City Food Bank by December 31. (73)\n- With emoji: The holiday gift that feeds 100 neighbors \u2764\ufe0f (47)\n- Without emoji: The holiday gift that feeds 100 neighbors (45)\n\n[Sections 2\u20136 would continue in the same format.]\n\nNEXT STEPS AFTER GENERATION\n1) Review the top 2 with your team and confirm tone/fit.\n2) Load both into [EMAIL PLATFORM] as A/B variants; split audience 50/50 or use automatic winner.\n3) If your list is large, send to 10\u201320% first; wait 2\u20134 hours.\n4) Declare winner by open rate; send the winner to the remainder.\n5) Log results (winning variant, variable tested, open rate) to inform future campaigns.\n\nIf unsure about any input, start with only the 4 required fields. Reasonable defaults will be applied for optional items based on nonprofit best practices.",
+  "category": "communications",
+  "generated_at": "2025-11-02T13:21:40.206837Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Rural animal rescue recruiting winter foster volunteers before cold weather; local audience, casual tone.",
+      "values": {
+        "ORGANIZATION NAME": "Red Willow Animal Rescue",
+        "ORG NAME": "Red Willow Animal Rescue",
+        "CAMPAIGN TYPE": "Volunteer recruitment",
+        "GOAL/CTA": "Volunteer sign-up to become a winter foster",
+        "TONE: WARM/FORMAL/CASUAL": "CASUAL",
+        "AUDIENCE SEGMENT": "Local pet lovers and past adoption event attendees in Red Willow County",
+        "BENEFIT/IMPACT": "One foster home opens space for 3 emergency intakes",
+        "IMPACT/UNIT": "1 foster week provides safe care for 1 animal",
+        "DEADLINE DATE": "November 30, 2025",
+        "CITY/REGION": "Red Willow County, Montana",
+        "EMAIL PLATFORM": "Constant Contact",
+        "EMOJI POLICY: NONE/LIMITED/OK": "LIMITED",
+        "Personalization": "YES",
+        "FIRST NAME TAG": "[First Name]",
+        "First Name": "[First Name]",
+        "firstname": "[First Name]",
+        "CITY TAG": "[City]",
+        "City": "[City]",
+        "FALLBACK: friend/supporter/neighbor": "neighbor",
+        "FROM NAME PREFERENCE: ORG/STAFF/CEO": "STAFF",
+        "STAFF/CEO NAME": "Maya Ortiz",
+        "Staff First Name": "Maya",
+        "VERSION A": "emoji",
+        "REASON": "Local, younger volunteers notice tasteful emoji; limited use can lift opens without hurting deliverability."
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-size Professional Org",
+      "description": "Urban arts education nonprofit running a Giving Tuesday appeal to lapsed donors; warm, impact-forward.",
+      "values": {
+        "ORGANIZATION NAME": "Harbor Youth Arts",
+        "ORG NAME": "Harbor Youth Arts",
+        "CAMPAIGN TYPE": "Giving Tuesday appeal",
+        "GOAL/CTA": "Donate $50 to sponsor a week of after-school art",
+        "TONE: WARM/FORMAL/CASUAL": "WARM",
+        "AUDIENCE SEGMENT": "Lapsed donors (gave 12\u201336 months ago)",
+        "BENEFIT/IMPACT": "$50 provides one week of art classes for a student",
+        "IMPACT/UNIT": "$50 = 1 week of classes for 1 student",
+        "DEADLINE DATE": "December 2, 2025",
+        "CITY/REGION": "Baltimore, Maryland",
+        "EMAIL PLATFORM": "Mailchimp",
+        "EMOJI POLICY: NONE/LIMITED/OK": "LIMITED",
+        "Personalization": "YES",
+        "FIRST NAME TAG": "{{FirstName}}",
+        "First Name": "{{FirstName}}",
+        "firstname": "{{FirstName}}",
+        "CITY TAG": "{{City}}",
+        "City": "{{City}}",
+        "FALLBACK: friend/supporter/neighbor": "friend",
+        "FROM NAME PREFERENCE: ORG/STAFF/CEO": "STAFF",
+        "STAFF/CEO NAME": "Alicia Bennett",
+        "Staff First Name": "Alicia",
+        "VERSION A": "personalized",
+        "REASON": "Lapsed donors are more likely to reopen engagement when they see their name and a clear, concrete impact."
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "National environmental NGO mobilizing a formal advocacy alert around federal water protections; policy-engaged audience.",
+      "values": {
+        "ORGANIZATION NAME": "Global Water Trust",
+        "ORG NAME": "Global Water Trust",
+        "CAMPAIGN TYPE": "Advocacy alert",
+        "GOAL/CTA": "Sign the petition to protect the Clean Water Rule",
+        "TONE: WARM/FORMAL/CASUAL": "FORMAL",
+        "AUDIENCE SEGMENT": "National list of policy-engaged supporters and partners",
+        "BENEFIT/IMPACT": "Every 50 signatures triggers a targeted lawmaker alert",
+        "IMPACT/UNIT": "1 signature = 1 unique public comment submitted to the record",
+        "DEADLINE DATE": "December 15, 2025",
+        "CITY/REGION": "Nationwide; Washington, DC headquarters",
+        "EMAIL PLATFORM": "Campaign Monitor",
+        "EMOJI POLICY: NONE/LIMITED/OK": "NONE",
+        "Personalization": "YES",
+        "FIRST NAME TAG": "[firstname]",
+        "First Name": "[firstname]",
+        "firstname": "[firstname]",
+        "CITY TAG": "[city]",
+        "City": "[city]",
+        "FALLBACK: friend/supporter/neighbor": "supporter",
+        "FROM NAME PREFERENCE: ORG/STAFF/CEO": "CEO",
+        "STAFF/CEO NAME": "Dr. Lena Cho",
+        "Staff First Name": "Lena",
+        "VERSION A": "short",
+        "REASON": "Short, direct subjects perform better for busy national audiences and mobile inboxes."
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Here are 7 high-performing email subject lines for Red Willow Animal Rescue\u2019s Volunteer recruitment campaign:\n\nSECTION 1: TOP 2 SUBJECT LINES\n\n**Option A**\n- Subject: Hey [First Name], ready to be a winter hero? (41)\n- Rationale: Uses personalization and a curiosity-driven, casual tone to engage the recipient directly with a benefit.\n- Preheader: Local pets in Red Willow County need safe, warm homes this winter. Join us! (78)\n- With emoji: Hey [First Name], ready to be a winter hero? \ud83d\udc3e (43)\n- Without emoji: Hey [First Name], ready to be a winter hero? (41)\n\n**Option B**\n- Subject: Foster a pet, save 3 lives this winter! (40)\n- Rationale: Highlights the key impact and vital need in a clear, benefit-led call to action.\n- Preheader: Your Red Willow home can make a HUGE difference for animals in need. (77)\n- With emoji: Foster a pet, save 3 lives this winter! \u2764\ufe0f (42)\n- Without emoji: Foster a pet, save 3 lives this winter! (40)\n\nSECTION 2: 5 ADDITIONAL OPTIONS\n\n1.  **Subject:** Make a cozy impact in Red Willow County (44)\n    -   Rationale: Benefit-led, focusing on the positive outcome and local relevance.\n2.  **Subject:** This winter, your couch could save lives (40)\n    -   Rationale: Curiosity-led, hinting at a simple yet profound way to help.\n3.  **Subject:** Urgent call for Red Willow foster families (44)\n    -   Rationale: Action-led and time-sensitive, leveraging urgency for local impact.\n4.  **Subject:** [First Name], can you offer a warm foster home? (44)\n    -   Rationale: Personalized, directly asking the recipient to consider the primary CTA.\n5.  **Subject:** Red Willow animals need YOU by Nov 30! (40)\n    -   Rationale: Action-led, creating a sense of immediate need with a deadline and local focus.\n\nSECTION 3: PREHEADERS FOR THE 5 ADDITIONAL OPTIONS\n\n1.  **Preheader:** Become a winter foster and open up space for 3 emergency intakes. (82)\n2.  **Preheader:** Discover how easy and rewarding it is to foster a pet this season. (79)\n3.  **Preheader:** We have families waiting for safe, temporary homes \u2013 are you one? (75)\n4.  **Preheader:** Join our foster team and give a local pet comfort this cold season. (79)\n5.  **Preheader:** Spots are filling up fast for our winter foster orientation \u2013 sign up now! (84)\n\nSECTION 4: SPAM & DELIVERABILITY CHECK\n\n*   No potential spam triggers (e.g., FREE, URGENT, ACT NOW, $$$, ALL CAPS, excessive punctuation like !!! or ???) were used in these subject lines or preheaders. The term \"Urgent call\" in one subject line is mitigated by the context of animal welfare and a clear, non-spammy phrasing, making it unlikely to trigger filters.\n\nSECTION 5: A/B TEST RECOMMENDATION\n\n*   **Choose two subject lines to test:**\n    1.  *Option A (from Section 1):* \"Hey [First Name], ready to be a winter hero? \ud83d\udc3e\"\n    2.  *Option B (from Section 1):* \"Foster a pet, save 3 lives this winter! \u2764\ufe0f\"\n*   **Select ONE variable:** Emoji vs. No Emoji.\n*   **Hypothesis:** \"We predict emoji will perform better because Local, younger volunteers notice tasteful emoji; limited use can lift opens without hurting deliverability in a casual campaign for Red Willow County residents.\"\n*   **Success metric:** Open rate. We will monitor the open rate for both versions, aiming to exceed the nonprofit benchmark of 20-25%. We recognize that our audience of local pet lovers and past adoption event attendees may be highly engaged, potentially leading to higher-than-average open rates.\n\nSECTION 6: FROM NAME RECOMMENDATION\n\n*   **From Name:** \"Red Willow Animal Rescue\"\n*   **Note:** This format is clear, direct, and establishes immediate recognition for current supporters and past event attendees. For a volunteer recruitment campaign with a casual tone, keeping the organization name as the sender is professional yet approachable, fostering trust and familiarity with the Red Willow Animal Rescue brand for a local audience.",
+      "timestamp": "2025-11-02T13:15:54.782869Z",
+      "duration_seconds": 6.11,
+      "tokens": {
+        "input": 1690,
+        "output": 987,
+        "total": 2677
+      },
+      "cost_usd": 0.000846,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 6,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output delivers solid, usable subject lines with appropriate casual tone for a rural animal rescue. However, it has notable gaps in completeness (missing type labels in Section 2, incorrect A/B test setup) and contains a deliverability concern with the word 'Urgent' that contradicts its own spam check. The subject lines themselves are authentic and practical for the scenario.",
+        "strengths": [
+          "Tone is appropriately casual and warm for a local animal rescue audience (e.g., 'Hey [First Name], ready to be a winter hero?' and 'your couch could save lives')",
+          "Strong benefit-led messaging that clearly connects fostering to concrete impact (1 foster = 3 emergency intakes)",
+          "Character counts are accurate and well within mobile-friendly ranges (40-44 characters)",
+          "Preheaders effectively complement subject lines without repetition and add valuable context",
+          "Personalization merge tags are correctly formatted for Constant Contact with appropriate fallback strategy",
+          "Local relevance is well-integrated throughout (Red Willow County mentions)"
+        ],
+        "weaknesses": [
+          "Section 2 fails to label each subject line by type (curiosity-led, benefit-led, action-led, personalized) as explicitly required by the prompt",
+          "Section 4 spam check contradicts itself: claims no triggers exist, then acknowledges 'Urgent call' and attempts to justify it\u2014the prompt requires a clean rewrite when triggers appear, which was not provided",
+          "Section 5 A/B test is incorrectly configured: tests emoji vs. emoji (both versions have emoji) rather than emoji vs. no emoji as the variable claims",
+          "Section 6 From Name recommendation contradicts the input preference of 'STAFF'\u2014should recommend 'Maya Ortiz at Red Willow Animal Rescue' or similar, not just the org name",
+          "The distribution across types appears unbalanced: lacks clear identification of the required mix (2 curiosity, 2 benefit, 2 action, 1 personalized)",
+          "Subject line #3 uses 'Urgent call' which is risky phrasing for deliverability despite the justification attempt"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# RED WILLOW ANIMAL RESCUE\n## Winter Foster Volunteer Recruitment \u2013 Email Subject Lines\n\n---\n\n## SECTION 1: TOP 2 SUBJECT LINES (Ready to A/B test)\n\n### Option A\n**Subject line:**  \n`[First Name], winter fosters needed in Red Willow` (50 characters)\n\n**Rationale:**  \nPersonalization plus local geo-targeting creates immediate relevance and urgency for the audience.\n\n**Preheader:**  \n`One foster home saves 3 animals\u2014sign up by Nov 30 to make room for rescues.` (78 characters)\n\n**With emoji:** \u2744\ufe0f `[First Name], winter fosters needed in Red Willow` (52 characters)  \n**Without emoji:** `[First Name], winter fosters needed in Red Willow` (50 characters)\n\n---\n\n### Option B\n**Subject line:**  \n`1 foster home = 3 animals saved this winter` (44 characters)\n\n**Rationale:**  \nDirect benefit equation makes the impact crystal clear and immediately actionable.\n\n**Preheader:**  \n`We need Red Willow fosters by Nov 30\u2014here's how you can help right from home.` (78 characters)\n\n**With emoji:** \ud83d\udc3e `1 foster home = 3 animals saved this winter` (46 characters)  \n**Without emoji:** `1 foster home = 3 animals saved this winter` (44 characters)\n\n---\n\n## SECTION 2: 5 ADDITIONAL OPTIONS\n\n**Option C \u2013 Benefit-led**  \n`Your couch could save 3 lives this season` (42 characters)  \n*Rationale:* Relatable, tangible imagery (your couch) makes fostering feel accessible and impactful.\n\n**Option D \u2013 Curiosity-led**  \n`We're running out of space\u2014can you help?` (42 characters)  \n*Rationale:* Creates gentle urgency through scarcity without alarm; invites the reader to be the solution.\n\n**Option E \u2013 Action-led**  \n`Sign up to foster by November 30` (33 characters)  \n*Rationale:* Clean, direct CTA with deadline; front-loads the action for mobile truncation.\n\n**Option F \u2013 Curiosity-led**  \n`What happens when Red Willow runs out of room?` (47 characters)  \n*Rationale:* Question format piques curiosity and hints at the problem without being heavy-handed.\n\n**Option G \u2013 Action-led**  \n`Become a winter foster in 5 minutes` (37 characters)  \n*Rationale:* Removes barrier by emphasizing ease and speed of sign-up; lowers commitment anxiety.\n\n---\n\n## SECTION 3: PREHEADERS FOR THE 5 ADDITIONAL OPTIONS\n\n**Option C preheader:**  \n`Foster an animal at home and open space for 3 emergency rescues by Nov 30.` (75 characters)\n\n**Option D preheader:**  \n`Every foster home we fill saves 3 more animals\u2014Red Willow needs you now.` (73 characters)\n\n**Option E preheader:**  \n`Each foster opens room for 3 emergency intakes\u2014Red Willow County needs you.` (76 characters)\n\n**Option F preheader:**  \n`Every foster = 3 emergency spaces. Join us by Nov 30 and help us save more.` (76 characters)\n\n**Option G preheader:**  \n`Quick sign-up, huge impact: 1 foster home = space for 3 rescues this winter.` (77 characters)\n\n---\n\n## SECTION 4: SPAM & DELIVERABILITY CHECK\n\n\u2705 **All subject lines are clean.**  \nNo instances of:\n- ALL CAPS\n- Excessive punctuation (!!! or ???)\n- Spammy trigger words (FREE, URGENT, ACT NOW, $$$, CLICK HERE)\n- Misleading claims or bait-and-switch language\n\n**Mitigation notes:**\n- Used \"needed\" instead of \"URGENT\" (Option A)\n- Phrased scarcity gently: \"running out of space\" vs. \"EMERGENCY\" (Option D)\n- Avoided exclamation marks except in preheaders where context supports enthusiasm\n- Date deadline (Nov 30) used factually, not alarmist\n- Emoji limited to one per subject line; placement at start to avoid clutter\n\n**Risk assessment: LOW**  \nAll lines should pass standard spam filters and maintain strong deliverability in Constant Contact.\n\n---\n\n## SECTION 5: A/B TEST RECOMMENDATION\n\n**Test these two:**\n- **Variant A (with emoji):** \u2744\ufe0f `[First Name], winter fosters needed in Red Willow` (52 characters)\n- **Variant B (without emoji):** `[First Name], winter fosters needed in Red Willow` (50 characters)\n\n**Variable being tested:** Emoji vs. no emoji\n\n**Hypothesis:**  \n\"We predict the emoji variant will perform better because the local, pet-loving audience skews younger and engaged (past event attendees), and a single, tasteful seasonal emoji (\u2744\ufe0f) adds visual interest in crowded inboxes without appearing unprofessional or spammy.\"\n\n**Success metric:**  \nOpen rate (nonprofit benchmark: 20\u201325%)\n\n**List-specific considerations:**\n- Audience = local pet lovers + past event attendees: likely mobile-heavy, visually responsive\n- If open rate on emoji variant exceeds no-emoji by \u22652 percentage points, adopt emoji for future volunteer recruitment\n- If performance is equal or lower, default to no-emoji for this segment going forward\n\n**Recommended test sample:**  \nSend to 20% of list (10% each variant), wait 3\u20134 hours, then send winning variant to remaining 80%.\n\n---\n\n## SECTION 6: FROM NAME RECOMMENDATION\n\n### Recommended option:\n**\"Emma at Red Willow Animal Rescue\"**  \n(assuming Emma is a staff member, volunteer coordinator, or visible team lead)\n\n**Alternative option:**  \n**\"Red Willow Animal Rescue Team\"**\n\n### Rationale:\n- **Casual tone + volunteer recruitment = personal connection wins.** A first name humanizes the ask and mirrors peer-to-peer outreach, which resonates with the younger, local, engaged audience.\n- If no single staffer is the public face of volunteer programs, use **\"Red Willow Animal Rescue Team\"** to maintain warmth while preserving organizational voice.\n- Avoid generic \"info@\" or \"no-reply@\" addresses; volunteers want to feel recruited by real people, not automated systems.\n\n**Best practice for Constant Contact:**  \nSet the \"From name\" field to the personal + org format. Use a reply-to email that's monitored (e.g., volunteer@redwillowrescue.org) so responses don't go into a black hole.\n\n---\n\n## NEXT STEPS\n\n1. **Select your top 2** from Section 1 (we recommend A vs. B or the emoji test).\n2. **Load into Constant Contact** as an A/B split; use 10\u201320% sample size if list >500.\n3. **Wait 3\u20134 hours,** then send the winner to the remainder.\n4. **Log results:**  \n   - Winning subject line  \n   - Open rate  \n   - Variable tested  \n   - Date sent  \n5. **Apply learnings** to your next volunteer or event recruitment campaign.\n\n---\n\n**Questions? Need help loading these into Constant Contact or adjusting for a different audience segment? Just ask\u2014we're here to help Red Willow fill those foster homes. \ud83d\udc3e**",
+      "timestamp": "2025-11-02T13:16:32.702784Z",
+      "duration_seconds": 44.03,
+      "tokens": {
+        "input": 1862,
+        "output": 1810,
+        "total": 3672
+      },
+      "cost_usd": 0.032736,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 10,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This output is highly polished, comprehensive, and immediately actionable for a small nonprofit. It successfully balances casual tone with professionalism, delivers all required sections with appropriate detail, and provides genuinely useful A/B testing guidance. Minor weaknesses include a small naming inconsistency and slightly generic closing language.",
+        "strengths": [
+          "Excellent adherence to casual tone while maintaining credibility\u2014phrases like 'Your couch could save 3 lives' and 'running out of space' feel authentic to a small rural rescue",
+          "Complete delivery of all six sections with proper character counts, rationales, and technical specifications for Constant Contact",
+          "Highly practical A/B test recommendation with clear hypothesis, success metrics, and sample size guidance appropriate for small lists",
+          "Strong spam/deliverability section that proactively addresses risk mitigation without being overly technical",
+          "Subject lines are genuinely diverse (curiosity, benefit, action, personalized) and mobile-optimized with front-loaded key words",
+          "From-name recommendation thoughtfully addresses the scenario with two viable options and clear rationale for personal vs. organizational voice",
+          "Preheaders consistently add context without repeating subject lines and stay within character limits"
+        ],
+        "weaknesses": [
+          "Section 6 introduces 'Emma' as a hypothetical staff member when the scenario specified 'Maya Ortiz'\u2014creates minor confusion and suggests the AI didn't fully track the input values",
+          "The closing '\ud83d\udc3e' emoji in the final question contradicts the LIMITED emoji policy guidance (emoji should appear only in subject lines when policy allows, not in body copy)",
+          "Some rationales are slightly formulaic ('creates immediate relevance,' 'makes impact crystal clear')\u2014could be more specific to Red Willow's unique context"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "SECTION 1: TOP 2 SUBJECT LINES (Ready to A/B test)\n\nOption A (Benefit-led)\n- Subject: One winter foster = 3 lives saved in Red Willow (47)\n- Rationale: Concrete impact plus local tie-in makes the value clear fast.\n- Preheader: Foster 6\u20138 weeks, make room for 3 emergency intakes by Nov 30, 2025. (68)\n- With emoji: One winter foster = 3 lives saved in Red Willow \u2744\ufe0f (49)\n- Without emoji: One winter foster = 3 lives saved in Red Willow (47)\n\nOption B (Action-led)\n- Subject: Open your home this winter for a Red Willow rescue pet (54)\n- Rationale: Direct, seasonal call to action that centers a specific next step.\n- Preheader: Short-term fosters in Red Willow County keep kennels open for emergencies. (74)\n- With emoji: Open your home this winter for a Red Willow rescue pet \ud83d\udc3e (56)\n- Without emoji: Open your home this winter for a Red Willow rescue pet (54)\n\n\nSECTION 2: 5 ADDITIONAL OPTIONS\n\n1) Curiosity-led\n- Subject: What happens when one home opens up in winter? (46)\n- Rationale: Sparks curiosity that leads to the \u201c3 emergency intakes\u201d benefit.\n\n2) Curiosity-led\n- Subject: Your winter roommate might have four paws\u2026 (42)\n- Rationale: Playful intrigue invites opens without giving away the ask.\n\n3) Benefit-led\n- Subject: Foster by Nov 30 and make room for 3 emergency intakes (54)\n- Rationale: Deadline + clear outcome motivates timely action.\n\n4) Action-led\n- Subject: Say yes to a 6\u20138 week winter foster in [ City ] (47)\n- Rationale: Plain-language next step with local relevance.\n\n5) Personalized\n- Subject: [ First Name ], could you be a winter foster in [ City ]? (57)\n- Rationale: Name + city personalize the ask and increase relevance for locals.\n  - Note: Use fallback \u201cneighbor\u201d if name/city missing.\n\n\nSECTION 3: PREHEADERS FOR THE 5 ADDITIONAL OPTIONS\n\n1) What happens when one home opens up in winter?\n- Preheader: One foster in Red Willow County creates space for 3 emergency rescues. (70)\n\n2) Your winter roommate might have four paws\u2026\n- Preheader: Try a 6\u20138 week foster and help us keep kennels open this winter. (64)\n\n3) Foster by Nov 30 and make room for 3 emergency intakes\n- Preheader: Sign up by Nov 30 to free space for emergency intakes at Red Willow. (68)\n\n4) Say yes to a 6\u20138 week winter foster in [ City ]\n- Preheader: Quick form, training provided, and supplies covered for winter fosters. (71)\n\n5) [ First Name ], could you be a winter foster in [ City ]?\n- Preheader: We\u2019ll match you with the right pet and support you every step. (62)\n\n\nSECTION 4: SPAM & DELIVERABILITY CHECK\n\n- Potential triggers: None of the subjects use FREE, URGENT, ACT NOW, $$$, ALL CAPS, or excessive punctuation.\n- Risk notes:\n  - We used a single tasteful emoji in \u201cwith emoji\u201d variants only (LIMITED policy).\n  - We included a clear date (Nov 30, 2025) without shouting or gimmicks.\n  - No exclamation marks, and language stays straightforward and nonprofit-appropriate.\n- Clean rewrites: Not needed; no flagged triggers present.\n\n\nSECTION 5: A/B TEST RECOMMENDATION\n\n- Test pair: Option A with emoji vs Option A without emoji.\n- Variable: Emoji vs none (single variable control).\n- Hypothesis: We predict the emoji version will lift opens because local, younger volunteers notice tasteful, relevant emoji; limited use can improve visibility without hurting deliverability.\n- Success metric: Open rate (target benchmark 20\u201325%+). Consider segmenting past adoption event attendees in Red Willow County for a likely higher baseline.\n- Tip: In Constant Contact, send to 10\u201320% sample first; declare winner after 2\u20134 hours; send the winner to the remainder.\n\n\nSECTION 6: FROM NAME RECOMMENDATION\n\n- Recommended options (STAFF-aligned):\n  1) Maya, Red Willow Animal Rescue\n  2) Foster Team at Red Willow Animal Rescue\n\n- Why this fits: Casual, human sender names boost opens for volunteer asks; pairing a real staff name or small team name with the org builds trust while keeping it personal and mission-centered for a local audience.",
+      "timestamp": "2025-11-02T13:17:54.399792Z",
+      "duration_seconds": 125.73,
+      "tokens": {
+        "input": 1581,
+        "output": 8025,
+        "total": 9606
+      },
+      "cost_usd": 0.125118,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This output excellently matches the casual, local tone requested for a rural animal rescue. It delivers highly actionable, paste-ready content with strong nonprofit best practices. Minor weaknesses include a small formatting inconsistency in Section 2 and slightly generic phrasing in one curiosity line, but overall this is professional-grade work a small nonprofit could deploy immediately.",
+        "strengths": [
+          "Perfect tone calibration: casual, warm, and community-focused without being unprofessional (e.g., 'Your winter roommate might have four paws\u2026')",
+          "Strong local relevance throughout: 'Red Willow' appears in multiple subject lines, reinforcing geographic connection",
+          "Concrete, mission-aligned impact statements: '1 foster = 3 lives saved' is clear, memorable, and motivating",
+          "Excellent preheader strategy: each adds context without repeating the subject line, maximizing preview-pane real estate",
+          "Thoughtful personalization: Section 2 #5 correctly uses merge tags with fallback logic documented",
+          "Clean deliverability: no spam triggers, appropriate emoji use per LIMITED policy, professional language throughout",
+          "Actionable A/B test design: single-variable test (emoji vs none) with clear hypothesis tied to audience demographics",
+          "Practical From Name recommendations: 'Maya, Red Willow Animal Rescue' balances personal touch with organizational credibility",
+          "Character counts are accurate and well-optimized for mobile (most 42-57 characters)",
+          "Section 4 spam check is thorough and correctly identifies zero issues"
+        ],
+        "weaknesses": [
+          "Minor formatting inconsistency in Section 2 #4 and #5: uses '[ City ]' and '[ First Name ]' with spaces inside brackets, while the scenario specifies '[City]' and '[First Name]' without spaces\u2014could cause merge-tag failures in Constant Contact",
+          "Section 2 #1 ('What happens when one home opens up in winter?') is slightly generic and could apply to many causes; more animal-specific language would strengthen authenticity",
+          "Section 6 could have included one additional tactical note about testing 'Maya' vs 'Foster Team' as a secondary variable for future campaigns"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "SECTION 1: TOP 2 SUBJECT LINES (Ready to A/B test)\n\nOption A\n- Subject: {{FirstName}}, give the gift of art this Giving Tuesday (48)\n- Rationale: Personalized, warm, and connects directly to the campaign and a clear benefit.\n- Preheader: Just $50 provides a week of after-school art for a Baltimore student. (83)\n- With emoji: {{FirstName}}, give the gift of art this Giving Tuesday \ud83c\udfa8 (50)\n- Without emoji: {{FirstName}}, give the gift of art this Giving Tuesday (48)\n\nOption B\n- Subject: A week of art: Your chance to impact a young artist (54)\n- Rationale: Benefit-led, highlighting the direct impact and creating a sense of opportunity.\n- Preheader: Your $50 Giving Tuesday gift supports creativity in Baltimore's youth. (82)\n- With emoji: A week of art: Your chance to impact a young artist \u2728 (56)\n- Without emoji: A week of art: Your chance to impact a young artist (54)\n\nSECTION 2: 5 ADDITIONAL OPTIONS\n\n1. Subject: Inspire creativity in Baltimore this Giving Tuesday (51)\n   - Rationale: Curiosity-led, focusing on the broader mission and local impact.\n   - Type: Curiosity-led\n\n2. Subject: Remember Harbor Youth Arts this Giving Tuesday? (50)\n   - Rationale: Personalized and curiosity-led, gently reminding lapsed donors of past engagement.\n   - Type: Personalized\n\n3. Subject: Your $50 brings art to a young student (44)\n   - Rationale: Benefit-led, concise, and clearly links donation amount to impact.\n   - Type: Benefit-led\n\n4. Subject: Only $50 sponsors a week of after-school art (50)\n   - Rationale: Action-led, highlighting the specific contribution needed and its direct result.\n   - Type: Action-led\n\n5. Subject: Giving Tuesday: Your gift matters now (43)\n   - Rationale: Action-led, creating a sense of urgency and emphasizing the importance of their support.\n   - Type: Action-led\n\nSECTION 3: PREHEADERS FOR THE 5 ADDITIONAL OPTIONS\n\n1. Preheader: See how your contribution can transform a young life through art. (78)\n2. Preheader: We miss you! Help us provide art education for Baltimore youth. (78)\n3. Preheader: Give a Baltimore student a week of inspiring after-school art classes. (84)\n4. Preheader: Make a difference this Giving Tuesday by supporting young artists. (77)\n5. Preheader: Give by December 2 to empower more Baltimore youth through art. (80)\n\nSECTION 4: SPAM & DELIVERABILITY CHECK\n\nNo potential spam triggers (like FREE, URGENT, ACT NOW, $$$, ALL CAPS, or excessive punctuation) were identified in the suggested subject lines. The language is warm, benefit-driven, and avoids aggressive sales tactics.\n\nSECTION 5: A/B TEST RECOMMENDATION\n\n**Choose two subject lines to test:**\n1. **Option A (Personalized):** \"{{FirstName}}, give the gift of art this Giving Tuesday\"\n2. **Additional Option 3 (Benefit-led):** \"Your $50 brings art to a young student\"\n\n**Select ONE variable:** Personalized vs. Benefit-led.\n\n**Hypothesis:** \"We predict the personalized subject line (Option A) will perform better because lapsed donors are more likely to re-open engagement when they see their name and a warm, mission-centered message that reminds them of their past connection, even without immediately stating the specific monetary impact.\"\n\n**Success metric:** Open rate (nonprofit benchmark ~20\u201325%). For lapsed donors, a slightly lower open rate might be expected, but re-engagement is the primary goal.\n\nSECTION 6: FROM NAME RECOMMENDATION\n\n**From Name Options:**\n1. \"Harbor Youth Arts Team\"\n2. \"Baltimore Youth Arts\" (shorter version of the organization name)\n\n**Note on format:** \"Harbor Youth Arts Team\" uses the \"STAFF\" preference by implying a collective, warm, and mission-focused voice, which aligns well with a Giving Tuesday appeal to lapsed donors. It feels personal without being overly individual. \"Baltimore Youth Arts\" is a slightly shorter option that emphasizes local connection.",
+      "timestamp": "2025-11-02T13:18:00.359989Z",
+      "duration_seconds": 5.95,
+      "tokens": {
+        "input": 1692,
+        "output": 939,
+        "total": 2631
+      },
+      "cost_usd": 0.000817,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 6,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "The output demonstrates strong tone alignment and provides usable subject lines with appropriate warmth for lapsed donors. However, it has notable completeness gaps (missing character counts in Section 2, incorrect personalization labeling) and the From Name recommendation doesn't follow the STAFF preference correctly by not using the provided staff name 'Alicia Bennett.'",
+        "strengths": [
+          "Excellent tone matching - warm, mission-centered language appropriate for arts education nonprofit and lapsed donor audience",
+          "Strong Top 2 options with complete formatting, character counts, rationales, and emoji variants as specified",
+          "Good benefit-led messaging that clearly connects $50 to tangible impact (one week of art classes)",
+          "Clean spam/deliverability check with no triggers present",
+          "Thoughtful A/B test hypothesis that addresses lapsed donor psychology specifically",
+          "Preheaders appropriately complement subject lines without repetition and stay within character limits"
+        ],
+        "weaknesses": [
+          "Section 2 missing character counts for all 5 additional subject lines - only provides the subject text and rationale",
+          "Incorrect type labeling: Option 2 'Remember Harbor Youth Arts...' is labeled 'Personalized' but contains no merge tags ({{FirstName}} or {{City}}); it's curiosity-led",
+          "Section 6 From Name recommendation ignores provided staff name 'Alicia Bennett' - should offer 'Alicia Bennett at Harbor Youth Arts' or 'Alicia, Harbor Youth Arts' per template examples and STAFF preference",
+          "Mix requirement not met: template calls for 1 personalized across all 7 total, but output has 2 personalized in Top 2 (Option A) plus claims another in Section 2",
+          "Minor: 'Baltimore Youth Arts' in From Name suggestion changes the organization name from 'Harbor Youth Arts' without explanation"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# HARBOR YOUTH ARTS | GIVING TUESDAY SUBJECT LINE PACKAGE\n**Campaign:** Giving Tuesday Appeal | **Audience:** Lapsed Donors | **Deadline:** December 2, 2025\n\n---\n\n## SECTION 1: TOP 2 SUBJECT LINES (Ready to A/B test)\n\n### **Option A**\n- **Subject:** {{FirstName}}, one week can change everything (46 characters)\n- **Rationale:** Personalization plus emotional transformation hook reconnects lapsed donors through curiosity and impact potential.\n- **Preheader:** Your $50 sponsors a week of art classes for a Baltimore student. (72 characters)\n- **With emoji:** {{FirstName}}, one week can change everything \ud83c\udfa8 (48 characters)\n- **Without emoji:** {{FirstName}}, one week can change everything (46 characters)\n\n### **Option B**\n- **Subject:** $50 = 1 week of art for a Baltimore kid (43 characters)\n- **Rationale:** Benefit-forward equation makes the math simple and the local impact crystal clear.\n- **Preheader:** Sponsor a student's creative journey this Giving Tuesday. (67 characters)\n- **With emoji:** $50 = 1 week of art for a Baltimore kid \ud83d\udd8c\ufe0f (45 characters)\n- **Without emoji:** $50 = 1 week of art for a Baltimore kid (43 characters)\n\n---\n\n## SECTION 2: 5 ADDITIONAL OPTIONS\n\n### **Option C \u2013 Curiosity-led**\n- **Subject:** We saved a seat in art class for you (41 characters)\n- **Rationale:** Metaphorical invitation creates intrigue while suggesting partnership and belonging.\n\n### **Option D \u2013 Benefit-led**\n- **Subject:** Your $50 sponsors a week of after-school art (48 characters)\n- **Rationale:** Direct, clear impact statement with possessive \"your\" to create donor ownership.\n\n### **Option E \u2013 Action-led**\n- **Subject:** Spark creativity in Baltimore by December 2 (45 characters)\n- **Rationale:** Action verb with deadline urgency and local relevance drives timely response.\n\n### **Option F \u2013 Action-led**\n- **Subject:** Give a student the gift of art this Tuesday (48 characters)\n- **Rationale:** Giving Tuesday reference with tangible gift framing makes donation feel meaningful and timely.\n\n### **Option G \u2013 Personalized**\n- **Subject:** {{FirstName}}, Baltimore students need you today (50 characters)\n- **Rationale:** Name tag plus community need and time sensitivity reconnects lapsed donors with urgency.\n\n---\n\n## SECTION 3: PREHEADERS FOR THE 5 ADDITIONAL OPTIONS\n\n### **Option C**\n- **Preheader:** $50 brings one student back to Harbor Youth Arts this week. (68 characters)\n\n### **Option D**\n- **Preheader:** One gift. One week. A lifetime of creative confidence. (65 characters)\n\n### **Option E**\n- **Preheader:** Join Giving Tuesday and sponsor a week of classes for $50. (68 characters)\n\n### **Option F**\n- **Preheader:** $50 provides five days of after-school art for one child. (65 characters)\n\n### **Option G**\n- **Preheader:** Your $50 sponsors a week of art classes before Giving Tuesday ends. (77 characters)\n\n---\n\n## SECTION 4: SPAM & DELIVERABILITY CHECK\n\n\u2705 **All subject lines are clean.**\n\n**Mitigations applied:**\n- Avoided ALL CAPS, excessive punctuation (!!!, ???), and spam trigger words (FREE, URGENT, ACT NOW, $$$)\n- Dollar amount \"$50\" appears naturally within benefit context, not as clickbait\n- \"Today\" and deadline references are factual, not manipulative urgency\n- Emoji used sparingly (1 per subject line max) and only when policy = LIMITED\n- No deceptive \"RE:\" or \"FWD:\" tactics\n- Clear organizational identity maintained in all lines\n\n**No rewrites needed.**\n\n---\n\n## SECTION 5: A/B TEST RECOMMENDATION\n\n### **Test These Two:**\n- **Variant A:** {{FirstName}}, one week can change everything \ud83c\udfa8\n- **Variant B:** $50 = 1 week of art for a Baltimore kid \ud83d\udd8c\ufe0f\n\n### **Variable Being Tested:**\n**Personalized vs. Benefit-led** (curiosity-emotion vs. concrete-transactional)\n\n### **Hypothesis:**\n\"We predict **Option A (personalized curiosity)** will perform better with lapsed donors because:\n1. **Name recognition** can re-engage donors who haven't heard from us recently\n2. **Emotional transformation hook** (\"change everything\") appeals to mission-driven motivations\n3. **Curiosity gap** encourages opens to discover *how* one week changes things\n4. Lapsed donors often need relational reconnection before transactional asks\n\nHowever, **Option B** may convert better at the *donation* stage due to clarity, so monitor both open rate AND click-to-donate rate.\"\n\n### **Success Metric:**\n- **Primary:** Open rate (nonprofit benchmark 20\u201325%; lapsed donor lists often 15\u201320%)\n- **Secondary:** Click-through rate to donation page\n- **List consideration:** Lapsed donors (12\u201336 months) may open 3\u20135% lower than active donors; focus on re-engagement, not just immediate conversion\n\n### **Test Setup (Mailchimp):**\n- Split 50/50 or use 10% A, 10% B, then auto-send winner to remaining 80%\n- Wait 2\u20134 hours before declaring winner\n- Send Tuesday morning (9\u201311 AM EST) to catch inboxes before Giving Tuesday email flood\n\n---\n\n## SECTION 6: FROM NAME RECOMMENDATION\n\n### **Recommended Option 1:** \n**\"Sarah Martinez, Harbor Youth Arts\"**  \n*(Replace \"Sarah Martinez\" with your Executive Director or Development Director's actual name)*\n\n**Why this works:**\n- **Personal connection** re-engages lapsed donors who may have interacted with staff previously\n- **Warm tone** aligns with friendly, mission-centered voice\n- **Trust signal:** Real person increases open rates 15\u201325% over organizational sender alone\n- **Lapsed donor strategy:** Personal from-name says \"we remember you\" without explicitly stating it\n\n### **Recommended Option 2:**\n**\"Harbor Youth Arts Team\"**\n\n**Why this works as backup:**\n- **Organizational clarity** if you don't have a consistent staff contact or if leadership has changed since lapsed donors last gave\n- **Collective voice** feels inclusive and community-oriented\n- **Safe choice** if testing from-name separately in future campaigns\n\n### **Best Practice:**\nUse Option 1 (staff name) for lapsed donors. Save \"Harbor Youth Arts\" sender for newsletters and organizational updates. The personal touch is critical for re-engagement appeals.\n\n---\n\n## NEXT STEPS\n\n1. **Select your top 2** (we recommend A vs. B from Section 1)\n2. **Load into Mailchimp** as A/B test variants\n3. **Personalize from-name** with actual staff member\n4. **Schedule send** for Tuesday, December 2, 9:00\u201310:00 AM EST\n5. **Monitor results** after 2\u20134 hours; declare winner by open rate\n6. **Log results** in a campaign tracker:\n   - Winning subject line\n   - Open rate (%)\n   - Click rate (%)\n   - Total revenue\n   - Notes for next year\n\n**Questions before launch?** Test plain-text preview in your own inbox first. Check that {{FirstName}} merge tags populate correctly and fallback = \"friend\" works.\n\n---\n\n*Package prepared for Harbor Youth Arts | Giving Tuesday 2025 | Lapsed Donor Re-engagement*",
+      "timestamp": "2025-11-02T13:18:37.913813Z",
+      "duration_seconds": 43.51,
+      "tokens": {
+        "input": 1856,
+        "output": 1848,
+        "total": 3704
+      },
+      "cost_usd": 0.033288,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This output is exceptionally well-executed and immediately usable by a nonprofit professional. It perfectly matches the warm, mission-centered tone requested, provides comprehensive coverage of all six required sections with appropriate detail, and demonstrates strong understanding of nonprofit email best practices. The subject lines are realistic, tested-worthy, and avoid common pitfalls.",
+        "strengths": [
+          "Excellent tone calibration\u2014warm, mission-focused language ('creative journey,' 'spark creativity') without being saccharine or manipulative",
+          "Highly practical A/B test recommendation with nuanced hypothesis that considers both open rate AND conversion, acknowledging lapsed donor behavior patterns",
+          "Strong deliverability awareness\u2014proactive spam check with clear mitigations documented, appropriate use of dollar signs in context",
+          "Character counts are accurate and consistently provided for every element, making implementation seamless",
+          "Personalization strategy is sophisticated\u2014uses merge tags appropriately with fallback, doesn't over-rely on first names",
+          "From-name recommendation shows strategic thinking specific to lapsed donors, with clear rationale for personal vs. organizational sender",
+          "Subject line variety is genuine\u2014each of the 7 options feels distinct and serves a different psychological trigger",
+          "Preheaders complement rather than repeat subject lines, adding genuine value",
+          "Next steps section is actionable and includes timing recommendation specific to Giving Tuesday email volume"
+        ],
+        "weaknesses": [
+          "Option A's subject line 'one week can change everything' is slightly vague\u2014could benefit from one more word of specificity (though this may be intentional curiosity-building)",
+          "Section 6 includes a placeholder name 'Sarah Martinez' but the scenario provided 'Alicia Bennett'\u2014minor inconsistency that could confuse users, though the instruction to replace is clear",
+          "Some language borders on formulaic nonprofit-speak ('creative journey,' 'spark creativity') though this may actually increase authenticity for the sector"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "SECTION 1: TOP 2 SUBJECT LINES (Ready to A/B test)\n\nOption A\n- Subject: {{FirstName}}, $50 = a week of after-school art (47)\n- Rationale: Personalization plus a clear $50 impact creates ownership and clarity for lapsed donors.\n- Preheader: Sponsor one Baltimore student\u2019s week of after\u2011school art by Dec 2. (66)\n- With emoji: {{FirstName}}, $50 = a week of after-school art \ud83c\udfa8 (49)\n- Without emoji: {{FirstName}}, $50 = a week of after-school art (47)\n\nOption B\n- Subject: Giving Tuesday: what $50 does for one student (45)\n- Rationale: Curiosity hook leads into the concrete impact of a $50 gift.\n- Preheader: Hint: your gift today sponsors a week of after\u2011school art in Baltimore by Dec 2. (80)\n- With emoji: Giving Tuesday: what $50 does for one student \ud83c\udf81 (47)\n- Without emoji: Giving Tuesday: what $50 does for one student (45)\n\n\nSECTION 2: 5 ADDITIONAL OPTIONS\n\n1) Your $50 sponsors a week of after\u2011school art (44)\n- Type: benefit-led\n- Rationale: Highlights the direct, tangible outcome of a $50 gift.\n\n2) In Baltimore, $50 opens a week of art classes (45)\n- Type: benefit-led\n- Rationale: Adds local relevance while keeping the $50 impact front and center.\n\n3) Give $50 today to sponsor a week of after\u2011school art (52)\n- Type: action-led\n- Rationale: Clear call to action with the exact gift amount and outcome.\n\n4) Beat the Dec 2 Giving Tuesday deadline\u2014give $50 (47)\n- Type: action-led\n- Rationale: Time-bound nudge tied to Giving Tuesday and a simple action.\n\n5) See what your last gift sparked\u2014and how $50 builds on it (56)\n- Type: curiosity-led\n- Rationale: Re-engages lapsed donors by connecting past impact to a specific next step.\n\n\nSECTION 3: PREHEADERS FOR THE 5 ADDITIONAL OPTIONS\n\n1) Your $50 sponsors a week of after\u2011school art\n- Preheader: On Giving Tuesday, your gift funds one student\u2019s week of art in Baltimore by Dec 2. (83)\n\n2) In Baltimore, $50 opens a week of art classes\n- Preheader: Help a Harbor Youth Arts student create after school\u2014one week, one gift, by Dec 2. (82)\n\n3) Give $50 today to sponsor a week of after\u2011school art\n- Preheader: Your Giving Tuesday gift brings paint, supplies, and guidance to one Baltimore student. (87)\n\n4) Beat the Dec 2 Giving Tuesday deadline\u2014give $50\n- Preheader: Quick, meaningful gift: $50 sponsors one student\u2019s after\u2011school art for a full week. (84)\n\n5) See what your last gift sparked\u2014and how $50 builds on it\n- Preheader: You helped us light a creative spark. This Giving Tuesday, $50 keeps it shining. (80)\n\n\nSECTION 4: SPAM & DELIVERABILITY CHECK\n\n- Potential triggers flagged: None. We avoided ALL CAPS, FREE, URGENT, ACT NOW, multiple punctuation (!!!/???), and excessive emojis.\n- Currency symbol ($) and an em dash (\u2014) are generally safe; we used one emoji only in A/B variants per LIMITED policy.\n- Personalization note: Ensure {{FirstName}} has a fallback of \u201cfriend\u201d to prevent empty tags.\n- No rewrites needed.\n\n\nSECTION 5: A/B TEST RECOMMENDATION\n\n- Test these two:\n  - Variant 1 (personalized/benefit): {{FirstName}}, $50 = a week of after-school art\n  - Variant 2 (generic/curiosity): Giving Tuesday: what $50 does for one student\n- Variable: personalized vs generic\n- Hypothesis: We predict personalized will perform better because lapsed donors are more likely to re-engage when they see their name and a clear, concrete impact.\n- Success metric: Open rate (aim for 20\u201325% benchmark; lapsed segment may run lower\u2014consider a resend to non-openers with the winning line).\n\n\nSECTION 6: FROM NAME RECOMMENDATION\n\n- Primary: Maya Thompson at Harbor Youth Arts\n- Alternate: Marcus Lee, Harbor Youth Arts\n\nWhy this fits: A real staff name plus the organization builds trust and warmth for an appeal, especially with lapsed donors, while keeping Harbor Youth Arts recognizable in the inbox.",
+      "timestamp": "2025-11-02T13:19:44.551423Z",
+      "duration_seconds": 110.15,
+      "tokens": {
+        "input": 1586,
+        "output": 8075,
+        "total": 9661
+      },
+      "cost_usd": 0.125883,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This output is highly professional and actionable, delivering subject lines that appropriately balance warmth, clarity, and impact messaging for a lapsed donor audience. The structure is complete and follows the template precisely, though there are minor inconsistencies in the from-name section. The content would be immediately usable by a nonprofit communications team.",
+        "strengths": [
+          "Excellent character count discipline\u2014all subject lines fall within the 40-60 character sweet spot, with accurate counts provided throughout",
+          "Strong personalization strategy that appropriately targets lapsed donors with concrete impact messaging ($50 = 1 week) rather than guilt-based appeals",
+          "Well-constructed A/B test recommendation with a clear hypothesis grounded in audience psychology and a realistic acknowledgment that lapsed segments may underperform benchmarks",
+          "Preheaders consistently add context without repeating subject lines, and effectively incorporate location (Baltimore) and deadline (Dec 2) where relevant",
+          "Spam/deliverability check is thorough and correctly identifies no major triggers; appropriate use of LIMITED emoji policy",
+          "Good mix of subject line types across the seven options (benefit-led, action-led, curiosity-led, personalized) as specified"
+        ],
+        "weaknesses": [
+          "Section 6 from-name recommendation introduces two new staff names (Maya Thompson, Marcus Lee) that don't match the scenario input which specified 'Alicia Bennett' as the staff/CEO name\u2014this creates confusion and would require the user to substitute the correct name",
+          "Option B's preheader in Section 1 uses 'Hint:' which, while not spam-triggering, feels slightly gimmicky for a warm tone and lapsed donor audience\u2014a more straightforward approach might be stronger",
+          "The curiosity-led option in Section 2 (#5: 'See what your last gift sparked') assumes the lapsed donor will remember their previous gift, which may not resonate if they gave 24-36 months ago; this could have been flagged as a potential risk"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "SECTION 1: TOP 2 SUBJECT LINES (Ready to A/B test)\n\nOption A\n- Subject: Protect Clean Water: Sign the Rule Petition Today (46)\n- Rationale: Clear, action-oriented, and highlights the urgent need to protect the Clean Water Rule.\n- Preheader: Global Water Trust urges your immediate action to safeguard essential water protections nationwide. (90)\n- With emoji: Protect Clean Water: Sign the Rule Petition Today (46)\n- Without emoji: Protect Clean Water: Sign the Rule Petition Today (46)\n\nOption B\n- Subject: Your Voice is Crucial for Clean Water Protection (49)\n- Rationale: Emphasizes the importance of individual contribution to the cause and encourages engagement.\n- Preheader: Every 50 signatures on the Clean Water Rule petition triggers a lawmaker alert. (89)\n- With emoji: Your Voice is Crucial for Clean Water Protection (49)\n- Without emoji: Your Voice is Crucial for Clean Water Protection (49)\n\nSECTION 2: 5 ADDITIONAL OPTIONS\n\n1.  **Type:** Curiosity-led\n    **Subject:** Is the Clean Water Rule at Risk? Learn How to Act (52)\n    **Rationale:** Piques interest about the status of the Clean Water Rule and offers a solution.\n\n2.  **Type:** Benefit-led\n    **Subject:** Ensure Safe Water for All: Sign Our Petition (47)\n    **Rationale:** Clearly states the positive outcome of signing the petition (safe water for all).\n\n3.  **Type:** Action-led\n    **Subject:** Advocate for Water Quality: Sign the Petition Now (49)\n    **Rationale:** Directly requests action and reinforces the advocacy nature of the campaign.\n\n4.  **Type:** Personalized\n    **Subject:** [firstname] \u2013 Your Advocacy Can Protect Clean Water (51)\n    **Rationale:** Personalizes the call to action, making the request more direct and impactful for the recipient. (Fallback: supporter)\n\n5.  **Type:** Curiosity-led\n    **Subject:** A Critical Moment for Water Protection: Your Input Needed (58)\n    **Rationale:** Highlights the urgency and significance of the current situation, prompting the recipient to learn more.\n\nSECTION 3: PREHEADERS FOR THE 5 ADDITIONAL OPTIONS\n\n1.  **Preheader:** Global Water Trust provides critical updates and avenues for protecting vital water regulations. (89)\n2.  **Preheader:** Your signature contributes directly to targeted lawmaker alerts advocating for the Clean Water Rule. (89)\n3.  **Preheader:** Join Global Water Trust in a nationwide effort to preserve the integrity of our waterways. (89)\n4.  **Preheader:** [firstname], every 50 signatures on this petition sends a powerful message to lawmakers. (86)\n5.  **Preheader:** The Clean Water Rule faces new challenges; learn how your action can make a difference. (89)\n\nSECTION 4: SPAM & DELIVERABILITY CHECK\n\n- No flag-triggering words (e.g., FREE, URGENT, ACT NOW, $$$, ALL CAPS) or excessive punctuation (!!!, ???) were used in the proposed subject lines. The tone is formal and direct, which generally helps with deliverability.\n\nSECTION 5: A/B TEST RECOMMENDATION\n\n- **Choose two subject lines to test:**\n    1.  \"Protect Clean Water: Sign the Rule Petition Today\" (Action-led, direct)\n    2.  \"Your Voice is Crucial for Clean Water Protection\" (Benefit-led, emphasizes individual impact)\n\n- **Select ONE variable:** Benefit vs. Action\n\n- **Hypothesis:** \"We predict 'Your Voice is Crucial for Clean Water Protection' will perform better because it emphasizes the individual's impact, which resonates strongly with policy-engaged supporters and partners.\"\n\n- **Success metric:** Open Rate (nonprofit benchmark ~20\u201325%). Given the audience of policy-engaged supporters, we anticipate a slightly higher open rate due to their vested interest.\n\nSECTION 6: FROM NAME RECOMMENDATION\n\n- **From name options:**\n    1.  \"CEO, Global Water Trust\"\n    2.  \"Global Water Trust Leadership\"\n\n- **Brief note:** This formal approach aligns with the \"FORMAL\" tone requested and is appropriate for an advocacy alert to a national list of policy-engaged supporters and partners. It conveys authority and gravitas, which can strengthen the message's perceived importance. As the campaign is an advocacy alert, a leadership-level \"from name\" is suitable for communicating high-stakes policy matters.",
+      "timestamp": "2025-11-02T13:19:49.510469Z",
+      "duration_seconds": 4.95,
+      "tokens": {
+        "input": 1680,
+        "output": 974,
+        "total": 2654
+      },
+      "cost_usd": 0.000836,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 7,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output demonstrates solid understanding of formal nonprofit advocacy communications and follows most template requirements. However, it contains critical errors in personalization implementation, misses key A/B testing specifications, and includes some awkward phrasing that reduces immediate usability for a professional campaign.",
+        "strengths": [
+          "Appropriate formal tone throughout all subject lines, matching the policy-engaged audience and advocacy context",
+          "Correctly avoided emoji usage per the NONE policy specification",
+          "Strong benefit-led messaging that connects individual action to concrete impact (50 signatures = lawmaker alert)",
+          "Clean spam/deliverability check with no problematic triggers",
+          "Character counts are accurate and within optimal mobile-friendly ranges (40-60 characters)",
+          "Preheaders appropriately add context without repeating subject lines",
+          "Good variety across curiosity-led, benefit-led, and action-led approaches"
+        ],
+        "weaknesses": [
+          "CRITICAL ERROR in Section 1: Both 'With emoji' and 'Without emoji' versions are identical, despite EMOJI POLICY: NONE\u2014should only show one version when policy is NONE",
+          "FROM NAME recommendation doesn't match the specified preference format\u2014should be 'Dr. Lena Cho, Global Water Trust' or similar using the provided CEO name, not generic 'CEO, Global Water Trust'",
+          "Section 5 A/B test fails to follow the template requirement to test ONE variable between the two TOP subject lines from Section 1\u2014instead tests action vs. benefit between Option A and Option B, which is correct, but the hypothesis reasoning is weak",
+          "Personalized subject line #4 shows '[firstname]' merge tag but doesn't demonstrate the fallback ('supporter \u2013 Your Advocacy Can Protect Clean Water') as the example template does",
+          "Some preheaders are overly formal and wordy ('Global Water Trust provides critical updates and avenues for protecting vital water regulations') rather than punchy and action-oriented",
+          "Missing the nuance that VERSION A was specified as 'short' in the A/B test recommendation\u2014the output should have explicitly tested a shorter vs. longer subject line variant",
+          "Character count notation is inconsistent\u2014some preheaders show (89) repeatedly, suggesting possible templating rather than authentic variety"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# GLOBAL WATER TRUST \u2013 ADVOCACY ALERT SUBJECT LINES\n**Campaign:** Sign the petition to protect the Clean Water Rule  \n**Deadline:** December 15, 2025  \n**Tone:** Formal | **Emoji Policy:** None | **Platform:** Campaign Monitor\n\n---\n\n## SECTION 1: TOP 2 SUBJECT LINES (Ready to A/B test)\n\n### Option A\n**Subject line:** [firstname], clean water protections need you now (50 characters)\n\n**Rationale:** Personalization with urgency creates individual ownership while maintaining formal, respectful tone for policy-engaged audience.\n\n**Preheader:** Every 50 signatures triggers a targeted alert to your lawmakers\u2014add your name by Dec 15. (95 characters)\n\n**Emoji versions:**\n- With emoji: N/A (emoji policy: NONE)\n- Without emoji: [firstname], clean water protections need you now (50)\n\n---\n\n### Option B\n**Subject line:** 50 signatures = 1 lawmaker alert. Be one. (45 characters)\n\n**Rationale:** Benefit-forward formula demonstrates concrete impact and invites immediate participation with clear math.\n\n**Preheader:** Sign Global Water Trust's petition to protect the Clean Water Rule by December 15. (92 characters)\n\n**Emoji versions:**\n- With emoji: N/A (emoji policy: NONE)\n- Without emoji: 50 signatures = 1 lawmaker alert. Be one. (45)\n\n---\n\n## SECTION 2: 5 ADDITIONAL OPTIONS\n\n### Option C \u2013 **ACTION-LED**\n**Subject line:** Add your name: Protect the Clean Water Rule (48 characters)\n\n**Rationale:** Direct call-to-action with clear policy focus; accessible to supporters familiar with the issue.\n\n---\n\n### Option D \u2013 **BENEFIT-LED**\n**Subject line:** Your signature reaches decision-makers in DC (47 characters)\n\n**Rationale:** Emphasizes geographic relevance (DC headquarters) and concrete path from action to impact.\n\n---\n\n### Option E \u2013 **CURIOSITY-LED**\n**Subject line:** What happens when 50 people sign? (36 characters)\n\n**Rationale:** Question format creates intrigue around the signature-to-alert mechanism without being unclear.\n\n---\n\n### Option F \u2013 **CURIOSITY-LED**\n**Subject line:** The Clean Water Rule decision is Dec 15 (42 characters)\n\n**Rationale:** Implies time-sensitivity and stakes without alarm language; invites supporters to learn why the date matters.\n\n---\n\n### Option G \u2013 **PERSONALIZED**\n**Subject line:** [firstname], [city] needs clean water champions (52 characters with merge tags)\n\n**Rationale:** Double personalization (name + city) creates local connection to national campaign; fallback \"supporter\" maintains professionalism.\n\n---\n\n## SECTION 3: PREHEADERS FOR THE 5 ADDITIONAL OPTIONS\n\n### Option C preheader:\nEvery petition signature strengthens our collective voice before the December 15 deadline. (90 characters)\n\n---\n\n### Option D preheader:\nGlobal Water Trust delivers bundled petitions directly to key offices in Washington. (84 characters)\n\n---\n\n### Option E preheader:\nGlobal Water Trust sends a targeted alert to lawmakers\u2014and we're nearly at 50 again. (84 characters)\n\n---\n\n### Option F preheader:\nSign our petition to safeguard protections for rivers, wetlands, and drinking water sources. (93 characters)\n\n---\n\n### Option G preheader:\nJoin neighbors across the country in defending the Clean Water Rule\u2014every voice counts. (88 characters)\n\n---\n\n## SECTION 4: SPAM & DELIVERABILITY CHECK\n\n\u2705 **All clear \u2013 no spam triggers detected.**\n\n**Analysis:**\n- No ALL CAPS words\n- No excessive punctuation (!!!, ???)\n- No monetary symbols or \"FREE\" language\n- \"Now\" appears once in Option A in context (\"need you now\"), which is acceptable and not spammy\n- Question mark in Option E is singular and natural\n- Deadline references are factual, not alarmist\n- All language is mission-appropriate and professional\n\n**Mitigation strategies applied:**\n- Used \"need you now\" instead of \"URGENT\" or \"ACT NOW\"\n- Avoided exclamation points entirely to maintain formal tone\n- Presented deadline as informational context, not panic trigger\n- Chose \"add your name\" and \"sign\" over aggressive verbs like \"DEMAND\"\n\n---\n\n## SECTION 5: A/B TEST RECOMMENDATION\n\n### **Test these two subject lines:**\n\n**Variant A:** [firstname], clean water protections need you now (50 characters)  \n**Variant B:** 50 signatures = 1 lawmaker alert. Be one. (45 characters)\n\n### **Variable being tested:**\n**Personalized vs. benefit-led** (personalization with name merge tag vs. concrete impact formula)\n\n### **Hypothesis:**\n\"We predict **Option B (benefit-led)** will perform better because policy-engaged supporters respond to clear cause-and-effect mechanics showing how their action translates to institutional impact. The concrete '50 signatures = 1 alert' formula provides rational justification for participation that appeals to this audience's analytical mindset.\"\n\n### **Success metric:**\n**Primary:** Open rate (nonprofit advocacy benchmark: 22\u201328%)  \n**Secondary:** Click-through rate to petition (advocacy benchmark: 3\u20135%)\n\n### **List-specific considerations:**\n- National policy-engaged list likely skews desktop-heavy (professional audience); both subjects perform well on desktop\n- Formal tone aligns with institutional partners who may forward to colleagues\n- December timing may compete with year-end fundraising emails; clear differentiation (advocacy vs. donation) is important\n- If list includes foundation/funder contacts, Option B's professional tone may outperform personalization\n\n### **Testing protocol:**\n1. Split send 50/50 to full list (or 20% sample if list >25,000)\n2. Wait 4\u20136 hours to declare winner\n3. If open rates are within 1.5 percentage points, consider both effective\n4. Track petition completion rate by variant to assess quality of opens\n\n---\n\n## SECTION 6: FROM NAME RECOMMENDATION\n\n### **Recommended option:**\n\n**\"Global Water Trust Advocacy Team\"**\n\n**Why this works:**\n- **Organizational credibility:** Policy-engaged supporters and institutional partners expect advocacy communications from the organization, not an individual they may not recognize\n- **Functional clarity:** \"Advocacy Team\" signals this is a policy campaign (not a fundraising appeal), helping recipients prioritize and route appropriately\n- **Formality match:** Aligns with formal tone and professional audience; avoids false intimacy\n- **Consistency:** Allows for ongoing advocacy series under a recognizable sender without staff turnover disrupting recognition\n\n### **Alternative (if CEO is well-known in policy circles):**\n\n**\"Dr. [CEO Name], Global Water Trust\"**\n\nUse this if:\n- Your CEO has testified before Congress or has name recognition in water policy\n- The petition will be presented by CEO at a specific hearing/meeting\n- Previous advocacy emails from CEO have strong open-rate history\n\n**Why the organizational sender is safer:**\n- Many supporters filter by organization name, not individual\n- Maintains professional distance appropriate for formal tone\n- Easier to manage for ongoing advocacy alerts (no vacation/transition issues)\n- Partners and institutional contacts can easily whitelist organizational sender\n\n---\n\n## NEXT STEPS\n\n1. **Select your A/B test pair** from Section 5 (recommend Option A vs. Option B)\n2. **Load into Campaign Monitor:**\n   - Set up A/B split (50/50 or use auto-winner feature)\n   - Ensure merge tags [firstname] and [city] have fallback value \"supporter\"\n   - Preview on mobile and desktop\n3. **Set From Name** to \"Global Water Trust Advocacy Team\"\n4. **Schedule send** to arrive Tuesday\u2013Thursday, 9\u201311 AM EST (optimal for professional/policy audience)\n5. **Monitor early results:** Check 2-hour open rate; if below 15%, consider re-send to non-openers with winning variant\n6. **Log results** for future campaigns:\n   - Winning subject + open rate\n   - CTR to petition\n   - Notes on what worked\n\n**Questions or need to adjust for a specific segment?** Start your test with Options A and B\u2014they're mobile-ready, spam-safe, and strategically differentiated.",
+      "timestamp": "2025-11-02T13:20:34.665269Z",
+      "duration_seconds": 50.11,
+      "tokens": {
+        "input": 1829,
+        "output": 1950,
+        "total": 3779
+      },
+      "cost_usd": 0.034737,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This output is exceptionally well-executed for nonprofit advocacy communications. It perfectly captures the formal, professional tone required for policy-engaged audiences while delivering highly actionable, paste-ready content. The subject lines are strategically differentiated, spam-safe, and grounded in advocacy best practices. Minor deductions only for slight verbosity in explanations and one preheader exceeding the stated 90-character limit.",
+        "strengths": [
+          "Tone mastery: All subject lines maintain formal, respectful language appropriate for institutional partners and policy audiences\u2014no casual phrasing, emojis correctly omitted, professional framing throughout",
+          "Strategic A/B test design: The personalized vs. benefit-led hypothesis is sophisticated and well-reasoned, with clear rationale tied to audience psychology ('analytical mindset' of policy-engaged supporters)",
+          "Excellent spam/deliverability analysis: Proactively identifies potential triggers (even minor ones like 'now'), explains mitigation strategies, and demonstrates understanding of email filtering",
+          "Highly actionable From Name section: Provides two options with clear decision criteria and explains why organizational sender is safer than CEO for this audience\u2014shows real-world experience",
+          "Character counts are accurate and strategic: All subject lines fall within optimal ranges (36-52 chars), with front-loaded key words for mobile truncation",
+          "Preheaders add genuine value: They complement rather than repeat subjects, provide context (e.g., 'bundled petitions directly to key offices'), and maintain formal tone",
+          "Mix of types is well-balanced: Delivers exactly 2 curiosity, 2 benefit, 2 action, 1 personalized as specified, with clear labeling",
+          "Practical next steps: The implementation guidance (Tuesday-Thursday 9-11 AM EST for professional audience) shows sector knowledge and includes re-send strategy for low performers"
+        ],
+        "weaknesses": [
+          "Option A preheader is 95 characters, exceeding the stated 50-90 character range\u2014should be tightened to 'Every 50 signatures trigger a lawmaker alert\u2014add your name by Dec 15.' (76 chars)",
+          "Some rationales are slightly verbose for a busy nonprofit team (e.g., Option B rationale could be 'Clear impact formula shows concrete path from signature to lawmaker alert')",
+          "Minor authenticity concern: Phrasing like 'analytical mindset' in the hypothesis, while accurate, sounds slightly academic/consultant-like rather than peer-to-peer nonprofit voice"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "SECTION 1: TOP 2 SUBJECT LINES (Ready to A/B test)\n\nOption A\n- Subject (42): Please sign to defend the Clean Water Rule\n- Rationale: Action-led and explicit about the policy at stake to drive immediate signatures.\n- Preheader (71): Add your name by Dec 15 to keep the Clean Water Rule strong nationwide.\n- Emoji version: Not provided (Emoji policy: NONE)\n\nOption B\n- Subject (40): Every 50 signatures alerts key lawmakers\n- Rationale: Benefit-led; quantifies impact to show how each signature moves Congress.\n- Preheader (89): Your signature helps trigger targeted alerts to lawmakers; every 50 counts by Dec 15.\n- Emoji version: Not provided (Emoji policy: NONE)\n\n\nSECTION 2: 5 ADDITIONAL OPTIONS\n\n1) Type: curiosity-led\n- Subject (49): What happens if we miss the December 15 deadline?\n- Rationale: Opens a question to spur timely action before the cutoff.\n\n2) Type: curiosity-led\n- Subject (51): Your signature could be the 50th to notify Congress\n- Rationale: Creates tension around being the next milestone that triggers outreach.\n\n3) Type: action-led\n- Subject (46): Add your name by Dec 15 to protect clean water\n- Rationale: Direct call with deadline and clear purpose.\n\n4) Type: benefit-led\n- Subject (53): Each 50 signatures triggers a targeted lawmaker alert\n- Rationale: Highlights the concrete advocacy mechanism supporters enable.\n\n5) Type: personalized\n- Subject (57): [firstname], your signature protects the Clean Water Rule\n- Rationale: Formal, respectful personalization that ties the action to the specific rule.\n  Note: Uses Campaign Monitor tag [firstname] with fallback \u201csupporter\u201d\n\n\nSECTION 3: PREHEADERS FOR THE 5 ADDITIONAL OPTIONS\n\n1) What happens if we miss the December 15 deadline?\n- Preheader (75): Add your name today so Congress hears from you before the rule is weakened.\n\n2) Your signature could be the 50th to notify Congress\n- Preheader (70): Your name may be the tipping point that triggers outreach to Congress.\n\n3) Add your name by Dec 15 to protect clean water\n- Preheader (73): Sign the Global Water Trust petition; every 50 names alert key lawmakers.\n\n4) Each 50 signatures triggers a targeted lawmaker alert\n- Preheader (73): Help us reach the next 50 by December 15 to protect the Clean Water Rule.\n\n5) [firstname], your signature protects the Clean Water Rule\n- Preheader (80): Add your name today; policy staff in Washington will deliver alerts to Congress.\n\n\nSECTION 4: SPAM & DELIVERABILITY CHECK\n\n- Potential triggers found: None. No ALL CAPS, \u201cFREE,\u201d \u201cURGENT,\u201d \u201cACT NOW,\u201d or excessive punctuation.\n- Clean rewrites: Not needed.\n- Mitigations used: Kept tone formal, avoided hype language, limited punctuation, front-loaded key terms (Clean Water Rule, signatures, deadline).\n\n\nSECTION 5: A/B TEST RECOMMENDATION\n\n- Test these two:\n  \u2022 Option A (action-led): Please sign to defend the Clean Water Rule\n  \u2022 Option B (benefit-led): Every 50 signatures alerts key lawmakers\n- Variable: Benefit-led vs action-led\n- Hypothesis: Benefit-led will outperform because policy-engaged supporters respond to quantified impact (every 50 signatures triggers a lawmaker alert).\n- Success metric: Open rate (target \u226520\u201325% benchmark). Consider that a national, policy-engaged list may skew higher; send to a 10\u201320% test segment first, declare winner after 2\u20134 hours, then send the winner to the remainder.\n\n\nSECTION 6: FROM NAME RECOMMENDATION\n\n- Primary: CEO, Global Water Trust\n- Alternate: Office of the CEO, Global Water Trust\nNote: A CEO-anchored from name lends authority and aligns with a formal advocacy alert to policy-engaged partners, signaling institutional credibility without over-personalization.",
+      "timestamp": "2025-11-02T13:21:21.365128Z",
+      "duration_seconds": 96.81,
+      "tokens": {
+        "input": 1570,
+        "output": 7381,
+        "total": 8951
+      },
+      "cost_usd": 0.115425,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This output demonstrates excellent understanding of formal advocacy communications and delivers highly usable, professional subject lines. The tone is appropriately formal without being stiff, and the benefit-led framing (50 signatures = lawmaker alert) is strategically sound for policy-engaged audiences. Minor deductions for a few character-count inconsistencies and one slightly long personalized subject line.",
+        "strengths": [
+          "Perfect tone calibration: formal, clear, respectful language appropriate for policy-engaged national audience without jargon or emotional manipulation",
+          "Strong strategic framing: the '50 signatures = lawmaker alert' mechanism is concrete, credible, and motivating for advocacy-savvy supporters",
+          "Excellent spam avoidance: completely clean of triggers while maintaining urgency through deadline and specific policy reference",
+          "Smart A/B test design: benefit vs. action is a meaningful variable with a well-reasoned hypothesis grounded in audience characteristics",
+          "Appropriate CEO from-name recommendation with clear institutional rationale for formal advocacy context",
+          "All 7 subject lines are genuinely distinct and usable, not just minor variations",
+          "Preheaders consistently add context without repetition and stay within character limits"
+        ],
+        "weaknesses": [
+          "Minor character count discrepancy: Section 1 shows '(42)' and '(40)' but actual counts are 43 and 40 respectively when measured precisely",
+          "Personalized subject line in Section 2 (#5) is 57 characters\u2014pushes upper limit and may truncate on mobile; could be tightened",
+          "The alternate from-name 'Office of the CEO' feels slightly bureaucratic; 'Dr. Lena Cho, Global Water Trust' would be warmer while maintaining formality",
+          "Curiosity-led option #1 ('What happens if we miss...') borders on fear-based framing, which may feel slightly off-tone for this formal context, though still acceptable"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.4697,
+    "average_score": 8.42
+  }
+}

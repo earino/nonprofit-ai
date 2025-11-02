@@ -1,0 +1,463 @@
+{
+  "prompt_id": "board-meeting-agenda",
+  "prompt_text": "Draft a concise, board-ready agenda for [ORGANIZATION NAME]\u2019s [QUARTERLY/MONTHLY/SPECIAL] Board Meeting on [MEETING DATE] ([IN-PERSON/VIRTUAL/HYBRID] at [LOCATION/ZOOM LINK], [TIME ZONE]).\n\nThe agenda should:\n- Fit on one page (agenda body 250\u2013350 words) and open with logistics: date/time, location/link, RSVP, accessibility note ([ACCESS NEEDS CONTACT]), and meeting length [MEETING LENGTH].\n- List sections in this order: 1) Call to Order & Mission Moment (2\u20133 min), 2) Consent Agenda, 3) Strategic Discussion (primary), 4) Brief Operational Updates, 5) Committee Items (only if decision needed), 6) Finance/Fiduciary, 7) Governance/Board Development, 8) Executive Session (if needed), 9) Action Recap & Adjourn.\n- For each item include: time allotment, presenter, desired outcome [VOTE/DISCUSS/FYI], and pre-read title/link (pre-reads sent by [PREREAD DATE]).\n- Use a Consent Agenda for routine items (e.g., prior minutes, ED report, routine contracts under [$THRESHOLD]); note \u201cMembers may pull items for discussion.\u201d\n- Put Strategic Discussion first (e.g., \u201c[STRATEGIC TOPIC]\u201d) with 2\u20133 guiding questions and a clear decision or next-step output.\n- Clearly mark motions requiring approval (e.g., \u201cMotion: Approve Q2 Financials\u201d) with estimated time and who introduces the motion.\n- Time-box all reports to minimize \u201cread-outs;\u201d prioritize dialogue; ensure 50\u201360% of total time is strategic.\n- If [MEETING LENGTH] > 120 minutes, insert a 5-minute break and include a brief stretch or check-in.\n- Name roles: Facilitator, Timekeeper, and Note-taker; specify who tracks the parking lot and action items.\n- Close with Action Recap (owner + deadline) and Next Meeting date.\n- Tone: [FORMAL (board governance emphasis)/WARM (collaborative and mission-focused)/CASUAL (small team, informal culture)].\n- Footer: Prepared by [ED NAME] and [BOARD CHAIR NAME]; Questions: [GOVERNANCE CONTACT].\n\nAim for clarity and brevity; avoid jargon, long reports, or items without a defined outcome. Follow Robert\u2019s Rules loosely (motions/seconds recorded) while keeping engagement high. Use this agenda when you need balanced governance, clear decisions, and respect for volunteers\u2019 time.",
+  "category": "board",
+  "generated_at": "2025-11-02T13:19:56.819669Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Rural mutual aid nonprofit serving low-income families in northern New Mexico with food distribution and warming-center support; funded by local donors, small grants, and community events.",
+      "values": {
+        "ORGANIZATION NAME": "High Desert Mutual Aid",
+        "QUARTERLY/MONTHLY/SPECIAL": "Monthly",
+        "MEETING DATE": "December 12, 2025, 6:00\u20137:30 PM",
+        "IN-PERSON/VIRTUAL/HYBRID": "Hybrid",
+        "LOCATION/ZOOM LINK": "Taos Community Center, Room B, 120 Civic Plaza Dr, Taos, NM; Zoom: https://zoom.us/j/98412345678",
+        "TIME ZONE": "Mountain Time (MT)",
+        "ACCESS NEEDS CONTACT": "Ana Morales, admin@hdmutualaid.org, 505-555-0134",
+        "MEETING LENGTH": "90 minutes",
+        "VOTE/DISCUSS/FYI": "Vote/Discuss/FYI",
+        "PREREAD DATE": "December 7, 2025",
+        "$THRESHOLD": "$2,500",
+        "STRATEGIC TOPIC": "Winter Warming Center partnership and volunteer capacity for January\u2013March",
+        "FORMAL (board governance emphasis)/WARM (collaborative and mission-focused)/CASUAL (small team, informal culture)": "CASUAL",
+        "ED NAME": "Ana Morales",
+        "BOARD CHAIR NAME": "James Littlebird",
+        "GOVERNANCE CONTACT": "board@hdmutualaid.org"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Denver-based statewide association of behavioral health providers offering training and advocacy; funded by member dues, event revenue, and sponsorships; primarily urban/suburban membership.",
+      "values": {
+        "ORGANIZATION NAME": "Colorado Association of Behavioral Health Providers (CABHP)",
+        "QUARTERLY/MONTHLY/SPECIAL": "Quarterly",
+        "MEETING DATE": "March 11, 2026, 2:00\u20134:30 PM",
+        "IN-PERSON/VIRTUAL/HYBRID": "Virtual",
+        "LOCATION/ZOOM LINK": "Zoom: https://us06web.zoom.us/j/7712345678?pwd=abc123",
+        "TIME ZONE": "Mountain Time (MT)",
+        "ACCESS NEEDS CONTACT": "Leah Kim, ops@cabhp.org, 303-555-0178",
+        "MEETING LENGTH": "150 minutes",
+        "VOTE/DISCUSS/FYI": "Vote/Discuss/FYI",
+        "PREREAD DATE": "March 4, 2026",
+        "$THRESHOLD": "$10,000",
+        "STRATEGIC TOPIC": "Membership diversification and tiered dues model for 2026\u20132028",
+        "FORMAL (board governance emphasis)/WARM (collaborative and mission-focused)/CASUAL (small team, informal culture)": "WARM",
+        "ED NAME": "Dr. Priya Shah",
+        "BOARD CHAIR NAME": "Marcus Delgado",
+        "GOVERNANCE CONTACT": "governance@cabhp.org"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "National childhood cancer research nonprofit headquartered in Washington, DC with major gifts, foundation grants, and corporate partners; runs multi-site clinical research and family support programs.",
+      "values": {
+        "ORGANIZATION NAME": "National Childhood Cancer Research Alliance (NCCRA)",
+        "QUARTERLY/MONTHLY/SPECIAL": "Special",
+        "MEETING DATE": "January 23, 2026, 9:00 AM\u201312:00 PM",
+        "IN-PERSON/VIRTUAL/HYBRID": "Hybrid",
+        "LOCATION/ZOOM LINK": "NCCRA Headquarters, 1100 New York Ave NW, Washington, DC; Zoom: https://zoom.us/j/94500011223",
+        "TIME ZONE": "Eastern Time (ET)",
+        "ACCESS NEEDS CONTACT": "Dominique Perez, accessibility@nccra.org, 202-555-0146",
+        "MEETING LENGTH": "180 minutes",
+        "VOTE/DISCUSS/FYI": "Vote/Discuss/FYI",
+        "PREREAD DATE": "January 16, 2026",
+        "$THRESHOLD": "$50,000",
+        "STRATEGIC TOPIC": "Campaign case for the $75M Precision Trials Initiative and regional rollout plan",
+        "FORMAL (board governance emphasis)/WARM (collaborative and mission-focused)/CASUAL (small team, informal culture)": "FORMAL",
+        "ED NAME": "Elena Park, MPH",
+        "BOARD CHAIR NAME": "Gerald Whitman",
+        "GOVERNANCE CONTACT": "boardrelations@nccra.org"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**High Desert Mutual Aid Board Meeting Agenda**\n\n**Date:** December 12, 2025\n**Time:** 6:00 \u2013 7:30 PM (MT)\n**Location:** Hybrid \u2013 Taos Community Center, Room B, 120 Civic Plaza Dr, Taos, NM / Zoom: https://zoom.us/j/98412345678\n**Meeting Length:** 90 minutes\n\n**RSVP & Accessibility:** Please RSVP to Ana Morales (admin@hdmutualaid.org, 505-555-0134) by December 9th for accessibility accommodations.\n\n---\n\n**Roles:**\n*   **Facilitator:** James Littlebird\n*   **Timekeeper:** Alex Chen\n*   **Note-taker:** Ana Morales\n*   **Parking Lot & Action Items:** Board Secretary\n\n---\n\n**1. Call to Order & Mission Moment (5 min)**\n    *   **Presenter:** James Littlebird\n    *   **Desired Outcome:** FYI\n    *   **Pre-read:** N/A (Quick Share: Recent positive community impact story)\n\n**2. Consent Agenda (5 min)**\n    *   **Presenter:** Ana Morales\n    *   **Desired Outcome:** Vote (Approve all items)\n    *   **Pre-reads (by Dec 7):**\n        *   November 2025 Board Meeting Minutes\n        *   Executive Director's Monthly Report (Overview of operations, ED@hdmutualaid.org)\n        *   Routine Contract Approval: Catering for Jan 2026 Volunteer Appreciation ($1,200)\n    *   *Members may pull items for discussion.*\n    *   **Motion:** Approve Consent Agenda (Introduced by Board Secretary)\n\n**3. Strategic Discussion: Winter Warming Center (40 min)**\n    *   **Presenter:** Maria Garcia (Programs Lead)\n    *   **Desired Outcome:** Decisions on partnership framework, Confirm volunteer capacity\n    *   **Pre-read (by Dec 7):** Winter Warming Center Proposal & Partnership Draft (Maria.Garcia@hdmutualaid.org)\n    *   **Guiding Questions:**\n        1.  Does the proposed partnership agreement adequately protect HDMA's interests and values?\n        2.  Can we realistically staff the Warming Center from January to March with our current or projected volunteer pool?\n        3.  What are the key risks and mitigation strategies for this initiative?\n    *   **Output:** Agreement on partnership terms; Confirmed volunteer strategy for Q1 2026.\n\n**(5 min) Stretch Break / Quick Check-in**\n\n**4. Brief Operational Updates (10 min)**\n    *   **Presenter:** Executive Director\n    *   **Desired Outcome:** FYI\n    *   **Pre-read (by Dec 7):** Operational Dashboard (dashboard.hdmutualaid.org)\n    *   *Focus on key metrics and highlights, not a full report readout.*\n\n**5. Committee Items (5 min)**\n    *   **Presenter:** John Smith (Fundraising Committee Chair)\n    *   **Desired Outcome:** Vote\n    *   **Pre-read (by Dec 7):** Grant Application Review & Recommendation (Grants.Committee@hdmutualaid.org)\n    *   **Motion:** Approve submission of the XYZ Foundation Grant Application. (Introduced by John Smith)\n\n**6. Finance/Fiduciary (10 min)**\n    *   **Presenter:** Treasurer\n    *   **Desired Outcome:** Vote\n    *   **Pre-read (by Dec 7):** Q2 Financial Report (Treasurer@hdmutualaid.org)\n    *   **Motion:** Approve Q2 Financials ending October 31, 2025. (Introduced by Treasurer)\n\n**7. Governance/Board Development (5 min)**\n    *   **Presenter:** Board Chair\n    *   **Desired Outcome:** Discuss/FYI\n    *   **Pre-read:** N/A\n    *   Discussion: Initial thoughts on 2026 Board Retreat planning.\n\n**8. Executive Session (If needed) (0-10 min)**\n    *   **Desired Outcome:** Confidential Discussion\n    *   *Motion to enter Executive Session.*\n\n**9. Action Recap & Adjourn (5 min)**\n    *   **Presenter:** Board Secretary\n    *   **Desired Outcome:** FYI\n    *   **Actions:**\n        *   [Owner, Task, Deadline]\n        *   [Owner, Task, Deadline]\n    *   **Next Meeting:** January 16, 2026, 6:00 PM MT.\n\n---\nPrepared by Ana Morales and James Littlebird\nQuestions: board@hdmutualaid.org",
+      "timestamp": "2025-11-02T13:15:36.483661Z",
+      "duration_seconds": 5.2,
+      "tokens": {
+        "input": 601,
+        "output": 1024,
+        "total": 1625
+      },
+      "cost_usd": 0.000705,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly functional, well-structured board agenda that successfully balances governance rigor with the casual, mission-focused tone appropriate for a small rural mutual aid organization. It follows the template closely and would be immediately usable by a nonprofit ED. Minor issues include some timing inconsistencies and a few details that could be more specific to the organization's context.",
+        "strengths": [
+          "Excellent tone calibration\u2014casual yet professional, with accessible language appropriate for a small community nonprofit",
+          "Strong strategic focus with 40 minutes (44% of meeting time) dedicated to the warming center discussion, including well-crafted guiding questions",
+          "Clear role assignments (Facilitator, Timekeeper, Note-taker, Parking Lot tracker) and consistent formatting throughout",
+          "Effective use of consent agenda to streamline routine items while allowing flexibility to pull items for discussion",
+          "Practical inclusion of a stretch break at the appropriate midpoint for a 90-minute meeting",
+          "All required elements present: logistics, accessibility note, pre-read deadlines, motion language, action recap structure, and footer with contacts"
+        ],
+        "weaknesses": [
+          "Time allocations add up to 90 minutes but don't account for the conditional Executive Session (0-10 min), which could cause the meeting to run over",
+          "Q2 Financials 'ending October 31, 2025' is confusing\u2014Q2 typically ends June 30, suggesting a fiscal year clarification is needed",
+          "Some pre-read links are generic email addresses rather than actual document links, reducing immediate usefulness",
+          "The 'Board Secretary' role appears suddenly without being introduced in the Roles section at the top",
+          "Action Recap section uses placeholder brackets without example content, which could have demonstrated the format more clearly"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# HIGH DESERT MUTUAL AID  \n## Monthly Board Meeting Agenda\n\n**Date/Time:** December 12, 2025 | 6:00\u20137:30 PM Mountain Time (MT)  \n**Location:** Hybrid \u2013 Taos Community Center, Room B, 120 Civic Plaza Dr, Taos, NM  \n**Zoom:** https://zoom.us/j/98412345678  \n**RSVP & Accessibility:** Contact Ana Morales by Dec 10 | admin@hdmutualaid.org | 505-555-0134  \n**Meeting Length:** 90 minutes  \n**Roles:** Facilitator: James Littlebird | Timekeeper: Sofia Chen | Note-taker & Action Items: Ana Morales  \n**Pre-reads sent:** December 7, 2025\n\n---\n\n### 1. Call to Order & Mission Moment (3 min) \u2013 *James*  \nQuick story from November deliveries. **Outcome:** FYI\n\n### 2. Consent Agenda (2 min) \u2013 *James*  \n**Motion:** Approve all consent items (members may pull for discussion):  \n- November meeting minutes | *Pre-read: Nov_Minutes.pdf*  \n- Executive Director report | *Pre-read: ED_Report_Dec.pdf*  \n- Supply contract renewal ($1,800) | *Pre-read: Contract_Summary.pdf*  \n**Outcome:** Vote\n\n### 3. Strategic Discussion: Winter Warming Center Partnership (45 min) \u2013 *Maria Gonzales & James*  \n**Questions:** (1) Do we have volunteer capacity Jan\u2013Mar? (2) What resources/training do volunteers need? (3) Should we commit or phase in?  \n*Pre-read: Warming_Center_Proposal.pdf*  \n**Outcome:** Decision on partnership scope + next steps\n\n**\u2014 5-minute break / stretch (7:05 PM) \u2014**\n\n### 4. Operational Updates (10 min) \u2013 *ED summary only*  \nHighlights: food pantry numbers, volunteer recruitment.  \n**Outcome:** FYI | Questions only\n\n### 5. Committee Items (10 min)  \n**Fundraising Committee** \u2013 *Yolanda*: Event sponsorship ask ($3,200).  \n**Motion:** Approve spring fundraiser budget increase. *Pre-read: Fundraiser_Budget.pdf*  \n**Outcome:** Vote\n\n### 6. Finance/Fiduciary (8 min) \u2013 *Treasurer: Mike*  \n**Motion:** Approve Q2 financials. *Pre-read: Q2_Financials.xlsx*  \n**Outcome:** Vote\n\n### 7. Governance (5 min) \u2013 *James*  \nBoard recruitment update; onboarding plan for January.  \n**Outcome:** Discuss\n\n### 8. Executive Session (if needed) \u2013 *Chair*  \nPersonnel matter (exit if unnecessary).\n\n### 9. Action Recap & Adjourn (2 min) \u2013 *Ana reads back*  \nAction items with owners + deadlines.  \n**Next Meeting:** January 9, 2026, 6:00 PM MT\n\n---\n\n**Prepared by:** Ana Morales & James Littlebird | **Questions:** board@hdmutualaid.org",
+      "timestamp": "2025-11-02T13:15:46.913175Z",
+      "duration_seconds": 15.63,
+      "tokens": {
+        "input": 637,
+        "output": 770,
+        "total": 1407
+      },
+      "cost_usd": 0.013461,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an excellent, board-ready agenda that successfully balances governance rigor with the casual, mission-focused tone appropriate for a small rural mutual aid organization. It hits all structural requirements, prioritizes strategic discussion (50% of meeting time), and demonstrates practical understanding of nonprofit board operations. Minor weaknesses include slightly generic pre-read filenames and a small timing arithmetic issue.",
+        "strengths": [
+          "Perfect tone calibration: casual yet professional, using accessible language ('Quick story,' 'Questions only') while maintaining governance structure",
+          "Excellent time allocation: 45 minutes (50%) to strategic discussion as required, with clear guiding questions that are contextually appropriate",
+          "Comprehensive logistics section with all required elements (RSVP deadline, accessibility contact, roles, hybrid details)",
+          "Smart use of consent agenda to streamline routine items, explicitly noting pull-for-discussion option",
+          "Clear outcome labels (Vote/Discuss/FYI) for every item with appropriate presenters named",
+          "Thoughtful inclusion of 5-minute break at logical midpoint for 90-minute meeting",
+          "Action recap structure and next meeting date included as specified",
+          "Appropriate footer with preparers and governance contact",
+          "Realistic agenda items for this organization type (warming center partnership, food pantry, volunteer capacity)",
+          "Word count appears within 250-350 range for agenda body"
+        ],
+        "weaknesses": [
+          "Minor timing inconsistency: break shows '7:05 PM' but cumulative time through item 3 would be approximately 6:50 PM (not a major issue but shows slight calculation gap)",
+          "Pre-read filenames are somewhat generic (could be more specific, e.g., 'Nov2025_Minutes' vs 'Nov_Minutes')",
+          "Executive Session item could specify estimated time allocation even if conditional"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "High Desert Mutual Aid \u2014 Monthly Board Meeting Agenda\n\nDate/Time: Fri, Dec 12, 2025, 6:00\u20137:30 PM MT (90 min)\nLocation: Hybrid \u2014 Taos Community Center, Room B, 120 Civic Plaza Dr, Taos, NM; Zoom: https://zoom.us/j/98412345678\nRSVP: Email admin@hdmutualaid.org by Wed, Dec 10 to help confirm quorum/tech.\nAccessibility: Room B is wheelchair accessible; masks welcome; Zoom captions on. Request ASL, Spanish interpretation, or childcare by Sun, Dec 7: Ana Morales, admin@hdmutualaid.org, 505-555-0134.\nRoles: Facilitator \u2013 James Littlebird; Timekeeper \u2013 Treasurer; Note-taker \u2013 Ana Morales. Parking lot: Timekeeper. Action items: Note-taker. We follow Robert\u2019s Rules loosely (motions/seconds recorded).\n\n1) Call to Order & Mission Moment (3 min) \u2014 Presenter: Facilitator. Outcome: FYI/Connect. Pre-read (sent by Dec 7): \u201cMission Moment: Warming Kits Story\u201d \u2014 https://hdmutualaid.org/board/dec2025/mission.pdf\n\n2) Consent Agenda (4 min) \u2014 Presenter: Facilitator. Outcome: Vote. Motion: Approve Consent Agenda. Members may pull items for discussion. Pre-read: \u201cConsent Packet: Nov 14 Minutes; ED Report; Routine contracts < $2,500\u201d \u2014 https://hdmutualaid.org/board/dec2025/consent.pdf\n\n3) Strategic Discussion: Winter Warming Center partnership and volunteer capacity (Jan\u2013Mar) (48 min) \u2014 Presenters: ED + Program Lead. Outcome: Discuss + Decision/Next steps. Guiding Qs: What\u2019s the minimum viable model we can reliably staff? Where are our biggest volunteer bottlenecks and quick fixes? What risks/limits (costs, liability, burnout) do we set? Decision: Authorize ED to finalize MoU with Taos Shelter (not to exceed $7,500 in pass-through costs), set target of 120 volunteer shifts/month, and name two board liaisons. Pre-reads: \u201cPartnership Brief (draft MoU + site plan)\u201d \u2014 https://hdmutualaid.org/board/dec2025/warming-brief.pdf; \u201cVolunteer Capacity Analysis (Jan\u2013Mar)\u201d \u2014 https://hdmutualaid.org/board/dec2025/volunteers.pdf\n\n4) Brief Operational Updates (6 min) \u2014 Presenter: ED/Leads (1 min each; no slides). Outcome: FYI; parking lot captures follow-ups. Pre-read: \u201cOps Dashboard \u2014 Dec\u201d \u2014 https://hdmutualaid.org/board/dec2025/ops.pdf\n\n5) Committee Items \u2014 only if decision needed (4 min) \u2014 Presenter: Relevant Chair. Outcome: Vote (if any). Motions only if pre-reads posted. Pre-read: \u201cCommittee Motions Addendum\u201d \u2014 https://hdmutualaid.org/board/dec2025/committees.pdf\n\n6) Finance/Fiduciary (10 min) \u2014 Presenter: Treasurer. Outcome: Vote + Discuss. Motion: Approve Q2 Financials (introduced by Treasurer). Pre-read: \u201cQ2 Financials + Cash Flow Forecast\u201d \u2014 https://hdmutualaid.org/board/dec2025/finance.pdf\n\n7) Governance/Board Development (5 min) \u2014 Presenter: Governance Chair. Outcome: Discuss. Pre-read: \u201cBoard Recruitment & Onboarding Plan (Q1 2026)\u201d \u2014 https://hdmutualaid.org/board/dec2025/governance.pdf\n\n8) Executive Session (if needed) (5 min) \u2014 Presenter: Facilitator. Outcome: Discuss. Pre-read: \u201cBoard-only HR Memo\u201d \u2014 see board portal.\n\n9) Action Recap & Adjourn (5 min) \u2014 Presenter: Note-taker. Outcome: Confirm owners + deadlines; Next meeting: Fri, Jan 9, 2026, 6:00\u20137:30 PM MT.\n\nPrepared by Ana Morales and James Littlebird. Questions: board@hdmutualaid.org.",
+      "timestamp": "2025-11-02T13:17:07.073927Z",
+      "duration_seconds": 95.79,
+      "tokens": {
+        "input": 550,
+        "output": 5040,
+        "total": 5590
+      },
+      "cost_usd": 0.07725,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally well-crafted board agenda that balances professionalism with the requested casual tone. It follows the template meticulously, allocates time strategically (53% to strategic discussion), and includes practical details like accessibility accommodations and role assignments. The output is immediately usable by a small nonprofit.",
+        "strengths": [
+          "Excellent time allocation with 48 of 90 minutes (53%) devoted to strategic discussion, meeting the 50-60% target",
+          "Casual yet professional tone perfectly suited to a small mutual aid org ('masks welcome,' 'We follow Robert's Rules loosely')",
+          "Comprehensive accessibility statement that goes beyond ADA basics to include masks, Spanish interpretation, and childcare with appropriate lead time",
+          "Strategic discussion section is well-structured with three focused guiding questions that balance ambition with realistic constraints",
+          "Clear action outcomes and decision points for each item, avoiding vague 'updates'",
+          "Practical role assignments (Facilitator, Timekeeper, Note-taker) with specific responsibilities for parking lot and action items",
+          "Word count appears within 250-350 range for agenda body (excluding header logistics)"
+        ],
+        "weaknesses": [
+          "Minor timing inconsistency: listed times total 90 minutes exactly with no buffer, which is unrealistic; real meetings need 2-3 minutes of flex",
+          "The $7,500 pass-through cost authorization in item 3 exceeds the $2,500 threshold mentioned for consent agenda, but no motion format is provided (should say 'Motion: Authorize...')",
+          "Executive Session item includes a pre-read link to 'board portal' but all other links use full URLs, creating minor inconsistency"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## CABHP Quarterly Board Meeting Agenda\n\n**Date:** March 11, 2026\n**Time:** 2:00 PM \u2013 4:30 PM MT (150 minutes, includes a short break)\n**Location:** Virtual \u2013 Zoom: [https://us06web.zoom.us/j/7712345678?pwd=abc123](https://us06web.zoom.us/j/7712345678?pwd=abc123)\n\n**RSVP:** By March 1, 2026, to Leah Kim, ops@cabhp.org or 303-555-0178.\n**Accessibility Note:** Please contact Leah Kim for any accommodation requests.\n\n---\n\n**Meeting Roles:**\n* **Facilitator:** Board Chair\n* **Timekeeper:** Sarah Chen\n* **Note-taker:** Alex Rodriguez\n* **Parking Lot & Action Items:** Alex Rodriguez\n\n---\n\n**1. Call to Order & Mission Moment (5 min)**\n* **2:00 PM** | Facilitator | FY | *A brief reflection on CABHP\u2019s impact in a community.*\n\n**2. Consent Agenda (5 min)**\n* **2:05 PM** | Facilitator | Vote | *Members may pull items for discussion.*\n    * **Motion:** Approve February 2026 Board Meeting Minutes. (Pre-read: 2026-02-BOD-Minutes)\n    * **Motion:** Accept Executive Director\u2019s Q1 2026 Report. (Pre-read: ED-Report-Q1-2026)\n    * **Motion:** Approve Provider Outreach Campaign Contract (<$10,000). (Pre-read: Outreach-Contract-Summary)\n\n**BREAK (2:10 PM - 2:15 PM) \u2013 Stretch & Check-in (5 min)**\n\n**3. Strategic Discussion: Membership Diversification & Tiered Dues (60 min)**\n* **2:15 PM** | Board Chair & Membership Committee Lead | Discuss/Decision | *Pre-read: Membership-Strategy-Brief-2026-2028*\n    * **Goal:** Finalize recommendations for a 2026\u20132028 membership diversification and tiered dues model.\n    * **Guiding Questions:** \n        1. How do we best attract and retain a diverse range of behavioral health providers?\n        2. What pricing tiers appropriately reflect value and capacity for our member segments?\n        3. What are the potential impacts on CABHP's financial sustainability and inclusivity?\n    * **Outcome:** Board decision on recommended model and next steps for implementation planning.\n\n**4. Brief Operational Updates (15 min)**\n* **3:15 PM** | Executive Director | FYI | *Pre-read: Operational-Dashboard-Q1-2026*\n    * Concise overview of key operational metrics. Focus on successes and areas for improvement.\n\n**5. Committee Items (10 min)**\n* **3:30 PM** | Committee Chairs | Vote/Discuss | *Pre-read: (as needed for pulled items)*\n    * **Motion:** Approve Legislative Advocacy Priorities for H2 2026 (Policy Committee). (Pre-read: H2-2026-Policy-Priorities)\n\n**6. Finance/Fiduciary (15 min)**\n* **3:40 PM** | Treasurer & Finance Committee Chair | Vote | *Pre-read: Q1-2026-Financials*\n    * **Motion:** Approve Q1 2026 Financial Report. (Treasurer)\n    * Brief discussion on budget to actuals and significant variances.\n\n**7. Governance/Board Development (10 min)**\n* **3:55 PM** | Governance Committee Chair | Discuss | *Pre-read: Board-Effectiveness-Survey-Summary*\n    * Review summary of recent Board Effectiveness Survey results. Discussion on areas for improvement.\n\n**8. Executive Session (If Needed) (15 min)**\n* **4:05 PM** | Board Chair | Discuss | *Confidential Matters*\n    * The Board will move into Executive Session if there are confidential matters requiring private discussion.\n\n**9. Action Recap & Adjourn (10 min)**\n* **4:20 PM** | Note-taker & Facilitator | FYI\n    * Review of action items, owners, and deadlines.\n    * Next Meeting: June 12, 2026, 2:00 PM \u2013 4:30 PM (Virtual)\n\n---\n\n**Footer:** Prepared by Dr. Priya Shah and Marcus Delgado; Questions: governance@cabhp.org",
+      "timestamp": "2025-11-02T13:17:12.683817Z",
+      "duration_seconds": 5.6,
+      "tokens": {
+        "input": 603,
+        "output": 1037,
+        "total": 1640
+      },
+      "cost_usd": 0.000713,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly functional, well-structured board agenda that successfully balances governance rigor with the requested warm, collaborative tone. It meets nearly all template requirements and would be immediately usable by a nonprofit board. Minor issues include word count exceeding the target range and some formatting inconsistencies that slightly reduce polish.",
+        "strengths": [
+          "Excellent strategic focus with 60 minutes (40% of meeting time) dedicated to membership diversification, featuring clear guiding questions and desired outcomes",
+          "Strong adherence to the requested structure with all nine sections present in correct order, clear time allocations, presenter roles, and outcome types (Vote/Discuss/FYI)",
+          "Practical meeting management features including designated roles (Facilitator, Timekeeper, Note-taker, Parking Lot tracker), well-placed break at 2:10 PM, and consent agenda with pull provision",
+          "Warm, mission-focused tone throughout with phrases like 'brief reflection on CABHP's impact in a community' and 'Focus on successes and areas for improvement'",
+          "Clear motion language and pre-read references for all substantive items, with pre-reads due March 4 as specified",
+          "Professional formatting with clean sections, proper logistics header, accessibility information, and appropriate footer"
+        ],
+        "weaknesses": [
+          "Word count appears to exceed the 250-350 word target for agenda body (approximately 400+ words), though this may be justified given the 150-minute meeting length",
+          "RSVP deadline of March 1 is only 10 days before the meeting and 3 days before pre-reads are due (March 4), creating a logical inconsistency\u2014RSVP should precede pre-read distribution",
+          "The strategic discussion time allocation (60 minutes) represents only 40% of total meeting time rather than the recommended 50-60%, though this is close and may be acceptable",
+          "Minor formatting inconsistency: some items use asterisks for bullets while the consent agenda uses indented sub-bullets, reducing visual consistency"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# COLORADO ASSOCIATION OF BEHAVIORAL HEALTH PROVIDERS (CABHP)  \n## QUARTERLY BOARD MEETING AGENDA\n\n**Date/Time:** Wednesday, March 11, 2026 | 2:00\u20134:30 PM Mountain Time (150 minutes)  \n**Location:** Virtual via Zoom: https://us06web.zoom.us/j/7712345678?pwd=abc123  \n**RSVP by March 7:** Leah Kim, ops@cabhp.org | 303-555-0178  \n**Accessibility:** ASL interpretation and captioning available upon request (contact Leah by March 4).  \n**Pre-Reads:** Distributed March 4, 2026. Review in advance to maximize discussion time.\n\n**Roles:** Facilitator: Board Chair | Timekeeper: Vice Chair | Note-taker & Action Tracker: Leah Kim\n\n---\n\n### 1. CALL TO ORDER & MISSION MOMENT (2:00\u20132:05 PM | 5 min)\n- Welcome and Mission Moment: Member story from San Luis Valley clinic  \n- *Facilitator:* Board Chair | *Outcome:* FYI\n\n### 2. CONSENT AGENDA (2:05\u20132:10 PM | 5 min)\n**Motion to approve:**  \na) December 2025 Board Meeting Minutes (*Pre-read A*)  \nb) Executive Director Report (*Pre-read B*)  \nc) Routine vendor contracts (<$10K) (*Pre-read C*)  \n*Members may pull items for discussion.* | *Moved by:* Secretary | *Outcome:* Vote\n\n### 3. STRATEGIC DISCUSSION (2:10\u20133:20 PM | 70 min) **[PRIMARY FOCUS]**\n**Topic:** Membership Diversification & Tiered Dues Model for 2026\u20132028 (*Pre-read D*)  \n*Presenter:* Membership Committee Chair + ED  \n*Guiding Questions:*  \n- How do we balance affordability for small providers with revenue sustainability?  \n- What criteria define membership tiers (budget size, staff count, service type)?  \n- Should student/emerging professional categories be added?  \n*Outcome:* **Vote** on proposed tiered structure or direct revisions for April implementation  \n\n**\u2014 BREAK (3:20\u20133:25 PM | 5 min) \u2014**\n\n### 4. OPERATIONAL UPDATES (3:25\u20133:40 PM | 15 min)\n- Advocacy wins: SB-47 Telehealth Expansion (*Pre-read E*) | *Outcome:* FYI  \n- Annual Conference update (June 18\u201320, Denver) | *Outcome:* Discuss venue logistics\n\n### 5. FINANCE & FIDUCIARY (3:40\u20133:55 PM | 15 min)\n**Motion:** Approve Q4 2025 Financials & FY2026 Q1 Dashboard (*Pre-read F*)  \n*Presenter:* Treasurer | *Outcome:* Vote\n\n### 6. GOVERNANCE & BOARD DEVELOPMENT (3:55\u20134:10 PM | 15 min)\n- Board recruitment: Pipeline for two open seats (rural + BIPOC representation)  \n- June retreat save-the-date | *Outcome:* Discuss/Input\n\n### 7. EXECUTIVE SESSION (4:10\u20134:20 PM | 10 min, if needed)\n- Personnel/legal matters (Board + ED only)\n\n### 8. ACTION RECAP & NEXT STEPS (4:20\u20134:28 PM | 8 min)\n- Review decisions, owners, deadlines (Leah reads back)  \n- Parking Lot items for next meeting\n\n### 9. ADJOURN (4:28 PM)\n**Next Meeting:** June 10, 2026 | 2:00\u20134:30 PM MT\n\n---\n\n*Prepared by Dr. Priya Shah and Marcus Delgado | Questions: governance@cabhp.org*",
+      "timestamp": "2025-11-02T13:17:26.979551Z",
+      "duration_seconds": 19.9,
+      "tokens": {
+        "input": 633,
+        "output": 952,
+        "total": 1585
+      },
+      "cost_usd": 0.016179,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally well-crafted board agenda that balances professionalism with warmth, follows best practices for nonprofit governance, and would be immediately usable. It demonstrates strong attention to detail, proper time allocation favoring strategic discussion (70 of 150 minutes = 47%), and includes all accessibility and logistical elements a real organization needs.",
+        "strengths": [
+          "Perfect tone calibration: warm and collaborative while maintaining governance rigor (e.g., 'Member story from San Luis Valley clinic' adds human touch)",
+          "Excellent strategic focus: 70 minutes allocated to membership diversification with three concrete guiding questions that frame real decision-making",
+          "Outstanding logistics section: includes RSVP deadline, accessibility contact with specific deadline, clear role assignments, and all required links",
+          "Smart use of consent agenda to batch routine items and preserve discussion time for strategic work",
+          "Realistic time boxing with appropriate break placement at the 80-minute mark",
+          "Clear outcome labels (Vote/Discuss/FYI) for every item make expectations transparent",
+          "Authentic details like 'SB-47 Telehealth Expansion' and 'San Luis Valley clinic' feel organization-specific rather than generic",
+          "Action Recap section with owner/deadline tracking shows practical governance discipline"
+        ],
+        "weaknesses": [
+          "Word count slightly exceeds target (approximately 380 words vs. 250-350 requested), though the extra content adds value",
+          "Executive Session placement could note 'Board votes to enter' per Robert's Rules formality",
+          "Pre-read links show as '(Pre-read A)' rather than actual hyperlinks, though this is likely appropriate for a template format"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Colorado Association of Behavioral Health Providers (CABHP)\nQuarterly Board Meeting Agenda\n\nDate/Time: Wednesday, March 11, 2026, 2:00\u20134:30 PM Mountain Time (150 minutes)\nLocation: Virtual via Zoom: https://us06web.zoom.us/j/7712345678?pwd=abc123\nRSVP by March 4: cabhp.org/rsvp-mar2026 or ops@cabhp.org\nAccessibility: For accommodations, contact Leah Kim at ops@cabhp.org or 303-555-0178.\nRoles: Facilitator\u2014Alicia Romero (Board Chair); Timekeeper\u2014Jordan Nguyen; Note-taker\u2014Leah Kim (tracks parking lot and action items). We\u2019ll follow Robert\u2019s Rules loosely; motions/seconds recorded. Pre-reads sent by March 4.\n\n1) Call to Order & Mission Moment (3 min) \u2014 Presenter: A. Romero \u2014 Outcome: Discuss/align \u2014 Pre-read: Member Story: Expanding Access in Pueblo (video) cabhp.org/board/Mar26/story\n\n2) Consent Agenda (5 min) \u2014 Presenter: A. Romero \u2014 Outcome: Vote \u2014 Pre-read: Consent Packet (12/10/25 Minutes, ED Report, Routine Contracts < $10,000) cabhp.org/board/Mar26/consent\nNote: Members may pull items for discussion. Motion (2 min): Approve Consent Agenda (Introduced by Chair)\n\n3) Strategic Discussion (primary): Membership diversification and tiered dues model for 2026\u20132028 (85 min) \u2014 Presenters: S. Patel (ED) and A. Romero \u2014 Outcome: Decide principles and next steps\nGuiding questions:\n- Which member segments do we most need to add/retain?\n- What principles ensure equity and sustainability in a tiered model?\n- What timeline and data are required to launch for FY2027?\nPre-reads: Landscape Analysis (Feb 2026) cabhp.org/board/Mar26/landscape; Benchmarking + Scenarios v1 cabhp.org/board/Mar26/dues\nMotion (5 min): Establish Dues Task Force and adopt pricing principles (Introduced by Vice Chair M. Lopez)\n\nBreak (5 min): Stretch/check-in\n\n4) Brief Operational Updates (10 min) \u2014 Presenter: S. Patel \u2014 Outcome: FYI + brief Q&A \u2014 Pre-read: ED Dashboard Q1 Snapshot cabhp.org/board/Mar26/dashboard\n\n5) Committee Items\u2014only if decision needed (10 min) \u2014 Outcome: Vote\nMotion (6 min): Approve 2026 State Policy Priorities (Introduced by Advocacy Chair R. Thomas) \u2014 Pre-read: Policy Priorities Brief cabhp.org/board/Mar26/policy\n\n6) Finance/Fiduciary (12 min) \u2014 Outcome: Vote/FYI\nMotion (7 min): Accept FY2025 Independent Audit (Introduced by Treasurer J. Nguyen) \u2014 Pre-reads: Audit Report cabhp.org/board/Mar26/audit; Jan\u2013Feb 2026 Financials + Risk Watchlist cabhp.org/board/Mar26/financials\n\n7) Governance/Board Development (8 min) \u2014 Outcome: Vote/Discuss\nMotion (4 min): Appoint Nominating Task Force Chair (Introduced by Gov. Chair P. Shah) \u2014 Pre-read: Board Composition Matrix + Recruitment Plan cabhp.org/board/Mar26/governance\n\n8) Executive Session (if needed) (7 min) \u2014 Presenter: A. Romero \u2014 Outcome: Discuss \u2014 Pre-read: None\n\n9) Action Recap & Adjourn (5 min) \u2014 Presenters: L. Kim & A. Romero \u2014 Outcome: Confirm owner + deadline for each action; Next Meeting: Wednesday, June 10, 2026, 2:00\u20134:30 PM MT (Zoom)\n\nPrepared by Dr. Priya Shah and Marcus Delgado; Questions: governance@cabhp.org.",
+      "timestamp": "2025-11-02T13:18:42.440534Z",
+      "duration_seconds": 95.36,
+      "tokens": {
+        "input": 548,
+        "output": 4671,
+        "total": 5219
+      },
+      "cost_usd": 0.071709,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly functional, board-ready agenda that successfully balances governance rigor with warmth and accessibility. It follows the template meticulously, prioritizes strategic discussion (85 of 150 minutes), and provides clear outcomes for each item. Minor inconsistencies in presenter names and the word count slightly exceed target, but overall it would serve a real nonprofit board very well.",
+        "strengths": [
+          "Excellent structural adherence: logistics upfront, consent agenda properly formatted with pull option, strategic discussion prioritized with specific guiding questions and clear motion",
+          "Strong time management: 150 minutes allocated thoughtfully with a break at the midpoint, strategic discussion receives 57% of total time (exceeds 50% target)",
+          "Clear decision points: every motion explicitly labeled with introducer, time allocation, and linked pre-reads; outcomes (Vote/Discuss/FYI) consistently specified",
+          "Warm, professional tone throughout: collaborative language ('align,' 'check-in'), accessible formatting, mission moment with member story creates engagement",
+          "Practical details well-executed: roles assigned (Facilitator, Timekeeper, Note-taker with parking lot responsibility), RSVP mechanism, accessibility contact prominent",
+          "Realistic content for the scenario: tiered dues model is appropriate for a membership association, policy priorities fit advocacy mission, audit timing aligns with fiscal year"
+        ],
+        "weaknesses": [
+          "Presenter name inconsistency: header lists 'Alicia Romero' as Board Chair/Facilitator, but footer and scenario specify 'Marcus Delgado' as Board Chair; 'S. Patel' appears but ED is 'Dr. Priya Shah'",
+          "Word count slightly over: agenda body is approximately 380 words, exceeding the 250-350 target by about 10% (though still fits one page in typical formatting)",
+          "Minor formatting inconsistency: Item 3 uses 'S. Patel (ED)' while Item 7 uses 'Gov. Chair P. Shah'\u2014mixing abbreviation styles and unclear if same person",
+          "Executive Session lacks context: no indication of topic or why it might be needed, which could create confusion for board members reviewing the agenda"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**NATIONAL CHILDHOOD CANCER RESEARCH ALLIANCE (NCCRA)**\n\n**Special Board Meeting Agenda**\n\n**Date:** January 23, 2026\n**Time:** 9:00 AM \u2013 12:00 PM ET (180 minutes)\n**Location:** Hybrid \u2013 NCCRA Headquarters, 1100 New York Ave NW, Washington, DC\n**Zoom Link:** https://zoom.us/j/94500011223\n**RSVP:** Please RSVP to boardrelations@nccra.org by January 10, 2026.\n**Accessibility:** For accessibility accommodations, please contact Dominique Perez at accessibility@nccra.org or 202-555-0146.\n\n**Roles:**\n*   **Facilitator:** Dr. Evelyn Reed, Board Chair\n*   **Timekeeper:** Mr. David Chen, Treasurer\n*   **Note-taker:** Ms. Sofia Ali, Board Secretary\n*   **Parking Lot/Action Item Tracker:** Ms. Sofia Ali\n\n---\n\n**I. Call to Order & Mission Moment** (5 min)\n    *   **Presenter:** Dr. Evelyn Reed\n    *   **Desired Outcome:** FYI\n    *   *Brief reflection on NCCRA\u2019s impact and mission.*\n\n**II. Consent Agenda** (5 min)\n    *   **Presenter:** Dr. Evelyn Reed\n    *   **Desired Outcome:** Vote\n    *   *Motion: Approve Consent Agenda items.* (Pre-read: Consent Agenda Packet)\n        *   Minutes: October 25, 2025 Board Meeting\n        *   Executive Director's Report, Q4 2025\n        *   Routine Contracts for Q4 2025 (under $50,000)\n    *   *Members may pull items for discussion.*\n\n**III. Strategic Discussion: Precision Trials Initiative Campaign Launch** (80 min)\n    *   **Presenter:** Dr. Evelyn Reed, Ms. Maria Rodriguez (Chief Development Officer)\n    *   **Desired Outcome:** Vote / Discuss\n    *   *Focus: Campaign case for the $75M Precision Trials Initiative and regional rollout plan.* (Pre-read: Precision Trials Initiative Campaign Plan, Executive Summary)\n    *   **Guiding Questions:**\n        1.  Does the proposed campaign narrative effectively articulate the urgent need for the Precision Trials Initiative and its potential impact?\n        2.  Is the proposed $75M target and regional rollout strategy feasible and ambitious enough to meet NCCRA's strategic goals?\n        3.  What key risks or opportunities should the Board be aware of regarding philanthropic major gift cultivation for this initiative?\n    *   *Motion: Approve the overarching strategy for the Precision Trials Initiative Campaign, including the $75M fundraising goal and proposed timeline.* (Introduced by Dr. Evelyn Reed)\n\n**IV. Break** (5 min)\n\n**V. Brief Operational Updates** (10 min)\n    *   **Presenter:** Dr. Alex Wong (Executive Director)\n    *   **Desired Outcome:** FYI\n    *   *High-level accomplishments and upcoming operational priorities.* (Pre-read: ED Operational Brief, Q1 2026)\n    *   *Time-boxed for key highlights; questions encouraged.*\n\n**VI. Finance/Fiduciary** (20 min)\n    *   **Presenter:** Mr. David Chen (Treasurer), Ms. Sarah Miller (CFO)\n    *   **Desired Outcome:** Vote\n    *   *Review of Q4 2025 Financials and preliminary 2026 budget outlook.* (Pre-read: Q4 2025 Financial Report, 2026 Budget Overview)\n    *   *Motion: Approve Q4 2025 Financials as presented.* (Introduced by Mr. David Chen)\n\n**VII. Governance/Board Development** (15 min)\n    *   **Presenter:** Ms. Olivia Stone (Governance Committee Chair)\n    *   **Desired Outcome:** Discuss / Vote\n    *   *Board Skills Matrix Review and nominations for 2027 leadership positions.* (Pre-read: Board Skills Matrix Analysis, 2027 Leadership Nominations Brief)\n    *   *Motion: Approve the slate of candidates for 2027 Board Officer positions, as recommended by the Governance Committee.* (Introduced by Ms. Olivia Stone)\n\n**VIII. Executive Session** (15 min, if needed)\n    *   **Presenter:** Dr. Evelyn Reed\n    *   **Desired Outcome:** Discuss\n    *   *Personnel matters or sensitive organizational discussions (e.g., ED performance review).*\n\n**IX. Action Recap & Adjourn** (5 min)\n    *   **Presenter:** Dr. Evelyn Reed\n    *   **Desired Outcome:** FYI\n    *   *Review of all actions, owners, and deadlines.*\n    *   **Next Meeting:** April 26, 2026, 9:00 AM \u2013 12:00 PM ET.\n\n---\n**Prepared by:** Elena Park, MPH and Gerald Whitman\n**Questions:** boardrelations@nccra.org",
+      "timestamp": "2025-11-02T13:18:48.767112Z",
+      "duration_seconds": 6.32,
+      "tokens": {
+        "input": 612,
+        "output": 1113,
+        "total": 1725
+      },
+      "cost_usd": 0.00076,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The agenda is well-structured, professional, and largely follows the template requirements with appropriate formal tone. However, it contains several notable errors: the Board Chair name is inconsistent (Dr. Evelyn Reed vs. Gerald Whitman from scenario), the word count exceeds the 250-350 target significantly, and the strategic discussion time allocation doesn't quite achieve the 50-60% strategic focus requirement (80 of 160 active minutes = 50%, borderline).",
+        "strengths": [
+          "Excellent formal tone appropriate for a large national nonprofit with clear governance structure and professional language throughout",
+          "Strong strategic discussion section with well-crafted guiding questions that would genuinely facilitate board dialogue on the $75M campaign",
+          "Proper use of consent agenda, clear motion language, time-boxing, and role assignments (Facilitator, Timekeeper, Note-taker, Parking Lot tracker)",
+          "Includes all required structural elements: logistics block, accessibility contact, pre-read references with deadline, break for 180-minute meeting, and action recap",
+          "Realistic agenda flow for a special board meeting focused on major capital campaign approval"
+        ],
+        "weaknesses": [
+          "Critical accuracy error: Board Chair listed as 'Dr. Evelyn Reed' in roles and throughout agenda, but scenario specifies 'Gerald Whitman' as Board Chair\u2014this inconsistency would be confusing and unprofessional",
+          "Word count violation: agenda body is approximately 450-500 words, significantly exceeding the 250-350 word requirement specified in the template",
+          "RSVP deadline (January 10) is 13 days before the meeting but pre-reads are due January 16 (7 days before)\u2014the RSVP should logically come after or align with pre-read distribution",
+          "Missing explicit percentage calculation note: while strategic time is adequate, the agenda doesn't demonstrate the 50-60% strategic focus as clearly as it could (would benefit from a time allocation note)",
+          "Minor: 'Prepared by' footer lists 'Gerald Whitman' correctly but this conflicts with the Chair name used throughout, compounding the confusion"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# NATIONAL CHILDHOOD CANCER RESEARCH ALLIANCE\n## SPECIAL BOARD MEETING AGENDA\n\n**Date/Time:** Friday, January 23, 2026 | 9:00 AM\u201312:00 PM Eastern Time (ET)  \n**Location:** NCCRA Headquarters, 1100 New York Ave NW, Washington, DC 20005  \n**Virtual Option:** Zoom: https://zoom.us/j/94500011223  \n**RSVP:** By January 20, 2026, to boardrelations@nccra.org  \n**Accessibility:** Contact Dominique Perez at accessibility@nccra.org or 202-555-0146 for accommodations.  \n**Meeting Duration:** 180 minutes\n\n**Roles:** Chair Facilitator: Dr. Amanda Chen | Timekeeper: Marcus Liu | Note-taker/Action Items: Keisha Washington\n\n---\n\n### 1. CALL TO ORDER & MISSION MOMENT (9:00\u20139:03 AM | 3 min)\n**Presenter:** Dr. Amanda Chen, Board Chair  \n**Outcome:** FYI \u2013 Family impact story (video)\n\n---\n\n### 2. CONSENT AGENDA (9:03\u20139:05 AM | 2 min)\n**Presenter:** Dr. Chen  \n**Outcome:** VOTE  \n**Motion:** Approve Consent Agenda (second required)  \nMembers may pull items for discussion.\n- November 12, 2025 Board Meeting Minutes | *Pre-read: [Minutes_Nov2025.pdf]*\n- Executive Director Report | *Pre-read: [ED_Report_Jan2026.pdf]*\n- Routine contracts under $50,000 | *Pre-read: [Contracts_Q4.pdf]*\n\n---\n\n### 3. STRATEGIC DISCUSSION: $75M Precision Trials Initiative (9:05\u201310:30 AM | 85 min)\n**Presenter:** Dr. Rajesh Gupta, Chief Scientific Officer; Claire Donovan, VP Development  \n**Outcome:** VOTE on campaign case statement; DISCUSS regional rollout  \n**Pre-read:** *[PTI_CaseStatement_2026.pdf]* | *[Regional_Rollout_Plan.pdf]*\n\n**Guiding Questions:**\n- Does the case statement compellingly articulate scientific need and impact?\n- What risks exist in the 5-region rollout timeline, and how do we mitigate?\n- Should we pursue lead gifts ($10M+) before public launch?\n\n**Desired Output:** Motion to approve campaign case statement; Board input on donor cultivation strategy and timeline.\n\n**BREAK (10:30\u201310:35 AM | 5 min)** \u2013 Stretch and hydrate\n\n---\n\n### 4. OPERATIONAL UPDATES (10:35\u201310:50 AM | 15 min)\n**Presenter:** Elena Park, MPH, COO  \n**Outcome:** FYI \u2013 Brief highlights only; full reports in pre-read *[Ops_Dashboard_Jan2026.pdf]*\n- Clinical Trials Network enrollment status\n- Q4 2025 grant distribution summary\n- Advocacy wins (federal appropriations update)\n\n---\n\n### 5. FINANCE & FIDUCIARY (10:50\u201311:10 AM | 20 min)\n**Presenter:** Gerald Whitman, Treasurer  \n**Outcome:** VOTE  \n**Pre-read:** *[Q2_FY26_Financials.pdf]* | *[Investment_Performance.pdf]*\n\n**Motion:** Approve Q2 FY2026 Financial Statements (second required)  \nInvestment portfolio performance review (5 min discussion)\n\n---\n\n### 6. GOVERNANCE & BOARD DEVELOPMENT (11:10\u201311:25 AM | 15 min)\n**Presenter:** Lila Okafor, Governance Committee Chair  \n**Outcome:** VOTE  \n**Pre-read:** *[Board_Slate_2026.pdf]*\n\n**Motion:** Approve slate of three new Board members effective March 1, 2026 (second required)  \nBoard self-assessment results summary (5 min)\n\n---\n\n### 7. COMMITTEE ITEMS REQUIRING DECISION (11:25\u201311:35 AM | 10 min)\n**Presenter:** Committee Chairs (as needed)  \n**Outcome:** VOTE if necessary  \nPlaceholder \u2013 none anticipated; time reserved for urgent items only.\n\n---\n\n### 8. EXECUTIVE SESSION (11:35\u201311:50 AM | 15 min, if needed)\n**Presenter:** Dr. Chen  \n**Outcome:** DISCUSS \u2013 Board only; CEO performance review preparation\n\n---\n\n### 9. ACTION RECAP & ADJOURNMENT (11:50 AM\u201312:00 PM | 10 min)\n**Presenter:** Keisha Washington  \n**Outcome:** Confirm action items, owners, deadlines; parking lot review  \n**Next Meeting:** April 17, 2026, 2:00\u20135:00 PM ET (Regular Quarterly Meeting)\n\n**Motion to Adjourn**\n\n---\n\n**Pre-reads distributed:** January 16, 2026  \n**Prepared by:** Elena Park, MPH, and Gerald Whitman  \n**Questions:** boardrelations@nccra.org",
+      "timestamp": "2025-11-02T13:19:07.100314Z",
+      "duration_seconds": 24.66,
+      "tokens": {
+        "input": 648,
+        "output": 1239,
+        "total": 1887
+      },
+      "cost_usd": 0.020529,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly professional, well-structured board agenda that would be immediately usable by a large nonprofit. It successfully balances formal governance requirements with strategic focus, allocates time appropriately, and includes all essential elements. Minor inconsistencies in role assignments and presenter details prevent a perfect score.",
+        "strengths": [
+          "Excellent time allocation with 85 minutes (47%) devoted to strategic discussion of the $75M initiative, meeting the 50-60% strategic time requirement",
+          "Clear outcome labels (VOTE/DISCUSS/FYI) and specific motion language throughout, making decision points unambiguous",
+          "Professional formatting appropriate for a national organization with proper logistics, accessibility information, and pre-read distribution timeline",
+          "Strong guiding questions for the strategic discussion that are substantive and decision-oriented",
+          "Appropriate use of consent agenda to streamline routine items and respect board time",
+          "Includes all required structural elements: roles, break, action recap, parking lot tracking, and next meeting date"
+        ],
+        "weaknesses": [
+          "Role inconsistency: Gerald Whitman is listed as both Board Chair in the footer and Treasurer presenting finance, while Dr. Amanda Chen is listed as Chair Facilitator\u2014this creates confusion about governance structure",
+          "The agenda header shows 'Dr. Amanda Chen, Board Chair' but the scenario specifies Gerald Whitman as Board Chair, suggesting the AI may have hallucinated a different chair",
+          "Word count appears slightly under the 250-350 target for agenda body (approximately 230 words excluding headers/footers)",
+          "Executive session timing (11:35-11:50) doesn't align perfectly with the stated purpose\u2014CEO performance review preparation typically requires board-only time but the phrasing could be clearer about whether the ED is present initially"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "National Childhood Cancer Research Alliance (NCCRA) \u2014 Special Board Meeting Agenda\nDate/Time: Friday, January 23, 2026, 9:00 AM\u201312:00 PM ET (180 minutes)\nLocation: Hybrid \u2014 NCCRA HQ, 1100 New York Ave NW, Washington, DC; Zoom: https://zoom.us/j/94500011223\nRSVP: Please confirm in-person or Zoom attendance by January 17 to boardrelations@nccra.org\nAccessibility: For accommodations, contact Dominique Perez at accessibility@nccra.org or 202-555-0146\nRoles: Facilitator\u2014Maria Lopez (Board Chair); Timekeeper\u2014David Kim (Treasurer); Note-taker\u2014Elena Park, MPH (tracks parking lot and action items). Pre-reads sent January 16, 2026. Motions/seconds recorded.\n\n1) Call to Order & Mission Moment (3 min)\nPresenter: Maria Lopez | Outcome: FYI\nPre-read: Brief Mission Highlight (https://nccra.org/board/2026-01/mission)\n\n2) Consent Agenda (8 min)\nPresenter: Maria Lopez | Outcome: Vote\nMotion: Approve Consent Agenda (introduced by Secretary Priya Natarajan). Members may pull items for discussion.\nPre-read: Minutes 10/18/25; ED Report Q4; Routine Contracts < $50,000 Summary (https://nccra.org/board/2026-01/consent-packet)\n\n3) Strategic Discussion \u2014 Campaign case for the $75M Precision Trials Initiative and regional rollout plan (100 min)\nPresenters: Dr. Aisha Rahman (CEO), Thomas Greene (Development Chair) | Outcome: Discuss/Decision\nProposed Motion: Endorse campaign case and authorize Phase 1 Mid-Atlantic rollout planning and task force appointment (introduced by Thomas Greene).\nGuiding questions: Does the case compellingly link to impact and equity? Which rollout option best balances speed, risk, and readiness? What milestones/guardrails trigger phase-gates?\nPre-reads: Case Draft v3; Regional Rollout Options; Risk/ROI (https://nccra.org/board/2026-01/pti-case-v3; /regional-rollout-memo; /pti-risk-roi)\n\nBreak \u2014 stretch/check-in (5 min)\n\n4) Brief Operational Updates (10 min)\nPresenter: Dr. Rahman | Outcome: FYI (time-boxed; questions only)\nPre-read: January Ops Dashboard (https://nccra.org/board/2026-01/ops-dashboard)\n\n5) Committee Items \u2014 only if decision needed (15 min)\nPresenter: Dr. Miguel Santos (Science Chair) | Outcome: Vote\nMotion: Approve vendor selection for Clinical Data Platform (Year 1: $180,000; budgeted) (introduced by Dr. Santos).\nPre-read: Vendor Selection Brief (https://nccra.org/board/2026-01/data-platform-brief)\n\n6) Finance/Fiduciary (18 min)\nPresenter: David Kim (Treasurer) | Outcome: Vote/FYI\nMotion: Approve FY2026 Q2 Financials (introduced by David Kim).\nPre-reads: Q2 Financial Packet; Investment Update (https://nccra.org/board/2026-01/q2-financials; /investment-update)\n\n7) Governance/Board Development (12 min)\nPresenter: Priya Natarajan (Secretary) | Outcome: Discuss\nPre-read: Governance Matrix & 2026\u201327 Slate Draft (https://nccra.org/board/2026-01/governance-matrix)\n\n8) Executive Session \u2014 if needed (7 min)\nPresenter: Board Chair | Outcome: Discuss/Direction\nPre-read: None\n\n9) Action Recap & Adjourn (2 min)\nPresenter: Note-taker | Outcome: Confirm owner + deadline per action; Next Meeting: Friday, April 24, 2026, 9:00 AM\u201312:00 PM ET\n\nPrepared by Elena Park, MPH and Gerald Whitman. Questions: boardrelations@nccra.org.",
+      "timestamp": "2025-11-02T13:19:40.268915Z",
+      "duration_seconds": 57.83,
+      "tokens": {
+        "input": 556,
+        "output": 3416,
+        "total": 3972
+      },
+      "cost_usd": 0.052908,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally well-structured board agenda that demonstrates strong command of nonprofit governance best practices. It successfully balances formality with functionality, allocates strategic discussion time appropriately (100 of 180 minutes), and includes all required elements with precise time-boxing and clear outcomes. Minor discrepancies exist but don't materially impact usability.",
+        "strengths": [
+          "Excellent strategic prioritization: 100 minutes (56%) allocated to the Precision Trials Initiative with three substantive guiding questions that drive real decision-making rather than passive listening",
+          "Comprehensive logistics block with all accessibility, RSVP, role assignments, and hybrid participation details clearly stated upfront",
+          "Proper use of consent agenda to streamline routine items (minutes, ED report, contracts under threshold) with explicit pull-item language",
+          "Clear motion language throughout with designated introducers, estimated times, and explicit Vote/Discuss/FYI outcomes for each item",
+          "Appropriate 5-minute break placement after the intensive strategic session",
+          "Time-boxing discipline evident throughout (e.g., 'time-boxed; questions only' for operational updates)",
+          "All pre-read links formatted consistently with logical URLs and sent date specified",
+          "Footer correctly attributes preparation to ED and Board Chair with governance contact",
+          "Formal tone maintained consistently with appropriate titles (Dr., MPH) and professional language"
+        ],
+        "weaknesses": [
+          "Minor inconsistency: Header lists 'Maria Lopez (Board Chair)' as facilitator, but footer credits 'Gerald Whitman' as Board Chair\u2014likely a data entry error in the scenario values that the AI faithfully reproduced",
+          "Word count appears slightly under target (approximately 320 words in agenda body, within 250-350 range but could use fuller descriptions in a few sections)",
+          "Executive Session rationale not specified\u2014while 'if needed' is appropriate, a brief note on typical triggers (compensation, legal, personnel) would add context for a special meeting of this magnitude"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.2542,
+    "average_score": 8.58
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "prompt_id": "volunteer-role-description",
+  "prompt_text": "Draft a clear, welcoming volunteer role description for [ORGANIZATION NAME] that helps busy nonprofit teams recruit well-matched volunteers.\n\nQUICK INTAKE (copy/paste and fill; leave \u201cTBD\u201d if unknown)\n- Organization: [ORGANIZATION NAME], mission/cause: [MISSION/CAUSE]\n- Volunteer type: [ONE-TIME EVENT / ONGOING DIRECT SERVICE / SKILLED-PRO BONO / VIRTUAL / BOARD-LEADERSHIP]\n- Role title: [ROLE TITLE]\n- Impact metric: [e.g., \u201cserve 50 meals per shift,\u201d \u201csupport 12 students weekly\u201d]\n- Time & place: [X hours/week], [duration], [schedule/flexibility], [location], [on-site/remote/hybrid]\n- Supervisor: [SUPERVISOR TITLE]\n- Training/support: [TRAINING PROVIDED]; materials/resources: [LIST]; stipends/reimbursements: [MILEAGE/PARKING/MEALS or \u201cNone\u201d]\n- Screening: [e.g., background check\u2014cost covered by ORG; none]\n- Application: [APPLICATION LINK/EMAIL], response time: [e.g., within 5 business days], target start: [DATE or Rolling]\n- Inclusion/accessibility contact: [NAME/EMAIL/PHONE]\n- Contact/signature: [CONTACT NAME], [TITLE], [PHONE/EMAIL]\n- Tone: [FORMAL / WARM / CASUAL]\n\nIf a field is blank, propose a sensible default and flag it in [brackets]. If something doesn\u2019t apply, write \u201cNot applicable\u201d or omit.\n\nSTRUCTURE & CONTENT (output must use these 9 numbered headings)\n1) Role Title\n2) Brief Overview (2\u20133 sentences)\n- What the volunteer will do and why it matters.\n- Include impact: \u201cEach shift helps [IMPACT METRIC], advancing [MISSION/CAUSE].\u201d\n3) Responsibilities (4\u20136 bullets)\n- Be concrete. GOOD: \u201cGreet visitors and check them in using our sign-in iPad.\u201d BAD: \u201cSupport front desk operations.\u201d\n- Tailor to [VOLUNTEER TYPE] (e.g., one-time event = day-of tasks; board = governance/strategy; skilled = defined deliverables; virtual = tools/platforms).\n4) Time Commitment\n- State: [HOURS/WEEK], [DURATION], [SCHEDULE/FLEXIBILITY], [LOCATION], [ON-SITE/REMOTE/HYBRID].\n5) Qualifications\n- Required (must-have): keep minimal.\n- Preferred (nice-to-have): end with \u201cDon\u2019t meet every preferred item? We encourage you to apply.\u201d\n6) Training & Support\n- Note training, supervision, materials. Add reimbursements/stipends if applicable; if none, say \u201cNo out-of-pocket costs.\u201d\n7) Screening & Requirements\n- State simply (e.g., \u201cBackground check\u2014cost covered by [ORG NAME]\u201d). Include age/confidentiality only if essential. If none, write \u201cNo background check required.\u201d\n8) Inclusion & Accessibility\n- Always include: \u201cWe welcome volunteers of all backgrounds and abilities. To request accommodations, contact [NAME/EMAIL/PHONE].\u201d\n9) Application Process & Contact\n- How to apply, response time, target start date, and \u201cPosted by [CONTACT NAME], [TITLE], [PHONE/EMAIL], [ORGANIZATION NAME].\u201d\n\nSTYLE & TONE\n- Length: 250\u2013350 words total; prioritize clarity over strict count.\n- Reading level: 8th\u201310th grade; short sentences; plain words.\n- Tone: [FORMAL / WARM / CASUAL] (choose one and use consistently).\n- Format: plain text with numbered headings and bullets; include hyperlinks in parentheses for digital use; spell out URLs for print.\n\nEXAMPLE SNIPPET (tone: WARM, ~50 words)\n\u201cAs a Weekend Pantry Greeter, you\u2019ll welcome neighbors, check them in on our iPad, and answer simple questions. Each 3-hour shift helps 60 households access fresh, healthy food\u2014moving us closer to a hunger-free community. We\u2019ll train you on our check-in app and have a staff lead nearby for support.\u201d\n\nMUST DO\n- Be honest about time and requirements.\n- Make tasks specific and scannable.\n- Use inclusive, welcoming language.\n\nNEVER DO\n- Use legalese, clich\u00e9s (\u201crockstar\u201d), or vague phrases (\u201cother duties as assigned\u201d).\n- Create unnecessary barriers in \u201cRequired.\u201d\n\nQUALITY CHECK\nBefore finalizing, ensure someone could read this in 90 seconds and know if they\u2019re a fit, what they\u2019ll do, and how to apply.\n\nOUTPUT\nProduce one polished role description following the 9 headings above. Do not include tips or commentary in the final output.",
+  "category": "programs",
+  "generated_at": "2025-11-02T13:18:23.512695Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Rural, volunteer-driven food access nonprofit in the Flint Hills of Kansas. Small staff, supported by local churches, small businesses, and county grants; serves low-income families, seniors, and farmworkers.",
+      "values": {
+        "ORGANIZATION NAME": "Flint Hills Neighbors Pantry",
+        "ORG NAME": "Flint Hills Neighbors Pantry",
+        "MISSION/CAUSE": "Reduce rural hunger in Chase and Lyon counties by bringing fresh, healthy groceries directly to neighbors.",
+        "ONE-TIME EVENT / ONGOING DIRECT SERVICE / SKILLED-PRO BONO / VIRTUAL / BOARD-LEADERSHIP": "ONGOING DIRECT SERVICE",
+        "VOLUNTEER TYPE": "Ongoing Direct Service",
+        "ROLE TITLE": "Mobile Pantry Assistant",
+        "e.g., \u201cserve 50 meals per shift,\u201d \u201csupport 12 students weekly\u201d": "Help 60 households receive fresh groceries per shift.",
+        "IMPACT METRIC": "Help 60 households receive fresh groceries per shift.",
+        "X hours/week": "3 hours/week",
+        "HOURS/WEEK": "3",
+        "duration": "3 months minimum",
+        "DURATION": "3 months minimum",
+        "schedule/flexibility": "Saturdays 8:30\u201311:30 a.m.; choose at least 2 Saturdays/month",
+        "SCHEDULE/FLEXIBILITY": "Saturdays 8:30\u201311:30 a.m.; choose at least 2 Saturdays/month",
+        "location": "Rotating rural sites in Chase & Lyon counties, KS (meet at Strong City Community Center)",
+        "LOCATION": "Rotating rural sites in Chase & Lyon counties, KS (meet at Strong City Community Center)",
+        "on-site/remote/hybrid": "On-site",
+        "ON-SITE/REMOTE/HYBRID": "On-site",
+        "SUPERVISOR TITLE": "Pantry Coordinator",
+        "TRAINING PROVIDED": "1-hour orientation; on-the-spot training for check-in app and safe lifting",
+        "LIST": "Safety vest, gloves, iPad for check-in, name badge, bottled water",
+        "MILEAGE/PARKING/MEALS or \u201cNone\u201d": "Mileage reimbursement for designated drivers at $0.45/mile; free parking",
+        "e.g., background check\u2014cost covered by ORG; none": "No background check required; MVR check if driving agency van\u2014cost covered by Flint Hills Neighbors Pantry",
+        "APPLICATION LINK/EMAIL": "https://flinthillspantry.org/volunteer",
+        "e.g., within 5 business days": "Within 3 business days",
+        "DATE or Rolling": "Rolling",
+        "NAME/EMAIL/PHONE": "Maria Lopez, access@flinthillspantry.org, 620-555-0147",
+        "CONTACT NAME": "Evan Carter",
+        "TITLE": "Pantry Coordinator",
+        "PHONE/EMAIL": "620-555-0129, evan@flinthillspantry.org",
+        "FORMAL / WARM / CASUAL": "WARM",
+        "brackets": "[]"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Urban refugee education nonprofit in Minneapolis\u2013St. Paul with ~35 staff. Funded by local foundations, corporate partners, and individual donors; serves adult learners from diverse countries.",
+      "values": {
+        "ORGANIZATION NAME": "Twin Cities Refugee Education Network (TCREN)",
+        "ORG NAME": "Twin Cities Refugee Education Network (TCREN)",
+        "MISSION/CAUSE": "Partner with refugee and immigrant adults to advance English, career, and digital skills for family-sustaining jobs.",
+        "ONE-TIME EVENT / ONGOING DIRECT SERVICE / SKILLED-PRO BONO / VIRTUAL / BOARD-LEADERSHIP": "VIRTUAL",
+        "VOLUNTEER TYPE": "Virtual",
+        "ROLE TITLE": "Virtual ESL Conversation Partner",
+        "e.g., \u201cserve 50 meals per shift,\u201d \u201csupport 12 students weekly\u201d": "Support 2 adult learners in 2 sessions weekly to build English confidence.",
+        "IMPACT METRIC": "Support 2 adult learners in 2 sessions weekly to build English confidence.",
+        "X hours/week": "2 hours/week",
+        "HOURS/WEEK": "2",
+        "duration": "6 months",
+        "DURATION": "6 months",
+        "schedule/flexibility": "Weeknights between 6\u20139 p.m. CT; set a consistent 2-hour window",
+        "SCHEDULE/FLEXIBILITY": "Weeknights between 6\u20139 p.m. CT; set a consistent 2-hour window",
+        "location": "Remote via Zoom",
+        "LOCATION": "Remote via Zoom",
+        "on-site/remote/hybrid": "Remote",
+        "ON-SITE/REMOTE/HYBRID": "Remote",
+        "SUPERVISOR TITLE": "Adult Education Program Manager",
+        "TRAINING PROVIDED": "2-hour online training on trauma-informed tutoring and Zoom tools; monthly mentor circle",
+        "LIST": "Lesson plans, conversation prompts, Zoom Pro access, pronunciation resources",
+        "MILEAGE/PARKING/MEALS or \u201cNone\u201d": "None",
+        "e.g., background check\u2014cost covered by ORG; none": "Background check\u2014cost covered by TCREN",
+        "APPLICATION LINK/EMAIL": "https://tcren.org/volunteer/apply",
+        "e.g., within 5 business days": "Within 5 business days",
+        "DATE or Rolling": "Monthly cohorts; next start December 2, 2025",
+        "NAME/EMAIL/PHONE": "Amina Warsame, access@tcren.org, 612-555-2270",
+        "CONTACT NAME": "Jordan Kim",
+        "TITLE": "Volunteer Manager",
+        "PHONE/EMAIL": "612-555-2211, jordan.kim@tcren.org",
+        "FORMAL / WARM / CASUAL": "CASUAL",
+        "brackets": "[]"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "West Coast conservation nonprofit with 120+ staff and regional offices. Backed by major donors, foundations, and corporate partners; manages large-scale habitat restoration projects.",
+      "values": {
+        "ORGANIZATION NAME": "Pacific Trails Conservancy",
+        "ORG NAME": "Pacific Trails Conservancy",
+        "MISSION/CAUSE": "Protect and restore Pacific Coast habitats so wildlife and communities thrive.",
+        "ONE-TIME EVENT / ONGOING DIRECT SERVICE / SKILLED-PRO BONO / VIRTUAL / BOARD-LEADERSHIP": "SKILLED-PRO BONO",
+        "VOLUNTEER TYPE": "Skilled-Pro Bono",
+        "ROLE TITLE": "GIS Mapping Analyst (Pro Bono)",
+        "e.g., \u201cserve 50 meals per shift,\u201d \u201csupport 12 students weekly\u201d": "Produce 12 high-quality habitat maps guiding restoration across 1,500 acres.",
+        "IMPACT METRIC": "Produce 12 high-quality habitat maps guiding restoration across 1,500 acres.",
+        "X hours/week": "6 hours/week",
+        "HOURS/WEEK": "6",
+        "duration": "12 weeks",
+        "DURATION": "12 weeks",
+        "schedule/flexibility": "Flexible hours; weekly check-in Tuesdays 1\u20132 p.m. PT",
+        "SCHEDULE/FLEXIBILITY": "Flexible hours; weekly check-in Tuesdays 1\u20132 p.m. PT",
+        "location": "Remote; optional desk at San Francisco HQ",
+        "LOCATION": "Remote; optional desk at San Francisco HQ",
+        "on-site/remote/hybrid": "Hybrid (remote with optional on-site)",
+        "ON-SITE/REMOTE/HYBRID": "Hybrid",
+        "SUPERVISOR TITLE": "Director of Conservation Data",
+        "TRAINING PROVIDED": "Project briefing, ArcGIS Online/Pro onboarding, data governance orientation",
+        "LIST": "ArcGIS Pro license, data dictionary, branded map templates, secure data access",
+        "MILEAGE/PARKING/MEALS or \u201cNone\u201d": "None",
+        "e.g., background check\u2014cost covered by ORG; none": "Volunteer agreement and confidentiality/NDA; no background check required",
+        "APPLICATION LINK/EMAIL": "https://pacifictrails.org/volunteer/gis-analyst",
+        "e.g., within 5 business days": "Within 7 business days",
+        "DATE or Rolling": "Rolling; next project kickoff January 13, 2026",
+        "NAME/EMAIL/PHONE": "Leah Chen, inclusion@pacifictrails.org, 415-555-0198",
+        "CONTACT NAME": "Ravi Patel",
+        "TITLE": "Director of Conservation Data",
+        "PHONE/EMAIL": "415-555-0172, ravi.patel@pacifictrails.org",
+        "FORMAL / WARM / CASUAL": "FORMAL",
+        "brackets": "[]"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## 1) Role Title\nMobile Pantry Assistant\n\n## 2) Brief Overview\nAs a Mobile Pantry Assistant, you\u2019ll be a friendly face helping neighbors access fresh, healthy groceries at our rotating rural sites. Each shift helps 60 households receive fresh groceries, advancing our mission to reduce rural hunger in Chase and Lyon counties by bringing fresh, healthy groceries directly to neighbors.\n\n## 3) Responsibilities\n* Warmly greet neighbors, assisting them with check-in using our mobile app on an iPad.\n* Help set up and tear down mobile pantry stations, carefully handling food boxes and supplies.\n* Distribute pre-packed grocery boxes and assist neighbors with carrying items to their vehicles.\n* Answer basic questions about the pantry services and direct neighbors to the Pantry Coordinator when needed.\n* Maintain a clean and organized distribution area during and after each shift.\n* Potentially drive the agency van to designated pantry sites (if qualified and interested).\n\n## 4) Time Commitment\nWe ask for 3 hours per week, with a minimum commitment of 3 months. Shifts are Saturdays from 8:30\u201311:30 a.m. Volunteers are asked to choose at least 2 Saturdays per month. We meet at the Strong City Community Center and travel to rotating rural sites in Chase & Lyon counties, KS. This is an on-site role.\n\n## 5) Qualifications\n**Required:**\n* Ability to lift up to 25 pounds comfortably.\n* A friendly and compassionate demeanor.\n\n**Preferred:**\n* Valid driver's license and a clean driving record (if interested in driving the agency van).\n* Experience with mobile device applications.\n* Don\u2019t meet every preferred item? We encourage you to apply.\n\n## 6) Training & Support\nYou'll receive a 1-hour orientation to learn about our mission and operations. On-the-spot training will be provided for using the check-in app and safe lifting techniques. We provide a safety vest, gloves, an iPad for check-in, a name badge, and bottled water during your shift. Mileage reimbursement is available for designated drivers at $0.45/mile, and free parking is provided.\n\n## 7) Screening & Requirements\nNo background check is required for this role. An MVR (Motor Vehicle Record) check will be conducted by Flint Hills Neighbors Pantry at our cost if you are interested in driving the agency van.\n\n## 8) Inclusion & Accessibility\nWe welcome volunteers of all backgrounds and abilities. To request accommodations, contact Maria Lopez, access@flinthillspantry.org, 620-555-0147.\n\n## 9) Application Process & Contact\nTo apply, please visit https://flinthillspantry.org/volunteer. We aim to respond to all applications within 3 business days. We have rolling start dates, so you can begin making a difference soon!\nPosted by Evan Carter, Pantry Coordinator, 620-555-0129, evan@flinthillspantry.org, Flint Hills Neighbors Pantry.",
+      "timestamp": "2025-11-02T13:16:33.756349Z",
+      "duration_seconds": 3.36,
+      "tokens": {
+        "input": 1169,
+        "output": 652,
+        "total": 1821
+      },
+      "cost_usd": 0.000567,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly polished, professional volunteer role description that successfully balances warmth with clarity. It follows the template precisely, provides concrete details that help candidates self-screen, and maintains accessibility throughout. Minor areas for improvement include slightly generic phrasing in a few spots and one small structural inconsistency.",
+        "strengths": [
+          "Excellent concrete task descriptions (e.g., 'Warmly greet neighbors, assisting them with check-in using our mobile app on an iPad' vs. vague 'support operations')",
+          "Strong adherence to template structure with all 9 required headings properly formatted and complete",
+          "Appropriate warm tone throughout that feels welcoming without being overly casual or unprofessional",
+          "Clear, honest time commitment and flexibility parameters that help volunteers understand exactly what's expected",
+          "Effective use of impact metric integration in the overview ('Each shift helps 60 households receive fresh groceries')",
+          "Inclusive language in qualifications section with encouraging 'Don't meet every preferred item?' statement",
+          "Proper handling of screening requirements with clear distinction between general volunteers and van drivers",
+          "Accessibility contact information prominently displayed with multiple contact methods",
+          "Reading level appears appropriate (8th-10th grade) with short sentences and plain language throughout"
+        ],
+        "weaknesses": [
+          "The phrase 'making a difference' in section 9 is slightly clich\u00e9d, though not egregious",
+          "Word count appears to be approximately 320-330 words, which is within range but on the higher end\u2014could be tightened slightly",
+          "The 'potentially drive the agency van' bullet in Responsibilities could be clearer that this is optional/for interested volunteers only"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Mobile Pantry Assistant\n\n## 1) Role Title\n**Mobile Pantry Assistant**\n\n## 2) Brief Overview\nAs a Mobile Pantry Assistant, you'll help set up our mobile grocery distribution sites, greet neighbors warmly, assist with food selection, and carry groceries to vehicles. Each shift helps 60 households receive fresh groceries, advancing our mission to reduce rural hunger in Chase and Lyon counties by bringing fresh, healthy groceries directly to neighbors.\n\n## 3) Responsibilities\n- Unload the pantry van and set up tables, tents, and food displays at rotating rural sites\n- Greet neighbors, check them in using our iPad app, and answer questions about available groceries\n- Help neighbors select fresh produce, dairy, proteins, and shelf-stable items based on household size\n- Carry grocery bags and boxes to neighbors' vehicles\n- Restock tables throughout the distribution and repack leftover items at the end\n- Work alongside 4\u20136 other volunteers and follow direction from the Pantry Coordinator\n\n## 4) Time Commitment\n**3 hours per week, 3-month minimum commitment.** Saturdays, 8:30\u201311:30 a.m.; choose at least 2 Saturdays per month. We rotate among rural sites in Chase and Lyon counties, Kansas\u2014meet at Strong City Community Center each Saturday morning. This is an on-site role.\n\n## 5) Qualifications\n**Required:**\n- Able to lift and carry up to 25 pounds\n- Comfortable working outdoors in varying weather\n- Friendly and respectful with people from all backgrounds\n\n**Preferred:**\n- Experience with customer service or community events\n- Familiarity with the Flint Hills region\n\nDon't meet every preferred item? We encourage you to apply.\n\n## 6) Training & Support\nYou'll receive a 1-hour orientation and on-the-spot training for our check-in app and safe lifting techniques. We provide a safety vest, gloves, iPad for check-in, name badge, and bottled water. Mileage reimbursement at $0.45 per mile is available if you're a designated driver for our agency van. Free parking at all sites.\n\n## 7) Screening & Requirements\nNo background check required. If you're interested in driving the agency van, a Motor Vehicle Record (MVR) check is required\u2014cost covered by Flint Hills Neighbors Pantry.\n\n## 8) Inclusion & Accessibility\nWe welcome volunteers of all backgrounds and abilities. To request accommodations, contact Maria Lopez at access@flinthillspantry.org or 620-555-0147.\n\n## 9) Application Process & Contact\nApply online at https://flinthillspantry.org/volunteer (or flinthillspantry.org/volunteer). We'll respond within 3 business days. Start dates are rolling\u2014join us any Saturday!\n\n**Posted by Evan Carter, Pantry Coordinator**  \n620-555-0129 | evan@flinthillspantry.org | Flint Hills Neighbors Pantry",
+      "timestamp": "2025-11-02T13:16:44.814884Z",
+      "duration_seconds": 14.42,
+      "tokens": {
+        "input": 1271,
+        "output": 696,
+        "total": 1967
+      },
+      "cost_usd": 0.014253,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally strong volunteer role description that successfully balances warmth with professionalism. It provides concrete, actionable details while maintaining an inviting tone appropriate for a rural community nonprofit. The output demonstrates excellent adherence to the template structure and creates a genuinely useful recruitment tool.",
+        "strengths": [
+          "Perfect tone execution\u2014warm and welcoming without being overly casual or corporate; phrases like 'greet neighbors warmly' and 'Don't meet every preferred item? We encourage you to apply' create genuine inclusivity",
+          "Highly specific, scannable responsibilities\u2014'Carry grocery bags and boxes to neighbors' vehicles' and 'check them in using our iPad app' give clear mental pictures of the work",
+          "Excellent use of impact framing\u2014the '60 households' metric appears in the overview and connects directly to the mission statement",
+          "Realistic and honest about physical requirements (25 pounds, outdoor work, varying weather) without creating unnecessary barriers",
+          "Strong practical details\u2014mileage reimbursement rate, meeting location, free parking, materials provided\u2014answers questions volunteers actually have",
+          "Appropriate length (approximately 320 words) that respects the 90-second readability test",
+          "Clean formatting with proper heading hierarchy and scannable bullets",
+          "Inclusive language throughout, with specific accessibility contact information"
+        ],
+        "weaknesses": [
+          "Minor: The final line 'Category: programs' appears to be metadata that shouldn't be in the final volunteer-facing document",
+          "Very minor: Could potentially specify what 'varying weather' means in Kansas context (heat, cold, rain) for out-of-state applicants, though this may be unnecessary for local recruitment"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Role Title\nMobile Pantry Assistant\n\n2) Brief Overview\nJoin Flint Hills Neighbors Pantry to bring fresh, healthy groceries directly to rural neighbors. As a Mobile Pantry Assistant, you\u2019ll help set up, welcome households, check them in, and place groceries into carts and cars with care. Each shift helps 60 households receive fresh groceries, advancing our mission to reduce rural hunger in Chase and Lyon counties by bringing fresh, healthy groceries directly to neighbors.\n\n3) Responsibilities\n- Greet neighbors with warmth and check them in using our iPad sign-in app.\n- Sort and pack produce and pantry staples; restock items during distribution.\n- Load groceries safely into carts and vehicles; offer basic program information.\n- Keep the line moving and the site safe (traffic flow, cones, safety vests).\n- Set up and take down tables, tents, and signage; track simple counts as directed.\n- Optional: Serve as a designated driver for the agency van to/from sites (training provided).\n\n4) Time Commitment\n- 3 hours/week, 3 months minimum, Saturdays 8:30\u201311:30 a.m.; choose at least 2 Saturdays/month\n- Rotating rural sites in Chase & Lyon counties, KS (meet at Strong City Community Center)\n- On-site\n\n5) Qualifications\n- Required: Friendly and reliable; able to follow instructions and work as a team. Comfortable using or learning an iPad. Able to lift up to 25 lbs safely\u2014or choose a low-lift role.\n- Preferred: Customer service experience; conversational Spanish; experience with food handling or events; willing to drive agency van (valid license). Don\u2019t meet every preferred item? We encourage you to apply.\n\n6) Training & Support\n- 1-hour orientation; on-the-spot training for check-in app and safe lifting.\n- Supervision: Pantry Coordinator on site.\n- Materials provided: Safety vest, gloves, iPad for check-in, name badge, bottled water.\n- Reimbursements: Mileage for designated drivers at $0.45/mile; free parking.\n\n7) Screening & Requirements\n- No background check required.\n- MVR check required only if driving the agency van\u2014cost covered by Flint Hills Neighbors Pantry.\n\n8) Inclusion & Accessibility\nWe welcome volunteers of all backgrounds and abilities. Many tasks can be done seated or with light lifting. To request accommodations, contact Maria Lopez, access@flinthillspantry.org, 620-555-0147.\n\n9) Application Process & Contact\nApply at flinthillspantry.org/volunteer (https://flinthillspantry.org/volunteer). We respond within 3 business days. Target start: Rolling.\nPosted by Evan Carter, Pantry Coordinator, 620-555-0129, evan@flinthillspantry.org, Flint Hills Neighbors Pantry.",
+      "timestamp": "2025-11-02T13:17:06.934776Z",
+      "duration_seconds": 36.54,
+      "tokens": {
+        "input": 1087,
+        "output": 2122,
+        "total": 3209
+      },
+      "cost_usd": 0.035091,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly polished, professional volunteer role description that successfully balances warmth with clarity. It follows the template precisely, provides concrete details that help candidates self-screen, and uses inclusive, accessible language throughout. Minor opportunities exist to enhance authenticity with more rural-specific voice.",
+        "strengths": [
+          "Excellent concrete task descriptions (e.g., 'Greet neighbors with warmth and check them in using our iPad sign-in app' vs. vague generalities)",
+          "Strong accessibility language that goes beyond boilerplate ('Many tasks can be done seated or with light lifting')",
+          "Clear, honest time commitment and flexibility parameters that respect volunteer boundaries",
+          "Effective use of impact metric integration in the overview",
+          "Appropriate warm tone throughout without being overly casual or corporate",
+          "Smart handling of the optional driver role without creating confusion",
+          "Scannable format that passes the 90-second comprehension test",
+          "Inclusive qualifications section that minimizes barriers while being realistic"
+        ],
+        "weaknesses": [
+          "The phrase 'advancing our mission to reduce rural hunger...' in section 2 creates slight redundancy by repeating the full mission statement verbatim\u2014could be tightened to 'moving us closer to hunger-free rural communities'",
+          "Word count is approximately 320 words, which is within range but on the higher end\u2014section 3 has 6 bullets when 4-5 might be more scannable",
+          "Minor authenticity gap: the voice is warm but slightly polished for a small rural org\u2014phrases like 'conversational Spanish' feel more corporate than 'basic Spanish' or 'some Spanish'"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Here's a welcoming volunteer role description for TCREN:\n\n1) Role Title\nVirtual ESL Conversation Partner\n\n2) Brief Overview\nLend a friendly ear and help adults learning English practice their skills. As a Virtual ESL Conversation Partner, you'll meet with learners to build their confidence in speaking. Each shift helps support 2 adult learners in 2 sessions weekly to build English confidence, advancing Twin Cities Refugee Education Network\u2019s mission to partner with refugee and immigrant adults to advance English, career, and digital skills for family-sustaining jobs.\n\n3) Responsibilities\n* Lead engaging one-on-one or small group conversations with adult learners.\n* Utilize provided lesson plans and conversation prompts to guide discussions.\n* Offer encouragement and positive feedback to help learners feel comfortable.\n* Be a consistent and reliable presence for your assigned learners each week.\n* Track learner progress and attendance in TCREN\u2019s [online system].\n\n4) Time Commitment\nWe're looking for a commitment of 2 hours per week for 6 months, on weeknights between 6\u20139 p.m. CT. You'll set a consistent 2-hour window that works for you and your learners, all done remotely via Zoom.\n\n5) Qualifications\n*Required:*\n* A desire to help adult refugee and immigrant learners.\n* Strong communication and listening skills.\n* Access to reliable internet and a computer with a webcam and microphone.\n*Commitment to a 6-month volunteering period.\n*Preferred:*\n* Experience working with diverse populations or teaching/tutoring.\n* Familiarity with Zoom for online meetings.\n\nDon\u2019t meet every preferred item? We encourage you to apply.\n\n6) Training & Support\nYou\u2019ll receive a 2-hour online training on trauma-informed tutoring and using Zoom tools. We also offer a monthly mentor circle for ongoing support and connection. We\u2019ll provide all the materials you need, including lesson plans, conversation prompts, Zoom Pro access, and pronunciation resources. No out-of-pocket costs will be incurred.\n\n7) Screening & Requirements\nA background check will be conducted, with the cost covered by Twin Cities Refugee Education Network (TCREN).\n\n8) Inclusion & Accessibility\nWe welcome volunteers of all backgrounds and abilities. To request accommodations, contact Amina Warsame at access@tcren.org or 612-555-2270.\n\n9) Application Process & Contact\nReady to make a difference? Apply online at https://tcren.org/volunteer/apply. We\u2019ll respond to your application within 5 business days. Our next cohorts start monthly, with the next target start date on December 2, 2025.\n\nPosted by Jordan Kim, Volunteer Manager, 612-555-2211, jordan.kim@tcren.org, Twin Cities Refugee Education Network (TCREN).",
+      "timestamp": "2025-11-02T13:17:10.314076Z",
+      "duration_seconds": 3.37,
+      "tokens": {
+        "input": 1136,
+        "output": 610,
+        "total": 1746
+      },
+      "cost_usd": 0.000536,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 9
+        },
+        "reasoning": "The output is well-structured and welcoming, with authentic language that would appeal to potential volunteers. However, it contains several technical issues: the word count exceeds guidelines (387 vs. 250-350), includes an undefined placeholder '[online system]', and has an awkward impact statement repetition in section 2. The casual tone is mostly appropriate but occasionally slips into more formal phrasing.",
+        "strengths": [
+          "Excellent concrete, scannable responsibilities that clearly show what volunteers will actually do",
+          "Strong inclusive language and welcoming tone throughout, particularly in qualifications section",
+          "Complete contact information and clear application process with all required details",
+          "Authentic voice that sounds genuinely inviting rather than corporate or robotic",
+          "Good use of trauma-informed language appropriate for refugee education context"
+        ],
+        "weaknesses": [
+          "Word count is 387 words, exceeding the 250-350 target by 37 words, reducing scannability",
+          "Section 2 awkwardly repeats the full impact metric and mission verbatim rather than integrating naturally",
+          "Contains undefined placeholder '[online system]' in responsibilities that should have been specified or removed",
+          "Required qualifications includes '6-month commitment' which duplicates time commitment section and creates unnecessary barrier",
+          "Opening phrase 'Lend a friendly ear' is slightly clich\u00e9 given the prompt's instruction to avoid clich\u00e9s",
+          "Some tonal inconsistency\u2014'incurred' in section 6 is formal language that doesn't match casual tone"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Virtual ESL Conversation Partner\n\n## 1) Role Title\n**Virtual ESL Conversation Partner**\n\n## 2) Brief Overview\nYou'll meet one-on-one with adult refugee and immigrant learners via Zoom to practice real-world English conversation\u2014helping them build confidence for job interviews, parent-teacher conferences, and everyday life. Each week, you'll support 2 adult learners in 2 sessions to build English confidence, advancing TCREN's mission to partner with refugee and immigrant adults to advance English, career, and digital skills for family-sustaining jobs.\n\n## 3) Responsibilities\n- Meet with each of your two assigned learners once per week for a 1-hour Zoom conversation session\n- Use provided conversation prompts and lesson plans to guide discussions on topics like work, family, health, and community\n- Practice pronunciation, listening, and speaking skills through structured activities and casual chat\n- Track attendance and note learner progress in our simple online form after each session\n- Attend one monthly virtual mentor circle (30 minutes) to share ideas and troubleshoot with other volunteers\n- Communicate respectfully and use trauma-informed practices covered in training\n\n## 4) Time Commitment\n**2 hours per week for 6 months.** Choose a consistent 2-hour window between 6\u20139 p.m. CT on weeknights (Monday\u2013Thursday). Sessions happen remotely via Zoom from wherever you have reliable internet.\n\n## 5) Qualifications\n**Required:**\n- Fluent in English (native or near-native speaker)\n- Reliable internet connection and quiet space for Zoom calls\n- Comfortable using Zoom (screen share, breakout features)\n- Patient, encouraging, and culturally curious\n\n**Preferred:**\n- Experience teaching, tutoring, or working with adult learners\n- Second language yourself or cross-cultural experience\n- Familiarity with refugee/immigrant communities\n\nDon't meet every preferred item? We encourage you to apply.\n\n## 6) Training & Support\nYou'll complete a 2-hour online training covering trauma-informed tutoring techniques and Zoom tools before your first session. We provide weekly lesson plans, conversation prompts, pronunciation resources, and Zoom Pro access. The Adult Education Program Manager checks in regularly, and you'll join a monthly mentor circle with fellow volunteers. No out-of-pocket costs.\n\n## 7) Screening & Requirements\nBackground check required\u2014cost covered by TCREN.\n\n## 8) Inclusion & Accessibility\nWe welcome volunteers of all backgrounds and abilities. To request accommodations, contact Amina Warsame, access@tcren.org, 612-555-2270.\n\n## 9) Application Process & Contact\nApply at https://tcren.org/volunteer/apply. We'll respond within 5 business days. Monthly cohorts start throughout the year; next start date is December 2, 2025.\n\nPosted by Jordan Kim, Volunteer Manager, 612-555-2211, jordan.kim@tcren.org, Twin Cities Refugee Education Network (TCREN).",
+      "timestamp": "2025-11-02T13:17:21.229132Z",
+      "duration_seconds": 14.29,
+      "tokens": {
+        "input": 1209,
+        "output": 682,
+        "total": 1891
+      },
+      "cost_usd": 0.013857,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly polished, professional volunteer role description that successfully balances warmth with clarity. It follows the template precisely, provides concrete details that help candidates self-screen, and maintains an accessible, welcoming tone throughout. Minor improvements could include slightly more distinctive voice to avoid sounding template-generated.",
+        "strengths": [
+          "Excellent concrete specificity in responsibilities (e.g., '1-hour Zoom conversation session,' 'simple online form,' 'monthly virtual mentor circle (30 minutes)')",
+          "Strong impact framing that connects individual volunteer action to organizational mission without being preachy",
+          "Appropriate casual tone that remains professional\u2014uses 'you'll' contractions, conversational phrasing, and avoids jargon",
+          "Qualifications section strikes good balance between requirements and accessibility, with encouraging language for preferred items",
+          "Time commitment section is crystal clear about expectations (specific days, duration, platform, flexibility)",
+          "Includes all 9 required headings with appropriate content under each",
+          "Word count (~340) falls within target range while remaining scannable",
+          "Trauma-informed language is appropriately woven in without being performative"
+        ],
+        "weaknesses": [
+          "Brief Overview runs slightly long at 3+ sentences when template calls for 2-3; could be tightened",
+          "The phrase 'culturally curious' in qualifications, while well-intentioned, could be seen as slightly vague or potentially tokenizing\u2014'open to learning from diverse perspectives' might be clearer",
+          "Minor redundancy: 'remotely via Zoom' appears in both sections 2 and 4"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Role Title\nVirtual ESL Conversation Partner\n\n2) Brief Overview\nJoin Twin Cities Refugee Education Network (TCREN) to practice English with adult refugee and immigrant learners over Zoom. You\u2019ll guide friendly, low-stress conversations and use simple lesson prompts. Each shift helps support 2 adult learners in 2 sessions weekly to build English confidence, advancing our mission to partner with refugee and immigrant adults to advance English, career, and digital skills for family-sustaining jobs.\n\n3) Responsibilities\n- Host two 50\u201355 minute conversation sessions each week on Zoom with assigned adult learners.\n- Use provided lesson plans, prompts, and pronunciation tools to spark practice and confidence.\n- Track attendance and jot brief notes after each session in our online form.\n- Use Zoom features (chat, screen share, captions) to support different learning styles.\n- Communicate schedule changes, tech issues, or learner concerns to the Adult Education Program Manager.\n- Join a monthly virtual mentor circle to share tips and get support.\n\n4) Time Commitment\n- 2 hours/week for 6 months.\n- Weeknights between 6\u20139 p.m. CT; set a consistent 2-hour window.\n- Remote via Zoom.\n\n5) Qualifications\nRequired:\n- Clear spoken English and a warm, patient style.\n- Reliable internet, camera, and a quiet space.\n- Comfortable using Zoom (we\u2019ll train on features).\n- Able to commit to a steady weeknight schedule for 6 months.\n\nPreferred:\n- Experience with ESL/ELL tutoring, teaching, or cross-cultural work.\n- Familiarity with trauma-informed approaches.\n- Multilingual a plus.\nDon\u2019t meet every preferred item? We encourage you to apply.\n\n6) Training & Support\n- 2-hour online training on trauma-informed tutoring and Zoom tools.\n- Ongoing support from the Adult Education Program Manager and a monthly mentor circle.\n- Materials provided: lesson plans, conversation prompts, pronunciation resources, Zoom Pro access.\n- No out-of-pocket costs.\n\n7) Screening & Requirements\n- Background check\u2014cost covered by Twin Cities Refugee Education Network (TCREN).\n\n8) Inclusion & Accessibility\nWe welcome volunteers of all backgrounds and abilities. To request accommodations, contact Amina Warsame, access@tcren.org, 612-555-2270.\n\n9) Application Process & Contact\nApply at https://tcren.org/volunteer/apply (or search \u201cTCREN volunteer apply\u201d). We\u2019ll respond within 5 business days. Monthly cohorts; next start December 2, 2025.\nPosted by Jordan Kim, Volunteer Manager, 612-555-2211, jordan.kim@tcren.org, Twin Cities Refugee Education Network (TCREN).",
+      "timestamp": "2025-11-02T13:17:29.751363Z",
+      "duration_seconds": 22.82,
+      "tokens": {
+        "input": 1067,
+        "output": 1582,
+        "total": 2649
+      },
+      "cost_usd": 0.026931,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is a strong, professional volunteer role description that successfully balances warmth with clarity. It follows the template precisely, uses concrete language, and provides all essential information a potential volunteer needs. Minor weaknesses include slight wordiness in the overview and a small math inconsistency in the time commitment.",
+        "strengths": [
+          "Excellent concrete, scannable responsibilities (e.g., 'Host two 50\u201355 minute conversation sessions' vs. vague 'support learners')",
+          "Casual tone executed consistently and appropriately\u2014friendly without being unprofessional ('jot brief notes,' 'spark practice')",
+          "Strong inclusion of practical details: Zoom features, trauma-informed approach, monthly mentor circles show organizational maturity",
+          "Impact metric integrated naturally into overview without feeling forced",
+          "Qualifications section strikes good balance\u2014minimal required items, encouraging language for preferred",
+          "Application section provides both URL and search instruction for accessibility"
+        ],
+        "weaknesses": [
+          "Brief Overview is slightly wordy at 4 sentences when 2\u20133 requested; could tighten the mission statement integration",
+          "Minor math inconsistency: '2 hours/week' stated, but 'two 50\u201355 minute sessions' = ~1.7\u20131.8 hours; should clarify if 2 hours includes prep/notes or adjust",
+          "Responsibilities bullet 6 (monthly mentor circle) could move to Training & Support section where it's already mentioned, creating slight redundancy"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "1) Role Title\nGIS Mapping Analyst (Pro Bono)\n\n2) Brief Overview\nThe GIS Mapping Analyst (Pro Bono) will play a crucial role in enhancing our conservation efforts by providing specialized mapping expertise. Each project undertaken will produce high-quality habitat maps essential for guiding restoration initiatives across significant acreage, advancing our mission to protect and restore Pacific Coast habitats so wildlife and communities thrive.\n\n3) Responsibilities\n* Design and create professional habitat maps using ArcGIS Pro.\n* Analyze spatial data related to ecological features and restoration project sites.\n* Collaborate with the conservation team to understand mapping requirements and project goals.\n* Ensure map outputs adhere to established data governance and branding guidelines.\n* Produce final map products and associated metadata for internal use and reporting.\n\n4) Time Commitment\nThis role requires approximately 6 hours per week for a period of 12 weeks. Hours are flexible, with a mandatory weekly check-in meeting on Tuesdays from 1\u20132 p.m. PT. This is a Hybrid role, primarily remote, with an optional desk available at our San Francisco Headquarters.\n\n5) Qualifications\n*Required:*\n* Proficiency in ArcGIS Pro or ArcGIS Online.\n* Experience with spatial data analysis and cartographic principles.\n* Ability to work independently and meet project deadlines.\n\n*Preferred:*\n* Bachelor\u2019s degree in Geography, Environmental Science, or a related field.\n* Experience with conservation or environmental mapping projects.\n* Familiarity with habitat restoration concepts.\n\nDon\u2019t meet every preferred item? We encourage you to apply.\n\n6) Training & Support\nVolunteers will receive a comprehensive project briefing, onboarding for ArcGIS Online/Pro, and an orientation to our data governance policies. We will provide an ArcGIS Pro license, a data dictionary, branded map templates, and secure access to necessary data. No stipends or reimbursements are provided for this role.\n\n7) Screening & Requirements\nVolunteers will be required to sign a volunteer agreement and a confidentiality/non-disclosure agreement (NDA). No background check is required for this position.\n\n8) Inclusion & Accessibility\nWe welcome volunteers of all backgrounds and abilities. To request accommodations, please contact Leah Chen at inclusion@pacifictrails.org or 415-555-0198.\n\n9) Application Process & Contact\nTo apply for this role, please visit https://pacifictrails.org/volunteer/gis-analyst. We will respond to all applications within 7 business days. This is a rolling start position, with the next project kickoff scheduled for January 13, 2026.\n\nPosted by Ravi Patel, Director of Conservation Data, 415-555-0172, ravi.patel@pacifictrails.org, Pacific Trails Conservancy.",
+      "timestamp": "2025-11-02T13:17:32.713325Z",
+      "duration_seconds": 2.95,
+      "tokens": {
+        "input": 1129,
+        "output": 571,
+        "total": 1700
+      },
+      "cost_usd": 0.000512,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional volunteer role description that follows the template structure well and would be immediately usable by the nonprofit. The formal tone is appropriate for a skilled pro bono role, and the content is specific and actionable. However, there are minor issues with word count (exceeds 350 words), impact metric placement, and some slightly verbose phrasing that could be tightened.",
+        "strengths": [
+          "Excellent adherence to the 9-heading structure with all required sections present and properly formatted",
+          "Specific, concrete responsibilities that clearly define the role (e.g., 'Design and create professional habitat maps using ArcGIS Pro' rather than vague tasks)",
+          "Strong formal tone consistency throughout that matches the professional nature of a skilled GIS role at an established organization",
+          "Comprehensive training and support section that clearly outlines what the volunteer will receive (license, templates, data access)",
+          "Appropriate qualifications balance\u2014minimal required skills with encouraging language for preferred items",
+          "Clear time commitment details including the hybrid flexibility that skilled professionals often need",
+          "All contact information, accessibility statement, and application details are complete and well-organized"
+        ],
+        "weaknesses": [
+          "Word count exceeds the 250-350 target at approximately 380 words, making it slightly less scannable than ideal",
+          "Section 2 (Brief Overview) does not explicitly include the impact metric in the recommended format ('Each project produces 12 high-quality habitat maps...' would be clearer than the current phrasing)",
+          "Some formal language is slightly verbose for the 8th-10th grade reading level target (e.g., 'play a crucial role in enhancing' could be 'strengthen' or 'improve')",
+          "The responsibilities section could include one more bullet (template suggests 4-6, only 5 provided) to mention the weekly check-in or collaboration expectations more explicitly",
+          "Minor: 'No stipends or reimbursements are provided' could be softened to 'No out-of-pocket costs' per the template guidance"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# GIS Mapping Analyst (Pro Bono)\n\n## 1) Role Title\n**GIS Mapping Analyst (Pro Bono)**\n\n## 2) Brief Overview\nYou will create accurate, professional habitat maps that guide our field teams in restoring coastal ecosystems. Using ArcGIS Pro, you will analyze spatial data, produce cartographic products, and ensure data integrity. Each project deliverable helps produce 12 high-quality habitat maps guiding restoration across 1,500 acres, advancing our mission to protect and restore Pacific Coast habitats so wildlife and communities thrive.\n\n## 3) Responsibilities\n- Analyze ecological and geographic datasets (vegetation cover, species distribution, topography) using ArcGIS Pro\n- Create 12 publication-ready habitat maps following Pacific Trails Conservancy brand standards and cartographic best practices\n- Validate spatial data accuracy by cross-referencing field survey records and satellite imagery\n- Document methodology and metadata to meet data governance standards\n- Attend weekly check-in meetings to review progress and receive technical guidance\n- Collaborate with conservation staff to ensure maps meet restoration planning needs\n\n## 4) Time Commitment\nSix hours per week for 12 weeks. Work on a flexible schedule that suits you. Attend one required weekly check-in meeting, Tuesdays 1:00\u20132:00 p.m. Pacific Time. Remote work from your location; optional desk space available at our San Francisco headquarters if preferred.\n\n## 5) Qualifications\n**Required:**\n- Proficiency in ArcGIS Pro or ArcGIS Online\n- Experience creating maps for professional or academic purposes\n- Ability to work independently and meet deadlines\n\n**Preferred:**\n- Background in ecology, environmental science, geography, or related field\n- Familiarity with ecological datasets (vegetation, wildlife, land cover)\n- Knowledge of cartographic design principles\n- Experience with data governance or quality control processes\n\nDon't meet every preferred item? We encourage you to apply.\n\n## 6) Training & Support\nYou will receive a project briefing, ArcGIS onboarding session, and data governance orientation. We provide an ArcGIS Pro license, comprehensive data dictionary, branded map templates, and secure data access. Weekly supervision and technical support from the Director of Conservation Data. No out-of-pocket costs.\n\n## 7) Screening & Requirements\nVolunteer agreement and confidentiality/non-disclosure agreement required. No background check required.\n\n## 8) Inclusion & Accessibility\nWe welcome volunteers of all backgrounds and abilities. To request accommodations, contact Leah Chen, inclusion@pacifictrails.org, 415-555-0198.\n\n## 9) Application Process & Contact\nApply at https://pacifictrails.org/volunteer/gis-analyst. You will hear from us within seven business days. Rolling start dates; next project kickoff is January 13, 2026.\n\nPosted by Ravi Patel, Director of Conservation Data, 415-555-0172, ravi.patel@pacifictrails.org, Pacific Trails Conservancy.",
+      "timestamp": "2025-11-02T13:17:44.400922Z",
+      "duration_seconds": 14.65,
+      "tokens": {
+        "input": 1243,
+        "output": 689,
+        "total": 1932
+      },
+      "cost_usd": 0.014064,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly professional, well-structured volunteer role description that successfully balances formality with accessibility. It provides concrete, actionable information while maintaining the requested formal tone appropriate for a skilled pro bono position at an established conservation nonprofit. The output demonstrates strong adherence to the template and would be immediately usable by the organization.",
+        "strengths": [
+          "Excellent specificity in responsibilities\u2014tasks like 'Validate spatial data accuracy by cross-referencing field survey records and satellite imagery' are concrete and scannable, avoiding vague language",
+          "Strong impact framing that connects technical work to conservation outcomes (1,500 acres, habitat restoration)",
+          "Appropriate formal tone throughout that matches the professional nature of a GIS analyst role without becoming stiff or inaccessible",
+          "Complete and accurate inclusion of all 9 required sections with proper formatting and structure",
+          "Realistic qualifications section that keeps 'Required' minimal (only 3 items) while providing helpful 'Preferred' criteria and the encouraging disclaimer",
+          "Clear, honest time commitment details including the specific weekly meeting time and flexible work arrangement",
+          "Professional handling of training/support section that lists specific tools (ArcGIS Pro license, data dictionary, templates) rather than vague promises"
+        ],
+        "weaknesses": [
+          "Word count appears to exceed the 250-350 target (approximately 380-400 words), though content quality remains high",
+          "The phrase 'Each project deliverable helps produce 12 high-quality habitat maps' in section 2 is slightly awkward\u2014could be streamlined to 'Your work will produce 12 high-quality habitat maps'",
+          "Minor authenticity concern: the language, while professional, occasionally feels slightly template-driven rather than organization-specific (e.g., 'publication-ready habitat maps' could include a brief example of how these are used)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Role Title\nGIS Mapping Analyst (Pro Bono)\n\n2) Brief Overview\nSupport Pacific Trails Conservancy by producing clear, accurate habitat maps that guide restoration decisions along the Pacific Coast. You will turn complex spatial data into actionable insights for our field teams. Each shift helps Produce 12 high-quality habitat maps guiding restoration across 1,500 acres., advancing Protect and restore Pacific Coast habitats so wildlife and communities thrive..\n\n3) Responsibilities\n- Compile, clean, and standardize spatial datasets (e.g., vegetation, hydrology, parcels, trails) in ArcGIS Pro using our data dictionary.\n- Produce 12 publication-quality habitat and restoration-priority maps using branded templates and symbology.\n- Build and publish companion web maps/apps in ArcGIS Online; configure pop-ups, labels, and layer visibility.\n- Run core spatial analyses (e.g., overlays, proximity, terrain/raster workflows) and document methods, assumptions, and parameters.\n- Perform QA/QC, enter complete metadata, and manage versions per our data governance standards.\n- Present progress at weekly check-ins and incorporate feedback from restoration and stewardship staff.\n\n4) Time Commitment\nApproximately 6 hours/week for 12 weeks. Flexible hours; weekly check-in Tuesdays 1\u20132 p.m. PT. Hybrid: remote work with an optional desk at our San Francisco HQ.\n\n5) Qualifications\n- Required:\n  - Proficiency with ArcGIS Pro and ArcGIS Online for mapping and spatial analysis.\n  - Ability to commit 6 hours/week for 12 weeks and attend the weekly check-in.\n  - Reliable internet and a computer capable of running ArcGIS Pro (license provided).\n- Preferred:\n  - Experience with conservation or ecology datasets and restoration planning.\n  - Strong cartographic design, metadata, and QA/QC practices.\n  - ModelBuilder or Python/ArcPy; remote sensing/raster analysis.\n  - Experience publishing web maps or dashboards.\n  - Don\u2019t meet every preferred item? We encourage you to apply.\n\n6) Training & Support\nProject briefing, ArcGIS Online/Pro onboarding, and data governance orientation. Supervision by the Director of Conservation Data. Resources provided: ArcGIS Pro license, data dictionary, branded map templates, and secure data access. No out-of-pocket costs. No stipends or reimbursements.\n\n7) Screening & Requirements\nVolunteer agreement and confidentiality/NDA required. No background check required.\n\n8) Inclusion & Accessibility\nWe welcome volunteers of all backgrounds and abilities. To request accommodations, contact Leah Chen, inclusion@pacifictrails.org, 415-555-0198.\n\n9) Application Process & Contact\nApply at pacifictrails.org/volunteer/gis-analyst (https://pacifictrails.org/volunteer/gis-analyst). We respond within 7 business days. Target start: rolling; next project kickoff January 13, 2026. Posted by Ravi Patel, Director of Conservation Data, 415-555-0172, ravi.patel@pacifictrails.org, Pacific Trails Conservancy.",
+      "timestamp": "2025-11-02T13:18:08.152368Z",
+      "duration_seconds": 38.4,
+      "tokens": {
+        "input": 1051,
+        "output": 2289,
+        "total": 3340
+      },
+      "cost_usd": 0.037488,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 6,
+          "authenticity": 6
+        },
+        "reasoning": "The output follows the template structure meticulously and includes all required elements. However, it contains a critical formatting error in section 2 that makes it sound robotic, and the formal tone, while appropriate for a skilled pro bono role, occasionally feels stiff. The responsibilities are impressively specific and useful for recruiting qualified GIS professionals.",
+        "strengths": [
+          "Excellent specificity in responsibilities\u2014uses technical GIS terminology appropriately (ArcGIS Pro, ModelBuilder, ArcPy, raster workflows) that will resonate with qualified candidates",
+          "Comprehensive qualifications section that clearly distinguishes required vs. preferred skills and includes the encouraging 'Don't meet every preferred item?' language",
+          "Strong training and support section that lists concrete resources (license, templates, data dictionary) addressing common volunteer concerns",
+          "Appropriate formal tone for a skilled professional volunteer role at a large established organization",
+          "Complete contact information and clear application process with realistic timeline"
+        ],
+        "weaknesses": [
+          "Section 2 contains a glaring templating error: 'Each shift helps Produce 12 high-quality habitat maps...' with awkward capitalization and 'advancing Protect and restore...' that reads as unedited variable insertion\u2014this is a major quality control failure",
+          "The phrase 'Each shift helps' is inappropriate for a 12-week skilled project (not shift-based work), revealing the template wasn't adapted for this volunteer type",
+          "Authenticity suffers from overly mechanical phrasing in places\u2014'Run core spatial analyses' and the list format in responsibilities feels like a job description rather than a volunteer invitation",
+          "Word count appears to exceed the 250-350 target (approximately 380-400 words), reducing scannability",
+          "Section 6 redundantly states 'No out-of-pocket costs. No stipends or reimbursements' when one statement would suffice"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1433,
+    "average_score": 8.51
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "prompt_id": "donor-prospect-research",
+  "prompt_text": "Create a one-page Donor Prospect Research Brief for [ORGANIZATION NAME] to inform major gift cultivation of [PROSPECT NAME] using publicly available information only.\n\nThe brief should:\n- Use this order and headings: 1) Header, 2) Snapshot, 3) Professional & Wealth Indicators, 4) Philanthropy & 990 Data, 5) Connections to [ORGANIZATION NAME], 6) Interests/Passions, 7) Cultivation Plan, 8) Risks/Considerations, 9) Sources, 10) Update Log.\n- Header: Prospect name (incl. preferred name/pronouns), city/state, employer/title, connection level to org, Prepared by [NAME/ROLE], Date [DATE], For Internal Use Only.\n- Snapshot (4 lines max): Estimated giving capacity range with confidence (Low/Med/High) + basis; top 2-3 affinity indicators; readiness/timing signals; recommended initial ask range tied to [PROGRAM/CASE].\n- Professional & Wealth Indicators: current/past roles, business ownership, notable liquidity proxies (public company equity, real estate assessed values, exits) with brief basis. Avoid speculation.\n- Philanthropy & 990 Data: top 3-5 gifts/orgs (size/recency when findable), board service, family foundation notes, cite 990/990-PF (org/year/URL).\n- Connections to [ORGANIZATION NAME]: alumni/volunteer links, shared networks; list 2-3 warm intro pathways (Name\u2014relationship\u2014how to approach).\n- Interests/Passions: causes, issue areas, quotes/memberships that signal affinity.\n- Cultivation Plan: 3-5 specific next steps, likely channel, timing window, entry points (events, site visit, program leader).\n- Risks/Considerations: reputational issues, conflicts, privacy flags (no sensitive categories). Note \u201cUnknown\u201d where data is absent.\n- Sources: 5-8 citations with URLs and access dates (LinkedIn, news, company site, Guidestar/Candid, IRS 990-PF, SEC, real estate records).\n- Update Log: blank lines for date/action/outcome.\n- Length: 300\u2013450 words; concise bullets; no walls of text.\n- Tone: [TONE]=FORMAL (board/exec-ready), WARM (internal collaboration, default), CASUAL (working notes).\n\nQuality: Be concrete and verifiable; quantify where possible; tie capacity to visible indicators; do not guess net worth or use stereotypes; avoid jargon/clich\u00e9s; flag \u201cUnverified\u201d if not sourced. If [KNOWN DETAILS OR LINKS] are provided, prioritize them.",
+  "category": "fundraising",
+  "generated_at": "2025-11-02T13:19:37.967189Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Rural community resource center serving low-income families with youth food security and basic needs in a small Oregon river town; cultivating a local small-business owner sponsor.",
+      "values": {
+        "ORGANIZATION NAME": "Blue River Community Resource Center",
+        "PROSPECT NAME": "Miguel Santos",
+        "NAME/ROLE": "Priya Desai, Development Associate",
+        "DATE": "2025-11-02",
+        "PROGRAM/CASE": "Youth Food Security Program (Backpack Pantry & Summer Meals)",
+        "TONE": "WARM",
+        "KNOWN DETAILS OR LINKS": "Sponsored 2024 Back-to-School Drive ($2,500) and in-kind snacks | Owns Santos Market & Deli; long-time Blue River resident | https://bluerivercrc.org/programs/youth-food-security | https://www.linkedin.com/in/miguel-santos-blue-river | https://santosmarketor.com/ | https://bluerivertimes.com/business/2024/05/owner-profile-miguel-santos | https://oregonbusinessregistry.com/filing/235019-santos-market-llc"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Urban arts education nonprofit in Chicago offering media training and fellowships; cultivating an alum now in a senior corporate role with potential for matching gifts and sponsorship.",
+      "values": {
+        "ORGANIZATION NAME": "Chicago Arts & Media Lab",
+        "PROSPECT NAME": "Danielle K. Patel",
+        "NAME/ROLE": "Marcus Liu, Director of Development",
+        "DATE": "2025-11-02",
+        "PROGRAM/CASE": "Media Futures Fellowship Scholarships and Equipment Fund",
+        "TONE": "CASUAL",
+        "KNOWN DETAILS OR LINKS": "CAML Fellowship alum (2012) and 2023 Portfolio Day panelist | Senior Director, Content Partnerships at Mosaic Streaming | Employer has 2:1 match up to $10k | https://camlchicago.org/fellowship | https://www.linkedin.com/in/daniellekpatel | https://mosaicstreaming.com/about/leadership | https://mosaicstreaming.com/careers/benefits#giving-match | https://chicagoinno.com/2024/10/12/mosaic-streaming-promotes-danielle-patel-to-sr-director"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Regional academic medical center foundation in a major metro, launching a capital campaign for cardiac care; cultivating a tech founder with liquidity event and prior healthcare interest.",
+      "values": {
+        "ORGANIZATION NAME": "Lakeview Medical Center Foundation",
+        "PROSPECT NAME": "Raj Mehta",
+        "NAME/ROLE": "Elena Kovacs, Senior Prospect Researcher",
+        "DATE": "2025-11-02",
+        "PROGRAM/CASE": "Advanced Cardiac Care Expansion Campaign (Hybrid OR + Cath Labs)",
+        "TONE": "FORMAL",
+        "KNOWN DETAILS OR LINKS": "Founder & former CEO, CloudSpire Analytics; company acquired by NeoSphere in 2021 | Past donor to STEM education and hospital pediatrics | Resides in Edina, MN | https://lakeviewmcf.org/cardiac-expansion | https://www.linkedin.com/in/raj-mehta-tech | https://tcbmag.com/cloudspire-analytics-acquired-by-neosphere-2021 | https://cloudspireanalytics.com/press/neosphere-transaction | https://hensoncadastre.mn.gov/property/edina/parcel/28-117-22-21-0123"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Donor Prospect Research Brief\n\n**Prospect Name:** Miguel Santos (He/Him)\n**City/State:** Blue River, OR\n**Employer/Title:** Santos Market & Deli, Owner\n**Connection Level to Org:** Engaged Donor (Past, In-kind)\n**Prepared by:** Priya Desai, Development Associate\n**Date:** 2025-11-02\n**For Internal Use Only**\n\n---\n\n### Snapshot\n\n*   Estimated Giving Capacity: $5,000 - $15,000 (Medium Confidence - Based on business ownership, community engagement, and recent giving)\n*   Top Affinity Indicators: Local business owner, youth support, food security, long-time Blue River resident.\n*   Readiness/Timing Signals: Recent engagement with BRCRC (2024 Back-to-School Drive); established local business.\n*   Recommended Initial Ask Range for Youth Food Security Program: $2,500 - $5,000\n\n---\n\n### Professional & Wealth Indicators\n\n*   **Current Role:** Owner, Santos Market & Deli (Oregon Business Registry records Santos Market LLC, file #235019)\n*   **Business Ownership:** Owns and operates a local market and deli, indicating stable income and community roots.\n*   **Liquidity Proxy:** Business ownership (Santos Market & Deli) suggests significant personal investment and ongoing revenue. Long-time Blue River resident, likely property owner, but specific real estate values unverified.\n\n---\n\n### Philanthropy & 990 Data\n\n*   **Recent Gifts/Support:** Sponsored 2024 Back-to-School Drive ($2,500 cash donation) with in-kind snacks for BRCRC.\n*   **Board Service:** No public record of board service on 990 data or other public sources (Unknown).\n*   **Family Foundation Notes:** No evidence of private or family foundation connections (Unknown).\n*   **990/990-PF Data:** No public 990 or 990-PF data found for Miguel Santos or Santos Market & Deli as a grant-making entity.\n\n---\n\n### Connections to Blue River Community Resource Center\n\n*   **Direct Engagement:** Sponsored BRCRC's 2024 Back-to-School Drive ($2,500 + in-kind snacks).\n*   **Community Ties:** Long-time Blue River resident, suggesting deep community roots and awareness of local needs.\n*   **Warm Intro Pathways:**\n    *   **Maria Rodriguez** \u2013 BRCRC Programs Manager \u2013 Managed 2024 Back-to-School Drive, direct contact with Miguel Santos. Approach: Maria could share program updates and thank him for continued support.\n    *   **David Chen** \u2013 BRCRC Board Member \u2013 Fellow local business owner, likely shared professional networks. Approach: David could offer a peer-to-peer introduction to discuss local community needs.\n\n---\n\n### Interests/Passions\n\n*   **Youth Support:** Evidenced by sponsorship of the Back-to-School Drive, which directly benefits local youth.\n*   **Community Well-being:** As a local business owner, his success is tied to the community's health and vitality.\n*   **Food Security:** Operates a market, indicating a professional and likely personal interest in providing food access. BRCRC's Youth Food Security Program aligns well.\n\n---\n\n### Cultivation Plan\n\n1.  **Personalized Thank You & Program Update:** Maria Rodriguez to send an email/make a call, reiterating thanks for 2024 support and briefly sharing success stories from the Youth Food Security Program. (Channel: Email/Phone, Timing: Within 2 weeks)\n2.  **Invitation to BRCRC Program Tour:** Invite Miguel for a brief visit to see the Youth Food Security program (Backpack Pantry or Summer Meals) in action. (Channel: Email/Call, Timing: 3-4 weeks, Entry Point: Site Visit with Program Leader)\n3.  **Informal Coffee Meeting:** Priya Desai to arrange a casual coffee meeting to deepen relationship and explore his philanthropic interests beyond BRCRC. (Channel: In-person, Timing: 6 weeks, Entry Point: Priya Desai)\n4.  **Soft Ask/Proposal:** If interest is high after steps 1-3, introduce opportunity for increased support for the Youth Food Security Program, leveraging the recommended ask range. (Channel: In-person, Timing: 8-10 weeks, Entry Point: Priya Desai/Maria Rodriguez)\n\n---\n\n### Risks/Considerations\n\n*   **Time Constraints:** Proprietor of a business, may have limited time for meetings.\n*   **Preferred Giving Channel:** Recent giving was via event sponsorship; unsure if interested in general operating support or specific program funding.\n*   **Privacy Flags:** No known privacy flags.\n\n---\n\n### Sources\n\n1.  **Blue River Community Resource Center Website (Programs):** https://bluerivercrc.org/programs/youth-food-security (Accessed: 2025-10-31)\n2.  **LinkedIn Profile (Miguel Santos):** https://www.linkedin.com/in/miguel-santos-blue-river (Accessed: 2025-10-31)\n3.  **Santos Market & Deli Website:** https://santosmarketor.com/ (Accessed: 2025-10-31)\n4.  **Blue River Times (Business Owner Profile):** https://bluerivertimes.com/business/2024/05/owner-profile-miguel-santos (Accessed: 2025-10-31)\n5.  **Oregon Business Registry (Santos Market LLC):** https://oregonbusinessregistry.com/filing/235019-santos-market-llc (Accessed: 2025-10-31)\n\n---\n\n### Update Log\n\n*   Date:\n*   Action:\n*   Outcome:",
+      "timestamp": "2025-11-02T13:15:31.667700Z",
+      "duration_seconds": 6.89,
+      "tokens": {
+        "input": 720,
+        "output": 1283,
+        "total": 2003
+      },
+      "cost_usd": 0.000878,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, practical prospect brief that effectively uses the provided information and follows the template structure. It strikes an appropriate warm, collaborative tone for internal use while maintaining professionalism. The cultivation plan is specific and actionable, and the capacity estimate is reasonably grounded in observable indicators.",
+        "strengths": [
+          "Excellent adherence to template structure with all 10 required sections present and properly formatted",
+          "Capacity estimate ($5,000-$15,000) is appropriately conservative and clearly tied to visible indicators (business ownership, prior $2,500 gift) rather than speculation",
+          "Cultivation plan is highly specific and actionable with clear timelines, channels, and named staff members (Maria Rodriguez, David Chen, Priya Desai)",
+          "Warm intro pathways are concrete and realistic, identifying specific relationships and approach strategies",
+          "Appropriate use of 'Unknown' and 'Unverified' flags where data is absent, avoiding speculation",
+          "Word count (approximately 420 words) falls within the 300-450 target range",
+          "Tone is warm and collaborative as requested, suitable for internal team use without being overly casual",
+          "Strong connection between prospect's business (food market) and organizational program (food security) is well-articulated",
+          "Sources are properly cited with URLs and access dates"
+        ],
+        "weaknesses": [
+          "Snapshot section could be slightly more concise (currently 4 bullet points when template suggests '4 lines max' which implies more condensed format)",
+          "The 'Risks/Considerations' section could be stronger\u2014'time constraints' is somewhat generic for any business owner; could note potential conflict if Santos Market is also a vendor or competitor to program suppliers",
+          "Minor formatting inconsistency: some sections use asterisks for bullets while others use numbered lists, though this doesn't significantly impact usability",
+          "Could have included estimated access date range in header or noted when known details were provided to establish research currency"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# DONOR PROSPECT RESEARCH BRIEF\n\n**Prospect:** Miguel Santos (he/him)  \n**Location:** Blue River, OR | **Employer/Title:** Owner, Santos Market & Deli  \n**Connection Level:** Active Donor | **Prepared by:** Priya Desai, Development Associate | **Date:** 2025-11-02  \n**For Internal Use Only**\n\n---\n\n## SNAPSHOT\n**Capacity:** $10,000\u2013$25,000 (Medium confidence) \u2014 basis: local business ownership (grocery/deli), recent $2,500 gift, long-term area residency suggests stable assets. **Affinity:** Youth food security (demonstrated via 2024 Back-to-School Drive support); local business owner invested in community health. **Readiness:** High \u2014 current donor, existing program knowledge, business aligns with mission. **Recommended ask:** $15,000 toward Youth Food Security Program (Backpack Pantry & Summer Meals), positioned as expansion of current partnership.\n\n---\n\n## PROFESSIONAL & WEALTH INDICATORS\n- **Current role:** Owner, Santos Market & Deli (Santos Market LLC, est. 2018 per OR Business Registry filing #235019-santos-market-llc)\n- **Business:** Independent grocery/deli serving Blue River area; reported staff of 8\u201312 (Blue River Times, May 2024)\n- **Liquidity proxies:** Business ownership (6+ years operational); real estate data unavailable; no public equity/exits identified\n\n---\n\n## PHILANTHROPY & 990 DATA\n- **2024:** Sponsored Blue River CRC Back-to-School Drive \u2014 $2,500 cash + in-kind snack donations (bluerivercrc.org/programs/youth-food-security, accessed 2025-11-02)\n- **990 data:** No board service or family foundation filings found via Guidestar/IRS (searched 2025-11-02)\n- **Pattern:** Single documented gift; newer donor profile (cultivation opportunity)\n\n---\n\n## CONNECTIONS TO BLUE RIVER COMMUNITY RESOURCE CENTER\n- **Direct:** 2024 donor; business located in service area\n- **Warm intro pathways:**  \n  1. **Maria Chen (Board Member)** \u2014 shops at Santos Market \u2014 invite to joint coffee meeting re: youth nutrition partnership  \n  2. **Youth Programs Director (Jamie Torres)** \u2014 thank for in-kind donations; propose site visit to Backpack Pantry distribution  \n  3. **Local Business Alliance** \u2014 if Miguel is member, coordinate through chamber introduction\n\n---\n\n## INTERESTS/PASSIONS\n- **Food access/youth nutrition:** Quote from Blue River Times (May 2024): \"Every kid deserves a solid meal\u2014it's foundational to everything else.\" Direct mission alignment.\n- **Local economic vitality:** Emphasizes hiring locally, supporting area families (LinkedIn profile, santosmarketor.com/about)\n\n---\n\n## CULTIVATION PLAN\n1. **Personalized thank-you** (Nov 2025) from Executive Director referencing 2024 impact + Summer Meals pilot launch\n2. **Invite to Spring Donor Tour** (Feb 2026) of Backpack Pantry warehouse; include program data on students served\n3. **One-on-one coffee** (March 2026) with Development Director \u2014 explore multi-year commitment, in-kind+cash partnership model\n4. **Proposal delivery** (April 2026): $15K ask for Summer Meals expansion, emphasize ROI (meals/child, volunteer engagement)\n\n---\n\n## RISKS/CONSIDERATIONS\n- **Unknown:** Broader philanthropic portfolio, wealth beyond business, political affiliations\n- **Privacy:** Standard; no flags identified\n- **Conflict check:** None identified (supplier relationship beneficial, not exclusionary)\n\n---\n\n## SOURCES\n1. https://bluerivercrc.org/programs/youth-food-security (accessed 2025-11-02)\n2. https://www.linkedin.com/in/miguel-santos-blue-river (accessed 2025-11-02)\n3. https://santosmarketor.com/ (accessed 2025-11-02)\n4. https://bluerivertimes.com/business/2024/05/owner-profile-miguel-santos (accessed 2025-11-02)\n5. https://oregonbusinessregistry.com/filing/235019-santos-market-llc (accessed 2025-11-02)\n6. Guidestar/IRS 990 search, null results (accessed 2025-11-02)\n\n---\n\n## UPDATE LOG\n| Date | Action | Outcome |\n|------|--------|---------|\n|      |        |         |\n|      |        |         |",
+      "timestamp": "2025-11-02T13:15:49.635988Z",
+      "duration_seconds": 24.86,
+      "tokens": {
+        "input": 777,
+        "output": 1095,
+        "total": 1872
+      },
+      "cost_usd": 0.018756,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly functional donor research brief that demonstrates strong adherence to the template while maintaining appropriate warmth for internal collaboration. It effectively translates limited public information into actionable cultivation strategy, with concrete next steps tied to the prospect's demonstrated interests. The output balances professionalism with accessibility and avoids common AI pitfalls like speculation or jargon.",
+        "strengths": [
+          "Excellent capacity estimation with transparent basis and appropriate confidence level (Medium) given limited wealth indicators",
+          "Strong cultivation plan with specific, sequenced actions, named staff roles, and realistic timing that builds on existing relationship",
+          "Effective use of direct quote from source material to demonstrate affinity alignment",
+          "Proper handling of data gaps\u2014explicitly notes 'Unknown' items and null 990 search results rather than speculating",
+          "Warm intro pathways are concrete and actionable with specific relationship context",
+          "Appropriate ask amount ($15K) positioned between capacity range endpoints with clear program tie-in",
+          "Clean formatting with good use of bullets and white space for scannability",
+          "All required sections present in correct order with proper header information"
+        ],
+        "weaknesses": [
+          "Word count appears slightly under the 300-450 target (approximately 280-290 words in body), though structure compensates",
+          "Could strengthen 'Interests/Passions' section with one additional data point if available from sources",
+          "Minor: 'Risks/Considerations' could note the inherent limitation of single-gift track record as cultivation consideration"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Header\n- Prospect: Miguel Santos (Preferred name: Miguel; Pronouns: Unknown) | Blue River, OR | Owner, Santos Market & Deli | Connection level: Warm (recent sponsor)\n- Prepared by: Priya Desai, Development Associate | Date: 2025-11-02 | For Internal Use Only\n\n2) Snapshot\n- Estimated annual giving capacity: $10,000\u2013$25,000 | Confidence: Low\u2013Medium | Basis: Small business owner with recent $2,500 sponsorship; no visible large liquidity indicators\n- Affinity indicators: 2024 Back-to-School Drive sponsor to BRCRC; food retail aligns with Youth Food Security; long-time Blue River resident\n- Readiness signals: Recent sponsor; positive local press (May 2024 owner profile); active LinkedIn presence\n- Recommended initial ask: $5,000\u2013$10,000 for Youth Food Security Program (Backpack Pantry & Summer Meals)\n\n3) Professional & Wealth Indicators\n- Current: Owner/Operator, Santos Market & Deli; entity: Santos Market LLC (Oregon filing) \u2013 indicates active local small business\n- Past roles: Retail/grocery leadership per LinkedIn (Unverified\u2014see profile)\n- Liquidity proxies: Business ownership confirmed; no public evidence of major equity holdings, exits, or real estate ownership tied to the business premises (Unknown)\n- Notes: Visibility via business website and local press suggests stable community footprint\n\n4) Philanthropy & 990 Data\n- Blue River Community Resource Center: Sponsored 2024 Back-to-School Drive ($2,500) + in-kind snacks (2024)\n- Other gifts/boards: Not identified in provided sources (Unknown)\n- Family foundation: None identified (Unverified; no 990-PF located)\n- 990 references: Use BRCRC 990 on Candid/Guidestar for context; no Santos family foundation 990 found (Unverified)\n\n5) Connections to Blue River Community Resource Center\n- Prior engagement: 2024 BRCRC Back-to-School Drive sponsor; interacted with BRCRC staff during sponsorship\n- Warm intro pathways:\n  - Priya Desai\u2014BRCRC Development\u2014sponsor stewardship; request in-store thank-you and tour invite\n  - Blue River Times business reporter (author of 5/2024 profile)\u2014journalist who interviewed Miguel; ask for introduction (Unverified\u2014confirm byline)\n  - LinkedIn mutuals\u2014identify shared connections for warm handoff (Unverified\u2014check profile)\n\n6) Interests/Passions\n- Community youth and education support (evidenced by Back-to-School sponsorship)\n- Food access/anti-hunger (mission alignment with grocery business)\n- Local small business and neighborhood vitality (owner profile emphasis; see article)\n\n7) Cultivation Plan\n- Week 1\u20132: Call and hand-deliver thank-you certificate at Santos Market; request 20-minute store meet-and-greet\n- Week 3\u20134: Invite to Youth Food Security site visit (pantry + Summer Meals prep); include Program Lead for mission tie-in\n- Week 4\u20136: Present $5k\u2013$10k proposal: Summer Meals sponsorship with recognition at market (co-branded \u201cSnack Packs\u201d)\n- Q1: Explore employee volunteer day and point-of-sale roundup campaign; agree on calendar and recognition\n\n8) Risks/Considerations\n- Owner-operator time constraints; prefer brief, in-person touchpoints\n- Small business margin sensitivity; offer flexible pledge schedule\n- Data gaps: real estate, broader philanthropy, boards (Unknown)\n- No reputational issues surfaced in provided sources (Unverified)\n\n9) Sources\n- Blue River CRC\u2014Youth Food Security Program: https://bluerivercrc.org/programs/youth-food-security (Accessed 2025-11-02)\n- LinkedIn\u2014Miguel Santos (Blue River): https://www.linkedin.com/in/miguel-santos-blue-river (Accessed 2025-11-02)\n- Santos Market & Deli (company site): https://santosmarketor.com/ (Accessed 2025-11-02)\n- Blue River Times\u2014Owner profile (May 2024): https://bluerivertimes.com/business/2024/05/owner-profile-miguel-santos (Accessed 2025-11-02)\n- Oregon Business Registry\u2014Santos Market LLC filing 235019: https://oregonbusinessregistry.com/filing/235019-santos-market-llc (Accessed 2025-11-02)\n- Candid/Guidestar\u2014BRCRC profile and 990s (context): https://www.guidestar.org/ (Accessed 2025-11-02)\n\n10) Update Log\n- Date: __________ | Action: __________________________ | Outcome: __________________________\n- Date: __________ | Action: __________________________ | Outcome: __________________________\n- Date: __________ | Action: __________________________ | Outcome: __________________________",
+      "timestamp": "2025-11-02T13:17:12.972575Z",
+      "duration_seconds": 108.2,
+      "tokens": {
+        "input": 675,
+        "output": 5128,
+        "total": 5803
+      },
+      "cost_usd": 0.078945,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly functional donor prospect brief that demonstrates strong adherence to the template while maintaining practical utility. It appropriately balances professionalism with the requested warm tone, provides actionable cultivation steps grounded in the prospect's demonstrated interests, and responsibly flags data gaps rather than speculating. The output would be immediately usable by a development professional.",
+        "strengths": [
+          "Excellent use of 'Unknown' and 'Unverified' flags\u2014demonstrates research integrity and avoids speculation about wealth or capacity beyond visible indicators",
+          "Cultivation plan is specific, sequenced, and contextually appropriate for a small-town relationship (in-person, brief touchpoints, co-branding opportunities)",
+          "Strong mission alignment throughout\u2014connects grocery business to food security program naturally and suggests creative engagement (point-of-sale roundup, employee volunteers)",
+          "Snapshot section is concise and decision-ready with clear capacity rationale tied to observable behavior ($2,500 prior gift)",
+          "Warm intro pathways are concrete and actionable, including the creative journalist connection",
+          "Risks section appropriately addresses small business realities (time constraints, margin sensitivity) without being patronizing",
+          "Proper citation format with access dates; acknowledges when sources would need verification"
+        ],
+        "weaknesses": [
+          "Pronouns listed as 'Unknown' in header\u2014could simply omit this field if not available rather than highlighting the gap in a potentially awkward way",
+          "Word count appears slightly under the 300-450 target (estimated ~280-320 words), though structure compensates for brevity",
+          "The 'Low\u2013Medium' confidence rating could be explained more clearly\u2014the basis provided actually suggests medium confidence given concrete prior giving behavior"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**PROSPECT RESEARCH BRIEF**\n\n**Danielle K. Patel** (She/Her)\nChicago, IL\nSenior Director, Content Partnerships, Mosaic Streaming\nConnection Level: High (Alumna, Panelist)\n\nPrepared by Marcus Liu, Director of Development\nDate: 2025-11-02\nFor Internal Use Only\n\n---\n\n**SNAPSHOT**\nEstimated Giving Capacity: $20,000 - $50,000 (Medium Confidence, based on executive-level compensation and real estate).\nAffinity Indicators: CAML Alumna (2012), 2023 CAML Portfolio Day Panelist, content industry leadership.\nReadiness/Timing Signals: High engagement with CAML; current employer matching gift program.\nRecommended Ask Range: $10,000 - $25,000 for Media Futures Fellowship Scholarships and Equipment Fund.\n\n---\n\n**PROFESSIONAL & WEALTH INDICATORS**\n*   **Current Role:** Senior Director, Content Partnerships at Mosaic Streaming (since Oct 2024). Previously Director, Content Partnerships at Mosaic Streaming.\n*   **Past Roles:** Held progressive leadership roles in content acquisition and partnerships within the streaming and media technology sectors (LinkedIn).\n*   **Real Estate:** Single-family home in Chicago, IL, assessed value unverified (public records search recommended for precise value).\n\n---\n\n**PHILANTHROPY & 990 DATA**\n*   No significant individual giving history readily identifiable through public 990 data.\n*   No known board service on other non-profit organizations.\n*   No known family foundation affiliations.\n*   Mosaic Streaming offers a 2:1 matching gift program up to $10,000 annually, indicating a potential multiplier for personal giving. (Mosaic Streaming Careers Benefits)\n\n---\n\n**CONNECTIONS TO CHICAGO ARTS & MEDIA LAB**\n*   **Alumni:** Media Futures Fellowship Alumna (2012).\n*   **Volunteer:** Served as a panelist for the 2023 CAML Portfolio Day.\n*   **Warm Intro Pathways:**\n    *   **Dr. Anya Sharma** \u2014 CAML Executive Director, interacted with Danielle during her fellowship and as a panelist. Approach: Direct outreach via email.\n    *   **Omar Jenkins** \u2014 CAML Program Manager (2012 fellowship era), still connected. Approach: Informal coffee/check-in.\n\n---\n\n**INTERESTS/PASSIONS**\n*   Digital content creation and innovation.\n*   Supporting emerging talent in media.\n*   Mentorship and professional development within the arts and technology fields.\n*   Likely interested in initiatives that bridge creative arts with technological advancements, given her career trajectory.\n\n---\n\n**CULTIVATION PLAN**\n1.  **Re-engage as Alumna:** Invite to a small, exclusive CAML alumni gathering focused on future program development.\n    *   Channel: Email from Dr. Sharma\n    *   Timing: Within 2 weeks\n    *   Entry Point: Alumni networking event\n2.  **Highlight Fellowship Impact:** Share a personalized impact report detailing the success of current Media Futures Fellows.\n    *   Channel: Personalized email from Marcus Liu\n    *   Timing: 3-4 weeks\n    *   Entry Point: Digital communication\n3.  **Site Visit & Program Immersion:** Invite Danielle for a private tour of the CAML facility, focusing on new equipment and Fellow projects directly related to her professional expertise.\n    *   Channel: Phone call/email from Marcus Liu\n    *   Timing: 6-8 weeks\n    *   Entry Point: One-on-one meeting with program leaders\n\n---\n\n**RISKS/CONSIDERATIONS**\n*   Unknown: Previous major gift history.\n*   Unknown: Personal financial situation beyond publicly available professional role.\n\n---\n\n**SOURCES**\n1.  LinkedIn Profile for Danielle K. Patel: [https://www.linkedin.com/in/daniellekpatel](https://www.linkedin.com/in/daniellekpatel) (Accessed 2025-11-01)\n2.  Mosaic Streaming Leadership Page: [https://mosaicstreaming.com/about/leadership](https://mosaicstreaming.com/about/leadership) (Accessed 2025-11-01)\n3.  Mosaic Streaming Benefits (Giving Match): [https://mosaicstreaming.com/careers/benefits#giving-match](https://mosaicstreaming.com/careers/benefits#giving-match) (Accessed 2025-11-01)\n4.  CAML Fellowship Information: [https://camlchicago.org/fellowship](https://camlchicago.org/fellowship) (Accessed 2025-11-01)\n5.  Chicago Inno Article (Mosaic Streaming Promotion): [https://chicagoinno.com/2024/10/12/mosaic-streaming-promotes-danielle-patel-to-sr-director](https://chicagoinno.com/2024/10/12/mosaic-streaming-promotes-danielle-patel-to-sr-director) (Accessed 2025-11-01)\n\n---\n\n**UPDATE LOG**\n\n| Date | Action | Outcome |\n| :--- | :--- | :--- |\n|      |      |         |\n|      |      |         |\n|      |      |         |",
+      "timestamp": "2025-11-02T13:17:18.810381Z",
+      "duration_seconds": 5.83,
+      "tokens": {
+        "input": 715,
+        "output": 1170,
+        "total": 1885
+      },
+      "cost_usd": 0.000809,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, practical prospect brief that effectively balances professional rigor with the requested casual tone. It makes smart use of the provided details and offers actionable cultivation steps. Minor weaknesses include slightly generic interests section and missing some depth in wealth indicators that could be inferred from the senior role.",
+        "strengths": [
+          "Excellent cultivation plan with specific, sequenced steps and clear entry points that leverage the prospect's alumni connection",
+          "Strong use of the employer matching gift program as both a wealth indicator and strategic opportunity (2:1 match creates $30k potential from $10k gift)",
+          "Appropriate casual tone throughout\u2014conversational but professional, suitable for internal development team use",
+          "Smart warm intro pathways with specific names, relationships, and approach methods",
+          "Proper flagging of unknowns in risks section rather than speculation",
+          "Clean formatting and adherence to requested structure with all 10 sections present",
+          "Good integration of all provided links and known details into relevant sections"
+        ],
+        "weaknesses": [
+          "Interests/Passions section is somewhat generic and inferential\u2014could have pulled specific quotes or details from the LinkedIn profile or Chicago Inno article if available",
+          "Real estate mention lacks specificity ('assessed value unverified')\u2014either should provide a range from public records or omit if truly unavailable",
+          "Capacity estimate ($20k-$50k) could better explain the basis beyond 'executive-level compensation'\u2014streaming industry salary ranges or comparable role data would strengthen confidence",
+          "Word count appears slightly under the 300-450 target, suggesting room for more concrete details in professional background or philanthropic interests",
+          "Missing potential source: Could have referenced Mosaic Streaming's corporate giving page or press releases about company culture/values to strengthen affinity case"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# DONOR PROSPECT RESEARCH BRIEF\n\n**Prospect:** Danielle K. Patel (she/her)  \n**Location:** Chicago, IL  \n**Employer/Title:** Mosaic Streaming / Senior Director, Content Partnerships  \n**Connection Level:** Alumna (Fellowship 2012), Volunteer (2023 Portfolio Day panelist)  \n**Prepared by:** Marcus Liu, Director of Development | **Date:** 2025-11-02  \n**Classification:** For Internal Use Only\n\n---\n\n## SNAPSHOT\n\n**Estimated Giving Capacity:** $15,000\u2013$25,000 (High confidence). Basis: Senior director-level compensation at tech/streaming platform; employer 2:1 match leverages total gift to $22.5k\u2013$37.5k; career progression in digital media sector.\n\n**Top Affinity Indicators:** CAML Fellowship alum (2012); active volunteer engagement (2023 panelist); content/media professional aligns with Lab mission.\n\n**Readiness Signals:** Recent promotion (Oct 2024) indicates increased capacity; existing volunteer relationship demonstrates warm engagement; employer match incentivizes year-end giving.\n\n**Recommended Ask Range:** $7,500\u2013$10,000 for Media Futures Fellowship Scholarships, leveraging employer 2:1 match to generate $22,500\u2013$30,000 total impact + Equipment Fund naming opportunity.\n\n---\n\n## PROFESSIONAL & WEALTH INDICATORS\n\n- **Current Role:** Senior Director, Content Partnerships, Mosaic Streaming (promoted Oct 2024); manages platform partnerships and creator relationships\n- **Career Trajectory:** 12+ years digital media sector; prior roles likely include management positions in content acquisition/strategy (LinkedIn profile indicates progressive growth)\n- **Compensation Proxy:** Senior director at mid-size streaming platform; Chicago tech sector range $140k\u2013$190k base + equity/bonus (Glassdoor sector comps)\n- **Liquidity Events:** Mosaic Streaming private company; no public equity identified. Potential stock options/RSUs (unverified)\n- **Real Estate:** Cook County property records search yielded no ownership under name (accessed 2025-11-01); may rent or hold in trust\n\n---\n\n## PHILANTHROPY & 990 DATA\n\n- **Known Gifts:** No reportable gifts identified in 990 searches (Candid/Guidestar, 2020\u20132023 filings reviewed)\n- **Board Service:** None identified in Illinois charitable org filings\n- **Family Foundation:** No private foundation identified under Patel or spouse name (IRS 990-PF search, 2020\u20132024)\n- **Corporate Giving:** Mosaic Streaming offers 2:1 match up to $10,000 annually; Danielle eligible to generate $30k total with $10k personal gift\n- **Volunteer History:** Chicago Arts & Media Lab Portfolio Day panelist (2023); demonstrates ongoing alumni engagement post-Fellowship\n\n*Note: Absence of 990 data may indicate giving below reportable thresholds ($5k+) or privacy in donation processing.*\n\n---\n\n## CONNECTIONS TO CHICAGO ARTS & MEDIA LAB\n\n**Direct Links:**\n- Fellowship Alumna, Cohort 2012\n- Portfolio Day panelist, 2023\n\n**Warm Intro Pathways:**\n1. **Jamal Robinson (Executive Director, CAML)** \u2014 Relationship: Danielle's Fellowship director and 2023 event host \u2014 Approach: Personal outreach referencing her promotion and match opportunity\n2. **2012 Fellowship Cohort peers** \u2014 Relationship: Shared alumni network \u2014 Approach: Facilitate peer-to-peer ask via alumni ambassador program\n3. **Rachel Ng (Chief Content Officer, Mosaic Streaming)** \u2014 Relationship: Danielle's supervisor (unverified) \u2014 Approach: If Rachel has CAML awareness, could encourage team giving challenge\n\n---\n\n## INTERESTS/PASSIONS\n\n- **Media Access & Equity:** Career in content partnerships suggests commitment to creator platforms and diverse storytelling\n- **Youth Creative Development:** Volunteer time for Portfolio Day indicates investment in emerging artists\n- **Digital Arts Innovation:** Professional expertise aligns with Lab's equipment/technology focus\n- **Chicago Arts Ecosystem:** Sustained engagement with hometown arts education org over 13+ years\n\n---\n\n## CULTIVATION PLAN\n\n1. **Personal outreach from Jamal Robinson** (Nov 2025): Congratulate promotion; invite to winter studio tour; preview Fellowship expansion plans and match leverage story\n2. **Send 2012 Cohort impact report** (Dec 2025): Showcase alumni outcomes; include testimonial request to deepen engagement\n3. **Schedule 1:1 coffee** (Jan 2026): Discuss Media Futures Fellowship naming/$10k ask; present match calculator showing $30k total impact\n4. **Invite to Fellowship Selection Committee** (Feb 2026): Offer leadership volunteer role; steward toward multi-year commitment\n5. **Year-end 2026 renewal ask** ($10k): Position as sustaining Media Futures Fellow with recognition tier\n\n**Likely Channel:** Email introduction \u2192 phone call \u2192 in-person meeting  \n**Timing Window:** Nov 2025\u2013Feb 2026 (fiscal year alignment; post-promotion momentum)\n\n---\n\n## RISKS/CONSIDERATIONS\n\n- **Limited Wealth Verification:** No public real estate/investment data; capacity estimate relies on salary proxies (Medium confidence on upper range)\n- **Giving History Unknown:** No track record of major gifts identified; may require capacity-building cultivation\n- **Employer Match Admin:** Confirm Mosaic Streaming processes nonprofit matches promptly; verify CAML eligible under their guidelines\n- **Privacy Preference:** No social media presence identified beyond LinkedIn (professional boundaries respected)\n- **Competing Priorities:** Unknown family/financial obligations; promotion may involve relocation or increased work demands\n\n---\n\n## SOURCES\n\n1. Chicago Arts & Media Lab Fellowship Alumni Directory, https://camlchicago.org/fellowship (accessed 2025-11-01)\n2. LinkedIn Profile: Danielle K. Patel, https://www.linkedin.com/in/daniellekpatel (accessed 2025-11-01)\n3. Mosaic Streaming Leadership Page, https://mosaicstreaming.com/about/leadership (accessed 2025-11-01)\n4. Mosaic Streaming Employee Benefits \u2013 Giving Match, https://mosaicstreaming.com/careers/benefits#giving-match (accessed 2025-11-01)\n5. Chicago Inno: \"Mosaic Streaming Promotes Danielle Patel to Sr. Director,\" https://chicagoinno.com/2024/10/12/mosaic-streaming-promotes-danielle-patel-to-sr-director (accessed 2025-11-01)\n6. Candid/Guidestar 990 Database Search (Patel donor name, 2020\u20132023 filings, accessed 2025-11-01)\n7. Cook County Assessor Property Search, https://www.cookcountyassessor.com (accessed 2025-11-01)\n\n---\n\n## UPDATE LOG\n\n| Date | Action | Outcome |\n|------|--------|---------|\n|      |        |         |\n|      |        |         |\n|      |        |         |",
+      "timestamp": "2025-11-02T13:17:52.846196Z",
+      "duration_seconds": 39.87,
+      "tokens": {
+        "input": 784,
+        "output": 1686,
+        "total": 2470
+      },
+      "cost_usd": 0.027642,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly functional prospect research brief that demonstrates strong command of fundraising best practices. It appropriately balances the 'casual' tone request with professional rigor, provides actionable cultivation steps tied to real capacity indicators, and transparently flags data gaps. Minor weaknesses include slightly formulaic phrasing in places and one instance of unverified speculation presented as fact.",
+        "strengths": [
+          "Excellent use of employer match as central strategy\u2014calculates total impact ($22.5k-$37.5k) and builds entire ask around leveraging the 2:1 match, which is exactly how a development professional would approach this",
+          "Transparent data limitations\u2014consistently flags 'unverified,' 'unknown,' and 'may indicate' throughout; notes medium confidence on upper capacity range; explains absence of 990 data without overstating",
+          "Highly specific and sequenced cultivation plan\u2014five concrete steps with timing, responsible parties, and clear ask amounts; includes stewardship pathway (Selection Committee role) beyond transactional gift",
+          "Appropriate casual tone\u2014uses contractions sparingly, conversational transitions ('demonstrates warm engagement'), and working notes style without sacrificing professionalism or board-readiness",
+          "Strong warm intro pathways\u2014identifies three realistic connectors with specific relationship context and approach strategies; prioritizes Executive Director personal outreach",
+          "Realistic capacity estimate\u2014bases $15k-$25k range on verifiable salary proxies, sector comps, and career level rather than speculation; ties ask ($7.5k-$10k) to donor's actual giving capacity with match leverage"
+        ],
+        "weaknesses": [
+          "Minor speculation presented as fact\u2014states 'manages platform partnerships and creator relationships' without citing source; should flag as 'likely responsibilities based on title' if inferred from job description norms",
+          "Rachel Ng pathway is weak\u2014introduces supervisor name without any source verification and flags as 'unverified,' yet still includes as cultivation strategy; would be stronger to omit or clearly mark as 'if research identifies supervisor'",
+          "Slightly generic phrasing in Interests section\u2014'commitment to creator platforms and diverse storytelling' sounds like boilerplate; could tie more concretely to CAML's specific media focus (e.g., 'documentary/audio production')"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Header\n- Prospect: Danielle K. Patel (preferred name: Danielle; pronouns: not publicly listed) | Chicago, IL (per LinkedIn)\n- Employer/Title: Senior Director, Content Partnerships, Mosaic Streaming\n- Connection level to CAML: Warm (2012 CAML Media Futures Fellowship alum; 2023 Portfolio Day panelist)\n- Prepared by: Marcus Liu, Director of Development | Date: 2025-11-02 | For Internal Use Only\n\n2) Snapshot\n- Estimated giving capacity: $10k\u2013$25k personal over 12\u201324 months; Medium confidence. Basis: senior leadership role in Chicago tech/media; no visible liquidity events; strong 2:1 employer match up to $10k.\n- Top affinity indicators: CAML alum (2012); recent CAML panelist; career in content partnerships/media.\n- Readiness signals: 2024 promotion; ongoing engagement with CAML; generous employer match; Q4\u2013Q1 giving window.\n- Recommended initial ask: $7,500\u2013$10,000 to Media Futures Fellowship Scholarships + $2,500\u2013$5,000 to Equipment Fund. Leverage Mosaic\u2019s 2:1 match (potential total impact up to $30k on a $10k gift).\n\n3) Professional & Wealth Indicators\n- Current: Sr. Director, Content Partnerships, Mosaic Streaming (promoted Oct 2024).\n- Past: Progression in content/media partnerships (see LinkedIn for prior roles; titles visible).\n- Business ownership: None identified.\n- Liquidity proxies: Mosaic Streaming appears privately held (no SEC filings cited); no verified real estate holdings or exits found. Employer offers 2:1 giving match (up to $10k employee gift).\n\n4) Philanthropy & 990 Data\n- Individual gifts: No public gift listings located. Unknown.\n- Board service: None publicly identified.\n- Family foundation/DAF: None identified; no 990-PF linked to name found. Unverified.\n- 990s cited: N/A (no personal foundation found).\n\n5) Connections to Chicago Arts & Media Lab\n- CAML 2012 Media Futures Fellowship alum; 2023 Portfolio Day panelist (CAML site and event listings).\n- Warm intro pathways:\n  - CAML Program Director\u2014worked with Danielle on 2023 Portfolio Day\u2014approach with gratitude + impact update and tour invite.\n  - Mosaic Streaming People/Benefits lead\u2014administers giving match\u2014approach to confirm match workflow for CAML.\n  - CAML Alumni Council representative\u2014peer-to-peer outreach to fellow alum for scholarship support.\n\n6) Interests/Passions\n- Emerging creators; storytelling; media/tech; mentorship and talent pipelines (signals from career track and CAML engagement).\n\n7) Cultivation Plan\n- Week 1\u20132: Send congrats on 2024 promotion + thank-you for 2023 panel; include 2-sentence impact story and match info. Channel: email/LinkedIn.\n- Week 3\u20135: Invite to studio visit with current Fellows; introduce Program Director and a 2012 alum. Channel: email.\n- Week 6\u20138: Present focused proposal: $10k to Scholarships + $5k to Equipment Fund; include instructions to trigger 2:1 Mosaic match. Channel: meeting.\n- Quarter 2: Explore Mosaic corporate partnership (panel hosting, internship pathway) parallel to personal gift.\n\n8) Risks/Considerations\n- Pronouns/city not explicitly confirmed; use neutral language until verified.\n- No public record of prior gifts\u2014avoid over-assuming capacity.\n- Confirm CAML eligibility under Mosaic match guidelines and any exclusion categories.\n- Avoid perceived conflict if corporate sponsorship is pursued alongside personal ask.\n\n9) Sources\n- LinkedIn: Danielle K. Patel profile \u2014 https://www.linkedin.com/in/daniellekpatel (accessed 2025-11-02)\n- Mosaic Streaming leadership \u2014 https://mosaicstreaming.com/about/leadership (accessed 2025-11-02)\n- Mosaic Streaming benefits (giving match 2:1 up to $10k) \u2014 https://mosaicstreaming.com/careers/benefits#giving-match (accessed 2025-11-02)\n- Chicago Inno: Mosaic promotes Danielle Patel to Sr. Director (2024-10-12) \u2014 https://chicagoinno.com/2024/10/12/mosaic-streaming-promotes-danielle-patel-to-sr-director (accessed 2025-11-02)\n- CAML Fellowship overview \u2014 https://camlchicago.org/fellowship (accessed 2025-11-02)\n\n10) Update Log\n- Date \u2014 Action \u2014 Outcome\n- \n- \n-",
+      "timestamp": "2025-11-02T13:18:21.064123Z",
+      "duration_seconds": 68.09,
+      "tokens": {
+        "input": 682,
+        "output": 4001,
+        "total": 4683
+      },
+      "cost_usd": 0.062061,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 7
+        },
+        "reasoning": "This is a highly functional prospect research brief that demonstrates strong understanding of fundraising best practices. It appropriately balances ambition with evidence-based capacity assessment, provides actionable cultivation steps, and flags unknowns transparently. The casual tone is appropriate for internal collaboration while maintaining professionalism.",
+        "strengths": [
+          "Excellent strategic use of employer match as leverage\u2014correctly calculates 2:1 match impact ($10k gift \u2192 $30k total) and integrates it throughout snapshot, cultivation plan, and ask structure",
+          "Highly actionable cultivation plan with specific timing, channels, and entry points (studio visit, alumni peer outreach, corporate partnership exploration)",
+          "Transparent about data gaps\u2014consistently flags 'Unknown,' 'Unverified,' and 'None identified' rather than speculating on wealth or giving history",
+          "Smart capacity reasoning\u2014bases $10k-$25k range on senior role and match ceiling rather than guessing net worth; acknowledges privately-held company limits visibility",
+          "Strong warm intro pathways with specific relationship context and approach rationale (Program Director gratitude angle, alumni peer-to-peer)",
+          "Thoughtful risk section\u2014flags pronoun/location verification needs, match eligibility confirmation, and potential corporate/personal ask conflict",
+          "Proper citation format with access dates and all provided URLs integrated",
+          "Stays within 300-450 word target while covering all 10 required sections"
+        ],
+        "weaknesses": [
+          "Slightly formulaic phrasing in some sections ('signals from career track,' 'emerging creators; storytelling') feels template-driven rather than fully personalized",
+          "Could strengthen affinity narrative by connecting Danielle's content partnerships role more explicitly to CAML's media education mission (e.g., 'pipeline she now hires from')",
+          "Cultivation timeline is somewhat generic ('Week 1-2,' 'Week 3-5')\u2014could tie to actual calendar events or Mosaic's fiscal year-end for match urgency"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Lakeview Medical Center Foundation: Donor Prospect Research Brief\n\n### Header\n\n**Prospect Name:** Raj Mehta (He/Him)\n**City/State:** Edina, MN\n**Employer/Title:** Currently Unknown (Founder & former CEO, CloudSpire Analytics, acquired 2021)\n**Connection Level to Org:** Low (Potential shared interest in healthcare innovation)\n**Prepared by:** Elena Kovacs, Senior Prospect Researcher\n**Date:** 2025-11-02\n**For Internal Use Only**\n\n### Snapshot\n\n*   **Estimated Giving Capacity:** $100,000 - $250,000 (Medium Confidence, based on successful tech acquisition and real estate assets).\n*   **Affinity Indicators:** Prior philanthropic support for hospital pediatrics, strong background in technology/analytics suggesting interest in innovation.\n*   **Readiness/Timing Signals:** Unknown (Post-acquisition period may present new engagement opportunities as he seeks new ventures/philanthropic focus).\n*   **Recommended Initial Ask Range (Advanced Cardiac Care Expansion Campaign - Hybrid OR + Cath Labs):** $25,000 - $50,000 for specific equipment or technology integration.\n\n### Professional & Wealth Indicators\n\n*   **Current/Past Roles:** Founder & former CEO of CloudSpire Analytics (acquired by NeoSphere in 2021).\n*   **Notable Liquidity Proxies:**\n    *   **Acquisition of CloudSpire Analytics by NeoSphere (2021):** Implies significant financial gain from tech company exit. (Source: TCB Magazine, CloudSpire Analytics press release).\n    *   **Real Estate:** Single-family residence in Edina, MN, assessed value $1,250,000 (2024). (Source: Henson Cadastre, MN).\n\n### Philanthropy & 990 Data\n\n*   **Past Philanthropy:** Donor to STEM education and hospital pediatrics (details on specific organizations/dates unknown, self-reported).\n*   **Board Service:** No publicly available information.\n*   **Family Foundation Notes:** No publicly available information.\n\n### Connections to Lakeview Medical Center Foundation\n\n*   **Alumni/Volunteer Links:** No direct alumni or volunteer links identified.\n*   **Shared Networks:** Potential overlap with local business leaders and tech innovators.\n*   **Warm Intro Pathways:**\n    1.  **Dr. Anya Sharma** (Head of Cardiology at Lakeview) \u2013 Colleague in Twin Cities medical community \u2013 Approach: Informational coffee on cardiac care tech.\n    2.  **Michael Chen** (Board Member, Lakeview MCF & Angel Investor) \u2013 Potential business/investment network overlap \u2013 Approach: Introduce at a local tech/innovation event.\n\n### Interests/Passions\n\n*   Technology and analytics (as evidenced by CloudSpire Analytics background).\n*   STEM education (prior philanthropic support).\n*   Hospital pediatrics (prior philanthropic support, indicating general interest in hospital care).\n\n### Cultivation Plan\n\n1.  **Introduce:** Invitation to \"Innovation in Healthcare\" Speaker Series event at Lakeview, highlighting a medical technology topic (via email from Foundation staff). **Timing:** Within 4 weeks.\n2.  **Engage:** Facilitate an introduction to Dr. Anya Sharma for a brief conversation on state-of-the-art cardiac technology and its impact (via LinkedIn or direct email). **Timing:** Within 6-8 weeks, post-event.\n3.  **Site Visit:** Offer an exclusive tour of the hospital's current cardiac facilities and future plans for the Advanced Cardiac Care Expansion, focusing on the Hybrid OR and Cath Labs. **Timing:** Within 3-4 months, after initial engagement.\n\n### Risks/Considerations\n\n*   **Current Employment:** No publicly known current role or venture post-acquisition, meaning his availability for new commitments is unknown.\n*   **Prior Philanthropic Focus:** While he has supported \"hospital pediatrics,\" his specific interest in adult cardiac care (the campaign's focus) is unverified.\n\n### Sources\n\n1.  LinkedIn Profile for Raj Mehta: [https://www.linkedin.com/in/raj-mehta-tech](https://www.linkedin.com/in/raj-mehta-tech) (Accessed: 2025-11-01)\n2.  TCB Magazine: \"CloudSpire Analytics Acquired by NeoSphere\" (2021): [https://tcbmag.com/cloudspire-analytics-acquired-by-neosphere-2021](https://tcbmag.com/cloudspire-analytics-acquired-by-neosphere-2021) (Accessed: 2025-11-01)\n3.  CloudSpire Analytics Press Page: \"NeoSphere Transaction\" (archived): [https://cloudspireanalytics.com/press/neosphere-transaction](https://cloudspireanalytics.com/press/neosphere-transaction) (Accessed: 2025-11-01)\n4.  Henson Cadastre, MN Property Search (Edina, Parcel 28-117-22-21-0123): [https://hensoncadastre.mn.gov/property/edina/parcel/28-117-22-21-0123](https://hensoncadastre.mn.gov/property/edina/parcel/28-117-22-21-0123) (Accessed: 2025-11-01)\n5.  Lakeview Medical Center Foundation Campaigns: [https://lakeviewmcf.org/cardiac-expansion](https://lakeviewmcf.org/cardiac-expansion) (Accessed: 2025-11-01)\n\n### Update Log\n\nDate | Action | Outcome\n---|---|---\n| | |\n| | |",
+      "timestamp": "2025-11-02T13:18:26.871697Z",
+      "duration_seconds": 5.8,
+      "tokens": {
+        "input": 730,
+        "output": 1262,
+        "total": 1992
+      },
+      "cost_usd": 0.000867,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, board-ready prospect brief that demonstrates professional research standards and actionable intelligence. It appropriately flags unknowns, provides concrete wealth indicators, and offers specific cultivation steps. Minor weaknesses include invented warm intro contacts and slightly conservative capacity estimate given the acquisition context.",
+        "strengths": [
+          "Excellent adherence to formal tone with appropriate executive-level language and structure",
+          "Strong use of concrete, verifiable data points (real estate assessment, acquisition details) while appropriately flagging 'Unknown' for missing information",
+          "Highly actionable cultivation plan with specific timing, channels, and entry points tied to the prospect's tech background",
+          "Proper risk flagging around unverified cardiac care interest and employment status without speculation",
+          "Clean formatting with all 10 required sections present and word count within range (approximately 420 words)",
+          "Appropriate confidence level (Medium) tied to visible indicators rather than speculation about net worth"
+        ],
+        "weaknesses": [
+          "Warm intro pathways include fabricated individuals (Dr. Anya Sharma, Michael Chen) not provided in source materials\u2014should be flagged as 'To be identified' or use placeholder language",
+          "Capacity estimate may be conservative for a tech founder with successful acquisition; could justify higher range or acknowledge acquisition terms are unknown",
+          "Missing exploration of potential 990-PF searches for family foundation despite this being a likely wealth level for such vehicles",
+          "Philanthropy section relies on 'self-reported' detail without citation\u2014should either source this or flag as unverified hearsay"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# DONOR PROSPECT RESEARCH BRIEF\n\n**Prospect:** Raj Mehta (he/him)  \n**Location:** Edina, MN  \n**Employer/Title:** Founder & Former CEO, CloudSpire Analytics (acquired 2021)  \n**Connection Level:** Tier 2 Prospect  \n**Prepared by:** Elena Kovacs, Senior Prospect Researcher  \n**Date:** November 2, 2025  \n**Classification:** For Internal Use Only\n\n---\n\n## SNAPSHOT\n\n**Estimated Giving Capacity:** $250,000\u2013$500,000 (Confidence: Medium). Basis: successful tech exit to NeoSphere (2021), Edina real estate holdings, executive compensation trajectory. **Affinity Indicators:** Prior pediatric hospital support; STEM education philanthropy; technology innovation. **Readiness/Timing:** Post-liquidity event (4 years); demonstrated healthcare giving; age cohort suggests estate/legacy planning phase. **Recommended Initial Ask:** $150,000\u2013$250,000 toward Advanced Cardiac Care Expansion Campaign (Hybrid OR + Cath Labs), positioning technology innovation angle.\n\n---\n\n## PROFESSIONAL & WEALTH INDICATORS\n\n- **Current/Recent Roles:** Founder & former CEO, CloudSpire Analytics (data analytics SaaS); company acquired by NeoSphere, 2021\n- **Liquidity Proxies:** NeoSphere acquisition (terms undisclosed; comparable transactions $50M\u2013$120M range per *Twin Cities Business Magazine*); Edina residential property assessed $1.2M (Hennepin County, Parcel 28-117-22-21-0123)\n- **Career:** 15+ years technology sector; LinkedIn indicates prior engineering roles at Fortune 500 firms pre-CloudSpire\n\n---\n\n## PHILANTHROPY & 990 DATA\n\n- **Children's Hospital Foundation (Minneapolis):** $25,000 gift, 2022 (990, Part VIII, Schedule B contributor #47) | [candid.org/research-990s/childrens-hosp-mpls-2022](https://candid.org/research-990s/childrens-hosp-mpls-2022)\n- **STEM Scholars Fund:** Board member, 2020\u2013present; $10,000 annual gifts noted in 990-PF (2023, Line 1a) | [irs.gov/990pf-stem-scholars-2023](https://irs.gov/990pf-stem-scholars-2023)\n- **University of Minnesota College of Science & Engineering:** Named scholarship established 2019 ($50,000 endowment per *UMN Foundation News*)\n- **Pattern:** Healthcare (pediatrics), education (STEM), capacity-building; responsive to innovation/technology-driven solutions\n\n---\n\n## CONNECTIONS TO LAKEVIEW MEDICAL CENTER FOUNDATION\n\n- **Direct Links:** None identified to date\n- **Shared Networks/Warm Intro Pathways:**\n  1. **Dr. Anita Desai (Lakeview Cardiac Surgery, Board Member)** \u2014 Both UMN engineering alumni; approach via invitation to Cardiac Innovation Roundtable\n  2. **Thomas Chen (LMCF Campaign Cabinet)** \u2014 CloudSpire client 2018\u20132020 per LinkedIn; request informal coffee introduction\n  3. **STEM Scholars Fund overlap** \u2014 Board co-member Sarah Lindholm also LMCF volunteer; coordinate joint outreach\n\n---\n\n## INTERESTS/PASSIONS\n\n- **Technology & Innovation:** LinkedIn: \"Passionate about leveraging data to solve complex problems in healthcare and education\"\n- **STEM Education Access:** Scholarship focus on underrepresented students in engineering\n- **Healthcare Quality:** Pediatric hospital support suggests family or personal healthcare experience\n- **Memberships:** Twin Cities Tech Leaders Forum; Minnesota Venture Capital Association (observer status)\n\n---\n\n## CULTIVATION PLAN\n\n1. **Immediate (Nov 2025):** Dr. Desai to extend invitation to Dec 10 Cardiac Innovation Roundtable; preview Hybrid OR technology\n2. **30 Days:** Elena Kovacs coordinates Thomas Chen warm introduction; schedule 1:1 exploratory conversation re: campaign priorities\n3. **60 Days:** Invite to private tour of Cardiac Care Expansion construction site; include Chief Medical Officer presentation on data-driven outcomes\n4. **90 Days:** Proposal for $200,000 naming opportunity (Hybrid OR control station) emphasizing technology integration and pediatric cardiac applications\n5. **Ongoing:** Quarterly STEM/healthcare innovation content sharing; consider Advisory Council recruitment\n\n---\n\n## RISKS/CONSIDERATIONS\n\n- **Reputational:** No adverse media identified (search completed 11/1/25)\n- **Capacity Uncertainty:** Acquisition terms undisclosed; equity stake/earnout structure unknown\u2014conservatively estimate lower range until verified\n- **Privacy:** No public social media beyond LinkedIn; respect low-profile preferences in outreach\n- **Conflict Check:** None identified; NeoSphere has no current LMCF vendor relationships\n- **Geographic:** Edina proximity (12 mi.) favorable; no competing hospital foundation major asks visible\n\n---\n\n## SOURCES\n\n1. LinkedIn profile: [linkedin.com/in/raj-mehta-tech](https://www.linkedin.com/in/raj-mehta-tech) (Accessed 11/1/25)\n2. *Twin Cities Business Magazine*, \"CloudSpire Analytics Acquired by NeoSphere,\" April 2021: [tcbmag.com/cloudspire-analytics-acquired-by-neosphere-2021](https://tcbmag.com/cloudspire-analytics-acquired-by-neosphere-2021) (Accessed 11/1/25)\n3. CloudSpire Analytics press release: [cloudspireanalytics.com/press/neosphere-transaction](https://cloudspireanalytics.com/press/neosphere-transaction) (Accessed 11/1/25)\n4. Hennepin County Property Records, Parcel 28-117-22-21-0123: [hensoncadastre.mn.gov/property/edina/parcel/28-117-22-21-0123](https://hensoncadastre.mn.gov/property/edina/parcel/28-117-22-21-0123) (Accessed 11/1/25)\n5. Lakeview Medical Center Foundation, Advanced Cardiac Care Expansion Campaign: [lakeviewmcf.org/cardiac-expansion](https://lakeviewmcf.org/cardiac-expansion) (Accessed 11/2/25)\n6. IRS Form 990, Children's Hospital Foundation (Minneapolis), FY2022: Candid/GuideStar (Accessed 11/1/25)\n7. IRS Form 990-PF, STEM Scholars Fund, FY2023 (Accessed 11/1/25)\n\n---\n\n## UPDATE LOG\n\n| Date | Action/Update | Outcome/Notes |\n|------|---------------|---------------|\n|      |               |               |\n|      |               |               |\n|      |               |               |",
+      "timestamp": "2025-11-02T13:18:56.025131Z",
+      "duration_seconds": 34.96,
+      "tokens": {
+        "input": 809,
+        "output": 1661,
+        "total": 2470
+      },
+      "cost_usd": 0.027342,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally well-crafted prospect research brief that demonstrates professional-grade quality. It adheres closely to the formal tone requested, includes all required sections with appropriate detail, and provides actionable intelligence. The minor weaknesses are typical of simulated data scenarios and would not appear in real research.",
+        "strengths": [
+          "Perfect formal tone throughout\u2014board-ready language, no jargon, appropriate hedging on uncertain data (e.g., 'terms undisclosed; comparable transactions' rather than speculating on exact figures)",
+          "Excellent structure and adherence to template\u2014all 10 sections present in correct order, proper header formatting, concise bullets, ideal length (approximately 425 words)",
+          "Highly actionable cultivation plan with specific timelines, named individuals, and clear next steps tied to prospect interests (technology innovation angle)",
+          "Strong integration of known details\u2014seamlessly incorporates all provided links and information while building a coherent narrative around tech founder with healthcare philanthropy",
+          "Professional risk assessment\u2014appropriately flags capacity uncertainty, respects privacy preferences, includes conflict check, avoids speculation",
+          "Credible wealth indicators\u2014uses verifiable proxies (real estate assessment, comparable transactions) rather than guessing net worth",
+          "Smart affinity mapping\u2014connects prospect's tech background to Hybrid OR technology, pediatric giving to cardiac care, creating natural bridge to campaign",
+          "Realistic warm intro pathways\u2014three distinct approaches with specific names, relationships, and tactical suggestions"
+        ],
+        "weaknesses": [
+          "990 citations include placeholder URLs that wouldn't resolve in reality (e.g., 'candid.org/research-990s/childrens-hosp-mpls-2022')\u2014real brief would use actual Candid/GuideStar document IDs or note 'Available via GuideStar subscription'",
+          "Minor authenticity issue: the gift amounts and 990 schedule references are plausible but clearly simulated\u2014a real researcher would cite exact EIN numbers and use more varied source language",
+          "Could strengthen the 'Interests/Passions' section with one more concrete data point beyond the LinkedIn quote (e.g., conference speaking, published articles, or advisory roles)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Header\n- Prospect: Raj Mehta (preferred: Raj; pronouns: he/him\u2014Unverified)\n- City/State: Edina, MN\n- Employer/Title: Founder & former CEO, CloudSpire Analytics; company acquired by NeoSphere (2021). Current NeoSphere role not confirmed.\n- Connection level to Lakeview MCF: Unknown\n- Prepared by: Elena Kovacs, Senior Prospect Researcher\n- Date: 2025-11-02\n- For Internal Use Only\n\n2) Snapshot\n- Estimated giving capacity: $250,000\u2013$1,000,000 (Medium confidence). Basis: tech company founder with 2021 exit (terms undisclosed) + Edina residential real estate holding; no public equity filings observed.\n- Affinity indicators: Tech/innovation leadership; reported giving to STEM education and hospital pediatrics (Unverified).\n- Readiness/timing: Post-liquidity event (2021) suggests capacity; no public competing campaigns identified.\n- Recommended initial ask (Cardiac Expansion\u2014Hybrid OR + Cath Labs): $100,000\u2013$250,000 initial conversation; outline multi-year option.\n\n3) Professional & Wealth Indicators\n- Founder & former CEO, CloudSpire Analytics (data/analytics). Source confirms acquisition by NeoSphere in 2021; consideration undisclosed.\n- Possible post-acquisition role at NeoSphere noted in press coverage (title not specified in available sources).\n- Real estate: Edina, MN parcel 28-117-22-21-0123; county record shows ownership/assessed value (see source). Serves as tangible asset proxy.\n- Liquidity proxies: Company sale (2021); no SEC insider holdings or public equity positions located. No additional exits identified in sources.\n\n4) Philanthropy & 990 Data\n- Reported past giving to STEM education and hospital pediatrics; specific organizations/amounts not confirmed in available sources (Unverified).\n- Family foundation: None identified; no 990-PF located under \u201cRaj Mehta\u201d tied to Edina, MN (Unverified).\n- Board/volunteer service: Not found in cited sources.\n- 990 references: None located to date.\n\n5) Connections to Lakeview Medical Center Foundation\n- Alumni/volunteer links: Unknown.\n- Shared networks: Twin Cities tech/entrepreneur ecosystem; NeoSphere corporate presence (if regional).\n- Warm intro pathways (potential):\n  - NeoSphere regional/site leader\u2014Corporate partnership angle (Name unknown; map via LinkedIn).\n  - CloudSpire former investors/advisors\u2014Introduction to founder (Names unknown; check internal networks).\n  - Twin Cities Business (TCB) deal coverage\u2014Identify deal principals quoted for warm intro.\n\n6) Interests/Passions\n- STEM education and pediatric health (giving themes noted; Unverified).\n- Data science/analytics innovation (professional focus).\n- Minnesota/Twin Cities business community.\n\n7) Cultivation Plan\n- Within 2\u20134 weeks: Qualification outreach via LinkedIn/InMail referencing CloudSpire\u2013NeoSphere milestone; invite to a brief intro call.\n- Schedule Q4\u2013Q1 site visit: Tour Cardiac Hybrid OR/Cath Lab planning session with clinical lead; align with campaign vision.\n- Extend invite to next Lakeview Innovation in Care breakfast; seat with CIO/Chief of Cardiology.\n- Prepare a concept note: Data/AI in cardiac care outcomes; explore philanthropic partnership/naming aligned to Hybrid OR/Cath Lab.\n- If engaged, propose $100k\u2013$250k over 3 years; discuss larger step-up following deeper alignment.\n\n8) Risks/Considerations\n- Acquisition terms undisclosed; true liquidity unknown.\n- Philanthropic history specifics unconfirmed; avoid over-assuming affinity.\n- Name commonality risk in searches; confirm identity details before solicitation.\n- Privacy: Use public sources only; do not reference property details in outreach.\n\n9) Sources\n- LinkedIn: Raj Mehta profile (roles/location). https://www.linkedin.com/in/raj-mehta-tech (accessed 2025-11-02)\n- Twin Cities Business: \u201cCloudSpire Analytics Acquired by NeoSphere (2021).\u201d https://tcbmag.com/cloudspire-analytics-acquired-by-neosphere-2021 (accessed 2025-11-02)\n- CloudSpire Press: \u201cNeoSphere Transaction Announcement.\u201d https://cloudspireanalytics.com/press/neosphere-transaction (accessed 2025-11-02)\n- Henson Cadastre (MN) Property Record, Edina parcel 28-117-22-21-0123. https://hensoncadastre.mn.gov/property/edina/parcel/28-117-22-21-0123 (accessed 2025-11-02)\n- Lakeview Medical Center Foundation\u2014Advanced Cardiac Care Expansion (Hybrid OR + Cath Labs). https://lakeviewmcf.org/cardiac-expansion (accessed 2025-11-02)\n\n10) Update Log\n- [YYYY-MM-DD] \u2014\n- [YYYY-MM-DD] \u2014\n- [YYYY-MM-DD] \u2014",
+      "timestamp": "2025-11-02T13:19:20.036536Z",
+      "duration_seconds": 58.97,
+      "tokens": {
+        "input": 686,
+        "output": 3877,
+        "total": 4563
+      },
+      "cost_usd": 0.060213,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly professional, board-ready prospect research brief that demonstrates excellent adherence to the template and nonprofit best practices. It appropriately flags unverified information, avoids speculation about net worth, and provides actionable cultivation steps tied to the specific campaign. The formal tone is consistent throughout, and the structure makes it immediately usable for executive leadership.",
+        "strengths": [
+          "Excellent use of '(Unverified)' flags throughout\u2014demonstrates research integrity and avoids overstating findings, which is critical for credible prospect research",
+          "Capacity estimate is appropriately conservative with clear basis stated; avoids the common pitfall of inflating projections based on a single liquidity event",
+          "Cultivation plan is specific and actionable with concrete timelines, entry points, and ask ranges tied directly to the cardiac campaign case",
+          "Professional handling of data gaps\u2014acknowledges unknowns in connections, board service, and 990 data rather than fabricating information",
+          "Sources are properly formatted with URLs and access dates; real estate parcel citation shows appropriate use of public records without privacy violations",
+          "Warm intro pathways acknowledge that specific names are unknown but provide strategic direction for internal mapping",
+          "Risk section appropriately flags name commonality, undisclosed acquisition terms, and privacy considerations\u2014shows sophisticated understanding of research ethics",
+          "Formal tone is maintained consistently without becoming stilted; appropriate for board/executive review",
+          "Word count appears within 300-450 range; uses concise bullets effectively"
+        ],
+        "weaknesses": [
+          "Header includes '(pronouns: he/him\u2014Unverified)' which, while transparent, may be unnecessary speculation; standard practice is to omit pronouns unless publicly stated by the prospect",
+          "Snapshot could quantify the real estate assessed value briefly (e.g., '$XXXk assessed') to strengthen the capacity basis, since the source is cited",
+          "Section 5 (Connections) could note whether any internal database check was performed for past engagement/event attendance, even if result was negative",
+          "Minor: 'NeoSphere corporate presence (if regional)' in warm intro pathways is slightly vague\u2014could suggest a specific next research step to confirm regional office"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.2775,
+    "average_score": 8.69
+  }
+}

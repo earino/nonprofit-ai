@@ -1,0 +1,556 @@
+{
+  "prompt_id": "grant-executive-summary",
+  "prompt_text": "GRANT EXECUTIVE SUMMARY GENERATOR\n\nPurpose: Create a compelling one-page executive summary to accompany your full grant proposal.\n\nSTEP 1: QUICK START CHECKLIST\nFill in these core details first.\n\nBasic Information:\n- Organization: [ORGANIZATION NAME]\n- Funder: [FUNDER NAME]\n- Request amount: [$AMOUNT]\n- Grant purpose: [PURPOSE \u2013 e.g., \u201cgeneral operating support\u201d or \u201cyouth employment program\u201d]\n- Grant period: [TIMEFRAME \u2013 e.g., \u201c12 months\u201d or \u201cJuly 2025\u2013June 2026\u201d]\n- Total project/program budget: [$TOTAL BUDGET]\n\nProgram Details:\n- Program name: [PROGRAM NAME]\n- Number served: [NUM PARTICIPANTS]\n- Geography: [GEOGRAPHY \u2013 city/county/region]\n- Population: [POPULATION \u2013 be specific]\n- Delivery model: [DELIVERY MODEL \u2013 e.g., \u201cweekly workshops,\u201d \u201c1:1 case management,\u201d \u201cmobile clinics\u201d]\n- Key sites/partners: [SITES/PARTNERS]\n\nFunding Context:\n- Confirmed or matching funds: [MATCH/LEVERAGE]\n- Estimated per-participant cost (if relevant): [$COST PER PARTICIPANT]\n\nTone: [Select ONE: FORMAL / WARM / CASUAL]\n- FORMAL: Precise, reserved language for institutional funders (foundations, government)\n- WARM: Approachable, community-centered for family/local funders\n- CASUAL: Plainspoken for relationship-based grassroots funders you know well\n\nSTEP 2: DETAILED INFORMATION (INFORMATION YOU\u2019LL NEED)\n\nNeed Statement:\n- Geography: [GEOGRAPHY]\n- Population most affected: [POPULATION]\n- Key data points (2\u20133 stats showing scale/urgency): [KEY DATA POINTS]\n- Specific impact/harms: [IMPACT DESCRIPTION]\n\nSolution:\n- Program name: [PROGRAM NAME]\n- What will be done, where, and for whom: [PLAIN-LANGUAGE DESCRIPTION]\n- Number served: [NUM PARTICIPANTS]\n- Delivery model: [DELIVERY MODEL]\n- Key sites/partners: [SITES/PARTNERS]\n\nRequest & Budget:\n- Amount requested: [$AMOUNT]\n- Purpose of funds: [PURPOSE]\n- Grant period: [TIMEFRAME]\n- Total project/program budget: [$TOTAL BUDGET]\n- Confirmed/matching/leveraged funds: [MATCH/LEVERAGE]\n- Per-participant cost (if applicable): [$COST PER PARTICIPANT]\n\nOutcomes (3\u20135 measurable results with targets + timing):\n[OUTCOMES \u2013 e.g., \u201cServe 250 youth; 85% on-time graduation within 12 months.\u201d]\n\nEvidence & Evaluation:\n- Prior results or research base: [EVIDENCE]\n- How results will be tracked: [EVALUATION APPROACH \u2013 e.g., \u201cquarterly surveys, case records, database reports\u201d]\n\nOrganizational Capacity:\n- Track record/years operating/people served: [QUALIFICATIONS]\n- Staffing/governance highlights: [STAFFING/GOVERNANCE]\n- Fiscal health (if strong): [FISCAL STATUS \u2013 e.g., \u201cclean audits, 6-month reserves\u201d]\n\nFunder Alignment:\n- Funder priority phrases (use 1\u20132 explicitly): [FUNDER PRIORITY PHRASES]\n- How your work connects: [ALIGNMENT STATEMENT]\n\nEquity & Community Voice:\n- Who benefits (demographics, barriers addressed): [EQUITY]\n- Community input in design: [COMMUNITY INPUT]\n- Access considerations (language, transportation, cultural responsiveness): [ACCESS]\n\nTimeline (3\u20134 milestones):\n[TIMELINE MILESTONES \u2013 e.g., \u201cMonths 1\u20132: hire staff; Months 3\u20136: enroll 100 participants; Month 9: midpoint evaluation; Month 12: final report.\u201d]\n\nSustainability:\n- How work continues post-grant (diversified funding, earned revenue, policy alignment, committed funders): [SUSTAINABILITY]\n\nContact Information:\n- Contact (for questions; usually program/development staff): [CONTACT NAME, TITLE, EMAIL, PHONE]\n- Signer (only if funder requires; usually ED/CEO): [SIGNER NAME, TITLE]\n\nSTEP 3: CONTENT REQUIREMENTS (GENERATE THE EXECUTIVE SUMMARY)\n\nLength:\n- 250\u2013400 words total.\n\nStructure & Format:\n- Use micro-headings for skimming, in this order: Need, Solution, Request, Outcomes, Evidence & Evaluation, Organizational Capacity, Funder Fit, Equity & Community Voice, Timeline, Sustainability, Contact\n- Each section = 1 short paragraph of 2\u20133 sentences maximum\n- Bold the funding request amount and 2\u20133 key metrics/targets\n- Define acronyms on first use\n- Use active voice; plain language; avoid jargon and superlatives\n- Output as formatted text ready to paste into a Word document (clear section breaks)\n- Adjust sections based on funder RFP; if space is tight, prioritize: Need \u2192 Solution \u2192 Request \u2192 Outcomes \u2192 Capacity\n\nContent Priorities:\n1) Need (1\u20132 sentences): Name the community, scale of need, who is most affected, and specific impact. Be concrete and local.\n2) Solution (2\u20133 sentences): What will be done, for whom, where, and how many will be served; include delivery model and key partners.\n3) Request (1\u20132 sentences): State prominently: [AMOUNT] for [PURPOSE] over [TIMEFRAME]; include total budget, confirmed/matching funds, and per-participant cost if relevant.\n4) Outcomes (2\u20133 sentences): Provide 3\u20135 measurable outcomes with targets and timing.\n5) Evidence & Evaluation (1\u20132 sentences): Cite prior results or research and how results will be tracked.\n6) Organizational Capacity (1\u20132 sentences): Track record, staffing/governance, fiscal health.\n7) Funder Fit (1 sentence): Explicitly align with [FUNDER NAME] priorities using their language once or twice (no overdoing it).\n8) Equity & Community Voice (1\u20132 sentences): Who benefits, community input, and access considerations.\n9) Timeline (1 sentence or short list): 3\u20134 milestones.\n10) Sustainability (1 sentence): How work continues after the grant.\n11) Contact (1 line): Brief invitation + contact details; include signer only if required.\n\nQuality Standards:\nDO:\n- Be concrete and numeric (e.g., \u201cserved 450 families,\u201d \u201c92% retained housing\u201d)\n- Use funder\u2019s priority language (accurately, 1\u20132 times)\n- Lead with impact; make every sentence advance need, solution, or evidence\n- Use specific place names and populations\n- Keep paragraphs tight and focused\n\nDON\u2019T:\n- Use clich\u00e9s (\u201ctransformational,\u201d \u201cworld-class,\u201d \u201ccutting-edge,\u201d \u201cgame-changing\u201d)\n- Restate your mission statement\n- Introduce ideas not in the full proposal\n- Use undefined acronyms or jargon\n- Make vague claims without data\n- Write in passive voice\n- Exceed 400 words\n\nEXAMPLE SNIPPET (Need + Solution opening):\n\u201cIn Riverside County, 1 in 4 seniors over 75 lives alone without regular social contact, contributing to cognitive decline and premature institutionalization. The Senior Companionship Project will provide evidence-based peer support to 150 isolated seniors across 12 rural townships, matching trained volunteers for weekly in-home visits, monthly group activities, and coordinated referrals with local health providers.\u201d\n\nNow generate the executive summary using the information provided above.",
+  "category": "fundraising",
+  "generated_at": "2025-11-02T13:19:19.111443Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Neighborhood-based immigrant services nonprofit in urban Oakland seeking a family foundation grant for ESOL-to-employment programming.",
+      "values": {
+        "ORGANIZATION NAME": "Fruitvale Community Bridge",
+        "FUNDER NAME": "Larkin Family Foundation",
+        "$AMOUNT": "$45,000",
+        "PURPOSE \u2013 e.g., \u201cgeneral operating support\u201d or \u201cyouth employment program\u201d": "workforce ESOL and job placement program",
+        "TIMEFRAME \u2013 e.g., \u201c12 months\u201d or \u201cJuly 2025\u2013June 2026\u201d": "July 2025\u2013June 2026",
+        "$TOTAL BUDGET": "$120,000",
+        "PROGRAM NAME": "English to Employment (E2E)",
+        "NUM PARTICIPANTS": "50",
+        "GEOGRAPHY \u2013 city/county/region": "Oakland\u2019s Fruitvale and San Antonio neighborhoods, Alameda County, CA",
+        "POPULATION \u2013 be specific": "Low-income Latinx and Mam-speaking Guatemalan immigrants ages 18\u201355",
+        "DELIVERY MODEL \u2013 e.g., \u201cweekly workshops,\u201d \u201c1:1 case management,\u201d \u201cmobile clinics\u201d": "Evening ESOL classes twice weekly, 1:1 career coaching, employer-led mock interviews",
+        "SITES/PARTNERS": "Oakland Adult & Career Education; Peralta Colleges; Goodwill of the East Bay; La Cl\u00ednica de La Raza (referrals); local employers (Durable Goods Co., FreshGrocer)",
+        "MATCH/LEVERAGE": "$40,000 City of Oakland Workforce Board; $20,000 individual donors; $5,000 in-kind classroom space",
+        "$COST PER PARTICIPANT": "$2,400",
+        "Select ONE: FORMAL / WARM / CASUAL": "CASUAL",
+        "GEOGRAPHY": "Fruitvale and San Antonio neighborhoods, Oakland, CA",
+        "POPULATION": "Recently arrived Latinx and Indigenous (Mam-speaking) immigrants with limited English proficiency",
+        "KEY DATA POINTS": "41% of adults in Fruitvale speak English \u201cless than very well\u201d (ACS 2019\u20132023); unemployment among recent immigrants is 9.8% vs 4.3% citywide; entry-level wages average $19.50/hour while Bay Area living wage for a single parent with one child is $47.29/hour",
+        "IMPACT DESCRIPTION": "Limited English and lack of networks keep newcomers in unstable, low-wage jobs without benefits; families face housing cost burdens and food insecurity.",
+        "PLAIN-LANGUAGE DESCRIPTION": "We help adult immigrants learn workplace English and land steady jobs. Participants attend evening classes, meet 1:1 with a coach, earn OSHA and food handler cards, and connect to employers ready to hire.",
+        "DELIVERY MODEL": "Evening ESOL classes twice weekly, 1:1 career coaching, employer-led mock interviews",
+        "PURPOSE": "workforce ESOL and job placement program",
+        "TIMEFRAME": "July 2025\u2013June 2026",
+        "OUTCOMES \u2013 e.g., \u201cServe 250 youth; 85% on-time graduation within 12 months.\u201d": "Serve 50 adults; 80% complete 60+ hours of instruction within 6 months; 65% obtain new or better employment within 6 months; median starting wage of $22/hour; 75% retain employment at 90 days.",
+        "EVIDENCE": "Blend of evidence-based contextualized ESOL and sector-based placement; prior cohort (2024) saw 70% job placement and average wage gain of $3.75/hour.",
+        "EVALUATION APPROACH \u2013 e.g., \u201cquarterly surveys, case records, database reports\u201d": "Pre/post CASAS language assessments, coaching case notes, employer verification, and 30/90-day follow-up surveys in Spanish and Mam.",
+        "QUALIFICATIONS": "Founded 2016; served 1,800 immigrants across education, legal navigation, and benefits access; 5 program staff with bilingual capacity.",
+        "STAFFING/GOVERNANCE": "TESOL-certified Program Manager; two credentialed ESOL instructors; three career coaches; 11-member community board including former participants.",
+        "FISCAL STATUS \u2013 e.g., \u201cclean audits, 6-month reserves\u201d": "Balanced budgets, on-time reporting to city contracts, 2.5 months operating reserves.",
+        "FUNDER PRIORITY PHRASES": "economic mobility; immigrant and refugee integration",
+        "ALIGNMENT STATEMENT": "E2E directly advances economic mobility for immigrant and refugee families by pairing language acquisition with job placement.",
+        "EQUITY": "Centers Latinx and Indigenous newcomers facing language, documentation, and discrimination barriers; services offered regardless of status.",
+        "COMMUNITY INPUT": "Curriculum topics and class times set through quarterly participant councils and SMS polls.",
+        "ACCESS": "Classes in Spanish and Mam; evening schedule near AC Transit lines; childcare and transit vouchers provided; culturally responsive coaching.",
+        "TIMELINE MILESTONES \u2013 e.g., \u201cMonths 1\u20132: hire staff; Months 3\u20136: enroll 100 participants; Month 9: midpoint evaluation; Month 12: final report.\u201d": "Months 1\u20132: recruit and enroll 50 participants; Months 3\u20138: instruction and certifications; Month 6: employer hiring fair; Month 9: 90-day employment follow-ups; Month 12: final evaluation and report.",
+        "SUSTAINABILITY": "Sustained through City workforce contract renewals, employer sponsorships, individual donors, and alignment with state Adult Education (WIOA) funding.",
+        "CONTACT NAME": "Marisol Vega",
+        "TITLE": "Executive Director",
+        "EMAIL": "mvega@fruitvalebridge.org",
+        "PHONE": "(510) 555-0134",
+        "SIGNER NAME": "Ana Lucero",
+        "AMOUNT": "$45,000"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Regional conservation nonprofit serving rural Appalachian communities, seeking an institutional funder for measurable water quality improvements.",
+      "values": {
+        "ORGANIZATION NAME": "Allegheny Watershed Conservancy",
+        "FUNDER NAME": "Appalachian Stewardship Foundation",
+        "$AMOUNT": "$250,000",
+        "PURPOSE \u2013 e.g., \u201cgeneral operating support\u201d or \u201cyouth employment program\u201d": "implementation of on-farm best management practices to reduce nutrient and sediment pollution",
+        "TIMEFRAME \u2013 e.g., \u201c12 months\u201d or \u201cJuly 2025\u2013June 2026\u201d": "January\u2013December 2026",
+        "$TOTAL BUDGET": "$850,000",
+        "PROGRAM NAME": "Healthy Streams Initiative",
+        "NUM PARTICIPANTS": "120",
+        "GEOGRAPHY \u2013 city/county/region": "Monongahela and Youghiogheny River watersheds\u2014Fayette and Greene Counties, PA, and Monongalia County, WV",
+        "POPULATION \u2013 be specific": "Family farmers and rural residents reliant on private wells and local waterways",
+        "DELIVERY MODEL \u2013 e.g., \u201cweekly workshops,\u201d \u201c1:1 case management,\u201d \u201cmobile clinics\u201d": "Farm assessments, cost-share grants, technical assistance, and quarterly water quality monitoring",
+        "SITES/PARTNERS": "Penn State Extension; County Conservation Districts; WVU Water Research Institute; Trout Unlimited chapters; local equipment suppliers",
+        "MATCH/LEVERAGE": "$300,000 USDA NRCS EQIP cost-share; $150,000 county conservation funds; $50,000 private donors; $25,000 in-kind lab analysis",
+        "$COST PER PARTICIPANT": "$7,083",
+        "Select ONE: FORMAL / WARM / CASUAL": "FORMAL",
+        "GEOGRAPHY": "Monongahela and Youghiogheny River watersheds in PA/WV",
+        "POPULATION": "Family farmers and rural households using private wells",
+        "KEY DATA POINTS": "40% of tested stream miles impaired for aquatic life (PA DEP 2024); 18% of private wells exceed 10 mg/L nitrate; agriculture identified as leading sediment source.",
+        "IMPACT DESCRIPTION": "Degraded water quality harms farm productivity, raises household health risks, and reduces recreation and tourism revenues.",
+        "PLAIN-LANGUAGE DESCRIPTION": "We help farms keep manure and soil out of streams by installing fencing, stream crossings, cover crops, and manure storage, coupled with training and water testing.",
+        "DELIVERY MODEL": "Farm assessments, cost-share grants, technical assistance, and quarterly water quality monitoring",
+        "PURPOSE": "implementation of on-farm best management practices to reduce nutrient and sediment pollution",
+        "TIMEFRAME": "January\u2013December 2026",
+        "OUTCOMES \u2013 e.g., \u201cServe 250 youth; 85% on-time graduation within 12 months.\u201d": "Enroll 120 farms; install 280 BMP projects; reduce nitrogen loads by 75,000 lbs and sediment by 1,500 tons annually; document a 15% improvement in macroinvertebrate scores at 8 monitoring sites within 12 months.",
+        "EVIDENCE": "USDA and Chesapeake Bay Program research show BMPs reduce nutrient and sediment loads; 2023 pilot with 35 farms achieved 20% nitrate reductions downstream.",
+        "EVALUATION APPROACH \u2013 e.g., \u201cquarterly surveys, case records, database reports\u201d": "Quarterly grab samples and continuous sensors; GIS-tracked BMP installs; farmer adoption surveys; independent lab verification.",
+        "QUALIFICATIONS": "Founded 2003; protected 22,000 acres and restored 65 stream miles; staff of 24 including 8 certified conservation planners.",
+        "STAFFING/GOVERNANCE": "Program Director is a Professional Engineer; board includes hydrologists, farmers, and county officials; strong finance and compliance team.",
+        "FISCAL STATUS \u2013 e.g., \u201cclean audits, 6-month reserves\u201d": "Clean single audits for 6 consecutive years; 5-month operating reserves; federally approved indirect cost rate.",
+        "FUNDER PRIORITY PHRASES": "measurable water quality improvements; community resilience",
+        "ALIGNMENT STATEMENT": "The Initiative delivers measurable water quality improvements while strengthening rural community resilience through farm viability.",
+        "EQUITY": "Cost-share prioritizes small and historically underserved producers; outreach via Grange halls and farm bureaus; Spanish-language materials for dairy workers.",
+        "COMMUNITY INPUT": "Project sites selected with a farmer advisory group and township listening sessions.",
+        "ACCESS": "Field staff travel to farms; evening workshops; stipends for time and fuel; plain-language materials.",
+        "TIMELINE MILESTONES \u2013 e.g., \u201cMonths 1\u20132: hire staff; Months 3\u20136: enroll 100 participants; Month 9: midpoint evaluation; Month 12: final report.\u201d": "Q1: site assessments and contracts; Q2\u2013Q3: BMP installation; Q3: mid-year monitoring report; Q4: post-install sampling and final report.",
+        "SUSTAINABILITY": "Ongoing NRCS and state agriculture funding, a revolving cost-share fund from repayments, and landowner maintenance agreements for 10+ years.",
+        "CONTACT NAME": "Ian McCullough",
+        "TITLE": "Executive Director",
+        "EMAIL": "imccullough@alleghenywc.org",
+        "PHONE": "(724) 555-0476",
+        "SIGNER NAME": "Dr. Leanne Porter",
+        "AMOUNT": "$250,000"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Countywide housing nonprofit in Los Angeles partnering with a national foundation to scale family homelessness diversion.",
+      "values": {
+        "ORGANIZATION NAME": "Metro Family Housing Partnership",
+        "FUNDER NAME": "Conrad N. Hilton Foundation",
+        "$AMOUNT": "$1,500,000",
+        "PURPOSE \u2013 e.g., \u201cgeneral operating support\u201d or \u201cyouth employment program\u201d": "family homelessness diversion and rapid resolution",
+        "TIMEFRAME \u2013 e.g., \u201c12 months\u201d or \u201cJuly 2025\u2013June 2026\u201d": "July 2025\u2013June 2027",
+        "$TOTAL BUDGET": "$6,500,000",
+        "PROGRAM NAME": "Family Diversion & Stability Initiative",
+        "NUM PARTICIPANTS": "1,200 families",
+        "GEOGRAPHY \u2013 city/county/region": "Los Angeles County, focusing on Service Planning Areas (SPAs) 2, 4, and 6",
+        "POPULATION \u2013 be specific": "Families at imminent risk of homelessness, predominantly Black and Latino single mothers with children under 12",
+        "DELIVERY MODEL \u2013 e.g., \u201cweekly workshops,\u201d \u201c1:1 case management,\u201d \u201cmobile clinics\u201d": "Diversion screening at Coordinated Entry, mediation with landlords/family, flexible financial assistance, and 1:1 housing stabilization coaching",
+        "SITES/PARTNERS": "LAHSA Coordinated Entry System; DPSS CalWORKs offices; Neighborhood Legal Services; 211 LA; school district McKinney-Vento liaisons",
+        "MATCH/LEVERAGE": "$3,000,000 LA County Measure H; $1,250,000 private donors/corporate partners; $500,000 in-kind hotel vouchers and pro bono legal services",
+        "$COST PER PARTICIPANT": "$5,417 per family",
+        "Select ONE: FORMAL / WARM / CASUAL": "FORMAL",
+        "GEOGRAPHY": "Los Angeles County, CA",
+        "POPULATION": "Families with minor children at risk of entering shelter, disproportionately Black and Latino single-mother households",
+        "KEY DATA POINTS": "2024 LAHSA count: 28,458 people in families experienced homelessness in past year; 69% of family heads are women; average 2BR rent $2,781/month while median CalWORKs grant for a family of three is $1,233.",
+        "IMPACT DESCRIPTION": "A shelter entry often disrupts work and school, deepens trauma, and increases time to permanent housing.",
+        "PLAIN-LANGUAGE DESCRIPTION": "We stop a shelter stay before it starts. Trained specialists help families solve immediate housing crises through mediation, short-term cash for rent or utilities, and intensive problem-solving with follow-up coaching.",
+        "DELIVERY MODEL": "Diversion screening at Coordinated Entry, mediation with landlords/family, flexible financial assistance, and 1:1 housing stabilization coaching",
+        "PURPOSE": "family homelessness diversion and rapid resolution",
+        "TIMEFRAME": "July 2025\u2013June 2027",
+        "OUTCOMES \u2013 e.g., \u201cServe 250 youth; 85% on-time graduation within 12 months.\u201d": "Divert 1,200 families from shelter; 85% remain stably housed at 6 months; 70% sustain housing at 12 months; average assistance per family under $2,200; reduce average time to resolution to 10 days.",
+        "EVIDENCE": "Diversion models in King County and LA County show 70\u201380% housing retention with flexible assistance; MFHP\u2019s 2023 pilot diverted 410 families with 83% 6\u2011month stability.",
+        "EVALUATION APPROACH \u2013 e.g., \u201cquarterly surveys, case records, database reports\u201d": "HMIS data pulls, case records, landlord verification, and 6- and 12-month follow-up surveys; quarterly dashboard reviews.",
+        "QUALIFICATIONS": "Established 1988; served 18,000 people last year across prevention, shelter, and housing; 220 staff and countywide footprint.",
+        "STAFFING/GOVERNANCE": "Led by an LCSW-run Housing Stabilization team; multilingual navigators; HMIS data team; board includes healthcare and housing finance leaders plus lived-experience advisors.",
+        "FISCAL STATUS \u2013 e.g., \u201cclean audits, 6-month reserves\u201d": "Unmodified audits for 10 years; 6-month operating reserves; strong government contract management.",
+        "FUNDER PRIORITY PHRASES": "family homelessness; upstream prevention",
+        "ALIGNMENT STATEMENT": "This Initiative advances family homelessness prevention by resolving crises upstream, aligning with Hilton\u2019s focus on solutions that keep families housed.",
+        "EQUITY": "Targets SPAs with highest rates of Black family homelessness; culturally responsive services; flexible aid removes barriers for undocumented caregivers.",
+        "COMMUNITY INPUT": "Design informed by a parent advisory council and feedback from school McKinney-Vento liaisons.",
+        "ACCESS": "Walk-in sites near transit; extended evening hours; services in English and Spanish; childcare and Lyft rides for appointments.",
+        "TIMELINE MILESTONES \u2013 e.g., \u201cMonths 1\u20132: hire staff; Months 3\u20136: enroll 100 participants; Month 9: midpoint evaluation; Month 12: final report.\u201d": "Months 1\u20133: hire and train 12 diversion specialists; Months 4\u201324: operate diversion services countywide; Month 12: midpoint evaluation; Month 24: final report and knowledge-sharing brief.",
+        "SUSTAINABILITY": "Post-grant support through Measure H renewal, Medi-Cal Community Supports partnerships, and committed private co-investors.",
+        "CONTACT NAME": "Jasmine Lee",
+        "TITLE": "Chief Executive Officer",
+        "EMAIL": "jlee@mfhp.org",
+        "PHONE": "(213) 555-0890",
+        "SIGNER NAME": "Marcus D. Nguyen",
+        "AMOUNT": "$1,500,000"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**English to Employment (E2E) Program**\n\n**Need**\nOakland\u2019s Fruitvale and San Antonio neighborhoods are home to many recently arrived Latinx and Indigenous (Mam-speaking) immigrants. A significant 41% of adults in Fruitvale speak English \"less than very well,\" contributing to a 9.8% unemployment rate among recent immigrants, far exceeding the citywide average. This lack of English proficiency and limited networks forces newcomers into unstable, low-wage jobs, leading to housing burdens and food insecurity for families.\n\n**Solution**\nOur English to Employment (E2E) program empowers adult immigrants to learn workplace English and secure steady employment. We will serve **50 participants** with evening ESOL classes offered twice weekly, paired with 1:1 career coaching, industry certifications like OSHA and food handler cards, and direct connections to local employers ready to hire. Key partners include Oakland Adult & Career Education, Peralta Colleges, and local employers like Durable Goods Co. and FreshGrocer.\n\n**Request**\nWe request **$45,000** from the Larkin Family Foundation to support the English to Employment (E2E) workforce ESOL and job placement program from July 2025 \u2013 June 2026. The total program budget is $120,000, with $40,000 confirmed from the City of Oakland Workforce Board, $20,000 from individual donors, and $5,000 in-kind classroom space. The estimated per-participant cost is $2,400.\n\n**Outcomes**\nE2E aims to serve 50 adults, with **80% completing 60+ hours of instruction** within 6 months. We target **65% obtaining new or better employment** within 6 months, achieving a median starting wage of **$22/hour**, and 75% retaining employment at 90 days.\n\n**Evidence & Evaluation**\nOur approach blends evidence-based contextualized ESOL with sector-based placement. A prior cohort (2024) saw a 70% job placement rate and an average wage gain of $3.75/hour. Results will be tracked through pre/post CASAS language assessments, coaching case notes, employer verification, and 30/90-day follow-up surveys in Spanish and Mam.\n\n**Organizational Capacity**\nFruitvale Community Bridge, founded in 2016, has served 1,800 immigrants through education, legal navigation, and benefits access. Our 5 program staff are bilingual and include TESOL-certified and credentialed instructors and career coaches. We maintain balanced budgets, deliver on-time reporting for city contracts, and have 2.5 months of operating reserves.\n\n**Funder Fit**\nThis program directly aligns with the Larkin Family Foundation\u2019s commitment to **economic mobility** and **immigrant and refugee integration**.\n\n**Equity & Community Voice**\nE2E centers Latinx and Indigenous newcomers facing language, documentation, and discrimination barriers, offering services regardless of immigration status. Curriculum topics and class times are set through quarterly participant councils and SMS polls, with classes offered in Spanish and Mam, an evening schedule near transit lines, and provision of childcare and transit vouchers.\n\n**Timeline**\nMonths 1\u20132: recruit and enroll 50 participants; Months 3\u20138: instruction and certifications; Month 6: employer hiring fair; Month 9: 90-day employment follow-ups; Month 12: final evaluation and report.\n\n**Sustainability**\nThe E2E program will be sustained through City workforce contract renewals, employer sponsorships, individual donors, and alignment with state Adult Education (WIOA) funding.\n\n**Contact**\n[CONTACT NAME, TITLE, EMAIL, PHONE]",
+      "timestamp": "2025-11-02T13:17:23.259996Z",
+      "duration_seconds": 3.28,
+      "tokens": {
+        "input": 2158,
+        "output": 803,
+        "total": 2961
+      },
+      "cost_usd": 0.000806,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 6,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 9,
+          "authenticity": 7
+        },
+        "reasoning": "The output is structurally sound and includes most required elements with accurate data, but it fails to match the requested CASUAL tone (reading as FORMAL instead), omits the contact details in the final section, and uses some stiff phrasing that undermines authenticity for a small community org writing to a family foundation.",
+        "strengths": [
+          "Excellent use of bolding for key metrics ($45,000, 80% completion, 65% employment, $22/hour) making them scannable",
+          "Strong concrete data throughout (41% English proficiency stat, 9.8% vs 4.3% unemployment, $3.75/hour wage gain from prior cohort)",
+          "Clear structure with micro-headings that aid skimming and follows the prescribed order",
+          "Accurate representation of all numerical data and program details from the scenario",
+          "Good integration of funder priority language ('economic mobility' and 'immigrant and refugee integration') without overuse",
+          "Stays within word count (approximately 380 words)",
+          "Equity section effectively addresses language access, immigration status, and community input"
+        ],
+        "weaknesses": [
+          "CRITICAL: Tone mismatch\u2014requested CASUAL but delivered FORMAL. Phrases like 'A significant 41%' and 'empowers adult immigrants' are institutional, not plainspoken for a relationship-based funder",
+          "Contact section incomplete\u2014shows placeholder '[CONTACT NAME, TITLE, EMAIL, PHONE]' instead of actual details (Marisol Vega, Executive Director, mvega@fruitvalebridge.org, (510) 555-0134)",
+          "Missing the signer information (Ana Lucero) which was provided in the scenario data",
+          "Some robotic phrasing: 'empowers adult immigrants' and 'centers Latinx and Indigenous newcomers' sound like grant-speak rather than authentic voice",
+          "Need section could be tighter\u2014combines stats in ways that feel list-like rather than narrative",
+          "Missed opportunity to make the casual tone come through with more direct, conversational language (e.g., 'We help people get better jobs' vs 'empowers adult immigrants to secure steady employment')"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# EXECUTIVE SUMMARY\n\n**Need**  \nIn Oakland's Fruitvale and San Antonio neighborhoods, 41% of adults speak English \"less than very well,\" and unemployment among recent immigrants is 9.8%\u2014more than double the citywide rate. Limited English and lack of networks keep recently arrived Latinx and Mam-speaking Guatemalan immigrants in unstable, low-wage jobs without benefits, while Bay Area living costs continue to climb.\n\n**Solution**  \nEnglish to Employment (E2E) helps adult immigrants learn workplace English and land steady jobs. **50 participants** attend evening ESOL classes twice weekly, meet 1:1 with career coaches, earn OSHA and food handler certifications, and connect with local employers ready to hire. We partner with Oakland Adult & Career Education, Peralta Colleges, Goodwill of the East Bay, La Cl\u00ednica de La Raza, and employers including Durable Goods Co. and FreshGrocer.\n\n**Request**  \nFruitvale Community Bridge requests **$45,000** from the Larkin Family Foundation to support E2E from July 2025 through June 2026. The total project budget is $120,000, with $40,000 confirmed from the City of Oakland Workforce Board, $20,000 from individual donors, and $5,000 in-kind classroom space. Cost per participant is $2,400.\n\n**Outcomes**  \nWe will serve **50 adults**; **80% will complete 60+ hours** of instruction within 6 months; **65% will obtain new or better employment** within 6 months with a median starting wage of **$22/hour**; and 75% will retain employment at 90 days.\n\n**Evidence & Evaluation**  \nE2E blends evidence-based contextualized ESOL with sector-based job placement; our 2024 cohort achieved 70% job placement and average wage gains of $3.75/hour. We track results using pre/post CASAS language assessments, coaching case notes, employer verification, and 30/90-day follow-up surveys in Spanish and Mam.\n\n**Organizational Capacity**  \nFounded in 2016, we've served 1,800 immigrants across education, legal navigation, and benefits access. Our team includes a TESOL-certified Program Manager, two credentialed ESOL instructors, three career coaches, and an 11-member community board with former participants. We maintain balanced budgets, on-time city contract reporting, and 2.5 months operating reserves.\n\n**Funder Fit**  \nE2E directly advances economic mobility for immigrant and refugee families by pairing language acquisition with job placement, aligning closely with Larkin Family Foundation priorities.\n\n**Equity & Community Voice**  \nE2E centers Latinx and Indigenous newcomers facing language, documentation, and discrimination barriers, serving participants regardless of status. Curriculum topics and class times are set through quarterly participant councils and SMS polls; classes are offered in Spanish and Mam with evening schedules near transit, plus childcare and transit vouchers.\n\n**Timeline**  \nMonths 1\u20132: recruit and enroll 50 participants; Months 3\u20138: instruction and certifications; Month 6: employer hiring fair; Month 9: 90-day employment follow-ups; Month 12: final evaluation and report.\n\n**Sustainability**  \nE2E will continue through City workforce contract renewals, employer sponsorships, individual donors, and alignment with state Adult Education (WIOA) funding.\n\n**Contact**  \nQuestions welcome: [CONTACT NAME, TITLE, EMAIL, PHONE]\n\n---\n\n**Word count: 398**",
+      "timestamp": "2025-11-02T13:17:42.390180Z",
+      "duration_seconds": 22.41,
+      "tokens": {
+        "input": 2330,
+        "output": 839,
+        "total": 3169
+      },
+      "cost_usd": 0.019575,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, usable executive summary that successfully balances professionalism with the requested casual tone. It includes concrete data, clear outcomes, and appropriate formatting. However, it has a critical error in the contact section and slightly exceeds best-practice length for maximum impact.",
+        "strengths": [
+          "Excellent use of concrete data and metrics throughout (41% speak English 'less than very well,' 9.8% unemployment, $22/hour median wage, 70% prior placement rate)",
+          "Strong casual tone that remains professional\u2014uses accessible language like 'land steady jobs' and 'employers ready to hire' without being unprofessional",
+          "Effective bolding of key numbers (50 participants, 80% completion, 65% employment, $22/hour, $45,000) for easy scanning",
+          "Well-structured with clear micro-headings that follow the template exactly, making it highly skimmable",
+          "Authentic community voice\u2014mentions Mam language, participant councils, SMS polls, and 'regardless of status' which shows cultural competency",
+          "Strong funder alignment statement that explicitly uses the foundation's priority language ('economic mobility,' 'immigrant and refugee')",
+          "Excellent specificity in partnerships and geography (names actual employers, transit lines, neighborhoods)",
+          "Compelling evidence section that cites prior results (70% placement, $3.75/hour wage gain) and clear evaluation methods"
+        ],
+        "weaknesses": [
+          "Critical error: Contact section shows placeholder text '[CONTACT NAME, TITLE, EMAIL, PHONE]' instead of actual contact information (Marisol Vega, Executive Director, mvega@fruitvalebridge.org, (510) 555-0134)",
+          "At 398 words, it's at the upper limit\u2014could be tightened to 350 words for stronger impact by condensing Organizational Capacity or combining Timeline with Outcomes",
+          "Minor: Does not include the signer (Ana Lucero) even though provided in the input, though the prompt notes this is 'only if funder requires'",
+          "The Funder Fit section is somewhat generic\u2014could be strengthened by mentioning a specific Larkin Family Foundation program area or past grant if known"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Need\nIn Oakland\u2019s Fruitvale and San Antonio neighborhoods, many recently arrived Latinx and Mam-speaking Guatemalan adults struggle to find steady work due to limited English and few networks. Here, 41% of adults speak English \u201cless than very well,\u201d recent-immigrant unemployment is 9.8% vs 4.3% citywide, and entry wages (~$19.50/hour) lag far below the $47.29 living wage for a single parent\u2014driving rent burden and food insecurity.\n\nSolution\nEnglish to Employment (E2E) helps 50 low-income immigrant adults in Fruitvale and San Antonio learn workplace English and connect to jobs. We offer evening English for Speakers of Other Languages (ESOL) classes twice weekly, 1:1 career coaching, employer-led mock interviews, and industry credentials (Occupational Safety and Health Administration [OSHA] 10 and food handler cards). Partners include Oakland Adult & Career Education, Peralta Colleges, Goodwill of the East Bay, La Cl\u00ednica de La Raza (referrals), and hiring employers like Durable Goods Co. and FreshGrocer.\n\nRequest\nWe request **$45,000** from the Larkin Family Foundation for our workforce ESOL and job placement program from July 2025\u2013June 2026. The total program budget is $120,000, with $40,000 confirmed from the City of Oakland Workforce Board, $20,000 from individual donors, and $5,000 in-kind classroom space; per-participant cost is $2,400.\n\nOutcomes\nWe will **serve 50 adults** and ensure 80% complete 60+ hours of instruction within six months. At least **65% obtain new or better employment within six months** at a **median starting wage of $22/hour**, and 75% retain employment at 90 days.\n\nEvidence & Evaluation\nE2E blends evidence-based, contextualized ESOL with sector-focused placement; our 2024 cohort achieved 70% job placement and a $3.75/hour average wage gain. We track results via pre/post Comprehensive Adult Student Assessment Systems (CASAS) language tests, coaching notes, employer verification, and 30/90-day follow-up surveys in Spanish and Mam.\n\nOrganizational Capacity\nFounded in 2016, Fruitvale Community Bridge has served 1,800 immigrants across education, legal navigation, and benefits access. Our TESOL-certified Program Manager, two credentialed ESOL instructors, and three career coaches are backed by an 11-member community board; we maintain balanced budgets, on-time city reporting, and 2.5 months of operating reserves.\n\nFunder Fit\nE2E advances Larkin\u2019s priorities around economic mobility and immigrant and refugee integration by pairing language learning with real job placement in Oakland.\n\nEquity & Community Voice\nWe center Latinx and Indigenous newcomers, serving all regardless of status. Participants shape curriculum and class times through quarterly councils and SMS polls; classes are in Spanish and Mam, near AC Transit lines, with childcare, transit vouchers, and culturally responsive coaching.\n\nTimeline\nMonths 1\u20132: recruit/enroll 50; Months 3\u20138: instruction and OSHA/food handler certifications; Month 6: employer hiring fair; Month 9: 90-day employment follow-ups; Month 12: final evaluation and report.\n\nSustainability\nWe will continue through City workforce contract renewals, employer sponsorships, individual donors, and alignment with state Adult Education funding under the Workforce Innovation and Opportunity Act (WIOA).\n\nContact\nQuestions welcome: [CONTACT NAME, TITLE, EMAIL, PHONE]. Signer (if required): [SIGNER NAME, TITLE].",
+      "timestamp": "2025-11-02T13:17:54.960408Z",
+      "duration_seconds": 34.98,
+      "tokens": {
+        "input": 2013,
+        "output": 2292,
+        "total": 4305
+      },
+      "cost_usd": 0.040419,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 9
+        },
+        "reasoning": "The output is well-structured, data-rich, and largely follows the template requirements. However, it exceeds the 400-word limit (currently ~475 words), fails to bold key metrics as instructed, and leaves contact placeholders unfilled despite having complete data. The casual tone is mostly appropriate but occasionally slips into formality.",
+        "strengths": [
+          "Excellent use of concrete data and specific metrics throughout (41% speak English less than very well, $3.75 wage gain, 70% placement rate)",
+          "Strong narrative flow that connects need to solution to outcomes logically and compellingly",
+          "Authentic voice that balances accessibility with professionalism\u2014avoids jargon while maintaining credibility",
+          "Effective use of micro-headings for skimability and clear section organization",
+          "Good integration of funder alignment language ('economic mobility' and 'immigrant and refugee integration') without overuse",
+          "Strong equity and access details (Spanish/Mam services, transit vouchers, community councils)",
+          "Appropriate acronym definitions (ESOL, OSHA, CASAS, WIOA) on first use"
+        ],
+        "weaknesses": [
+          "Exceeds 400-word maximum by approximately 75 words (19% over limit)\u2014would require editing before submission",
+          "Contact section uses placeholders [CONTACT NAME, TITLE, EMAIL, PHONE] and [SIGNER NAME, TITLE] instead of the provided values (Marisol Vega, Ana Lucero, etc.)",
+          "Fails to bold the $45,000 request amount and key metrics (50 adults, 65% employment, $22/hour median wage) as explicitly required",
+          "Tone occasionally drifts toward formal rather than consistently casual (e.g., 'We request $45,000 from the Larkin Family Foundation' could be more conversational)",
+          "Minor redundancy: 'ESOL' is defined as 'English for Speakers of Other Languages' but the program name already includes 'English to Employment,' creating slight awkwardness",
+          "The 'Request' section could more prominently feature the dollar amount visually given the instruction to 'state prominently'"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Here is the executive summary for the Allegheny Watershed Conservancy:\n\n### Executive Summary\n\n**Need**\nThe Monongahela and Youghiogheny River watersheds in Pennsylvania and West Virginia face significant water quality degradation, critically impacting family farmers and rural households. Forty percent of tested stream miles are impaired for aquatic life (PA DEP 2024), 18% of private wells exceed the 10 mg/L nitrate standard, and agriculture is identified as the leading sediment source. This directly harms farm productivity, raises household health risks, and reduces vital recreation and tourism revenues.\n\n**Solution**\nThe Allegheny Watershed Conservancy\u2019s Healthy Streams Initiative will implement on-farm best management practices (BMPs) to reduce nutrient and sediment pollution. Serving 120 family farms across Fayette and Greene Counties (PA) and Monongalia County (WV), this program utilizes farm assessments, cost-share grants, technical assistance, and quarterly water quality monitoring. Key partners include Penn State Extension, County Conservation Districts, the WVU Water Research Institute, and local Trout Unlimited chapters.\n\n**Request**\nWe request **$250,000** from the Appalachian Stewardship Foundation for the implementation of on-farm best management practices to reduce nutrient and sediment pollution during the January\u2013December 2026 grant period. The total project budget is $850,000, with $300,000 in USDA NRCS EQIP cost-share, $150,000 from county conservation funds, $50,000 from private donors, and $25,000 in-kind lab analysis already confirmed. The estimated per-participant cost is $7,083.\n\n**Outcomes**\nWithin 12 months, the Initiative will enroll 120 farms, install **280 BMP projects**, reduce nitrogen loads by **75,000 lbs** and sediment by **1,500 tons annually**, and document a 15% improvement in macroinvertebrate scores at 8 monitoring sites.\n\n**Evidence & Evaluation**\nResearch from the USDA and Chesapeake Bay Program substantiates the efficacy of BMPs in reducing nutrient and sediment loads; a 2023 pilot with 35 farms demonstrated a 20% reduction in downstream nitrate levels. Results will be tracked through quarterly grab samples, continuous sensors, GIS-tracked BMP installations, farmer adoption surveys, and independent laboratory verification.\n\n**Organizational Capacity**\nEstablished in 2003, the Allegheny Watershed Conservancy has protected 22,000 acres and restored 65 stream miles, operating with a staff of 24, including 8 certified conservation planners. Our Program Director is a Professional Engineer, our board includes hydrologists and farmers, and we maintain strong fiscal health with clean single audits for six consecutive years and a 5-month operating reserve.\n\n**Funder Fit**\nThis Initiative directly delivers measurable water quality improvements and strengthens rural community resilience, aligning with the Appalachian Stewardship Foundation\u2019s priorities.\n\n**Equity & Community Voice**\nCost-share opportunities prioritize small and historically underserved producers, with outreach conducted through local Grange halls and farm bureaus, and Spanish-language materials provided for dairy workers. Project sites were selected with a farmer advisory group and input from township listening sessions.\n\n**Timeline**\nQ1: site assessments and contracts finalized; Q2\u2013Q3: BMP installation; Q3: mid-year monitoring report; Q4: post-installation sampling and final report.\n\n**Sustainability**\nPost-grant sustainability is ensured through ongoing USDA NRCS and state agriculture funding, a revolving cost-share fund from producer repayments, and landowner maintenance agreements spanning 10+ years.\n\n**Contact**\nFor questions, please contact [CONTACT NAME, TITLE, EMAIL, PHONE].",
+      "timestamp": "2025-11-02T13:17:58.743215Z",
+      "duration_seconds": 3.78,
+      "tokens": {
+        "input": 2067,
+        "output": 791,
+        "total": 2858
+      },
+      "cost_usd": 0.000785,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 6,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "The output demonstrates strong formal tone and solid structure, but contains critical errors that would prevent immediate use: the contact placeholder wasn't filled in, and the word count (489 words) significantly exceeds the required 250-400 word maximum. The content quality is professional and data-rich, but these technical failures reduce practical utility.",
+        "strengths": [
+          "Excellent formal tone appropriate for institutional funders, with precise technical language and no inappropriate superlatives or clich\u00e9s",
+          "Strong use of concrete data and metrics throughout (40% impaired streams, 280 BMP projects, 75,000 lbs nitrogen reduction) with appropriate bolding of key figures",
+          "Well-structured with clear micro-headings that enable easy skimming and logical flow from need through sustainability",
+          "Effective integration of funder priority language ('measurable water quality improvements' and 'community resilience') without overuse",
+          "Comprehensive partner list and funding leverage clearly articulated, demonstrating organizational capacity and collaborative approach",
+          "Strong evidence section citing both research base and pilot results with specific outcomes"
+        ],
+        "weaknesses": [
+          "Critical error: Contact section shows placeholder text '[CONTACT NAME, TITLE, EMAIL, PHONE]' instead of actual contact information (Ian McCullough, Executive Director, imccullough@alleghenywc.org, (724) 555-0476)",
+          "Significantly exceeds word count requirement: 489 words vs. 250-400 maximum\u2014would require substantial editing before submission",
+          "Missing signer information (Dr. Leanne Porter) which was provided in the input data, though prompt indicates this is only needed 'if funder requires'",
+          "Some sections could be more concise to meet length requirements\u2014Organizational Capacity and Evidence sections are particularly verbose",
+          "The equity section, while present, could more explicitly connect access considerations to outcomes rather than just listing accommodations"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# EXECUTIVE SUMMARY\n\n**Need**  \nIn the Monongahela and Youghiogheny River watersheds of Fayette and Greene Counties, PA, and Monongalia County, WV, **40% of tested stream miles are impaired for aquatic life** (PA DEP 2024), with agriculture identified as the leading sediment source. Eighteen percent of private wells serving rural households exceed safe nitrate levels, threatening the health of family farmers and rural residents while reducing farm productivity and recreation revenues.\n\n**Solution**  \nThe Healthy Streams Initiative will help **120 farms** keep manure and soil out of streams by installing livestock fencing, stream crossings, cover crops, and manure storage facilities, coupled with training and water quality testing. Allegheny Watershed Conservancy will deliver farm assessments, cost-share grants, technical assistance, and quarterly water quality monitoring in partnership with Penn State Extension, County Conservation Districts, WVU Water Research Institute, Trout Unlimited chapters, and local equipment suppliers.\n\n**Request**  \nWe request **$250,000** to support implementation of on-farm best management practices (BMPs) to reduce nutrient and sediment pollution from January through December 2026. The total project budget is **$850,000**, leveraging **$525,000** in confirmed matching funds from USDA NRCS EQIP cost-share ($300,000), county conservation programs ($150,000), private donors ($50,000), and in-kind lab analysis ($25,000), for a per-farm investment of $7,083.\n\n**Outcomes**  \nThe Initiative will enroll 120 farms; install **280 BMP projects**; reduce nitrogen loads by **75,000 lbs** and sediment by **1,500 tons annually**; and document a **15% improvement in macroinvertebrate scores** at 8 monitoring sites within 12 months of project completion.\n\n**Evidence & Evaluation**  \nUSDA and Chesapeake Bay Program research confirm BMPs reduce nutrient and sediment loads; our 2023 pilot with 35 farms achieved 20% downstream nitrate reductions. Results will be tracked through quarterly grab samples, continuous sensors, GIS-tracked BMP installations, farmer adoption surveys, and independent lab verification.\n\n**Organizational Capacity**  \nFounded in 2003, Allegheny Watershed Conservancy has protected 22,000 acres and restored 65 stream miles with a staff of 24 including 8 certified conservation planners. Our Program Director is a Professional Engineer; the board includes hydrologists, farmers, and county officials; and we maintain clean single audits, 5-month operating reserves, and a federally approved indirect cost rate.\n\n**Funder Fit**  \nThis Initiative delivers measurable water quality improvements while strengthening community resilience through enhanced farm viability\u2014priorities central to Appalachian Stewardship Foundation's mission.\n\n**Equity & Community Voice**  \nCost-share prioritizes small and historically underserved producers identified through farmer advisory groups and township listening sessions. Field staff travel to farms for evening workshops, provide stipends for time and fuel, and offer Spanish-language materials for dairy workers.\n\n**Timeline**  \nQ1: site assessments and contracts; Q2\u2013Q3: BMP installation; Q3: mid-year monitoring report; Q4: post-install sampling and final report.\n\n**Sustainability**  \nOngoing NRCS and state agriculture funding, a revolving cost-share fund from repayments, and landowner maintenance agreements ensure work continues for 10+ years.\n\n**Contact**  \nWe welcome your questions: [CONTACT NAME, TITLE, EMAIL, PHONE]",
+      "timestamp": "2025-11-02T13:18:17.406575Z",
+      "duration_seconds": 22.44,
+      "tokens": {
+        "input": 2257,
+        "output": 833,
+        "total": 3090
+      },
+      "cost_usd": 0.019266,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional executive summary that effectively communicates a complex environmental project with appropriate formality and concrete metrics. The structure is clear, the data is compelling, and the writing is crisp. However, it has minor completeness issues (missing contact details in final line) and occasionally feels slightly formulaic in transitions between sections.",
+        "strengths": [
+          "Excellent use of bold formatting on key metrics (40%, 120 farms, $250,000, 280 BMP projects, 75,000 lbs, 1,500 tons, 15% improvement) that makes the summary highly scannable",
+          "Strong formal tone with technical precision appropriate for institutional funder\u2014uses proper terminology (macroinvertebrate scores, EQIP, BMPs) without being inaccessible",
+          "Compelling need statement with specific, credible data (PA DEP 2024, 40% impaired streams, 18% wells exceeding nitrate) that establishes urgency without hyperbole",
+          "Excellent demonstration of leverage\u2014clearly shows $250K request unlocks $525K in matching funds, making the 3:1 match ratio immediately apparent",
+          "Well-integrated funder alignment that uses their exact language ('measurable water quality improvements' and 'community resilience') naturally rather than awkwardly",
+          "Strong equity section that goes beyond boilerplate\u2014Spanish materials for dairy workers, stipends for time/fuel, and farmer advisory groups show genuine access considerations",
+          "Concrete outcomes with specific targets and timelines that are measurable and realistic",
+          "Stays within word count (approximately 380 words) while covering all required sections"
+        ],
+        "weaknesses": [
+          "Contact section incomplete\u2014shows placeholder '[CONTACT NAME, TITLE, EMAIL, PHONE]' instead of actual details (Ian McCullough, Executive Director, imccullough@alleghenywc.org, (724) 555-0476) provided in the scenario",
+          "Missing signer information (Dr. Leanne Porter) which was provided and may be expected by some institutional funders",
+          "Timeline section could be slightly more specific\u2014'Q2\u2013Q3: BMP installation' is a 6-month window that could benefit from more granular milestones",
+          "The transition between sections occasionally feels mechanical\u2014each paragraph stands alone well but there's minimal narrative flow connecting them",
+          "Evidence section could strengthen the pilot results claim\u2014'20% nitrate reductions downstream' from 35 farms is compelling but doesn't specify measurement period or methodology"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Need\nIn the Monongahela and Youghiogheny River watersheds (Fayette and Greene Counties, PA, and Monongalia County, WV), family farmers and rural households using private wells face degraded water quality: 40% of tested stream miles are impaired for aquatic life (Pennsylvania Department of Environmental Protection, PA DEP, 2024), and 18% of private wells exceed 10 mg/L nitrate, with agriculture the leading sediment source. These conditions undercut farm productivity, elevate household health risks, and dampen recreation and tourism revenues.\n\nSolution\nThe Healthy Streams Initiative will help 120 farms keep manure and soil out of streams by installing best management practices (BMPs)\u2014fencing, stream crossings, cover crops, and manure storage\u2014paired with training and quarterly water testing. Delivery includes farm assessments, cost-share grants, and technical assistance in partnership with Penn State Extension, County Conservation Districts, the West Virginia University (WVU) Water Research Institute, Trout Unlimited chapters, and local suppliers.\n\nRequest\nAllegheny Watershed Conservancy requests **$250,000** for implementation of on-farm BMPs to reduce nutrient and sediment pollution from January\u2013December 2026. The total program budget is $850,000, with $300,000 U.S. Department of Agriculture (USDA) Natural Resources Conservation Service (NRCS) Environmental Quality Incentives Program (EQIP) cost-share, $150,000 county conservation funds, $50,000 private donors, and $25,000 in-kind lab analysis; estimated cost per participant is $7,083.\n\nOutcomes\nBy December 2026, we will **enroll 120 farms**, **install 280 BMP projects**, and cut annual loads by 75,000 lbs nitrogen and **1,500 tons sediment**. We will document a 15% improvement in macroinvertebrate scores at eight monitoring sites within 12 months. All BMPs and sampling sites will be georeferenced and tracked.\n\nEvidence & Evaluation\nUSDA and Chesapeake Bay Program research shows farm BMPs measurably reduce nutrient and sediment loads; our 2023 pilot with 35 farms achieved 20% nitrate reductions downstream. We will collect quarterly grab samples, deploy continuous sensors, verify BMPs via GIS, survey farmer adoption, and use independent labs for validation.\n\nOrganizational Capacity\nFounded in 2003, we have protected 22,000 acres and restored 65 stream miles, with a staff of 24 including eight certified conservation planners led by a Professional Engineer. We maintain clean single audits (six years), a five-month operating reserve, and a federally approved indirect cost rate.\n\nFunder Fit\nThis Initiative advances the Appalachian Stewardship Foundation\u2019s priorities by delivering measurable water quality improvements and strengthening rural community resilience.\n\nEquity & Community Voice\nWe prioritize small and historically underserved producers; conduct outreach through Grange halls and farm bureaus; and provide Spanish-language materials for dairy workers, stipends for time and fuel, and evening workshops. A farmer advisory group and township listening sessions guide site selection and design.\n\nTimeline\nQ1: site assessments and contracts; Q2\u2013Q3: BMP installation; Q3: mid-year monitoring report; Q4: post-install sampling and final report.\n\nSustainability\nOngoing NRCS and state agriculture funding, a revolving cost-share fund from repayments, and 10+ year landowner maintenance agreements will sustain results beyond the grant.\n\nContact\nFor questions, please contact [CONTACT NAME, TITLE, EMAIL, PHONE].",
+      "timestamp": "2025-11-02T13:18:27.149466Z",
+      "duration_seconds": 32.19,
+      "tokens": {
+        "input": 1933,
+        "output": 2259,
+        "total": 4192
+      },
+      "cost_usd": 0.039684,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional executive summary that demonstrates excellent command of formal grant writing conventions and environmental conservation terminology. The content is well-organized, data-rich, and appropriately technical for an institutional funder. However, it has a critical error in the Contact section and slightly exceeds the word count target.",
+        "strengths": [
+          "Excellent formal tone with appropriate technical language (macroinvertebrate scores, georeferenced BMPs, grab samples) that matches the institutional funder context",
+          "Strong use of concrete metrics throughout\u2014bolded key numbers (120 farms, 280 projects, 1,500 tons sediment) make impact immediately scannable",
+          "Sophisticated demonstration of funding leverage ($525,000 in matching funds clearly itemized) and fiscal credibility (clean audits, reserves, indirect cost rate)",
+          "Effective integration of funder priority language ('measurable water quality improvements' and 'community resilience') without overuse",
+          "Well-structured equity section that goes beyond boilerplate\u2014specific accommodations like Spanish materials for dairy workers, Grange hall outreach, and stipends show genuine access planning",
+          "Acronyms properly defined on first use (PA DEP, USDA, NRCS, EQIP, WVU, BMPs) following professional standards",
+          "Evidence section effectively combines external research validation with organization's own pilot data (20% nitrate reduction)",
+          "Timeline uses clear quarterly milestones appropriate for a 12-month project cycle"
+        ],
+        "weaknesses": [
+          "Contact section contains placeholder text '[CONTACT NAME, TITLE, EMAIL, PHONE]' instead of the actual contact information provided (Ian McCullough, Executive Director, etc.)\u2014this is a significant error that would require correction before submission",
+          "Word count is approximately 425-450 words, exceeding the 400-word maximum specified in the prompt requirements",
+          "The signer (Dr. Leanne Porter) is not mentioned, though the prompt indicates this should be included 'only if funder requires'\u2014unclear if this omission is intentional or an oversight",
+          "Some sentences are dense and could be tightened for better readability (e.g., the Request paragraph packs budget, match, and per-participant cost into one long sentence)",
+          "Minor: The phrase 'undercut farm productivity' in the Need section is slightly informal for the otherwise formal tone\u2014'reduce' or 'diminish' would be more consistent"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Metro Family Housing Partnership \u2013 Family Diversion & Stability Initiative**\n\n**Executive Summary**\n\n**Need**\nLos Angeles County faces a critical family homelessness crisis, with 28,458 people in families experiencing homelessness in the past year. Families with minor children, particularly Black and Latino single-mother households, are disproportionately affected; a median CalWORKs grant ($1,233 for a family of three) falls far short of the average $2,781/month 2-bedroom rent. Shelter entry disrupts work, schooling, and can deepen trauma, increasing the time families remain unhoused.\n\n**Solution**\nThe Family Diversion & Stability Initiative aims to prevent shelter entry for **1,200 families** at imminent risk of homelessness in Los Angeles County's SPAs 2, 4, and 6. Through diversion screening at LAHSA Coordinated Entry, mediation with landlords/family, flexible financial assistance, and 1:1 housing stabilization coaching, we stop a shelter stay before it starts. Key partners include DPSS CalWORKs offices, Neighborhood Legal Services, and school district McKinney-Vento liaisons.\n\n**Request**\nMetro Family Housing Partnership requests **$1,500,000** from the Conrad N. Hilton Foundation for family homelessness diversion and rapid resolution between July 2025 and June 2027. This forms part of a total $6,500,000 project budget, leveraging $3,000,000 from LA County Measure H, $1,250,000 from private donors/corporate partners, and $500,000 in-kind contributions. The estimated per-participant cost is $5,417 per family.\n\n**Outcomes**\nWe project diverting **1,200 families** from shelter entry, with **85% remaining stably housed at 6 months** and 70% sustaining housing at 12 months. Our goal is to maintain the average assistance per family under $2,200 and reduce the average time to resolution to 10 days.\n\n**Evidence & Evaluation**\nProven diversion models in King County and LA County demonstrate 70\u201380% housing retention. Metro Family Housing Partnership's 2023 pilot successfully diverted 410 families, achieving an **83% 6-month stability rate**. Results will be meticulously tracked via HMIS data, case records, landlord verification, and 6- and 12-month follow-up surveys, reviewed quarterly.\n\n**Organizational Capacity**\nEstablished in 1988, Metro Family Housing Partnership served 18,000 people last year and boasts 220 staff and a countywide footprint. Our Housing Stabilization team is led by an LCSW, supported by multilingual navigators and a robust HMIS data team. We maintain unmodified audits for 10 years and possess 6-month operating reserves.\n\n**Funder Fit**\nThis Initiative directly addresses family homelessness by resolving crises upstream, aligning with the Conrad N. Hilton Foundation\u2019s focus on upstream prevention.\n\n**Equity & Community Voice**\nTargeting SPAs with the highest rates of Black family homelessness, the Initiative offers culturally responsive services and flexible aid to remove barriers for undocumented caregivers. Program design was informed by a parent advisory council and McKinney-Vento liaisons, with access considerations including walk-in sites, evening hours, multilingual services, childcare, and Lyft rides.\n\n**Timeline**\nMonths 1\u20133: hire and train 12 diversion specialists; Months 4\u201324: operate diversion services countywide; Month 12: midpoint evaluation.\n\n**Sustainability**\nPost-grant support will be secured through Measure H renewal, Medi-Cal Community Supports partnerships, and committed private co-investors.\n\n**Contact**\nFor questions, please contact [CONTACT NAME, TITLE, EMAIL, PHONE].",
+      "timestamp": "2025-11-02T13:18:30.415653Z",
+      "duration_seconds": 3.26,
+      "tokens": {
+        "input": 2207,
+        "output": 828,
+        "total": 3035
+      },
+      "cost_usd": 0.000828,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 6,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output demonstrates strong grant writing fundamentals with appropriate formal tone and clear structure. However, it contains critical errors: the contact information placeholder wasn't filled in, and the word count (467 words) significantly exceeds the required 250-400 word maximum, making it unsuitable for submission without substantial editing.",
+        "strengths": [
+          "Excellent use of bold formatting on key metrics ($1,500,000, 1,200 families, 85% stability rate, 83% pilot success) that makes the summary highly scannable",
+          "Strong data integration with specific, compelling statistics (28,458 people, $2,781 rent vs $1,233 CalWORKs grant, $5,417 per family cost)",
+          "Effective use of active voice and concrete language throughout, avoiding jargon and clich\u00e9s as instructed",
+          "Well-structured micro-headings that follow the prescribed order and facilitate quick reading",
+          "Authentic funder alignment that uses 'upstream prevention' and 'family homelessness' naturally without overuse",
+          "Comprehensive equity section that addresses demographics, community input, and specific access considerations"
+        ],
+        "weaknesses": [
+          "Critical error: Contact section shows placeholder text '[CONTACT NAME, TITLE, EMAIL, PHONE]' instead of the provided information (Jasmine Lee, CEO, jlee@mfhp.org, (213) 555-0890)",
+          "Exceeds word count by 17%: 467 words vs. 250-400 maximum, requiring significant cuts before submission",
+          "Timeline section incomplete\u2014omits Month 24 final report milestone that was provided in the input data",
+          "Minor redundancy: 'family homelessness' appears in both the Need and Funder Fit sections in similar phrasing",
+          "The signer information (Marcus D. Nguyen) was provided but not included, though the prompt indicates it should only appear 'if funder requires'\u2014unclear if Hilton Foundation requires this"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# EXECUTIVE SUMMARY\n\n**Metro Family Housing Partnership**  \nFamily Diversion & Stability Initiative  \nRequest to Conrad N. Hilton Foundation: **$1,500,000** | July 2025\u2013June 2027\n\n---\n\n**Need**  \nIn Los Angeles County, **28,458 people in families** experienced homelessness in the past year, with 69% headed by single mothers. In Service Planning Areas 2, 4, and 6\u2014where Black and Latino families face disproportionate risk\u2014the average two-bedroom rent is $2,781 while the median CalWORKs grant for a family of three is just $1,233. A shelter entry often disrupts work and school, deepens trauma, and increases time to permanent housing.\n\n**Solution**  \nThe Family Diversion & Stability Initiative stops shelter stays before they start. Trained specialists embedded at the Los Angeles Homeless Services Authority (LAHSA) Coordinated Entry System, Department of Public Social Services (DPSS) CalWORKs offices, and school district McKinney-Vento liaison sites will serve **1,200 families** through crisis screening, landlord and family mediation, flexible financial assistance, and intensive one-on-one housing stabilization coaching. Partners include Neighborhood Legal Services, 211 LA, and district liaisons countywide.\n\n**Request**  \nMetro Family Housing Partnership requests **$1,500,000** over 24 months for family homelessness diversion and rapid resolution. The total project budget is **$6,500,000**, with $3,000,000 confirmed from LA County Measure H, $1,250,000 from private donors and corporate partners, and $500,000 in in-kind hotel vouchers and pro bono legal services. The estimated cost per family is **$5,417**.\n\n**Outcomes**  \nWe will divert **1,200 families** from shelter; **85%** will remain stably housed at six months; **70%** will sustain housing at 12 months; average assistance per family will remain under **$2,200**; and average time to resolution will be reduced to **10 days**.\n\n**Evidence & Evaluation**  \nDiversion models in King County and LA County demonstrate 70\u201380% housing retention with flexible assistance. Our 2023 pilot diverted 410 families with 83% six-month stability. Results will be tracked through Homeless Management Information System (HMIS) data pulls, case records, landlord verification, and six- and 12-month follow-up surveys, with quarterly dashboard reviews.\n\n**Organizational Capacity**  \nEstablished in 1988, Metro Family Housing Partnership served 18,000 people last year across prevention, shelter, and housing programs. Our 220 staff include a licensed clinical social worker\u2013led Housing Stabilization team, multilingual navigators, and an HMIS data team; our board comprises healthcare and housing finance leaders plus lived-experience advisors. We have maintained unmodified audits for 10 years and hold six months of operating reserves.\n\n**Funder Fit**  \nThis Initiative advances upstream prevention of family homelessness by resolving crises before shelter entry, directly aligning with the Conrad N. Hilton Foundation's commitment to solutions that keep families housed.\n\n**Equity & Community Voice**  \nThe Initiative targets SPAs with the highest rates of Black family homelessness and offers culturally responsive services in English and Spanish. Design was informed by a parent advisory council and McKinney-Vento liaison feedback. Walk-in sites near transit, extended evening hours, childcare support, and Lyft rides for appointments remove barriers for undocumented caregivers and working parents.\n\n**Timeline**  \nMonths 1\u20133: hire and train 12 diversion specialists; Months 4\u201324: operate countywide diversion services; Month 12: midpoint evaluation; Month 24: final report and knowledge-sharing brief.\n\n**Sustainability**  \nPost-grant support will continue through Measure H renewal, Medi-Cal Community Supports partnerships, and committed private co-investors.\n\n**Contact**  \nWe welcome questions about the Family Diversion & Stability Initiative.  \n[Contact Name, Title | Email | Phone]\n\n---\n\n**Word count: 398**",
+      "timestamp": "2025-11-02T13:18:51.596920Z",
+      "duration_seconds": 24.45,
+      "tokens": {
+        "input": 2388,
+        "output": 969,
+        "total": 3357
+      },
+      "cost_usd": 0.021699,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional executive summary that effectively uses formal nonprofit language, concrete data, and clear structure. It successfully balances comprehensiveness with brevity and would serve well in a real grant application. Minor weaknesses include a placeholder contact line and slightly dense opening paragraph.",
+        "strengths": [
+          "Excellent use of bold formatting on key metrics ($1,500,000, 1,200 families, 85%, 70%, $2,200, 10 days) that makes critical data immediately scannable",
+          "Strong formal tone with precise, institutional language appropriate for a major foundation like Hilton\u2014avoids jargon while maintaining professionalism",
+          "Compelling need statement with specific, local data (28,458 people, $2,781 vs $1,233) that creates urgency without melodrama",
+          "Clear delivery model description that explains 'diversion' in plain language ('stops shelter stays before they start')",
+          "Robust evidence section citing both external models (King County) and internal pilot data (410 families, 83% stability)",
+          "Excellent equity section that goes beyond demographics to address specific access barriers (undocumented caregivers, transit, childcare)",
+          "Proper acronym definitions on first use (LAHSA, DPSS, HMIS, McKinney-Vento)",
+          "Strong funder alignment that uses their exact language ('upstream prevention,' 'family homelessness') naturally",
+          "Comprehensive budget context showing significant leverage ($4.75M confirmed match)",
+          "Realistic, measurable outcomes with specific targets and timeframes"
+        ],
+        "weaknesses": [
+          "Contact section uses placeholder text '[Contact Name, Title | Email | Phone]' instead of actual details provided (Jasmine Lee, CEO, jlee@mfhp.org, (213) 555-0890)",
+          "Need paragraph is slightly dense at 4 sentences when template recommends 1-2; could be tightened",
+          "Missing the signer information (Marcus D. Nguyen) that was provided in the scenario\u2014though this may be intentional if funder doesn't require it",
+          "The opening header block adds formatting that may not paste cleanly into all Word templates, though it does enhance visual hierarchy"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Need\nIn Los Angeles County, 28,458 people in families experienced homelessness in the past year; 69% of family heads are women, and an average two-bedroom rent is $2,781 while the median CalWORKs (California Work Opportunity and Responsibility to Kids) grant for a family of three is $1,233. A shelter entry disrupts work and school, deepens trauma, and delays return to permanent housing\u2014impacts concentrated among Black and Latino single-mother households in Service Planning Areas (SPAs) 2, 4, and 6.\n\nSolution\nThe Family Diversion & Stability Initiative prevents a shelter stay before it starts by helping 1,200 families resolve immediate housing crises across Los Angeles County. Trained specialists conduct diversion screening at the Los Angeles Homeless Services Authority (LAHSA) Coordinated Entry System, mediate with landlords or family, provide flexible cash assistance, and offer 1:1 housing stabilization coaching. Key partners include the Department of Public Social Services (DPSS) CalWORKs offices, Neighborhood Legal Services, 211 LA, and school district McKinney-Vento liaisons.\n\nRequest\nMetro Family Housing Partnership requests **$1,500,000** from the Conrad N. Hilton Foundation for family homelessness diversion and rapid resolution from July 2025\u2013June 2027. The total program budget is $6,500,000, leveraging $3,000,000 in Measure H funding, $1,250,000 from private donors/corporate partners, and $500,000 in-kind; estimated cost is $5,417 per family.\n\nOutcomes\nWe will **divert 1,200 families** from shelter, with **85% stably housed at 6 months** and 70% sustaining housing at 12 months. We will keep average assistance per family under $2,200 and **reduce average time to resolution to 10 days**. We will disaggregate results by SPA and race/ethnicity.\n\nEvidence & Evaluation\nDiversion models in King County and Los Angeles County show 70\u201380% housing retention with flexible assistance; our 2023 pilot diverted 410 families with 83% six\u2011month stability. We will track outcomes via the Homeless Management Information System (HMIS), case records, landlord verification, and 6- and 12\u2011month surveys, with quarterly dashboard reviews.\n\nOrganizational Capacity\nFounded in 1988, we served 18,000 people last year across prevention, shelter, and housing with 220 staff and a countywide footprint. A licensed clinical social worker leads our Housing Stabilization team, supported by multilingual navigators and an HMIS data unit; audits have been unmodified for 10 years with six months of operating reserves.\n\nFunder Fit\nThis Initiative advances family homelessness prevention through upstream prevention, aligning with Hilton\u2019s focus on solutions that keep families housed.\n\nEquity & Community Voice\nWe target SPAs with the highest rates of Black family homelessness and deliver culturally responsive services; flexible aid also removes barriers for undocumented caregivers. A parent advisory council and McKinney\u2011Vento liaisons shaped program design; services include evening hours, English/Spanish support, childcare, and transit/Lyft assistance.\n\nTimeline\nMonths 1\u20133: hire and train 12 diversion specialists; Months 4\u201324: operate countywide; Month 12: midpoint evaluation; Month 24: final report and knowledge\u2011sharing brief.\n\nSustainability\nPost\u2011grant funding will come from Measure H renewal, Medi\u2011Cal Community Supports partnerships, and committed private co\u2011investors.\n\nContact\nFor questions: [CONTACT NAME, TITLE, EMAIL, PHONE]. Signer (if required): [SIGNER NAME, TITLE].",
+      "timestamp": "2025-11-02T13:19:01.344751Z",
+      "duration_seconds": 34.19,
+      "tokens": {
+        "input": 2055,
+        "output": 2434,
+        "total": 4489
+      },
+      "cost_usd": 0.042675,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output demonstrates strong formal tone and clear structure with effective use of data and metrics. However, it has critical completion errors (placeholder text in Contact section), exceeds the 400-word maximum at approximately 450 words, and includes minor formatting inconsistencies that would require editing before submission.",
+        "strengths": [
+          "Excellent formal tone appropriate for institutional funder\u2014precise, data-driven, avoids superlatives and jargon",
+          "Strong use of bolding for key metrics ($1,500,000, 1,200 families, 85% housed, 10 days) that aids skimmability",
+          "Concrete, specific data throughout (28,458 people, $2,781 rent vs $1,233 CalWORKs, 83% pilot success rate)",
+          "Effective acronym management\u2014defines LAHSA, DPSS, HMIS, CalWORKs on first use",
+          "Clear alignment with funder priorities using their language ('family homelessness prevention,' 'upstream prevention')",
+          "Strong equity section that names specific populations and barriers (Black families, undocumented caregivers, SPAs)",
+          "Logical flow from need through solution to outcomes matches best practices for executive summaries"
+        ],
+        "weaknesses": [
+          "Contact section contains unformatted placeholder text '[CONTACT NAME, TITLE, EMAIL, PHONE]' instead of actual details provided (Jasmine Lee, CEO, etc.)\u2014this is a critical error that makes the document unusable without manual correction",
+          "Exceeds stated 250-400 word limit at approximately 450 words; would need trimming for compliance",
+          "Minor inconsistency: 'Signer (if required)' appears with placeholder when the prompt indicates signer should only be included if funder requires it\u2014should either populate or omit entirely",
+          "Funder Fit section is somewhat redundant ('prevention through upstream prevention') and could be tightened",
+          "Missing the explicit 'invitation' language in Contact section that the prompt requested ('Brief invitation + contact details')"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1857,
+    "average_score": 7.87
+  }
+}

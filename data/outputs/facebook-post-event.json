@@ -1,0 +1,553 @@
+{
+  "prompt_id": "facebook-post-event",
+  "prompt_text": "Create a Facebook post announcing an event for [ORGANIZATION NAME].\n\nBEFORE YOU START\nHave this information ready.\n\nRequired:\n- [EVENT NAME]\n- [DATE]\n- [TIME]\n- [LOCATION or VIRTUAL LINK]\n- [COST or FREE]\n- [TARGET AUDIENCE] (who it\u2019s for)\n- [BENEFIT/OUTCOME] (what they\u2019ll gain)\n- [REGISTRATION LINK or FACEBOOK EVENT URL]\n- [TONE: FORMAL / WARM / CASUAL] (choose one)\n\nOptional (include only if applicable):\n- [SPEAKERS/HIGHLIGHTS or KEY TOPICS]\n- [ACCESSIBILITY FEATURES]\n- [CHILDCARE]\n- [LANGUAGE INTERPRETATION]\n- [PARKING/TRANSIT]\n- [COVID/SAFETY]\n- [DEADLINE / LIMITED SEATS / EARLY-BIRD ENDS DATE]\n- [PARTNERS TO TAG] and/or [VENUE TO TAG]\n- [SPOKESPERSON NAME/TITLE] (if you want a sign-off\u2014otherwise write \u201cnone\u201d)\n- [CONTACT EMAIL/PHONE]\n- [UTM = Yes/No] and, if Yes, paste [UTM PARAMETERS] to append to the link\n\nQUICK-FILL WORKSHEET (copy, fill, and paste below)\n[ORGANIZATION NAME]:\n[EVENT NAME]:\n[DATE]:\n[TIME]:\n[LOCATION or VIRTUAL LINK]:\n[COST]:\n[TARGET AUDIENCE]:\n[BENEFIT/OUTCOME]:\n[SPEAKERS/HIGHLIGHTS]:\n[ACCESSIBILITY FEATURES]:\n[CHILDCARE]:\n[LANGUAGE INTERPRETATION]:\n[PARKING/TRANSIT]:\n[COVID/SAFETY]:\n[REGISTRATION LINK or FACEBOOK EVENT URL]:\n[UTM = Yes/No]:\n[UTM PARAMETERS if Yes]:\n[DEADLINE / LIMITED SEATS / EARLY-BIRD ENDS]:\n[PARTNERS TO TAG]:\n[VENUE TO TAG]:\n[TONE: FORMAL / WARM / CASUAL]:\n[SPOKESPERSON NAME/TITLE or \u201cnone\u201d]:\n[CONTACT EMAIL/PHONE]:\n\nPOST REQUIREMENTS\n\nLength & format:\n- 100\u2013150 words (caption)\n- Mobile-first: Put What/When/Where/Cost in the first 2 lines, before \u201cSee more\u201d\n- Short, scannable sentences and line breaks\n\nContent structure (in this order):\n1) Hook (Line 1): Lead with benefit or urgency (not \u201cJoin us for\u2026\u201d).\n2) Essential details (Lines 1\u20132, visible before \u201cSee more\u201d):\n   - [EVENT NAME] | [DATE] | [TIME] | [LOCATION or VIRTUAL LINK] | [COST]\n3) Why it matters (1 sentence): Who it\u2019s for + key benefit.\n4) Brief description (1\u20132 sentences): [SPEAKERS/HIGHLIGHTS or KEY TOPICS]. Add only relevant logistics: [ACCESSIBILITY], [CHILDCARE], [LANGUAGE INTERPRETATION], [PARKING/TRANSIT], [COVID/SAFETY].\n5) Clear CTA: Strong verb + [REGISTRATION LINK or FACEBOOK EVENT URL]. If [UTM = Yes], append [UTM PARAMETERS]. Prompt readers to tap \u201cInterested\u201d or \u201cGoing.\u201d\n6) Ethical urgency (only if true): [DEADLINE / LIMITED SEATS / EARLY-BIRD ENDS DATE].\n\nFormatting:\n- Emojis: 0\u20132 max (use only if they add clarity/warmth)\n- Hashtags: 1\u20133 relevant, at the end\n- Tags: Include [PARTNERS TO TAG] and [VENUE TO TAG] if provided\n- Avoid: Jargon, unexplained acronyms, clich\u00e9s, excessive exclamation points\n\nTone:\n- Choose [FORMAL], [WARM] (default), or [CASUAL] and keep it consistent\n\nVoice & sign-off:\n- Use organizational voice. No signature unless [SPOKESPERSON NAME/TITLE] is provided.\n\nALSO PROVIDE\n\n1) Image suggestion:\n- One easy-to-capture concept for a small team (pick one that fits the event), e.g.:\n  - Photo of past attendees engaging with a speaker\n  - Speaker headshot with a short quote overlay\n  - Simple text graphic with event name/date/time/location\n  - Relevant action shot at the venue or program site\n- Include 20\u201330 word alt-text for accessibility.\n\n2) Pinned first comment (30\u201350 words):\n- Add helpful logistics (agenda, parking/transit, what to bring) and a contact for questions: [CONTACT EMAIL/PHONE].\n\n3) A/B test variation:\n- Provide a second caption with a different opening hook only. Keep all other details identical so you can isolate hook performance.\n\nOUTPUT FORMAT (return in this order)\n- Caption Version A (100\u2013150 words)\n- Caption Version B (different hook; 100\u2013150 words)\n- Image suggestion (1\u20132 sentences)\n- Alt-text (20\u201330 words)\n- Pinned first comment (30\u201350 words)\n- Posting tips (3\u20135 bullets)\n\nQUALITY CHECKLIST (the AI should)\n- Put What/When/Where/Cost in lines 1\u20132 (before \u201cSee more\u201d)\n- Use short, human sentences with clear CTA and honest urgency\n- Keep emojis \u22642 and hashtags 1\u20133, relevant only\n- Tag partners/venue when provided\n- Avoid walls of text, jargon, and clich\u00e9s\n\nPOSTING TIPS (include in output)\n- Post 6\u20139am or 12\u20132pm local; adjust using your Facebook Insights for when your audience is most active\n- Cross-post from the Facebook Event page and tag venue/partners to expand reach\n- Monitor and reply to comments in the first hour to boost distribution\n\nEXAMPLE INPUT\n[ORGANIZATION NAME]: Riverside Food Bank\n[EVENT NAME]: Community Nutrition Workshop\n[DATE]: Saturday, March 15\n[TIME]: 10am\u201312pm\n[LOCATION]: Riverside Community Center, 123 Main St\n[COST]: Free\n[TARGET AUDIENCE]: Parents and caregivers\n[BENEFIT/OUTCOME]: Learn to prepare healthy meals on a budget\n[SPEAKERS/HIGHLIGHTS]: Registered dietitian Maria Santos, cooking demo, free recipe booklet\n[ACCESSIBILITY FEATURES]: ASL interpretation available\n[REGISTRATION LINK or FACEBOOK EVENT URL]: www.riversidefoodbank.org/workshop\n[UTM = Yes/No]: No\n[DEADLINE / LIMITED SEATS / EARLY-BIRD ENDS]: Limited to 30 participants\n[PARTNERS TO TAG]: Riverside Community Center\n[VENUE TO TAG]: Riverside Community Center\n[TONE]: WARM\n[SPOKESPERSON NAME/TITLE]: none\n[CONTACT EMAIL/PHONE]: workshops@riversidefoodbank.org or 555-0123\n\nHOW TO USE THIS PROMPT\n1) Copy this entire prompt.\n2) Replace everything in [BRACKETS] with your info. If something doesn\u2019t apply, write \u201cnone\u201d or delete that item.\n3) If [UTM = Yes], paste your [UTM PARAMETERS]; if No, the AI should use a clean link.\n4) Choose one [TONE] and delete the others.\n5) Paste into your AI tool and generate.\n\nNEED A SIMPLER VERSION?\nQuick Start:\nCreate a 100\u2013150 word Facebook post for [ORGANIZATION] announcing [EVENT NAME] on [DATE] at [TIME] at [LOCATION or VIRTUAL LINK]. Cost: [FREE/PRICE]. Audience: [TARGET AUDIENCE]. Benefit: [BENEFIT/OUTCOME]. Include a strong CTA to register at [LINK]. Use a warm tone and put What/When/Where/Cost in the first two lines.",
+  "category": "communications",
+  "generated_at": "2025-11-02T13:20:15.570801Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Rural, volunteer-led health and safety nonprofit serving well-dependent households across Pine County.",
+      "values": {
+        "ORGANIZATION NAME": "Pine Ridge Community Collective",
+        "EVENT NAME": "Well Water Testing Day",
+        "DATE": "Saturday, April 12, 2025",
+        "TIME": "9:00am\u201312:00pm",
+        "LOCATION or VIRTUAL LINK": "Pine Ridge Grange Hall, 48 County Rd B, Pine Ridge, WI",
+        "COST or FREE": "Free for Pine County residents",
+        "TARGET AUDIENCE": "Rural households using private wells in Pine County",
+        "BENEFIT/OUTCOME": "Free screening for common contaminants and guidance on next steps to keep your family\u2019s drinking water safe.",
+        "REGISTRATION LINK or FACEBOOK EVENT URL": "https://pineridgecc.org/wellwater",
+        "TONE: FORMAL / WARM / CASUAL": "WARM",
+        "SPEAKERS/HIGHLIGHTS or KEY TOPICS": "On-site nitrate/arsenic screening; county Extension agent Q&A; free test kits for first 50 households.",
+        "ACCESSIBILITY FEATURES": "Ramp entrance, accessible restrooms, seating available; request accommodations 72 hours in advance.",
+        "CHILDCARE": "Kids welcome; coloring and activity table available.",
+        "LANGUAGE INTERPRETATION": "Spanish interpretation available upon request.",
+        "PARKING/TRANSIT": "Free gravel lot onsite; overflow at Pine Ridge Elementary (0.2 mi walk).",
+        "COVID/SAFETY": "Masks optional; curbside sample drop-off available.",
+        "DEADLINE / LIMITED SEATS / EARLY-BIRD ENDS DATE": "First 50 households receive free kits; bring a 16oz water sample in a clean jar.",
+        "PARTNERS TO TAG": "@UWExtensionPineCounty @PineRidgeHealthDept",
+        "VENUE TO TAG": "@PineRidgeGrange",
+        "SPOKESPERSON NAME/TITLE": "none",
+        "CONTACT EMAIL/PHONE": "info@pineridgecc.org, 715-555-0109",
+        "UTM = Yes/No": "No",
+        "UTM PARAMETERS": "none",
+        "COST": "Free",
+        "SPEAKERS/HIGHLIGHTS": "On-site nitrate/arsenic screening; Extension agent Q&A; free test kits (first 50).",
+        "UTM PARAMETERS if Yes": "none",
+        "DEADLINE / LIMITED SEATS / EARLY-BIRD ENDS": "Free kits limited to first 50 households; while supplies last.",
+        "SPOKESPERSON NAME/TITLE or \u201cnone\u201d": "none",
+        "ACCESSIBILITY": "Ramp entrance; accessible restrooms; seating available.",
+        "UTM = Yes": "No",
+        "FORMAL": "No",
+        "WARM": "Yes",
+        "CASUAL": "No",
+        "LOCATION": "Pine Ridge Grange Hall, 48 County Rd B, Pine Ridge, WI",
+        "TONE": "WARM",
+        "BRACKETS": "removed",
+        "ORGANIZATION": "Pine Ridge Community Collective",
+        "FREE/PRICE": "Free",
+        "LINK": "https://pineridgecc.org/wellwater"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Regional professional association offering training for conservation nonprofits across the Midwest; primarily virtual programs.",
+      "values": {
+        "ORGANIZATION NAME": "Midwest Conservation Educators Association",
+        "EVENT NAME": "Grant Writing for Small Land Trusts",
+        "DATE": "Wednesday, February 12, 2025",
+        "TIME": "1:00\u20132:30pm CT",
+        "LOCATION or VIRTUAL LINK": "Zoom (online)",
+        "COST or FREE": "$25 members / $45 nonmembers",
+        "TARGET AUDIENCE": "Staff and board members of small land trusts and conservation nonprofits",
+        "BENEFIT/OUTCOME": "Learn to craft competitive proposals with strong outcomes and realistic budgets tailored to conservation work.",
+        "REGISTRATION LINK or FACEBOOK EVENT URL": "https://mcea.org/events/grant-writing-webinar",
+        "TONE: FORMAL / WARM / CASUAL": "FORMAL",
+        "SPEAKERS/HIGHLIGHTS or KEY TOPICS": "Dana Liu, Program Officer at Prairie Horizons Foundation; live budget review; sample narratives and scoring tips.",
+        "ACCESSIBILITY FEATURES": "Live auto-captions; slide deck sent 24 hours in advance; recording available to registrants.",
+        "CHILDCARE": "none",
+        "LANGUAGE INTERPRETATION": "none",
+        "PARKING/TRANSIT": "N/A (virtual)",
+        "COVID/SAFETY": "N/A (virtual)",
+        "DEADLINE / LIMITED SEATS / EARLY-BIRD ENDS DATE": "Early-bird pricing ends January 31; capacity 200.",
+        "PARTNERS TO TAG": "@PrairieHorizonsFoundation",
+        "VENUE TO TAG": "none",
+        "SPOKESPERSON NAME/TITLE": "Jenna Park, Program Director",
+        "CONTACT EMAIL/PHONE": "training@mcea.org, 312-555-0198",
+        "UTM = Yes/No": "Yes",
+        "UTM PARAMETERS": "?utm_source=facebook&utm_medium=social&utm_campaign=grant_writing_webinar_feb25",
+        "COST": "$25 (members) / $45 (nonmembers)",
+        "SPEAKERS/HIGHLIGHTS": "Dana Liu (Prairie Horizons Foundation); live budget review; sample narratives.",
+        "UTM PARAMETERS if Yes": "?utm_source=facebook&utm_medium=social&utm_campaign=grant_writing_webinar_feb25",
+        "DEADLINE / LIMITED SEATS / EARLY-BIRD ENDS": "Early-bird ends Jan 31; capacity 200.",
+        "SPOKESPERSON NAME/TITLE or \u201cnone\u201d": "Jenna Park, Program Director",
+        "ACCESSIBILITY": "Live auto-captions; slides shared in advance; recording available.",
+        "UTM = Yes": "Yes",
+        "FORMAL": "Yes",
+        "WARM": "No",
+        "CASUAL": "No",
+        "LOCATION": "Zoom",
+        "TONE": "FORMAL",
+        "BRACKETS": "removed",
+        "ORGANIZATION": "Midwest Conservation Educators Association",
+        "FREE/PRICE": "$25 members / $45 nonmembers",
+        "LINK": "https://mcea.org/events/grant-writing-webinar?utm_source=facebook&utm_medium=social&utm_campaign=grant_writing_webinar_feb25"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Urban, citywide arts nonprofit with major institutional partners and broad family audience.",
+      "values": {
+        "ORGANIZATION NAME": "Harbor City Arts Council",
+        "EVENT NAME": "Family Day at the Grand Museum",
+        "DATE": "Sunday, May 4, 2025",
+        "TIME": "10:00am\u20132:00pm",
+        "LOCATION or VIRTUAL LINK": "Grand Museum of Art, 455 Museum Way, Harbor City",
+        "COST or FREE": "Free with RSVP",
+        "TARGET AUDIENCE": "Families with children ages 3\u201312; museum members and general public",
+        "BENEFIT/OUTCOME": "Hands-on art-making, performances, and free admission that spark creativity and connection.",
+        "REGISTRATION LINK or FACEBOOK EVENT URL": "https://harborcityarts.org/familyday",
+        "TONE: FORMAL / WARM / CASUAL": "WARM",
+        "SPEAKERS/HIGHLIGHTS or KEY TOPICS": "Studio stations; youth dance performance at 11:30am; gallery scavenger hunt; first 200 kids receive art kits.",
+        "ACCESSIBILITY FEATURES": "Elevator access; quiet/sensory-friendly hour 10\u201311am; large-print guides available.",
+        "CHILDCARE": "Caregivers must remain with children (no drop-off).",
+        "LANGUAGE INTERPRETATION": "Spanish and Mandarin volunteers at welcome desk.",
+        "PARKING/TRANSIT": "Garage parking validated up to 2 hours; near Metro Line A, Museum Way stop.",
+        "COVID/SAFETY": "Please stay home if you\u2019re ill; hand sanitizer available throughout.",
+        "DEADLINE / LIMITED SEATS / EARLY-BIRD ENDS DATE": "RSVP required; art kits limited to first 200 kids.",
+        "PARTNERS TO TAG": "@HarborCityTransit @GrandMuseumOfArt",
+        "VENUE TO TAG": "@GrandMuseumOfArt",
+        "SPOKESPERSON NAME/TITLE": "Alicia Moreno, Director of Community Programs",
+        "CONTACT EMAIL/PHONE": "events@harborcityarts.org, 415-555-2278",
+        "UTM = Yes/No": "No",
+        "UTM PARAMETERS": "none",
+        "COST": "Free with RSVP",
+        "SPEAKERS/HIGHLIGHTS": "Hands-on studio stations; youth dance at 11:30am; scavenger hunt; art kits for first 200 kids.",
+        "UTM PARAMETERS if Yes": "none",
+        "DEADLINE / LIMITED SEATS / EARLY-BIRD ENDS": "Art kits limited to first 200 kids; RSVP recommended.",
+        "SPOKESPERSON NAME/TITLE or \u201cnone\u201d": "Alicia Moreno, Director of Community Programs",
+        "ACCESSIBILITY": "Elevator access; sensory-friendly hour; large-print guides.",
+        "UTM = Yes": "No",
+        "FORMAL": "No",
+        "WARM": "Yes",
+        "CASUAL": "No",
+        "LOCATION": "Grand Museum of Art, 455 Museum Way, Harbor City",
+        "TONE": "WARM",
+        "BRACKETS": "removed",
+        "ORGANIZATION": "Harbor City Arts Council",
+        "FREE/PRICE": "Free with RSVP",
+        "LINK": "https://harborcityarts.org/familyday"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Caption Version A**\n\nEnsure your family's drinking water is safe! Join us for **Well Water Testing Day | Saturday, April 12, 2025 | 9:00am\u201312:00pm | Pine Ridge Grange Hall, 48 County Rd B, Pine Ridge, WI | Free.** This event is for rural households using private wells in Pine County, offering free screening for common contaminants and guidance on next steps.\n\nWe'll have on-site nitrate/arsenic screening and a county Extension agent available for Q&A. Free test kits are available for the first 50 households. The venue has a ramp entrance, accessible restrooms, and seating. Kids are welcome with a coloring and activity table. Spanish interpretation is available upon request. Parking is available in our free gravel lot, with overflow at Pine Ridge Elementary (0.2 mi walk). Masks are optional, and curbside sample drop-off is available.\n\nLearn more and find sample collection instructions at https://pineridgecc.org/wellwater. Tap \"Interested\" or \"Going\" to stay updated!\n\nFree kits are limited to the first 50 households, while supplies last. Don't forget to bring a 16oz water sample in a clean jar!\n\n@UWExtensionPineCounty @PineRidgeHealthDept @PineRidgeGrange\n#WellWaterTesting #PineCounty #CommunitySafety\n\n**Caption Version B**\n\nWondering about your well water quality? Get answers at our **Well Water Testing Day | Saturday, April 12, 2025 | 9:00am\u201312:00pm | Pine Ridge Grange Hall, 48 County Rd B, Pine Ridge, WI | Free.** This event is for rural households using private wells in Pine County, offering free screening for common contaminants and guidance on next steps to keep your family\u2019s drinking water safe.\n\nWe\u2019ll offer on-site nitrate/arsenic screening and a county Extension agent for your questions. The first 50 households will also receive free test kits. For your comfort, we have a ramp entrance, accessible restrooms, and seating. Kids can enjoy a coloring and activity table. Spanish interpretation is available upon request. Parking options include a free gravel lot onsite and overflow at Pine Ridge Elementary (0.2 mi walk). Masks are optional, and curbside sample drop-off is available.\n\nFor details and sample collection instructions, visit https://pineridgecc.org/wellwater. Be sure to tap \"Interested\" or \"Going\"!\n\nFree kits are limited to the first 50 households, while supplies last. Remember to bring a 16oz water sample in a clean jar!\n\n@UWExtensionPineCounty @PineRidgeHealthDept @PineRidgeGrange\n#WellWaterSafety #DrinkingWater #PineRidge\n\n**Image suggestion**\nA simple text graphic with the event title \"Well Water Testing Day,\" the date \"Saturday, April 12, 2025,\" time \"9:00am\u201312:00pm,\" and location \"Pine Ridge Grange Hall.\"\n\n**Alt-text**\nA graphic announcing \"Well Water Testing Day\" on April 12, 2025, from 9 AM to 12 PM at Pine Ridge Grange Hall, with info about free testing for Pine County residents.\n\n**Pinned first comment**\nRemember to bring a 16oz water sample collected from your well in a clean jar! We'll have a county Extension agent on-site. Parking is available in our gravel lot, with overflow at Pine Ridge Elementary. For questions, contact info@pineridgecc.org or 715-555-0109.\n\n**Posting tips**\n*   Post 6\u20139am or 12\u20132pm local; adjust using your Facebook Insights for when your audience is most active\n*   Cross-post from the Facebook Event page and tag venue/partners to expand reach\n*   Monitor and reply to comments in the first hour to boost distribution",
+      "timestamp": "2025-11-02T13:16:28.648238Z",
+      "duration_seconds": 3.82,
+      "tokens": {
+        "input": 2090,
+        "output": 852,
+        "total": 2942
+      },
+      "cost_usd": 0.000825,
+      "success": true,
+      "evaluation": {
+        "overall_score": 6.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 6,
+          "usefulness": 6,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "The output demonstrates good tone and includes all required elements, but critically fails the core formatting requirement: both captions exceed 200 words (far beyond the 100-150 word limit) and bury essential details in dense paragraphs instead of using mobile-first line breaks. This makes the posts unusable without significant editing, undermining their practical value for a small nonprofit.",
+        "strengths": [
+          "Warm, accessible tone appropriate for rural community audience",
+          "Both hooks (Version A: 'Ensure your family's drinking water is safe' and Version B: 'Wondering about your well water quality?') are benefit-focused and avoid the 'Join us' clich\u00e9",
+          "Comprehensive inclusion of all logistics (accessibility, childcare, parking, Spanish interpretation, COVID options)",
+          "Strong CTAs with specific instructions to tap 'Interested' or 'Going'",
+          "Pinned comment effectively consolidates practical details and contact info",
+          "Image suggestion is realistic for a small volunteer-led organization",
+          "Alt-text is descriptive and meets accessibility standards",
+          "Appropriate partner/venue tagging and hashtag usage (3 relevant tags)"
+        ],
+        "weaknesses": [
+          "Critical formatting failure: Captions are ~230 words each, 50%+ over the 100-150 word limit specified in the prompt",
+          "Does not follow mobile-first structure: Essential details are formatted as dense prose paragraphs rather than scannable lines with breaks before 'See more' cutoff",
+          "Logistics overload: Includes every optional detail in the main caption, creating a wall of text that would perform poorly on mobile Facebook",
+          "Repetitive phrasing: 'Free kits are limited to the first 50 households, while supplies last' appears twice in each caption (once in body, once at end)",
+          "Missing emoji usage: Prompt allows 0-2 emojis for clarity/warmth; none used despite warm tone and family-focused audience",
+          "Version B hook is weaker (question format less urgent than Version A's direct benefit statement)",
+          "No strategic prioritization: Treats all logistics as equally important rather than highlighting the most compelling elements (free testing, Extension agent expertise)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Caption Version A\n\n**Is your well water safe to drink?**\n\nWell Water Testing Day | Saturday, April 12, 2025 | 9am\u201312pm | Pine Ridge Grange Hall, 48 County Rd B, Pine Ridge, WI | Free for Pine County residents\n\nIf your rural household relies on a private well, get free screening for common contaminants and guidance on keeping your family's drinking water safe.\n\nOn-site nitrate and arsenic screening, county Extension agent Q&A, and free test kits for the first 50 households. Kids welcome\u2014we'll have a coloring and activity table. Spanish interpretation and curbside sample drop-off available. Accessible entrance, restrooms, and seating. Free parking onsite; overflow at Pine Ridge Elementary (0.2 mi).\n\n**Learn more and register:** https://pineridgecc.org/wellwater\n\nMark yourself \"Going\" so we can plan! \n\n\u26a0\ufe0f Free kits limited to first 50 households. Bring a 16oz water sample in a clean jar.\n\n#WellWaterSafety #PineCounty #DrinkingWater\n\n@UWExtensionPineCounty @PineRidgeHealthDept @PineRidgeGrange\n\n---\n\n# Caption Version B\n\n**Protecting your family starts with clean water.**\n\nWell Water Testing Day | Saturday, April 12, 2025 | 9am\u201312pm | Pine Ridge Grange Hall, 48 County Rd B, Pine Ridge, WI | Free for Pine County residents\n\nRural households with private wells: get free screening for common contaminants and expert guidance on next steps to keep your family's drinking water safe.\n\nOn-site nitrate and arsenic screening, county Extension agent Q&A, and free test kits for the first 50 households. Kids welcome\u2014we'll have a coloring and activity table. Spanish interpretation and curbside sample drop-off available. Accessible entrance, restrooms, and seating. Free parking onsite; overflow at Pine Ridge Elementary (0.2 mi).\n\n**Learn more and register:** https://pineridgecc.org/wellwater\n\nTap \"Going\" to save your spot!\n\n\u26a0\ufe0f Free kits limited to first 50 households. Bring a 16oz water sample in a clean jar.\n\n#WellWaterSafety #PineCounty #DrinkingWater\n\n@UWExtensionPineCounty @PineRidgeHealthDept @PineRidgeGrange\n\n---\n\n# Image Suggestion\n\nPhoto of a volunteer or Extension agent holding a water testing kit next to a jar of well water, with the Pine Ridge Grange Hall visible in the background or a simple text graphic displaying \"Well Water Testing Day | April 12 | Free.\"\n\n**Alt-text:** County Extension agent holds water testing kit and sample jar at Pine Ridge Grange Hall; text overlay reads \"Well Water Testing Day, April 12, 9am-12pm, Free for Pine County residents.\"\n\n---\n\n# Pinned First Comment\n\n**What to bring:** 16oz water sample in a clean jar (if you want on-site testing). Free test kits available for first 50 households while supplies last. Parking in the free gravel lot; overflow at Pine Ridge Elementary. Request accommodations 72 hours in advance. Questions? Contact info@pineridgecc.org or 715-555-0109.\n\n---\n\n# Posting Tips\n\n- **Post between 6\u20139am or 12\u20132pm local time** for best visibility; check your Facebook Insights to refine timing based on when your audience is most active.\n- **Create a Facebook Event** and cross-post this caption from the event page to boost reach and allow RSVPs.\n- **Tag all partners** (@UWExtensionPineCounty, @PineRidgeHealthDept, @PineRidgeGrange) to expand your audience and encourage shares.\n- **Reply to comments within the first hour** to signal engagement to Facebook's algorithm and increase distribution.\n- **Share to relevant local groups** (with admin permission) like Pine County community pages, homesteading groups, or parenting groups to reach rural households.",
+      "timestamp": "2025-11-02T13:16:43.924837Z",
+      "duration_seconds": 19.1,
+      "tokens": {
+        "input": 2231,
+        "output": 960,
+        "total": 3191
+      },
+      "cost_usd": 0.021093,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This output demonstrates strong adherence to the prompt template with appropriate warm tone, comprehensive logistics, and actionable CTAs. The captions are well-structured for mobile viewing with essential details front-loaded. Minor weaknesses include slightly exceeding word count and one emoji usage that could be reconsidered, but overall this is publication-ready content a small nonprofit could use immediately.",
+        "strengths": [
+          "Excellent mobile-first formatting with What/When/Where/Cost clearly visible before 'See more' cutoff",
+          "Strong, benefit-focused hooks in both versions that avoid generic 'Join us' language ('Is your well water safe to drink?' and 'Protecting your family starts with clean water')",
+          "Comprehensive inclusion of all accessibility and logistics details (Spanish interpretation, curbside option, parking, childcare) without overwhelming the reader",
+          "Effective A/B test structure that isolates only the hook variable while keeping all other content identical for valid testing",
+          "Practical, context-specific posting tips that go beyond generic advice (e.g., suggesting sharing to homesteading/parenting groups)",
+          "Well-crafted pinned comment that adds value with 'what to bring' details and accommodation request timeline",
+          "Appropriate partner tagging and ethical urgency messaging about limited kits"
+        ],
+        "weaknesses": [
+          "Word count slightly exceeds the 100-150 word target (approximately 155-160 words in each caption)",
+          "The warning emoji (\u26a0\ufe0f) may not render consistently across all devices and could be replaced with text-based urgency",
+          "The phrase 'Mark yourself Going' is slightly awkward; 'Tap Going' or 'Click Going' would be more natural",
+          "Alt-text could be slightly more concise (currently 31 words, target was 20-30)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "- Caption Version A (100\u2013150 words)\n\ud83d\udca7 Keep your family\u2019s drinking water safe with free well screening.\nWell Water Testing Day | Saturday, April 12, 2025 | 9:00am\u201312:00pm | Pine Ridge Grange Hall, 48 County Rd B, Pine Ridge, WI | Free\n\nFor rural Pine County households using private wells. Get screening for common contaminants and clear next steps.\n\nOn-site nitrate/arsenic screening and Q&A with county Extension agents. Free test kits for the first 50 households.\n\nRamp entrance and accessible restrooms; seating available. Kids welcome\u2014coloring/activity table. Spanish interpretation and other accommodations by request (72 hours ahead).\n\nFree gravel lot; overflow at Pine Ridge Elementary (0.2 mi). Masks optional; curbside sample drop-off available.\n\nRSVP or learn more: https://pineridgecc.org/wellwater. Tap Interested or Going. @UWExtensionPineCounty @PineRidgeHealthDept @PineRidgeGrange\n\nBring a 16oz water sample in a clean jar. Free kits while supplies last. #WellWater #PineCounty\n\n- Caption Version B (different hook; 100\u2013150 words)\n\ud83d\udca7 What\u2019s in your well water? Find out for free.\nWell Water Testing Day | Saturday, April 12, 2025 | 9:00am\u201312:00pm | Pine Ridge Grange Hall, 48 County Rd B, Pine Ridge, WI | Free\n\nFor rural Pine County households using private wells. Get screening for common contaminants and clear next steps.\n\nOn-site nitrate/arsenic screening and Q&A with county Extension agents. Free test kits for the first 50 households.\n\nRamp entrance and accessible restrooms; seating available. Kids welcome\u2014coloring/activity table. Spanish interpretation and other accommodations by request (72 hours ahead).\n\nFree gravel lot; overflow at Pine Ridge Elementary (0.2 mi). Masks optional; curbside sample drop-off available.\n\nRSVP or learn more: https://pineridgecc.org/wellwater. Tap Interested or Going. @UWExtensionPineCounty @PineRidgeHealthDept @PineRidgeGrange\n\nBring a 16oz water sample in a clean jar. Free kits while supplies last. #WellWater #PineCounty\n\n- Image suggestion (1\u20132 sentences)\nAction shot at Pine Ridge Grange Hall: a staff member dips a test strip into a resident\u2019s clear jar of well water at a labeled screening table, with a kids\u2019 coloring station softly visible behind.\n\n- Alt-text (20\u201330 words)\nA staffer tests a clear jar of well water with a strip at a community table. Informational flyers, simple signage, and a small kids\u2019 coloring area appear in the background.\n\n- Pinned first comment (30\u201350 words)\nAgenda: sample drop-off opens 9:00; ongoing screening and Extension Q&A; last samples 11:45. Parking in gravel lot; overflow at Pine Ridge Elementary (0.2 mi). Bring a clean 16oz water sample. Questions: info@pineridgecc.org or 715-555-0109.\n\n- Posting tips (3\u20135 bullets)\n- Post 6\u20139am or 12\u20132pm local; adjust using your Facebook Insights for when your audience is most active\n- Cross-post from the Facebook Event page and tag venue/partners to expand reach\n- Monitor and reply to comments in the first hour to boost distribution\n- Re-share the post the morning of the event with a \u201clast chance\u201d reminder\n- Add the link to your Facebook Event and enable reminders so followers get notifications",
+      "timestamp": "2025-11-02T13:17:32.628693Z",
+      "duration_seconds": 67.81,
+      "tokens": {
+        "input": 1934,
+        "output": 3896,
+        "total": 5830
+      },
+      "cost_usd": 0.064242,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output successfully delivers warm, community-focused messaging with excellent structure and practical components. However, both captions exceed the 150-word limit (approximately 155-160 words each), and the density of logistics in the middle paragraphs creates readability challenges that contradict the prompt's emphasis on scannable, mobile-first formatting.",
+        "strengths": [
+          "Strong, benefit-focused hooks that avoid the generic 'Join us' opening\u2014both versions lead with safety/curiosity",
+          "Essential details (What/When/Where/Cost) are correctly front-loaded in lines 1-2 before the 'See more' fold",
+          "Warm, accessible tone throughout that feels genuinely community-oriented rather than institutional",
+          "Excellent pinned comment that adds logistical value (agenda timeline, parking specifics, what to bring)",
+          "Image suggestion is realistic for a small volunteer team and includes thoughtful, descriptive alt-text",
+          "Proper restraint with emojis (1 only) and hashtags (2 relevant ones)",
+          "All required tags included correctly, and CTA is clear with dual action ('RSVP' + 'Tap Interested or Going')",
+          "Posting tips are practical and include a smart event-day reminder strategy"
+        ],
+        "weaknesses": [
+          "Word count violation: both captions run 155-160 words instead of the required 100-150 maximum",
+          "Middle section becomes a wall of text with accessibility, childcare, parking, and COVID details stacked in two dense paragraphs\u2014contradicts 'short, scannable sentences and line breaks' requirement",
+          "The 'bring a 16oz water sample' instruction appears at the very end after the CTA, but this is critical prep information that should be more prominent or in the pinned comment only",
+          "Minor redundancy: 'Free kits while supplies last' repeats the 'first 50 households' urgency already stated earlier",
+          "The A/B test variation changes only two words in the hook ('Keep your family's drinking water safe' vs. 'What's in your well water?'), which may not provide sufficiently distinct testing data"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Caption Version A**\nUnlock new funding for your land trust! Join \"Grant Writing for Small Land Trusts\" on Wednesday, February 12, 2025, 1:00\u20132:30pm CT via Zoom (online). Cost: $25 (members) / $45 (nonmembers).\n\nThis webinar is designed for staff and board members of small land trusts and conservation nonprofits. Learn to craft competitive proposals with strong outcomes and realistic budgets tailored to conservation work. Program Officer Dana Liu from @PrairieHorizonsFoundation will lead a live budget review and share sample narratives and scoring tips. Live auto-captions will be provided, the slide deck sent 24 hours in advance, and a recording will be available to all registrants.\n\nRegister today: https://mcea.org/events/grant-writing-webinar?utm_source=facebook&utm_medium=social&utm_campaign=grant_writing_webinar_feb25. Tap \"Interested\" or \"Going\" to stay updated! Early-bird pricing ends January 31. Limited to 200 participants.\n\n#GrantWriting #Conservation #LandTrusts\n\n**Caption Version B**\nTransform your grant proposals! Join \"Grant Writing for Small Land Trusts\" on Wednesday, February 12, 2025, 1:00\u20132:30pm CT via Zoom (online). Cost: $25 (members) / $45 (nonmembers).\n\nTailored for staff and board members of small land trusts and conservation nonprofits, this session will empower you to craft competitive proposals with strong outcomes and realistic budgets. Featuring Dana Liu, Program Officer at @PrairieHorizonsFoundation, the webinar includes a live budget review, sample narratives, and invaluable scoring tips. Live auto-captions, advance slide decks, and recordings for registrants are included.\n\nSecure your spot now: https://mcea.org/events/grant-writing-webinar?utm_source=facebook&utm_medium=social&utm_campaign=grant_writing_webinar_feb25. Mark yourself \"Interested\" or \"Going\"! Early-bird pricing ends January 31. Capacity is limited to 200.\n\n#NonprofitGrants #EnvironmentalEducation #Fundraising\n\n**Image suggestion**\nA professional graphic with the event title \"Grant Writing for Small Land Trusts,\" the MCEA logo, date (February 12, 2025), time (1:00\u20132:30pm CT), and the Zoom icon, all on a clean, nature-inspired background.\n\n**Alt-text**\nA graphic announcing \"Grant Writing for Small Land Trusts\" by MCEA on February 12, 2025, at 1:00\u20132:30pm CT via Zoom, visually promoting an online webinar for conservation professionals.\n\n**Pinned first comment**\nFor any inquiries about the \"Grant Writing for Small Land Trusts\" webinar, please contact Jenna Park, Program Director, at training@mcea.org or call 312-555-0198. We look forward to helping you enhance your grant-seeking skills!\n\n**Posting tips**\n* Post 6\u20139am or 12\u20132pm local; adjust using your Facebook Insights for when your audience is most active\n* Cross-post from the Facebook Event page and tag venue/partners to expand reach\n* Monitor and reply to comments in the first hour to boost distribution",
+      "timestamp": "2025-11-02T13:17:36.821523Z",
+      "duration_seconds": 4.19,
+      "tokens": {
+        "input": 2092,
+        "output": 739,
+        "total": 2831
+      },
+      "cost_usd": 0.000757,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "The output delivers professional, well-structured Facebook posts that match the formal tone requested and include most required elements. However, it misses the spokesperson sign-off explicitly provided in the input and could improve mobile optimization. The content is immediately usable with minor adjustments.",
+        "strengths": [
+          "Excellent tone consistency - maintains formal, professional voice appropriate for a regional professional association throughout both versions",
+          "Strong hook variations - Version A uses benefit-driven 'Unlock new funding' while Version B uses action-oriented 'Transform your grant proposals', providing genuine A/B test value",
+          "Comprehensive accessibility details integrated naturally without overwhelming the post",
+          "UTM parameters correctly appended to registration links as requested",
+          "Appropriate emoji restraint (zero used) matching formal tone",
+          "Clear, actionable CTAs with Facebook-specific engagement prompts ('Tap Interested or Going')",
+          "Ethical urgency properly conveyed with truthful early-bird deadline and capacity limits",
+          "Image suggestion is practical and appropriate for a professional organization",
+          "Alt-text is descriptive and accessibility-focused",
+          "Hashtags are relevant, professional, and limited to 3"
+        ],
+        "weaknesses": [
+          "Missing spokesperson sign-off - Input specified 'Jenna Park, Program Director' but neither caption includes a signature line, violating the prompt requirement to include sign-off when spokesperson is provided",
+          "Mobile optimization could be improved - While essential details appear early, the first two lines exceed typical 'See more' cutoff (approximately 125 characters); could be tightened to ensure all What/When/Where/Cost appears before fold",
+          "Word count slightly over target - Both captions appear to exceed 150 words (approximately 155-160 words each)",
+          "Pinned comment misses logistics detail - The prompt requests 'helpful logistics (agenda, parking/transit, what to bring)' but the comment only provides contact info without mentioning what participants should prepare or expect",
+          "Partner tag placement - '@PrairieHorizonsFoundation' appears mid-text which may not create a proper Facebook tag; best practice is to tag in a separate line or ensure proper @ formatting"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# CAPTION VERSION A\n\n**Strengthen your next grant proposal\u2014and your impact.**\n\nGrant Writing for Small Land Trusts | Wednesday, February 12, 2025 | 1:00\u20132:30pm CT | Zoom | $25 members / $45 nonmembers\n\nDesigned for staff and board members of small land trusts and conservation nonprofits, this webinar will equip you to craft competitive proposals with strong outcomes and realistic budgets tailored to conservation work.\n\nDana Liu, Program Officer at Prairie Horizons Foundation (@PrairieHorizonsFoundation), will lead a live budget review and share sample narratives and scoring tips from a funder's perspective.\n\nLive auto-captions, slide deck sent 24 hours in advance, and recording available to all registrants.\n\n**Register now:** https://mcea.org/events/grant-writing-webinar?utm_source=facebook&utm_medium=social&utm_campaign=grant_writing_webinar_feb25\n\nMark yourself \"Going\" or \"Interested\" to stay updated. Early-bird pricing ends January 31. Capacity is limited to 200.\n\n\u2014Jenna Park, Program Director\n\n#GrantWriting #LandTrusts #ConservationEducation\n\n---\n\n# CAPTION VERSION B\n\n**Turn \"maybe\" into \"funded.\"**\n\nGrant Writing for Small Land Trusts | Wednesday, February 12, 2025 | 1:00\u20132:30pm CT | Zoom | $25 members / $45 nonmembers\n\nDesigned for staff and board members of small land trusts and conservation nonprofits, this webinar will equip you to craft competitive proposals with strong outcomes and realistic budgets tailored to conservation work.\n\nDana Liu, Program Officer at Prairie Horizons Foundation (@PrairieHorizonsFoundation), will lead a live budget review and share sample narratives and scoring tips from a funder's perspective.\n\nLive auto-captions, slide deck sent 24 hours in advance, and recording available to all registrants.\n\n**Register now:** https://mcea.org/events/grant-writing-webinar?utm_source=facebook&utm_medium=social&utm_campaign=grant_writing_webinar_feb25\n\nMark yourself \"Going\" or \"Interested\" to stay updated. Early-bird pricing ends January 31. Capacity is limited to 200.\n\n\u2014Jenna Park, Program Director\n\n#GrantWriting #LandTrusts #ConservationEducation\n\n---\n\n# IMAGE SUGGESTION\n\nSimple text graphic with event title, date, time, and a clean nature-themed background (e.g., protected prairie or forest). Include \"Early-Bird Ends Jan 31\" callout.\n\n**Alt-text:** Text graphic reading \"Grant Writing for Small Land Trusts, Wednesday February 12, 2025, 1:00-2:30pm CT, Zoom webinar, $25 members / $45 nonmembers\" on nature background.\n\n---\n\n# PINNED FIRST COMMENT\n\n**What to expect:** We'll cover proposal narratives, outcome development, and budget best practices. A live Q&A follows the presentation. Slide deck arrives 24 hours before the session, and the recording will be sent to all registrants within three business days. Questions? Contact training@mcea.org or call 312-555-0198.\n\n---\n\n# POSTING TIPS\n\n- **Post between 6\u20139am or 12\u20132pm CT** on weekdays when conservation professionals check social media during work hours; review your Facebook Insights to confirm your audience's peak activity times.\n- **Share from a Facebook Event page** if you've created one, and tag @PrairieHorizonsFoundation to expand reach to their network.\n- **Reply to comments within the first 60 minutes** to signal engagement to Facebook's algorithm and boost post visibility.\n- **Pin the first comment** immediately after posting so logistics appear at the top of the thread.\n- **Repost on February 1** with updated copy emphasizing standard pricing and limited seats to capture last-minute registrants.",
+      "timestamp": "2025-11-02T13:17:48.973323Z",
+      "duration_seconds": 16.34,
+      "tokens": {
+        "input": 2181,
+        "output": 930,
+        "total": 3111
+      },
+      "cost_usd": 0.020493,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional output that follows the template meticulously and delivers genuinely useful content. The formal tone is appropriate, the structure is clean and scannable, and the A/B test variation is meaningful. However, there are minor issues: the word count exceeds the 100-150 word limit (both captions are ~165 words), and including a spokesperson signature in a Facebook post feels slightly awkward for this format, though it was requested in the input.",
+        "strengths": [
+          "Excellent hook variations that are benefit-focused and compelling ('Strengthen your next grant proposal' vs. 'Turn maybe into funded')",
+          "Perfect placement of essential details (What/When/Where/Cost) in lines 1-2 before the 'See more' fold",
+          "Strong use of white space and line breaks for mobile readability",
+          "Comprehensive and practical pinned comment with specific logistics (slide deck timing, recording delivery timeline)",
+          "Posting tips are highly specific to the audience (conservation professionals' work hours) and actionable",
+          "Proper UTM parameter integration and partner tagging",
+          "Accessibility features prominently mentioned without being performative",
+          "Image suggestion is realistic for a small team and includes proper alt-text",
+          "Ethical urgency handling (early-bird deadline and capacity limit are factual, not manipulative)"
+        ],
+        "weaknesses": [
+          "Word count violation: both captions are approximately 165 words, exceeding the 100-150 word requirement by ~10%",
+          "The spokesperson signature format ('\u2014Jenna Park, Program Director') feels slightly unusual for Facebook posts, though it was technically requested in the input",
+          "Could have used one strategic emoji (e.g., \ud83d\udcdd or \ud83c\udf31) to add visual interest while staying within the 0-2 limit, particularly given the formal tone allows for minimal warmth cues"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "- Caption Version A (100\u2013150 words)\nTurn conservation priorities into funded projects.\nGrant Writing for Small Land Trusts | Wednesday, February 12, 2025 | 1:00\u20132:30pm CT | Zoom (online) | $25 (members) / $45 (nonmembers)\n\nFor staff and board of small land trusts and conservation nonprofits seeking competitive proposals with strong outcomes and realistic budgets. Ideal for new and intermediate grant writers at small organizations.\nFeaturing Dana Liu, Program Officer at @PrairieHorizonsFoundation. Live budget review, sample narratives, and scoring tips. Live auto-captions. Slide deck sent 24 hours in advance. Recording available to registrants.\nLeave with practical tactics you can apply to your next proposal.\nRegister now: https://mcea.org/events/grant-writing-webinar?utm_source=facebook&utm_medium=social&utm_campaign=grant_writing_webinar_feb25\nTap \u201cInterested\u201d or \u201cGoing.\u201d\nEarly-bird pricing ends January 31; capacity 200.\n\u2013 Jenna Park, Program Director\n#GrantWriting #LandTrusts #ConservationFunding\n\n- Caption Version B (different hook; 100\u2013150 words)\nSecure more conservation funding in 2025.\nGrant Writing for Small Land Trusts | Wednesday, February 12, 2025 | 1:00\u20132:30pm CT | Zoom (online) | $25 (members) / $45 (nonmembers)\n\nFor staff and board of small land trusts and conservation nonprofits seeking competitive proposals with strong outcomes and realistic budgets. Ideal for new and intermediate grant writers at small organizations.\nFeaturing Dana Liu, Program Officer at @PrairieHorizonsFoundation. Live budget review, sample narratives, and scoring tips. Live auto-captions. Slide deck sent 24 hours in advance. Recording available to registrants.\nLeave with practical tactics you can apply to your next proposal.\nRegister now: https://mcea.org/events/grant-writing-webinar?utm_source=facebook&utm_medium=social&utm_campaign=grant_writing_webinar_feb25\nTap \u201cInterested\u201d or \u201cGoing.\u201d\nEarly-bird pricing ends January 31; capacity 200.\n\u2013 Jenna Park, Program Director\n#GrantWriting #LandTrusts #ConservationFunding\n\n- Image suggestion (1\u20132 sentences)\nCreate a clean speaker headshot graphic of Dana Liu with a short quote overlay and key event details (title, date, time, Zoom). Include the MCEA logo for brand recognition.\n\n- Alt-text (20\u201330 words)\nHeadshot of Dana Liu, Program Officer at Prairie Horizons Foundation, with text overlay: Grant Writing for Small Land Trusts, Feb 12, 2025, 1\u20132:30pm CT, Zoom; MCEA logo.\n\n- Pinned first comment (30\u201350 words)\nAgenda: proposal fundamentals, outcomes and budget alignment, live budget review with Dana, and scoring tips. Live auto-captions provided; slides arrive 24 hours ahead; recording for registrants. Questions? training@mcea.org or 312-555-0198. No materials required; join from a quiet space.\n\n- Posting tips (3\u20135 bullets)\n- Post 6\u20139am or 12\u20132pm local; adjust using your Facebook Insights for when your audience is most active\n- Cross-post from the Facebook Event page and tag venue/partners to expand reach\n- Monitor and reply to comments in the first hour to boost distribution\n- Use a square image and add alt text; pin the logistics comment immediately after posting\n- Keep the UTM link intact to track conversions from this post",
+      "timestamp": "2025-11-02T13:18:53.613190Z",
+      "duration_seconds": 80.98,
+      "tokens": {
+        "input": 1867,
+        "output": 4905,
+        "total": 6772
+      },
+      "cost_usd": 0.079176,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "The output demonstrates strong adherence to the prompt template with appropriate formal tone and comprehensive structure. However, it exceeds the 150-word limit (approximately 165 words in each caption) and the spokesperson sign-off feels slightly forced in a Facebook context, reducing authenticity.",
+        "strengths": [
+          "Excellent front-loading of critical information (What/When/Where/Cost) in first two lines before 'See more' cut-off",
+          "Strong, benefit-driven hooks that avoid the clich\u00e9d 'Join us' opening",
+          "Proper UTM parameter integration and partner tagging as requested",
+          "Comprehensive accessibility details woven naturally into the copy",
+          "Well-crafted pinned comment with practical logistics and clear contact information",
+          "Appropriate formal tone throughout without being stiff or overly corporate",
+          "Effective A/B test variation that isolates only the hook for clean testing",
+          "Image suggestion is realistic and includes proper alt-text for accessibility",
+          "Posting tips include platform-specific best practices (square image, alt text, timing)"
+        ],
+        "weaknesses": [
+          "Word count exceeds the specified 100-150 word limit (approximately 165 words), which could reduce engagement",
+          "The formal sign-off '\u2013 Jenna Park, Program Director' feels unnatural for Facebook; this format works better in email or LinkedIn",
+          "Minor redundancy: 'Ideal for new and intermediate grant writers at small organizations' restates the target audience already mentioned",
+          "Could benefit from one strategic line break between the speaker details and the 'Leave with' sentence for better scannability"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Caption Version A**\n\nSpark creativity and connection at Family Day at the Grand Museum! \ud83c\udf89\nSunday, May 4, 2025 | 10:00am\u20132:00pm | Grand Museum of Art, 455 Museum Way, Harbor City | Free with RSVP\n\nThis special day is for families with children ages 3\u201312, museum members, and the general public to enjoy hands-on art-making, exciting performances, and free museum admission. Explore studio stations, catch a youth dance performance at 11:30 am, and embark on a gallery scavenger hunt. The first 200 kids will receive art kits! We offer elevator access, a quiet/sensory-friendly hour from 10\u201311 am, and large-print guides. Caregivers must remain with children (no drop-off). Spanish and Mandarin volunteers will be at the welcome desk.\n\nIgnite your family's imagination! RSVP today at https://harborcityarts.org/familyday and tap \u201cInterested\u201d or \u201cGoing\u201d to stay updated.\nRSVP required; art kits limited to first 200 kids.\n\n@HarborCityTransit @GrandMuseumOfArt\n#FamilyFun #HarborCityArts #GrandMuseum\n\n**Caption Version B**\n\nExperience a day of wonder at Family Day at the Grand Museum! \ud83c\udfa8 \nSunday, May 4, 2025 | 10:00am\u20132:00pm | Grand Museum of Art, 455 Museum Way, Harbor City | Free with RSVP\n\nThis special day is for families with children ages 3\u201312, museum members, and the general public to enjoy hands-on art-making, exciting performances, and free museum admission. Explore studio stations, catch a youth dance performance at 11:30 am, and embark on a gallery scavenger hunt. The first 200 kids will receive art kits! We offer elevator access, a quiet/sensory-friendly hour from 10\u201311 am, and large-print guides. Caregivers must remain with children (no drop-off). Spanish and Mandarin volunteers will be at the welcome desk.\n\nIgnite your family's imagination! RSVP today at https://harborcityarts.org/familyday and tap \u201cInterested\u201d or \u201cGoing\u201d to stay updated.\nRSVP required; art kits limited to first 200 kids.\n\n@HarborCityTransit @GrandMuseumOfArt\n#FamilyFun #HarborCityArts #GrandMuseum\n\n**Image suggestion**\nA vibrant photo of children and adults engaged in a hands-on art activity, like painting or sculpting, at a brightly lit museum table.\n\n**Alt-text**\nChildren of various ages and their caregivers joyfully creating art together at a museum, with colorful art supplies scattered across tables.\n\n**Pinned first comment**\nGet ready for a fantastic day! Garage parking is validated up to 2 hours, and we\u2019re near Metro Line A, Museum Way stop. Please remember to stay home if you're feeling ill; hand sanitizer will be available. For any questions, please contact events@harborcityarts.org or call 415-555-2278. Alicia Moreno, Director of Community Programs.\n\n**Posting tips**\n- Post 6\u20139am or 12\u20132pm local; adjust using your Facebook Insights for when your audience is most active\n- Cross-post from the Facebook Event page and tag venue/partners to expand reach\n- Monitor and reply to comments in the first hour to boost distribution",
+      "timestamp": "2025-11-02T13:18:57.313937Z",
+      "duration_seconds": 3.7,
+      "tokens": {
+        "input": 2177,
+        "output": 755,
+        "total": 2932
+      },
+      "cost_usd": 0.00078,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "The output follows most requirements and maintains a warm, family-friendly tone. However, it significantly exceeds the 100-150 word limit (both captions are ~180 words), creates a dense block of text that undermines mobile-first readability, and the A/B test versions differ by only one word in the hook, making them ineffective for testing. The spokesperson sign-off is awkwardly placed in the pinned comment rather than the caption.",
+        "strengths": [
+          "Essential details (What/When/Where/Cost) are correctly placed in lines 1-2 before 'See more'",
+          "Comprehensive inclusion of accessibility features, language support, and logistics demonstrates attention to inclusive communication",
+          "Strong, action-oriented CTAs with specific instructions to RSVP and tap 'Interested' or 'Going'",
+          "Image suggestion and alt-text are practical and accessibility-focused",
+          "Appropriate emoji use (2 total) and hashtag restraint (3 relevant tags)",
+          "Pinned comment effectively consolidates parking/transit and contact information"
+        ],
+        "weaknesses": [
+          "Word count violation: Both captions are ~180 words, 20% over the 150-word maximum, creating a wall of text",
+          "Poor mobile formatting: The middle paragraph is a dense 6-sentence block that should use line breaks for scannability",
+          "Ineffective A/B test: Versions differ by only one word ('Spark creativity' vs 'Experience a day of wonder'), making performance comparison meaningless",
+          "Hook weakness: Both versions lead with generic event invitation language rather than benefit-first hooks as specified",
+          "Spokesperson placement error: Alicia Moreno's name/title appears in the pinned comment instead of as a caption sign-off, which reads awkwardly",
+          "Repetitive urgency: 'RSVP required; art kits limited to first 200 kids' appears twice in each caption (once mid-text, once at end)",
+          "Missing line breaks between key sections reduce readability on mobile devices"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# CAPTION VERSION A\n\nSpark creativity this Sunday with art, movement, and play for the whole family! \ud83c\udfa8\n\n**Family Day at the Grand Museum | Sunday, May 4 | 10am\u20132pm**  \nGrand Museum of Art, 455 Museum Way, Harbor City | Free with RSVP\n\nFamilies with children ages 3\u201312 can explore hands-on studio stations, catch a youth dance performance at 11:30am, and embark on a gallery scavenger hunt. The first 200 kids receive free art kits!\n\nSensory-friendly quiet hour 10\u201311am. Elevator access and large-print guides available. Spanish and Mandarin volunteers at the welcome desk. Caregivers must stay with children.\n\nGarage parking validated for 2 hours. Near Metro Line A, Museum Way stop.\n\n**Reserve your spot:** https://harborcityarts.org/familyday  \nTap \"Going\" and bring your crew!\n\nArt kits limited to first 200 kids. RSVP recommended.\n\n@GrandMuseumOfArt @HarborCityTransit\n\n#FamilyDay #HarborCityArts #FreeForFamilies\n\n---\n\n# CAPTION VERSION B\n\nFirst 200 kids get free art kits\u2014mark your calendar now! \ud83c\udfa8\n\n**Family Day at the Grand Museum | Sunday, May 4 | 10am\u20132pm**  \nGrand Museum of Art, 455 Museum Way, Harbor City | Free with RSVP\n\nFamilies with children ages 3\u201312 can explore hands-on studio stations, catch a youth dance performance at 11:30am, and embark on a gallery scavenger hunt. The first 200 kids receive free art kits!\n\nSensory-friendly quiet hour 10\u201311am. Elevator access and large-print guides available. Spanish and Mandarin volunteers at the welcome desk. Caregivers must stay with children.\n\nGarage parking validated for 2 hours. Near Metro Line A, Museum Way stop.\n\n**Reserve your spot:** https://harborcityarts.org/familyday  \nTap \"Going\" and bring your crew!\n\nArt kits limited to first 200 kids. RSVP recommended.\n\n@GrandMuseumOfArt @HarborCityTransit\n\n#FamilyDay #HarborCityArts #FreeForFamilies\n\n---\n\n# IMAGE SUGGESTION\n\nPhoto of children at a previous Family Day engaged in hands-on art-making at colorful studio tables, with families visible in the background exploring gallery spaces.\n\n**Alt-text:** Children paint and create art projects at colorful tables during Family Day at Grand Museum, with families exploring galleries in background. Bright, welcoming community atmosphere.\n\n---\n\n# PINNED FIRST COMMENT\n\n**What to expect:** Quiet/sensory-friendly hour 10\u201311am, youth dance performance at 11:30am, scavenger hunt, and studio stations throughout the day. Garage parking validated up to 2 hours; accessible via Metro Line A (Museum Way stop). Caregivers must remain with children. Questions? Contact events@harborcityarts.org or 415-555-2278.\n\n---\n\n# POSTING TIPS\n\n\u2022 **Post 6\u20139am or 12\u20132pm** on Thursday or Friday before the event when parents are planning weekend activities\n\u2022 **Create a Facebook Event page** first, then share from that event to amplify reach and enable the \"Interested/Going\" buttons\n\u2022 **Reply to every comment in the first hour** (even a quick \"See you there! \ud83c\udfa8\") to boost the algorithm\n\u2022 **Repost on Saturday morning** as a reminder with \"Tomorrow!\" language to capture last-minute planners\n\u2022 **Tag @GrandMuseumOfArt and @HarborCityTransit** in the caption *and* as photo tags to trigger partner notifications and expand reach beyond your followers",
+      "timestamp": "2025-11-02T13:19:11.089845Z",
+      "duration_seconds": 17.47,
+      "tokens": {
+        "input": 2305,
+        "output": 902,
+        "total": 3207
+      },
+      "cost_usd": 0.020445,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This output demonstrates strong execution of the prompt requirements with professional-quality content that a nonprofit communications team could deploy immediately. The captions are well-structured, mobile-optimized, and include all essential details in the critical first two lines. Minor deductions for slight wordiness (pushing upper word limit) and repeating the art kit limitation twice in Version A.",
+        "strengths": [
+          "Excellent mobile-first formatting with What/When/Where/Cost clearly visible before 'See more' cutoff",
+          "Strong A/B test design with meaningfully different hooks (benefit-focused vs. scarcity-focused) while keeping all other elements identical for valid testing",
+          "Comprehensive accessibility information integrated naturally without feeling like a compliance checklist",
+          "Practical, actionable posting tips that go beyond generic advice (specific timing rationale, tagging strategy, algorithm considerations)",
+          "Effective use of ethical urgency (art kit limitation) without creating false scarcity",
+          "Well-crafted pinned comment that adds genuine value with logistics not in main caption",
+          "Appropriate emoji restraint (only 2, both relevant) and hashtag selection (3, specific and searchable)",
+          "Clear CTA with dual action ('Reserve your spot' + 'Tap Going') that leverages Facebook-specific features",
+          "Alt-text is descriptive and accessibility-focused, not just decorative description"
+        ],
+        "weaknesses": [
+          "Caption Version A repeats the art kit limitation information twice (in body and at end), creating slight redundancy that could be streamlined",
+          "Word count pushes the upper limit at approximately 145-150 words, which may risk truncation on some mobile displays",
+          "Missing the spokesperson sign-off despite 'Alicia Moreno, Director of Community Programs' being provided in the input\u2014prompt specified to include signature when spokesperson is provided"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Caption Version A (100\u2013150 words)\nMake a memory your kids will talk about all spring. \ud83c\udfa8\nFamily Day at the Grand Museum | Sunday, May 4, 2025 | 10:00am\u20132:00pm | Grand Museum of Art, 455 Museum Way, Harbor City | Free with RSVP\n\nFor families with children ages 3\u201312\u2014members and public welcome\u2014hands-on art and performances spark creativity and connection.\n\nMake art at studio stations, try a gallery scavenger hunt, and catch the youth dance at 11:30am. First 200 kids get art kits. Elevator access and a quiet/sensory-friendly hour 10\u201311am. Caregivers must stay with children. Garage parking validated up to 2 hours; near Metro Line A (Museum Way).\n\nRSVP now and tap \u201cInterested\u201d or \u201cGoing\u201d: https://harborcityarts.org/familyday. RSVP required; art kits limited to first 200 kids.\n@HarborCityTransit @GrandMuseumOfArt\n#HarborCityArts #FamilyDay\n\nCaption Version B (different hook; 100\u2013150 words)\nGive your Sunday a splash of color and calm.\nFamily Day at the Grand Museum | Sunday, May 4, 2025 | 10:00am\u20132:00pm | Grand Museum of Art, 455 Museum Way, Harbor City | Free with RSVP\n\nFor families with children ages 3\u201312\u2014members and public welcome\u2014hands-on art and performances spark creativity and connection.\n\nMake art at studio stations, try a gallery scavenger hunt, and catch the youth dance at 11:30am. First 200 kids get art kits. Elevator access and a quiet/sensory-friendly hour 10\u201311am. Caregivers must stay with children. Garage parking validated up to 2 hours; near Metro Line A (Museum Way).\n\nRSVP now and tap \u201cInterested\u201d or \u201cGoing\u201d: https://harborcityarts.org/familyday. RSVP required; art kits limited to first 200 kids.\n@HarborCityTransit @GrandMuseumOfArt\n#HarborCityArts #FamilyDay\n\nImage suggestion (1\u20132 sentences)\nCandid photo of kids (ages 3\u201312) and caregivers creating collages at a museum studio table, with a staff member assisting. Add a simple text overlay: \u201cFamily Day \u2022 May 4 \u2022 10am\u20132pm \u2022 Free with RSVP.\u201d\n\nAlt-text (20\u201330 words)\nFamilies with young children make colorful paper collages at tables inside a museum studio. A staff member offers guidance. Signage reads \u201cFamily Day.\u201d An elevator sign is visible nearby.\n\nPinned first comment (30\u201350 words)\nAgenda: Studio stations all day; youth dance at 11:30am. Sensory-friendly hour 10\u201311am. Parking: garage validated up to 2 hours; near Metro Line A (Museum Way). Caregivers must remain with children. Questions? events@harborcityarts.org or 415-555-2278.\n\nPosting tips (3\u20135 bullets)\n- Post 6\u20139am or 12\u20132pm local; use Facebook Insights to match peak audience times\n- Cross-post from the Facebook Event page and tag @GrandMuseumOfArt and @HarborCityTransit\n- Monitor and reply to comments in the first hour to boost distribution\n- Add the \u201cGet Tickets/RSVP\u201d button linking to harborcityarts.org/familyday\n- Pin the logistics comment and update it day-of with any changes (e.g., kit count)",
+      "timestamp": "2025-11-02T13:19:57.556866Z",
+      "duration_seconds": 63.94,
+      "tokens": {
+        "input": 1979,
+        "output": 4328,
+        "total": 6307
+      },
+      "cost_usd": 0.070857,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional output that follows the template closely and delivers practical, ready-to-use content. The warm tone is appropriate for a family event, essential details appear before the fold, and the A/B test variation provides genuine value. Minor weaknesses include slight repetition and a word count that pushes the upper limit, but overall this would serve a nonprofit communications team well.",
+        "strengths": [
+          "Excellent adherence to mobile-first structure with What/When/Where/Cost in lines 1-2 before 'See more'",
+          "Both hooks are benefit-focused and emotionally resonant ('Make a memory' vs. 'splash of color and calm') rather than generic 'Join us' language",
+          "Comprehensive logistics integration without overwhelming the reader\u2014accessibility, transit, and safety details are woven naturally",
+          "A/B test variation genuinely differs in emotional appeal (memory-making vs. sensory experience) while keeping structure identical for valid testing",
+          "Pinned comment effectively offloads detailed agenda and contact info, keeping main caption scannable",
+          "Image suggestion is specific, achievable for small teams, and includes thoughtful alt-text with accessibility signage detail",
+          "Posting tips go beyond generic advice with actionable items like adding the RSVP button and updating pinned comment day-of",
+          "Ethical urgency is honest and specific ('first 200 kids') rather than manufactured scarcity",
+          "Minimal emoji use (1 per caption) adds warmth without appearing unprofessional"
+        ],
+        "weaknesses": [
+          "Word count is 147-148 words, at the very top of the 100-150 range, which could feel dense on mobile; trimming 10-15 words would improve scannability",
+          "The phrase 'RSVP required; art kits limited to first 200 kids' appears twice in each caption (once in body, once at end), creating unnecessary repetition",
+          "The spokesperson sign-off (Alicia Moreno) was requested but not included in either caption, missing a personalization opportunity",
+          "Hashtag strategy is minimal (#HarborCityArts #FamilyDay)\u2014could benefit from one more relevant tag like #HarborCityFamilies or #MuseumDay for discoverability",
+          "The sensory-friendly hour detail could be more prominent given its importance to neurodiverse families\u2014currently buried mid-paragraph"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.2787,
+    "average_score": 8.11
+  }
+}

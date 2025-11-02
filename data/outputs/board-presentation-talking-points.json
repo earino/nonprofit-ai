@@ -1,0 +1,555 @@
+{
+  "prompt_id": "board-presentation-talking-points",
+  "prompt_text": "Create Board Presentation Talking Points for [ORGANIZATION NAME] to brief the Board on [PRIMARY TOPIC] at the [BOARD/COMMITTEE NAME] meeting on [DATE].\n\nMEETING CONTEXT (fill REQUIRED; optional items can be \u201cTBD\u201d):\n- Total presentation time (REQUIRED): [15/30/45] minutes\n- Primary goal (REQUIRED): [DECISION/INPUT/FYI]\n- Key decision needed (if DECISION/INPUT): [SPECIFIC DECISION OR \u201cN/A\u201d]\n- Presenter (REQUIRED): [EXECUTIVE DIRECTOR NAME], [TITLE]\n- Reviewed by (optional): [STAFF/COMMITTEE]\n\nREQUIRED SECTIONS\n\n1) Opening Frame (30 seconds spoken)\n- Mission anchor: One sentence linking topic to mission/community outcome\n- Urgency: Why now (recent event/deadline/opportunity)\n- Clear ask: \u201cWe need the board to [DECIDE/INPUT/FYI] on [SPECIFIC ASK]\u201d\n\n2) Agenda Overview\n- List 3\u20135 sections: [SECTION 1], [SECTION 2], [SECTION 3], [ADD IF NEEDED]\n- Allocate minutes to each (must total your time above)\n- Note planned Q&A pauses (recommend after each major section)\n\n3) Section Content Bullets (for each section listed)\nProvide 2\u20133 crisp bullets (10\u201315 words; action-oriented fragments):\n- Key message: [Main point]\n- Evidence: [One metric/story from FY[YYYY]/latest quarter; cite source/timeframe]\n- So what: [Impact on mission/community]\n\nExample format:\nSection: Program Expansion\n\u2022 Add evening hours at Main Street site\n\u2022 Waitlist: 47 families; 68% need after-5pm access (Q2 FY2024 survey)\n\u2022 Reaches 30 more families/month\u2014fastest-growing demographic\n\n4) Financial Summary (if applicable)\n- Budget impact: [$ AMOUNT, timeframe]\n- Funding status: [secured/pending/gap of $X]\n- If gap: 2\u20133 scenarios with trade-offs\n  \u2022 Option A: [approach] \u2013 Trade-off: [gain/loss]\n  \u2022 Option B: [approach] \u2013 Trade-off: [gain/loss]\n- Capacity note: [effect on small team workload; what will pause/stop]\n\n5) Anticipated Questions (5\u20137)\nList likely questions with one-sentence evidence-based responses (use data, policy, benchmark, or recent case with source/timeframe):\n- Risk:\n- Equity/access:\n- Sustainability:\n- Governance/process:\n- Financial exposure:\n- Community impact:\n- Implementation capacity:\n\n6) Presentation Flow Elements\n- Transition lines: One sentence bridging each section\n- Visual cues: What\u2019s ON SCREEN vs. spoken only (don\u2019t read slides)\n- Human element: One beneficiary quote/story (program, date)\n\n7) Board Dynamics Management\n- Invite quieter voices: [approach; who you\u2019ll call on and when]\n- If [BOARD MEMBER NAME/ROLE] dominates: [respectful redirect plan]\n- Defer to committee/staff on: [topics]\n- Read-the-room cues: [when to pause/redirect/park]\n\n8) Closing (30 seconds)\n- Recap (3 bullets): [POINT 1], [POINT 2], [POINT 3]\n- Restate ask: [specific request]\n- Decision timeline: [date needed]\n- Next steps/owners: [who does what by when]\n\n9) Parking Lot (3\u20135 items)\n- [Item + owner]\n- [Item + owner]\n- [Item + owner]\n\nTONE & STYLE\n- Choose tone: [FORMAL governance/finance] / [WARM mission/people] / [CASUAL retreat]\n- Bullets only; sentence fragments, not full sentences\n- Target length: 400\u2013500 words total\n- Use concrete nonprofit language; cite FY/latest-quarter metrics; name capacity limits; center community impact\n- Avoid jargon/buzzwords/clich\u00e9s; be confident, humble, specific\n\nPRIORITIZATION (if time is tight)\n- 15 minutes: Sections 1\u20134, 8\u20139; limit to 3 sections; 5 questions max\n- 30 minutes: All sections; 3\u20135 sections; full Q&A\n- 45 minutes: All sections plus deeper scenarios; longer Q&A\n\nOUTPUT QUALITY CHECKLIST\n- Fits allocated time\n- Clear ask and decision timeline\n- At least 3 concrete metrics (with source/timeframe)\n- Realistic money/staff capacity notes\n- One human story/quote\n- Hardest questions anticipated with evidence-based answers\n- Next steps with owners and dates\n\nQUICK START (fill only these; others \u201cTBD\u201d)\n- [ORGANIZATION NAME]\n- [PRIMARY TOPIC]\n- [DATE]\n- [TOTAL TIME: 15/30/45]\n- [PRIMARY GOAL: DECISION/INPUT/FYI]\n- [3 MAIN SECTIONS]\n- [TONE: FORMAL/WARM/CASUAL]",
+  "category": "board",
+  "generated_at": "2025-11-02T13:20:41.994215Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Southside Youth Arts Collective\u2014small urban youth arts nonprofit (budget ~$600k) serving BIPOC teens; donors include local foundations, individuals, and small businesses.",
+      "values": {
+        "ORGANIZATION NAME": "Southside Youth Arts Collective",
+        "PRIMARY TOPIC": "Approve Saturday Arts Pilot and restricted grant acceptance",
+        "BOARD/COMMITTEE NAME": "Program Committee",
+        "DATE": "March 12, 2026",
+        "15/30/45": "15",
+        "DECISION/INPUT/FYI": "DECISION",
+        "SPECIFIC DECISION OR \u201cN/A\u201d": "Approve 6-month Saturday pilot; accept $35,000 restricted grant; authorize 0.25 FTE hire",
+        "EXECUTIVE DIRECTOR NAME": "Aisha Grant",
+        "TITLE": "Executive Director",
+        "STAFF/COMMITTEE": "Program Committee; Youth Advisory Council",
+        "DECIDE/INPUT/FYI": "DECIDE",
+        "SPECIFIC ASK": "Approve pilot scope, budget, and grant acceptance",
+        "SECTION 1": "Pilot Rationale",
+        "SECTION 2": "Budget & Capacity",
+        "SECTION 3": "Risks & Mitigations",
+        "ADD IF NEEDED": "Community Feedback",
+        "Main point": "Saturday arts pilot meets unmet demand; deepens neighborhood youth engagement",
+        "One metric/story from FY[YYYY": "FY2025 Q2 survey: 64% prefer Saturdays; waitlist averaged 29 youth",
+        "Impact on mission/community": "Reach 45 additional teens/semester; safer weekend options; arts access equity",
+        "$ AMOUNT, timeframe": "$42,800 for 6 months",
+        "secured/pending/gap of $X": "Secured $35,000; pending $5,000; gap $2,800",
+        "approach": "Option A two sites; Option B single site; Option C delay to fall",
+        "gain/loss": "A: more reach/more strain; B: manageable/less reach; C: no strain/lose momentum",
+        "effect on small team workload; what will pause/stop": "Add 0.25 FTE; pause newsletter redesign; ED covers 2 Saturdays/month",
+        "approach; who you\u2019ll call on and when": "After Budget section, invite Youth Alum Jamal R.; then Treasurer Ms. Chen",
+        "BOARD MEMBER NAME/ROLE": "Raj Patel\u2014Treasurer",
+        "respectful redirect plan": "Appreciate diligence; refer details to Finance; return to today\u2019s decision",
+        "topics": "Payroll setup; grant reporting clauses; volunteer background checks",
+        "when to pause/redirect/park": "If >3 finance questions, park and move to vote",
+        "POINT 1": "Clear demand and mission fit",
+        "POINT 2": "Time-bound pilot with metrics",
+        "POINT 3": "Small funding gap with plan",
+        "specific request": "Motion to approve 6\u2011month Saturday pilot and accept $35k restricted grant",
+        "date needed": "3/12/2026 to sign grant by 3/15/2026",
+        "who does what by when": "ED sign grant 3/15; Program Manager hire teaching artist 4/1; Ops set payroll 3/25",
+        "Item + owner": "Grant compliance checklist\u2014Treasurer; Payroll setup\u2014Operations Manager; Volunteer MOUs\u2014Program Manager",
+        "FORMAL governance/finance": "No",
+        "WARM mission/people": "Yes",
+        "CASUAL retreat": "No",
+        "TOTAL TIME: 15/30/45": "15",
+        "PRIMARY GOAL: DECISION/INPUT/FYI": "DECISION",
+        "3 MAIN SECTIONS": "Pilot Rationale; Budget & Capacity; Risks & Mitigations",
+        "TONE: FORMAL/WARM/CASUAL": "WARM"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Colorado Association of School Counselors\u2014statewide membership nonprofit (budget ~$3.2M) serving urban/rural counselors; revenue from dues, conference fees, and corporate sponsors.",
+      "values": {
+        "ORGANIZATION NAME": "Colorado Association of School Counselors",
+        "PRIMARY TOPIC": "2026 Annual Conference venue contract and pricing approval",
+        "BOARD/COMMITTEE NAME": "Finance & Events Committee",
+        "DATE": "April 23, 2026",
+        "15/30/45": "30",
+        "DECISION/INPUT/FYI": "DECISION",
+        "SPECIFIC DECISION OR \u201cN/A\u201d": "Approve $162,000 venue contract and tiered pricing; authorize 25% deposit",
+        "EXECUTIVE DIRECTOR NAME": "Daniela Ruiz",
+        "TITLE": "Executive Director",
+        "STAFF/COMMITTEE": "Finance & Events Committee; Audit Chair",
+        "DECIDE/INPUT/FYI": "DECIDE",
+        "SPECIFIC ASK": "Approve contract, pricing tiers, and deposit authorization",
+        "SECTION 1": "Attendance Trends & Equity",
+        "SECTION 2": "Financial Projections",
+        "SECTION 3": "Venue & Risk Mitigation",
+        "ADD IF NEEDED": "Sponsor Strategy",
+        "Main point": "Downtown venue boosts access; pricing protects affordability and margin",
+        "One metric/story from FY[YYYY": "FY2024 post-survey: 912 attendees; 27% rural; 14% scholarships",
+        "Impact on mission/community": "More counselors trained statewide; equity gains; supports year-round programs",
+        "$ AMOUNT, timeframe": "$162,000 contract; October 2026 event; 25% deposit due 5/1/2026",
+        "secured/pending/gap of $X": "Sponsorship secured $98,500; pending $40,000; gap $23,500",
+        "approach": "Option A raise nonmember rate $40; Option B reduce AV package; Option C cap scholarships",
+        "gain/loss": "A: +$28k risk of lower nonmember turnout; B: save $12k quality risk; C: save $10k equity impact",
+        "effect on small team workload; what will pause/stop": "Events team 1.5 FTE; pause member webinars Sept\u2013Oct; temp registration support",
+        "approach; who you\u2019ll call on and when": "After Equity section invite Rural Rep Kim Lee; before vote ask Treasurer",
+        "BOARD MEMBER NAME/ROLE": "Dr. Marcus Harris\u2014Past President",
+        "respectful redirect plan": "Honor perspective; timebox; move policy changes to Governance agenda",
+        "topics": "Force majeure and cancellation; accessibility compliance; scholarship criteria",
+        "when to pause/redirect/park": "If debate >10 minutes, call question on pricing; park AV specs",
+        "POINT 1": "Access and equity improve",
+        "POINT 2": "Balanced budget with contingencies",
+        "POINT 3": "Contract risks mitigated",
+        "specific request": "Approve venue contract and tiered pricing; authorize 25% deposit",
+        "date needed": "4/23/2026 to keep venue hold expiring 4/25/2026",
+        "who does what by when": "ED sign 4/24; Treasurer send deposit 4/25; Events open registration 6/1",
+        "Item + owner": "Scholarship policy review\u2014Governance Chair; AV sponsor ask\u2014Development Director; Accessibility audit\u2014Events Manager",
+        "FORMAL governance/finance": "Yes",
+        "WARM mission/people": "No",
+        "CASUAL retreat": "No",
+        "TOTAL TIME: 15/30/45": "30",
+        "PRIMARY GOAL: DECISION/INPUT/FYI": "DECISION",
+        "3 MAIN SECTIONS": "Attendance Trends & Equity; Financial Projections; Venue & Risk Mitigation",
+        "TONE: FORMAL/WARM/CASUAL": "FORMAL"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "RiverWatch Foundation\u2014large multi-state environmental nonprofit (budget ~$38M) based in a major metro; projects serve rural river communities; donors include major donors, corporate partners, and federal grants.",
+      "values": {
+        "ORGANIZATION NAME": "RiverWatch Foundation",
+        "PRIMARY TOPIC": "Approve $28M capital campaign goal, budget, and quiet-phase launch",
+        "BOARD/COMMITTEE NAME": "Board of Directors",
+        "DATE": "May 16, 2026",
+        "15/30/45": "45",
+        "DECISION/INPUT/FYI": "DECISION",
+        "SPECIFIC DECISION OR \u201cN/A\u201d": "Approve $28M campaign goal, $1.2M campaign budget, and quiet-phase launch",
+        "EXECUTIVE DIRECTOR NAME": "Elena Park",
+        "TITLE": "President & CEO",
+        "STAFF/COMMITTEE": "Campaign Steering Committee; Development & Finance Committees",
+        "DECIDE/INPUT/FYI": "DECIDE",
+        "SPECIFIC ASK": "Approve goal, campaign budget, naming policy, and quiet-phase start",
+        "SECTION 1": "Case for Support & Community Impact",
+        "SECTION 2": "Feasibility Study Findings",
+        "SECTION 3": "Financial Model & Risk Scenarios",
+        "ADD IF NEEDED": "Governance/Naming Policies",
+        "Main point": "Campaign accelerates flood resilience with new data lab and federal match",
+        "One metric/story from FY[YYYY": "March 2026 feasibility: 42 interviews; 78% support; $9.1M indicated (CCS)",
+        "Impact on mission/community": "Better flood forecasts for 2.1M residents; prioritizes low-income river towns",
+        "$ AMOUNT, timeframe": "$28M over 5 years; quiet phase 18 months",
+        "secured/pending/gap of $X": "Secured $6.4M lead gifts; pending $3M federal match; gap $18.6M",
+        "approach": "Option A 24\u2011month sprint; Option B phased floor $22M/stretch $28M; Option C postpone",
+        "gain/loss": "A: faster impact/high risk; B: manageable cadence/potential lower momentum; C: no risk/lose match",
+        "effect on small team workload; what will pause/stop": "Add 3 FTE in Advancement; pause rebrand project; retain campaign counsel",
+        "approach; who you\u2019ll call on and when": "After Feasibility, invite Co\u2011Chairs Ms. Delgado & Mr. Singh; then CFO",
+        "BOARD MEMBER NAME/ROLE": "Thomas Greene\u2014Major Donor",
+        "respectful redirect plan": "Thank generosity; suggest pledge structuring offline; return to governance vote",
+        "topics": "Naming rights policy; gift acceptance thresholds; campaign expense ratio",
+        "when to pause/redirect/park": "If naming debate >5 minutes, refer to Governance and proceed",
+        "POINT 1": "Urgent climate case with community benefit",
+        "POINT 2": "Feasibility supports $28M goal",
+        "POINT 3": "Risk mitigations and staffing plan",
+        "specific request": "Approve $28M campaign goal, $1.2M budget, and quiet-phase launch",
+        "date needed": "5/16/2026 to align with federal match application due 5/31/2026",
+        "who does what by when": "CEO appoint Campaign Director 6/1; CFO finalize budget 6/15; Board adopt naming matrix 6/30",
+        "Item + owner": "Naming matrix\u2014Governance Chair; Federal match application\u2014Policy Director; Prospect pipeline\u2014Development VP",
+        "FORMAL governance/finance": "Yes",
+        "WARM mission/people": "No",
+        "CASUAL retreat": "No",
+        "TOTAL TIME: 15/30/45": "45",
+        "PRIMARY GOAL: DECISION/INPUT/FYI": "DECISION",
+        "3 MAIN SECTIONS": "Case for Support & Community Impact; Feasibility Study Findings; Financial Model & Risk Scenarios",
+        "TONE: FORMAL/WARM/CASUAL": "FORMAL"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Here are the Board Presentation Talking Points for the Southside Youth Arts Collective:\n\n**MEETING CONTEXT**\n\n*   **Total presentation time:** 15 minutes\n*   **Primary goal:** DECISION\n*   **Key decision needed:** Approve 6-month Saturday pilot; accept $35,000 restricted grant; authorize 0.25 FTE hire\n*   **Presenter:** Aisha Grant, Executive Director\n*   **Reviewed by:** Program Committee; Youth Advisory Council\n\n---\n\n**1) Opening Frame (30 seconds spoken)**\n\n*   **Mission anchor:** Our Saturday Arts Pilot directly expands accessible, high-quality artistic opportunities, addressing a critical weekend engagement gap for Southside youth.\n*   **Urgency:** A $35,000 restricted grant offers a time-sensitive opportunity to launch this pilot, meeting overwhelming community demand and maximizing impact.\n*   **Clear ask:** We need the Board to **DECIDE** on approving the Saturday Pilot scope and budget, and accepting the restricted grant today.\n\n**2) Agenda Overview**\n\n*   **Pilot Rationale:** 3 minutes\n*   **Budget & Capacity:** 4 minutes (Q&A pause)\n*   **Risks & Mitigations:** 3 minutes (Q&A pause)\n*   **Community Feedback:** 2 minutes\n*   **Final Q&A:** 2 minutes\n*   **Decision & Next Steps:** 1 minute\n\n**3) Section Content Bullets**\n\n**Section: Pilot Rationale**\n\n*   **Key message:** Saturday arts pilot meets unmet demand; deepens neighborhood youth engagement.\n*   **Evidence:** FY2025 Q2 survey: 64% prefer Saturdays; waitlist averaged 29 youth/latest quarter.\n*   **So what:** Reach 45 additional teens/semester; safer weekend options; arts access equity.\n\n**Section: Budget & Capacity**\n\n*   **Key message:** Financially viable six-month pilot with existing resources and targeted hire.\n*   **Evidence:** Grant covers 82% of pilot costs; program staff can absorb initial onboarding.\n*   **So what:** Prudent fiscal approach; tests program model before significant investment.\n\n**Section: Risks & Mitigations**\n\n*   **Key message:** Identified potential challenges with clear strategies for success.\n*   **Evidence:** Program Committee reviewed staffing, volunteer needs, and facility access.\n*   **So what:** Robust contingency planning ensures pilot stability and learning.\n\n**Section: Community Feedback**\n\n*   **Key message:** Strong youth and family support reinforces program necessity.\n*   **Evidence:** Youth Advisory Council endorsed concept; parent testimonials highlight weekend gap.\n*   **So what:** Pilot directly responds to articulated community needs and desires.\n\n**4) Financial Summary**\n\n*   **Budget impact:** $42,800 for 6 months\n*   **Funding status:** Secured $35,000; pending $5,000; gap $2,800\n*   **If gap:**\n    *   **Option A (Approve as-is):** Finance covers $2,800 from unrestricted reserves. Trade-off: Immediate launch, minor reserve draw.\n    *   **Option B (Fundraise gap):** ED/Development Committee raises $2,800. Trade-off: Potential delay, no reserve draw.\n*   **Capacity note:** Add 0.25 FTE; pause newsletter redesign; ED covers 2 Saturdays/month.\n\n**5) Anticipated Questions**\n\n*   **Risk:** *What if enrollment is lower than expected?* Our phased recruitment and targeted outreach to waitlisted youth mitigate this; we can adjust teaching artist hours if needed, per Program Committee review.\n*   **Equity/access:** *How will transportation challenges be addressed on Saturdays?* We are exploring partnership with the Boys & Girls Club for shared routes, as discussed at the January Program Committee meeting.\n*   **Sustainability:** *What's the plan beyond the 6-month pilot?* We'll evaluate key metrics (attendance, satisfaction) to inform a decision on permanent funding and integration by July, as outlined in the proposal.\n*   **Governance/process:** *Was this vetted with relevant committees?* Yes, robust review by the Program Committee and Youth Advisory Council, with endorsement received in February.\n*   **Financial exposure:** *What if the pending $5,000 grant doesn't materialize?* Our budget includes Option A to cover the full gap ($7,800) from unrestricted reserves if necessary, reviewed by the Finance Committee.\n*   **Community impact:** *How will we measure positive impact on youth beyond participation?* We'll use pre/post surveys assessing social-emotional learning and artistic skill development, consistent with our FY2025 impact framework.\n*   **Implementation capacity:** *Will Aisha and the small team be stretched too thin?* The 0.25 FTE hire specifically addresses instructional delivery, and the newsletter redesign pause frees up 5 hours/week for ops support.\n\n**6) Presentation Flow Elements**\n\n*   **Transition lines:**\n    *   *After Rationale:* \"Now that we\u2019ve established the demand and mission fit, let's explore the financial and capacity implications.\"\n    *   *After Budget:* \"Understanding our financial landscape, we've also considered potential hurdles and how to proactively address them.\"\n    *   *After Risks:* \"Crucially, this pilot isn't just about internal planning; it's deeply rooted in what our community is telling us.\"\n*   **Visual cues:** Slide with \"FY25 Q2 Survey: 64% Prefer Saturday\" (Spoken: This aligns perfectly with input from our Youth Advisory Council). Slide with \"Budget Snapshot: $42,800 Pilot Cost; $35,000 Secured\" (Spoken: Highlighting our funding security).\n*   **Human element:** \"As one parent, Ms. Rodriguez, shared with our program staff last month, 'Saturdays are the only time my daughter can come; it's a lifeline for her creativity and a safe space when school's out.'\"\n\n**7) Board Dynamics Management**\n\n*   **Invite quieter voices:** \"Before we dive deeper into the budget, I'd value any initial thoughts from our Youth Alum representative, Jamal R. And Ms. Chen, as Treasurer, any immediate insights on the funding approach?\"\n*   **If Raj Patel\u2014Treasurer dominates:** \"Thank you, Raj, for your diligent eye on the numbers. For now, let's hold off on detailed payroll mechanics and focus on the decision before us. Happy to connect you with our Operations Manager afterward for those specifics.\"\n*   **Defer to committee/staff on:** \"The exact grant reporting clauses or the specifics of our volunteer background check process are best handled by our Program Manager; they\u2019ve developed comprehensive internal protocols.\"\n*   **Read-the-room cues:** If >3 finance questions arise after \"Budget & Capacity,\" say: \"I hear a lot of detailed questions about the budget. Let's park these for a follow-up with our Finance Chair or myself so we can maintain our timeline for today's critical decision.\"\n\n**8) Closing (30 seconds)**\n\n*   **Recap:** Clear demand and mission fit; time-bound pilot with metrics; small funding gap with planning.\n*   **Restate ask:** We request a motion to approve the 6-month Saturday Arts Pilot and accept the $35,000 restricted grant.\n*   **Decision timeline:** Your approval today, March 12, allows us to sign the grant by March 15, preventing fund lapse.\n*   **Next steps/owners:** ED to sign grant 3/15; Program Manager to hire teaching artist 4/1; Ops to set payroll 3/25.\n\n**9) Parking Lot**\n\n*   Grant compliance checklist\u2014Treasurer\n*   Payroll setup for 0.25 FTE\u2014Operations Manager\n*   Volunteer MOUs for Saturday program\u2014Program Manager",
+      "timestamp": "2025-11-02T13:17:25.015028Z",
+      "duration_seconds": 8.85,
+      "tokens": {
+        "input": 1319,
+        "output": 1714,
+        "total": 3033
+      },
+      "cost_usd": 0.001226,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a highly functional, well-structured board presentation that demonstrates strong understanding of nonprofit governance and communication. It successfully balances warmth with professionalism and includes all required elements with appropriate detail for a 15-minute decision meeting. Minor weaknesses include some slightly formal phrasing that doesn't fully achieve the 'bullet fragment' style requested, and a few responses that feel slightly templated rather than organization-specific.",
+        "strengths": [
+          "Excellent time allocation and realistic pacing for a 15-minute decision meeting with clear Q&A pauses",
+          "Strong use of concrete, specific data (64% prefer Saturdays, 29 youth waitlist, $42,800 budget) with proper attribution to FY2025 Q2",
+          "Sophisticated board dynamics management with named individuals (Jamal R., Ms. Chen, Raj Patel) and specific redirect strategies",
+          "Authentic human element with Ms. Rodriguez quote that feels genuine and mission-centered",
+          "Practical financial scenarios (Options A/B) with realistic trade-offs and capacity constraints clearly stated",
+          "Well-crafted anticipated questions covering all key governance areas with evidence-based responses",
+          "Clear decision timeline tied to external deadline (grant signature by 3/15) creating appropriate urgency",
+          "Parking lot items are specific and assigned to appropriate owners"
+        ],
+        "weaknesses": [
+          "Opening Frame uses full sentences rather than the requested 'sentence fragments' style, making it slightly more formal than the 'WARM' tone suggests",
+          "Some anticipated question responses are lengthy (2-3 sentences) when the template requested 'one-sentence evidence-based responses'",
+          "A few phrases feel generic ('robust contingency planning,' 'prudent fiscal approach') rather than organization-specific",
+          "Section 'Budget & Capacity' evidence bullet ('Grant covers 82% of pilot costs') doesn't cite a specific source/timeframe as consistently as other sections",
+          "The 'Community Feedback' section feels slightly thin compared to others and could use one more concrete data point"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# BOARD PRESENTATION TALKING POINTS\n**Southside Youth Arts Collective**  \nProgram Committee Meeting | March 12, 2026  \nPresenter: Aisha Grant, Executive Director  \nTotal Time: 15 minutes\n\n---\n\n## 1) OPENING FRAME (30 seconds)\n\n**Mission anchor:** Saturday Arts Pilot extends weekend creative spaces to underserved teens\u2014advancing our equity commitment.\n\n**Urgency:** Grant deadline March 15; youth waitlist at 29/quarter; safer weekend programming needed post-February community incident.\n\n**Clear ask:** Board approve 6-month Saturday pilot, accept $35,000 restricted grant, authorize 0.25 FTE teaching artist hire.\n\n---\n\n## 2) AGENDA OVERVIEW\n\n| Section | Minutes | Q&A Pause |\n|---------|---------|-----------|\n| **Pilot Rationale** | 4 min | Yes |\n| **Budget & Capacity** | 4 min | Yes |\n| **Risks & Mitigations** | 3 min | Yes |\n| **Community Feedback** | 2 min | No |\n| **Closing & Vote** | 2 min | \u2014 |\n\n---\n\n## 3) SECTION CONTENT BULLETS\n\n### **Section: Pilot Rationale**\n- **Key message:** Saturday programming fills documented gap; deepens neighborhood youth engagement when risk highest\n- **Evidence:** FY2025 Q2 family survey: 64% prefer Saturdays; current waitlist averaged 29 youth/quarter (Jan\u2013Mar 2026)\n- **So what:** Reach 45 additional teens per semester; provide supervised creative outlet during peak risk hours\n\n**Transition:** \"Demand is clear\u2014now let's examine how we resource it responsibly.\"\n\n---\n\n### **Section: Budget & Capacity**\n\n**Budget impact:** $42,800 total for 6-month pilot (April\u2013September 2026)\n\n**Funding status:**  \n- Secured: $35,000 restricted grant (Greenfield Foundation)  \n- Pending: $5,000 (City Arts Council, decision by March 20)  \n- Gap: $2,800\n\n**Gap scenarios:**\n\n| Option | Trade-off |\n|--------|-----------|\n| **A: Two sites** | Greater reach (45 teens); stretches teaching artist capacity; requires $2,800 bridge from reserves |\n| **B: Single site** | Manageable staffing; serves 25 teens; leaves 20 waitlisted families unserved |\n| **C: Delay to fall** | No immediate financial strain; lose spring enrollment momentum; grant funds expire June 30 |\n\n**Capacity note:**  \n- Add 0.25 FTE teaching artist (contract, grant-funded)  \n- Pause Q3 newsletter redesign (defer $1,200 expense)  \n- ED provides Saturday coverage 2x/month during onboarding (April\u2013May)\n\n**Transition:** \"Expansion brings risk\u2014here's how we're mitigating.\"\n\n---\n\n### **Section: Risks & Mitigations**\n\n- **Staffing continuity:** Hire by April 1; backup teaching artist pool (3 vetted freelancers from 2025 summer program)\n- **Grant compliance:** Funder allows 10% budget flexibility; quarterly reporting already in ED workplan\n- **Enrollment shortfall:** Pre-registration opened March 5; 32 committed families as of March 10; minimum viable = 20\n\n**Transition:** \"Youth and families have spoken\u2014listen to their voices.\"\n\n---\n\n### **Section: Community Feedback**\n\n**Quote (on screen):**  \n*\"My daughter lights up on art days. Saturday classes mean she doesn't lose her crew when school's out.\"*  \n\u2014 Maria Torres, parent of participant Jasmine T. (Feb 2026 focus group)\n\n**Youth Advisory Council:** Unanimous endorsement Feb 28; prioritized Saturday over summer expansion\n\n**Program Committee:** Reviewed pilot design March 5; recommended board approval with reserve bridge\n\n---\n\n## 4) FINANCIAL SUMMARY\n\n*(Integrated into Section: Budget & Capacity above)*\n\n---\n\n## 5) ANTICIPATED QUESTIONS\n\n**Risk:**  \n*What if we can't hire by April 1?*  \nBackup: Three vetted teaching artists from 2025 summer roster; contract freelance until permanent hire secured (pipeline active since Feb 15).\n\n**Equity/access:**  \n*How do we ensure Saturdays don't just serve already-enrolled families?*  \n50% of slots reserved for waitlist families; priority enrollment for South End zip codes (63% low-income per 2025 census).\n\n**Sustainability:**  \n*What happens after 6 months when grant ends?*  \nPilot includes Sept evaluation; if enrollment >80% capacity, build into FY2027 budget; seek renewal or pivot to fee-sliding model.\n\n**Governance/process:**  \n*Did Youth Advisory Council weigh in?*  \nYes\u2014unanimous endorsement Feb 28; prioritized this over summer expansion due to school-year need.\n\n**Financial exposure:**  \n*What's our liability if City Arts Council denies the $5K?*  \nSingle-site model (Option B) eliminates gap entirely; still serves 25 teens vs. current zero on Saturdays.\n\n**Community impact:**  \n*How do we measure success beyond enrollment?*  \nTracking: attendance rates, family retention into fall, youth self-reported creative confidence (pre/post survey, used since FY2024).\n\n**Implementation capacity:**  \n*Can current Ops staff handle 0.25 FTE hire logistics?*  \nYes\u2014payroll template from 2025 summer hires; Ops Manager confirms readiness; setup complete by March 25.\n\n---\n\n## 6) PRESENTATION FLOW ELEMENTS\n\n### **Transition Lines**\n- Opening \u2192 Rationale: *\"Let me show you the data behind this opportunity.\"*\n- Rationale \u2192 Budget: *\"Demand is clear\u2014now let's examine how we resource it responsibly.\"*\n- Budget \u2192 Risks: *\"Expansion brings risk\u2014here's how we're mitigating.\"*\n- Risks \u2192 Community: *\"Youth and families have spoken\u2014listen to their voices.\"*\n- Community \u2192 Closing: *\"This is our moment to act.\"*\n\n### **Visual Cues**\n\n| On Screen | Spoken Only |\n|-----------|-------------|\n| Waitlist graph (29 avg) | FY2025 Q2 survey methodology |\n| Budget table (3 options) | Newsletter redesign deferral |\n| Maria Torres quote | Youth Advisory vote count |\n| Next steps timeline | Greenfield Foundation relationship history |\n\n### **Human Element**\n**Story (spoken):**  \nJasmine T., age 14, joined fall 2025 after 6-month wait. Now leads peer mural project. Mother Maria (Feb focus group): *\"Saturday classes mean she doesn't lose her crew when school's out\u2014keeps her grounded.\"* Family can't do weekday 4pm pickup due to shift work.\n\n---\n\n## 7) BOARD DYNAMICS MANAGEMENT\n\n**Invite quieter voices:**  \n- After Budget section: *\"Jamal, as Youth Advisory alum, what resonates from your experience?\"*  \n- Before vote: *\"Ms. Chen, does the Treasurer lens surface concerns we haven't addressed?\"*\n\n**If Raj Patel (Treasurer) dominates:**  \n*\"Raj, appreciate your diligence\u2014these details belong in Finance Committee. Today we need policy-level decision on pilot approval. Let's table grant reporting clauses.\"*\n\n**Defer to committee/staff:**  \n- Payroll setup mechanics \u2192 Ops Manager post-meeting  \n- Grant compliance checklist \u2192 Treasurer + ED offline  \n- Volunteer background check updates \u2192 Program Manager via email\n\n**Read-the-room cues:**  \nIf >3 finance questions: *\"Hearing strong interest in fiscal details\u2014let's park for Finance deep-dive next week. Today: do we proceed with pilot concept?\"*\n\n---\n\n## 8) CLOSING (30 seconds)\n\n**Recap:**\n- Clear demand: 64% family preference + 29-youth waitlist + Youth Advisory endorsement\n- Time-bound pilot: 6 months with built-in evaluation; grant expires June 30\n- Small funding gap: $2,800 bridge from reserves; Option B eliminates gap if needed\n\n**Restate ask:**  \nMotion to approve 6-month Saturday Arts Pilot (April\u2013Sept 2026) and accept $35,000 Greenfield Foundation restricted grant; authorize 0.25 FTE teaching artist hire.\n\n**Decision timeline:**  \nVote today (March 12) to enable grant signature by deadline (March 15).\n\n**Next steps:**\n\n| Action | Owner | Date |\n|--------|-------|------|\n| Sign grant agreement | ED (Aisha Grant) | March 15 |\n| Complete payroll setup | Ops Manager | March 25 |\n| Hire teaching artist | Program Manager | April 1 |\n| Launch pilot | Program team | April 5 |\n\n---\n\n## 9) PARKING LOT\n\n**Deferred to staff/committees:**\n1. **Grant compliance checklist** \u2014 Treasurer + ED (offline by March 20)\n2. **Payroll setup mechanics** \u2014 Operations Manager (complete by March 25)\n3. **Volunteer background check policy update** \u2014 Program Manager (email to board April 1)\n4. **Newsletter redesign timeline** \u2014 Communications Committee (revisit Q4)\n5. **Fall evaluation framework** \u2014 Program Committee (design by July)\n\n---\n\n## OUTPUT QUALITY CHECKLIST \u2713\n\n- [x] Fits 15-minute allocation (4+4+3+2+2)\n- [x] Clear ask: approve pilot, grant, 0.25 FTE\n- [x] Decision timeline: 3/12 vote for 3/15 signature\n- [x] **3+ concrete metrics:**\n  - 64% Saturday preference (FY2025 Q2 survey)\n  - 29 avg waitlist (Jan\u2013Mar 2026)\n  - 32 pre-registered families (as of March 10)\n- [x] Realistic capacity notes: ED coverage, newsletter pause, backup teaching artists\n- [x] Human story: Jasmine T. + Maria Torres quote (Feb 2026)\n- [x] 7 hardest questions with evidence-based answers\n- [x] Next steps with owners and dates\n\n---\n\n**TONE: WARM**  \nCollaborative, community-centered, data-grounded, realistic about constraints, confident in mission alignment.",
+      "timestamp": "2025-11-02T13:18:15.287252Z",
+      "duration_seconds": 59.13,
+      "tokens": {
+        "input": 1437,
+        "output": 2475,
+        "total": 3912
+      },
+      "cost_usd": 0.041436,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong output that demonstrates deep understanding of nonprofit board dynamics and presentation best practices. It successfully balances warmth with professionalism, provides concrete data points, and anticipates real governance concerns. The structure is immediately usable with minimal adaptation needed.",
+        "strengths": [
+          "Excellent tone calibration\u2014warm and mission-centered while maintaining professional rigor; the language feels authentic to small nonprofit culture",
+          "Outstanding anticipation of board dynamics, particularly the specific guidance on managing dominant voices and inviting quieter members with named individuals",
+          "Strong use of concrete, realistic metrics (64% preference, 29 waitlist, $2,800 gap) with proper sourcing and timeframes throughout",
+          "Exceptional scenario planning in budget section\u2014three options with clear trade-offs that respect board decision-making authority",
+          "Practical capacity acknowledgments (ED covering Saturdays, newsletter pause) that demonstrate organizational self-awareness",
+          "Well-structured visual cues table distinguishing on-screen vs. spoken content\u2014highly actionable for presenter preparation",
+          "Compelling human element with Jasmine T. story that feels authentic and mission-connected without being manipulative",
+          "Realistic parking lot items that show understanding of what belongs in board vs. staff/committee domains",
+          "Perfect time allocation for 15-minute constraint with built-in Q&A pauses"
+        ],
+        "weaknesses": [
+          "Minor redundancy between Section 3 'Budget & Capacity' and Section 4 'Financial Summary'\u2014the note '(Integrated into Section: Budget & Capacity above)' acknowledges this but could have been cleaner in initial structure",
+          "The 'Community Feedback' section feels slightly thin for a 2-minute allocation\u2014could have included one more data point or youth voice",
+          "Some transition lines are slightly generic ('Let me show you the data')\u2014though others are excellent ('This is our moment to act')"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Southside Youth Arts Collective \u2014 Board Presentation Talking Points\nTopic: Approve Saturday Arts Pilot and restricted grant acceptance | Date: March 12, 2026\nPresenter: Aisha Grant, Executive Director | Reviewed by: Program Committee; Youth Advisory Council\n\n1) Opening Frame (30 seconds)\n- Mission anchor: Weekend arts access for Southside teens; safer, joyful creative space\n- Urgency: FY2025 demand spike; grant sign-by 3/15/26; summer timeline window\n- Clear ask: Board DECISION\u2014approve 6\u2011month Saturday pilot, accept $35k grant, authorize 0.25 FTE\n\n2) Agenda Overview (15 minutes total)\n- Pilot Rationale (4 min) + 1 min Q&A\n- Budget & Capacity (4 min) + 1 min Q&A\n- Risks & Mitigations (2 min) + 1 min Q&A\n- Community Feedback (1 min) + 30 sec Q&A\n- Closing and motion (30 sec)\n\n3) Section Content Bullets\nSection: Pilot Rationale\n\u2022 Saturday arts pilot meets unmet demand; deepens neighborhood youth engagement\n\u2022 FY2025 Q2 survey: 64% prefer Saturdays; waitlist averaged 29 youth/Q2\u2013Q3\n\u2022 Reach 45 additional teens/semester; safer weekend options; arts access equity\n\nSection: Budget & Capacity\n\u2022 6\u2011month pilot cost $42,800; restricted grant covers most needs\n\u2022 Secured $35,000; pending $5,000 (City Micro\u2011Grant, notification by 4/10/26)\n\u2022 Authorize 0.25 FTE; pause newsletter redesign; ED covers 2 Saturdays/month\n\nSection: Risks & Mitigations\n\u2022 Manageable risks: staffing, safety, space; clear protocols and backups\n\u2022 Two CPR\u2011certified TAs lined up; background checks current; site MOU in draft\n\u2022 Low financial exposure; time\u2011bound pilot; defined exit/scale criteria\n\nSection: Community Feedback\n\u2022 Youth and families asked for Saturdays; co-designed schedule and courses\n\u2022 Youth Advisory Council Jan 2026: 10/12 in favor; three parent focus groups\n\u2022 Culturally responsive classes; transit stipends; parent volunteer roster\n\n4) Financial Summary\n- Budget impact: $42,800 for 6 months\n- Funding status: Secured $35,000; pending $5,000; gap $2,800\n- If gap\u2014scenarios with trade-offs\n  \u2022 Option A: Two sites May\u2013Oct; more reach/more strain; higher logistics risk\n  \u2022 Option B: Single site launch; manageable staffing; fewer seats; simpler ops\n  \u2022 Option C: Delay to fall; no strain now; lose momentum; grant at risk\n- Capacity note: Add 0.25 FTE; pause newsletter redesign; ED covers 2 Saturdays/month\n\n5) Anticipated Questions\n- Risk: Safety plan? Two staff/security 1:10; sign-in/out; incident protocol; weekday-tested FY2025\n- Equity/access: Affordability? Sliding scale $0\u2013$25; 20 transit stipends/semester; 30 reserved seats\n- Sustainability: Post\u2011pilot? August decision gate; cost/student ~$475; three renewal prospects identified\n- Governance/process: Strategic fit? Aligns to Goal 2.1 access equity (Board\u2011approved 6/2024)\n- Financial exposure: Worst case? $2,800 gap + ~$1,200 close\u2011out; covered by board reserve policy\n- Community impact: Outcomes? 45 teens/semester; attendance + arts self\u2011efficacy pre/post (FY2025 tool)\n- Implementation capacity: Can team deliver? 0.25 FTE hire; TA bench of 6; paused nonessentials\n\n6) Presentation Flow Elements\n- Transitions: \u201cWhy Saturdays\u201d \u2192 \u201cWhat it takes\u201d \u2192 \u201cHow we manage risk\u201d \u2192 \u201cWhat youth said\u201d\n- Visual cues: ON SCREEN\u2014data charts, budget table, options; SPOKEN\u2014asks, mitigations, story\n- Human element: \u201cSaturdays mean I don\u2019t have to choose work over art.\u201d \u2014 A., 16, Winter Studio, Jan 2026\n\n7) Board Dynamics Management\n- Invite quieter voices: After Budget\u2014Youth Alum Jamal R.; then Treasurer Ms. Chen\n- If Treasurer dominates: Appreciate diligence; refer details to Finance; return to today\u2019s decision\n- Defer to committee/staff on: Payroll setup; grant reporting clauses; volunteer background checks\n- Read-the-room cues: If >3 finance questions, park items; move to motion and vote\n\n8) Closing (30 seconds)\n- Recap: Clear demand and mission fit; time\u2011bound pilot with metrics; small, covered gap\n- Restate ask: Motion\u2014approve 6\u2011month Saturday pilot; accept $35k restricted grant; authorize 0.25 FTE\n- Decision timeline: Vote 3/12/2026; sign grant by 3/15/2026\n- Next steps/owners: ED sign grant 3/15; Program Mgr hire teaching artist 4/1; Ops set payroll 3/25\n\n9) Parking Lot\n- Grant compliance checklist\u2014Treasurer\n- Payroll setup details\u2014Operations Manager\n- Volunteer MOUs and background checks\u2014Program Manager\n- Space\u2011sharing MOU with Library\u2014Executive Director",
+      "timestamp": "2025-11-02T13:18:18.624369Z",
+      "duration_seconds": 62.47,
+      "tokens": {
+        "input": 1250,
+        "output": 4273,
+        "total": 5523
+      },
+      "cost_usd": 0.067845,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong output that demonstrates deep understanding of nonprofit board dynamics and presentation best practices. It balances warmth with professionalism, provides concrete data points with sources, and anticipates real governance concerns. The talking points are actionable, realistic about capacity constraints, and mission-centered\u2014exactly what a small nonprofit ED would need.",
+        "strengths": [
+          "Perfect tone calibration: warm but professional, with authentic nonprofit language ('sliding scale,' 'transit stipends,' 'board reserve policy') that avoids jargon",
+          "Excellent specificity: every metric includes source and timeframe (FY2025 Q2, Jan 2026), dollar amounts are precise, and capacity trade-offs are honest ('pause newsletter redesign')",
+          "Outstanding board dynamics section: realistic strategies for managing dominant voices, inviting youth perspectives, and reading the room\u2014shows deep sector knowledge",
+          "Strong risk management: anticipated questions cover all governance bases (safety, equity, sustainability, financial exposure) with evidence-based responses",
+          "Authentic human element: the youth quote is brief, attributed, and emotionally resonant without being manipulative",
+          "Practical presentation flow: clear ON SCREEN vs. SPOKEN guidance helps presenter avoid reading slides",
+          "Realistic capacity acknowledgment: explicitly names what will pause (newsletter) and ED coverage\u2014refreshingly honest for nonprofit context",
+          "Time management: agenda breakdown totals exactly 15 minutes with Q&A pauses, showing attention to detail"
+        ],
+        "weaknesses": [
+          "Minor completeness gap: Section 4 'Financial Summary' repeats the budget scenarios verbatim from the template rather than fully integrating them into the narrative flow\u2014feels slightly formulaic",
+          "The 'Community Feedback' section (added as optional 4th section) compresses important co-design details into 1 minute, which may feel rushed given its equity importance",
+          "Parking Lot adds a 4th item (Space-sharing MOU) not in the original template values\u2014while realistic, it's a minor deviation from strict prompt adherence"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## CASC Board Presentation Talking Points: 2026 Annual Conference Venue Contract & Pricing Approval\n\n**Total Presentation Time:** 30 minutes\n**Primary Goal:** DECISION\n**Key Decision Needed:** Approve $162,000 venue contract and tiered pricing; authorize 25% deposit\n**Presenter:** Daniela Ruiz, Executive Director\n**Reviewed by:** Finance & Events Committee; Audit Chair\n\n---\n\n### 1) Opening Frame (30 seconds spoken)\n\n\u201cBoard, our mission is to empower school counselors across Colorado. Approving this venue contract and pricing ensures we deliver a high-impact 2026 Annual Conference, critical for skill development and building a robust network when our schools need us most. We\u2019ve secured a prime location, but our hold expires 4/25. **We need the board to DECIDE on approving the venue contract, the proposed pricing tiers, and authorizing the 25% deposit today.**\u201d\n\n### 2) Agenda Overview (2 minutes)\n\n*   **Attendance Trends & Equity:** (5 minutes + Q&A)\n*   **Financial Projections & Gap Closure:** (8 minutes + Q&A)\n*   **Venue & Risk Mitigation:** (6 minutes + Q&A)\n*   **Sponsor Strategy & Capacity:** (4 minutes + Q&A)\n*   **Closing & Decision:** (5 minutes)\n\n### 3) Section Content Bullets\n\n**Section: Attendance Trends & Equity (5 minutes)**\n\n*   Downtown venue boosts access for urban/suburban, improves transportation.\n*   FY2024 post-survey: 912 attendees; 27% rural; 14% scholarships (latest quarter).\n*   More counselors trained statewide; equity gains via tiered pricing, scholarships.\n\n*(Q&A Pause: \u201cLet\u2019s pause for any questions on attendance trends and accessibility improvements.\u201d)*\n\n**Section: Financial Projections & Gap Closure (8 minutes)**\n\n*   Careful management of expenses, max revenue generation.\n*   Tiered pricing balances affordability for small districts, value for large.\n*   Financial model ensures long-term conference sustainability.\n\n*(Q&A Pause: \u201cHappy to answer any questions on the financial model or pricing structure.\u201d)*\n\n**Section: Venue & Risk Mitigation (6 minutes)**\n\n*   Detailed contract review ensures favorable cancellation, force majeure terms.\n*   Venue meets all accessibility standards, security protocols.\n*   Provides robust, flexible space for diverse programming and networking.\n\n*(Q&A Pause: \u201cAny questions regarding the venue specifics or our risk mitigation strategies?\u201d)*\n\n**Section: Sponsor Strategy & Capacity (4 minutes)**\n\n*   Strong sponsor pipeline, new partnership opportunities identified.\n*   Events team fully equipped with enhanced processes.\n*   Sustainable event planning supports year-round CASC programs.\n\n*(Q&A Pause: \u201cBefore we move to the decision, any final questions on sponsorship or our team\u2019s capacity?\u201d)*\n\n### 4) Financial Summary\n\n*   **Budget Impact:** $162,000 contract; October 2026 event; 25% deposit ($40,500) due 5/1/2026.\n*   **Funding Status:** Sponsorship secured $98,500; pending $40,000 from two new partners; gap $23,500.\n*   **If Gap:**\n    *   **Option A:** Raise nonmember rate by $40. Trade-off: +$28k potential revenue, risk of lower nonmember turnout.\n    *   **Option B:** Reduce AV package by $12k (e.g., fewer large screens). Trade-off: Saves $12k, potential quality impact on presentations.\n    *   **Option C:** Cap scholarships at 10% of attendance vs. 14%. Trade-off: Saves $10k, negative equity impact on rural/under-resourced counselors.\n\n*   **Capacity Note:** Events team 1.5 FTE; will pause member webinars Sept\u2013Oct 2026; temporary registration support budgeted (late Q3 FY2026).\n\n### 5) Anticipated Questions (5\u20137)\n\n*   **Risk:** \"What if attendance is lower than projected?\" \u2013 Model includes 15% attrition contingency; FY2024 attendance exceeded projection by 8%.\n*   **Equity/Access:** \"Are scholarship funds sufficient for rural counselors?\" \u2013 We\u2019ve increased scholarship budget by 20% compared to FY2024; tiered pricing helps.\n*   **Sustainability:** \"How does this conference impact CASC's overall financial health?\" \u2013 Generates 35% of annual unrestricted revenue; supports ongoing programs.\n*   **Governance/Process:** \"Has the Finance Committee fully reviewed these terms?\" \u2013 Yes, committee reviewed and recommended approval yesterday, 4/22/26.\n*   **Financial Exposure:** \"What are the cancellation penalties?\" \u2013 Full refund (minus $5k admin fee) up to 180 days prior; 50% refund after that, per signed terms.\n*   **Community Impact:** \"How does this specific venue benefit our members?\" \u2013 Central downtown location reduces travel time for 60% of members (FY2024 survey); boosts networking.\n*   **Implementation Capacity:** \"Can our current team handle this large event?\" \u2013 Yes, with strategic pauses (webinars Sept-Oct) and temporary support; processes optimized after FY2024.\n\n### 6) Presentation Flow Elements\n\n*   **Transition Lines:**\n    *   **(After opening frame):** \"To ensure we make an informed decision, let's first look at how this conference continues to align with our commitment to broad accessibility and member engagement.\"\n    *   **(After Attendance Trends & Equity):** \"Now, let\u2019s dive into the financial framework that makes this high-impact conference possible, ensuring fiscal responsibility.\"\n    *   **(After Financial Projections & Gap Closure):** \"Beyond the numbers, securing the right venue involves careful risk assessment and ensuring an optimal experience for attendees.\"\n    *   **(After Venue & Risk Mitigation):** \"A successful conference also relies heavily on strong partnerships and the dedicated work of our team; let's discuss our sponsor strategy and capacity.\"\n    *   **(Before closing):** \"Thank you for these insightful questions and discussions. We've covered the critical aspects of the proposed 2026 conference.\"\n\n*   **Visual Cues:**\n    *   **(ON SCREEN):** Agenda, key attendance metrics (charts), financial summary table (secured/pending/gap), venue photos/floorplan, risk matrix.\n    *   **(SPOKEN ONLY):** Detailed examples, anecdotes, specific contract clause numbers, background on partner discussions.\n\n*   **Human Element:** \"Just last month, Amelia Lopez, a rural counselor from Moffat, shared how attending the conference was the 'only way she could access much-needed resources and connect with colleagues facing similar challenges.' This venue and our pricing will help more Amelias.\" (Feb 2026 post-conference focus group)\n\n### 7) Board Dynamics Management\n\n*   **Invite quieter voices:** \"Kim, as our Rural Representative, what\u2019s your perspective on the proposed pricing tiers and their impact on counselors in your region?\" (After Equity section). \"Before we move to a vote, I\u2019d specifically appreciate Treasurer John Chen's final thoughts on the financial implications.\"\n*   **If Dr. Marcus Harris\u2014Past President dominates:** \"Dr. Harris, your insights are invaluable. For the sake of time, could we park any proposed structural policy changes for the Governance Committee's next agenda? We need to focus on this immediate contract decision.\"\n*   **Defer to committee/staff on:**\n    *   Force majeure and cancellation details (Defer to legal counsel analysis, per Finance Committee review).\n    *   Accessibility compliance specifics (Refer to Events Manager's detailed report).\n    *   Scholarship criteria adjustments (Refer to CASC Scholarship Committee for final policy on new funding).\n*   **Read-the-room cues:** If debate on Gap Option A (nonmember rate) exceeds 10 minutes, \"I call the question for now on proceeding with Option A for the financial gap,\" or \"Let\u2019s park the specific AV component discussion and affirm the overall budget, ensuring we move forward with the venue.\"\n\n### 8) Closing (30 seconds)\n\n\"In summary, this proposal ensures enhanced access and equity, presents a balanced budget with clear contingencies, and mitigates contract risks effectively. **We ask the board to approve the 2026 Annual Conference venue contract, the proposed tiered pricing, and authorize the 25% deposit.** Your approval today, April 23rd, is crucial to meet the venue hold expiration of April 25th. Next steps: I\u2019ll sign the contract April 24th, Treasurer will send the deposit April 25th, and Events will open registration June 1st.\"\n\n### 9) Parking Lot (3\u20135 items)\n\n*   Scholarship policy review for FY2027\u2014Governance Chair\n*   Targeted AV sponsor ask for next year\u2014Development Director\n*   Detailed accessibility audit follow-up for future venues\u2014Events Manager",
+      "timestamp": "2025-11-02T13:18:28.693232Z",
+      "duration_seconds": 10.06,
+      "tokens": {
+        "input": 1376,
+        "output": 1986,
+        "total": 3362
+      },
+      "cost_usd": 0.001398,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly professional, well-structured board presentation that demonstrates strong understanding of nonprofit governance. It successfully balances formality with accessibility, includes concrete data points, and anticipates realistic board dynamics. Minor weaknesses include some deviation from the strict bullet-fragment format and a few sections that could be more concise.",
+        "strengths": [
+          "Excellent opening frame with clear mission anchor, urgency (venue hold expires 4/25), and specific ask that immediately orients the board",
+          "Strong financial transparency with realistic gap scenarios and clear trade-offs (Option A/B/C) that enable informed decision-making",
+          "Sophisticated board dynamics management including specific strategies for inviting quieter voices (Kim Lee, Treasurer John Chen) and redirecting dominant voices (Dr. Harris)",
+          "Authentic human element with specific beneficiary quote from Amelia Lopez (Feb 2026) that grounds the decision in mission impact",
+          "Practical visual cues distinguishing what's on-screen vs. spoken-only, preventing slide-reading",
+          "Comprehensive anticipated questions with evidence-based responses citing specific metrics and timeframes",
+          "Clear next steps with owners and dates (ED sign 4/24, Treasurer deposit 4/25, registration 6/1)",
+          "Realistic capacity notes acknowledging team constraints (1.5 FTE, pausing webinars Sept-Oct)"
+        ],
+        "weaknesses": [
+          "Opening frame violates the 'bullets only' instruction by using full sentences instead of fragments, though this may be intentional for the spoken opening",
+          "Section content bullets sometimes exceed the 10-15 word guideline (e.g., 'FY2024 post-survey: 912 attendees; 27% rural; 14% scholarships (latest quarter)' is appropriate length, but some others are wordier)",
+          "Financial Projections section bullets are somewhat generic ('Careful management of expenses, max revenue generation') compared to the specific, metric-driven approach in other sections",
+          "Total word count appears to exceed the 400-500 word target, potentially making it harder to use as quick-reference talking points",
+          "The 'latest quarter' reference in the FY2024 metric is slightly confusing since it's a post-survey from a completed fiscal year"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Opening Frame (30 seconds)\n- Mission anchor: Grow counselor capacity statewide to improve student mental health outcomes.\n- Urgency: Venue hold expires 4/25; early-bird build needs May contract to launch.\n- Clear ask: We need the board to DECIDE on contract, pricing tiers, and deposit authorization.\n\n2) Agenda Overview (total 30 minutes; Q&A after each section)\n- Attendance Trends & Equity \u2014 7.5 minutes (incl. 2 min Q&A)\n- Financial Projections \u2014 8 minutes (incl. 3 min Q&A)\n- Venue & Risk Mitigation \u2014 8 minutes (incl. 3 min Q&A)\n- Sponsor Strategy \u2014 6.5 minutes (incl. 2 min Q&A)\n\n3) Section Content Bullets\nSection: Attendance Trends & Equity\n\u2022 Downtown venue boosts access; tiered pricing protects affordability and margin.\n\u2022 FY2024 post-survey: 912 attendees; 27% rural; 14% scholarships used (Oct 2024).\n\u2022 More counselors trained statewide; equity gains; supports year-round programs.\n\nSection: Financial Projections\n\u2022 Price tiers: Member Early $245; Member Standard $295; Nonmember $375; Student $135.\n\u2022 Q1 FY2026 dashboard: 11% list growth; 18% repeat rate uptick vs. FY2024.\n\u2022 Balanced plan with contingency; preserves scholarships; funds critical PD content.\n\nSection: Venue & Risk Mitigation\n\u2022 Downtown Denver venue: light rail access; ADA-certified; union-inclusive AV terms.\n\u2022 Contract cap: 10% F&B attrition; 80% room block; 24-month force majeure (legal review).\n\u2022 Reduce cancellation exposure; protect attendee experience; clear contingency triggers.\n\nSection: Sponsor Strategy\n\u2022 Secure anchor sponsors; align with MTSS, SEL, and college access strands.\n\u2022 Pipeline: $98.5k secured; $40k verbal; close by 5/31 (CRM, Jan\u2013Mar 2026).\n\u2022 Offset AV/F&B inflation; preserve member pricing; add equity travel grants.\n\n4) Financial Summary\n- Budget impact: $162,000 venue contract; October 2026 event; 25% deposit due 5/1/2026.\n- Funding status: Sponsorship secured $98,500; pending $40,000; gap $23,500.\n- Gap scenarios with trade-offs\n  \u2022 Option A: Raise nonmember +$40; +$28k; risk modest nonmember drop (-3\u20135%).\n  \u2022 Option B: Reduce AV package; save $12k; quality risk for hybrid/recordings.\n  \u2022 Option C: Cap scholarships at 12%; save $10k; equity impact for rural/Title I.\n- Capacity note: Events team 1.5 FTE; pause member webinars Sept\u2013Oct; temp reg support.\n\n5) Anticipated Questions\n- Risk: What if attendance softens? Conservative break-even at 780; FY2024 actual 912.\n- Equity/access: Will rural counselors be priced out? 75 travel scholarships; 20 virtual seats (FY2026 plan).\n- Sustainability: Why downtown cost? Transit access increased rural attendance 9% in 2024 (post-survey).\n- Governance/process: Who reviewed terms? Finance & Events Committee and Audit Chair, April 2026.\n- Financial exposure: Worst-case liability? 20% cancellation cap; rebook clause; insurance rider (broker, Mar 2026).\n- Community impact: How many served? 1,000 counselor target; impacts ~250k students (ASCA counselor ratios, 2025).\n- Implementation capacity: Can staff deliver? Detailed run-of-show; temps sourced; vendor SLAs in place.\n\n6) Presentation Flow Elements\n- Transitions: From who attends to how we fund; from dollars to risks; from risks to sponsors.\n- Visual cues: On screen\u2014charts, pricing table, timeline; Spoken\u2014contract protections, contingencies, quotes.\n- Human element: \u201cTravel stipend made it possible for me to attend from Alamosa.\u201d \u2014 Maria G., Oct 2024.\n\n7) Board Dynamics Management\n- Invite quieter voices: After Equity section invite Rural Rep Kim Lee; before vote ask Treasurer.\n- If Dr. Marcus Harris dominates: Acknowledge; timebox; move policy proposals to Governance agenda.\n- Defer to committee/staff on: Force majeure/cancellation; accessibility compliance; scholarship criteria.\n- Read-the-room cues: If debate >10 minutes, call question on pricing; park AV specs.\n\n8) Closing (30 seconds)\n- Recap: Access and equity improve; balanced budget with contingencies; contract risks mitigated.\n- Restate ask: Approve venue contract and tiered pricing; authorize 25% deposit.\n- Decision timeline: Vote 4/23 to hold venue before 4/25 expiration.\n- Next steps/owners: ED sign 4/24; Treasurer send deposit 4/25; Events open registration 6/1.\n\n9) Parking Lot\n- Scholarship policy review \u2014 Governance Chair.\n- AV sponsor ask \u2014 Development Director.\n- Accessibility audit \u2014 Events Manager.\n- Hybrid streaming feasibility \u2014 IT lead.",
+      "timestamp": "2025-11-02T13:19:18.416672Z",
+      "duration_seconds": 59.79,
+      "tokens": {
+        "input": 1289,
+        "output": 3256,
+        "total": 4545
+      },
+      "cost_usd": 0.052707,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly polished, board-ready document that demonstrates strong command of nonprofit governance practices. It balances formal financial decision-making with mission-centered framing, includes concrete metrics with proper attribution, and anticipates realistic board dynamics. Minor weaknesses include slightly generic transitions and one overly optimistic capacity claim.",
+        "strengths": [
+          "Excellent financial transparency with three realistic budget scenarios including specific trade-offs (Option A: +$28k vs. nonmember risk; Option B: $12k savings vs. quality; Option C: $10k vs. equity impact)",
+          "Strong concrete metrics with proper sourcing throughout (FY2024 post-survey: 912 attendees, 27% rural, 14% scholarships; Q1 FY2026: 11% list growth, 18% repeat uptick)",
+          "Sophisticated board dynamics management that names specific members and situations (Dr. Marcus Harris redirect strategy; inviting Rural Rep Kim Lee after Equity section)",
+          "Realistic capacity acknowledgment (1.5 FTE Events team; pausing member webinars Sept-Oct; temp registration support)",
+          "Practical risk mitigation details that show actual contract review (10% F&B attrition cap; 80% room block; 24-month force majeure; legal review noted)",
+          "Authentic human element with attributed beneficiary quote (Maria G., Alamosa, Oct 2024)",
+          "Clear decision urgency tied to real deadline (venue hold expires 4/25; deposit due 5/1)",
+          "Comprehensive anticipated questions with evidence-based responses including conservative break-even analysis (780 vs. 912 actual)"
+        ],
+        "weaknesses": [
+          "Transition lines in Section 6 are somewhat generic ('From who attends to how we fund') compared to the specificity elsewhere\u2014could be more substantive bridges",
+          "The capacity note claims 'detailed run-of-show; temps sourced; vendor SLAs in place' which may be overly confident for a contract not yet approved\u2014creates potential credibility gap",
+          "Parking Lot adds 'Hybrid streaming feasibility\u2014IT lead' not mentioned in scenario data, though this is a minor addition that's contextually reasonable"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# BOARD PRESENTATION TALKING POINTS\n**Colorado Association of School Counselors**  \nFinance & Events Committee | April 23, 2026  \n**Presenter:** Daniela Ruiz, Executive Director  \n**Topic:** 2026 Annual Conference Venue Contract & Pricing Approval\n\n---\n\n## 1) OPENING FRAME (30 seconds)\n\n**Mission anchor:**  \nDowntown Denver venue expands access to professional development for rural and urban counselors\u2014directly supporting our mission to strengthen school counseling statewide.\n\n**Urgency:**  \nVenue hold expires 4/25/2026; competing association bidding same dates.\n\n**Clear ask:**  \nBoard approve $162,000 venue contract, tiered pricing structure, and authorize 25% deposit.\n\n---\n\n## 2) AGENDA OVERVIEW\n\n| **Section** | **Minutes** | **Q&A Pause** |\n|-------------|-------------|---------------|\n| Attendance Trends & Equity | 6 min | Yes |\n| Financial Projections | 8 min | Yes |\n| Venue & Risk Mitigation | 7 min | Yes |\n| Sponsor Strategy | 4 min | Yes |\n| Board Discussion & Vote | 5 min | \u2014 |\n\n**Total: 30 minutes**\n\n---\n\n## 3) SECTION CONTENT BULLETS\n\n### **Section: Attendance Trends & Equity**\n- FY2025 conference: 912 attendees; 27% rural districts; 14% scholarship recipients (post-event survey)\n- Downtown location reduces travel barriers; light rail access from 40+ districts\n- Equity goal: Increase rural participation to 32%; scholarship uptake to 18% by FY2027\n\n**ON SCREEN:** Map showing light rail routes to venue; rural attendee growth chart  \n**Spoken only:** \"Counselor from Alamosa shared: 'First conference I didn't need overnight childcare\u2014saved $280.'\" (FY2025 survey, March 2025)\n\n---\n\n### **Section: Financial Projections**\n- Contract total: $162,000 (venue, AV, catering); October 17\u201319, 2026\n- Revenue model: 950 projected attendees \u00d7 tiered rates = $224,000\n- Net margin: $62,000 funds year-round webinar series and rural district outreach\n\n**Pricing tiers:**\n- Members early: $195 (target 60%)\n- Members standard: $235\n- Nonmembers: $325 (15% premium maintains member value)\n- Scholarships: $50 sliding scale (budget 150 slots)\n\n**ON SCREEN:** Revenue waterfall chart; break-even at 724 attendees  \n**Spoken only:** FY2024\u20132025 avg attendance growth 8%; conservative projection 4%\n\n---\n\n### **Section: Venue & Risk Mitigation**\n- Colorado Convention Center: 1,200 capacity; ADA compliant; parking $12/day vs. $28 suburban\n- Force majeure clause protects 80% deposit if cancellation beyond our control\n- Cancellation ladder: 120+ days = 25% penalty; 60\u2013119 days = 50%; <60 days = 100%\n\n**ON SCREEN:** Contract key terms summary; cancellation timeline visual  \n**Spoken only:** Legal counsel reviewed; aligns with peer association standard practice (ASCA, NACAC benchmarks)\n\n---\n\n### **Section: Sponsor Strategy**\n- Secured: $98,500 (5 platinum partners; signed MOUs March 2026)\n- Pending: $40,000 (3 gold prospects; verbal commits; contracts by 5/15/2026)\n- Gap: $23,500 covered by general fund reserve; replenished via registration revenue\n\n**Contingency if pending falls through:**\n- Option A: Raise nonmember rate $40 \u2192 +$28,000 revenue; risk 8% nonmember drop-off\n- Option B: Reduce AV package (no livestream) \u2192 save $12,000; limits virtual access\n- Option C: Cap scholarships at 100 \u2192 save $10,000; equity impact contradicts mission\n\n**Recommendation:** Proceed with full plan; activate Option A only if <$30K secured by 6/1/2026\n\n**ON SCREEN:** Sponsor commitment tracker; gap-closing scenario table  \n**Spoken only:** Events Director monitoring weekly pipeline; Board update 5/28/2026\n\n---\n\n## 4) FINANCIAL SUMMARY\n\n**Budget impact:**  \n- Total contract: $162,000\n- 25% deposit ($40,500) due 5/1/2026\n- Balance ($121,500) due 9/1/2026\n\n**Funding status:**  \n- Sponsorship secured: $98,500\n- Sponsorship pending: $40,000\n- Registration projected: $224,000\n- **Gap:** $23,500 from general reserve (replenished Q4 FY2026)\n\n**Capacity note:**  \n- Events team: 1.5 FTE (Director + 0.5 Coordinator)\n- Pause monthly member webinars Sept\u2013Oct 2026\n- Temporary registration support contractor (15 hrs/week Aug\u2013Oct; $6,000 budgeted)\n\n---\n\n## 5) ANTICIPATED QUESTIONS\n\n**Risk:**  \n*\"What if attendance drops post-pandemic?\"*  \nFY2024 in-person +12% vs. FY2023; FY2025 +8%; hybrid model failed (9% virtual uptake, high tech costs).\n\n**Equity/access:**  \n*\"How do scholarships reach rural counselors?\"*  \nPartner with BOCES networks; direct email 180 rural districts; application auto-approved <$45K salary (IRS 990 data).\n\n**Sustainability:**  \n*\"Why not rotate venues to control costs?\"*  \nDowntown accessibility drives 18% higher rural turnout vs. suburban venues (FY2022\u20132025 comparison); mission-aligned trade-off.\n\n**Governance/process:**  \n*\"Did Finance Committee vet this?\"*  \nYes\u2014unanimous recommendation 4/9/2026; Audit Chair reviewed contract terms 4/15/2026.\n\n**Financial exposure:**  \n*\"What's maximum loss scenario?\"*  \nIf canceled <60 days: lose $162,000 contract + $18,000 sunk marketing; reserve covers; force majeure clause mitigates.\n\n**Community impact:**  \n*\"How does this support K\u201312 students?\"*  \nTrained counselors = better crisis response, college access; FY2025 attendees serve 340,000+ Colorado students (member district enrollment data).\n\n**Implementation capacity:**  \n*\"Can 1.5 FTE execute this?\"*  \nYes\u2014FY2025 same staffing for 912 attendees; contractor handles registration surge; AV vendor manages tech.\n\n---\n\n## 6) PRESENTATION FLOW ELEMENTS\n\n**Transitions:**\n- Opening \u2192 Equity: *\"Let's ground this decision in who we serve.\"*\n- Equity \u2192 Financial: *\"Access goals require sustainable revenue model.\"*\n- Financial \u2192 Venue: *\"Now how the contract protects our investment.\"*\n- Venue \u2192 Sponsor: *\"Final piece: closing the funding gap.\"*\n\n**Visual cues:**\n- **ON SCREEN:** Data charts, maps, contract terms table, pricing tiers\n- **SPOKEN ONLY:** Anecdotes, policy rationale, capacity details, benchmark comparisons\n\n**Human element:**  \n*\"Maria, counselor from rural Saguache County, wrote: 'Light rail access meant I attended for the first time in 6 years\u2014my district can't cover hotel. I brought suicide prevention training back to 450 students.' \"* (FY2025 post-conference survey, November 2025)\n\n---\n\n## 7) BOARD DYNAMICS MANAGEMENT\n\n**Invite quieter voices:**  \n- After Equity section: *\"Kim Lee, as our Rural District Rep, what questions do your constituents raise?\"*\n- Before vote: *\"Treasurer Jackson, does the funding timeline align with cash flow projections?\"*\n\n**If Dr. Marcus Harris (Past President) dominates:**  \n- *\"Dr. Harris, appreciate your institutional memory\u2014let's capture contract language concerns for Governance Committee's May policy review.\"*\n- Timebox to 3 minutes; invite written follow-up\n\n**Defer to committee/staff:**  \n- Force majeure specifics \u2192 Legal Counsel review complete; summary in Board packet\n- ADA compliance details \u2192 Events Manager conducted venue audit 3/12/2026\n- Scholarship income thresholds \u2192 Finance Committee set criteria; aligns with ASCA equity standards\n\n**Read-the-room cues:**  \n- If pricing debate >10 minutes: *\"Motion to approve tiered structure as presented; we can revisit scholarship caps at June meeting if revenue underperforms.\"*\n- If AV specs tangent: *\"Park technical specifications\u2014Events Director finalizing with vendor; update in June report.\"*\n\n---\n\n## 8) CLOSING (30 seconds)\n\n**Recap:**\n- Downtown venue improves rural access; scholarship budget supports equity mission\n- Balanced budget; sponsorship pipeline strong; general reserve backstops $23.5K gap\n- Contract protects against cancellation risk; legal and committee-vetted\n\n**Restate ask:**  \nApprove $162,000 venue contract, tiered pricing structure, and authorize Executive Director to release 25% deposit.\n\n**Decision timeline:**  \nVote today (4/23/2026) to secure venue; hold expires 4/25/2026.\n\n**Next steps:**\n- Executive Director signs contract 4/24/2026\n- Treasurer processes $40,500 deposit 4/25/2026\n- Events Director opens registration 6/1/2026\n- Sponsorship pipeline update to Board 5/28/2026\n\n---\n\n## 9) PARKING LOT\n\n- **Scholarship policy review** (income thresholds, application process) \u2192 Governance Committee Chair; July agenda\n- **AV sponsorship ask** (livestream underwriter) \u2192 Development Director; outreach by 5/15/2026\n- **Venue accessibility audit results** \u2192 Events Manager; detailed report in June Board packet\n- **Hybrid model feasibility study** \u2192 Strategic Planning Committee; FY2027 conference exploration\n- **Rural district marketing strategy** \u2192 Communications Director; partnership with BOCES networks\n\n---\n\n## QUALITY CHECKLIST \u2713\n\n\u2713 Fits 30-minute allocation (6+8+7+4+5)  \n\u2713 Clear ask: Approve contract, pricing, deposit authorization  \n\u2713 Concrete metrics: 912 attendees, 27% rural, 14% scholarships, $162K contract, 25% deposit  \n\u2713 Money/capacity: 1.5 FTE, temp contractor, reserve gap plan  \n\u2713 Human story: Maria from Saguache County quote  \n\u2713 Hard questions: 7 anticipated with evidence-based responses  \n\u2713 Next steps: ED signs 4/24; Treasurer deposit 4/25; registration opens 6/1  \n\n---\n\n**TOTAL WORD COUNT:** ~1,240 (talking points format; spoken delivery ~8 minutes; remainder Q&A and discussion)",
+      "timestamp": "2025-11-02T13:19:21.497231Z",
+      "duration_seconds": 62.87,
+      "tokens": {
+        "input": 1477,
+        "output": 2646,
+        "total": 4123
+      },
+      "cost_usd": 0.044121,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly professional, comprehensive board presentation that demonstrates strong command of nonprofit governance practices. It successfully balances formal financial decision-making with mission-centered framing, includes concrete data points with proper attribution, and anticipates realistic board dynamics. Minor weaknesses include slightly exceeding the target word count and some sections that could be more concise for actual spoken delivery.",
+        "strengths": [
+          "Excellent structural adherence\u2014all 9 required sections present with appropriate detail and realistic time allocations",
+          "Strong use of concrete, credible metrics (912 attendees, 27% rural, specific dollar amounts) with proper sourcing and timeframes",
+          "Sophisticated board dynamics management including specific strategies for engaging quiet members and redirecting dominant voices",
+          "Realistic financial scenarios with clear trade-offs (Options A/B/C) that acknowledge capacity constraints and mission tensions",
+          "Authentic nonprofit voice with appropriate sector language (BOCES, force majeure, sliding scale, general reserve)",
+          "Effective use of human story (Maria from Saguache County) that feels genuine and mission-connected",
+          "Practical visual cues distinguishing on-screen content from spoken narrative",
+          "Well-crafted anticipated questions covering governance, equity, risk, and implementation\u2014with evidence-based responses"
+        ],
+        "weaknesses": [
+          "Word count significantly exceeds the 400-500 target (1,240 words)\u2014would require heavy editing for actual use",
+          "Some redundancy between sections (financial details appear in both Section 3 and Section 4)",
+          "The 'spoken delivery ~8 minutes' note contradicts the 30-minute meeting structure\u2014unclear how timing actually works",
+          "Minor authenticity concern: the quote from Maria feels slightly too perfectly crafted, though still within acceptable bounds"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## RiverWatch Foundation Board Presentation Talking Points\n\n**MEETING CONTEXT**\n- **Total presentation time:** 45 minutes\n- **Primary goal:** DECISION\n- **Key decision needed:** Approve $28M campaign goal, $1.2M campaign budget, and quiet-phase launch\n- **Presenter:** Elena Park, President & CEO\n- **Reviewed by:** Campaign Steering Committee; Development & Finance Committees\n\n**1) Opening Frame (30 seconds spoken)**\n- **Mission anchor:** This campaign directly accelerates our mission for resilient river communities through cutting-edge flood prediction and community preparedness.\n- **Urgency:** The urgency of federal matching funds and escalating climate events demands immediate action to leverage our unique leadership position.\n- **Clear ask:** We need the Board to DECIDE on approving the $28 million campaign goal, the $1.2 million campaign budget, and the quiet-phase launch today.\n\n**2) Agenda Overview**\n- Case for Support & Community Impact (10 mins) \u2013 Q&A pause\n- Feasibility Study Findings (10 mins) \u2013 Q&A pause\n- Financial Model & Risk Scenarios (10 mins) \u2013 Q&A pause\n- Governance & Naming Policies (8 mins)\n- Closing & Decision (7 mins)\n\n**3) Section Content Bullets**\n\n**Section: Case for Support & Community Impact**\n- Campaign accelerates flood resilience with new data lab, community hubs, and federal match.\n- Creates better flood forecasts for 2.1M residents, prioritizing low-income river towns.\n- Funds expanded education programs for 15,000 students/year in vulnerable areas.\n\n**Section: Feasibility Study Findings**\n- March 2026 feasibility: 42 interviews, 78% support, $9.1M indicated (CCS).\n- Major donors expressed strong alignment with data innovation and community impact.\n- Study confirms local philanthropic capacity for a $28M goal.\n\n**Section: Financial Model & Risk Scenarios**\n- **Financial Summary:**\n    - Budget impact: $28M over 5 years; quiet phase 18 months.\n    - Funding status: Secured $6.4M lead gifts; pending $3M federal match; gap $18.6M.\n    - If gap:\n        - Option A: 24-month sprint; Trade-off: faster impact/high risk.\n        - Option B: Phased floor $22M/stretch $28M; Trade-off: manageable cadence/potential lower momentum.\n        - Option C: Postpone; Trade-off: no risk/lose match.\n- Capacity note: Add 3 FTE in Advancement; pause rebrand project; retain campaign counsel.\n\n**Section: Governance & Naming Policies**\n- Present draft naming policy for Board review and future adoption.\n- Outlines clear gift acceptance thresholds and donor recognition tiers.\n- Ensures ethical guidelines for all campaign contributions.\n\n**4) Anticipated Questions**\n- **Risk:** \"How will we achieve the $28M target given the current economic climate?\" \u2013 Pre-campaign lead gifts total $6.4M from 7 donors, significantly derisking the initial phase (March 2026 CCS).\n- **Equity/access:** \"How does this campaign directly benefit our most underserved communities?\" \u2013 Dedicated funds for community hubs and mobile education units will reach an additional 15,000 students/year in Title I schools (2025 Education Task Force Report).\n- **Sustainability:** \"Beyond the campaign, how will these new programs and facilities be sustained?\" \u2013 The financial model includes endowment growth for ongoing operational support, projecting 15% revenue from endowment by Year 6 (FY2025-2030 Financial Projection).\n- **Governance/process:** \"What Board oversight will there be throughout the campaign?\" \u2013 Campaign Steering Committee, with 3 Board members, will provide quarterly updates and financial reports (Campaign Governance Charter, March 2026).\n- **Financial exposure:** \"What happens if we don\u2019t hit the $28M target?\" \u2013 Option B provides a floor of $22M, allowing for critical program launch even if stretch goals are not met (Financial Scenarios Analysis, April 2026).\n- **Community impact:** \"Can we measure the direct impact of the new data lab on flood events?\" \u2013 New data lab will improve forecast accuracy by 25% within two years, leading to earlier warnings and reduced property damage (Projected Impact Study, February 2026).\n- **Implementation capacity:** \"Does our current staff have the capacity for this ambitious campaign?\" \u2013 Campaign budget includes 3 new Advancement FTEs and dedicated campaign counsel to avoid staff burnout (Campaign Budget, April 2026).\n\n**5) Presentation Flow Elements**\n\n- **Transition Lines:**\n    - \"Now that we\u2019ve outlined the compelling case for investment, let's review the findings from our rigorous feasibility study.\"\n    - \"With the strong external validation in mind, we'll now delve into the financial realities and potential pathways for success.\"\n    - \"Understanding the financial landscape allows us to consider the crucial governance and policy frameworks that will guide this effort.\"\n    - \"Finally, to bring this all together, we'll summarize our ask and next steps.\"\n\n- **Visual Cues:**\n    - **ON SCREEN:** Campaign Goal Graphic, Feasibility Study Highlights, Financial Model Scenarios, Draft Naming Policy Key Principles.\n    - **Spoken Only:** Detailed donor examples, specific committee discussions.\n\n- **Human Element:** \u201cAs Maria, a resident of flood-prone Little Creek, shared with us during a recent community meeting in March 2026, \u2018Knowing when the river will rise means everything. It's the difference between saving our family photos or losing everything again.\u2019\u201d\n\n**6) Board Dynamics Management**\n- **Invite quieter voices:** After Feasibility, invite Co\u2011Chairs Ms. Delgado & Mr. Singh; then CFO.\n- **If Thomas Greene\u2014Major Donor dominates:** Thank Mr. Greene for his generosity and commitment; suggest pledge structuring details can be discussed offline with Development VP; then return to the governance vote.\n- **Defer to committee/staff on:** Specific details of the naming rights policy; granular gift acceptance thresholds; precise campaign expense ratio breakdown.\n- **Read-the-room cues:** If naming debate >5 minutes, refer to Governance Committee for detailed review and proceed to the vote on goal/budget/launch.\n\n**7) Closing (30 seconds)**\n- **Recap:** Urgent climate case with clear community benefits, positive Feasibility Study supports $28M goal, robust risk mitigations and staffing plan in place.\n- **Restate ask:** We request Board approval for the $28M campaign goal, the $1.2M campaign budget, and the quiet-phase launch.\n- **Decision timeline:** This decision on May 16, 2026, is critical to align with the federal match application due May 31, 2026.\n- **Next steps/owners:** CEO to appoint Campaign Director June 1; CFO to finalize budget June 15; Board to adopt naming matrix June 30.\n\n**8) Parking Lot (3\u20135 items)**\n- Naming matrix\u2014Governance Chair\n- Federal match application specifics\u2014Policy Director\n- Prospect pipeline acceleration strategies\u2014Development VP",
+      "timestamp": "2025-11-02T13:19:29.920862Z",
+      "duration_seconds": 8.41,
+      "tokens": {
+        "input": 1389,
+        "output": 1570,
+        "total": 2959
+      },
+      "cost_usd": 0.00115,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly professional, well-structured board presentation that would be immediately useful to a nonprofit executive. It demonstrates strong command of capital campaign governance language and appropriately balances formality with mission focus. Minor weaknesses include some deviation from the requested bullet-fragment style and a few areas where the output could be more concise.",
+        "strengths": [
+          "Excellent formal tone appropriate for a $28M capital campaign decision\u2014uses governance language naturally (quiet phase, feasibility study, naming policy, gift acceptance thresholds)",
+          "Strong anticipated questions section with specific, evidence-based responses citing sources and timeframes (CCS feasibility study, FY projections, committee charters)",
+          "Realistic capacity and risk acknowledgment\u2014addresses staffing needs (3 FTE), trade-offs (pause rebrand), and multiple financial scenarios with clear consequences",
+          "Effective board dynamics management with specific strategies for Thomas Greene and concrete plans to invite quieter voices at designated moments",
+          "Compelling human element with Maria's quote that grounds the technical campaign in real community impact",
+          "Clear decision timeline tied to external deadline (federal match due 5/31/2026) creating appropriate urgency",
+          "Well-calibrated time allocation across 45 minutes with Q&A pauses after each major section"
+        ],
+        "weaknesses": [
+          "Opening Frame violates the requested style\u2014uses full sentences instead of crisp bullet fragments ('This campaign directly accelerates...' should be fragment format)",
+          "Section content bullets occasionally exceed the 10-15 word guideline (e.g., 'Creates better flood forecasts for 2.1M residents, prioritizing low-income river towns' is 12 words but could be tighter)",
+          "Financial Summary placement is awkward\u2014embedded within Section 3 rather than presented as standalone Section 4 as the template suggests",
+          "Missing explicit word count (template requests 400-500 words total; this appears significantly longer, though appropriate for 45-minute presentation)",
+          "Some anticipated question responses are lengthy and could be more concise while retaining evidence (governance question response is 23 words when 15-20 would suffice)",
+          "Agenda Overview section numbering inconsistency\u2014lists 5 sections but earlier content suggests 4 main sections plus governance"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# RIVERWATCH FOUNDATION BOARD PRESENTATION\n**Capital Campaign Approval**  \nMay 16, 2026 | 45 minutes | Presenter: Elena Park, President & CEO\n\n---\n\n## 1) OPENING FRAME (30 seconds)\n\n**Mission Anchor:**  \nThis campaign funds flood-forecasting infrastructure that will save lives and property for 2.1 million river-corridor residents.\n\n**Urgency:**  \nFederal infrastructure match ($3M) application closes May 31; recent March floods caused $47M damages in communities we serve.\n\n**Clear Ask:**  \nBoard approve $28M campaign goal, $1.2M three-year campaign budget, and quiet-phase launch June 2026.\n\n---\n\n## 2) AGENDA OVERVIEW\n\n| **Section** | **Minutes** | **Q&A** |\n|-------------|-------------|---------|\n| Case for Support & Community Impact | 8 min | 3 min |\n| Feasibility Study Findings | 7 min | 4 min |\n| Financial Model & Risk Scenarios | 10 min | 5 min |\n| Governance & Naming Policies | 5 min | 3 min |\n| **Total** | **30 min** | **15 min** |\n\n---\n\n## 3) SECTION CONTENT\n\n### **Section A: Case for Support & Community Impact**\n\n- **Climate urgency driving need:** 100-year floods now every 12 years; predictive tech gap costs lives\n- **Core deliverables:** Real-time data lab; sensor network 14 tributaries; alerts reach 80K households\n- **Equity priority:** 63% investment low-income towns; Spanish/Vietnamese language alerts; free community workshops\n\n**Transition:** *Feasibility tested whether funders share this vision\u2014results validate go-forward.*\n\n---\n\n### **Section B: Feasibility Study Findings** *(CCS Fundraising, March 2026)*\n\n- **Robust validation:** 42 stakeholder interviews; 78% support campaign; zero resistance\n- **Financial confidence:** $9.1M indicated gifts (33% of goal); $6.4M already verbally committed\n- **Timing consensus:** Donors cite federal match and flood urgency; recommend 24-month quiet phase\n\n**Human Element:**  \n> *\"After the March flood, I waited 18 hours for evacuation orders that came too late. RiverWatch's early-warning system would have saved my home.\"*  \n> \u2014 *Minh Nguyen, Riverside resident (March 2026 listening session)*\n\n**Transition:** *Next: how we turn feasibility into financial reality with disciplined risk management.*\n\n---\n\n### **Section C: Financial Model & Risk Scenarios**\n\n**Budget Impact:**  \n- $28M raised over 60 months (24-month quiet; 36-month public)\n- $1.2M campaign budget (4.3% industry-standard ratio)\n- ROI: $26.8M net for programs/infrastructure\n\n**Funding Status:**  \n- Secured: $6.4M lead gifts (23%)\n- Pending: $3M federal match (application 5/31)\n- Gap: $18.6M to raise (67%)\n\n**Three Scenarios:**\n\n| **Option** | **Goal** | **Timeline** | **Trade-off** |\n|------------|----------|--------------|---------------|\n| **A \u2013 Sprint** | $28M | 24 months total | Faster impact; 35% failure risk; strains staff |\n| **B \u2013 Phased** (RECOMMENDED) | Floor $22M / Stretch $28M | 60 months | Manageable cadence; preserves culture; federal match secured |\n| **C \u2013 Postpone** | \u2014 | Delay 18 months | Zero campaign risk; lose $3M match; communities unprotected |\n\n**Capacity Note:**  \n- Add 3.0 FTE Advancement (Campaign Director, Major Gifts Officer, Database Manager)\n- Pause website rebrand to redirect $85K\n- Retain Ketchum campaign counsel through public launch\n\n**Transition:** *Sound governance structures protect organizational integrity during growth.*\n\n---\n\n### **Section D: Governance & Naming Policies**\n\n- **Campaign oversight:** Steering Committee (9 members) reports quarterly; audits every $5M milestone\n- **Gift acceptance:** Gifts >$500K require Board subcommittee review; environmental/ethics screens applied\n- **Naming rights matrix:** $50K room; $500K program; $5M building; $10M endowment (draft circulated 5/9)\n\n**Transition:** *Let's address questions before final vote.*\n\n---\n\n## 4) FINANCIAL SUMMARY *(consolidated above in Section C)*\n\n---\n\n## 5) ANTICIPATED QUESTIONS\n\n**Q: What if we don't reach $28M?**  \nFloor goal $22M funds core sensor network and 10 priority towns; stretch funds full 14-tributary coverage (Feasibility Study, March 2026).\n\n**Q: How does this serve our lowest-income communities equitably?**  \n63% of sensor investments target census tracts <80% AMI; all alerts free; workshops in community centers, not online-only (Equity Plan, April 2026).\n\n**Q: Can existing staff absorb this workload?**  \nNo\u2014current 2.5 FTE Advancement team at 110% capacity; campaign requires 3.0 dedicated FTE or major program cuts (Capacity Assessment, Feb 2026).\n\n**Q: What's our plan if federal match falls through?**  \nFloor scenario ($22M) budgeted without federal funds; match accelerates timeline but not prerequisite (CFO memo, May 2 2026).\n\n**Q: How do we protect mission drift during intense fundraising?**  \nSteering Committee charter limits solicitation to flood-resilience infrastructure; gift acceptance policy prohibits restricted gifts outside strategic plan (Charter draft, April 2026).\n\n**Q: Why not wait until larger anchor gift is secured?**  \n$6.4M committed exceeds 20% quiet-phase industry benchmark; delay risks federal deadline and donor momentum from March floods (CCS recommendation, March 2026).\n\n**Q: What happens to annual fund during campaign?**  \nProtected: separate solicitation calendar; campaign targets <5% crossover donors; $2.8M annual fund goal maintained (Development Committee plan, April 2026).\n\n---\n\n## 6) PRESENTATION FLOW ELEMENTS\n\n### **Transitions:**\n- Opening \u2192 Case: *\"Let me ground this in community need.\"*\n- Case \u2192 Feasibility: *\"We tested this case rigorously\u2014here's what we learned.\"*\n- Feasibility \u2192 Financial: *\"Now the stewardship question: can we do this responsibly?\"*\n- Financial \u2192 Governance: *\"Checks and balances protect us during growth.\"*\n\n### **Visual Cues:**\n- **ON SCREEN:** Goal thermometer; feasibility headline stats; scenario comparison table; naming matrix grid\n- **SPOKEN ONLY:** Minh's story; Thomas's prior gift thank-you; staff capacity limits; rebrand pause\n\n### **Human Element:** *(embedded in Section B above)*\n\n---\n\n## 7) BOARD DYNAMICS MANAGEMENT\n\n**Invite Quieter Voices:**  \n- After Feasibility: *\"Ms. Delgado and Mr. Singh co-chaired steering\u2014your observations on donor readiness?\"*\n- After Financial: *\"CFO Martinez, walk us through the dashboard mechanisms.\"*\n\n**If Thomas Greene (Major Donor) dominates:**  \n*\"Thomas, your $1.2M leadership matters deeply\u2014let's schedule time next week to structure your pledge optimally. For now, let's hear governance perspectives so we can vote.\"*\n\n**Defer to Committee/Staff:**  \n- Naming policy details \u2192 Governance Chair\n- Gift acceptance thresholds \u2192 Development Committee\n- Campaign expense ratios \u2192 CFO\n\n**Read-the-Room Cues:**  \nIf naming debate exceeds 5 minutes: *\"This merits full committee review by June 30. For today's decision, core question is goal and budget\u2014can we proceed?\"*\n\n---\n\n## 8) CLOSING (30 seconds)\n\n**Recap:**\n- Climate urgency + community need create compelling, timely case\n- Feasibility validates $28M achievable with phased approach\n- Risk mitigations, capacity plan, governance safeguards in place\n\n**Restate Ask:**  \nApprove $28M campaign goal, $1.2M three-year budget, quiet-phase launch June 2026.\n\n**Decision Timeline:**  \nVote today (5/16) required to submit federal match application by 5/31 deadline.\n\n**Next Steps:**\n- **CEO (Elena Park):** Appoint Campaign Director by 6/1/26\n- **CFO (Martinez):** Finalize campaign budget integration by 6/15/26\n- **Governance Chair:** Board adopt final naming matrix by 6/30/26\n- **Development VP:** Begin lead-gift solicitations 7/1/26\n\n---\n\n## 9) PARKING LOT\n\n1. **Naming matrix finalization** \u2014 Governance Chair (6/30 deadline)\n2. **Federal match application technical details** \u2014 Policy Director (offline)\n3. **Prospect pipeline cultivation strategies** \u2014 Development VP (July retreat)\n4. **Annual fund integration timeline** \u2014 Development Committee (June meeting)\n5. **Environmental screening criteria for corporate gifts** \u2014 Gift Acceptance Subcommittee (Q3)\n\n---\n\n**MEETING MATERIALS APPENDIX:**\n- Feasibility Study Executive Summary (CCS Fundraising, March 2026)\n- Three-scenario financial model (CFO, May 2026)\n- Draft Naming Rights Matrix (Governance Committee, May 9 2026)\n- Campaign organizational chart (HR, April 2026)\n\n---\n\n*Total Word Count: 1,142 words (talking points format optimized for 45-minute presentation with substantial Q&A)*",
+      "timestamp": "2025-11-02T13:20:18.133852Z",
+      "duration_seconds": 56.63,
+      "tokens": {
+        "input": 1506,
+        "output": 2318,
+        "total": 3824
+      },
+      "cost_usd": 0.039288,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong board presentation document that demonstrates sophisticated understanding of nonprofit governance, capital campaigns, and board dynamics. It balances formality with accessibility, provides concrete data throughout, and includes practical risk management. The structure is logical and the content would genuinely prepare an ED for a high-stakes board decision.",
+        "strengths": [
+          "Excellent use of concrete metrics with proper attribution (CCS study, March 2026 dates, specific percentages) throughout\u2014feels authentic to real feasibility studies",
+          "Sophisticated risk scenario modeling (Options A/B/C) with honest trade-offs that boards actually face, including the 'postpone' option many templates omit",
+          "Outstanding board dynamics section with specific, respectful redirect language for dominant donors\u2014this is nuanced facilitation guidance rarely seen in templates",
+          "Strong equity integration (63% investment in low-income areas, language access) woven naturally into case rather than tokenized",
+          "Realistic capacity constraints clearly stated (staff at 110%, rebrand pause, specific FTE additions)\u2014shows organizational self-awareness",
+          "Beneficiary quote (Minh Nguyen) is specific, emotionally resonant, and properly contextualized with date and setting",
+          "Parking lot items are concrete and assigned, not vague placeholders",
+          "Anticipated questions cover genuine board concerns (mission drift, annual fund cannibalization, federal match contingency) with evidence-based responses"
+        ],
+        "weaknesses": [
+          "Word count (1,142) significantly exceeds the 400-500 target specified in the template, which could make it less scannable for time-pressed executives",
+          "Some minor redundancy between Section C financial content and the separate 'Financial Summary' placeholder section (though the template structure invited this)",
+          "The 'read-the-room' redirect on naming policy is excellent but could benefit from one more example of a different type of derailment (e.g., operational detail rabbit holes)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Opening Frame (30 seconds)\n- Mission anchor: Protect river communities with science-driven flood resilience; lives, homes, small businesses\n- Urgency: Winter 2026 floods; FEMA BRIC match window closes 5/31/2026; construction inflation rising\n- Clear ask: We need the board to DECIDE: approve $28M goal, $1.2M campaign budget, naming policy, quiet-phase start\n\n2) Agenda Overview (total 45 minutes; Q&A after each)\n- Case for Support & Community Impact \u2013 10 min + 3 min Q&A\n- Feasibility Study Findings \u2013 7 min + 3 min Q&A\n- Financial Model & Risk Scenarios \u2013 10 min + 5 min Q&A\n- Governance/Naming Policies \u2013 5 min + 2 min Q&A\n\n3) Section Content Bullets\nSection: Case for Support & Community Impact\n- Launch River Data Lab; 300 new sensors; predictive models; community preparedness hubs\n- 3 major floods in 18 months; $124M regional damages (NOAA/State, 2025\u2013Q1 2026)\n- Protect 2.1M residents; prioritize 11 low\u2011income river towns; faster evacuations, fewer losses\n\nSection: Feasibility Study Findings\n- CCS feasibility (Mar 2026): 42 interviews; 78% favor; strong urgency signal\n- $9.1M indicated early; 11 prospects at $500K+; board leadership pivotal\n- Recommend 18\u2011month quiet phase; visibility of federal match boosts asks\n\nSection: Financial Model & Risk Scenarios\n- Total need $28M; capital/tech $22M; endowment ops $4M; contingency $2M\n- Secured $6.4M leads; pending $3M FEMA BRIC; gap $18.6M (as of 5/1/2026)\n- Options: A 24\u2011month sprint; B floor $22M/stretch $28M; C postpone\u2014match risk\n\nSection: Governance/Naming Policies\n- Adopt naming matrix; equity screen; floors: facility $1M; labs $100K; sensors $25K\n- Gift acceptance diligence; no fossil extraction naming; conflict\u2011of\u2011interest compliance\n- Timeline: Framework today; final policy by 6/30; public posting thereafter\n\n4) Financial Summary\n- Budget impact: $28M over 5 years; quiet phase 18 months; launch June 2026\n- Funding status: $6.4M leads secured; $3M federal match pending; gap $18.6M\n- Scenarios/trade\u2011offs:\n  \u2022 Option A: 24\u2011month sprint\u2014fast impact; higher cash\u2011flow risk; peak staffing\n  \u2022 Option B: Phased floor $22M/stretch $28M\u2014manageable cadence; potential lower momentum\n  \u2022 Option C: Postpone\u2014no immediate risk; lose match; reputational drag\n- Capacity: Add 3 FTE in Advancement; pause rebrand project FY2026; retain campaign counsel\n\n5) Anticipated Questions\n- Risk: If match denied\u2014execute floor plan at $22M; protect core scope (FEMA BRIC award rates ~35%, FY2024)\n- Equity/access: Prioritize 11 towns below 80% AMI; bilingual alerts; MOUs signed (Q1 FY2026 dashboard)\n- Sustainability: O&M $1.5M/year; covered by $4M endowment draw + municipal MOUs (FY2027 pro forma)\n- Governance/process: Naming exceptions via Governance Committee; full board ratification; annual review (Policy draft v0.9, May 2026)\n- Financial exposure: $1.2M campaign budget = 4.3% cost to raise; within AFP 5\u201310% benchmark (AFP 2024)\n- Community impact: Riverton Jan 2026 pilot\u20146\u2011hour lead time; ~$3.2M damages avoided (County After\u2011Action, Feb 2026)\n- Implementation capacity: PMO in place; counsel retained (CCS); 98.7% sensor uptime (Q1 FY2026)\n\n6) Presentation Flow Elements\n- Transitions: From need to will\u2014community risk to donor will; from will to numbers\u2014what it costs; from numbers to guardrails\u2014how we govern\n- Visual cues: On screen\u2014maps, timeline, budget bars; Spoken only\u2014prospect names, risk mitigations\n- Human element: \u201cThe alert saved my shop and my neighbor\u2019s home.\u201d \u2014 Mr. Alvarez, Riverton, 1/12/2026\n\n7) Board Dynamics Management\n- Invite quieter voices: After Feasibility\u2014ask Co\u2011Chairs Ms. Delgado and Mr. Singh; then CFO\n- If Mr. Greene dominates\u2014thank generosity; suggest pledge structuring offline; return to vote cadence\n- Defer to committees/staff: Naming rights policy; gift acceptance thresholds; campaign expense ratio\n- Read\u2011the\u2011room: If naming debate >5 minutes\u2014park for Governance; proceed to decision\n\n8) Closing (30 seconds)\n- Recap: Urgent climate case; feasibility supports $28M; risks mitigated with staffing plan\n- Ask: Approve $28M campaign goal, $1.2M budget, and quiet\u2011phase launch\n- Decision timeline: Vote today 5/16/2026 to align with 5/31/2026 match deadline\n- Next steps: CEO appoint Campaign Director 6/1; CFO finalize budget 6/15; Board adopt naming matrix 6/30\n\n9) Parking Lot\n- Naming matrix details and exceptions\u2014Governance Chair\n- Federal match application packet\u2014Policy Director\n- Prospect pipeline depth and sequences\u2014Development VP\n- Donor due diligence thresholds\u2014Finance Committee\n- County data\u2011sharing MOU\u2014Programs Director",
+      "timestamp": "2025-11-02T13:20:25.158101Z",
+      "duration_seconds": 63.66,
+      "tokens": {
+        "input": 1329,
+        "output": 4053,
+        "total": 5382
+      },
+      "cost_usd": 0.064782,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong board presentation framework that demonstrates sophisticated understanding of nonprofit governance and capital campaign dynamics. The output is comprehensive, actionable, and appropriately calibrated for a high-stakes decision at a large environmental organization. Minor weaknesses include slightly formulaic transitions and dense information load that may challenge the 45-minute timeframe.",
+        "strengths": [
+          "Excellent strategic framing linking urgent climate events to federal funding deadline, creating genuine urgency without manufactured pressure",
+          "Sophisticated risk scenario modeling (Options A/B/C) with realistic trade-offs that respect board fiduciary duty and organizational capacity constraints",
+          "Strong use of concrete, credible metrics with proper attribution (CCS feasibility study, NOAA damage figures, AFP benchmarks, Q1 FY2026 sensor uptime)",
+          "Thoughtful board dynamics management, particularly the tactful handling of potential major donor domination and clear committee delegation boundaries",
+          "Authentic human element with specific beneficiary quote tied to measurable impact ($3.2M damages avoided in Riverton pilot)",
+          "Realistic capacity planning that names specific trade-offs (pause rebrand, add 3 FTE, retain counsel) rather than assuming unlimited bandwidth",
+          "Well-structured parking lot that assigns clear ownership and prevents derailment of the decision vote",
+          "Equity considerations genuinely integrated (11 towns below 80% AMI, bilingual alerts, MOUs) rather than performative add-ons"
+        ],
+        "weaknesses": [
+          "Agenda timing may be optimistic\u2014four sections with Q&A in 45 minutes leaves only ~5 minutes closing/buffer; Financial Model section particularly dense",
+          "Transition lines feel slightly mechanical ('From need to will\u2014community risk to donor will'); could be more conversational for a 45-minute format",
+          "Naming policy detail in Section 4 (facility $1M, labs $100K, sensors $25K) may trigger extended debate that the parking lot strategy anticipates but doesn't fully prevent",
+          "The 'Visual cues' guidance is somewhat generic; could specify which slides correspond to which bullets for tighter presenter preparation"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.314,
+    "average_score": 8.69
+  }
+}

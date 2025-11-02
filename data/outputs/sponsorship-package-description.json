@@ -1,0 +1,771 @@
+{
+  "prompt_id": "sponsorship-package-description",
+  "prompt_text": "Write a one-page sponsorship package description for [EVENT NAME] hosted by [ORGANIZATION NAME] on [DATE] at [LOCATION].\n\nThe sponsorship package description should:\n- Open with a 2\u20133 sentence mission snapshot linking sponsor support to [BENEFICIARIES/PROGRAM IMPACT] and the event\u2019s purpose.\n- Present 3\u20135 tiers with clear names and amounts: use [TIER NAMES/AMOUNTS] if provided; otherwise propose levels appropriate for a [SMALL/RURAL/URBAN] market and [EXPECTED ATTENDANCE]/[EVENT BUDGET], with meaningful differentiation.\n- For each tier, list concrete benefits sponsors care about and your small team can deliver: logo placements ([WEBSITE/EMAIL/PROGRAM/ON-SITE SIGNAGE]), recognition ([STAGE/MC/SCREEN]), quantified digital posts, ticket/VIP quantities, activation/speaking rights, exhibit table, and category exclusivity (if any).\n- Include an In\u2011Kind Sponsor option specifying [IN\u2011KIND NEEDS] (e.g., printing, catering, A/V, media) valued at fair market rate and mapped to the closest cash tier.\n- Provide audience and reach: [EXPECTED ATTENDANCE], [AUDIENCE DEMOGRAPHICS], [EMAIL LIST SIZE], [SOCIAL FOLLOWERS], [MEDIA PARTNERS/SPONSORS], to indicate marketing value.\n- Add a \u201cWhy It Matters\u201d section with 3 impact lines that translate dollars to outcomes (e.g., $5,000 = [IMPACT EXAMPLE]).\n- State deadlines: commitment by [COMMITMENT DEADLINE]; assets by [ARTWORK DEADLINE] and [PRINT DEADLINE]; note that benefits depend on timely materials.\n- Offer optional add\u2011ons (limited quantity): [BRANDED ACTIVATION/EMPLOYEE VOLUNTEER DAY/MATCHING CHALLENGE/PHOTO BOOTH/STEP\u2011AND\u2011REPEAT LOGO].\n- Include recognition policy and tax note: logo order by level, exclusivity rules, and 501(c)(3) acknowledgment language (no goods/services value vs. fair market value).\n- Close with a clear CTA and contact block signed by [NAME], [TITLE], [EMAIL], [PHONE].\n- Word count: 450\u2013650 words. Tone: [TONE]\u2014FORMAL (corporate/procurement), WARM (community/mission\u2011forward), CASUAL (youth/culture).\n\nDeliver scannable, specific benefits (quantify posts/tickets/impressions), keep mission\u2011first, avoid clich\u00e9s/jargon (\u201cwin\u2011win,\u201d \u201csynergy\u201d), don\u2019t overpromise, and price tiers to cover 40\u201360% of event costs pre\u2011ticket sales. Use clear headers and bullets so this can be dropped into a one\u2011pager with minimal edits.",
+  "category": "events",
+  "generated_at": "2025-11-02T13:20:13.607541Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Rural anti-hunger nonprofit hosting a farm\u2011to\u2011table dinner with local partners; community-centric sponsors and small business supporters.",
+      "values": {
+        "EVENT NAME": "Harvest for Hope Farm-to-Table Dinner",
+        "ORGANIZATION NAME": "Red Willow Community Pantry",
+        "DATE": "September 21, 2025",
+        "LOCATION": "Red Willow County Fairgrounds, Exhibit Hall, McCook, NE",
+        "BENEFICIARIES/PROGRAM IMPACT": "Food-insecure families across Red Willow County\u2014funds support weekend backpack meals for 220 students, 200 fresh produce boxes/month, and fuel for mobile pantry routes to outlying towns.",
+        "TIER NAMES/AMOUNTS": [
+          {
+            "name": "Presenting Harvest Sponsor",
+            "amount": 5000
+          },
+          {
+            "name": "Harvest Champion",
+            "amount": 2500
+          },
+          {
+            "name": "Neighbor Sponsor",
+            "amount": 1000
+          },
+          {
+            "name": "Friend of the Pantry",
+            "amount": 500
+          }
+        ],
+        "SMALL/RURAL/URBAN": "RURAL",
+        "EXPECTED ATTENDANCE": 150,
+        "EVENT BUDGET": 25000,
+        "WEBSITE/EMAIL/PROGRAM/ON-SITE SIGNAGE": [
+          "Homepage sponsor carousel (6 months) with link",
+          "Event webpage logo with link",
+          "2 dedicated sponsor thank-you emails",
+          "Logo in printed event program",
+          "Welcome banner and stage backdrop logo",
+          "Table signage and buffet tent cards",
+          "Volunteer t\u2011shirt logo (Presenting/Champion)"
+        ],
+        "STAGE/MC/SCREEN": [
+          "Stage thank-you from Executive Director",
+          "MC mentions per tier (Presenting: 3; Champion: 2; Neighbor: 1)",
+          "Sponsor slide on projector loop",
+          "Presenting may greet guests at entrance"
+        ],
+        "IN\u2011KIND NEEDS": [
+          {
+            "item": "Printing (programs, banners)",
+            "fair_market_value": 1800,
+            "maps_to_tier": "Harvest Champion ($2,500)"
+          },
+          {
+            "item": "Locally sourced produce/catering support",
+            "fair_market_value": 2500,
+            "maps_to_tier": "Harvest Champion ($2,500)"
+          },
+          {
+            "item": "A/V (projector, mics, setup)",
+            "fair_market_value": 3000,
+            "maps_to_tier": "Presenting Harvest Sponsor ($5,000)"
+          },
+          {
+            "item": "Local radio underwriting",
+            "fair_market_value": 1000,
+            "maps_to_tier": "Neighbor Sponsor ($1,000)"
+          },
+          {
+            "item": "Event photography",
+            "fair_market_value": 800,
+            "maps_to_tier": "Friend of the Pantry ($500\u2013$1,000)"
+          }
+        ],
+        "AUDIENCE DEMOGRAPHICS": "Local families, ag producers, teachers, health workers, and small business owners; ages 30\u201365; 55% women; median HH income $45k\u2013$85k; 80% live within 30 miles.",
+        "EMAIL LIST SIZE": 1200,
+        "SOCIAL FOLLOWERS": 2100,
+        "MEDIA PARTNERS/SPONSORS": [
+          "KICX 96.9 FM",
+          "McCook Gazette",
+          "High Plains Radio Network",
+          "Valley Cable Channel 7"
+        ],
+        "IMPACT EXAMPLE": [
+          {
+            "amount": 5000,
+            "impact": "Funds 10 weeks of backpack meals for 220 students"
+          },
+          {
+            "amount": 2500,
+            "impact": "Provides 200 fresh produce boxes for seniors and families"
+          },
+          {
+            "amount": 1000,
+            "impact": "Covers fuel and refrigeration for 12 mobile pantry days to remote towns"
+          }
+        ],
+        "COMMITMENT DEADLINE": "August 23, 2025",
+        "ARTWORK DEADLINE": "August 30, 2025",
+        "PRINT DEADLINE": "September 5, 2025",
+        "BRANDED ACTIVATION/EMPLOYEE VOLUNTEER DAY/MATCHING CHALLENGE/PHOTO BOOTH/STEP\u2011AND\u2011REPEAT LOGO": [
+          "Branded reusable produce totes for guests (3 available)",
+          "Employee volunteer harvest day at partner farms (2 dates, up to 20 volunteers each)",
+          "Community matching challenge during live appeal (1 match sponsor, up to $5,000)",
+          "Photo backdrop with rustic market crates and sponsor logo (1 available)"
+        ],
+        "NAME": "Leah Martinez",
+        "TITLE": "Development Coordinator",
+        "EMAIL": "leah@redwillowpantry.org",
+        "PHONE": "(308) 555-0178",
+        "TONE": "WARM"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Urban tech workforce nonprofit hosting a community hackathon focused on social impact; mix of corporate talent teams and diverse early-career technologists.",
+      "values": {
+        "EVENT NAME": "Tech for Good Hackathon 2025",
+        "ORGANIZATION NAME": "Puget Tech Inclusion Network (PTIN)",
+        "DATE": "May 17\u201318, 2025",
+        "LOCATION": "Galvanize Seattle, 111 S Jackson St, Seattle, WA",
+        "BENEFICIARIES/PROGRAM IMPACT": "Underrepresented job seekers gain portfolio projects, mentorship, and scholarships into PTIN\u2019s 12\u2011week apprenticeship prep program.",
+        "TIER NAMES/AMOUNTS": [
+          {
+            "name": "Title Sponsor",
+            "amount": 25000
+          },
+          {
+            "name": "Impact Partner",
+            "amount": 15000
+          },
+          {
+            "name": "Track Sponsor",
+            "amount": 7500
+          },
+          {
+            "name": "Team Sponsor",
+            "amount": 3000
+          },
+          {
+            "name": "Community Sponsor",
+            "amount": 1500
+          }
+        ],
+        "SMALL/RURAL/URBAN": "URBAN",
+        "EXPECTED ATTENDANCE": 400,
+        "EVENT BUDGET": 120000,
+        "WEBSITE/EMAIL/PROGRAM/ON-SITE SIGNAGE": [
+          "Event microsite hero + footer logo with link",
+          "Company profile page on PTIN.org (100 words + link)",
+          "3 sponsor spotlight emails",
+          "Logo in digital program/agenda and Slack announcements",
+          "Venue signage + check\u2011in screens",
+          "Lanyard/badge logo (Title & Impact Partner)"
+        ],
+        "STAGE/MC/SCREEN": [
+          "Opening and closing remarks mention (all tiers)",
+          "Logo on main screen rotation between sessions",
+          "2\u2011minute welcome from Title Sponsor",
+          "Mentor shout\u2011outs during checkpoint huddles"
+        ],
+        "IN\u2011KIND NEEDS": [
+          {
+            "item": "Cloud credits/API access",
+            "fair_market_value": 10000,
+            "maps_to_tier": "Impact Partner ($15,000)"
+          },
+          {
+            "item": "Catering: meals/snacks/coffee",
+            "fair_market_value": 12000,
+            "maps_to_tier": "Impact Partner ($15,000)"
+          },
+          {
+            "item": "A/V + livestream services",
+            "fair_market_value": 15000,
+            "maps_to_tier": "Title Sponsor ($25,000)"
+          },
+          {
+            "item": "Swag + printing (shirts, stickers, banners)",
+            "fair_market_value": 4000,
+            "maps_to_tier": "Track Sponsor ($7,500)"
+          },
+          {
+            "item": "Professional photography/media coverage",
+            "fair_market_value": 5000,
+            "maps_to_tier": "Track Sponsor ($7,500)"
+          },
+          {
+            "item": "Venue/coworking space rental",
+            "fair_market_value": 8000,
+            "maps_to_tier": "Impact Partner ($15,000)"
+          }
+        ],
+        "AUDIENCE DEMOGRAPHICS": "Participants: 60% early\u2011 to mid\u2011career technologists (ages 22\u201338), 25% company mentors/recruiters, 15% students; 48% women/non\u2011binary; 55% BIPOC; 70% King County\u2011based; avg HH income $70k+.",
+        "EMAIL LIST SIZE": 9500,
+        "SOCIAL FOLLOWERS": 18000,
+        "MEDIA PARTNERS/SPONSORS": [
+          "GeekWire",
+          "Puget Sound Business Journal",
+          "KUOW 94.9 FM",
+          "Seattle Tech Meetup Network"
+        ],
+        "IMPACT EXAMPLE": [
+          {
+            "amount": 25000,
+            "impact": "Funds 20 prep\u2011program scholarships and capstone support (average $1,250 each)"
+          },
+          {
+            "amount": 7500,
+            "impact": "Purchases 10 refurbished laptops for trainees and community labs"
+          },
+          {
+            "amount": 3000,
+            "impact": "Covers one month of mentor stipends for 15 mentors"
+          }
+        ],
+        "COMMITMENT DEADLINE": "April 4, 2025",
+        "ARTWORK DEADLINE": "April 12, 2025",
+        "PRINT DEADLINE": "April 26, 2025",
+        "BRANDED ACTIVATION/EMPLOYEE VOLUNTEER DAY/MATCHING CHALLENGE/PHOTO BOOTH/STEP\u2011AND\u2011REPEAT LOGO": [
+          "Branded developer lounge with charging stations (2 available)",
+          "Resume review + portfolio critique booth (3 available)",
+          "Employee volunteer mentors/judges (rolling sign\u2011ups)",
+          "Company\u2011matched scholarship challenge announced at awards (1 available)",
+          "Headshot photo booth with your logo on digital/print downloads (1 available)",
+          "Step\u2011and\u2011repeat wall near registration (1 available)"
+        ],
+        "NAME": "Jordan Kim",
+        "TITLE": "Director of Partnerships",
+        "EMAIL": "jordan.kim@ptin.org",
+        "PHONE": "(206) 555-0129",
+        "TONE": "CASUAL"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Major metropolitan hospital foundation gala with corporate C\u2011suite and high\u2011net\u2011worth donors; polished sponsorship inventory and media reach.",
+      "values": {
+        "EVENT NAME": "Bright Futures Gala",
+        "ORGANIZATION NAME": "Lakeview Children's Hospital Foundation",
+        "DATE": "November 9, 2025",
+        "LOCATION": "Hilton Chicago, 720 S Michigan Ave, Chicago, IL",
+        "BENEFICIARIES/PROGRAM IMPACT": "Children receiving critical care\u2014from NICU to oncology\u2014through family housing, patient transport, and pediatric mental health services.",
+        "TIER NAMES/AMOUNTS": [
+          {
+            "name": "Presenting Champion",
+            "amount": 100000
+          },
+          {
+            "name": "Diamond",
+            "amount": 50000
+          },
+          {
+            "name": "Platinum",
+            "amount": 25000
+          },
+          {
+            "name": "Gold",
+            "amount": 10000
+          },
+          {
+            "name": "Silver",
+            "amount": 5000
+          }
+        ],
+        "SMALL/RURAL/URBAN": "URBAN",
+        "EXPECTED ATTENDANCE": 900,
+        "EVENT BUDGET": 850000,
+        "WEBSITE/EMAIL/PROGRAM/ON-SITE SIGNAGE": [
+          "Homepage banner recognition (Oct\u2013Dec) with premium link",
+          "Event page logo with top-tier placement",
+          "4 dedicated sponsor emails + 3 newsletter mentions",
+          "Printed keepsake program: full/half/quarter page ads by level",
+          "Step\u2011and\u2011repeat/media wall logo",
+          "Ballroom screens and table placards",
+          "Valet, registration, and auction kiosk signage"
+        ],
+        "STAGE/MC/SCREEN": [
+          "CEO and Emcee recognition by level",
+          "Pre\u2011show and live\u2011auction screen slides",
+          "60\u2011second sponsor video (Presenting/Diamond)",
+          "On\u2011stage award presentation (Diamond)"
+        ],
+        "IN\u2011KIND NEEDS": [
+          {
+            "item": "High-end printing (programs, signage)",
+            "fair_market_value": 12000,
+            "maps_to_tier": "Gold ($10,000)"
+          },
+          {
+            "item": "Wine/champagne for dinner and reception",
+            "fair_market_value": 25000,
+            "maps_to_tier": "Platinum ($25,000)"
+          },
+          {
+            "item": "Floral and event design",
+            "fair_market_value": 18000,
+            "maps_to_tier": "Platinum ($25,000)"
+          },
+          {
+            "item": "Luxury auction experiences/items",
+            "fair_market_value": 10000,
+            "maps_to_tier": "Gold/Platinum (value dependent)"
+          },
+          {
+            "item": "A/V enhancements and lighting",
+            "fair_market_value": 40000,
+            "maps_to_tier": "Diamond ($50,000)"
+          },
+          {
+            "item": "Media promotion/PSA placements",
+            "fair_market_value": 20000,
+            "maps_to_tier": "Platinum ($25,000)"
+          },
+          {
+            "item": "Dessert station sponsorship",
+            "fair_market_value": 8000,
+            "maps_to_tier": "Silver ($5,000)\u2013Gold ($10,000)"
+          }
+        ],
+        "AUDIENCE DEMOGRAPHICS": "Corporate executives, philanthropists, and physicians; ages 35\u201370; 62% female; 75% HNW households ($150k+); 85% Chicagoland residents.",
+        "EMAIL LIST SIZE": 85000,
+        "SOCIAL FOLLOWERS": 210000,
+        "MEDIA PARTNERS/SPONSORS": [
+          "WGN\u2011TV",
+          "Crain\u2019s Chicago Business",
+          "Chicago Tribune",
+          "WBEZ 91.5",
+          "Make It Better Media"
+        ],
+        "IMPACT EXAMPLE": [
+          {
+            "amount": 100000,
+            "impact": "Outfits a NICU room with advanced monitors and family comfort upgrades"
+          },
+          {
+            "amount": 50000,
+            "impact": "Provides a year of family housing for 25 out-of-town families"
+          },
+          {
+            "amount": 10000,
+            "impact": "Delivers 200 pediatric counseling sessions for patients and siblings"
+          }
+        ],
+        "COMMITMENT DEADLINE": "September 12, 2025",
+        "ARTWORK DEADLINE": "September 26, 2025",
+        "PRINT DEADLINE": "October 10, 2025",
+        "BRANDED ACTIVATION/EMPLOYEE VOLUNTEER DAY/MATCHING CHALLENGE/PHOTO BOOTH/STEP\u2011AND\u2011REPEAT LOGO": [
+          "VIP step\u2011and\u2011repeat logo placement upgrade (limited)",
+          "Branded mobile bidding splash screen (3 available)",
+          "Corporate employee volunteer day at Family House (2 dates, 30 volunteers each)",
+          "Paddle\u2011raise matching challenge sponsor (1 available)",
+          "Photo booth with logo on prints and digital gallery (1 available)"
+        ],
+        "NAME": "Priya Desai",
+        "TITLE": "Senior Director of Corporate Engagement",
+        "EMAIL": "pdesai@lakeviewchildrens.org",
+        "PHONE": "(312) 555-0194",
+        "TONE": "FORMAL"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Harvest for Hope Farm-to-Table Dinner: Sponsorship Opportunities\n\nYour support for the Red Willow Community Pantry\u2019s Harvest for Hope Farm-to-Table Dinner directly impacts food-insecure families across Red Willow County. Event proceeds fuel weekend backpack meals for 220 students, provide 200 fresh produce boxes each month, and cover critical fuel costs for our mobile pantry routes to outlying towns, ensuring vital nourishment reaches those who need it most. Join us on September 21, 2025, at the Red Willow County Fairgrounds, Exhibit Hall in McCook, NE, to cultivate a healthier, stronger community.\n\n### Sponsorship Tiers\n\n**Presenting Harvest Sponsor \u2013 $5,000**\n*   Prominent logo placement: Homepage sponsor carousel (6 months) with link, Event webpage logo with link, Welcome banner and stage backdrop.\n*   Digital Recognition: 3 dedicated sponsor thank-you emails, 6 social media posts across all platforms (Facebook, Instagram), sponsor slide on projector loop.\n*   Event Impact: Logo in printed event program (full page), table signage and buffet tent cards.\n*   On-Site Experience: Stage thank-you from Executive Director, 3 prominent MC mentions, opportunity for sponsor to greet guests at entrance, speaking rights (3-5 minutes).\n*   Tickets: 8 VIP tickets with premium seating.\n*   Branding: Large logo on volunteer t-shirts.\n*   Exclusivity: Category exclusivity (e.g., \"Official Bank Sponsor\").\n\n**Harvest Champion \u2013 $2,500**\n*   Prominent logo placement: Homepage sponsor carousel (6 months) with link, Event webpage logo with link, Welcome banner and stage backdrop.\n*   Digital Recognition: 2 dedicated sponsor thank-you emails, 4 social media posts across all platforms, sponsor slide on projector loop.\n*   Event Impact: Logo in printed event program (half page), table signage and buffet tent cards.\n*   On-Site Experience: Stage thank-you from Executive Director, 2 MC mentions.\n*   Tickets: 4 VIP tickets with preferred seating.\n*   Branding: Logo on volunteer t-shirts.\n*   Exclusivity: Option for one specific category (e.g., \"Official Produce Sponsor\"), if available.\n\n**Neighbor Sponsor \u2013 $1,000**\n*   Logo placement: Event webpage logo with link, Welcome banner.\n*   Digital Recognition: 1 dedicated sponsor thank-you email, 2 social media posts across all platforms, sponsor slide on projector loop.\n*   Event Impact: Logo in printed event program, table signage.\n*   On-Site Experience: 1 MC mention.\n*   Tickets: 2 tickets to the dinner.\n\n**Friend of the Pantry \u2013 $500**\n*   Logo placement: Event webpage logo, Welcome banner.\n*   Digital Recognition: 1 social media post, sponsor slide on projector loop.\n*   Event Impact: Name listed in printed event program.\n*   Tickets: 1 ticket to the dinner.\n\n---\n\n**Audience & Reach (estimated):**\n*   **Event Attendance:** 150 guests, including local families, agricultural producers, teachers, health workers, and small business owners.\n*   **Demographics:** Ages 30\u201365; 55% women; median household income $45k\u2013$85k; 80% live within 30 miles of McCook.\n*   **Digital Engagement:** 1,200 website visits, 2,100 social media followers.\n*   **Media Partners:** KICX 96.9 FM, McCook Gazette, High Plains Radio Network, Valley Cable Channel 7 \u2013 reaching an estimated 10,000+ individuals throughout Red Willow County and surrounding areas.\n\n---\n\n### In-Kind Sponsorship Opportunities\n\nIn-kind contributions are invaluable and will be recognized at the equivalent cash sponsorship tier.\n\n*   **A/V (projector, mics, setup):** Fair Market Value: $3,000 (Maps to: Presenting Harvest Sponsor \u2013 $5,000)\n*   **Locally Sourced Produce/Catering Support:** Fair Market Value: $2,500 (Maps to: Harvest Champion \u2013 $2,500)\n*   **Printing (programs, banners):** Fair Market Value: $1,800 (Maps to: Harvest Champion \u2013 $2,500)\n*   **Local Radio Underwriting:** Fair Market Value: $1,000 (Maps to: Neighbor Sponsor \u2013 $1,000)\n*   **Event Photography:** Fair Market Value: $800 (Maps to: Friend of the Pantry \u2013 $500\u2013$1,000)\n\n---\n\n### Why It Matters: Translate Your Support to Tangible Impact\n\n*   **$5,000 funds 10 weeks of backpack meals for 220 food-insecure students.**\n*   **$2,500 provides 200 fresh produce boxes for seniors and families in need.**\n*   **$1,000 covers fuel and refrigeration for 12 mobile pantry days to remote towns.**\n\n---\n\n### Key Deadlines\n\n*   **Sponsorship Commitment Deadline:** August 23, 2025\n*   **Logo/Asset Submission for Printed Materials:** August 30, 2025\n*   **Logo/Asset Submission for Digital Materials:** September 5, 2025\n*   *Please note: Timely submission of materials is essential for full delivery of all sponsorship benefits.*\n\n---\n\n### Optional Add-Ons (Limited Quantities)\n\nEnhance your brand's presence and impact with these unique opportunities:\n\n*   **Branded Reusable Produce Totes for Guests:** 3 available \u2013 Your logo prominently featured on take-home totes for all attendees.\n*   **Employee Volunteer Harvest Day at Partner Farms:** 2 dates available (up to 20 volunteers per date) \u2013 A memorable team-building experience connecting your staff with local agriculture and our mission.\n*   **Community Matching Challenge During Live Appeal:** 1 match sponsor available (up to $5,000) \u2013 Double the impact of donations during our event, with special recognition for your matching contribution.\n*   **Photo Backdrop with Rustic Market Crates & Sponsor Logo:** 1 available \u2013 A popular photo opportunity for guests, prominently featuring your brand.\n\n---\n\n### Recognition Policy & Tax Information\n\nSponsor logos will be displayed in order of sponsorship level. Specific category exclusivity is offered at the Presenting and Harvest Champion tiers. Red Willow Community Pantry is a 501(c)(3) non-profit organization. Sponsorships are tax-deductible to the extent allowed by law. We will provide a tax receipt indicating the fair market value of any goods or services received.\n\n---\n\n**Join us in cultivating a healthier, more food-secure Red Willow County!**\n\nTo discuss your sponsorship or for more information, please contact:\n\n**Leah Martinez**\nDevelopment Coordinator\nRed Willow Community Pantry\nleah@redwillowpantry.org\n(308) 555-0178",
+      "timestamp": "2025-11-02T13:17:19.943075Z",
+      "duration_seconds": 6.31,
+      "tokens": {
+        "input": 1202,
+        "output": 1538,
+        "total": 2740
+      },
+      "cost_usd": 0.001103,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional sponsorship package that hits most requirements and would be immediately usable by a small rural nonprofit. The warm tone is appropriate, benefits are concrete and quantified, and the structure is scannable. Minor issues include some missing quantification details and a few areas where specificity could be enhanced.",
+        "strengths": [
+          "Excellent warm, mission-forward tone that balances professionalism with community feel\u2014avoids jargon and clich\u00e9s while remaining authentic to a rural nonprofit",
+          "Clear, scannable structure with effective use of headers and bullets that could be dropped into a one-pager with minimal editing",
+          "Strong concrete benefits with good quantification (8 VIP tickets, 6 social posts, 3 MC mentions) that sponsors can evaluate",
+          "Effective 'Why It Matters' section that directly translates dollar amounts to tangible outcomes (10 weeks of meals, 200 produce boxes)",
+          "Comprehensive in-kind section with fair market values clearly mapped to equivalent tiers",
+          "Well-differentiated tier structure appropriate for rural market and $25k event budget, with meaningful benefit progression",
+          "Optional add-ons are creative, mission-aligned, and limited in quantity as requested",
+          "Clear deadlines with explanation of why timely materials matter"
+        ],
+        "weaknesses": [
+          "Missing some quantification details: 'Homepage carousel (6 months)' doesn't specify rotation frequency; 'Digital Engagement: 1,200 website visits' appears to conflate email list size with web traffic",
+          "Social media posts lack platform breakdown in tier benefits (prompt data shows 2,100 total followers but doesn't specify which platforms; output mentions 'Facebook, Instagram' without confirming these are the actual platforms)",
+          "Media partner reach estimate ('10,000+ individuals') appears invented rather than derived from provided data\u2014should either be removed or clearly labeled as estimated",
+          "Word count is approximately 680-700 words, exceeding the 450-650 target range",
+          "Recognition policy section could be more specific about logo sizing/placement hierarchy and what 'category exclusivity' means in practice",
+          "Minor: 'Digital Materials' deadline (Sept 5) seems late given event is Sept 21; the prompt specified this as 'PRINT DEADLINE' not digital"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# HARVEST FOR HOPE FARM-TO-TABLE DINNER\n## Sponsorship Opportunities | September 21, 2025\n**Red Willow County Fairgrounds, Exhibit Hall | McCook, NE**\n\n---\n\n### MISSION SNAPSHOT\nRed Willow Community Pantry serves food-insecure families across Red Willow County through weekend backpack meals for 220 students, 200 fresh produce boxes monthly, and mobile pantry routes to outlying towns. The Harvest for Hope Farm-to-Table Dinner celebrates our rural food system while raising critical funds to keep refrigerated trucks running, warehouses stocked, and neighbors fed. Your sponsorship turns a beautiful evening into measurable relief for working families who stretch every dollar.\n\n---\n\n### SPONSORSHIP TIERS\n\n#### **PRESENTING HARVEST SPONSOR** | $5,000 | *One available*\n- **Logo placement:** Homepage sponsor carousel (6 months) with link \u00b7 Event webpage logo with link \u00b7 Printed event program \u00b7 Welcome banner & stage backdrop \u00b7 Table signage & buffet tent cards \u00b7 Volunteer t-shirt logo\n- **Recognition:** Stage thank-you from Executive Director \u00b7 3 MC mentions throughout evening \u00b7 Sponsor slide on projector loop \u00b7 Greet guests at entrance (optional)\n- **Digital:** 2 dedicated sponsor thank-you emails to 1,200 supporters \u00b7 4 social media posts (Facebook/Instagram, reach ~2,100)\n- **Access:** 12 complimentary tickets \u00b7 VIP farm tour & reception (4 passes) \u00b7 8\u00d76 exhibit table for product display or branded materials\n- **Exclusivity:** Category exclusive (e.g., only one ag lender)\n\n#### **HARVEST CHAMPION** | $2,500 | *Three available*\n- **Logo placement:** Event webpage with link \u00b7 Printed program \u00b7 Welcome banner & stage backdrop \u00b7 Table signage & buffet tent cards \u00b7 Volunteer t-shirt logo\n- **Recognition:** Stage thank-you from Executive Director \u00b7 2 MC mentions \u00b7 Sponsor slide on projector loop\n- **Digital:** 1 dedicated sponsor thank-you email \u00b7 3 social media posts (reach ~2,100)\n- **Access:** 8 complimentary tickets \u00b7 VIP farm tour & reception (2 passes) \u00b7 6\u00d74 exhibit table\n\n#### **NEIGHBOR SPONSOR** | $1,000 | *Unlimited*\n- **Logo placement:** Event webpage with link \u00b7 Printed program \u00b7 Table signage\n- **Recognition:** 1 MC mention \u00b7 Sponsor slide on projector loop\n- **Digital:** Inclusion in group sponsor thank-you email \u00b7 2 social media posts\n- **Access:** 4 complimentary tickets \u00b7 Exhibit table (shared)\n\n#### **FRIEND OF THE PANTRY** | $500 | *Unlimited*\n- **Logo placement:** Printed program \u00b7 Table signage\n- **Recognition:** Sponsor slide on projector loop\n- **Digital:** Inclusion in group sponsor thank-you email \u00b7 1 social media post\n- **Access:** 2 complimentary tickets\n\n---\n\n### IN-KIND SPONSORSHIP\nWe welcome in-kind contributions valued at fair market rate, mapped to the corresponding cash tier:\n\n| **Item Needed** | **Fair Market Value** | **Maps to Tier** |\n|-----------------|----------------------|------------------|\n| A/V (projector, mics, setup) | $3,000 | Presenting Harvest Sponsor |\n| Locally sourced produce/catering support | $2,500 | Harvest Champion |\n| Printing (programs, banners) | $1,800 | Harvest Champion |\n| Local radio underwriting | $1,000 | Neighbor Sponsor |\n| Event photography | $800 | Friend of the Pantry |\n\nIn-kind sponsors receive all benefits of the corresponding cash tier.\n\n---\n\n### AUDIENCE & REACH\n- **Attendees:** 150 local families, ag producers, teachers, health workers, and small business owners\n- **Demographics:** Ages 30\u201365 \u00b7 55% women \u00b7 Median HH income $45k\u2013$85k \u00b7 80% live within 30 miles\n- **Email list:** 1,200 subscribers\n- **Social reach:** 2,100 followers (Facebook/Instagram combined)\n- **Media partners:** KICX 96.9 FM \u00b7 McCook Gazette \u00b7 High Plains Radio Network \u00b7 Valley Cable Channel 7\n\n---\n\n### WHY IT MATTERS: YOUR INVESTMENT IN ACTION\n- **$5,000** funds 10 weeks of backpack meals for 220 students\n- **$2,500** provides 200 fresh produce boxes for seniors and families\n- **$1,000** covers fuel and refrigeration for 12 mobile pantry days to remote towns\n\n---\n\n### OPTIONAL ADD-ONS *(Limited availability; first-come, first-served)*\n- Branded reusable produce totes for guests *(3 available)*\n- Employee volunteer harvest day at partner farms *(2 dates, up to 20 volunteers each)*\n- Community matching challenge during live appeal *(1 sponsor, up to $5,000)*\n- Photo backdrop with rustic market crates and sponsor logo *(1 available)*\n\n---\n\n### IMPORTANT DATES\n- **Sponsorship commitment:** August 23, 2025\n- **Logo & materials due:** August 30, 2025 (print materials) \u00b7 September 5, 2025 (digital/final)\n- Benefits depend on timely submission of high-resolution logos and approved copy.\n\n---\n\n### RECOGNITION POLICY & TAX ACKNOWLEDGMENT\nLogos appear in size order by tier level. Category exclusivity (Presenting only) honored on first-commitment basis. Red Willow Community Pantry is a 501(c)(3) nonprofit; your contribution is tax-deductible to the extent allowed by law. For cash sponsors, no goods or services are provided in exchange. In-kind donors will receive a receipt reflecting fair market value minus benefit value.\n\n---\n\n### LET'S GROW TOGETHER\nJoin us in celebrating harvest, community, and the dignity of a full table. Secure your sponsorship today.\n\n**Leah Martinez**  \nDevelopment Coordinator  \nRed Willow Community Pantry  \nleah@redwillowpantry.org | (308) 555-0178",
+      "timestamp": "2025-11-02T13:17:40.301213Z",
+      "duration_seconds": 26.67,
+      "tokens": {
+        "input": 1297,
+        "output": 1452,
+        "total": 2749
+      },
+      "cost_usd": 0.025671,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong sponsorship package that hits nearly all requirements with precision. The warm, community-focused tone is appropriate for a rural nonprofit, benefits are concrete and quantified, and the layout is immediately usable. Minor deductions for slightly generic phrasing in places and one small structural inconsistency in the in-kind table.",
+        "strengths": [
+          "Excellent tier differentiation with specific, deliverable benefits (exact number of MC mentions, social posts, tickets) that avoid overpromising",
+          "Strong mission-first framing with concrete impact translation ($5,000 = 10 weeks of backpack meals) that connects sponsor dollars to outcomes",
+          "Highly scannable format with clear headers, bullet structure, and a well-organized in-kind table that maps contributions to tiers",
+          "Warm, authentic tone that avoids nonprofit jargon ('win-win,' 'synergy') while maintaining professionalism appropriate for rural small business sponsors",
+          "Comprehensive audience/reach data presented clearly, giving sponsors tangible marketing value metrics",
+          "Smart add-ons that fit the rural/agricultural context (volunteer harvest day, produce totes) and create additional engagement opportunities",
+          "Professional recognition policy and tax language that protects the organization while being transparent",
+          "Word count (approximately 580 words) falls perfectly within the 450-650 target range"
+        ],
+        "weaknesses": [
+          "The closing 'Let's Grow Together' is slightly generic/punny for an otherwise authentic piece\u2014a more direct CTA might be stronger",
+          "In-kind table shows $3,000 A/V mapping to $5,000 tier, which is reasonable but the gap could confuse some donors; a brief note explaining tier benefits justify the difference would help",
+          "The 'Digital' benefit line for Presenting Sponsor lists '4 social media posts (reach ~2,100)' but doesn't clarify if this is per-post reach or cumulative\u2014minor ambiguity that could be tightened"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Harvest for Hope Farm-to-Table Dinner\nHosted by Red Willow Community Pantry\nSunday, September 21, 2025 \u2022 Red Willow County Fairgrounds\u2014Exhibit Hall \u2022 McCook, NE\n\nMission snapshot\nYour sponsorship nourishes food\u2011insecure families across Red Willow County. Proceeds fund weekend backpack meals for 220 students, 200 fresh produce boxes each month, and fuel for mobile pantry routes to outlying towns. Harvest for Hope gathers our community around a locally sourced meal to power this work all year.\n\nSponsorship levels\nPresenting Harvest Sponsor \u2014 $5,000\n- Brand visibility: Homepage sponsor carousel (6 months) with link; top placement on event webpage with link; logo on welcome banner and stage backdrop; logo on volunteer t\u2011shirts; logo in printed program; table signage and buffet tent cards; sponsor slide on projector loop.\n- Recognition: Stage thank\u2011you from Executive Director; MC mentions (3); two dedicated sponsor thank\u2011you emails; up to 4 tagged social posts (est. 3,000\u20135,000 impressions based on past performance); Presenting may greet guests at entrance and offer a 60\u2011second welcome.\n- Access: 8 reserved dinner tickets with VIP early tasting; one exhibit/activation table near entrance; category exclusivity in your primary business line (first\u2011committed).\n- Extras: 2 sponsor\u2011provided banners displayed; option to include an offer in guest email post\u2011event.\n\nHarvest Champion \u2014 $2,500\n- Visibility: Event webpage logo with link; secondary placement on stage backdrop; logo on volunteer t\u2011shirts; logo in printed program; table signage; sponsor slide on projector loop.\n- Recognition: MC mentions (2); one dedicated sponsor spotlight email; 3 tagged social posts.\n- Access: 6 reserved dinner tickets with VIP early tasting; one exhibit table near registration; option to place a brochure on the community info table.\n- Exclusivity: Up to two sponsors per business category.\n\nNeighbor Sponsor \u2014 $1,000\n- Visibility: Event webpage logo; program logo; table signage; sponsor slide on projector loop.\n- Recognition: MC mention (1); inclusion in group sponsor email; 2 tagged social posts.\n- Access: 4 reserved dinner tickets; literature on community info table.\n\nFriend of the Pantry \u2014 $500\n- Visibility: Name listed on event webpage and in printed program; sponsor slide on projector loop.\n- Recognition: Group social thank\u2011you post and email.\n- Access: 2 reserved dinner tickets.\n\nIn\u2011Kind Sponsor options (credited at fair market value; mapped to closest tier)\n- Printing (programs, banners) \u2014 $1,800 FMV \u2192 Harvest Champion ($2,500) recognition\n- Locally sourced produce/catering support \u2014 $2,500 FMV \u2192 Harvest Champion ($2,500)\n- A/V (projector, mics, setup) \u2014 $3,000 FMV \u2192 Presenting Harvest Sponsor ($5,000)\n- Local radio underwriting \u2014 $1,000 FMV \u2192 Neighbor Sponsor ($1,000)\n- Event photography \u2014 $800 FMV \u2192 Friend of the Pantry ($500\u2013$1,000)\n\nAudience and reach\n- Attendees: 150 community members\u2014local families, ag producers, teachers, health workers, small business owners; ages 30\u201365; 55% women; median HH income $45k\u2013$85k; 80% live within 30 miles.\n- Marketing: 1,200 email subscribers; 2,100 combined social followers; media partners: KICX 96.9 FM, McCook Gazette, High Plains Radio Network, Valley Cable Channel 7.\n\nWhy it matters\n- $5,000 = Funds 10 weeks of backpack meals for 220 students.\n- $2,500 = Provides 200 fresh produce boxes for seniors and families.\n- $1,000 = Covers fuel and refrigeration for 12 mobile pantry days to remote towns.\n\nKey deadlines\n- Commit by August 23, 2025.\n- Send logo files/ads by August 30, 2025.\n- Final copy/artwork for signage and slides by September 5, 2025.\nNote: Some benefits (placement, apparel, media) depend on receiving materials by these dates.\n\nOptional add\u2011ons (limited)\n- Branded reusable produce totes for guests (3 available)\n- Employee volunteer harvest day at partner farms (2 dates; up to 20 volunteers each)\n- Community matching challenge during live appeal (1 match sponsor, up to $5,000)\n- Photo backdrop with rustic market crates and sponsor logo (1 available)\n\nRecognition and tax note\n- Logo order and size follow level (Presenting, Champion, Neighbor, Friend). Presenting receives category exclusivity; others as noted. Red Willow Community Pantry is a 501(c)(3); you will receive an acknowledgment letter. The tax\u2011deductible portion equals your contribution minus the fair market value of tickets/benefits; in\u2011kind gifts are receipted at donor\u2011stated FMV.\n\nReady to plant hope?\nContact: Leah Martinez, Development Coordinator\nleah@redwillowpantry.org \u2022 (308) 555\u20110178\nThank you for helping neighbors put good food on the table.",
+      "timestamp": "2025-11-02T13:18:00.436511Z",
+      "duration_seconds": 46.81,
+      "tokens": {
+        "input": 1088,
+        "output": 2687,
+        "total": 3775
+      },
+      "cost_usd": 0.043569,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong sponsorship package that hits all major requirements with appropriate warm, community-focused tone. It's immediately usable with minimal edits, provides concrete quantified benefits, and maintains mission-first framing throughout. Minor deductions only for slightly generic closing line and one small structural choice.",
+        "strengths": [
+          "Perfect tone execution\u2014warm, accessible, community-centered without being saccharine; 'nourishes food-insecure families' and 'plant hope' feel authentic to rural nonprofit voice",
+          "Excellent benefit specificity and quantification\u2014'3,000\u20135,000 impressions,' '60-second welcome,' '8 reserved tickets,' etc. gives sponsors clear ROI expectations",
+          "Strong mission integration\u2014opening snapshot is concise and compelling, 'Why it matters' section translates dollars to tangible outcomes effectively",
+          "Smart tier differentiation with meaningful benefit gaps (8 vs 6 vs 4 tickets; 3 vs 2 vs 1 MC mentions; category exclusivity at top tier)",
+          "Comprehensive in-kind mapping with FMV clearly stated and tier equivalents specified\u2014this is often missing in real sponsorship packages",
+          "Excellent audience demographics section\u2014specific, quantified, and relevant to sponsor decision-making (80% within 30 miles, median income range)",
+          "Clear deadline structure with explanation of why timing matters ('Some benefits depend on receiving materials by these dates')",
+          "Professional tax language that balances accessibility with accuracy\u2014correctly distinguishes deductible portion",
+          "Scannable formatting with clear headers, bullets, and visual hierarchy ready for one-pager layout",
+          "Word count discipline\u2014approximately 580 words, well within 450-650 target"
+        ],
+        "weaknesses": [
+          "The closing line 'Thank you for helping neighbors put good food on the table' is slightly generic\u2014could be more distinctive or action-oriented given the strong voice elsewhere",
+          "In-kind section could benefit from one sentence explaining the process (e.g., 'Contact us to discuss in-kind contributions; we will confirm FMV and issue a receipt')",
+          "Optional add-ons list pricing or availability windows inconsistently\u2014'3 available' vs '2 dates' vs '1 available' is good, but matching challenge could specify timing window"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Tech for Good Hackathon 2025: Sponsorship Opportunities\n\nThe Puget Tech Inclusion Network (PTIN) is dedicated to fostering a diverse and inclusive tech ecosystem. By partnering with us for the Tech for Good Hackathon 2025, your support directly empowers underrepresented job seekers with invaluable portfolio projects, mentorship, and crucial scholarships into PTIN\u2019s intensive 12-week apprenticeship prep program, ultimately bridging opportunity gaps in tech.\n\nJoin us on May 17\u201318, 2025, at Galvanize Seattle (111 S Jackson St, Seattle, WA) as we bring together innovators to code for a cause.\n\n### Why It Matters: Your Impact in Action\n\nBeyond an event, this is an investment in human potential and a stronger, more equitable tech community.\n*   **$25,000:** Funds 20 prep-program scholarships and capstone support (average $1,250 each).\n*   **$7,500:** Purchases 10 refurbished laptops for trainees and community labs.\n*   **$3,000:** Covers one month of mentor stipends for 15 mentors, ensuring guidance and support.\n\n### Audience & Reach\n\nConnect with a diverse and engaged audience, demonstrating your commitment to social impact and tech talent.\n\n*   **Attendees:** 400 total\n    *   60% early- to mid-career technologists (ages 22\u201338)\n    *   25% company mentors/recruiters\n    *   15% students\n    *   48% women/non-binary; 55% BIPOC; 70% King County-based; avg HH income $70k+\n*   **Digital Reach:** 9,500 newsletter subscribers, 18,000 social media followers\n*   **Media Outreach:** Coverage targeted with GeekWire, Puget Sound Business Journal, KUOW 94.9 FM, Seattle Tech Meetup Network.\n\n---\n\n### Sponsorship Tiers\n\n#### **Title Sponsor \u2013 $25,000 (1 Available)**\n\n*   **Visibility:** Event microsite hero + footer logo with link, Company profile page on PTIN.org (100 words + link), 3 dedicated sponsor spotlight emails (reaching 9,500+), Logo in digital program/agenda + all Slack announcements, Prominent venue signage + check-in screens, Lanyard/badge logo.\n*   **Recognition:** Exclusive 2-minute welcome remarks during opening ceremony, VIP mention in opening and closing remarks, Logo on main screen rotation between sessions.\n*   **Engagement:** Category exclusivity, 6 VIP tickets, Dedicated social media posts (3 on each platform), 1 reserved exhibit table in a prime location, Opportunity to provide judges/mentors (up to 5), 1 speaking slot during a track session.\n\n#### **Impact Partner \u2013 $15,000 (2 Available)**\n\n*   **Visibility:** Event microsite footer logo with link, Company profile page on PTIN.org (50 words + link), 2 dedicated sponsor spotlight emails, Logo in digital program/agenda + Slack announcements, Venue signage + check-in screens, Lanyard/badge logo.\n*   **Recognition:** Prominent mention in opening and closing remarks, Logo on main screen rotation between sessions.\n*   **Engagement:** 4 VIP tickets, Dedicated social media posts (2 on each platform), 1 exhibit table, Opportunity to provide judges/mentors (up to 3).\n\n#### **Track Sponsor \u2013 $7,500 (4 Available)**\n\n*   **Visibility:** Event microsite footer logo with link, Logo in digital program/agenda + Slack announcements, Venue signage + check-in screens.\n*   **Recognition:** Mention in opening and closing remarks, Logo on main screen rotation between sessions.\n*   **Engagement:** 2 VIP tickets, Social media posts (1 on each platform), Opportunity to provide mentors (up to 2).\n\n#### **Team Sponsor \u2013 $3,000**\n\n*   **Visibility:** Event microsite footer logo, Name recognition in digital program/agenda.\n*   **Recognition:** Group mention in opening and closing remarks, Logo on main screen rotation between sessions.\n*   **Engagement:** 1 VIP ticket, Social media shout-out.\n\n#### **Community Sponsor \u2013 $1,500**\n\n*   **Visibility:** Event microsite footer logo, Name recognition in digital program/agenda.\n*   **Recognition:** Group mention in opening and closing remarks.\n\n---\n\n### In-Kind Sponsorship Opportunities\n\nWe also welcome in-kind contributions vital to a successful hackathon. Your donation will be recognized at a comparable cash sponsorship tier based on fair market value.\n\n| Item                                    | Fair Market Value | Maps to Tier            |\n| :-------------------------------------- | :---------------- | :---------------------- |\n| Cloud credits/API access                | $10,000           | Impact Partner ($15,000) |\n| Catering: meals/snacks/coffee           | $12,000           | Impact Partner ($15,000) |\n| A/V + livestream services               | $15,000           | Title Sponsor ($25,000) |\n| Swag + printing (shirts, stickers, banners) | $4,000            | Track Sponsor ($7,500)  |\n| Professional photography/media coverage | $5,000            | Track Sponsor ($7,500)  |\n| Venue/coworking space rental            | $8,000            | Impact Partner ($15,000) |\n\n### Optional Add-Ons (Limited Quantity)\n\nEnhance your visibility and engagement with these exclusive opportunities.\n\n*   Branded developer lounge with charging stations (2 available)\n*   Resume review + portfolio critique booth (3 available)\n*   Employee volunteer mentors/judges (rolling sign-ups)\n*   Company-matched scholarship challenge announced at awards (1 available)\n*   Headshot photo booth with your logo on digital/print downloads (1 available)\n*   Step-and-repeat wall near registration (1 available)\n\n---\n\n### Key Dates\n\n*   **Sponsorship Commitment Deadline:** April 4, 2025\n*   **Logo & Ad Assets (for early promotion):** April 12, 2025\n*   **Final Assets (for event program):** April 26, 2025\n\n*Note: Benefits are contingent upon timely submission of all required materials.*\n\n### Recognition Policy & Tax Note\n\nSponsor logos will be displayed by tier level. Category exclusivity is reserved exclusively for the Title Sponsor. PTIN is a 501(c)(3) non-profit organization. Your sponsorship is tax-deductible to the extent allowed by law. No goods or services are provided in exchange for cash sponsorships. In-kind donations will be acknowledged at their fair market value.\n\nReady to make an impact? Let's connect!\n\n**Jordan Kim**\nDirector of Partnerships\njordan.kim@ptin.org\n(206) 555-0129",
+      "timestamp": "2025-11-02T13:18:08.421693Z",
+      "duration_seconds": 7.98,
+      "tokens": {
+        "input": 1298,
+        "output": 1548,
+        "total": 2846
+      },
+      "cost_usd": 0.001123,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 9
+        },
+        "reasoning": "This is a strong, professional sponsorship package that balances mission-forward messaging with concrete benefits. It's well-structured and immediately usable, though it has some completeness gaps (missing quantified digital posts, some tier benefits) and a tax note error that could create legal issues.",
+        "strengths": [
+          "Excellent casual-professional tone that avoids jargon while remaining credible\u2014'code for a cause' and 'investment in human potential' feel authentic to tech nonprofit culture",
+          "Smart structural choices: Impact section placed early for mission-first framing, clean tier differentiation with specific ticket counts and exhibit tables",
+          "Highly scannable format with clear headers, bullets, and a well-designed in-kind table that makes it easy for prospects to self-select",
+          "Strong audience demographics presentation with percentages that demonstrate diversity value to corporate DEI teams",
+          "Practical add-ons list with limited quantities creates urgency and aligns well with tech hackathon context (charging stations, resume reviews)",
+          "Clear CTA and contact block with warm, accessible sign-off"
+        ],
+        "weaknesses": [
+          "Completeness gaps: Digital posts are mentioned but not quantified per tier (prompt requires 'quantified digital posts'); some tier benefits are vague ('dedicated' vs. specific numbers)",
+          "Tax note contains a significant error: 'No goods or services are provided in exchange for cash sponsorships' is incorrect\u2014VIP tickets, exhibit tables, and speaking slots all have fair market value and should be disclosed for IRS compliance",
+          "Missing explicit category exclusivity details beyond Title Sponsor\u2014prompt asks for 'exclusivity rules' but only one tier mentions it",
+          "Word count appears to exceed the 450\u2013650 range (approximately 750+ words), which may not fit the 'one-page' constraint depending on formatting",
+          "Some benefits lack specificity: 'Opportunity to provide judges/mentors' doesn't clarify if this is exclusive or what recognition mentors receive",
+          "The 'Why It Matters' section could be stronger\u2014it lists impact examples but doesn't create an emotional narrative connecting sponsor dollars to participant outcomes"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Tech for Good Hackathon 2025 \u00b7 Sponsorship Prospectus\n\n**May 17\u201318, 2025 | Galvanize Seattle, 111 S Jackson St, Seattle, WA**  \n**Hosted by Puget Tech Inclusion Network (PTIN)**\n\n---\n\n## Mission Snapshot\n\nYour sponsorship connects underrepresented technologists to real portfolio projects, expert mentorship, and direct pathways into PTIN's 12\u2011week apprenticeship prep program. Over two days, 400 participants\u2014many from communities historically locked out of tech\u2014will build solutions that matter, earn scholarships, and gain visibility to Seattle's top employers. Every dollar you invest opens doors that talent alone can't unlock.\n\n---\n\n## Sponsorship Tiers\n\n### **Title Sponsor** \u2013 $25,000 \u00b7 *One available*\n- **Logo placement:** Event microsite hero + footer logo with link \u00b7 Company profile page on PTIN.org (100 words + link) \u00b7 Digital program/agenda and Slack announcements \u00b7 Venue signage + check\u2011in screens \u00b7 Lanyard + badge logo\n- **Recognition:** 2\u2011minute welcome from stage \u00b7 Opening and closing remarks mention \u00b7 Logo on main screen rotation between sessions\n- **Digital reach:** 3 sponsor spotlight emails to 9,500 subscribers \u00b7 8 social posts (LinkedIn, Twitter, Instagram) reaching 18,000 followers\n- **Activation:** 8 VIP passes \u00b7 10\u00d710 exhibit table \u00b7 5 mentor/judge slots \u00b7 Category exclusivity in your sector \u00b7 Branded welcome lounge\n- **Add\u2011on opportunity:** Company\u2011matched scholarship challenge announced at awards (1 available)\n\n### **Impact Partner** \u2013 $15,000 \u00b7 *Three available*\n- **Logo placement:** Event microsite footer with link \u00b7 Company profile on PTIN.org (75 words) \u00b7 Digital program \u00b7 Venue signage + check\u2011in screens \u00b7 Lanyard logo\n- **Recognition:** Opening and closing remarks mention \u00b7 Logo on main screen rotation\n- **Digital reach:** 2 sponsor spotlight emails \u00b7 5 social posts\n- **Activation:** 6 VIP passes \u00b7 8\u00d78 exhibit table \u00b7 4 mentor/judge slots \u00b7 Naming rights to workshop track\n\n### **Track Sponsor** \u2013 $7,500 \u00b7 *Five available*\n- **Logo placement:** Event microsite footer \u00b7 Digital program \u00b7 Venue signage\n- **Recognition:** Opening remarks mention \u00b7 Mentor shout\u2011outs during checkpoint huddles \u00b7 Logo on main screen rotation\n- **Digital reach:** 1 spotlight email \u00b7 3 social posts\n- **Activation:** 4 VIP passes \u00b7 Shared expo table \u00b7 2 mentor/judge slots \u00b7 Workshop track naming rights\n\n### **Team Sponsor** \u2013 $3,000 \u00b7 *Ten available*\n- **Logo placement:** Event microsite \u00b7 Digital program \u00b7 Venue signage\n- **Recognition:** Opening remarks mention \u00b7 Logo on main screen rotation\n- **Digital reach:** Logo in 1 newsletter \u00b7 2 social posts\n- **Activation:** 2 VIP passes \u00b7 Shared expo table \u00b7 1 mentor/judge slot\n\n### **Community Sponsor** \u2013 $1,500 \u00b7 *Unlimited*\n- **Logo placement:** Event microsite \u00b7 Digital program\n- **Recognition:** Opening remarks mention\n- **Digital reach:** 1 social post\n- **Activation:** 2 general admission passes\n\n---\n\n## In\u2011Kind Sponsorship\n\nContribute services or products at fair market value and receive benefits from the corresponding cash tier:\n\n| **Item** | **FMV** | **Maps to Tier** |\n|----------|---------|------------------|\n| A/V + livestream services | $15,000 | **Title Sponsor** |\n| Catering: meals/snacks/coffee | $12,000 | **Impact Partner** |\n| Cloud credits/API access | $10,000 | **Impact Partner** |\n| Venue/coworking space rental | $8,000 | **Impact Partner** |\n| Professional photography/media coverage | $5,000 | **Track Sponsor** |\n| Swag + printing (shirts, stickers, banners) | $4,000 | **Track Sponsor** |\n\n---\n\n## Audience & Reach\n\n- **400 attendees:** 60% early\u2011 to mid\u2011career technologists (ages 22\u201338) \u00b7 25% company mentors/recruiters \u00b7 15% students\n- **Demographics:** 48% women/non\u2011binary \u00b7 55% BIPOC \u00b7 70% King County\u2011based \u00b7 avg HH income $70k+\n- **Marketing channels:** 9,500 email subscribers \u00b7 18,000 social followers \u00b7 media partnerships with *GeekWire*, *Puget Sound Business Journal*, *KUOW 94.9 FM*, and Seattle Tech Meetup Network\n\n---\n\n## Why It Matters\n\n- **$25,000** funds 20 prep\u2011program scholarships and capstone support (average $1,250 each)\n- **$7,500** purchases 10 refurbished laptops for trainees and community labs\n- **$3,000** covers one month of mentor stipends for 15 mentors\n\n---\n\n## Add\u2011Ons (Limited Availability)\n\n- Branded developer lounge with charging stations (2 available) \u2013 **+$2,500**\n- Resume review + portfolio critique booth (3 available) \u2013 **+$1,800**\n- Headshot photo booth with your logo on digital/print downloads (1 available) \u2013 **+$3,000**\n- Step\u2011and\u2011repeat wall near registration (1 available) \u2013 **+$1,200**\n- Employee volunteer mentors/judges (rolling sign\u2011ups) \u2013 **No cost**\n- Company\u2011matched scholarship challenge announced at awards (1 available) \u2013 **Title Sponsor exclusive**\n\n---\n\n## Important Dates\n\n- **April 4, 2025:** Sponsorship commitment deadline\n- **April 12, 2025:** Logo files and company description due\n- **April 26, 2025:** Final booth/activation details due\n\n*Benefits\u2014especially digital posts and program placement\u2014depend on timely materials.*\n\n---\n\n## Recognition Policy & Tax Note\n\nLogos appear in descending tier order. Category exclusivity granted on first\u2011come basis (Title only). PTIN is a 501(c)(3) nonprofit; your contribution is tax\u2011deductible to the extent permitted by law. The value of tangible benefits (tickets, exhibit space) will be noted in your acknowledgment letter; the remainder qualifies as a charitable donation.\n\n---\n\n## Let's Build This Together\n\nReady to invest in Seattle's next generation of tech talent? Let's talk.\n\n**Jordan Kim**  \nDirector of Partnerships  \nPuget Tech Inclusion Network  \njordan.kim@ptin.org | (206) 555-0129",
+      "timestamp": "2025-11-02T13:18:30.929121Z",
+      "duration_seconds": 30.49,
+      "tokens": {
+        "input": 1386,
+        "output": 1593,
+        "total": 2979
+      },
+      "cost_usd": 0.028053,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly polished, professional sponsorship package that successfully balances casual tone with substantive detail. It delivers all required elements in a scannable format that a partnership director could immediately use. Minor weaknesses include slightly generic mission language and a few formatting choices that could be tightened.",
+        "strengths": [
+          "Excellent tier differentiation with concrete, quantified benefits (specific post counts, VIP passes, booth sizes) that sponsors can easily compare",
+          "Strong mission-first framing that connects dollars to tangible outcomes without being preachy\u2014the opening 'talent alone can't unlock' line is compelling",
+          "Clean, scannable structure with clear headers, tables, and bullets that requires minimal editing to drop into a PDF",
+          "Accurate pricing strategy: tiers total $51,500 minimum (Title + 3 Impact Partners) = 43% of $120k budget, within the 40-60% target range",
+          "Smart in-kind table with FMV and tier mapping makes it easy for non-cash sponsors to understand their benefits",
+          "Realistic add-ons with specific pricing and availability limits show operational maturity",
+          "Casual tone executed well\u2014conversational without being unprofessional ('Let's Build This Together,' 'doors that talent alone can't unlock')",
+          "Comprehensive audience demographics give sponsors clear ROI data for recruitment and brand alignment",
+          "Recognition policy and tax language are legally appropriate and clearly stated"
+        ],
+        "weaknesses": [
+          "Opening mission snapshot, while solid, uses somewhat predictable phrasing ('opens doors,' 'pathways') that could be more distinctive to PTIN's voice",
+          "The 'Why It Matters' section could be stronger\u2014it lists impact but doesn't emotionally connect the hackathon event to those outcomes (e.g., how does a weekend project lead to a scholarship?)",
+          "Add-on pricing appears but wasn't in the original scenario data\u2014while reasonable, a real user might want guidance on whether to include pricing or keep add-ons as 'contact us' items",
+          "Word count is approximately 650-700 words (slightly over the 450-650 target), though still one-page viable with tight formatting"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Tech for Good Hackathon 2025 Sponsorship Package\nMay 17\u201318, 2025 \u2022 Galvanize Seattle, 111 S Jackson St, Seattle, WA \u2022 Hosted by Puget Tech Inclusion Network (PTIN)\n\nMission snapshot\nYour support turns a weekend of building into real career momentum for underrepresented job seekers\u2014portfolio projects, dedicated mentorship, and scholarships into PTIN\u2019s 12\u2011week apprenticeship prep program. The hackathon sparks civic, climate, and community solutions while opening doors to paid pathways in tech.\n\nSponsorship levels\nTitle Sponsor \u2014 $25,000 (1 available; Presenting)\n- Rights/recognition: \u201cTech for Good Hackathon 2025 presented by [Company]\u201d; 2\u2011minute welcome; judge seat; industry category exclusivity.\n- Logos: Event microsite hero + footer with link; company profile page on PTIN.org (100 words + link); logo in digital program/agenda and Slack announcements; venue signage + check\u2011in screens; lanyard/badge co\u2011logo; main screen rotation; opening and closing remarks mention.\n- Digital: 3 sponsor spotlight emails (to 9,500); 6 dedicated social posts (est. 18,000 reach).\n- On\u2011site: Premium 10\u2019x10\u2019 space or double table; branded challenge/prize naming; resume book + opt\u2011in candidate intros; mentor shout\u2011outs during checkpoint huddles.\n- Access: 20 tickets + 6 VIP badges; up to 8 volunteer mentor/judge slots.\n\nImpact Partner \u2014 $15,000 (up to 3)\n- Recognition: Opening/closing remarks; judge seat (semifinals); category exclusivity (limited per industry).\n- Logos: Microsite hero second position + footer; PTIN.org profile page; digital program/Slack; venue signage; lanyard/badge co\u2011logo; main screen rotation.\n- Digital: 2 sponsor spotlight emails; 4 social posts.\n- On\u2011site: Prime 6\u2019 exhibit table; option to host a mentor huddle; challenge prize highlight.\n- Access: 12 tickets + 4 VIP badges; up to 6 mentor/judge slots.\n\nTrack Sponsor \u2014 $7,500 (3 available: Civic Tech, Climate/Resilience, Health/Well\u2011Being)\n- Recognition: \u201c[Track] sponsored by [Company]\u201d; 60\u2011second track kickoff; finals judge for your track.\n- Logos: Microsite track section + footer; PTIN.org profile page; digital program/Slack; venue signage; main screen rotation.\n- Digital: 1 sponsor spotlight email; 3 social posts.\n- On\u2011site: 6\u2019 exhibit table; mentor shout\u2011outs; track challenge prize naming.\n- Access: 8 tickets + 2 VIP badges; up to 4 mentor slots.\n- Exclusivity: Exclusive within selected track.\n\nTeam Sponsor \u2014 $3,000 (10 available)\n- Recognition: \u201cTeam fueled by [Company]\u201d on table placard and awards slide; opening/closing mentions.\n- Logos: Event footer; digital program/Slack; venue signage (small); main screen rotation.\n- Digital: Group email acknowledgment; 2 social posts.\n- On\u2011site: Shared recruiter table time block; awards ceremony shout\u2011out.\n- Access: 5 tickets + 1 VIP badge; up to 2 mentor slots.\n\nCommunity Sponsor \u2014 $1,500 (limited)\n- Recognition: Opening/closing group mention; main screen rotation.\n- Logos: Event footer; digital program; Slack group thank\u2011you.\n- Digital: 1 group social mention.\n- Access: 2 tickets.\n\nIn\u2011Kind Sponsor (valued at fair market rate; mapped to closest cash tier)\n- Cloud credits/API access \u2014 $10,000 FMV \u2192 Impact Partner ($15,000)\n- Catering: meals/snacks/coffee \u2014 $12,000 FMV \u2192 Impact Partner ($15,000)\n- A/V + livestream services \u2014 $15,000 FMV \u2192 Title Sponsor ($25,000)\n- Swag + printing (shirts, stickers, banners) \u2014 $4,000 FMV \u2192 Track Sponsor ($7,500)\n- Professional photography/media coverage \u2014 $5,000 FMV \u2192 Track Sponsor ($7,500)\n- Venue/coworking space rental \u2014 $8,000 FMV \u2192 Impact Partner ($15,000)\nNote: Benefits align to mapped tier; partial in\u2011kind may be topped up with cash to reach a tier.\n\nAudience and reach\n- 400 attendees: 60% early\u2011 to mid\u2011career technologists (22\u201338), 25% company mentors/recruiters, 15% students; 48% women/non\u2011binary; 55% BIPOC; 70% King County\u2013based; avg HH income $70k+.\n- PTIN channels: 9,500 newsletter subscribers; 18,000 combined social reach.\n- Expected media/communities: GeekWire, Puget Sound Business Journal, KUOW 94.9 FM, Seattle Tech Meetup Network.\n\nWhy it matters\n- $25,000 funds 20 prep\u2011program scholarships and capstone support (average $1,250 each).\n- $7,500 purchases 10 refurbished laptops for trainees and community labs.\n- $3,000 covers one month of mentor stipends for 15 mentors.\n\nDeadlines\n- Sponsor commitment: April 4, 2025\n- Initial assets (logo/vector, 100\u2011word profile): April 12, 2025\n- Final assets (booth needs, speakers, ads): April 26, 2025\nBenefits depend on timely materials.\n\nOptional add\u2011ons (limited)\n- Branded developer lounge with charging stations (2)\n- Resume review + portfolio critique booth (3)\n- Employee volunteer mentors/judges (rolling sign\u2011ups)\n- Company\u2011matched scholarship challenge announced at awards (1)\n- Headshot photo booth with your logo on digital/print downloads (1)\n- Step\u2011and\u2011repeat wall near registration (1)\n\nRecognition policy and tax note\nLogo order by level, then commitment date. Presenting (Title) is exclusive; Track Sponsors are exclusive within their track; Impact Partners may be limited per industry. PTIN is a 501(c)(3). Cash gifts are acknowledged as charitable contributions less the fair market value of any benefits received; in\u2011kind gifts are receipted at fair market value.\n\nReady to champion inclusive tech talent?\nContact: Jordan Kim, Director of Partnerships\njordan.kim@ptin.org \u2022 (206) 555\u20110129\nWe\u2019ll help you pick a tier and activation that fits your goals and team capacity.",
+      "timestamp": "2025-11-02T13:18:57.719049Z",
+      "duration_seconds": 57.28,
+      "tokens": {
+        "input": 1159,
+        "output": 4070,
+        "total": 5229
+      },
+      "cost_usd": 0.064527,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly polished, professional sponsorship package that successfully balances casual tech-sector tone with mission clarity. It delivers all required elements in a scannable format with specific, quantified benefits that corporate sponsors need. Minor weaknesses include slightly dense formatting in places and a few phrases that edge toward generic nonprofit language.",
+        "strengths": [
+          "Excellent tier differentiation with concrete, quantified benefits (ticket counts, social posts, email reach) that sponsors can evaluate and justify internally",
+          "Strong mission-first framing that connects sponsorship dollars directly to outcomes (scholarships, laptops, mentor stipends) without being preachy",
+          "Casual tone executed well with phrases like 'fueled by,' 'turns a weekend of building into real career momentum,' and 'We'll help you pick a tier' that feel authentic to tech/startup culture",
+          "Comprehensive in-kind section with clear FMV mapping and practical note about partial contributions\u2014shows operational sophistication",
+          "Scannable structure with clear headers, bullets, and logical flow; could genuinely be dropped into a one-pager with minimal editing",
+          "Smart inclusion of audience demographics with income data and diversity metrics that matter to DEI-focused corporate sponsors",
+          "Realistic pricing that would cover 40-60% of the $120k budget (5 tiers totaling potential $100k+ if all sold)",
+          "Practical add-ons that align with tech industry interests (developer lounge, resume reviews, matching challenges) rather than generic options"
+        ],
+        "weaknesses": [
+          "Title Sponsor section is dense with benefits listed in long comma-separated strings; breaking into sub-bullets would improve scannability",
+          "The phrase 'opening doors to paid pathways in tech' in the mission snapshot edges toward nonprofit clich\u00e9, though not egregiously",
+          "Recognition policy paragraph at the end is slightly bureaucratic in tone compared to the rest; could be tightened or formatted as bullets",
+          "Word count appears to exceed the 450-650 target (approximately 750-800 words), though the content justifies it given complexity"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Sponsorship Opportunities: Bright Futures Gala 2025\n\n**Your partnership with the Lakeview Children's Hospital Foundation directly impacts our most vulnerable patients, providing critical care from the NICU to oncology. The Bright Futures Gala, our signature event, directly funds vital services including family housing, patient transport, and pediatric mental health. Your support ensures every child receives the comprehensive care they deserve.**\n\nThe Bright Futures Gala will be held on **November 9, 2025, at the Hilton Chicago, 720 S Michigan Ave, Chicago, IL.**\n\n---\n\n### Sponsorship Levels\n\n**Presenting Champion \u2013 $100,000**\n*   **Visibility & Branding:**\n    *   Homepage banner recognition (Oct\u2013Dec) with premium link.\n    *   Event page logo with top-tier placement.\n    *   4 dedicated sponsor emails + 3 newsletter mentions (85,000 subscriber reach).\n    *   Full-page ad in printed keepsake program.\n    *   Prominent logo placement on step-and-repeat/media wall.\n    *   Exclusive logo placement on ballroom screens and all table placards.\n    *   Brand recognition on valet, registration, and auction kiosk signage.\n*   **Recognition & Engagement:**\n    *   CEO and Emcee recognition from the stage.\n    *   Premier pre-show and live-auction screen slides.\n    *   60-second sponsor video played during event program.\n    *   Category exclusivity in your industry.\n    *   Prominent mention in 15 social media posts (210,000 followers).\n    *   Speaking opportunity during the main program.\n*   **Hospitality:**\n    *   Three VIP tables (30 guests) with champagne service.\n    *   Opportunity for private hospital tour for 10 guests.\n\n**Diamond \u2013 $50,000**\n*   **Visibility & Branding:**\n    *   Homepage recognition (Oct\u2013Dec) with premium link.\n    *   Event page logo with top-tier placement.\n    *   2 dedicated sponsor emails + 2 newsletter mentions (85,000 subscriber reach).\n    *   Half-page ad in printed keepsake program.\n    *   Prominent logo placement on step-and-repeat/media wall.\n    *   Logo placement on ballroom screens and table placards.\n    *   Brand recognition on valet, registration, and auction kiosk signage.\n*   **Recognition & Engagement:**\n    *   CEO and Emcee recognition from the stage.\n    *   Premier pre-show and live-auction screen slides.\n    *   60-second sponsor video played during event program.\n    *   On-stage award presentation opportunity.\n    *   Mention in 10 social media posts (210,000 followers).\n*   **Hospitality:**\n    *   Two VIP tables (20 guests).\n\n**Platinum \u2013 $25,000**\n*   **Visibility & Branding:**\n    *   Homepage recognition (Oct\u2013Nov).\n    *   Event page logo with prominent placement.\n    *   1 dedicated sponsor email + 1 newsletter mention (85,000 subscriber reach).\n    *   Quarter-page ad in printed keepsake program.\n    *   Logo placement on step-and-repeat/media wall.\n    *   Logo placement on ballroom screens and table placards.\n    *   Brand recognition on registration and auction kiosk signage.\n*   **Recognition & Engagement:**\n    *   Emcee recognition from the stage.\n    *   Pre-show and live-auction screen slides.\n    *   Mention in 7 social media posts (210,000 followers).\n*   **Hospitality:**\n    *   One VIP table (10 guests).\n\n**Gold \u2013 $10,000**\n*   **Visibility & Branding:**\n    *   Event page logo.\n    *   Logo in printed keepsake program.\n    *   Logo placement on step-and-repeat/media wall.\n    *   Logo placement on ballroom screens.\n    *   Brand recognition on registration signage.\n*   **Recognition & Engagement:**\n    *   Pre-show and live-auction screen slides.\n    *   Mention in 5 social media posts (210,000 followers).\n*   **Hospitality:**\n    *   Six gala tickets.\n\n**Silver \u2013 $5,000**\n*   **Visibility & Branding:**\n    *   Event page logo listing.\n    *   Logo in printed keepsake program.\n    *   Logo placement on ballroom screens.\n*   **Recognition & Engagement:**\n    *   Pre-show screen slides.\n    *   Mention in 3 social media posts (210,000 followers).\n*   **Hospitality:**\n    *   Four gala tickets.\n\n---\n\n### In-Kind Sponsorship Opportunities\n\nIn-kind contributions are valued at fair market rate and receive benefits commensurate with the closest cash sponsorship tier.\n\n*   **High-end printing (programs, signage)**; Fair Market Value: $12,000; Maps to: Gold ($10,000)\n*   **Wine/champagne for dinner and reception**; Fair Market Value: $25,000; Maps to: Platinum ($25,000)\n*   **Floral and event design**; Fair Market Value: $18,000; Maps to: Platinum ($25,000)\n*   **Luxury auction experiences/items**; Fair Market Value: $10,000; Maps to: Gold/Platinum (value dependent)\n*   **A/V enhancements and lighting**; Fair Market Value: $40,000; Maps to: Diamond ($50,000)\n*   **Media promotion/PSA placements**; Fair Market Value: $20,000; Maps to: Platinum ($25,000)\n*   **Dessert station sponsorship**; Fair Market Value: $8,000; Maps to: Silver ($5,000)\u2013Gold ($10,000)\n\n---\n\n### Audience & Reach\n\n*   Approximately 900 attendees, including corporate executives, philanthropists, and leading physicians.\n*   Demographics: Ages 35\u201370, 62% female, 75% HNW households ($150k+ income), 85% Chicagoland residents.\n*   Foundation Email List: 85,000 subscribers.\n*   Social Media Reach: 210,000 followers.\n*   Media Partners: WGN-TV, Crain\u2019s Chicago Business, Chicago Tribune, WBEZ 91.5, Make It Better Media.\n\n---\n\n### Why It Matters: Impact of Your Investment\n\nYour sponsorship directly translates into tangible support for children and families.\n*   **$100,000:** Outfits a NICU room with advanced monitors and family comfort upgrades.\n*   **$50,000:** Provides a year of family housing for 25 out-of-town families.\n*   **$10,000:** Delivers 200 pediatric counseling sessions for patients and siblings.\n\n---\n\n### Important Deadlines\n\n*   **Sponsorship Commitment:** September 12, 2025\n*   **Logo and Ad Artwork Submission (for print):** September 26, 2025\n*   **Digital Assets (video, website links):** October 10, 2025\n*Timely submission of materials is crucial for full benefit delivery.*\n\n---\n\n### Optional Add-Ons (Limited Quantity)\n\n*   VIP step-and-repeat logo placement upgrade (limited opportunities)\n*   Branded mobile bidding splash screen (3 available)\n*   Corporate employee volunteer day at Family House (2 dates, 30 volunteers each)\n*   Paddle-raise matching challenge sponsor (1 available)\n*   Photo booth with logo on prints and digital gallery (1 available)\n\n---\n\n### Recognition Policy & Tax Note\n\nSponsor logos will be displayed in order of sponsorship level. Category exclusivity is offered at the Presenting Champion tier. The Lakeview Children's Hospital Foundation is a 501(c)(3) nonprofit organization. Your contribution is tax-deductible to the extent allowed by law. No goods or services are received in exchange for your sponsorship, ensuring the full amount is deductible.\n\n---\n\n**Join us in illuminating bright futures for the children of Lakeview Children's Hospital.**\n\n**Contact:**\nPriya Desai\nSenior Director of Corporate Engagement\npdesai@lakeviewchildrens.org\n(312) 555-0194",
+      "timestamp": "2025-11-02T13:19:06.620061Z",
+      "duration_seconds": 8.9,
+      "tokens": {
+        "input": 1312,
+        "output": 1903,
+        "total": 3215
+      },
+      "cost_usd": 0.001339,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output delivers a polished, professional sponsorship package appropriate for a major hospital foundation gala. It successfully matches the formal tone and includes most required elements with good quantification. However, it contains a critical tax deduction error, exceeds the word count significantly (850+ vs. 450-650), and misses some specific benefits detailed in the scenario data.",
+        "strengths": [
+          "Excellent formal tone appropriate for C-suite corporate audience\u2014professional, mission-focused without being overly sentimental",
+          "Strong quantification throughout: specific social post counts, email reach numbers, and ticket quantities for each tier",
+          "Clear, scannable formatting with effective use of headers and bullets that would translate well to a one-page PDF",
+          "Compelling 'Why It Matters' section that directly translates dollar amounts to concrete outcomes (NICU room, family housing, counseling sessions)",
+          "Comprehensive tier differentiation with meaningful benefit escalation from Silver through Presenting Champion",
+          "Well-structured in-kind section that clearly maps fair market values to cash tiers"
+        ],
+        "weaknesses": [
+          "CRITICAL ERROR: Tax note states 'No goods or services are received in exchange for your sponsorship' when sponsors clearly receive tables, tickets, and marketing benefits\u2014this is legally incorrect and could expose the organization to IRS issues. Should state fair market value of benefits received.",
+          "Significantly over word count (approximately 850 words vs. 450-650 requested), making it too long for a true one-pager",
+          "Missing several specific benefits from the scenario: exhibit table option, speaking rights for lower tiers, and some signage placements (valet, auction kiosk) not distributed across all appropriate levels",
+          "Recognition policy is vague\u2014doesn't specify logo sizing/ordering methodology or explain exclusivity rules beyond Presenting tier",
+          "Add-ons section lacks pricing, making it unclear whether these are included or require additional investment",
+          "Doesn't explicitly state that the sponsorship tiers are designed to cover 40-60% of the $850K event budget (would help justify pricing to corporate procurement)",
+          "Private hospital tour benefit (Presenting Champion) appears only once and isn't mentioned in scenario data\u2014may be overpromising without organizational capacity confirmation"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# **Bright Futures Gala \u00b7 Sponsorship Opportunities**\n**November 9, 2025 \u00b7 Hilton Chicago, 720 S Michigan Ave**  \n*Benefiting Lakeview Children's Hospital Foundation*\n\n---\n\n## **Mission Snapshot**\n\nEvery day, Lakeview Children's Hospital cares for the most vulnerable\u2014newborns fighting in the NICU, children battling cancer, and families navigating the toughest moments of their lives. Your sponsorship of the Bright Futures Gala directly funds family housing for out-of-town patients, patient transport services, and pediatric mental health programs that ensure no child or family faces these challenges alone. Together, we turn resources into hope.\n\n---\n\n## **Sponsorship Tiers**\n\n### **Presenting Champion \u00b7 $100,000**\n- **24 VIP tickets** + reserved premium table placement  \n- Homepage banner recognition (Oct\u2013Dec) with premium link  \n- Event page logo: top-tier placement  \n- **4 dedicated sponsor emails** + **3 newsletter mentions** (85,000 circulation)  \n- Keepsake program: **full-page ad**  \n- Step-and-repeat/media wall logo (prime placement)  \n- Ballroom screens, table placards, valet, registration & auction kiosk signage  \n- CEO and emcee recognition; pre-show & live-auction screen slides  \n- **60-second sponsor video** on ballroom screens  \n- **5-minute speaking opportunity** during program  \n- **8 dedicated social media posts** (reach: 210,000)  \n- Exhibit table in reception area  \n- Category exclusivity (first right of refusal)\n\n### **Diamond \u00b7 $50,000**\n- **16 VIP tickets** + preferred table placement  \n- Event page logo: tier-two placement  \n- **3 dedicated sponsor emails** + **2 newsletter mentions**  \n- Keepsake program: **full-page ad**  \n- Step-and-repeat/media wall logo  \n- Ballroom screens, table placards & registration signage  \n- CEO and emcee recognition; pre-show & live-auction screen slides  \n- **60-second sponsor video** on ballroom screens  \n- **On-stage award presentation** opportunity  \n- **6 dedicated social media posts** (reach: 210,000)  \n- Exhibit table in reception area\n\n### **Platinum \u00b7 $25,000**\n- **12 tickets** + priority seating  \n- Event page logo: tier-three placement  \n- **2 dedicated sponsor emails** + **1 newsletter mention**  \n- Keepsake program: **half-page ad**  \n- Step-and-repeat/media wall logo  \n- Ballroom screens & table placards  \n- CEO and emcee recognition; pre-show screen slides  \n- **4 dedicated social media posts**  \n- Exhibit table in reception area\n\n### **Gold \u00b7 $10,000**\n- **10 tickets**  \n- Event page logo  \n- **1 dedicated sponsor email** + **1 newsletter mention**  \n- Keepsake program: **quarter-page ad**  \n- Ballroom screens & table placards  \n- CEO and emcee recognition  \n- **3 dedicated social media posts**\n\n### **Silver \u00b7 $5,000**\n- **6 tickets**  \n- Event page logo  \n- Keepsake program: **quarter-page ad**  \n- Ballroom screens  \n- CEO recognition  \n- **2 dedicated social media posts**\n\n---\n\n## **In-Kind Sponsorship**\n\nWe welcome product and service donations valued at fair market rate:\n\n- **A/V enhancements & lighting** ($40,000 FMV) \u2192 Diamond benefits  \n- **Wine/champagne** ($25,000 FMV) \u2192 Platinum benefits  \n- **Floral & event design** ($18,000 FMV) \u2192 Platinum benefits  \n- **Media promotion/PSA placements** ($20,000 FMV) \u2192 Platinum benefits  \n- **High-end printing** ($12,000 FMV) \u2192 Gold benefits  \n- **Luxury auction experiences/items** ($10,000 FMV) \u2192 Gold/Platinum (value dependent)  \n- **Dessert station** ($8,000 FMV) \u2192 Silver\u2013Gold benefits\n\n---\n\n## **Audience & Reach**\n\n- **900 attendees**: corporate executives, philanthropists, physicians  \n- **Demographics**: 62% female; ages 35\u201370; 75% HNW households ($150k+); 85% Chicagoland  \n- **Email reach**: 85,000 | **Social reach**: 210,000  \n- **Media partners**: WGN-TV, *Crain's Chicago Business*, *Chicago Tribune*, WBEZ 91.5, Make It Better Media\n\n---\n\n## **Why It Matters**\n\n- **$100,000** \u2192 Outfits a NICU room with advanced monitors and family comfort upgrades  \n- **$50,000** \u2192 Provides a year of family housing for 25 out-of-town families  \n- **$10,000** \u2192 Delivers 200 pediatric counseling sessions for patients and siblings\n\n---\n\n## **Important Dates**\n\n- **Commitment deadline**: September 12, 2025  \n- **Logo/assets due**: September 26, 2025  \n- **Final materials due**: October 10, 2025  \n*Recognition benefits contingent on timely submission.*\n\n---\n\n## **Optional Add-Ons** *(limited availability)*\n\n- VIP step-and-repeat logo upgrade  \n- Branded mobile bidding splash screen *(3 available)*  \n- Corporate volunteer day at Family House *(2 dates, 30 volunteers each)*  \n- Paddle-raise matching challenge sponsor *(1 available)*  \n- Photo booth with logo on prints & digital gallery *(1 available)*\n\n---\n\n## **Recognition Policy & Tax Note**\n\nLogos displayed by sponsorship level. Category exclusivity honored on first-come basis. Lakeview Children's Hospital Foundation is a 501(c)(3) organization (EIN available upon request). Sponsorship is tax-deductible to the extent allowable; fair market value of tickets and goods/services will be provided for your records.\n\n---\n\n## **Let's Build Bright Futures Together**\n\n**Contact:**  \n**Priya Desai**, Senior Director of Corporate Engagement  \npdesai@lakeviewchildrens.org | (312) 555-0194",
+      "timestamp": "2025-11-02T13:19:24.218636Z",
+      "duration_seconds": 26.5,
+      "tokens": {
+        "input": 1386,
+        "output": 1537,
+        "total": 2923
+      },
+      "cost_usd": 0.027213,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly polished, professional sponsorship package that successfully balances formal corporate tone with mission-driven content. It delivers all required elements with appropriate specificity for a major urban gala, uses clean formatting that's ready for immediate use, and avoids common nonprofit communication pitfalls. Minor improvements could include slightly more varied language in tier descriptions and explicit EIN inclusion.",
+        "strengths": [
+          "Excellent tier differentiation with concrete, quantified benefits (24 vs 16 vs 12 tickets, 8 vs 6 vs 4 social posts) that justify price points and are realistic for a small team to deliver",
+          "Strong mission-first opening that connects sponsor investment directly to patient impact without being overly sentimental\u2014appropriate for C-suite audience",
+          "Comprehensive in-kind section with specific FMV amounts and clear tier mapping, making it actionable for procurement teams",
+          "Scannable formatting with clear headers, bullets, and visual hierarchy that requires minimal editing to drop into a PDF",
+          "Appropriate formal tone throughout\u2014professional language ('contingent on timely submission,' 'first right of refusal') without jargon or clich\u00e9s",
+          "Realistic pricing structure that would cover 47-71% of event budget across top three tiers, meeting the 40-60% guideline",
+          "Specific audience demographics and reach metrics that corporate sponsors use for ROI evaluation",
+          "Clear CTA and contact block with professional title that signals appropriate point of contact"
+        ],
+        "weaknesses": [
+          "The 'Why It Matters' impact examples, while present, could be slightly more emotionally resonant for the formal-but-mission-driven balance (e.g., '25 families' could be '25 families like the Johnsons, who traveled 200 miles...')",
+          "Recognition policy states 'EIN available upon request' but for a $100K ask to corporate procurement, including it directly would be more professional",
+          "Optional add-ons section could benefit from pricing to help sponsors budget (though 'limited availability' positioning is strong)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Bright Futures Gala Sponsorship Package\nLakeview Children\u2019s Hospital Foundation invites you to power life\u2011changing care at the Bright Futures Gala on Sunday, November 9, 2025, at Hilton Chicago, 720 S Michigan Ave. Your sponsorship fuels critical services for children\u2014from NICU and oncology to pediatric mental health\u2014by underwriting family housing, patient transport, and wraparound counseling so kids heal and families stay whole. Proceeds directly strengthen hospital programs and emergency assistance for our sickest patients.\n\nAudience and reach\n- Guests: 900 corporate executives, philanthropists, and physicians; ages 35\u201370; 62% female; 75% HNW households ($150k+); 85% Chicagoland residents.\n- Marketing value: 85,000 e\u2011newsletter subscribers; estimated 210,000 pre\u2011event digital impressions; PR outreach and media partners: WGN\u2011TV, Crain\u2019s Chicago Business, Chicago Tribune, WBEZ 91.5, Make It Better Media.\n\nSponsorship levels and benefits\nPresenting Champion \u2013 $100,000\n- Naming and exclusivity: \u201cBright Futures Gala presented by [Company]\u201d; exclusive category lock (one per industry).\n- Logo and placement: Homepage banner recognition (Oct\u2013Dec) with premium link; event page top-tier; step\u2011and\u2011repeat/media wall; ballroom screens; table placards; valet, registration, and auction kiosk signage; printed keepsake program full-page premium.\n- Recognition and activation: CEO and Emcee recognition; brief welcome remarks (up to 2 minutes); 60\u2011second sponsor video; pre\u2011show and live\u2011auction slides; inclusion in press release.\n- Digital: 4 dedicated sponsor emails + 3 newsletter mentions; 6 dedicated social posts across LinkedIn/Instagram/Facebook (est. 75k+ impressions).\n- Hospitality: Two premium VIP tables (20 guests); 20 VIP reception passes; optional foyer exhibit/engagement table.\n\nDiamond \u2013 $50,000\n- Logo and placement: Homepage banner recognition (Oct\u2013Dec) with premium link; event page prime; step\u2011and\u2011repeat/media wall; ballroom screens; table placards; registration and auction kiosk signage; program full\u2011page.\n- Recognition and activation: CEO and Emcee recognition; on\u2011stage award presentation; 60\u2011second sponsor video; pre\u2011show and live\u2011auction slides; limited category exclusivity (one per industry, subject to availability).\n- Digital: 2 dedicated sponsor emails + 2 newsletter mentions; 4 dedicated social posts (est. 45k impressions).\n- Hospitality: One VIP table (10 guests); 10 VIP reception passes; foyer exhibit table.\n\nPlatinum \u2013 $25,000\n- Logo and placement: Event page prominent; step\u2011and\u2011repeat; ballroom screens; table placards; valet and registration signage; program full\u2011page.\n- Recognition: Emcee recognition; pre\u2011show slides.\n- Digital: 1 dedicated sponsor email + 2 newsletter mentions; 3 social posts (est. 30k impressions).\n- Hospitality: One priority table (10 guests); 6 VIP reception passes; optional foyer exhibit table.\n\nGold \u2013 $10,000\n- Logo and placement: Event page; ballroom screens; table placards; registration signage; program half\u2011page.\n- Recognition: Emcee thank\u2011you; pre\u2011show slides.\n- Digital: 1 newsletter mention; 2 social posts (est. 15k impressions).\n- Hospitality: 6 gala tickets; 2 VIP reception passes.\n\nSilver \u2013 $5,000\n- Logo and placement: Event page; ballroom screens (group slide); table placards; program quarter\u2011page.\n- Digital: Group recognition in one newsletter; 1 social post.\n- Hospitality: 4 gala tickets; 2 VIP reception passes.\n\nIn\u2011Kind Sponsor options (valued at fair market rate; mapped to closest tier)\n- High\u2011end printing (programs, signage) \u2014 $12,000 FMV \u2192 Gold ($10,000)\n- Wine/champagne for dinner and reception \u2014 $25,000 FMV \u2192 Platinum ($25,000)\n- Floral and event design \u2014 $18,000 FMV \u2192 Platinum ($25,000)\n- Luxury auction experiences/items \u2014 $10,000 FMV \u2192 Gold/Platinum (value dependent)\n- A/V enhancements and lighting \u2014 $40,000 FMV \u2192 Diamond ($50,000)\n- Media promotion/PSA placements \u2014 $20,000 FMV \u2192 Platinum ($25,000)\n- Dessert station sponsorship \u2014 $8,000 FMV \u2192 Silver ($5,000)\u2013Gold ($10,000)\n\nWhy it matters\n- $100,000 outfits a NICU room with advanced monitors and family comfort upgrades.\n- $50,000 provides a year of family housing for 25 out\u2011of\u2011town families.\n- $10,000 delivers 200 pediatric counseling sessions for patients and siblings.\n\nDeadlines\n- Sponsorship commitment: September 12, 2025.\n- Logos/ads/video and digital assets: September 26, 2025 (print); October 10, 2025 (digital). Benefits depend on timely materials.\n\nOptional add\u2011ons (limited quantity; priced upon request)\n- VIP step\u2011and\u2011repeat logo placement upgrade (limited)\n- Branded mobile bidding splash screen (3 available)\n- Corporate employee volunteer day at Family House (2 dates, 30 volunteers each)\n- Paddle\u2011raise matching challenge sponsor (1 available)\n- Photo booth with logo on prints and digital gallery (1 available)\n\nRecognition policy and tax note\n- Logo order by level, then by commitment date. Presenting receives sole presenting credit; Diamond category exclusivity available when secured in writing. Some benefits are inventory\u2011limited.\n- Lakeview Children\u2019s Hospital Foundation is a 501(c)(3). Your acknowledgment letter will note the fair market value of benefits; the remainder is tax\u2011deductible to the extent allowed by law.\n\nJoin us to champion brighter futures. To reserve your sponsorship: Priya Desai, Senior Director of Corporate Engagement, pdesai@lakeviewchildrens.org, (312) 555\u20110194.",
+      "timestamp": "2025-11-02T13:19:54.562190Z",
+      "duration_seconds": 56.84,
+      "tokens": {
+        "input": 1164,
+        "output": 3641,
+        "total": 4805
+      },
+      "cost_usd": 0.058107,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly professional, comprehensive sponsorship package that successfully balances formal corporate tone with mission-driven content. It delivers all required elements in a scannable format with specific, quantified benefits that corporate sponsors expect. Minor weaknesses include slightly mechanical phrasing in places and one structural issue with the in-kind section.",
+        "strengths": [
+          "Excellent tier differentiation with concrete, quantified benefits (specific impression counts, ticket numbers, logo placements) that corporate procurement teams need",
+          "Strong mission integration\u2014opens with impact, includes 'Why It Matters' section with dollar-to-outcome translations, and maintains focus on beneficiaries throughout",
+          "Highly scannable structure with clear headers, bullets, and logical flow that could be dropped into a one-pager with minimal editing",
+          "Appropriate pricing for urban market and event scale ($5K-$100K tiers targeting 40-60% of $850K budget)",
+          "Professional handling of exclusivity, recognition policy, and tax language appropriate for corporate/HNW audience",
+          "Comprehensive in-kind options with fair market valuations and tier mapping",
+          "Realistic, deliverable benefits that don't overpromise\u2014no vague 'brand alignment' language",
+          "Clear deadlines with consequences stated (benefits depend on timely materials)",
+          "Strong CTA with complete contact information"
+        ],
+        "weaknesses": [
+          "In-kind section could be more concise\u2014listing 7 detailed options takes significant space and might work better as 'select in-kind opportunities available; contact for full list'",
+          "Some phrasing feels slightly formulaic ('power life-changing care,' 'kids heal and families stay whole') though still professional",
+          "The 'optional add-ons' section lists items but says 'priced upon request'\u2014for this tier of sponsor, at least ballpark ranges would be expected",
+          "Word count appears to exceed the 450-650 target (approximately 750-800 words), though content quality justifies it"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.2507,
+    "average_score": 8.62
+  }
+}

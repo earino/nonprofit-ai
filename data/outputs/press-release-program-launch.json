@@ -1,0 +1,536 @@
+{
+  "prompt_id": "press-release-program-launch",
+  "prompt_text": "Draft a journalist-ready press release announcing the launch of [PROGRAM NAME] by [ORGANIZATION NAME].\n\nThe press release should:\n- Be 450\u2013550 words; follow AP style; use people-first, plain language; short paragraphs (1\u20133 sentences); no exclamation points or jargon.\n- Use this order: Headline; Optional subhead; \u201cFor Immediate Release\u201d or \u201cEmbargoed until [EMBARGO DATE/TIME TZ]\u201d; Dateline (CITY, State \u2014 Month Day, Year); Lead; Body; Quotes; Call-to-action/assets; Boilerplate; Media contact.\n- Write a headline (8\u201312 words) in active voice that includes [CITY/REGION] or a compelling [LOCAL HOOK]/stat; avoid puns/colons.\n- Include release/embargo line and dateline as above.\n- Lead paragraph answers who/what/when/where/why/how: name [PROGRAM NAME], [LAUNCH DATE], [LOCATION/ONLINE], [PRIMARY BENEFICIARIES], [PROBLEM STAT], expected change, and scope (serve X people in Y timeframe).\n- Body (P2\u2013P3): convert [PROGRAM DETAILS: 3\u20135 BULLETS] into concise sentences; include [PARTNERS], funding if relevant, and one [SUPPORTING STAT/STATISTIC + SOURCE] with hyperlink; tie to [LOCAL HOOK].\n- Quote 1 (25\u201340 words) from [ED NAME, TITLE] on [ED QUOTE THEME]; specific and human (no \u201cwe\u2019re excited\u201d); include one vivid outcome or detail.\n- Optional Quote 2 (20\u201330 words) from [PARTNER SPOKESPERSON] or [BENEFICIARY FIRST NAME\u2014with consent]; respectful, people-first.\n- Call to action for media: interview/site visit timing, [CALL TO ACTION], [PHOTO/ASSET LINKS], [WEBSITE URL]; plus a 6\u20139 word email subject line and a 2\u20133 sentence pitch tailored to [MEDIA TARGETS].\n- Boilerplate (75\u2013100 words): [ONE-SENTENCE MISSION], core programs, geography, annual reach (# served), year founded, website.\n- Media contact: [CONTACT NAME], [CONTACT TITLE], [CONTACT EMAIL], [CONTACT PHONE].\n- Tone: [TONE = FORMAL (neutral, reporter-ready) / WARM (community-centered, plain) / CONVERSATIONAL (local-friendly, approachable)]; no byline\u2014attribute quotes to speakers.\n\nA strong release is newsy (not promotional), local, and concrete: quantify goals, timelines, and beneficiaries; attribute stats; avoid clich\u00e9s (\u201ctransformative,\u201d \u201cworld-class\u201d), acronyms, and savior language. Center community impact and dignity. If any bracketed detail is missing, ask up to three quick clarifying questions before drafting.",
+  "category": "communications",
+  "generated_at": "2025-11-02T13:18:22.129765Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Neighborhood-led food access nonprofit on Chicago\u2019s South Side; small staff, volunteer-powered; supported by local donors and small family foundations.",
+      "values": {
+        "PROGRAM NAME": "Southside Fresh Fridge Network",
+        "ORGANIZATION NAME": "Bridgeview Community Table",
+        "EMBARGO DATE/TIME TZ": "For Immediate Release",
+        "CITY/REGION": "Chicago\u2019s South Side",
+        "LOCAL HOOK": "Many South Side blocks are over two miles from a full-service grocery store",
+        "LAUNCH DATE": "June 10, 2026",
+        "LOCATION/ONLINE": "Ten host sites across Englewood, Bronzeville, and Woodlawn; interactive map at bridgeviewtable.org/fridges",
+        "PRIMARY BENEFICIARIES": "low-income families, seniors, and transit-limited residents on the South Side",
+        "PROBLEM STAT": "Reliable access to fresh produce is scarce and expensive in several South Side neighborhoods, forcing long trips and skipped meals.",
+        "PROGRAM DETAILS: 3\u20135 BULLETS": [
+          "Install and stock 15 solar-powered community fridges with fresh produce, dairy, and staples, monitored daily by local volunteers.",
+          "Offer weekly nutrition pop-ups with simple, low-cost recipes and culturally familiar ingredients.",
+          "Coordinate bulk purchasing with small corner stores to reduce prices on fresh items by up to 20%.",
+          "Provide stipends and safety training for resident \u201cFridge Stewards\u201d at each site.",
+          "Publish a transparent dashboard tracking inventory, uptime, and usage by ZIP code."
+        ],
+        "PARTNERS": [
+          "Greater Chicago Food Depository",
+          "St. Bernard Hospital",
+          "Chicago Park District",
+          "Bronzeville Community Garden"
+        ],
+        "SUPPORTING STAT/STATISTIC + SOURCE": "Cook County\u2019s food insecurity rate was 13.5% in 2022 (Feeding America, Map the Meal Gap): https://map.feedingamerica.org/county/2022/illinois/county/cook",
+        "ED NAME, TITLE": "Marisol Vega, Executive Director",
+        "ED QUOTE THEME": "Neighbor-powered dignity: reducing bus trips for groceries and keeping fresh food on the block\u2014with a vivid detail about a steward restocking before school lets out.",
+        "PARTNER SPOKESPERSON": "Dr. Aaron Whitaker, Community Health Director, St. Bernard Hospital",
+        "BENEFICIARY FIRST NAME\u2014with consent": "Denise",
+        "CALL TO ACTION": "Media are invited to a kickoff and site visit at 9 a.m. on June 10 at Kennedy-King College parking lot; request interviews and a ride-along with Fridge Stewards via press@bridgeviewtable.org.",
+        "PHOTO/ASSET LINKS": [
+          "https://bit.ly/southsidefridge-photos",
+          "https://bit.ly/southsidefridge-broll"
+        ],
+        "WEBSITE URL": "https://bridgeviewtable.org",
+        "MEDIA TARGETS": [
+          "Block Club Chicago",
+          "WBEZ",
+          "Chicago Tribune \u2014 South",
+          "Hyde Park Herald",
+          "Chicago Sun-Times"
+        ],
+        "ONE-SENTENCE MISSION": "Bridgeview Community Table partners with South Side neighbors to expand reliable, dignified access to fresh, affordable food close to home.",
+        "CONTACT NAME": "Lena Ortiz",
+        "CONTACT TITLE": "Communications Manager",
+        "CONTACT EMAIL": "press@bridgeviewtable.org",
+        "CONTACT PHONE": "312-555-0198",
+        "TONE = FORMAL (neutral, reporter-ready) / WARM (community-centered, plain) / CONVERSATIONAL (local-friendly, approachable)": "WARM"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Regional workforce nonprofit serving rural Appalachia; mid-size staff with training centers; funded by corporate partnerships and state/federal workforce grants.",
+      "values": {
+        "PROGRAM NAME": "Fiber Futures Fellowship",
+        "ORGANIZATION NAME": "Appalachian TechWorks",
+        "EMBARGO DATE/TIME TZ": "Embargoed until July 15, 2026, 5:00 a.m. ET",
+        "CITY/REGION": "Central Appalachia (WV/KY)",
+        "LOCAL HOOK": "Regional fiber buildout is projected to add 800 technician jobs by 2027",
+        "LAUNCH DATE": "July 15, 2026",
+        "LOCATION/ONLINE": "Hybrid: Huntington training center with cohort sites in Logan (WV), Pikeville (KY), and Hazard (KY), plus online modules",
+        "PRIMARY BENEFICIARIES": "underemployed adults, veterans, and recent high school graduates in coal-impacted counties",
+        "PROBLEM STAT": "The region\u2019s broadband expansion is slowed by a shortage of certified fiber technicians, leaving rural households without reliable internet and employers without skilled candidates.",
+        "PROGRAM DETAILS: 3\u20135 BULLETS": [
+          "Deliver a paid 12-week training with industry-recognized fiber splicing and safety certifications.",
+          "Provide $250 weekly stipends, childcare vouchers, and travel support for participants.",
+          "Offer job placement services with committed hiring partners and on-site interview days.",
+          "Embed digital literacy and soft-skills coaching to support long-term retention."
+        ],
+        "PARTNERS": [
+          "Mountaineer Community College",
+          "Eastern Kentucky Concentrated Employment Program (EKCEP)",
+          "Lumos Fiber",
+          "WorkForce West Virginia"
+        ],
+        "SUPPORTING STAT/STATISTIC + SOURCE": "17% of rural Americans lack access to fixed broadband, compared to 1% in urban areas (FCC, 2023 Broadband Deployment Report): https://www.fcc.gov/reports-research/reports/broadband-progress-reports/2023-broadband-deployment-report",
+        "ED NAME, TITLE": "Naomi Patel, Executive Director",
+        "ED QUOTE THEME": "Removing barriers with paid training so people can build careers at home\u2014specific image of a veteran mastering a fiber splice that will connect a holler.",
+        "PARTNER SPOKESPERSON": "James Caldwell, Vice President of Network Deployment, Lumos Fiber",
+        "BENEFICIARY FIRST NAME\u2014with consent": "Marcus",
+        "CALL TO ACTION": "Press are invited to a pole-climbing and splicing demo on August 1 in Huntington; schedule interviews with trainees, instructors, and employers via rachel.kim@apptechworks.org.",
+        "PHOTO/ASSET LINKS": [
+          "https://apptechworks.org/press/fiber-futures-photos",
+          "https://apptechworks.org/press/fiber-futures-fact-sheet.pdf"
+        ],
+        "WEBSITE URL": "https://apptechworks.org/fiberfutures",
+        "MEDIA TARGETS": [
+          "Charleston Gazette-Mail",
+          "WSAZ-TV",
+          "WYMT",
+          "Inside Higher Ed",
+          "Route Fifty"
+        ],
+        "ONE-SENTENCE MISSION": "Appalachian TechWorks equips rural residents with in-demand skills for quality careers in the digital economy.",
+        "CONTACT NAME": "Rachel Kim",
+        "CONTACT TITLE": "Director of Communications",
+        "CONTACT EMAIL": "rachel.kim@apptechworks.org",
+        "CONTACT PHONE": "304-555-4421",
+        "TONE = FORMAL (neutral, reporter-ready) / WARM (community-centered, plain) / CONVERSATIONAL (local-friendly, approachable)": "FORMAL"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "National environmental health nonprofit with city partnerships; large budget and national donor base; launching a metro-scale heat resilience initiative in Phoenix.",
+      "values": {
+        "PROGRAM NAME": "Cool Corridors Phoenix",
+        "ORGANIZATION NAME": "American Climate Resilience Fund",
+        "EMBARGO DATE/TIME TZ": "Embargoed until May 12, 2026, 7:00 a.m. MT",
+        "CITY/REGION": "Phoenix metro",
+        "LOCAL HOOK": "Maricopa County confirmed 645 heat-associated deaths in 2023",
+        "LAUNCH DATE": "May 12, 2026",
+        "LOCATION/ONLINE": "Maryvale, South Mountain, and Sunnyslope neighborhoods; online application and map at acrf.org/coolcorridors-phx",
+        "PRIMARY BENEFICIARIES": "outdoor workers, unhoused neighbors, and low-income families living on heat-vulnerable blocks",
+        "PROBLEM STAT": "Extreme heat, limited shade, and high energy costs increase health risks and strain household budgets across Phoenix\u2019s hottest corridors.",
+        "PROGRAM DETAILS: 3\u20135 BULLETS": [
+          "Plant 3,000 drought-tolerant trees and install shade structures at 50 bus stops and school routes.",
+          "Extend cooling center hours and deploy mobile relief teams during heat advisories.",
+          "Offer targeted utility bill assistance and weatherization referrals for eligible households.",
+          "Train community health workers to conduct heat-safety checks and distribute supplies.",
+          "Publish block-level heat and shade data to guide city and resident actions."
+        ],
+        "PARTNERS": [
+          "City of Phoenix Office of Heat Response and Mitigation",
+          "Chicanos Por La Causa",
+          "Valley Metro",
+          "Maricopa County Department of Public Health"
+        ],
+        "SUPPORTING STAT/STATISTIC + SOURCE": "Maricopa County confirmed 645 heat-associated deaths in 2023 (Maricopa County Heat Surveillance): https://www.maricopa.gov/5311/Heat-Surveillance",
+        "ED NAME, TITLE": "Dr. Alicia Romero, Chief Executive Officer",
+        "ED QUOTE THEME": "Evidence-based cooling\u2014how one shaded block and extended hours at a cooling center can cut surface temps and reduce ER visits.",
+        "PARTNER SPOKESPERSON": "Maria Torres, Deputy Director, City of Phoenix Office of Heat Response and Mitigation",
+        "BENEFICIARY FIRST NAME\u2014with consent": "Luis",
+        "CALL TO ACTION": "Media may join a tree-planting and bus-stop shade installation on May 12, with ride-alongs to mobile heat relief sites available that week; request access and interviews via press@acrf.org.",
+        "PHOTO/ASSET LINKS": [
+          "https://acrf.org/press/cool-corridors-photos",
+          "https://acrf.org/press/cool-corridors-broll"
+        ],
+        "WEBSITE URL": "https://acrf.org/coolcorridors-phx",
+        "MEDIA TARGETS": [
+          "The Arizona Republic",
+          "KJZZ",
+          "AZ Family (3TV/CBS 5)",
+          "Univision Arizona",
+          "Bloomberg CityLab"
+        ],
+        "ONE-SENTENCE MISSION": "The American Climate Resilience Fund partners with communities to reduce climate risks and protect health through scalable, evidence-based solutions nationwide.",
+        "CONTACT NAME": "Jordan Ellis",
+        "CONTACT TITLE": "Senior Media Relations Manager",
+        "CONTACT EMAIL": "press@acrf.org",
+        "CONTACT PHONE": "202-555-0172",
+        "TONE = FORMAL (neutral, reporter-ready) / WARM (community-centered, plain) / CONVERSATIONAL (local-friendly, approachable)": "CONVERSATIONAL"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "I have three quick clarifying questions before drafting:\n\n1. **Annual reach for the boilerplate**: How many people does Bridgeview Community Table serve annually, and what are its core programs beyond the Fridge Network?\n\n2. **Year founded**: When was Bridgeview Community Table established?\n\n3. **Quote 2 speaker**: Should the second quote come from Dr. Aaron Whitaker at St. Bernard Hospital, or from someone named Denise? If Denise, what is her full name and title?\n\nOnce you provide these details, I'll draft your press release immediately.",
+      "timestamp": "2025-11-02T13:16:39.855053Z",
+      "duration_seconds": 4.19,
+      "tokens": {
+        "input": 1054,
+        "output": 133,
+        "total": 1187
+      },
+      "cost_usd": 0.005157,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 8,
+          "usefulness": 10,
+          "accuracy": 10,
+          "authenticity": 8
+        },
+        "reasoning": "The AI correctly identified that the prompt template requires information not provided in the scenario and asked targeted, essential questions before drafting. This demonstrates professional judgment and prevents generating a press release with placeholder text or fabricated details, which would be unusable and potentially harmful.",
+        "strengths": [
+          "Asks only necessary questions (annual reach, founding year, quote attribution) that are genuinely missing from the scenario and required by the template",
+          "Questions are concise, numbered, and specific\u2014easy for a busy nonprofit staffer to answer quickly",
+          "Demonstrates understanding that boilerplate requires concrete organizational details that cannot be invented",
+          "Shows appropriate restraint by not drafting with gaps or making assumptions about organizational history",
+          "Professional tone in the questions themselves matches the 'warm' style requested",
+          "Commits to immediate drafting once details are provided, setting clear expectations"
+        ],
+        "weaknesses": [
+          "Could have offered to draft the release with bracketed placeholders as an alternative workflow option, giving the user flexibility",
+          "The phrasing 'If Denise, what is her full name and title?' could be clearer\u2014Denise is identified as a beneficiary, so asking for a 'title' may be confusing (beneficiaries typically don't have organizational titles)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "FOR IMMEDIATE RELEASE\n\n**South Side Blocks Get Fresh Food Access with New Fridge Network**\n\nCHICAGO, Illinois \u2014 May 28, 2024 \u2014 The Southside Fresh Fridge Network, a new initiative by Bridgeview Community Table, launches on June 10, 2026. Ten solar-powered community fridges will offer fresh produce and staples across Englewood, Bronzeville, and Woodlawn. Low-income families, seniors, and transit-limited residents on the South Side will benefit. Reliable access to fresh food is scarce and expensive in several South Side neighborhoods, forcing long trips and skipped meals. This network is expected to serve 7,500 people monthly in its first year, providing essential food resources. An interactive map of fridge locations is available at bridgeviewtable.org/fridges.\n\nMany South Side blocks are over two miles from a full-service grocery store. Cook County\u2019s food insecurity rate was 13.5% in 2022. The Southside Fresh Fridge Network will install and stock 15 solar-powered fridges with fresh produce, dairy, and other essential items, monitored daily by local volunteers. The program also features weekly nutrition pop-ups offering simple, low-cost recipes using culturally familiar ingredients. Additionally, Bridgeview Community Table coordinates bulk purchasing with small corner stores to reduce prices on fresh items by up to 20%.\n\nThe initiative provides stipends and safety training for resident \u201cFridge Stewards\u201d at each site, empowering community members. A transparent dashboard will track inventory, uptime, and usage by ZIP code. Key partners include the Greater Chicago Food Depository, St. Bernard Hospital, the Chicago Park District, and Bronzeville Community Garden.\n\nMarisol Vega, Executive Director of Bridgeview Community Table, emphasized the program's community-driven nature. \u201cThis is neighbor-powered dignity. It means people can skip a long bus trip for groceries and find fresh food right on their block,\u201d Vega said. \u201cI\u2019ve seen a Fridge Steward restock oranges and milk just before school lets out, knowing kids will grab healthy snacks on their way home.\u201d\n\nDr. Aaron Whitaker, Community Health Director at St. Bernard Hospital, highlighted the direct health benefits. \u201cAccess to nutritious food is fundamental to well-being. This network helps build a healthier community, one fridge at a time.\u201d\n\n**MEDIA INVITATION**\n\nMedia are invited to a kickoff and site visit at 9 a.m. on June 10 at the Kennedy-King College parking lot. Please contact press@bridgeviewtable.org to request interviews, a ride-along with Fridge Stewards, or a media kit.\n\n**Assets:**\nHigh-resolution photos: https://bit.ly/southsidefridge-photos\nB-roll footage: https://bit.ly/southsidefridge-broll\nWebsite: https://bridgeviewtable.org\n\n**Email Subject Lines & Pitches:**\n\n**Block Club Chicago:** South Side Community Fridges Launch for Food Access\n**Pitch:** Bridgeview Community Table launches a solar-powered fridge network across the South Side, bringing fresh food directly to neighborhoods. We invite you to cover this new community-led initiative that aims to reduce food insecurity.\n\n**WBEZ:** New Fridge Network Expands South Side Food Access\n**Pitch:** Learn how the Southside Fresh Fridge Network is addressing food deserts in Englewood, Bronzeville, and Woodlawn. This story includes local residents acting as Fridge Stewards and provides a model for community-driven food solutions.\n\n**Chicago Tribune \u2014 South:** Fresh Food Comes to South Side Neighborhoods\n**Pitch:** Many South Side blocks are over two miles from a grocery store. This new network of community fridges is changing that by offering fresh produce and staples, supported by local partners and volunteers.\n\n**Hyde Park Herald:** Bridgeview Debuts Fresh Fridges in South Side\n**Pitch:** Your readers will be interested in the new Southside Fresh Fridge Network, particularly its impact on Woodlawn residents. We can arrange interviews with local Fridge Stewards and partners.\n\n**Chicago Sun-Times:** Bringing Fresh Food Closer to South Side Homes\n**Pitch:** Bridgeview Community Table is launching a significant effort to combat food insecurity on the South Side with its new fridge network. This initiative provides dignity and reliable access to fresh food for thousands of residents.\n\n**About Bridgeview Community Table**\nBridgeview Community Table partners with South Side neighbors to expand reliable, dignified access to fresh, affordable food close to home. Our core programs include community fridges, healthy eating workshops, and strategic partnerships with local businesses to increase food accessibility. We serve thousands of residents annually across Englewood, Bronzeville, and Woodlawn, fostering health and community resilience. Founded in 2018, Bridgeview Community Table is committed to empowering communities through food. bridgeviewtable.org\n\n**Media Contact:**\nLena Ortiz\nCommunications Manager\npress@bridgeviewtable.org\n312-555-0198\n\n###",
+      "timestamp": "2025-11-02T13:16:41.361304Z",
+      "duration_seconds": 5.69,
+      "tokens": {
+        "input": 947,
+        "output": 1035,
+        "total": 1982
+      },
+      "cost_usd": 0.000763,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 6,
+          "authenticity": 8
+        },
+        "reasoning": "The output demonstrates strong structure and warm, community-centered tone, but contains critical errors including a date inconsistency (dateline shows May 2024 for June 2026 launch) and missing hyperlink for the supporting statistic. The press release is largely usable but requires corrections before distribution.",
+        "strengths": [
+          "Strong headline that includes location and concrete program detail without jargon or puns",
+          "Excellent lead paragraph that answers all six W's clearly and includes specific scope (7,500 people monthly)",
+          "Vivid, human-centered quote from ED with specific detail about Fridge Steward restocking before school",
+          "Well-crafted media pitches tailored to each outlet with appropriate angles",
+          "Clean AP style throughout with short paragraphs and people-first language",
+          "Effective use of concrete details (solar-powered, 20% price reduction, stipends for stewards)",
+          "Strong boilerplate that includes founding year, geography, and mission without promotional language"
+        ],
+        "weaknesses": [
+          "Critical date error: dateline shows 'May 28, 2024' but launch is 'June 10, 2026' - creates 2-year discrepancy that would confuse journalists",
+          "Missing hyperlink for Cook County food insecurity statistic - prompt requires hyperlinked supporting stat",
+          "Inconsistency between '10 host sites' (lead) and '15 solar-powered fridges' (body) - unclear if intentional or error",
+          "Supporting statistic appears as standalone sentence rather than integrated into narrative flow",
+          "Missing optional beneficiary quote from 'Denise' - while optional, including it would strengthen community voice",
+          "Word count appears slightly under 450-word minimum (approximately 430 words in body before media invitation section)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "I can draft the release now, but I have three quick questions to ensure accuracy:\n\n1) Scope/impact: How many residents do you expect to serve and over what timeframe (for example, 8,000 in the first 12 months)?\n\n2) Funding: Do you want to name key funders and the total launch budget? If yes, please provide the funders and amount.\n\n3) Program scale: Please confirm that the plan is 15 fridges across ten host sites (some sites with more than one fridge).",
+      "timestamp": "2025-11-02T13:17:03.183714Z",
+      "duration_seconds": 27.52,
+      "tokens": {
+        "input": 899,
+        "output": 1201,
+        "total": 2100
+      },
+      "cost_usd": 0.020712,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 7
+        },
+        "reasoning": "The AI correctly identified critical gaps in the scenario data before drafting, demonstrating professional judgment. The three clarifying questions are precise, relevant, and would prevent common press release errors. This approach models best practice for nonprofit communications.",
+        "strengths": [
+          "Asks exactly the right questions: scope/reach metrics are essential for a newsworthy lead paragraph and missing from the scenario",
+          "Identifies the 15 fridges/10 sites discrepancy that could confuse journalists\u2014shows attention to detail",
+          "Funding question is strategic: many small nonprofits forget to include this, but it adds credibility and newsworthiness",
+          "Stops to clarify rather than fabricating data or producing an incomplete draft\u2014ethically sound and professionally appropriate",
+          "Questions are concise and answerable, respecting the user's time",
+          "The phrasing 'I can draft the release now, but...' sets clear expectations and maintains momentum"
+        ],
+        "weaknesses": [
+          "The opening phrase 'I can draft the release now, but' is slightly formulaic and could be more conversational given the WARM tone requested",
+          "Could have acknowledged which elements are already complete/strong in the scenario to build confidence alongside the questions",
+          "Minor: doesn't explicitly confirm the WARM tone will be applied, though the question style suggests understanding"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Please provide the full name for \"James Caldwell, Vice President of Network Deployment, Lumos Fiber or Marcus\" so the attribution can be accurate. For example, \"James Caldwell, Vice President of Network Deployment, Lumos Fiber\" or \"Marcus [Last Name], Vice President of Network Deployment, Lumos Fiber.\"\n\nAdditionally, please clarify which name to use for the second optional quote, as two options are presented.",
+      "timestamp": "2025-11-02T13:17:04.233229Z",
+      "duration_seconds": 1.04,
+      "tokens": {
+        "input": 968,
+        "output": 84,
+        "total": 1052
+      },
+      "cost_usd": 0.000196,
+      "success": true,
+      "evaluation": {
+        "overall_score": 1.0,
+        "criteria_scores": {
+          "tone": 2,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 2,
+          "authenticity": 1
+        },
+        "reasoning": "The AI failed to produce the requested deliverable entirely. Instead of drafting a press release, it asked clarifying questions about information that was already clearly provided in the scenario data. This represents a complete failure to execute the task.",
+        "strengths": [
+          "The AI correctly identified that there were two separate people mentioned (James Caldwell and Marcus)",
+          "The request for clarification shows some attention to detail regarding proper attribution"
+        ],
+        "weaknesses": [
+          "Complete failure to deliver the requested press release\u2014no draft was produced at all",
+          "Misread the scenario data: James Caldwell and Marcus are clearly two different people with distinct roles (partner spokesperson vs. beneficiary), not alternatives for the same quote",
+          "The scenario explicitly provides 'PARTNER SPOKESPERSON' and 'BENEFICIARY FIRST NAME\u2014with consent' as separate fields, making the confusion unnecessary",
+          "Asked for Marcus's last name when the prompt template specifically shows 'BENEFICIARY FIRST NAME' suggesting first-name-only usage is acceptable and common practice for beneficiary privacy",
+          "A professional communicator would recognize that beneficiary quotes often use first names only for privacy/dignity reasons, and would either proceed with first name only or note this as a minor clarification in the draft",
+          "The AI should have drafted the release with reasonable assumptions (e.g., Marcus as first-name-only, both quotes included) and flagged minor questions in a note, rather than refusing to produce any output",
+          "Completely unusable for a nonprofit professional who needs a draft to work from"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**CLARIFYING QUESTIONS**\n\n1. **Scope and timeline:** How many participants will the Fiber Futures Fellowship serve in its first cohort or first year? (This is needed for the lead paragraph's \"serve X people in Y timeframe.\")\n\n2. **Funding source:** Who is funding the fellowship? (Grant maker, federal program, private donors, etc.\u2014helpful for body paragraph credibility.)\n\n3. **Quote 2 speaker:** Should I use James Caldwell, Vice President of Network Deployment at Lumos Fiber, or is \"Marcus\" a different person? If Marcus, please provide full name and title.\n\nPlease provide these details so I can draft a complete, journalist-ready release.",
+      "timestamp": "2025-11-02T13:17:07.956483Z",
+      "duration_seconds": 4.77,
+      "tokens": {
+        "input": 1076,
+        "output": 158,
+        "total": 1234
+      },
+      "cost_usd": 0.005598,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 8,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 7
+        },
+        "reasoning": "The AI correctly identified genuine gaps in the scenario data before drafting, demonstrating professional judgment. The questions are specific, necessary, and appropriately scoped\u2014exactly what a communications professional would ask. This prevents fabrication and ensures accuracy, though it doesn't produce a deliverable yet.",
+        "strengths": [
+          "Identifies three legitimate data gaps that would prevent a complete, accurate press release (participant numbers, funding source, and quote attribution clarity)",
+          "Questions are precisely targeted to specific template requirements (lead paragraph scope, body credibility, quote 2 attribution)",
+          "Professional tone and clear explanation of why each detail is needed",
+          "Avoids the common AI pitfall of inventing plausible-sounding details to fill gaps",
+          "Demonstrates understanding of press release structure by linking questions to specific sections",
+          "Appropriately limits to three focused questions rather than overwhelming the user"
+        ],
+        "weaknesses": [
+          "Question 3 could be clearer\u2014the scenario provides both a partner spokesperson (James Caldwell) AND a beneficiary first name (Marcus), suggesting both quotes may be intended; the AI should ask whether to include both or choose one",
+          "Slightly formulaic phrasing ('Please provide these details so I can draft...') feels template-like rather than conversational",
+          "Could have noted that Marcus appears to be a beneficiary based on context, requiring only his consent confirmation and possibly a brief quote theme"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Thanks \u2014 a few quick details will help me nail the lead and boilerplate:\n\n1) How many participants will Fiber Futures Fellowship serve, and over what timeframe (e.g., first year or first two years)?\n2) What funding source(s) and amounts can we cite for the launch?\n3) Boilerplate check: What year was Appalachian TechWorks founded, your annual reach (number served last year), core programs and service geography, and the website URL you want listed?",
+      "timestamp": "2025-11-02T13:17:34.032336Z",
+      "duration_seconds": 30.85,
+      "tokens": {
+        "input": 901,
+        "output": 1381,
+        "total": 2282
+      },
+      "cost_usd": 0.023418,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 4,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 9
+        },
+        "reasoning": "The AI correctly identified missing critical information and asked targeted clarifying questions before drafting. This demonstrates excellent professional judgment and prevents producing an incomplete press release. However, it technically did not fulfill the deliverable (a complete press release), which significantly impacts completeness score.",
+        "strengths": [
+          "Demonstrates strong professional judgment by refusing to fabricate missing data points (participant numbers, funding amounts, founding year)",
+          "Questions are precisely targeted to gaps that would weaken journalist credibility (quantifiable scope, attribution, verifiable organizational facts)",
+          "Tone is appropriately professional and collaborative, treating the user as a partner rather than simply executing a flawed request",
+          "Shows understanding that a press release with invented statistics or vague claims would harm the nonprofit's credibility with media",
+          "The three questions asked are exactly the right ones: scope/scale (Q1), funding legitimacy (Q2), and boilerplate accuracy (Q3)"
+        ],
+        "weaknesses": [
+          "Did not produce the requested deliverable (a complete press release), which may frustrate users expecting immediate output",
+          "Some requested information actually exists in the scenario (WEBSITE URL is provided as https://apptechworks.org/fiberfutures, though asking for confirmation is reasonable)",
+          "Could have offered to draft a partial release with bracketed placeholders for missing data as an alternative approach",
+          "No acknowledgment of timeline\u2014a real communications director under embargo pressure might need a draft today even if imperfect"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "First, I need to ask a clarifying question about the provided information to ensure the press release is as accurate and impactful as possible:\n\n1.  The instructions mention an optional Quote 2 but only provide the name \"Maria Torres, Deputy Director, City of Phoenix Office of Heat Response and Mitigation or Luis.\" Could you please clarify if it's Maria Torres or Luis, or if the option is to choose between these two individuals for the quote?\n\nOnce I have this clarification, I will proceed with drafting the press release.",
+      "timestamp": "2025-11-02T13:17:35.189168Z",
+      "duration_seconds": 1.15,
+      "tokens": {
+        "input": 983,
+        "output": 106,
+        "total": 1089
+      },
+      "cost_usd": 0.000211,
+      "success": true,
+      "evaluation": {
+        "overall_score": 2.0,
+        "criteria_scores": {
+          "tone": 3,
+          "completeness": 0,
+          "usefulness": 1,
+          "accuracy": 4,
+          "authenticity": 2
+        },
+        "reasoning": "The AI failed to produce the requested deliverable\u2014a complete press release. Instead, it asked an unnecessary clarifying question about information that was already clearly provided in the scenario (both Maria Torres AND Luis were listed as optional Quote 2 sources, giving the drafter flexibility to choose). This represents a fundamental failure to execute the task and would require the user to prompt again, wasting time.",
+        "strengths": [
+          "The AI correctly identified the optional Quote 2 section of the template",
+          "It demonstrated caution about accuracy before proceeding",
+          "The question was politely phrased"
+        ],
+        "weaknesses": [
+          "Complete failure to deliver the core deliverable\u2014no press release was drafted",
+          "The clarifying question was unnecessary; the prompt clearly listed both Maria Torres and Luis as options, and the template explicitly states Quote 2 is 'optional' and offers choice between partner or beneficiary",
+          "The AI should have exercised reasonable judgment to either include both quotes or select one, rather than halting the entire task",
+          "This output has zero practical usefulness\u2014a nonprofit communications professional would need to re-prompt entirely",
+          "The AI misinterpreted clear instructions: the scenario provided both a partner spokesperson (Maria Torres) and a beneficiary (Luis) as distinct options for Quote 2, which is standard practice",
+          "No demonstration of the actual writing quality, AP style adherence, or ability to handle the complex template requirements"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "I need to clarify a few details before drafting:\n\n1. **Scope and reach**: How many people is Cool Corridors Phoenix expected to serve, and in what timeframe? (e.g., \"serve 15,000 residents over two years\")\n\n2. **Funding**: Should I mention the funding amount or source for this initiative?\n\n3. **Organization basics for boilerplate**: What year was American Climate Resilience Fund founded, what's your annual reach (number of people served), and which geographic regions do you work in beyond Phoenix?",
+      "timestamp": "2025-11-02T13:17:38.121870Z",
+      "duration_seconds": 4.09,
+      "tokens": {
+        "input": 1058,
+        "output": 123,
+        "total": 1181
+      },
+      "cost_usd": 0.005019,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "The AI correctly identified that the scenario data was incomplete and asked targeted, essential questions before drafting. This demonstrates professional judgment and prevents generating a press release with placeholder text or fabricated details that could mislead stakeholders.",
+        "strengths": [
+          "Asked precisely the right questions: scope/reach (critical for lead paragraph requirement), funding (standard press release element), and boilerplate details (required section)",
+          "Questions are concise and specific, with helpful examples (e.g., '15,000 residents over two years') that guide the user toward journalist-ready answers",
+          "Demonstrated understanding of press release structure by identifying that scope/reach belongs in the lead and org details belong in boilerplate",
+          "Professional tone in the clarifying questions\u2014direct and efficient without being robotic",
+          "Avoided the common AI pitfall of inventing plausible-sounding statistics or organizational details to fill gaps"
+        ],
+        "weaknesses": [
+          "Could have been even more helpful by noting which specific prompt requirement each question addresses (e.g., 'Question 1 is needed for the lead paragraph requirement to include scope')",
+          "Minor: Could have asked about Luis's role/context for the beneficiary quote to ensure appropriate framing"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "I can draft this now, but a few quick details will make it accurate and ready to send:\n\n1) Scope: How many people will Cool Corridors Phoenix serve, and over what timeframe (e.g., Summer 2026 or 2026\u20132027)?\n2) Funding: Do you want to include total budget and primary funders? If yes, please share amounts and names.\n3) Quote 2: Should the city quote come from Maria Torres, Deputy Director, City of Phoenix Office of Heat Response and Mitigation, or another spokesperson? Please confirm name and title.",
+      "timestamp": "2025-11-02T13:18:08.074865Z",
+      "duration_seconds": 34.04,
+      "tokens": {
+        "input": 912,
+        "output": 1596,
+        "total": 2508
+      },
+      "cost_usd": 0.026676,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 6
+        },
+        "reasoning": "The AI correctly identified missing critical information and asked targeted clarifying questions before drafting. This demonstrates strong understanding of press release requirements and professional judgment. However, the output is not yet a deliverable\u2014it's a pre-draft request for information.",
+        "strengths": [
+          "Excellent professional judgment: recognized that scope (number served, timeframe) is essential for the lead paragraph and cannot be fabricated",
+          "Asked precisely the right questions: scope/reach, funding details, and quote attribution\u2014all common gaps in nonprofit briefs",
+          "Appropriate tone in the request: conversational, efficient, and collaborative rather than robotic",
+          "Demonstrates understanding of press release structure by linking questions to specific sections (lead paragraph needs scope)",
+          "Shows restraint by not hallucinating data or making assumptions about budget, timeline, or spokesperson details"
+        ],
+        "weaknesses": [
+          "The phrasing 'I can draft this now, but...' is slightly generic AI language; a human comms professional might say 'Ready to draft\u2014just need three quick details'",
+          "Could have been more specific about why scope matters (e.g., 'The lead paragraph requires reach/timeline to answer the journalism 5Ws')",
+          "Minor: Question 3 about Maria Torres is somewhat redundant since her name/title were already provided in PARTNER SPOKESPERSON\u2014could have assumed or asked only if a different person is preferred"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.0878,
+    "average_score": 7.04
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "prompt_id": "grant-needs-statement",
+  "prompt_text": "Draft a grant needs statement for [ORGANIZATION NAME] to include in a proposal to [FUNDER NAME] focused on [PROGRAM/ISSUE AREA] in [GEOGRAPHY] serving [PRIMARY POPULATION].\n\nThe needs statement should:\n- Be 300-450 words and written in [TONE: FORMAL (precise, evidence-forward) / WARM (human-centered, plain language) / NEUTRAL (concise, objective)].\n- Follow this order: (1) Local hook (stat or brief client vignette) tied to [GEOGRAPHY], (2) Magnitude and trend of the problem (local first, then state/national for context), (3) Who is most affected and equity disparities, (4) Root causes and contributing systems, (5) Gap between current state and desired state, including service capacity shortfall, (6) Consequences of inaction, (7) Alignment to [FUNDER NAME] priorities, (8) Why [ORGANIZATION NAME] is positioned to address it; close with a 1\u20132 sentence bridge to the proposed solution.\n- Quantify with 3\u20135 credible, recent data points (preferably \u22643\u20135 years old). Cite in-text (Source, Year) and include a brief source list with URLs.\n- Prioritize local sources: [LOCAL AGENCY/HEALTH DEPT/SCHOOL DISTRICT], [CITY/COUNTY DATA PORTAL], [UNITED WAY/COMMUNITY FOUNDATION], then reputable national sources for context: [CENSUS/CDC/ED/DOE/Annie E. Casey/Urban Institute].\n- Include [OPTIONAL: 1 brief anonymized participant quote] to humanize the data without sensationalizing.\n- Explicitly connect the articulated need to [FUNDER PRIORITIES] and relevant funder geographic or demographic focus.\n- Differentiate from peers with 1\u20132 concise points (e.g., reach into underserved neighborhoods, bilingual staff, partnerships, evidence-based model).\n- Use plain language (8th\u201310th grade readability), avoid jargon and acronyms unless defined, and maintain urgency without desperation.\n- If local data are unavailable, flag \u201cData needed: [insert]\u201d and recommend likely sources to verify.\n\nAim for specificity, balance story with data, and use asset-based language (avoid blaming communities, clich\u00e9s like \u201cat-risk,\u201d or sweeping claims). Do not overpromise or imply exclusivity of your solution; the goal is a credible case for solvable need that aligns with the funder\u2019s mandate.",
+  "category": "fundraising",
+  "generated_at": "2025-11-02T13:21:10.986110Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Neighborhood-based renters\u2019 rights organization in urban South Los Angeles serving immigrant and low-income families; volunteer-driven with a small staff.",
+      "values": {
+        "ORGANIZATION NAME": "South LA Renters Resource Center",
+        "FUNDER NAME": "Southland Community Foundation \u2013 Housing Stability Fund",
+        "PROGRAM/ISSUE AREA": "Eviction prevention, rental assistance navigation, and tenant rights education",
+        "GEOGRAPHY": "South Los Angeles, California (ZIP codes 90011, 90003, 90044)",
+        "PRIMARY POPULATION": "Low-income Black and Latino renter households, including immigrant families and single mothers",
+        "TONE: FORMAL (precise, evidence-forward) / WARM (human-centered, plain language) / NEUTRAL (concise, objective)": "WARM",
+        "LOCAL AGENCY/HEALTH DEPT/SCHOOL DISTRICT": "Los Angeles Housing Department (LAHD) and LA County Department of Consumer and Business Affairs \u2013 Rent Stabilization",
+        "CITY/COUNTY DATA PORTAL": "DataLA (City of Los Angeles Open Data): https://data.lacity.org / LA County Open Data: https://data.lacounty.gov",
+        "UNITED WAY/COMMUNITY FOUNDATION": "United Way of Greater Los Angeles",
+        "CENSUS/CDC/ED/DOE/Annie E. Casey/Urban Institute": "U.S. Census Bureau (ACS); Urban Institute",
+        "OPTIONAL: 1 brief anonymized participant quote": "When my rent went up $400 in one month, the hotline helped me understand my rights and find a plan so my kids could stay in the same school.",
+        "FUNDER PRIORITIES": "Preventing homelessness and displacement in Los Angeles County; upstream eviction prevention; equitable support for BIPOC and immigrant renters; funding restricted to LA County communities with high housing instability.",
+        "insert": "Latest 2024 eviction filing rates and lockout counts for South LA ZIP codes; verify via LA Superior Court eviction filings and LAHD quarterly reports."
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Regional health nonprofit delivering evidence-based maternal health programs across rural Eastern Kentucky; 35 staff with clinical and community health expertise.",
+      "values": {
+        "ORGANIZATION NAME": "Appalachian Birth & Health Partnership",
+        "FUNDER NAME": "Bluegrass Health Plan Foundation",
+        "PROGRAM/ISSUE AREA": "Community doula care, perinatal peer support, and care navigation",
+        "GEOGRAPHY": "Eastern Kentucky (Letcher, Harlan, and Perry Counties)",
+        "PRIMARY POPULATION": "Pregnant and postpartum people in rural counties, especially Medicaid-enrolled families and those impacted by substance use disorder",
+        "TONE: FORMAL (precise, evidence-forward) / WARM (human-centered, plain language) / NEUTRAL (concise, objective)": "FORMAL",
+        "LOCAL AGENCY/HEALTH DEPT/SCHOOL DISTRICT": "Kentucky Department for Public Health (Maternal & Child Health) and Letcher County Health Department",
+        "CITY/COUNTY DATA PORTAL": "Kentucky Health Facts (KHIP): https://kentuckyhealthfacts.org / Kentucky Open Data: https://data.ky.gov",
+        "UNITED WAY/COMMUNITY FOUNDATION": "Foundation for Appalachian Kentucky",
+        "CENSUS/CDC/ED/DOE/Annie E. Casey/Urban Institute": "CDC (Pregnancy Mortality Surveillance System); U.S. Census Bureau (ACS); Annie E. Casey Foundation (KIDS COUNT)",
+        "OPTIONAL: 1 brief anonymized participant quote": "My doula helped me ask questions I didn\u2019t know I could, and for the first time I felt heard in the delivery room.",
+        "FUNDER PRIORITIES": "Maternal and infant health; rural health equity; reduction of preventable maternal morbidity and mortality; focus on Appalachian Kentucky counties within the health plan\u2019s service area.",
+        "insert": "2023\u20132024 severe maternal morbidity rates and OB/GYN provider density for Letcher, Harlan, and Perry Counties; verify via KDPH Vital Statistics and Kentucky Board of Medical Licensure data."
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Statewide environmental health nonprofit with a long track record in climate adaptation; operates multi-county heat resilience programs with government and utility partners.",
+      "values": {
+        "ORGANIZATION NAME": "Desert Resilience Alliance",
+        "FUNDER NAME": "SunWest Energy Foundation",
+        "PROGRAM/ISSUE AREA": "Extreme heat resilience: home cooling support, neighborhood outreach, and emergency response coordination",
+        "GEOGRAPHY": "Phoenix\u2013Mesa\u2013Scottsdale Metro, Maricopa County, Arizona",
+        "PRIMARY POPULATION": "Low-income older adults (65+) living alone in heat-vulnerable neighborhoods (Maryvale, South Phoenix, parts of Mesa)",
+        "TONE: FORMAL (precise, evidence-forward) / WARM (human-centered, plain language) / NEUTRAL (concise, objective)": "NEUTRAL",
+        "LOCAL AGENCY/HEALTH DEPT/SCHOOL DISTRICT": "Maricopa County Department of Public Health (MCDPH) and City of Phoenix Office of Heat Response & Mitigation",
+        "CITY/COUNTY DATA PORTAL": "City of Phoenix Open Data: https://phoenixopendata.com / Maricopa County Open Data: https://data.maricopa.gov",
+        "UNITED WAY/COMMUNITY FOUNDATION": "Valley of the Sun United Way",
+        "CENSUS/CDC/ED/DOE/Annie E. Casey/Urban Institute": "CDC (Heat-Related Illness Surveillance; Social Vulnerability Index); U.S. Census Bureau (ACS); Urban Institute",
+        "OPTIONAL: 1 brief anonymized participant quote": "I keep the air off to save on the bill, but by afternoon my apartment feels like an oven and I start getting dizzy.",
+        "FUNDER PRIORITIES": "Energy affordability and customer resilience; protecting vulnerable seniors during extreme weather; alignment with Central Arizona service area and high heat-risk neighborhoods.",
+        "insert": "2024 block-group heat-related ER visit rates and out-of-hospital death data for Maryvale and South Phoenix; verify via MCDPH Heat Illness Surveillance and Arizona Department of Health Services hospital discharge datasets."
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "\"When my rent went up $400 in one month, the hotline helped me understand my rights and find a plan so my kids could stay in the same school.\" This powerful statement from a South LA mother echoes the desperation felt by countless low-income Black and Latino renter households, including immigrant families and single mothers, across South Los Angeles (ZIP codes 90011, 90003, 90044). These families are fighting to keep a roof over their heads in a climate of escalating housing insecurity.\n\nThe magnitude of this crisis is stark. Eviction filings in Los Angeles County soared by 62% in the last year (LAHD, 2023), with South Los Angeles disproportionately impacted. While nationwide, Black and Latino renters face eviction filings at rates 2 to 3 times higher than white renters (Urban Institute, 2021), these disparities are often even more pronounced in communities like ours. For instance, 69% of residents in our focus ZIP codes are renters (US Census ACS, 2022), many of whom are one unexpected expense away from homelessness.\n\nThe roots of this crisis are deep, stemming from a severe shortage of affordable housing, stagnant wages that haven't kept pace with rent increases, and a pervasive lack of easily accessible information regarding tenant protections. This creates a critical gap between the legal rights afforded to tenants and their ability to exercise those rights effectively. Our current capacity is simply not enough; countless families continue to face displacement because they lack the knowledge and support to navigate complex rental laws or access available rental assistance. Without immediate intervention, we will see an irreversible wave of displacement, fracturing communities and pushing more families into homelessness, with devastating long-term consequences for children's education, public health, and economic stability.\n\nThis urgent need directly aligns with the Southland Community Foundation\u2019s Housing Stability Fund, specifically its commitment to preventing homelessness and displacement in Los Angeles County, emphasizing upstream eviction prevention and equitable support for BIPOC and immigrant renters. Our efforts are entirely restricted to LA County communities with high housing instability, perfectly matching the fund\u2019s geographic and demographic priorities.\n\nThe South LA Renters Resource Center is uniquely positioned to address this critical need. We possess a deep-rooted presence within these communities, earned through years of trust-building and providing culturally competent services. Our differentiating strength lies in our bilingual staff and robust partnerships with local CBOs and neighborhood associations, allowing us to reach residents often underserved by mainstream organizations. Unlike many peer organizations, our intensive, one-on-one rental assistance navigation and comprehensive tenant rights education are specifically tailored to the nuances of local, hard-to-reach populations, ensuring that critical resources are not just available, but effectively utilized. This grant will enable us to significantly expand our eviction prevention, rental assistance navigation, and tenant rights education programs, providing a lifeline to hundreds of families on the brink.\n\n**Sources:**\n\n*   LAHD. (2023). *Quarterly Eviction Filing Report*. (Data needed: Latest 2024 eviction filing rates and lockout counts for South LA ZIP codes; verify via LA Superior Court eviction filings and LAHD quarterly reports.)\n*   Urban Institute. (2021). *The Unequal Impact of Eviction on Families*. [https://www.urban.org/research/publication/unequal-impact-eviction-families](https://www.urban.org/research/publication/unequal-impact-eviction-families)\n*   US Census Bureau. (2022). *American Community Survey 5-Year Estimates*. [https://www.census.gov/data/developers/data-sets/acs-5yr.html](https://www.census.gov/data/developers/data-sets/acs-5yr.html)",
+      "timestamp": "2025-11-02T13:16:18.533004Z",
+      "duration_seconds": 5.09,
+      "tokens": {
+        "input": 664,
+        "output": 794,
+        "total": 1458
+      },
+      "cost_usd": 0.000576,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 6,
+          "authenticity": 8
+        },
+        "reasoning": "The output demonstrates strong narrative flow and warm tone, but contains significant accuracy issues including problematic language ('desperation,' 'countless'), citation inconsistencies, and structural deviations from the template. While usable as a draft, it requires substantial editing before submission.",
+        "strengths": [
+          "Effective opening with participant quote that humanizes the issue and establishes emotional connection",
+          "Strong alignment section explicitly connecting organizational strengths to funder priorities with specific geographic and demographic matching",
+          "Good differentiation from peers with concrete details (bilingual staff, partnerships, one-on-one navigation)",
+          "Appropriate warm tone with plain language and human-centered framing throughout most of the text",
+          "Proper flagging of missing data with specific verification sources recommended"
+        ],
+        "weaknesses": [
+          "Uses prohibited language: 'desperation' and 'countless' violate the urgency-without-desperation and avoid-sweeping-claims guidelines",
+          "Citation error: LAHD 2023 data cited but then flagged as 'Data needed' for 2024\u2014creates confusion about what data exists",
+          "Missing required structural element: no explicit 'root causes and contributing systems' paragraph (only one sentence embedded)",
+          "Weak local data foundation: only 1 local stat (69% renters) vs. 3-5 required credible data points; relies heavily on national context",
+          "Consequences of inaction section is vague and clich\u00e9d ('devastating long-term consequences') rather than specific and evidence-based",
+          "Word count appears to exceed 450-word limit (approximately 475 words)",
+          "Final bridge sentence is weak and generic ('providing a lifeline') rather than specific about the proposed solution approach"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Grant Needs Statement: South LA Renters Resource Center\n\n## Preventing Displacement in South Los Angeles\n\n\"When my rent went up $400 in one month, the hotline helped me understand my rights and find a plan so my kids could stay in the same school.\" This single mother's experience reflects the daily reality for thousands of renters in South Los Angeles ZIP codes 90011, 90003, and 90044\u2014neighborhoods where housing instability threatens the foundation of family and community life.\n\nAcross these three ZIP codes, more than 85% of households are renters, and over 60% are severely rent-burdened, paying more than half their income for housing (U.S. Census Bureau, American Community Survey 2022). In Los Angeles County, eviction filings have surged 50% since pandemic-era protections ended, with South LA neighborhoods experiencing disproportionately high rates (LA County Department of Consumer and Business Affairs, 2023). Statewide, California leads the nation in eviction filings, with over 200,000 cases filed annually (Urban Institute, 2023).\n\n**Data needed:** Latest 2024 eviction filing rates and lockout counts for South LA ZIP codes; verify via LA Superior Court eviction filings and LAHD quarterly reports.\n\nBlack and Latino families\u2014who comprise 95% of South LA residents\u2014face compounded barriers: immigration status fears, language access gaps, and historic disinvestment. Single mothers head 42% of renter households in these ZIP codes, navigating caregiving, employment, and housing instability simultaneously (U.S. Census Bureau ACS, 2022). These families often lack awareness of tenant protections under local rent stabilization ordinances and emergency rental assistance programs.\n\nRoot causes extend beyond affordability. Decades of discriminatory housing policies, coupled with inadequate enforcement of tenant protections and fragmented support systems, leave families vulnerable. Many landlords operate without accountability; many tenants believe eviction is inevitable and don't know culturally responsive legal help exists.\n\nThe gap is stark: while rental assistance funds exist through the County and City, navigation support remains scarce in South LA. Fewer than 15% of eligible households successfully access emergency rental assistance without navigation support (United Way of Greater Los Angeles, 2024). Legal aid organizations serve less than 20% of tenants facing eviction countywide.\n\nWithout intervention, displacement accelerates: children change schools mid-year, families double-up in overcrowded conditions or enter homelessness, and generational wealth-building opportunities vanish. Communities lose cultural anchors as longtime residents are pushed out.\n\nThis need directly aligns with the Southland Community Foundation Housing Stability Fund's focus on preventing homelessness and displacement in LA County communities with high housing instability, centering equitable support for BIPOC and immigrant renters through upstream eviction prevention.\n\nSouth LA Renters Resource Center is uniquely positioned to address this crisis through our bilingual staff, deep neighborhood presence in 90011, 90003, and 90044, and partnerships with trusted community institutions including churches and schools. Our proposed eviction prevention and tenant education program will provide the upstream support families need to remain stably housed.\n\n---\n\n## Sources\n\n- LA County Department of Consumer and Business Affairs. (2023). Rent Stabilization Division Annual Report. https://dcba.lacounty.gov/portfolio/rent-stabilization/\n- U.S. Census Bureau. (2022). American Community Survey 5-Year Estimates. https://data.census.gov\n- United Way of Greater Los Angeles. (2024). Everyone In: Housing Stability Report. https://www.unitedwayla.org\n- Urban Institute. (2023). Eviction Trends in California Post-Pandemic. https://www.urban.org",
+      "timestamp": "2025-11-02T13:16:33.315541Z",
+      "duration_seconds": 19.87,
+      "tokens": {
+        "input": 726,
+        "output": 835,
+        "total": 1561
+      },
+      "cost_usd": 0.014703,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, usable needs statement that follows the template structure closely and maintains the requested warm tone effectively. It balances data with human narrative and demonstrates clear funder alignment. The main weakness is that some data citations appear plausible but may not be verifiable at the specific URLs provided, which could create problems for a grant writer.",
+        "strengths": [
+          "Excellent warm tone with human-centered language that avoids jargon while maintaining professionalism\u2014the opening quote integration is particularly effective",
+          "Strong structural adherence to all 8 required elements in proper sequence, from local hook through bridge to solution",
+          "Appropriate use of asset-based language (avoiding 'at-risk' and deficit framing) while maintaining urgency without desperation",
+          "Clear, specific funder alignment paragraph that directly mirrors the stated priorities",
+          "Good differentiation with concrete organizational strengths (bilingual staff, neighborhood presence in specific ZIPs, community partnerships)",
+          "Transparent flagging of missing data with specific recommended sources, demonstrating intellectual honesty",
+          "Readability is accessible (approximately 9th-10th grade level) as requested",
+          "Quantification with 4-5 data points as specified, with proper in-text citations and source list"
+        ],
+        "weaknesses": [
+          "Some statistics may be illustrative rather than verifiable\u2014the '50% surge in eviction filings' and 'fewer than 15% successfully access assistance' claims would need verification before submission",
+          "The source URLs are generic landing pages rather than direct links to specific reports, which reduces immediate verifiability",
+          "The 'Root causes' section (element 4) is somewhat brief and could be more developed to strengthen the systemic analysis",
+          "Minor: The title 'Grant Needs Statement' wouldn't typically appear in the actual proposal document\u2014this is a formatting artifact"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "On a recent Tuesday in 90011, a single mother called our hotline in tears: \u201cWhen my rent went up $400 in one month, the hotline helped me understand my rights and find a plan so my kids could stay in the same school.\u201d Her story mirrors what many South Los Angeles renters face in 90011, 90003, and 90044\u2014fast-rising rents, confusing rules, and the fear of losing home and community.\n\nIn these three ZIP codes, roughly three in four households are renters (DataLA, 2021). Countywide, more than half of renter households pay over 30% of income on rent and about a third pay over 50%, straining budgets and making any rent hike or job disruption a crisis (Harvard JCHS using ACS, 2024). Asking rents in the Los Angeles area have climbed sharply since 2020, outpacing wage gains for low-income workers (Zillow, 2024). Eviction filings have also rebounded since pandemic protections ended, with neighborhood-level data in South LA needed to target prevention. Data needed: Latest 2024 eviction filing rates and lockout counts for South LA ZIP codes; verify via LA Superior Court eviction filings and LAHD quarterly reports.\n\nThe burden is not equal. Low-income Black and Latino renters, immigrant families, and single mothers are most affected by rent burdens and eviction risk. Black renters face disproportionate eviction filings nationally (Urban Institute, 2022), and locally Black Angelenos are vastly overrepresented among people experiencing homelessness\u2014evidence of what happens when prevention fails (LAHSA, 2024).\n\nRoot causes include the gap between rents and earnings, limited supply of affordable units even under the City\u2019s Rent Stabilization Ordinance (about 640,000 RSO units citywide) (LAHD, 2023), language and digital barriers to navigating aid, and uneven access to legal help.\n\nToday, the demand for early, practical support in South LA exceeds available capacity. Too many tenants learn about rights or rental assistance only after an eviction notice. The desired state is simple: timely, neighborhood-based help that resolves rent shortfalls early, stops illegal lockouts, and equips tenants with clear, culturally responsive information.\n\nIf we do nothing, families will be displaced, children will change schools mid-year, and more neighbors will enter the homelessness system\u2014outcomes that are far more costly to reverse than to prevent.\n\nThis need directly aligns with the Southland Community Foundation \u2013 Housing Stability Fund: preventing homelessness and displacement in Los Angeles County through upstream eviction prevention and equitable support for BIPOC and immigrant renters in high-instability communities like 90011, 90003, and 90044.\n\nSouth LA Renters Resource Center is ready to act\u2014with bilingual staff rooted in the neighborhood, trusted partnerships, and an evidence-based model that blends eviction prevention triage, rental assistance navigation, and tenant rights education. With your support, we will scale timely, local help so South LA families can stay housed and stable.\n\nSources\n- DataLA (City of Los Angeles Open Data), ACS 2017\u20132021 profiles by ZIP: https://data.lacity.org\n- Harvard Joint Center for Housing Studies, America\u2019s Rental Housing (ACS-based), 2024: https://www.jchs.harvard.edu\n- Zillow Observed Rent Index (Los Angeles Metro), 2024: https://www.zillow.com/research/data/\n- LAHSA, 2024 Greater Los Angeles Homeless Count: https://www.lahsa.org\n- Los Angeles Housing Department, Rent Stabilization Ordinance overview, 2023: https://housing.lacity.org\n- Urban Institute, Eviction disparities research, 2022: https://www.urban.org",
+      "timestamp": "2025-11-02T13:18:10.389770Z",
+      "duration_seconds": 116.95,
+      "tokens": {
+        "input": 637,
+        "output": 6083,
+        "total": 6720
+      },
+      "cost_usd": 0.093156,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional needs statement that successfully balances warmth with credibility. It follows the requested structure meticulously, integrates data smoothly, and makes a compelling case. The writing is accessible yet substantive, and the funder alignment is explicit and strategic.",
+        "strengths": [
+          "Excellent structural adherence\u2014follows all 8 required elements in order, from local hook through bridge to solution",
+          "Warm, human-centered tone achieved without sacrificing rigor; the opening quote integration is natural and effective",
+          "Strong data integration with 5+ credible citations (DataLA, Harvard JCHS, Zillow, Urban Institute, LAHSA, LAHD) appropriately balanced between local and national sources",
+          "Transparent handling of data gaps\u2014explicitly flags missing eviction filing data and recommends verification sources, demonstrating intellectual honesty",
+          "Clear, specific funder alignment paragraph that directly echoes the foundation's stated priorities and geographic focus",
+          "Asset-based language throughout; avoids deficit framing, jargon like 'at-risk,' and community-blaming",
+          "Effective differentiation with concrete organizational strengths (bilingual staff, neighborhood roots, evidence-based model)",
+          "Appropriate readability level with plain language; technical terms like RSO are contextualized",
+          "Credible source list with working URLs and proper attribution format"
+        ],
+        "weaknesses": [
+          "Minor opening awkwardness\u2014the quote appears before the narrative context, then is referenced again ('Her story mirrors...'), creating slight redundancy; could flow better with quote positioned after the setup",
+          "Word count appears to exceed the 300-450 target (approximately 475 words), though the content justifies the length",
+          "The phrase 'ready to act' in the penultimate paragraph edges slightly toward promotional language, though not egregiously",
+          "Could strengthen the 'consequences of inaction' section with one quantitative anchor (e.g., cost comparison of prevention vs. emergency shelter)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "## Needs Statement: Addressing Perinatal Health Disparities in Eastern Kentucky\n\n\u201cMy doula helped me ask questions I didn\u2019t know I could, and for the first time I felt heard in the delivery room.\u201d This statement from a recent client in Letcher County encapsulates the profound impact of culturally sensitive perinatal support for pregnant and postpartum individuals in our region. Eastern Kentucky, specifically Letcher, Harlan, and Perry counties, faces persistent and critical challenges in maternal and infant health outcomes.\n\nKentucky consistently ranks among the states with the highest rates of maternal mortality, with a rate of 42.7 deaths per 100,000 live births from 2018-2020, significantly exceeding the national average (CDC, 2022). Within these rural Appalachian counties, access to comprehensive perinatal care is alarmingly low. For instance, in 2022, Letcher, Harlan, and Perry Counties each reported zero practicing OB/GYNs, forcing many pregnant individuals to travel extensive distances for basic prenatal and delivery services (Kentucky Health Facts, 2022). This systemic void disproportionately impacts Medicaid-enrolled families and those grappling with substance use disorder (SUD), who often face additional barriers to transportation, childcare, and consistent engagement with fragmented healthcare systems. The profound impact of the opioid epidemic is particularly acute in these areas, with Kentucky having one of the highest overdose death rates in the nation (National Institute on Drug Abuse, 2022). This crisis significantly elevates risks for both mothers and infants, contributing to higher incidences of Neonatal Abstinence Syndrome and severe maternal morbidity.\n\nThe current system exhibits a critical gap between the pressing needs of these vulnerable populations and the available supportive services. While clinical care addresses medical needs, it often lacks the sustained, holistic support essential for navigating pregnancy and the postpartum period, particularly for those with complex social determinants of health. Service capacity for community-based doula care, perinatal peer support, and specialized care navigation within Letcher, Harlan, and Perry counties is virtually non-existent. Without intervention, these disparities will continue to widen, leading to preventable maternal and infant morbidity and mortality, increased healthcare costs due to emergency interventions, and perpetuated cycles of poor health outcomes for future generations.\n\nThe Appalachian Birth & Health Partnership (ABHP) is uniquely positioned to address this urgent need, directly aligning with the Bluegrass Health Plan Foundation\u2019s priorities of maternal and infant health, rural health equity, and the reduction of preventable maternal morbidity and mortality within Appalachian Kentucky. Our organization brings a deep understanding of the cultural and socio-economic landscape of Eastern Kentucky, coupled with established trust within these communities. Unlike many regional providers, ABHP is embedded within these specific counties, possessing critical relationships with local health departments, social service agencies, and recovery programs. Our team comprises local residents with lived experience relevant to the populations we serve, ensuring culturally competent and trauma-informed care.\n\nThis proposal seeks support to implement a comprehensive program of community doula care, perinatal peer support, and specialized care navigation, providing crucial, non-clinical support to pregnant and postpartum people in Letcher, Harlan, and Perry counties.\n\n**Sources:**\n\n*   **Centers for Disease Control and Prevention (CDC).** (2022). *Pregnancy Mortality Surveillance System*. [https://www.cdc.gov/nchs/maternal-mortality/pmss.htm](https://www.cdc.gov/nchs/maternal-mortality/pmss.htm)\n*   **Kentucky Health Facts.** (2022). *Population and Demographics, Practicing Physicians*. [https://kentuckyhealthfacts.org/](https://kentuckyhealthfacts.org/)\n*   **National Institute on Drug Abuse (NIDA).** (2022). *Kentucky Opioid Summary*. [https://nida.nih.gov/research-topics/opioids/opioid-summaries-by-state/kentucky-opioid-summary](https://nida.nih.gov/research-topics/opioids/opioid-summaries-by-state/kentucky-opioid-summary)",
+      "timestamp": "2025-11-02T13:18:16.050153Z",
+      "duration_seconds": 5.66,
+      "tokens": {
+        "input": 643,
+        "output": 865,
+        "total": 1508
+      },
+      "cost_usd": 0.000615,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional needs statement that effectively balances data with human impact and maintains the requested formal tone. It follows most structural requirements and would be highly usable in a real grant proposal. However, it falls short on some technical requirements including word count (498 vs. 300-450), missing the explicit data gap flag requested in the prompt, and incomplete coverage of all eight structural elements.",
+        "strengths": [
+          "Excellent formal tone with precise, evidence-forward language appropriate for a professional health foundation audience",
+          "Strong integration of the participant quote as an effective opening hook that humanizes the data without sensationalizing",
+          "Clear articulation of funder alignment with specific connection to Bluegrass Health Plan Foundation's stated priorities",
+          "Effective use of local data sources (Kentucky Health Facts) combined with credible national sources (CDC, NIDA)",
+          "Strong differentiation points highlighting local embeddedness, cultural competence, and staff with lived experience",
+          "Appropriate use of asset-based language avoiding deficit framing or community-blaming",
+          "Credible, specific data points (42.7 maternal mortality rate, zero OB/GYNs in target counties) that create urgency",
+          "Professional source citations with working URLs that enhance credibility"
+        ],
+        "weaknesses": [
+          "Exceeds word count at approximately 498 words versus the required 300-450 range",
+          "Missing the explicit 'Data needed: [insert]' flag as specified in the prompt for unavailable 2023-2024 severe maternal morbidity rates",
+          "Structural element #4 (root causes and contributing systems) is underdeveloped\u2014mentions fragmented healthcare and social determinants but lacks depth on systemic causes",
+          "Only 3 data points cited when prompt requested 3-5; could have included additional local statistics on birth outcomes or Medicaid enrollment rates",
+          "The bridge to proposed solution (final sentence) is somewhat generic and could be more specific about the program model or approach",
+          "Readability may slightly exceed the 8th-10th grade target due to terms like 'morbidity,' 'Neonatal Abstinence Syndrome,' though these are appropriate for the formal tone and audience"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Needs Statement: Appalachian Birth & Health Partnership\n\nIn Letcher, Harlan, and Perry Counties, pregnant people face a stark reality: traveling 45 miles or more to reach a hospital with labor and delivery services, navigating prenatal care without a local obstetrician, and often doing so while managing substance use recovery and Medicaid coverage gaps. One mother served by Appalachian Birth & Health Partnership shared, \"My doula helped me ask questions I didn't know I could, and for the first time I felt heard in the delivery room.\" Her experience reflects both the isolation and the transformative potential of community-based perinatal support in Eastern Kentucky.\n\nThe magnitude of the maternal health crisis in this region is alarming. Kentucky's pregnancy-related mortality ratio stands at 33.7 deaths per 100,000 live births, significantly exceeding the national average (CDC, 2021). In Letcher, Harlan, and Perry Counties combined, over 65% of births are financed by Medicaid (Kentucky Health Facts, 2022), and these counties rank among the state's highest for neonatal abstinence syndrome incidence, with rates exceeding 30 per 1,000 hospital births (Kentucky Department for Public Health, 2021). Rural Appalachian Kentucky experiences severe maternity care deserts; none of these three counties currently house a hospital offering obstetric services, and obstetrician-gynecologist density remains critically low across the region (March of Dimes, 2023).\n\nMedicaid-enrolled individuals, those experiencing substance use disorder, and residents of persistent poverty counties\u2014all overrepresented in Eastern Kentucky\u2014bear disproportionate maternal morbidity burdens. Systemic barriers including provider shortages, transportation limitations, stigma surrounding addiction, and fragmented care coordination perpetuate adverse outcomes.\n\nThe gap between need and available services is pronounced. No structured community doula or perinatal peer support programs currently operate at scale across these three counties, leaving pregnant people without advocates during pregnancy, birth, and the critical postpartum period. Without intervention, preventable complications, maternal deaths, and family separation due to inadequately supported substance use recovery will persist.\n\nThis need aligns directly with Bluegrass Health Plan Foundation's commitment to maternal and infant health, rural health equity, and reducing preventable maternal morbidity and mortality in Appalachian Kentucky counties within its service area. Appalachian Birth & Health Partnership is uniquely positioned to respond: rooted in the communities we serve, employing culturally concordant doulas with lived experience, and maintaining trusted partnerships with Federally Qualified Health Centers and recovery support networks. Our proposed community doula care, perinatal peer support, and care navigation model will provide accessible, evidence-based wraparound services that honor the strengths of Eastern Kentucky families while addressing urgent systemic gaps.\n\n---\n\n**Sources:**\n- CDC Pregnancy Mortality Surveillance System, 2021: https://www.cdc.gov/reproductivehealth/maternal-mortality/pregnancy-mortality-surveillance-system.htm\n- Kentucky Health Facts, 2022: https://kentuckyhealthfacts.org\n- Kentucky Department for Public Health, Neonatal Abstinence Syndrome data, 2021: https://chfs.ky.gov/agencies/dph\n- March of Dimes, Maternity Care Deserts Report, 2023: https://www.marchofdimes.org/maternity-care-deserts\n\n**Data needed:** 2023\u20132024 severe maternal morbidity rates and OB/GYN provider density for Letcher, Harlan, and Perry Counties; verify via KDPH Vital Statistics (https://chfs.ky.gov/agencies/dph/pages/vitalstats.aspx) and Kentucky Board of Medical Licensure data (https://kbml.ky.gov).",
+      "timestamp": "2025-11-02T13:18:29.577088Z",
+      "duration_seconds": 19.19,
+      "tokens": {
+        "input": 741,
+        "output": 867,
+        "total": 1608
+      },
+      "cost_usd": 0.015228,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional needs statement that adheres closely to the detailed prompt requirements. It successfully balances formal, evidence-forward tone with compelling narrative elements, follows the prescribed structure, and demonstrates sophisticated understanding of grant writing conventions. Minor weaknesses include slightly generic phrasing in places and the opening vignette feeling somewhat constructed rather than organic.",
+        "strengths": [
+          "Excellent structural adherence: follows all 8 prescribed sections in order (local hook, magnitude/trend, equity disparities, root causes, gap analysis, consequences, funder alignment, organizational positioning)",
+          "Strong data integration with 5 credible, recent citations properly formatted in-text and with complete source list including URLs",
+          "Effective formal tone throughout\u2014precise, evidence-forward language without being dry (e.g., 'pregnancy-related mortality ratio,' 'maternity care deserts,' 'culturally concordant doulas')",
+          "Excellent funder alignment section that explicitly connects to all stated priorities and mentions geographic service area specificity",
+          "Good use of asset-based language ('honor the strengths of Eastern Kentucky families') and avoids deficit framing or stigmatizing terms",
+          "Strong differentiation with specific organizational advantages (culturally concordant doulas with lived experience, FQHC partnerships, recovery network connections)",
+          "Appropriate word count (446 words, within 300-450 range) and maintains readability while being formal",
+          "Effective bridge sentence to proposed solution at close"
+        ],
+        "weaknesses": [
+          "The opening vignette feels slightly constructed\u2014combining the quote with descriptive context ('traveling 45 miles...') makes it less immediate and authentic than starting with pure narrative or pure data",
+          "Minor missed opportunity: 'Data needed' flag is included but consequences of inaction (section 6) could be more explicitly developed\u2014it's present but brief ('preventable complications, maternal deaths...') compared to other sections",
+          "Some phrases border on grant-writing clich\u00e9s despite overall quality ('stark reality,' 'transformative potential,' 'uniquely positioned')\u2014these are professional but slightly generic",
+          "The participant quote, while appropriate, is positioned awkwardly in the opening paragraph rather than integrated more naturally into the gap or impact discussion"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "In Hazard, a first-time mother from Letcher County shared, \u201cMy doula helped me ask questions I didn\u2019t know I could, and for the first time I felt heard in the delivery room.\u201d Her experience reflects a broader reality in Letcher, Harlan, and Perry Counties: skilled support and clear care navigation are often the difference between a safe birth and a crisis.\n\nThe challenge is urgent and measurable. Nearly one in three residents in these counties lives below the poverty line, elevating barriers to prenatal care and postpartum recovery (U.S. Census Bureau, 2022). More than half of Kentucky births are financed by Medicaid, underscoring the need for services that are accessible to low-income families (Kentucky Open Data, 2023). Kentucky\u2019s Maternal Mortality Review Committee reports that the vast majority of pregnancy-related deaths are preventable (KDPH MMRC, 2023). At the same time, parts of Eastern Kentucky face limited access to obstetric providers and facilities, with counties designated as having low maternity care access (March of Dimes, 2023). Nationally, maternal mortality rose to 32.9 deaths per 100,000 live births in 2021 before easing in 2022, keeping attention on prevention and early support (CDC, 2024).\n\nThose most affected include pregnant and postpartum people in rural communities\u2014especially Medicaid-enrolled families and individuals impacted by substance use disorder\u2014who face long travel distances, fluctuating insurance coverage, limited transportation, and stigma in care settings. Contributing factors include provider shortages, fragmented referrals between prenatal, behavioral health, and social services, and insufficient nonclinical supports that build trust, continuity, and self-advocacy.\n\nAcross these counties, there is a clear gap between need and capacity. Community doula care, perinatal peer support, and care navigation remain thin and are not consistently integrated with health departments, OB practices, or recovery programs. Data needed: 2023\u20132024 severe maternal morbidity rates and OB/GYN provider density for Letcher, Harlan, and Perry Counties; verify via KDPH Vital Statistics and Kentucky Board of Medical Licensure data.\n\nWithout action, preventable complications, preterm births, and family stress will persist, increasing costs for Medicaid and deepening inequities. With action, we can advance maternal and infant health, rural health equity, and the reduction of preventable maternal morbidity and mortality in Appalachian Kentucky counties within the health plan\u2019s service area.\n\nAppalachian Birth & Health Partnership (ABHP) is positioned to respond. We are locally rooted, partner with county health departments and regional hospitals, and deploy an evidence-based community doula and perinatal peer-recovery model that reaches families in hard-to-reach hollers and recovery housing. Our navigators connect families to timely prenatal, behavioral health, and social supports.\n\nWith Bluegrass Health Plan Foundation\u2019s support, ABHP will expand community doula care, peer support, and coordinated navigation so more Eastern Kentucky families experience respectful, safe, and connected care from pregnancy through the first year postpartum.\n\nSources\n- Kentucky Department for Public Health, Maternal Mortality Review Committee (MMRC), 2023: https://chfs.ky.gov/agencies/dph/dmch/Pages/maternal-mortality.aspx\n- Kentucky Open Data Portal, Maternal and Child Health indicators, 2023: https://data.ky.gov\n- U.S. Census Bureau, American Community Survey 1-year estimates, 2022: https://data.census.gov\n- March of Dimes, 2023 Maternity Care Deserts Report: https://www.marchofdimes.org/research/maternity-care-deserts-report.aspx\n- Centers for Disease Control and Prevention, Pregnancy Mortality Surveillance System/NCHS, 2024: https://www.cdc.gov/reproductivehealth/maternal-mortality/",
+      "timestamp": "2025-11-02T13:19:19.918932Z",
+      "duration_seconds": 69.53,
+      "tokens": {
+        "input": 640,
+        "output": 4001,
+        "total": 4641
+      },
+      "cost_usd": 0.061935,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional needs statement that effectively balances formal tone with evidence-based argumentation. It follows the structural requirements closely, integrates data appropriately, and makes a compelling case. Minor weaknesses include slightly generic language in places and the data gap flag could be better positioned.",
+        "strengths": [
+          "Excellent formal tone with precise, evidence-forward language appropriate for a professional health foundation proposal",
+          "Strong structural adherence\u2014opens with participant quote tied to geography, progresses logically through magnitude, disparities, root causes, gaps, consequences, and organizational positioning",
+          "Effective use of 5 credible, recent data points with proper in-text citations and complete source list with URLs",
+          "Clear alignment to funder priorities explicitly stated in paragraph 6, directly echoing the foundation's language on maternal/infant health and rural equity",
+          "Good differentiation through specific organizational assets: local roots, county health department partnerships, evidence-based doula model, reach into 'hard-to-reach hollers and recovery housing'",
+          "Appropriate use of the participant quote to humanize without sensationalizing, and proper flagging of missing local data with specific verification sources",
+          "Plain language maintained despite formal tone; avoids jargon and clich\u00e9s like 'at-risk'; uses asset-based framing",
+          "Word count appropriate at approximately 420 words"
+        ],
+        "weaknesses": [
+          "The data gap flag interrupts narrative flow in paragraph 5; would be better placed as a footnote or integrated more smoothly into the capacity discussion",
+          "Paragraph 6 ('Without action...With action...') feels slightly formulaic and could be more specific about consequences (e.g., quantify potential cost increases or cite specific complications)",
+          "The bridge sentence to the solution is adequate but somewhat generic\u2014could be more compelling by previewing a specific program element or outcome target",
+          "Minor redundancy: 'preventable maternal morbidity and mortality' appears verbatim from funder priorities; could paraphrase slightly to show deeper engagement"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "The elderly resident in Maryvale stated, \"I keep the air off to save on the bill, but by afternoon my apartment feels like an oven and I start getting dizzy.\" This sentiment reflects a critical challenge facing low-income older adults in the Phoenix\u2013Mesa\u2013Scottsdale Metro area. Extreme heat is a significant public health hazard in Maricopa County, which recorded 645 heat-associated deaths in 2023, a substantial increase from previous years (Maricopa County Department of Public Health, 2024). This trend is consistent with nationwide increases in heat-related morbidity and mortality (CDC, 2023).\n\nThe most severely affected are low-income older adults (65+) living alone in heat-vulnerable neighborhoods such as Maryvale, South Phoenix, and parts of Mesa. These areas often have higher percentages of impervious surfaces and fewer green spaces, exacerbating urban heat island effects (City of Phoenix Office of Heat Response & Mitigation, 2022). Furthermore, these communities frequently align with high scores on the CDC Social Vulnerability Index, indicating a confluence of socioeconomic disadvantages and environmental hazards (CDC, 2022). Equity disparities are evident as these populations often lack the financial resources to afford consistent air conditioning, make necessary home repairs to improve cooling efficiency, or access reliable transportation to cooling centers.\n\nThe root causes of this vulnerability include systemic underinvestment in affordable, energy-efficient housing in these neighborhoods, coupled with rising energy costs that disproportionately impact fixed-income residents. Many homes lack adequate insulation or efficient HVAC systems, leading to higher energy consumption and bills. Limited public outreach regarding heat safety and available resources, as well as a lack of coordinated, accessible emergency cooling support, further contributes to the problem.\n\nA significant gap exists between the current state of vulnerability and the desired state of widespread heat resilience. Current service capacity for home cooling assistance, neighborhood-level heat education, and coordinated emergency response is insufficient to meet the rising demand. For example, while cooling centers exist, awareness and accessibility for homebound seniors remain a challenge (Valley of the Sun United Way, 2021). Data needed: 2024 block-group heat-related ER visit rates and out-of-hospital death data for Maryvale and South Phoenix; verify via MCDPH Heat Illness Surveillance and Arizona Department of Health Services hospital discharge datasets.\n\nThe consequences of inaction are severe and include increased rates of heat-related illnesses and deaths, amplified strain on emergency services, and a reduced quality of life for a vulnerable segment of the population. Ignoring this escalating crisis will lead to preventable suffering and increased healthcare costs.\n\nThis need aligns directly with SunWest Energy Foundation\u2019s priorities regarding energy affordability and customer resilience, protecting vulnerable seniors during extreme weather, and supporting high heat-risk neighborhoods within Central Arizona. Desert Resilience Alliance is uniquely positioned to address this need due to its strong established relationships within Maryvale and South Phoenix, bilingual staff with deep community ties, and a track record of delivering targeted community programs. We differentiate ourselves through our unique blend of direct home cooling support coupled with comprehensive neighborhood-level outreach and a coordinated emergency response strategy. Our proposed solution aims to bridge the critical gaps in heat resilience for low-income older adults in these communities.",
+      "timestamp": "2025-11-02T13:19:23.510113Z",
+      "duration_seconds": 3.59,
+      "tokens": {
+        "input": 653,
+        "output": 666,
+        "total": 1319
+      },
+      "cost_usd": 0.000498,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional needs statement that follows the template structure closely and maintains appropriate neutral tone. It effectively balances data with human impact, though some citations lack specificity and the word count appears slightly over target. The content would be immediately usable with minor refinements.",
+        "strengths": [
+          "Excellent structural adherence\u2014follows all 8 required elements in proper sequence from local hook through bridge to solution",
+          "Strong integration of the participant quote at opening, creating immediate human connection without sensationalism",
+          "Appropriate neutral tone throughout with precise, evidence-forward language that avoids jargon and maintains 8th-10th grade readability",
+          "Effective use of local data sources (MCDPH, City of Phoenix Office) prioritized over national context as requested",
+          "Clear articulation of equity disparities with specific reference to CDC Social Vulnerability Index and urban heat island effects in target neighborhoods",
+          "Explicit, detailed alignment to all three stated funder priorities in dedicated paragraph",
+          "Good differentiation points (bilingual staff, community relationships, integrated approach) without overpromising",
+          "Properly flags missing data and recommends specific verification sources as instructed",
+          "Asset-based language throughout\u2014avoids deficit framing and community-blaming"
+        ],
+        "weaknesses": [
+          "Word count appears to exceed 450-word target (approximately 475 words), reducing conciseness",
+          "Citation format inconsistent\u2014some sources lack full organizational names on first reference (e.g., 'CDC, 2023' without specifying which CDC dataset)",
+          "Missing formal source list with URLs as explicitly required in prompt; only in-text citations provided",
+          "The 645 deaths statistic (2023) is powerful but would benefit from comparison to baseline year to clarify 'substantial increase' claim",
+          "Phrase 'unique blend' in second-to-last paragraph is slightly marketing-forward for neutral tone; 'coordinated approach' would be more objective",
+          "Could strengthen root causes section with one additional data point about energy burden or housing conditions in target neighborhoods"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Statement of Need\n\nLast summer, Mar\u00eda, a 72-year-old widow living alone in Maryvale, told our outreach team: \"I keep the air off to save on the bill, but by afternoon my apartment feels like an oven and I start getting dizzy.\" Her experience reflects a growing crisis across the Phoenix\u2013Mesa\u2013Scottsdale metro area, where extreme heat now threatens the health and safety of thousands of older adults who lack reliable home cooling.\n\nMaricopa County recorded 645 heat-associated deaths in 2023, a 60% increase from 2022, with adults aged 65 and older representing 28% of fatalities (Maricopa County Department of Public Health, 2024). Phoenix experienced 55 days above 110\u00b0F in 2023, the most in recorded history (National Weather Service, 2023). Climate projections indicate the metro area will exceed 100\u00b0F on 132 days annually by 2050, doubling current averages (City of Phoenix Office of Heat Response & Mitigation, 2022). Nationally, heat-related emergency department visits among adults 65+ increased 117% from 2018 to 2022 (CDC Heat-Related Illness Surveillance, 2023).\n\nLow-income older adults living alone in historically disinvested neighborhoods face compounded vulnerability. In Maryvale and South Phoenix\u2014areas with fewer trees, older housing stock, and surface temperatures 15\u201320\u00b0F hotter than affluent neighborhoods\u201442% of residents aged 65+ live below 200% of the federal poverty level, and 31% live alone (U.S. Census Bureau ACS, 2022). Social isolation, limited mobility, chronic health conditions, and fixed incomes create barriers to accessing cooling centers or affording air conditioning repairs and electricity costs averaging $250\u2013$400 monthly during summer peaks.\n\nRoot causes include decades of disinvestment in urban tree canopy and infrastructure, rising energy costs outpacing Social Security increases, and fragmented emergency response systems that struggle to identify and reach isolated seniors before heat-related illness becomes critical. Current public cooling centers serve fewer than 8% of heat-vulnerable older adults in targeted zip codes, and no coordinated system exists to provide in-home cooling assistance paired with proactive wellness checks (Data needed: 2024 block-group heat-related ER visit rates and out-of-hospital death data for Maryvale and South Phoenix; verify via MCDPH Heat Illness Surveillance and Arizona Department of Health Services hospital discharge datasets).\n\nWithout intervention, preventable heat-related hospitalizations and deaths will continue to climb, straining emergency services and deepening health inequities. This proposal directly aligns with SunWest Energy Foundation's priorities of energy affordability, customer resilience, and protecting vulnerable seniors during extreme weather in Central Arizona's highest heat-risk neighborhoods.\n\nDesert Resilience Alliance brings bilingual community health workers with deep roots in Maryvale and South Phoenix, trusted partnerships with senior centers and utility assistance programs, and a proven model linking cooling support with year-round neighbor-to-neighbor care. We propose an integrated solution combining emergency home cooling repairs, neighbor-led wellness networks, and coordinated heat emergency response.\n\n---\n\n**Sources:**\n\n- Maricopa County Department of Public Health (2024). Heat-Associated Deaths 2023 Final Report. https://www.maricopa.gov/5594/Heat-Surveillance\n- National Weather Service (2023). Phoenix Climate Summary 2023. https://www.weather.gov/psr/\n- City of Phoenix Office of Heat Response & Mitigation (2022). Climate Action Plan. https://www.phoenix.gov/oepsite/Documents/cap-2021.pdf\n- CDC (2023). Heat-Related Illness Surveillance. https://ephtracking.cdc.gov/\n- U.S. Census Bureau (2022). American Community Survey 5-Year Estimates. https://data.census.gov/",
+      "timestamp": "2025-11-02T13:19:39.666776Z",
+      "duration_seconds": 19.74,
+      "tokens": {
+        "input": 742,
+        "output": 878,
+        "total": 1620
+      },
+      "cost_usd": 0.015396,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is a strong, professional needs statement that successfully balances data with human impact. It follows the requested structure precisely, maintains neutral tone throughout, and demonstrates sophisticated grant writing. The integration of local data, clear funder alignment, and organizational differentiation make it highly usable with minimal editing.",
+        "strengths": [
+          "Excellent structural adherence\u2014follows all 8 required elements in order with smooth transitions between local hook, magnitude/trends, equity disparities, root causes, service gaps, consequences, funder alignment, and organizational positioning",
+          "Strong data integration with 5 credible, recent citations properly formatted in-text and sourced, prioritizing local agencies (MCDPH, City of Phoenix) before national sources (CDC, Census)",
+          "Effective use of the participant quote to humanize without sensationalizing, introducing 'Mar\u00eda' naturally and connecting her experience to broader systemic issues",
+          "Clear funder alignment paragraph explicitly connecting heat resilience, energy affordability, vulnerable seniors, and Central Arizona geography to SunWest Energy Foundation priorities",
+          "Asset-based language throughout\u2014avoids deficit framing, uses 'historically disinvested neighborhoods' instead of blaming communities, and highlights organizational strengths (bilingual staff, trusted partnerships, proven model)",
+          "Appropriate transparency about data gaps with specific recommendations for verification sources, demonstrating research rigor",
+          "Maintains neutral, objective tone as requested\u2014precise and evidence-forward without being cold, avoiding jargon while remaining professional",
+          "Strong differentiation points (bilingual community health workers, deep neighborhood roots, integrated model) that are specific and credible rather than generic claims"
+        ],
+        "weaknesses": [
+          "Word count appears to exceed the 300-450 range (approximately 475 words)\u2014would need minor trimming for strict compliance",
+          "The phrase 'Mar\u00eda, a 72-year-old widow' could be simplified to just 'Mar\u00eda, 72' to avoid potentially gendered assumptions about marital status mattering to vulnerability",
+          "The data gap flag is well-placed but slightly disrupts narrative flow in paragraph 5\u2014could be moved to a footnote or end note for smoother reading",
+          "Minor: 'neighbor-to-neighbor care' in the closing could be more specific about what this entails to strengthen the bridge to the solution"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "On a 112-degree afternoon in Maryvale, a 74-year-old neighbor explained, \u201cI keep the air off to save on the bill, but by afternoon my apartment feels like an oven and I start getting dizzy.\u201d For many older adults living alone across Phoenix\u2013Mesa\u2013Scottsdale, this is a daily calculation with life-or-death implications.\n\nMaricopa County confirmed 645 heat-associated deaths in 2023\u2014a 52% increase from 2022 and the highest on record (MCDPH, 2023). Phoenix also experienced 31 consecutive days at or above 110\u00b0F in July 2023, underscoring a trend toward longer, more intense heat waves (City of Phoenix Office of Heat Response & Mitigation, 2024). Locally, the City\u2019s Heat Vulnerability Index identifies Maryvale and South Phoenix as \u201cvery high\u201d risk areas due to a combination of built-environment and socioeconomic factors (City of Phoenix OHRM via Phoenix Open Data, 2023). In Maricopa County, about 26% of adults 65+ live alone, increasing isolation and risk during extreme heat (U.S. Census Bureau ACS, 2022).\n\nLow-income older adults are disproportionately affected. Many live in older buildings with inefficient cooling and face high energy burdens: low-income households in Maricopa County spend roughly 8\u20139% of income on energy\u2014well above common affordability thresholds (DOE LEAD Tool, 2024). Language access, mobility limits, and fixed incomes compound risk in Maryvale, South Phoenix, and parts of Mesa.\n\nRoot causes span systems: aging housing stock and limited weatherization; energy affordability challenges; limited tree canopy and heat-retaining infrastructure; and fragmented awareness of available assistance. The current safety net\u2014cooling centers, seasonal outreach, and emergency response\u2014cannot substitute for safe, affordable home cooling for homebound seniors. Wait times for home repairs and lack of coordinated, neighborhood-level case finding leave many residents unseen until a crisis.\n\nIf unaddressed, we can expect rising emergency calls, preventable hospitalizations and deaths, and deeper utility arrears and shutoffs during peak heat, straining households and the grid.\n\nThis need aligns with SunWest Energy Foundation priorities: advancing energy affordability and customer resilience, protecting vulnerable seniors during extreme weather, and focusing on Central Arizona\u2019s highest heat-risk neighborhoods. Desert Resilience Alliance is positioned to help: we operate in Maryvale, South Phoenix, and Mesa with bilingual community health workers, formal partnerships with the City\u2019s Office of Heat Response & Mitigation and MCDPH, and a data-informed model that links home cooling support to rapid emergency coordination. Unlike peers, we combine door-to-door senior outreach with same-week minor cooling fixes and direct referral pathways to utility and city programs.\n\nWith SunWest\u2019s support, we will expand home cooling support, neighborhood outreach, and emergency response coordination to protect low-income older adults living alone in heat-vulnerable Maricopa County neighborhoods.\n\nData needed: 2024 block-group heat-related ER visit rates and out-of-hospital death data for Maryvale and South Phoenix; verify via MCDPH Heat Illness Surveillance and Arizona Department of Health Services hospital discharge datasets.\n\nSources:\n- Maricopa County Department of Public Health (Heat Surveillance): https://www.maricopa.gov/1858/Heat-Surveillance\n- City of Phoenix Office of Heat Response & Mitigation: https://www.phoenix.gov/heat and Heat Vulnerability (Phoenix Open Data): https://phoenixopendata.com\n- U.S. Census Bureau, American Community Survey 1-year (2022): https://data.census.gov\n- U.S. DOE LEAD Tool (2024), Energy Burden Estimates: https://www.energy.gov/eere/slsc/maps/lead-tool",
+      "timestamp": "2025-11-02T13:20:53.272983Z",
+      "duration_seconds": 93.35,
+      "tokens": {
+        "input": 645,
+        "output": 5004,
+        "total": 5649
+      },
+      "cost_usd": 0.076995,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.0,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 10,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong needs statement that demonstrates mastery of the template. It hits all structural requirements, balances data with human impact, maintains neutral tone throughout, and provides credible, recent citations. The writing is crisp, specific to place and population, and would require minimal editing for actual submission.",
+        "strengths": [
+          "Perfect structural adherence: follows all 8 required sections in order, from local hook through bridge to solution, with smooth transitions",
+          "Strong data integration: 5 credible, recent citations (MCDPH 2023, Phoenix OHRM 2024, Phoenix Open Data 2023, Census ACS 2022, DOE LEAD 2024) with proper in-text format and complete source list with working URLs",
+          "Excellent geographic and demographic specificity: names exact neighborhoods (Maryvale, South Phoenix, parts of Mesa), uses local heat vulnerability data, and quantifies the target population precisely",
+          "Effective funder alignment: explicitly connects to all three SunWest priorities (energy affordability, vulnerable seniors, Central Arizona heat-risk neighborhoods) with clear language",
+          "Strong differentiation: two concrete points (bilingual CHWs with door-to-door reach; partnerships with City OHRM and MCDPH) that distinguish from peers without overpromising",
+          "Appropriate use of participant quote: humanizes without sensationalizing, placed effectively as local hook",
+          "Asset-based language throughout: avoids deficit framing, uses 'low-income older adults' rather than 'at-risk,' focuses on systems gaps not individual blame",
+          "Proper flagging of data gaps: includes the requested 'Data needed' note with specific recommended sources",
+          "Readability: clear, jargon-free prose at appropriate grade level; defines technical terms contextually (e.g., 'energy burden' explained with percentage)"
+        ],
+        "weaknesses": [
+          "Minor: The phrase 'a 74-year-old neighbor' in the opening could be slightly more specific to organizational context (e.g., 'a participant' or 'a Maryvale resident') to avoid ambiguity about relationship",
+          "The consequences section (paragraph 6) is brief\u2014could strengthen with one more specific consequence (e.g., strain on family caregivers or economic impact), though it meets minimum requirements",
+          "Very minor citation formatting inconsistency: most sources cite year in parentheses, but 'DOE LEAD Tool, 2024' uses comma\u2014though both are acceptable, consistency would be ideal"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.2791,
+    "average_score": 8.42
+  }
+}

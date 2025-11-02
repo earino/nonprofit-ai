@@ -1,0 +1,453 @@
+{
+  "prompt_id": "impact-stat-visualization",
+  "prompt_text": "Impact Statistic Visualization Caption Generator\n\nPurpose: Create platform-ready social captions (with accessibility and optional designer guidance) for nonprofit impact statistics that earn engagement, saves, and shares.\n\nBest for: Program milestones, annual report highlights, campaign updates, funder accountability posts.\n\nSTEP 1: Provide Your Information (copy/paste and fill in)\nRequired\n1) Organization: [ORG NAME]\n2) Primary stat (number + what it measures): [e.g., \u201c1,247 students served\u201d or \u201c89% graduation rate\u201d]\n3) Platform: [Instagram / Facebook / LinkedIn / X]\n4) Target audience: [Donors / Funders / Volunteers / Community]\n5) Timeframe: [e.g., \u201cin 2024,\u201d \u201cJan\u2013Jun 2025,\u201d \u201csince 2019,\u201d \u201cas of Oct 2025\u201d]\n6) Geography/community: [e.g., \u201cin rural Montana,\u201d \u201cacross 12 Chicago neighborhoods\u201d]\n7) Source + year/URL: [e.g., \u201cInternal program data, 2024\u201d or \u201c2024 Annual Report, URL\u201d]\n\nRequired if using a percentage\n8) Base/denominator: [e.g., \u201c89% of 340 participants\u201d]\n\nOptional but recommended\n9) Relatable comparison: [e.g., \u201cequal to the population of Boise,\u201d \u201cenough to fill Soldier Field\u201d]\n10) Call to action (CTA): [e.g., \u201cDonate monthly,\u201d \u201cVolunteer this weekend,\u201d \u201cSave and share\u201d]\n11) Tone preference: [FORMAL / WARM / CASUAL] (default WARM)\n12) Staff quote/sign-off: [e.g., \u201c\u2014Maria Chen, Program Director\u201d] (use only if adding a quote)\n13) Designer notes needed?: [Yes/No] (default No)\n\nIf any required fields are missing, I will ask up to 3 concise clarification questions before generating. If a percentage lacks a base or date, I will convert to an absolute number if possible or ask for details.\n\nSTEP 2: Generate the Caption Package\n\nProduce Two Caption Options (A & B)\n- Length: 60\u201380 words each (see platform overrides below)\n- Use the SAME primary stat in both options; vary the lead, framing, and CTA.\n- A vs. B purpose: Two testable angles of the same fact.\n  \u2022 Option A: Lead with program/solution impact.\n  \u2022 Option B: Lead with community/individual perspective.\n\nRequired structure (per caption)\n1) Opening (insight, not a number): One human takeaway or why it matters.\n   - Weak: \u201cWe served 1,247 students this year.\u201d\n   - Strong: \u201cWhen students get steady tutoring, confidence and grades rise.\u201d\n2) Stat sentence with full context: Number + what + who + when + where (and base if %).\n   - Example: \u201cIn 2024, 1,247 students across 12 Chicago neighborhoods received free one-on-one tutoring through [ORG].\u201d\n3) Why it matters (plain language; no jargon/acronyms).\n4) Relatable comparison (if provided or credibly inferrable).\n5) Soft, platform-aligned CTA.\n6) Source citation at the end: (Source: [SOURCE], [YEAR/URL]).\n7) Hashtags: 2\u20134 relevant, TitleCase, at the very end.\n\nTone guidance\n- FORMAL (funders/LinkedIn): Precise, credible, data-forward. No emojis.\n- WARM (donors/community): Empathetic, hopeful, community-centered. Emoji ok (max 1).\n- CASUAL (volunteers/Instagram): Friendly, plain language. Emoji ok (max 2).\n\nPlatform length and formatting overrides\n- Instagram: Keep 60\u201380 words; front-load the hook in first 100\u2013125 characters; 1\u20132 line breaks ok.\n- Facebook: 60\u2013100 words; front-load key info in first 140 characters; links in comments if needed.\n- LinkedIn: 80\u2013140 words; no emojis in FORMAL; use line breaks for scannability.\n- X: Hard cap 280 characters; compress each option to \u2264240 characters, leaving room for 1\u20132 short hashtags. Prioritize: insight + stat context + CTA + source abbrev.\n\nContent rules for the statistic\n- Always include timeframe and geography/community.\n- If using a percentage, include base/denominator and timeframe (e.g., \u201c89% of 340 participants in 2024\u201d).\n- Use round numbers unless precision is critical to credibility.\n- People-first language; avoid deficit framing and guilt appeals.\n- If comparison isn\u2019t credible or may feel minimizing, omit it rather than forcing one.\n\nRelatable comparison ideas (use one if supplied or appropriate)\n- Population equivalence (e.g., \u201cequal to the population of [Town]\u201d)\n- Venue capacity (e.g., \u201cenough to fill [Landmark]\u201d)\n- Everyday scale (e.g., \u201cabout one full school bus per week\u201d)\n\nCTAs (select or adapt to platform)\n- Instagram: \u201cSave and share,\u201d \u201cLink in bio to donate monthly,\u201d \u201cVolunteer signup in bio.\u201d\n- Facebook: \u201cShare this post,\u201d \u201cDonate at the link in comments,\u201d \u201cRSVP to volunteer.\u201d\n- LinkedIn: \u201cFollow for data updates,\u201d \u201cConnect to explore funding partnerships,\u201d \u201cRead the full report.\u201d\n- X: \u201cRetweet to spread the word,\u201d \u201cSee link in thread for details.\u201d\n\nAlt Text (accessibility)\n- Write 1\u20132 sentences, 120\u2013160 characters total.\n- Describe the visual style and state the exact statistic text as shown.\n- No emojis, hashtags, or CTAs.\n- Example: \u201cBold white text on navy background reads: 1,247 Chicago students received free tutoring in 2024. Small source line at bottom right.\u201d\n\nDesigner Notes (include only if Step 1 #13 = Yes)\n- Format: 1080\u00d71080 (Instagram), 1200\u00d7628 (Facebook/X), 1200\u00d71200 (LinkedIn)\n- Visual: Single stat on simple solid background; no chart junk.\n- Typography: Large, bold sans-serif; minimum 16\u201318pt on mobile; test color contrast \u22654.5:1.\n- Hierarchy: Stat is hero; context smaller but readable; source bottom-right in 10\u201312pt.\n- Branding: Use org brand colors; small logo in a corner.\n\nDecision rules and conflict resolution\n- Prioritize order: Platform constraints > Audience needs > Tone preference.\n- If platform = LinkedIn but audience = Volunteers, keep FORMAL data clarity with a community-forward opening; avoid emojis.\n- If percentage lacks a base or timeframe, convert to an absolute count or ask for details; do not post a standalone percent.\n- If timeframe is ongoing, use \u201cas of [Month Year].\u201d\n- If geography unspecified, ask for it; if unavailable, use the smallest accurate scope from the source.\n- If comparison is absent or weak, omit it rather than stretching.\n- If tone not specified, default to WARM.\n\nQuality checklist (self-check before finalizing)\n- Concrete and dignifying; people-first language.\n- No deficit framing, guilt appeals, or clich\u00e9s (e.g., \u201ctransform lives,\u201d \u201cchange the world\u201d).\n- Verifiable: stat includes timeframe, geography, and base if %; cites a credible source.\n- Mobile-first: short sentences, scannable, clear hierarchy.\n- Platform-appropriate: tone and CTA match the channel.\n- Numbers are rounded unless precision is needed.\n\nMini examples: weak vs strong openings\n- Weak: \u201cWe served 2,300 meals.\u201d\n- Strong: \u201cA dependable hot meal turns a tough day into a doable one.\u201d\n\n- Weak: \u201cOur program reached 412 teens.\u201d\n- Strong: \u201cWhen teens find a safe place to belong, they keep showing up\u2014and keep growing.\u201d\n\nExample output (for reference)\nCaption A (WARM, Instagram, donors):\nA safe place after school changes the rhythm of a family\u2019s week. In 2024, 1,247 students across 12 Chicago neighborhoods received free one-on-one tutoring through [ORG]. With steady support, kids keep up in class and build confidence that carries home. That\u2019s enough students to fill three elementary schools. Your gifts keep the doors open. \ud83d\udc99 Tap the link in bio to become a monthly donor. (Source: Internal program data, 2024)\n#ChicagoEducation #TutoringWorks #CommunityImpact\n\nCaption B (WARM, Instagram, donors):\nImagine being behind in reading and finally getting the right help. In 2024, 1,247 Chicago students accessed free tutoring at [ORG] centers across 12 neighborhoods. Consistent, caring support helps students stay in school and see new possibilities. Picture three full elementary schools\u2019 worth of learners getting a boost. Want to keep this going? Join as a monthly donor\u2014link in bio. (Source: Internal program data, 2024)\n#EducationEquity #ChicagoKids #DonorImpact\n\nAlt Text:\nBold white text on navy background reads: 1,247 Chicago students received free tutoring in 2024. Source listed bottom right.\n\nNOW GENERATE\nUsing the information from Step 1, produce:\n- Two caption options (A & B) as specified (apply platform overrides if Platform = X).\n- Alt text (1\u20132 sentences, 120\u2013160 characters).\n- Designer notes only if requested in Step 1.",
+  "category": "communications",
+  "generated_at": "2025-11-02T13:16:35.498509Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Rural food pantry coordinating produce distributions across multiple small towns in central Montana.",
+      "values": {
+        "Organization": "Prairie Table Pantry",
+        "Primary stat (number + what it measures)": "2,400 residents received fresh produce",
+        "Platform": "Facebook",
+        "Target audience": "Community",
+        "Timeframe": "in 2024",
+        "Geography/community": "across five towns in Fergus County, Montana",
+        "Source + year/URL": "Internal distribution logs, 2024",
+        "Base/denominator": "N/A",
+        "Relatable comparison": "roughly equal to filling the Fergus High School stadium twice",
+        "Call to action (CTA)": "Share this post",
+        "Tone preference": "WARM",
+        "Staff quote/sign-off": "\u2014Tasha White, Pantry Coordinator",
+        "Designer notes needed?": "No",
+        "ORG": "Prairie Table Pantry",
+        "SOURCE": "Internal distribution logs",
+        "YEAR/URL": "2024",
+        "Town": "Lewistown, MT",
+        "Landmark": "Fergus High School Stadium",
+        "Month Year": "Dec 2024"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Urban workforce development nonprofit serving immigrant and first\u2011generation jobseekers across Queens, NYC.",
+      "values": {
+        "Organization": "Queens Pathways Workforce Center",
+        "Primary stat (number + what it measures)": "87% job placement within 90 days",
+        "Platform": "LinkedIn",
+        "Target audience": "Funders",
+        "Timeframe": "Jan\u2013Jun 2025",
+        "Geography/community": "across Queens, New York City",
+        "Source + year/URL": "2025 Midyear Outcomes Dashboard, https://qpwc.org/reports/2025-midyear",
+        "Base/denominator": "87% of 312 graduates",
+        "Relatable comparison": "about nine out of ten participants",
+        "Call to action (CTA)": "Connect to explore funding partnerships",
+        "Tone preference": "FORMAL",
+        "Staff quote/sign-off": "\u2014Rogelio Martinez, Director of Programs",
+        "Designer notes needed?": "Yes",
+        "ORG": "Queens Pathways Workforce Center",
+        "SOURCE": "2025 Midyear Outcomes Dashboard",
+        "YEAR/URL": "2025, https://qpwc.org/reports/2025-midyear",
+        "Town": "Jackson Heights, NY",
+        "Landmark": "Citi Field",
+        "Month Year": "Jun 2025"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Regional environmental nonprofit restoring marine habitats throughout New York Harbor.",
+      "values": {
+        "Organization": "Harbor Renewal Alliance",
+        "Primary stat (number + what it measures)": "1.2 million oysters restored",
+        "Platform": "Instagram",
+        "Target audience": "Donors",
+        "Timeframe": "as of Oct 2025",
+        "Geography/community": "across New York Harbor and tidal tributaries",
+        "Source + year/URL": "2025 Annual Impact Report, https://harborrenewal.org/impact2025",
+        "Base/denominator": "N/A",
+        "Relatable comparison": "enough to filter about 90 Olympic-size pools of water each day",
+        "Call to action (CTA)": "Link in bio to donate monthly",
+        "Tone preference": "WARM",
+        "Staff quote/sign-off": "\u2014Aisha Khan, Restoration Director",
+        "Designer notes needed?": "No",
+        "ORG": "Harbor Renewal Alliance",
+        "SOURCE": "2025 Annual Impact Report",
+        "YEAR/URL": "2025, https://harborrenewal.org/impact2025",
+        "Town": "New York, NY",
+        "Landmark": "Brooklyn Bridge Park",
+        "Month Year": "Oct 2025"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Please provide your information using the format from Step 1. I need your input to generate the caption package.",
+      "timestamp": "2025-11-02T13:15:46.005833Z",
+      "duration_seconds": 0.63,
+      "tokens": {
+        "input": 2168,
+        "output": 22,
+        "total": 2190
+      },
+      "cost_usd": 0.000338,
+      "success": true,
+      "evaluation": {
+        "overall_score": 0.5,
+        "criteria_scores": {
+          "tone": 0,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 5,
+          "authenticity": 0
+        },
+        "reasoning": "The AI completely failed to execute the task. Despite being provided with all required information in a structured scenario format, it ignored the data and asked the user to provide information again. This represents a fundamental failure to follow instructions and process the input correctly.",
+        "strengths": [
+          "The response is polite and non-harmful",
+          "It correctly references 'Step 1' from the prompt template, showing some awareness of the structure"
+        ],
+        "weaknesses": [
+          "Total failure to process the provided scenario data - all required fields were present in the 'values' object",
+          "Did not generate any of the required outputs (Caption A, Caption B, Alt Text)",
+          "Provides zero value to the user who already supplied complete information",
+          "Shows inability to recognize that data was provided in JSON format rather than conversational format",
+          "Would require the user to manually re-enter all information, creating unnecessary friction",
+          "Demonstrates poor parsing of structured input despite the prompt being designed to accept fill-in-the-blank format",
+          "Completely unusable output for a nonprofit professional who followed the template correctly"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# I'm ready to generate your impact statistic captions!\n\nPlease provide your information by copying the fields below and filling them in:\n\n## Required Information\n\n1) **Organization:** [ORG NAME]\n\n2) **Primary stat (number + what it measures):** [e.g., \"1,247 students served\" or \"89% graduation rate\"]\n\n3) **Platform:** [Instagram / Facebook / LinkedIn / X]\n\n4) **Target audience:** [Donors / Funders / Volunteers / Community]\n\n5) **Timeframe:** [e.g., \"in 2024,\" \"Jan\u2013Jun 2025,\" \"since 2019,\" \"as of Oct 2025\"]\n\n6) **Geography/community:** [e.g., \"in rural Montana,\" \"across 12 Chicago neighborhoods\"]\n\n7) **Source + year/URL:** [e.g., \"Internal program data, 2024\" or \"2024 Annual Report, URL\"]\n\n**If using a percentage:**\n\n8) **Base/denominator:** [e.g., \"89% of 340 participants\"]\n\n---\n\n## Optional (but recommended)\n\n9) **Relatable comparison:** [e.g., \"equal to the population of Boise,\" \"enough to fill Soldier Field\"]\n\n10) **Call to action (CTA):** [e.g., \"Donate monthly,\" \"Volunteer this weekend,\" \"Save and share\"]\n\n11) **Tone preference:** [FORMAL / WARM / CASUAL] (default WARM)\n\n12) **Staff quote/sign-off:** [e.g., \"\u2014Maria Chen, Program Director\"]\n\n13) **Designer notes needed?:** [Yes/No] (default No)\n\n---\n\nOnce you paste your filled-in information, I'll generate two caption options, alt text, and designer notes (if requested).",
+      "timestamp": "2025-11-02T13:15:56.292741Z",
+      "duration_seconds": 10.92,
+      "tokens": {
+        "input": 2268,
+        "output": 415,
+        "total": 2683
+      },
+      "cost_usd": 0.013029,
+      "success": true,
+      "evaluation": {
+        "overall_score": 0.5,
+        "criteria_scores": {
+          "tone": 1,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 2,
+          "authenticity": 0
+        },
+        "reasoning": "The AI completely failed to execute the task. Despite being provided with all required information in the scenario values, it simply regurgitated the template instructions instead of generating the two caption options, alt text, and other deliverables. This represents a total failure to follow instructions and provides zero value to the user.",
+        "strengths": [
+          "The template instructions themselves are well-structured and comprehensive",
+          "The formatting of the request form is clear and organized"
+        ],
+        "weaknesses": [
+          "Complete failure to parse and use the provided scenario data",
+          "Did not generate any of the required deliverables (Caption A, Caption B, alt text)",
+          "Simply repeated the input template rather than producing output",
+          "Would require the user to manually re-enter information that was already provided",
+          "Shows no evidence of understanding the task or context",
+          "Provides absolutely no usable content for a nonprofit professional",
+          "Wastes user time by forcing them to start over despite providing complete information"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "I\u2019m ready to generate\u2014just need a few details.\n\n1) Please provide: Organization; Primary stat (number + what it measures); Timeframe; Geography/community; Source + year/URL.\n\n2) Which Platform and Target audience? Any Tone preference (FORMAL/WARM/CASUAL)?\n\n3) If the stat is a percentage, what\u2019s the base/denominator? Optional: Relatable comparison, preferred CTA, and whether you want Designer notes.",
+      "timestamp": "2025-11-02T13:16:01.696465Z",
+      "duration_seconds": 16.33,
+      "tokens": {
+        "input": 1976,
+        "output": 419,
+        "total": 2395
+      },
+      "cost_usd": 0.012213,
+      "success": true,
+      "evaluation": {
+        "overall_score": 0.5,
+        "criteria_scores": {
+          "tone": 1,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 2,
+          "authenticity": 0
+        },
+        "reasoning": "The AI completely failed to execute the task. Despite receiving all required information in a structured format, it ignored the provided scenario data and instead asked the user to provide the exact same information again. This represents a critical failure in following instructions and parsing input.",
+        "strengths": [
+          "The clarifying questions are appropriately structured and cover the necessary fields",
+          "The tone of the request is professional and organized"
+        ],
+        "weaknesses": [
+          "Complete failure to recognize that all required information was already provided in the scenario values",
+          "Did not generate any of the requested deliverables (Caption A, Caption B, Alt Text)",
+          "Wasted the user's time by requesting information that was clearly present in the input",
+          "Shows no evidence of parsing or processing the structured data provided",
+          "A nonprofit professional would need to re-enter all information, making this output entirely unusable",
+          "Demonstrates poor AI comprehension of context and task requirements"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Please provide the information from Step 1 so I can generate the captions. I will prompt you if any required fields are missing.",
+      "timestamp": "2025-11-02T13:16:02.336211Z",
+      "duration_seconds": 0.64,
+      "tokens": {
+        "input": 2192,
+        "output": 26,
+        "total": 2218
+      },
+      "cost_usd": 0.000344,
+      "success": true,
+      "evaluation": {
+        "overall_score": 0.5,
+        "criteria_scores": {
+          "tone": 1,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 2,
+          "authenticity": 0
+        },
+        "reasoning": "The AI completely failed to execute the task. Despite being provided with all required information in a structured scenario format, it ignored the data and asked the user to provide Step 1 information again. This represents a fundamental failure to parse the input and generate the requested captions, alt text, and designer notes.",
+        "strengths": [
+          "The response is polite and indicates willingness to help with clarifications",
+          "Technically accurate that it will prompt for missing fields (though none were missing)"
+        ],
+        "weaknesses": [
+          "Complete failure to recognize that all required Step 1 information was already provided in the scenario",
+          "Did not generate any of the requested deliverables (Caption A, Caption B, Alt Text, Designer Notes)",
+          "Zero usefulness to a nonprofit professional who provided complete information",
+          "Shows poor instruction-following and data extraction capabilities",
+          "Would require the user to manually re-enter all information despite it being present",
+          "No evidence of understanding the complex prompt structure or requirements",
+          "Wastes user time by creating an unnecessary additional interaction loop"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# I'm ready to generate your impact statistic captions!\n\nPlease provide your information using the template below:\n\n---\n\n## STEP 1: Your Information\n\n**Required:**\n1. **Organization:** [ORG NAME]\n2. **Primary stat:** [number + what it measures]\n3. **Platform:** [Instagram / Facebook / LinkedIn / X]\n4. **Target audience:** [Donors / Funders / Volunteers / Community]\n5. **Timeframe:** [e.g., \"in 2024,\" \"Jan\u2013Jun 2025\"]\n6. **Geography/community:** [e.g., \"in rural Montana\"]\n7. **Source + year/URL:** [e.g., \"Internal program data, 2024\"]\n\n**Required if using a percentage:**\n8. **Base/denominator:** [e.g., \"89% of 340 participants\"]\n\n**Optional but recommended:**\n9. **Relatable comparison:** [e.g., \"equal to the population of...\"]\n10. **Call to action (CTA):** [e.g., \"Donate monthly,\" \"Volunteer\"]\n11. **Tone preference:** [FORMAL / WARM / CASUAL] *(default WARM)*\n12. **Staff quote/sign-off:** [optional]\n13. **Designer notes needed?:** [Yes / No] *(default No)*\n\n---\n\n**Just copy, paste, and fill in your details\u2014I'll take it from there!**",
+      "timestamp": "2025-11-02T13:16:10.225517Z",
+      "duration_seconds": 8.53,
+      "tokens": {
+        "input": 2296,
+        "output": 336,
+        "total": 2632
+      },
+      "cost_usd": 0.011928,
+      "success": true,
+      "evaluation": {
+        "overall_score": 1.0,
+        "criteria_scores": {
+          "tone": 0,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 5,
+          "authenticity": 0
+        },
+        "reasoning": "The AI completely failed to execute the task. Instead of generating the two caption options, alt text, and designer notes using the provided scenario data, it simply repeated the input template and asked the user to fill it out again. This represents a total failure to follow instructions.",
+        "strengths": [
+          "The template formatting itself is clear and well-organized",
+          "No factual errors or inappropriate language in the template text"
+        ],
+        "weaknesses": [
+          "Complete failure to generate any actual output - the AI ignored all provided scenario data",
+          "Did not produce Caption A or Caption B as explicitly required",
+          "Did not produce alt text as required",
+          "Did not produce designer notes despite 'Designer notes needed?: Yes' in the scenario",
+          "Demonstrates the AI did not parse or process the scenario JSON data at all",
+          "Zero usefulness to a nonprofit professional who provided complete information",
+          "Would require the user to re-enter all information they already provided",
+          "Shows fundamental failure in instruction-following and data processing"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Thanks! I\u2019m ready to build your caption package. I just need a few details.\n\n1) What\u2019s the organization name, the primary stat (number + what it measures), the timeframe, and the geography/community? If it\u2019s a percentage, what\u2019s the base/denominator?\n\n2) Which platform (Instagram/Facebook/LinkedIn/X) and who\u2019s the target audience (Donors/Funders/Volunteers/Community)? Any tone preference (FORMAL/WARM/CASUAL) and preferred CTA?\n\n3) What\u2019s the source (name/year/URL)? Any relatable comparison to include, a staff quote to sign off, and do you want designer notes?",
+      "timestamp": "2025-11-02T13:16:10.595976Z",
+      "duration_seconds": 8.9,
+      "tokens": {
+        "input": 1996,
+        "output": 334,
+        "total": 2330
+      },
+      "cost_usd": 0.010998,
+      "success": true,
+      "evaluation": {
+        "overall_score": 0.5,
+        "criteria_scores": {
+          "tone": 1,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 2,
+          "authenticity": 0
+        },
+        "reasoning": "The AI completely failed to execute the task. Despite receiving all required information in a structured JSON format in the 'Scenario Used' section, it ignored the data and asked clarifying questions instead. This represents a critical failure in following instructions and parsing provided input.",
+        "strengths": [
+          "The clarifying questions are logically structured and cover the necessary fields",
+          "The tone of the questions is professional and organized"
+        ],
+        "weaknesses": [
+          "Complete failure to recognize that all required data was already provided in the scenario JSON",
+          "Did not generate any of the requested outputs (Caption A, Caption B, Alt Text, Designer Notes)",
+          "Wasted the user's time by asking for information that was clearly present",
+          "Shows poor data parsing capability - the AI should have extracted values from the structured scenario data",
+          "A nonprofit professional would receive zero usable content from this response",
+          "Demonstrates the AI did not read or process the full context before responding"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Please provide the information from Step 1 so I can generate the caption package for you.",
+      "timestamp": "2025-11-02T13:16:11.206406Z",
+      "duration_seconds": 0.6,
+      "tokens": {
+        "input": 2185,
+        "output": 18,
+        "total": 2203
+      },
+      "cost_usd": 0.000339,
+      "success": true,
+      "evaluation": {
+        "overall_score": 0.5,
+        "criteria_scores": {
+          "tone": 0,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 5,
+          "authenticity": 0
+        },
+        "reasoning": "The AI completely failed to execute the task. Despite being provided with all required information in a structured scenario format, it ignored the data and asked the user to provide Step 1 information again. This represents a fundamental failure to parse the input or follow instructions.",
+        "strengths": [
+          "The response is polite and grammatically correct",
+          "It correctly references 'Step 1' from the prompt template, showing some awareness of the structure"
+        ],
+        "weaknesses": [
+          "Complete failure to recognize that all required information was already provided in the scenario",
+          "Did not generate any of the requested deliverables (Caption A, Caption B, Alt Text)",
+          "Zero usefulness to a nonprofit professional who provided complete information",
+          "Shows poor parsing ability or overly rigid expectation of input format",
+          "Wastes user time by requesting information that was clearly present",
+          "No attempt to work with the structured data provided in the 'values' object"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "I\u2019m ready\u2014just need a few details to make this accurate and platform-ready.\n\n1) Core impact info\n- Organization name:\n- Primary stat (number + what it measures). If a percent, include the base/denominator:\n- Timeframe (e.g., in 2024, Jan\u2013Jun 2025, since 2019, as of Oct 2025):\n- Geography/community (e.g., across 12 Chicago neighborhoods):\n\n2) Channel and audience\n- Platform (Instagram / Facebook / LinkedIn / X):\n- Target audience (Donors / Funders / Volunteers / Community):\n- Tone preference (FORMAL / WARM / CASUAL; default WARM):\n- Preferred CTA (e.g., Donate monthly, Volunteer, Save and share):\n\n3) Credibility and extras\n- Source + year/URL (e.g., 2024 Annual Report, link):\n- Relatable comparison (optional):\n- Staff quote/sign-off (optional):\n- Designer notes needed? (Yes/No; default No):",
+      "timestamp": "2025-11-02T13:16:22.312306Z",
+      "duration_seconds": 11.71,
+      "tokens": {
+        "input": 1989,
+        "output": 600,
+        "total": 2589
+      },
+      "cost_usd": 0.014967,
+      "success": true,
+      "evaluation": {
+        "overall_score": 0.5,
+        "criteria_scores": {
+          "tone": 1,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 1,
+          "authenticity": 1
+        },
+        "reasoning": "The AI completely failed to execute the task. Despite receiving all required information in a structured scenario format, it ignored the data and instead asked the user to provide the exact same information again. This represents a total failure to parse input, follow instructions, or generate the requested captions.",
+        "strengths": [
+          "The clarifying questions themselves are well-structured and would be appropriate if information were actually missing",
+          "The questions are organized logically by category (core impact, channel/audience, credibility)"
+        ],
+        "weaknesses": [
+          "Complete failure to recognize that all required information was already provided in the scenario values",
+          "Did not generate any of the requested deliverables (Caption A, Caption B, Alt Text)",
+          "Shows no evidence of parsing or processing the structured input data",
+          "Wastes user time by requesting information that was already supplied",
+          "Makes the tool completely unusable in this instance\u2014a nonprofit professional would have to re-enter everything manually",
+          "The prompt explicitly states the AI should ask clarifying questions only if required fields are missing, but all fields were present",
+          "Demonstrates poor instruction-following and data extraction capabilities"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "I'm ready to generate platform-optimized impact statistic captions for your nonprofit! \n\nPlease provide your information by filling in the template below:\n\n---\n\n**STEP 1: Your Information**\n\n**Required:**\n1) Organization: [ORG NAME]\n2) Primary stat (number + what it measures): [e.g., \"1,247 students served\" or \"89% graduation rate\"]\n3) Platform: [Instagram / Facebook / LinkedIn / X]\n4) Target audience: [Donors / Funders / Volunteers / Community]\n5) Timeframe: [e.g., \"in 2024,\" \"Jan\u2013Jun 2025,\" \"since 2019,\" \"as of Oct 2025\"]\n6) Geography/community: [e.g., \"in rural Montana,\" \"across 12 Chicago neighborhoods\"]\n7) Source + year/URL: [e.g., \"Internal program data, 2024\" or \"2024 Annual Report, URL\"]\n\n**Required if using a percentage:**\n8) Base/denominator: [e.g., \"89% of 340 participants\"]\n\n**Optional but recommended:**\n9) Relatable comparison: [e.g., \"equal to the population of Boise,\" \"enough to fill Soldier Field\"]\n10) Call to action (CTA): [e.g., \"Donate monthly,\" \"Volunteer this weekend,\" \"Save and share\"]\n11) Tone preference: [FORMAL / WARM / CASUAL] (default WARM)\n12) Staff quote/sign-off: [e.g., \"\u2014Maria Chen, Program Director\"] (use only if adding a quote)\n13) Designer notes needed?: [Yes/No] (default No)\n\n---\n\nOnce you paste your completed information, I'll generate two caption options, alt text, and designer notes (if requested).",
+      "timestamp": "2025-11-02T13:16:25.388610Z",
+      "duration_seconds": 14.79,
+      "tokens": {
+        "input": 2277,
+        "output": 418,
+        "total": 2695
+      },
+      "cost_usd": 0.013101,
+      "success": true,
+      "evaluation": {
+        "overall_score": 0.5,
+        "criteria_scores": {
+          "tone": 1,
+          "completeness": 0,
+          "usefulness": 0,
+          "accuracy": 2,
+          "authenticity": 0
+        },
+        "reasoning": "The AI completely failed to execute the task. Despite being provided with all required information in the scenario (Harbor Renewal Alliance oyster restoration data), it simply regurgitated the template and asked the user to fill it in. This represents a total failure to follow instructions and generate the requested captions.",
+        "strengths": [
+          "The template itself is correctly formatted and matches the original prompt structure",
+          "No factual errors or inappropriate language present in what was output"
+        ],
+        "weaknesses": [
+          "Complete failure to process the provided scenario data and generate the two caption options (A & B) as explicitly requested",
+          "Did not produce alt text, which was a required deliverable",
+          "Ignored the clear instruction 'NOW GENERATE' and all the filled-in values from scenario_3",
+          "Zero usefulness to a nonprofit professional who provided complete information and expected ready-to-use social media captions",
+          "Shows the AI did not parse or understand that the scenario values were the completed Step 1 inputs",
+          "Would require the user to re-enter all information they already provided, creating frustration and wasted time"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.0773,
+    "average_score": 0.56
+  }
+}

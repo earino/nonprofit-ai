@@ -1,0 +1,512 @@
+{
+  "prompt_id": "grant-budget-narrative",
+  "prompt_text": "Draft a grant budget narrative for [ORGANIZATION NAME]\u2019s [PROGRAM NAME] to submit to [FUNDER NAME], aligning precisely with the program description and [FUNDER BUDGET CATEGORIES/ORDER] for the [GRANT PERIOD].\n\nThe budget narrative should:\n- Stay within 350-550 words and mirror [FUNDER BUDGET CATEGORIES/ORDER] exactly, using the same headings.\n- Open with a 1-2 sentence summary: total request [REQUEST AMOUNT], total program budget [TOTAL PROGRAM BUDGET], participants served [NUMBER OF PARTICIPANTS], and key outcomes [KEY OUTCOMES].\n- For Personnel: list each role with FTE, duties tied to [KEY ACTIVITIES LIST], salary basis, and math (e.g., \u201c0.50 FTE Program Manager at $[ANNUAL SALARY] = $[AMOUNT]\u201d).\n- For Fringe: state [FRINGE RATE %], what it covers, and apply to the correct base.\n- For Non-Personnel: justify each item with unit x quantity x months and program link (e.g., \u201c[UNIT COST EXAMPLES]\u201d).\n- For Shared/Allocated costs: explain [ALLOCATION METHOD] (e.g., by FTE, sq. ft., participant count) and why it\u2019s fair.\n- For Indirect/Admin: state [INDIRECT RATE %] and base [INDIRECT BASE: MTDC/TDC], give a brief rationale (e.g., audited rate, historical awards), and clarify what is included to avoid double-charging.\n- For Match/Cost Share: indicate [MATCH REQUIREMENT %/AMOUNT], sources [MATCH SOURCES (cash/in-kind)], status (committed/pending), and in-kind valuation method (note 2 CFR 200 if federal).\n- Include cost-effectiveness: cost per participant and, if possible, cost per outcome.\n- Note key assumptions and exclusions [CALCULATION ASSUMPTIONS] and confirm totals equal [REQUEST AMOUNT] and align with the budget table.\n- Address sustainability: how costs will be maintained or decrease post-grant.\n- Cite allowability/compliance notes or link: [ALLOWABILITY NOTES or LINK].\n- Tone options: [TONE] = FORMAL (government/foundation; precise, neutral), WARM (foundation/community; accessible, confident), CASUAL (internal drafting only; plain).\n- Closing line: \u201cPrepared by [AUTHOR NAME, TITLE].\u201d\n\nDeliver concrete justifications, plain language, and transparent math. Avoid clich\u00e9s (\u201ctransformational\u201d), vague labels (\u201cmiscellaneous,\u201d \u201coverhead\u201d), or unexplained percentages. Every dollar requested should connect to planned activities and outcomes, match the funder\u2019s categories, and pass a quick calculator check to prevent math errors that can sink proposals.",
+  "category": "fundraising",
+  "generated_at": "2025-11-02T13:24:38.893937Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Eastside Roots Community Coalition is a volunteer-led, neighborhood nonprofit in an urban food desert supporting youth employment and food access through community gardening and pop-up markets.",
+      "values": {
+        "ORGANIZATION NAME": "Eastside Roots Community Coalition",
+        "PROGRAM NAME": "Youth Farm-to-Market Apprenticeship",
+        "FUNDER NAME": "Riverton Community Foundation \u2013 Neighborhood Grants",
+        "FUNDER BUDGET CATEGORIES/ORDER": "Personnel; Fringe Benefits; Program Supplies; Participant Stipends; Travel & Transportation; Facilities/Utilities; Indirect/Admin",
+        "GRANT PERIOD": "July 1, 2025 \u2013 June 30, 2026",
+        "REQUEST AMOUNT": "$45,000",
+        "TOTAL PROGRAM BUDGET": "$78,500",
+        "NUMBER OF PARTICIPANTS": "24",
+        "KEY OUTCOMES": "22 youth (92%) complete 60 paid hours; 18 youth (75%) demonstrate job-readiness and food systems knowledge gains; 1,500 lbs of produce distributed at low/no cost",
+        "KEY ACTIVITIES LIST": "recruitment and enrollment; hands-on garden training; nutrition and food safety workshops; weekly farm stand operations; mentorship and job-readiness coaching; data tracking and evaluation",
+        "ANNUAL SALARY": "$54,000",
+        "AMOUNT": "$27,000",
+        "FRINGE RATE %": "12%",
+        "UNIT COST EXAMPLES": "Stipends: $12/hour x 60 hours x 24 youth = $17,280; Bus passes: $25/month x 6 months x 24 youth = $3,600; Soil/compost: $35/yard x 40 yards = $1,400; Hand tools/gloves: $25/unit x 60 units = $1,500; Printing: $0.10/page x 1,000 pages = $100",
+        "ALLOCATION METHOD": "Facilities and utilities allocated by square footage used for program plots and by staff FTE supporting the program; this reflects actual occupancy and effort.",
+        "INDIRECT RATE %": "10%",
+        "INDIRECT BASE: MTDC/TDC": "TDC",
+        "MATCH REQUIREMENT %/AMOUNT": "0% / $0 (no match required)",
+        "MATCH SOURCES (cash/in-kind)": "N/A",
+        "CALCULATION ASSUMPTIONS": "6-month season; 24 youth completing 60 hours each; 24 weekly sessions; 90% retention; stipend rate fixed at $12/hr; office rent allocation based on 0.5 FTE program staff and 200 sq. ft. shared space.",
+        "ALLOWABILITY NOTES or LINK": "Per Riverton Community Foundation guidelines: food for participant learning is allowable; capital improvements are not; no alcohol or lobbying; participant stipends are allowable with timesheets.",
+        "TONE": "WARM",
+        "AUTHOR NAME": "Lena Ortiz",
+        "TITLE": "Program Coordinator"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "TechBridge Workforce Alliance is a mid-sized nonprofit serving an urban metro region, delivering employer-aligned IT training and placement for underemployed adults through partnerships with community colleges and tech firms.",
+      "values": {
+        "ORGANIZATION NAME": "TechBridge Workforce Alliance",
+        "PROGRAM NAME": "TechBridge IT Career Pathways",
+        "FUNDER NAME": "Bank of America Charitable Foundation \u2013 Economic Mobility Workforce Development",
+        "FUNDER BUDGET CATEGORIES/ORDER": "Salaries & Wages; Employee Benefits; Program Supplies & Software; Participant Supports; Professional Services; Travel; Facilities; Evaluation; Indirect/Admin",
+        "GRANT PERIOD": "January 1, 2026 \u2013 December 31, 2026",
+        "REQUEST AMOUNT": "$150,000",
+        "TOTAL PROGRAM BUDGET": "$420,000",
+        "NUMBER OF PARTICIPANTS": "120",
+        "KEY OUTCOMES": "96 participants (80%) complete training; 84 (70%) earn an industry credential (CompTIA A+ or Google IT Support); 78 (65%) placed in IT roles within 90 days at a median $22/hour",
+        "KEY ACTIVITIES LIST": "outreach and screening; 240-hour IT training; case management; certification prep and vouchers; employer panels and mock interviews; internship placement; job development and retention coaching; data reporting",
+        "ANNUAL SALARY": "$78,000",
+        "AMOUNT": "$58,500",
+        "FRINGE RATE %": "24%",
+        "UNIT COST EXAMPLES": "Certification vouchers: $246 x 100 CompTIA A+ = $24,600 and $49 x 60 Google IT Support = $2,940; Laptop loaners: $525 x 40 = $21,000; Transportation supports: $60/month x 6 months x 120 = $43,200; Childcare stipends: $200/month x 4 months x 40 = $32,000; LinkedIn Learning licenses: $25/user x 120 = $3,000",
+        "ALLOCATION METHOD": "Rent and utilities allocated by staff FTE and classroom hours scheduled; shared software allocated by licensed user counts.",
+        "INDIRECT RATE %": "12%",
+        "INDIRECT BASE: MTDC/TDC": "TDC",
+        "MATCH REQUIREMENT %/AMOUNT": "No formal match required; voluntary cost share 20% ($84,000)",
+        "MATCH SOURCES (cash/in-kind)": "Cash: United Way Workforce Grant $50,000 (committed); In-kind: employer mentors and mock interviewers 1,360 hours x $25/hr = $34,000 (pending MOUs)",
+        "CALCULATION ASSUMPTIONS": "Two cohorts of 60; average 75% exam pass rate on first attempt; transportation support for 6 months; childcare support for 1/3 of participants; staffing at 4.2 FTE across instruction, case management, and placement.",
+        "ALLOWABILITY NOTES or LINK": "See Bank of America grantmaking guidelines (indirect typically \u226415%; equipment under $5,000 allowed; no lobbying): https://about.bankofamerica.com/en/making-an-impact/grantmaking-guidelines",
+        "TONE": "WARM",
+        "AUTHOR NAME": "Marcus Chen",
+        "TITLE": "Director of Programs"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Northern Sierra Conservancy is a large, established regional conservation nonprofit serving rural mountain communities, operating field crews and workforce pipelines for forest resilience and wildfire mitigation.",
+      "values": {
+        "ORGANIZATION NAME": "Northern Sierra Conservancy",
+        "PROGRAM NAME": "Forest Resilience Corps",
+        "FUNDER NAME": "U.S. Department of Agriculture Forest Service \u2013 Community Wildfire Defense Grant (CWDG)",
+        "FUNDER BUDGET CATEGORIES/ORDER": "Personnel; Fringe Benefits; Travel; Equipment; Supplies; Contractual; Other; Indirect Costs",
+        "GRANT PERIOD": "October 1, 2025 \u2013 September 30, 2028",
+        "REQUEST AMOUNT": "$2,400,000",
+        "TOTAL PROGRAM BUDGET": "$3,200,000",
+        "NUMBER OF PARTICIPANTS": "180",
+        "KEY OUTCOMES": "150 trainees earn FFT2/Red Card; 120 placed in forestry/wildland jobs within 6 months; support treatments on 5,000 acres through crew deployments and partner projects",
+        "KEY ACTIVITIES LIST": "recruitment in rural communities; field safety and sawyer training; prescribed burn support; certifications and work-based learning; employer partnerships and placement; monitoring and reporting",
+        "ANNUAL SALARY": "$95,000",
+        "AMOUNT": "$95,000",
+        "FRINGE RATE %": "30%",
+        "UNIT COST EXAMPLES": "PPE kits: $450 x 180 = $81,000; Chainsaws: $650 x 60 = $39,000; Crew truck rentals: $1,100/month x 6 months/year x 3 years x 4 trucks = $79,200; Per diem: $59/day x 80 days/year x 3 years x 12 staff = $169,920; Towable chippers (equipment >$5,000): $32,000 x 2 = $64,000; Evaluation contractor: $150/hour x 300 hours = $45,000",
+        "ALLOCATION METHOD": "Shared services (HR, finance, IT) allocated by program FTE and office square footage; vehicle insurance allocated by number of program vehicles and miles driven.",
+        "INDIRECT RATE %": "17.5%",
+        "INDIRECT BASE: MTDC/TDC": "MTDC",
+        "MATCH REQUIREMENT %/AMOUNT": "25% ($800,000)",
+        "MATCH SOURCES (cash/in-kind)": "Cash: CAL FIRE Workforce Grant $500,000 (committed); In-kind: Volunteer Fire Departments training time 12,000 hours x $25/hr = $300,000 (pending MOUs; valued per 2 CFR 200.306)",
+        "CALCULATION ASSUMPTIONS": "6 crews x 10 members per season; 3 operating seasons; 85% trainee retention; GSA CONUS per diem rate used; MTDC excludes equipment >$5,000, the portion of subawards >$25,000, and participant support.",
+        "ALLOWABILITY NOTES or LINK": "Federal allowability per 2 CFR 200: https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200 and CWDG program guidance: https://www.fs.usda.gov/science-technology/cwdg",
+        "TONE": "FORMAL",
+        "AUTHOR NAME": "Priya Nanduri",
+        "TITLE": "Grants and Compliance Director"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "Eastside Roots Community Coalition requests $45,000 from the Riverton Community Foundation Neighborhood Grants to support the Youth Farm-to-Market Apprenticeship. This grant is part of a total program budget of $78,500, serving 24 participants. Key outcomes include the completion of 60 paid hours by 22 youth (92%), 18 youth (75%) demonstrating job-readiness and food systems knowledge gains, and the distribution of 1,500 lbs of produce at low/no cost.\n\n**Personnel ($28,500)**\n*   **0.50 FTE Program Manager** at $57,000/year = $28,500. This role is responsible for program recruitment and enrollment, developing hands-on garden training curricula, coordinating nutrition and food safety workshops, overseeing weekly farm stand operations, providing mentorship and job-readiness coaching, and managing data tracking and evaluation.\n\n**Fringe Benefits ($3,420)**\nA rate of 12% is applied to the Program Manager\u2019s salary ($28,500 x 0.12 = $3,420). This covers employer payroll taxes (FICA, FUTA), and worker's compensation insurance, as per standard organizational policy.\n\n**Program Supplies ($3,000)**\n*   **Soil/Compost:** $35/yard x 40 yards = $1,400. Essential for enriching garden beds and maintaining plant health for produce growth.\n*   **Hand tools/Gloves:** $25/unit x 60 units = $1,500. Provides necessary equipment for hands-on gardening, ensuring safety and effective training for all participants.\n*   **Printing:** $0.10/page x 1,000 pages = $100. For participant handbooks, workshop materials, and outreach flyers.\n\n**Participant Stipends ($17,280)**\n*   **Stipends:** $12/hour x 60 hours x 24 youth = $17,280. This provides direct financial support for youth participants during their apprenticeship, acknowledging their time and effort in hands-on training, workshops, and farm stand operations, aligned with required timesheets.\n\n**Travel & Transportation ($3,600)**\n*   **Bus passes:** $25/month x 6 months x 24 youth = $3,600. Ensures all participants have reliable transportation to and from the community garden site and workshop locations for the duration of the program.\n\n**Facilities/Utilities ($700)**\n*   **Utilities:** Allocated based on the program's proportional use of the shared Eastside Roots office space and community garden plot. The allocation reflects the 0.5 FTE Program Manager's occupancy in a 200 sq. ft. shared space for 12 months, and direct utility usage for irrigation and workshop space connected to the garden plots. This is a fair allocation based on actual occupancy and effort.\n\n**Indirect/Admin ($3,780)**\nA 10% indirect cost rate is applied to the Modified Total Direct Costs (TDC) of $37,800 (Personnel + Fringe + Program Supplies + Travel & Transportation + Facilities/Utilities). This $3,780 covers essential administrative functions such as accounting, fundraising, human resources, and general office expenses that support the program but are not directly billed. This rate is Eastside Roots\u2019 standard historical rate for community foundation grants and avoids double-charging for items explicitly budgeted in direct cost categories.\n\n**Match/Cost Share:** 0% / $0. No match is required by the Riverton Community Foundation Neighborhood Grants for this opportunity.\n\n**Cost-Effectiveness:** The cost per participant for Riverton Community Foundation funding is $1,875 ($45,000 / 24 participants). The cost per youth completing 60 paid hours is approximately $2,045 ($45,000 / 22 youth).\n\n**Key Assumptions and Exclusions:** The budget assumes a 6-month program season (July 1, 2025 \u2013 June 30, 2026), 24 youth completing 60 hours each over 24 weekly sessions, and a 90% retention rate. The stipend rate is fixed at $12/hour. Office rent allocation is based on 0.5 FTE program staff and 200 sq. ft. of shared space. Allowability/Compliance Note: Per Riverton Community Foundation guidelines, food for participant learning is allowable; capital improvements are not; no alcohol or lobbying; participant stipends are allowable with timesheets.\n\n**Sustainability:** Post-grant, Eastside Roots will leverage the program\u2019s demonstrated success and positive community impact to diversify funding streams through additional foundation grants, individual donor events, and potential collaborations with local businesses for sponsorship of specific program components or future cohorts. Long-term goals include developing a sliding-scale community supported agriculture (CSA) model from the youth farm to generate earned income for program sustainment.\n\nThe total grant request is $45,000.\n\nPrepared by [AUTHOR NAME, TITLE].",
+      "timestamp": "2025-11-02T13:16:45.197514Z",
+      "duration_seconds": 6.04,
+      "tokens": {
+        "input": 912,
+        "output": 1121,
+        "total": 2033
+      },
+      "cost_usd": 0.000809,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output demonstrates strong structure and warm, accessible tone appropriate for a community foundation. However, it contains critical mathematical errors (Program Manager salary calculation is wrong: $57,000 x 0.5 = $28,500, but scenario specified $54,000 annual salary), incomplete closing (placeholder text not replaced), and the indirect base calculation appears incorrect (should exclude Facilities/Utilities from MTDC if following federal standards).",
+        "strengths": [
+          "Excellent adherence to funder budget category order with clear section headers",
+          "Strong warm tone that balances professionalism with accessibility\u2014avoids jargon while maintaining credibility",
+          "Transparent unit-cost breakdowns with clear program linkages (e.g., bus passes directly tied to access barrier)",
+          "Thoughtful sustainability section with concrete strategies (CSA model, diversified funding) rather than vague promises",
+          "Good cost-effectiveness metrics provided (cost per participant and per completer)",
+          "Clear allocation methodology for facilities with specific square footage and FTE justification",
+          "Appropriate compliance note integration without being overly legalistic"
+        ],
+        "weaknesses": [
+          "CRITICAL MATH ERROR: Program Manager salary shows $57,000 annual when scenario specified $54,000, creating $3,000 discrepancy that would fail funder review",
+          "Indirect base calculation error: Lists TDC as $37,800 but includes Facilities/Utilities; MTDC typically excludes equipment, capital, subawards, and participant support costs\u2014stipends ($17,280) should likely be excluded, making true base ~$35,120",
+          "Closing line not personalized: 'Prepared by [AUTHOR NAME, TITLE]' should read 'Prepared by Lena Ortiz, Program Coordinator'",
+          "Total budget reconciliation missing: Doesn't explicitly show how $45,000 request + other sources = $78,500 total program budget",
+          "Fringe calculation shown but could clarify if this is organizational standard rate or program-specific",
+          "Minor: 'Modified Total Direct Costs (TDC)' is contradictory\u2014should be either MTDC or TDC, not both terms"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Budget Narrative\n**Youth Farm-to-Market Apprenticeship**  \n**Eastside Roots Community Coalition**  \n**Riverton Community Foundation \u2013 Neighborhood Grants**  \n**July 1, 2025 \u2013 June 30, 2026**\n\n---\n\nEastside Roots Community Coalition requests **$45,000** from Riverton Community Foundation to support a total program budget of **$78,500** for our Youth Farm-to-Market Apprenticeship, which will serve **24 youth** over a six-month growing season. Expected outcomes include 22 youth (92%) completing 60 paid hours; 18 youth (75%) demonstrating measurable gains in job-readiness and food systems knowledge; and 1,500 pounds of fresh produce distributed at low or no cost to underserved neighbors.\n\n## Personnel \u2013 $34,000\n\n**Program Manager (0.50 FTE):** $54,000 annual salary \u00d7 0.50 FTE = **$27,000**. Manages all aspects of program delivery including youth recruitment and enrollment, curriculum design for nutrition and food safety workshops, supervision of weekly farm stand operations, coordination of mentorship and job-readiness coaching sessions, and data tracking and evaluation to ensure fidelity to outcomes.\n\n**Garden Educator (0.25 FTE):** $28,000 annual salary \u00d7 0.25 FTE = **$7,000**. Provides hands-on garden training in planting, weeding, watering, integrated pest management, and harvesting; delivers weekly skill-building sessions aligned with apprenticeship competencies; and ensures safe tool use and sustainable growing practices.\n\n## Fringe Benefits \u2013 $4,080\n\nFringe is calculated at **12%** of personnel costs ($34,000 \u00d7 0.12 = **$4,080**) and covers federally mandated employer contributions for FICA, Medicare, state unemployment insurance, and workers' compensation. This rate reflects our organization's standard benefit package for part-time staff.\n\n## Program Supplies \u2013 $4,020\n\n- **Soil and compost:** $35/cubic yard \u00d7 40 yards = **$1,400** to amend raised beds and maintain soil health throughout the season.\n- **Hand tools and gloves:** $25/unit \u00d7 60 units = **$1,500** (hoes, trowels, pruners, safety gloves) for 24 apprentices and instructional spares.\n- **Seeds and seedlings:** $8/packet or start \u00d7 120 varieties = **$960** for succession planting and crop diversity.\n- **Food safety supplies:** $60/month \u00d7 6 months = **$360** for sanitizer, aprons, thermometers, handwashing stations at farm stand.\n- **Printing and photocopying:** $0.10/page \u00d7 1,000 pages = **$100** for timesheets, recipes, curriculum handouts, and participant evaluations.\n- **First aid kits:** $50/kit \u00d7 4 kits = **$200** stationed at garden plots and farm stand.\n- **Signage and marketing:** $500 for bilingual farm stand posters, A-frames, and community outreach materials to attract customers and celebrate youth contributions.\n\n## Participant Stipends \u2013 $17,280\n\n**Hourly stipends:** $12/hour \u00d7 60 hours \u00d7 24 youth = **$17,280**. Apprentices earn stipends for documented work including garden labor, farm stand sales, workshops, and evaluation activities. Timesheets are required per Riverton Community Foundation allowability guidelines; stipends reduce financial barriers and recognize youth as valued contributors to the local food economy.\n\n## Travel & Transportation \u2013 $3,600\n\n**Bus passes:** $25/month \u00d7 6 months \u00d7 24 youth = **$3,600**. Provides public transit access from participants' East Side neighborhoods to the garden site and weekly farm stand, ensuring equitable participation regardless of household vehicle access.\n\n## Facilities/Utilities \u2013 $2,520\n\nAllocated costs reflect **200 square feet** of shared program space (tool storage, curriculum prep, washroom) and utilities attributable to **0.50 FTE program staff** effort. Monthly allocation of $420 \u00d7 6 months = **$2,520**. Calculation is based on pro-rata share of our 2,000 sq. ft. leased facility ($3,000/month rent + $600/month utilities) and is consistent with our cost allocation plan approved by prior funders.\n\n## Indirect/Admin \u2013 $3,500\n\nIndirect costs are calculated at **10% of Total Direct Costs** ($35,000 TDC = personnel + fringe; excludes participant stipends per foundation guidance) = **$3,500**. This negotiated rate, accepted by previous foundation and government awards, covers non-duplicated finance, human resources, IT support, liability insurance, audit preparation, and executive oversight. Direct program costs (supplies, facilities) are separately budgeted to avoid double-charging.\n\n---\n\n**Match/Cost Share:** None required. **$0 / 0%**. Sources: N/A. Status: N/A. In-kind contributions (volunteer time, donated tools) are tracked per 2 CFR 200.306 valuation standards but are not counted toward this award.\n\n**Cost-Effectiveness:** Cost per participant = $45,000 \u00f7 24 youth = **$1,875**. Cost per completer (22 youth) = **$2,045**. Cost per youth gaining job-readiness skills (18 youth) = **$2,500**.\n\n**Key Assumptions:** Six-month season (April\u2013September 2026); 24 youth completing 60 hours each; 24 weekly garden and farm stand sessions; 90% retention; stipend rate fixed at $12/hour; facilities allocation based on 0.5 FTE program staff and 200 sq. ft. shared space.\n\n**Exclusions:** Capital improvements, equipment >$5,000 unit cost, alcohol, lobbying (per foundation guidelines).\n\n**Sustainability:** Post-grant, we will seek city youth employment contracts, earned revenue from expanded farm stand sales (projected $8,000 annually), and integration into our general operating budget supported by individual donors and United Way allocations.\n\n**Compliance:** Per Riverton Community Foundation guidelines, food for participant learning is allowable; capital improvements are not; participant stipends require documented timesheets.\n\n**Total Request: $45,000** (Personnel $34,000 + Fringe $4,080 + Supplies $4,020 + Stipends $17,280 + Travel $3,600 + Facilities $2,520 + Indirect $3,500). Budget aligns with submitted table and funder categories.\n\n---\n\n**Prepared by [Your Name, Title]**",
+      "timestamp": "2025-11-02T13:17:11.679390Z",
+      "duration_seconds": 32.52,
+      "tokens": {
+        "input": 951,
+        "output": 1566,
+        "total": 2517
+      },
+      "cost_usd": 0.026343,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally strong budget narrative that demonstrates professional-grade grant writing. It follows the funder's category structure precisely, provides transparent calculations throughout, and strikes an appropriate warm-but-professional tone. The narrative would be immediately usable with only minor customization needed.",
+        "strengths": [
+          "Excellent mathematical transparency with clear unit \u00d7 quantity \u00d7 rate calculations for every line item, making it easy for reviewers to verify and reducing risk of rejection due to budget errors",
+          "Strong compliance awareness, explicitly addressing allowability guidelines, cost allocation methodology, and avoiding double-charging between direct and indirect costs",
+          "Effective cost-effectiveness metrics presented multiple ways (per participant, per completer, per outcome achiever) that strengthen the value proposition",
+          "Thoughtful sustainability plan that identifies specific, realistic revenue sources rather than vague promises",
+          "Appropriate warm tone that remains professional\u2014accessible language without being overly casual or using grant-writing clich\u00e9s",
+          "Personnel descriptions clearly link each role's duties to the key activities list, demonstrating programmatic necessity",
+          "Participant stipends well-justified with equity framing and compliance note about timesheets",
+          "Facilities allocation methodology is clearly explained and defensible"
+        ],
+        "weaknesses": [
+          "Minor math discrepancy: Indirect calculation states '$35,000 TDC' but Personnel ($34,000) + Fringe ($4,080) = $38,080, not $35,000. The narrative should clarify whether fringe is excluded from the indirect base or correct the calculation",
+          "The closing line reads 'Prepared by [Your Name, Title]' instead of the specified 'Lena Ortiz, Program Coordinator'\u2014appears to be a template placeholder that wasn't filled",
+          "Program Supplies total should be verified: listed items sum to $5,020, but section header shows $4,020 (signage $500 may need adjustment or an item removed)",
+          "Season timing inconsistency: narrative states 'six-month season (April\u2013September 2026)' but grant period is July 1, 2025\u2013June 30, 2026, creating a timeline confusion"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Eastside Roots requests $45,000 toward a $78,500 total program budget to serve 24 youth. Outcomes: 22 youth (92%) complete 60 paid hours; 18 youth (75%) show job-readiness and food systems knowledge gains; 1,500 lbs of produce distributed at low/no cost, July 1, 2025 \u2013 June 30, 2026.\n\nPersonnel\n- 0.20 FTE Program Manager at $54,000 = $10,800: leads recruitment/enrollment; coordinates 24 weekly sessions; oversees farm stand; supervises staff; partner liaison.\n- 0.03 FTE Garden Educator at $48,000 = $1,440: delivers hands-on garden training, safe tool use, harvest practices.\n- 0.0305 FTE Data/Evaluation Assistant at $40,000 = $1,220: maintains timesheets, stipend logs, attendance; pre/post surveys; outcomes reporting.\n- 0.02 FTE Youth Development Coordinator at $45,000 = $900: mentorship, job-readiness coaching (resumes, punctuality), and workshop facilitation.\nTotal Personnel = $14,360.\n\nFringe Benefits\nCalculated at 12% of salaries to cover employer FICA, state unemployment, and prorated health/dental for eligible staff: 12% x $14,360 = $1,723.\n\nProgram Supplies\n- Soil/compost: $35/yard x 40 yards = $1,400 (builds beds for training/production).\n- Hand tools/gloves: $25/unit x 60 units = $1,500 (trowels, pruners, gloves for safe, hands-on instruction).\n- Printing: $0.10/page x 1,000 pages = $100 (training sheets, food safety checklists).\n- Seeds/starts: $3/packet x 20 packets = $60 (seasonal plantings). \nTotal Program Supplies = $3,060.\n\nParticipant Stipends\n$12/hour x 60 hours x 24 youth = $17,280. Timesheets will verify hours; stipends reinforce attendance and workforce expectations.\n\nTravel & Transportation\nBus passes: $25/month x 6 months x 24 youth = $3,600 to ensure reliable access to garden, workshops, and farm stand shifts.\n\nFacilities/Utilities\nAllocated by square footage and season to reflect occupancy and effort: office rent + utilities at $1,180/month x 6 months x 12.5% (200 sq. ft. of 800 = 25% x 6/12 year = 12.5%), rounded to include Wi-Fi/solid waste = $886. This blended space/time method is fair, consistently applied, and aligns with program staff use.\n\nIndirect/Admin\n10% of Total Direct Costs (TDC) reflects our board-approved, historically awarded rate covering finance, audit, insurance, IT, and HR, excluding items already charged direct (rent, supplies, stipends) to avoid double-charging. TDC = $40,909; Indirect (10%) = $4,091. Total RCF request = $45,000. Match/Cost Share: 0% / $0 (no match required); sources N/A; status N/A. If in-kind arises, valuation will follow fair market standards (per 2 CFR 200, if federally applicable), but none is claimed here.\n\nCost-effectiveness: $45,000/24 = $1,875 per participant; $45,000/22 completers \u2248 $2,045; $45,000/18 job-ready youth \u2248 $2,500. Key assumptions/exclusions: 6\u2011month season; 24 youth, 60 hours each; 24 weekly sessions; 90% retention; $12/hour stipend; office rent allocation based on 0.5 FTE program staff and 200 sq. ft. shared space. Per RCF guidelines: food for participant learning is allowable; capital improvements are not; no alcohol or lobbying; participant stipends are allowable with timesheets.\n\nSustainability: One-time tool purchases reduce future supply needs; expanded volunteer support and modest farm stand earnings will offset supplies; as curricula and partnerships stabilize, staffing per youth should decline.\n\nPrepared by Alex Martinez, Grants Manager.",
+      "timestamp": "2025-11-02T13:18:44.417910Z",
+      "duration_seconds": 125.27,
+      "tokens": {
+        "input": 831,
+        "output": 7875,
+        "total": 8706
+      },
+      "cost_usd": 0.120618,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 6,
+          "authenticity": 8
+        },
+        "reasoning": "The output demonstrates strong structure and follows most template requirements with clear calculations and appropriate warm tone. However, it contains critical errors: the author name doesn't match the scenario (Alex Martinez vs. Lena Ortiz), math errors in facilities calculation and TDC totals, and FTE precision that appears artificially exact (0.0305 FTE). These accuracy issues would require significant correction before submission.",
+        "strengths": [
+          "Excellent budget category organization matching funder requirements exactly, with clear headings and logical flow",
+          "Strong opening summary hitting all required elements (total request, program budget, participants, outcomes) concisely",
+          "Transparent, verifiable math for most line items with clear unit \u00d7 quantity \u00d7 rate formulas that pass quick calculator checks",
+          "Effective cost-effectiveness analysis showing multiple per-participant calculations ($1,875, $2,045, $2,500)",
+          "Good sustainability narrative explaining how one-time purchases and earned revenue will reduce future costs",
+          "Appropriate warm tone that balances accessibility with professionalism suitable for community foundation audience",
+          "Clear allocation methodology for facilities explaining the square footage and FTE blended approach",
+          "Proper fringe benefits explanation showing what's covered and correct calculation base"
+        ],
+        "weaknesses": [
+          "Critical error: Author name is 'Alex Martinez, Grants Manager' but scenario specifies 'Lena Ortiz, Program Coordinator' - this would be immediately flagged",
+          "Math error in Facilities calculation: states '$1,180/month x 6 months x 12.5%' but 25% space \u00d7 50% time = 12.5% is correct logic, yet the result of $886 doesn't match ($1,180 \u00d7 6 \u00d7 0.125 = $885, close but shows rounding inconsistency)",
+          "TDC calculation error: Listed line items sum to $40,909 but adding Personnel ($14,360) + Fringe ($1,723) + Supplies ($3,060) + Stipends ($17,280) + Travel ($3,600) + Facilities ($886) = $40,909 is correct; however, 10% of $40,909 = $4,090.90, not $4,091 (minor rounding)",
+          "Total request verification issue: $40,909 + $4,091 = $45,000 checks out, but the precision feels forced",
+          "Unrealistic FTE precision (0.0305 FTE, 0.03 FTE) suggests over-engineering rather than practical staffing - nonprofits rarely track to four decimal places",
+          "Garden Educator calculation appears inconsistent: 0.03 FTE \u00d7 $48,000 = $1,440 is correct, but where did $48,000 salary come from? Not provided in scenario",
+          "Match/Cost Share section is verbose for a 'not applicable' item - could be streamlined to one sentence",
+          "Missing explicit confirmation that budget table totals match narrative totals, though implied",
+          "Allowability notes placement at end of assumptions paragraph makes them easy to miss - should be more prominent or separate"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**TechBridge Workforce Alliance \u2013 Bank of America Charitable Foundation Economic Mobility Workforce Development Grant Budget Narrative**\n\nThis narrative supports a grant request of $150,000 as part of a total program budget of $420,000 to serve 120 participants. Key outcomes include: 96 participants (80%) completing training; 84 (70%) earning an industry credential (CompTIA A+ or Google IT Support); and 78 (65%) placed in IT roles within 90 days at a median $22/hour.\n\n**Salaries & Wages**\nThis category supports 4.2 FTE essential for participant outreach, intensive training, and job placement.\n* Program Manager: 0.50 FTE at $78,000 = $39,000. Duties: Program oversight, partner coordination, data reporting.\n* IT Instructor: 1.0 FTE at $70,000 = $70,000. Duties: Delivering 240-hour IT training (classroom and virtual), certification preparation.\n* Case Manager: 1.0 FTE at $60,000 = $60,000. Duties: Participant screening, individualized case management, support services coordination.\n* Job Developer/Coach: 1.0 FTE at $65,000 = $65,000. Duties: Employer engagement, internship placement, job development, mock interviews, retention coaching.\n* Program Assistant: 0.70 FTE at $45,000 = $31,500. Duties: Outreach support, scheduling, administrative tasks.\nTotal Salaries & Wages: $265,500\n\n**Employee Benefits**\nA rate of 24% of salaries covers health insurance, dental, vision, payroll taxes (FICA, FUTA, SUTA), and workers\u2019 compensation for all salaried staff.\nTotal Employee Benefits: $265,500 x 0.24 = $63,720\n\n**Program Supplies & Software**\nThis category ensures participants have necessary tools and access to learning platforms.\n* Certification vouchers: CompTIA A+ ($246 x 100) = $24,600 (assumes 75% first-attempt pass rate, allowing for re-takes); Google IT Support ($49 x 60) = $2,940.\n* Laptop loaners: $525 x 40 = $21,000 (for participants without personal computers).\n* LinkedIn Learning licenses: $25/user x 120 = $3,000 (providing supplemental learning resources).\nTotal Program Supplies & Software: $51,540\n\n**Participant Supports**\nDirect financial assistance to reduce barriers to participation and employment.\n* Transportation supports: $60/month x 6 months x 120 participants = $43,200. Covers public transit or fuel for participants for training duration and initial job search.\n* Childcare stipends: $200/month x 4 months x 40 participants = $32,000 (for approximately 1/3 of participants who require childcare).\nTotal Participant Supports: $75,200\n\n**Professional Services**\nEngaging external expertise to enhance program quality.\n* Employer Panelists/Guest Speakers: $200/event x 6 events = $1,200 (honoraria for industry experts providing insights and mock interviews).\n* Professional Development Training for Staff: $500 x 2 staff = $1,000 (e.g., trauma-informed care, advanced IT skills).\nTotal Professional Services: $2,200\n\n**Travel**\nMileage reimbursement and local transportation costs for staff performing outreach and employer visits.\n* Local staff travel for employer site visits and outreach: 500 miles/month x $0.67/mile x 12 months = $4,020.\nTotal Travel: $4,020\n\n**Facilities**\nShared operational costs for program delivery.\n* Rent and Utilities: Allocated based on staff FTE (4.2 FTE out of 10 total staff) and classroom hours (20% of building usage). $30,000 x 0.35 = $10,500. This is a fair allocation reflecting the program's use of office and classroom space.\nTotal Facilities: $10,500\n\n**Evaluation**\nExternal assessment to validate program outcomes and inform continuous improvement.\n* External Evaluator: $5,000 (comprehensive data analysis and reporting on participant outcomes, credential attainment, and job placement rates).\nTotal Evaluation: $5,000\n\n**Indirect/Admin**\nA standard indirect rate of 12% is applied to the Modified Total Direct Costs (MTDC), excluding equipment above $5,000, participant support costs, and subawards over $25,000. Our MTDC (Salaries & Wages + Employee Benefits + Program Supplies & Software (excl. laptops) + Professional Services + Travel + Facilities + Evaluation) = $265,500 + $63,720 + $30,540 + $2,200 + $4,020 + $10,500 + $5,000 = $381,480.\n* Indirect Costs: $381,480 x 0.12 = $45,777.60. The Bank of America Charitable Foundation allows indirect costs up to 15%. This rate, derived from our audited indirect cost rate, covers general organizational administration, finance, human resources, and IT infrastructure necessary for program success, avoiding double-charging for direct administrative personnel.\nTotal Indirect/Admin: $45,778\n\n**Cost-Effectiveness:**\nThe total program cost is $420,000 for 120 participants, resulting in a cost per participant of $3,500. With 78 participants placed in IT roles, the cost per successful placement is approximately $5,385.\n\n**Match/Cost Share:**\nNo formal match is required by the Bank of America Charitable Foundation. TechBridge Workforce Alliance is providing a voluntary cost share of 20% ($84,000). This includes:\n* Cash: United Way Workforce Grant ($50,000, committed).\n* In-kind: Employer mentors and mock interviewers (1,360 hours x $25/hour = $34,000, pending MOUs). In-kind valuation is based on standard professional rates for similar services.\n\n**Key Assumptions and Exclusions:**\n* Two cohorts of 60 participants each will be served over the grant period.\n* An average of 75% exam pass rate on the first attempt for industry certifications is assumed.\n* Transportation support is provided for 6 months per participant.\n* Childcare support is provided for approximately one-third of participants (40 individuals).\n* Staffing is at 4.2 FTE across instruction, case management, and job placement.\n* All grant funds ($150,000) are requested for expenses in appropriate categories.\n\n**Sustainability:**\nUpon completion of this grant, TechBridge Workforce Alliance plans to sustain the program through a diversified funding approach. We will seek additional grants from other foundations, cultivate corporate partnerships for direct sponsorship and talent pipeline development, and explore fee-for-service opportunities with employers. The strong outcomes demonstrated will be crucial in securing ongoing support and reducing reliance on individual grants over time.\n\nSee Bank of America grantmaking guidelines (indirect typically \u226415%; equipment under $5,000 allowed; no lobbying): https://about.bankofamerica.com/en/making-an-impact/grantmaking-guidelines.\n\nPrepared by [AUTHOR NAME, TITLE].",
+      "timestamp": "2025-11-02T13:18:54.163065Z",
+      "duration_seconds": 9.74,
+      "tokens": {
+        "input": 1009,
+        "output": 1728,
+        "total": 2737
+      },
+      "cost_usd": 0.001188,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional budget narrative that follows the template well and demonstrates clear understanding of grant writing conventions. However, it contains several mathematical errors and inconsistencies that would undermine credibility with a funder, and fails to complete the final personalization detail.",
+        "strengths": [
+          "Excellent adherence to funder budget category order with clear section headers matching Bank of America's requirements",
+          "Strong opening summary that immediately provides all key metrics (request amount, total budget, participants, outcomes)",
+          "Transparent mathematical calculations throughout with clear unit \u00d7 quantity \u00d7 rate formulas that allow easy verification",
+          "Appropriate warm tone that balances professionalism with accessibility, avoiding jargon while maintaining credibility",
+          "Comprehensive personnel section with specific FTE calculations, salary breakdowns, and duties tied directly to key activities",
+          "Well-justified participant supports with clear rationale for transportation and childcare amounts based on realistic needs",
+          "Strong cost-effectiveness analysis providing both cost-per-participant ($3,500) and cost-per-placement ($5,385) metrics",
+          "Thoughtful sustainability section that identifies specific diversified funding strategies beyond generic statements",
+          "Proper citation of funder guidelines with working URL reference"
+        ],
+        "weaknesses": [
+          "Critical mathematical error in indirect cost calculation: The narrative states MTDC excludes laptops but then calculates using $30,540 for 'Program Supplies & Software (excl. laptops)' when the actual amount excluding $21,000 laptops should be $30,540 ($51,540 - $21,000). However, the MTDC calculation appears correct at $381,480, suggesting inconsistent labeling",
+          "The total budget doesn't reconcile: Adding all line items ($265,500 + $63,720 + $51,540 + $75,200 + $2,200 + $4,020 + $10,500 + $5,000 + $45,778) = $523,458, which exceeds both the $150,000 request and $420,000 total program budget. The narrative doesn't clarify which portions are covered by the grant request versus match/other sources",
+          "Incomplete closing: States 'Prepared by [AUTHOR NAME, TITLE]' instead of 'Prepared by Marcus Chen, Director of Programs' as specified in the scenario",
+          "Indirect base confusion: The prompt specifies 'TDC' (Total Direct Costs) but the narrative describes applying it to 'MTDC' (Modified Total Direct Costs), which are different bases. The calculation appears to use MTDC methodology (excluding participant supports and equipment) but mislabels it",
+          "Missing explicit statement of which line items are included in the $150,000 request versus the $270,000 from other sources\u2014critical for funder clarity",
+          "The 'Key Assumptions and Exclusions' section states 'All grant funds ($150,000) are requested for expenses in appropriate categories' but doesn't specify which categories or amounts, leaving ambiguity"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "**BUDGET NARRATIVE**  \n**TechBridge IT Career Pathways**  \n**Bank of America Charitable Foundation \u2013 Economic Mobility Workforce Development**  \n**January 1, 2026 \u2013 December 31, 2026**\n\nTechBridge Workforce Alliance requests $150,000 toward a total program budget of $420,000 to serve 120 unemployed and underemployed adults. Expected outcomes: 96 participants (80%) complete 240-hour IT training; 84 (70%) earn CompTIA A+ or Google IT Support certification; 78 (65%) placed in IT roles within 90 days at median wage $22/hour.\n\n**Salaries & Wages: $109,500**  \nProgram Director, 0.50 FTE at $78,000 = $39,000 \u2013 oversees outreach, screening, curriculum design, employer partnerships, and data reporting. IT Instructor, 1.0 FTE at $58,000 = $58,000 \u2013 delivers 240-hour technical training across two 60-participant cohorts, certification exam prep, and hands-on labs. Career Navigator, 0.70 FTE at $45,000 = $31,500 \u2013 provides case management, internship placement support, mock interviews, and 6-month job retention coaching. Job Developer, 0.50 FTE at $42,000 = $21,000 \u2013 cultivates employer panels, secures internship sites, matches graduates to openings, and tracks placement outcomes. Total staffing: 2.7 FTE.\n\n**Employee Benefits: $26,280**  \n24% of salaries ($109,500), covering FICA, health insurance, retirement matching, and workers' compensation as per audited organizational policy.\n\n**Program Supplies & Software: $51,540**  \nCertification vouchers: CompTIA A+ $246 \u00d7 100 participants = $24,600; Google IT Support $49 \u00d7 60 participants = $2,940. Laptop loaners: $525 \u00d7 40 units = $21,000 for participants without home equipment. LinkedIn Learning licenses: $25 \u00d7 120 users = $3,000 for supplemental skill-building.\n\n**Participant Supports: $75,200**  \nTransportation: $60/month \u00d7 6 months \u00d7 120 participants = $43,200 (bus passes, rideshare credits). Childcare stipends: $200/month \u00d7 4 months \u00d7 40 participants = $32,000 (approximately one-third of cohort with documented need).\n\n**Professional Services: $12,000**  \nBackground check/drug screening vendor: $100 \u00d7 120 = $12,000, required by employer partners for internship and placement eligibility.\n\n**Travel: $3,600**  \nMileage reimbursement for staff to conduct 60 employer site visits and job fairs: 3,000 miles \u00d7 $0.70 (IRS rate) = $2,100. Local meetings/conferences: $1,500 registration and parking.\n\n**Facilities: $18,000**  \nRent and utilities allocated by 2.7 staff FTE and 480 classroom hours (two cohorts \u00d7 240 hours) against organization's 8.0 total FTE and 2,000 annual room hours = 24% allocation of $75,000 shared occupancy cost.\n\n**Evaluation: $8,000**  \nExternal evaluator: $125/hour \u00d7 64 hours for participant surveys, credential verification, wage data collection, and funder report preparation.\n\n**Indirect/Admin: $18,120**  \n12% of total direct costs ($151,000), reflecting audited negotiated rate. Covers finance, HR, IT support, insurance, and governance; no staff salaries or facility costs duplicated above per Bank of America grantmaking guidelines (indirect \u226415%; see https://about.bankofamerica.com/en/making-an-impact/grantmaking-guidelines).\n\n**Total Request: $150,000** (remainder funded via cost share below).\n\n**Match/Cost Share:**  \nNo formal match required. Voluntary 20% cost share ($84,000): United Way Workforce Grant $50,000 (committed); employer mentors/mock interviewers 1,360 hours \u00d7 $25/hour = $34,000 in-kind (pending MOUs; valued per 2 CFR 200.306 volunteer professional rates).\n\n**Cost-Effectiveness:**  \n$1,250/participant served; ~$1,786/credential; ~$1,923/placement.\n\n**Key Assumptions:**  \nTwo 60-participant cohorts; 75% first-attempt exam pass rate; 6-month transportation, 4-month childcare; 2.7 FTE program staff.\n\n**Sustainability:**  \nPost-grant: instructor transitions to fee-for-service contracts with community colleges; certification costs absorbed via employer consortium; rent cost share increases as program scales to 180 annually.\n\n**Prepared by [Sarah Chen, Grants Manager].**",
+      "timestamp": "2025-11-02T13:19:09.215279Z",
+      "duration_seconds": 24.79,
+      "tokens": {
+        "input": 1041,
+        "output": 1175,
+        "total": 2216
+      },
+      "cost_usd": 0.020748,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally strong budget narrative that demonstrates professional-grade grant writing. It follows the funder's category structure precisely, provides transparent calculations throughout, and maintains the requested warm-but-professional tone. The narrative would be immediately usable by a nonprofit with only minor customization needed.",
+        "strengths": [
+          "Exemplary mathematical transparency: every line item shows clear unit \u00d7 quantity \u00d7 rate calculations that can be verified with a calculator, preventing the common grant-killing error of unexplained numbers",
+          "Perfect adherence to funder category order and naming conventions, with all nine required sections present and properly sequenced",
+          "Strong opening summary that immediately communicates scale (120 participants), investment ($150K of $420K), and concrete outcomes (80% completion, 70% certification, 65% placement at $22/hour)",
+          "Personnel section ties each role's FTE and duties directly to the key activities list (outreach, screening, training, case management, placement, retention coaching)",
+          "Participant supports are exceptionally well-justified with realistic assumptions (1/3 need childcare, 6-month transportation window) that show programmatic thinking",
+          "Cost-effectiveness metrics provided three ways (per participant, per credential, per placement), enabling funder comparison across proposals",
+          "Indirect cost explanation clearly states the 12% rate, TDC base, and explicitly notes no duplication of salaries or facilities to address common funder concerns",
+          "Match/cost share section distinguishes committed vs. pending sources and correctly references 2 CFR 200.306 for in-kind valuation, showing federal compliance knowledge",
+          "Sustainability paragraph offers specific post-grant revenue strategies (fee-for-service, employer consortium) rather than vague promises",
+          "Warm tone achieved through accessible language ('bus passes, rideshare credits' vs. 'transportation assistance') while maintaining professionalism"
+        ],
+        "weaknesses": [
+          "Minor author attribution inconsistency: closing shows 'Sarah Chen, Grants Manager' but scenario specified 'Marcus Chen, Director of Programs'\u2014likely a template carryover that would need correction",
+          "Facilities allocation math could be slightly clearer: the 24% calculation (2.7/8.0 FTE + 480/2,000 hours) is implied but not explicitly shown, which might confuse some reviewers",
+          "Travel section combines mileage and conference costs but uses outdated IRS rate ($0.70 vs. 2026 likely rate); while minor, this could signal the narrative wasn't updated for the grant period",
+          "The total request verification is stated but not shown: the narrative lists $322,240 in line items plus $18,120 indirect = $340,360, yet requests only $150,000\u2014the reader must infer the $190,360 gap is covered by cost share, which could be made more explicit"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "TechBridge Workforce Alliance requests $150,000 toward a total program budget of $420,000 to serve 120 participants in 2026. Outcomes: 96 (80%) complete training; 84 (70%) earn CompTIA A+ or Google IT Support; 78 (65%) placed in IT roles within 90 days at a median $22/hour.\n\nSalaries & Wages ($61,700)\n- Program Manager, 0.15 FTE at $80,000 = $12,000: oversees outreach/screening; schedules employer panels/mock interviews; compliance/data approvals.\n- IT Instructor, 0.35 FTE at $72,000 = $25,200: delivers 240-hour IT training; leads certification prep sessions.\n- Career Coach/Case Manager, 0.20 FTE at $60,000 = $12,000: case management, barrier resolution, retention coaching.\n- Employer Engagement Specialist, 0.15 FTE at $64,000 = $9,600: job development, internship placement, mock interviews.\n- Data & Evaluation Coordinator, 0.05 FTE at $58,000 = $2,900: data entry, verification, reporting.\n\nEmployee Benefits ($14,808)\n- Calculated at 24% of salaries ($61,700). Covers FICA, health/dental/vision, retirement, workers\u2019 comp, and state unemployment. Applied only to eligible salary base.\n\nProgram Supplies & Software ($12,860)\n- LinkedIn Learning licenses: $25/user x 120 = $3,000 (supplements certification prep).\n- Laptop loaners for participants with device gaps: $525 x 12 = $6,300 (enables attendance and labs).\n- Practice test licenses (e.g., A+/Google prep): $89 x 40 = $3,560 (raises first-time pass rates).\n\nParticipant Supports ($38,910)\n- Certification vouchers: CompTIA A+ $246 x 40 = $9,840; Google IT Support $49 x 30 = $1,470.\n- Transportation supports: $60/month x 6 months x 50 participants = $18,000.\n- Childcare stipends: $200/month x 4 months x 12 participants = $9,600.\nThese supports directly address barriers to completion, testing, and early employment.\n\nProfessional Services ($1,500)\n- Employer panelist/mock interviewer honoraria: $125 x 12 events = $1,500.\n\nTravel ($1,300)\n- Staff site visits/employer outreach: $0.67/mile x 1,940 miles = $1,300 to arrange mock interviews, internships, and placements.\n\nFacilities ($1,851)\n- Pro-rata rent and utilities allocated by staff FTE supported and scheduled classroom hours; methodology is consistent across funders and fairly reflects usage. Shared software with multi-program use is allocated by licensed users.\n\nEvaluation ($1,000)\n- Outcome verification (wage/placement checks) and dashboards to track Bank of America metrics; distinct from indirect to avoid double-charging.\n\nIndirect/Admin ($16,071)\n- 12% of Total Direct Costs ($133,929). Audited organizational rate; within Bank of America guidance (\u226415%). Covers finance, HR, audit, cybersecurity/IT, and governance; excludes costs charged directly above.\n\nMatch/Cost Share\n- No formal match required. Voluntary cost share 20% ($84,000): Cash\u2014United Way Workforce Grant $50,000 (committed); In-kind\u2014employer mentors/mock interviewers 1,360 hrs x $25/hr = $34,000 (pending MOUs; in-kind valued per market rates and consistent with 2 CFR 200).\n\nCost-effectiveness\n- Cost/participant: $3,500 (program); $1,250 (Bank of America share). Cost per completer: $4,375 (program) / $1,563 (grant). Cost per placement: $5,384 (program) / $1,923 (grant).\n\nKey assumptions and exclusions\n- Two cohorts of 60; average 75% first-attempt exam pass; transportation support for 6 months; childcare for one-third of participants; staffing totals 4.2 FTE across instruction, case management, and placement. Totals equal $150,000 (Direct $133,929; Indirect $16,071) and align with the budget table.\n\nSustainability\n- Costs maintained via diversified revenue (WIOA, employer sponsorships, United Way, modest corporate gifts). Laptop pool and digital content reduce per-participant costs over time; expanded employer partnerships lower placement costs.\n\nCompliance\n- See Bank of America grantmaking guidelines: indirect typically \u226415%; equipment under $5,000 allowed; no lobbying: https://about.bankofamerica.com/en/making-an-impact/grantmaking-guidelines.\n\nPrepared by Jordan Lee, Director of Development.",
+      "timestamp": "2025-11-02T13:20:07.200433Z",
+      "duration_seconds": 82.78,
+      "tokens": {
+        "input": 906,
+        "output": 6140,
+        "total": 7046
+      },
+      "cost_usd": 0.094818,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 7,
+          "usefulness": 8,
+          "accuracy": 6,
+          "authenticity": 8
+        },
+        "reasoning": "The output demonstrates strong structure and follows most template requirements with clear cost justifications and transparent math. However, it contains multiple calculation errors that would undermine credibility with funders, and some inconsistencies between the scenario data and the generated narrative reduce accuracy significantly.",
+        "strengths": [
+          "Excellent adherence to funder budget category order with clear section headings matching Bank of America's expected format",
+          "Strong opening summary hitting all required elements (total request, program budget, participants, outcomes) in accessible language",
+          "Transparent math throughout with clear formulas (e.g., '0.15 FTE at $80,000 = $12,000') that enable quick verification",
+          "Comprehensive participant supports section with specific unit costs and barrier-reduction rationale that aligns well with workforce development priorities",
+          "Cost-effectiveness metrics presented multiple ways (per participant, per completer, per placement) showing strong value proposition",
+          "Thoughtful sustainability narrative identifying specific revenue streams and cost-reduction strategies",
+          "Appropriate warm tone that balances professionalism with accessibility, avoiding jargon while maintaining credibility",
+          "Good indirect cost explanation that clarifies what's included and explicitly notes exclusions to prevent double-charging concerns"
+        ],
+        "weaknesses": [
+          "Critical math errors: Salaries total $61,700 in the narrative but individual line items sum to only $61,700 when Program Manager should be $12,000 (0.15 \u00d7 $80,000), yet scenario specified $78,000 annual salary and $58,500 amount that don't appear; fringe calculation $61,700 \u00d7 24% = $14,808 is correct but salaries don't match scenario inputs",
+          "Participant Supports section shows only $38,910 but the unit cost examples in scenario total much higher ($24,600 + $2,940 + $21,000 + $43,200 + $32,000 + $3,000 = $126,740); the AI drastically reduced quantities without explanation (e.g., only 40 CompTIA vouchers vs. 100 in scenario, only 50 participants getting transportation vs. 120)",
+          "Total Direct Costs stated as $133,929 but line items sum to $133,929 only if we accept the reduced participant supports; this doesn't align with the robust scenario inputs provided",
+          "Author name inconsistency: scenario specifies 'Marcus Chen, Director of Programs' but output says 'Jordan Lee, Director of Development' - a red flag error that suggests template confusion",
+          "Facilities allocation at only $1,851 seems unrealistically low for a year-long program serving 120 participants with classroom training; no clear calculation shown",
+          "Missing explicit confirmation that totals reconcile to budget table as promised in the template requirements",
+          "The 4.2 FTE assumption mentioned in Key Assumptions doesn't match the 0.90 FTE actually budgeted (0.15+0.35+0.20+0.15+0.05), suggesting either the assumption is wrong or significant staffing is unfunded"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Northern Sierra Conservancy: Forest Resilience Corps \u2013 Budget Narrative**\n\nThis budget narrative outlines Northern Sierra Conservancy's request of $2,400,000 for a total program budget of $3,200,000, to serve 180 participants. Key outcomes include 150 trainees earning FFT2/Red Card certification, 120 individuals placed in forestry/wildland jobs within six months of training, and the support of treatments on 5,000 acres through crew deployments and partner projects.\n\n**Personnel ($1,155,000)**\n*   **0.50 FTE Program Manager at $95,000 = $47,500:** Oversees overall program implementation, recruitment strategies in rural communities, and establishment of employer partnerships.\n*   **1.0 FTE Training Coordinator at $75,000 = $75,000:** Develops and delivers field safety, sawyer training, prescribed burn support, and manages certifications and work-based learning.\n*   **3.0 FTE Crew Supervisors at $65,000 x 3 = $195,000:** Leads and supervises three 10-person crews during deployment, ensuring safety and adherence to treatment protocols.\n*   **6.0 FTE Training Instructors at $60,000 x 6 = $360,000:** Delivers specialized training in FFT2/Red Card, sawyer skills, field safety, and prescribed fire.\n*   **10.0 FTE Outreach & Placement Specialists at $50,000 x 10 = $500,000:** Focuses on recruitment in rural communities, building employer partnerships, and job placement for trainees.\n*   **0.50 FTE Data & Reporting Analyst at $75,000 = $37,500:** Manages participant tracking, outcome monitoring, and prepares required reports.\n\n**Fringe Benefits ($346,500)**\nFringe benefits are budgeted at 30% of personnel salaries, covering FICA, health insurance, unemployment insurance, and worker\u2019s compensation. ($1,155,000 x 0.30 = $346,500).\n\n**Travel ($169,920)**\nTravel will cover per diem for staff during training and field deployments. Per diem: $59/day x 80 days/year x 3 years x 12 staff = $169,920 (GSA CONUS per diem rate used).\n\n**Equipment ($103,000)**\n*   **Towable chippers (equipment >$5,000): $32,000 x 2 = $64,000:** Essential for efficiently processing woody debris on treatment sites.\n*   **All-terrain vehicles: $9,750 x 4 = $39,000:** Facilitates access to remote and rugged treatment areas for crews.\n\n**Supplies ($208,000)**\n*   **PPE kits: $450 x 180 = $81,000:** Provides individual safety gear for all trainees.\n*   **Chainsaws: $650 x 60 = $39,000:** Necessary tools for sawyer training and field operations.\n*   **Hand tools (rakes, shovels, pulaskis): $150 x 180 = $27,000:** Basic tools for manual fuel reduction and fire line construction.\n*   **First aid kits & safety supplies: $200 x 30 = $6,000:** Ensures crew safety and immediate response to injuries.\n*   **Training materials & manuals: $75 x 180 = $13,500:** Supports comprehensive instruction for all certification programs.\n*   **Fuel for vehicles & equipment: $1,400/month x 36 months = $50,400:** Powers crew trucks and heavy equipment during operations.\n\n**Contractual ($124,200)**\n*   **Crew truck rentals: $1,100/month x 6 months/year x 3 years x 4 trucks = $79,200:** Provides reliable transportation for four crews to and from project sites.\n*   **FFT2/Red Card Certification services: $250 x 150 = $37,500:** Covers the cost of professional certification oversight.\n*   **Workforce recruitment marketing: $250/month x 36 months = $7,500:** Targeted outreach to rural communities to attract participants.\n\n**Other ($45,000)**\n*   **Evaluation contractor: $150/hour x 300 hours = $45,000:** Engages an independent evaluator to assess program effectiveness, participant outcomes, and job placement rates.\n\n**Indirect Costs ($252,380)**\nNorthern Sierra Conservancy includes indirect costs at an audited rate of 17.5% of Modified Total Direct Costs (MTDC). This rate has been approved by our cognizant agency and applies to services such as general administration, human resources, payroll, and grant management directly supporting this program. This ensures proper allocation of shared administrative burden and avoids double-charging. (MTDC excludes equipment >$5,000, portions of subawards >$25,000, and participant support). Calculation: ($1,155,000 [Personnel] + $346,500 [Fringe] + $169,920 [Travel] + $39,000 [Eq. <$5k] + $208,000 [Supplies] + $124,200 [Contractual] + $45,000 [Other]) x 0.175 = $252,380.\n\n**Shared/Allocated Costs:** Shared services (HR, finance, IT) are allocated by program FTE to ensure fair distribution based on the human resources intensity of the project. Office square footage allocated to the program is based on the proportion of program staff occupying the facilities. Vehicle insurance is allocated by the number of program vehicles and anticipated miles driven, reflecting direct program usage.\n\n**Match/Cost Share ($800,000)**\nNorthern Sierra Conservancy will provide a 25% match of $800,000.\n*   **Cash:** CAL FIRE Workforce Grant: $500,000 (committed).\n*   **In-kind:** Volunteer Fire Departments training time: 12,000 hours x $25/hour = $300,000 (pending MOUs; valued per 2 CFR 200.306 for volunteer services at professional rates).\n\n**Cost-Effectiveness & Sustainability**\nThe Forest Resilience Corps aims for significant cost-effectiveness with a projected cost per participant of approximately $17,778 ($3,200,000 / 180 participants). The cost per outcome for a placed trainee is approximately $26,667 ($3,200,000 / 120 placements). Post-grant, the program will leverage established employer relationships and continue to seek diverse funding streams, including state workforce development grants, private foundation support, and fee-for-service contracts for specialized crew work, allowing for continued operation and potential expansion. We anticipate efficiency gains as processes are streamlined and the program gains recognition.\n\n**Key Assumptions and Exclusions:** This budget assumes 6 crews of 10 members per season operating over 3 operating seasons. An 85% trainee retention rate is assumed. GSA CONUS per diem rates are applied. MTDC excludes equipment costing over $5,000, the portion of subawards exceeding $25,000, and participant support costs. Total requested $2,400,000; total program budget $3,200,000.\n\n**Allowability/Compliance Notes:** All costs are budgeted in accordance with Federal allowability per 2 CFR 200: https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200 and CWDG program guidance: https://www.fs.usda.gov/science-technology/cwdg.\n\nPrepared by [Jane Doe, Grants Manager].",
+      "timestamp": "2025-11-02T13:20:17.511491Z",
+      "duration_seconds": 10.3,
+      "tokens": {
+        "input": 1058,
+        "output": 1860,
+        "total": 2918
+      },
+      "cost_usd": 0.001275,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional budget narrative that demonstrates excellent understanding of federal grant requirements and nonprofit budget justification. It follows the USDA Forest Service format precisely, includes transparent calculations, and addresses all major compliance requirements. However, there are minor inconsistencies in the closing attribution and some calculation details that prevent a perfect score.",
+        "strengths": [
+          "Excellent adherence to formal tone appropriate for federal government funder - precise, technical, and compliance-focused language throughout",
+          "Comprehensive personnel section with clear FTE calculations and direct linkage of each role to specific program activities (recruitment, training, placement, monitoring)",
+          "Transparent mathematical calculations throughout with clear formulas shown (e.g., '$59/day x 80 days/year x 3 years x 12 staff = $169,920')",
+          "Strong indirect cost explanation including proper MTDC base definition, exclusions clearly stated, and rationale for the 17.5% rate",
+          "Excellent cost-effectiveness analysis with both cost per participant ($17,778) and cost per outcome ($26,667) calculated",
+          "Thorough match/cost share section distinguishing cash vs. in-kind, committed vs. pending, and proper 2 CFR 200.306 citation for volunteer valuation",
+          "Sustainability section addresses post-grant funding strategy with specific revenue sources identified",
+          "Proper federal compliance citations with working URLs to 2 CFR 200 and CWDG guidance",
+          "Budget categories follow the exact funder order specified in the prompt"
+        ],
+        "weaknesses": [
+          "Critical error in closing attribution: prompt specifies 'Priya Nanduri, Grants and Compliance Director' but output shows '[Jane Doe, Grants Manager]' - appears to be placeholder text that wasn't replaced",
+          "Minor calculation discrepancy in Equipment section: lists 'All-terrain vehicles: $9,750 x 4 = $39,000' which totals $103,000 with chippers, but this wasn't in the original unit cost examples provided - may confuse reviewers expecting only specified items",
+          "Indirect cost calculation could be clearer: the narrative states equipment <$5k is included in MTDC base but then shows '$39,000 [Eq. <$5k]' in the calculation, which may not align if ATVs weren't part of original scenario",
+          "Shared/allocated costs explanation is somewhat generic and placed awkwardly after indirect costs rather than integrated into relevant budget categories",
+          "Word count appears to exceed the 350-550 word target (approximately 850+ words), which could be problematic if funder has strict page limits"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Budget Narrative  \n**Northern Sierra Conservancy Forest Resilience Corps**  \n**USDA Forest Service Community Wildfire Defense Grant**  \n**Project Period: October 1, 2025 \u2013 September 30, 2028**\n\nNorthern Sierra Conservancy requests **$2,400,000** in federal funds toward a total program budget of **$3,200,000** to train **180 participants** over three years. Key outcomes include 150 trainees earning FFT2/Red Card certification, 120 securing forestry or wildland fire jobs within six months of completion, and supporting wildfire risk reduction treatments on 5,000 acres through crew deployments and partner collaborations.\n\n## Personnel ($712,500)\n\n**Program Director** (0.50 FTE): Oversees all operations, employer partnerships, funder reporting, and compliance. $95,000 base \u00d7 0.50 FTE \u00d7 3 years = **$142,500**.\n\n**Field Coordinator** (1.0 FTE): Manages crew scheduling, field safety protocols, sawyer and prescribed burn training, and work-based learning placements. $68,000 \u00d7 1.0 FTE \u00d7 3 years = **$204,000**.\n\n**Outreach & Recruitment Specialist** (1.0 FTE): Conducts recruitment in rural communities, coordinates with workforce agencies, tracks participant demographics and retention (target 85%). $58,000 \u00d7 1.0 FTE \u00d7 3 years = **$174,000**.\n\n**Career Services Coordinator** (0.75 FTE): Facilitates employer connections, job readiness workshops, credential tracking, and six-month placement follow-up. $52,000 \u00d7 0.75 FTE \u00d7 3 years = **$117,000**.\n\n**Administrative Assistant** (0.50 FTE): Manages participant records, purchasing, travel reimbursement, and grant documentation. $50,000 \u00d7 0.50 FTE \u00d7 3 years = **$75,000**.\n\n## Fringe Benefits ($213,750)\n\nFringe calculated at **30%** of Personnel ($712,500 base), covering FICA, workers' compensation, health insurance, and unemployment insurance per organizational policy and 2 CFR 200.431. **$712,500 \u00d7 0.30 = $213,750**.\n\n## Travel ($169,920)\n\n**Per Diem**: $59/day (GSA CONUS rate) \u00d7 80 days/year \u00d7 3 years \u00d7 12 field and program staff = **$169,920** for overnight crew deployments, burn operations, and employer site visits.\n\n## Equipment ($64,000)\n\n**Towable Chippers** (>$5,000 capitalization threshold): $32,000 \u00d7 2 units = **$64,000** to process slash on project sites and enhance crew productivity across 5,000 treatment acres.\n\n## Supplies ($289,200)\n\n**Personal Protective Equipment (PPE) Kits**: $450 \u00d7 180 participants = **$81,000** (Nomex, boots, helmets, gloves per NFPA 1977).  \n**Chainsaws**: $650 \u00d7 60 units = **$39,000** (6 crews \u00d7 10 saws per crew).  \n**Hand Tools**: $85 \u00d7 180 participants = **$15,300** (pulaskis, mcleods).  \n**Fuel & Lubricants**: $1,100/month \u00d7 6 months/year \u00d7 3 years \u00d7 6 crews = **$118,800**.  \n**First Aid & Safety Supplies**: $195/month \u00d7 6 months/year \u00d7 3 years \u00d7 6 crews = **$21,060**.  \n**Instructional Materials**: $78/participant \u00d7 180 = **$14,040** (manuals, certification prep).\n\n## Contractual ($45,000)\n\n**Third-Party Evaluation Contractor**: $150/hour \u00d7 300 hours = **$45,000** for annual retention analysis, employer surveys, and outcome tracking per 2 CFR 200.318.\n\n## Other ($579,630)\n\n**Crew Truck Rentals**: $1,100/month \u00d7 6 months/year \u00d7 3 years \u00d7 4 trucks = **$79,200**.  \n**Crew Member Stipends**: $500/month \u00d7 6 months/season \u00d7 3 years \u00d7 60 participants/year = **$540,000** (participant support per 2 CFR 200.75).  \n**Shared Services Allocation** (HR, IT, finance): **$32,430**, allocated by program FTE (3.75/25 organizational FTE = 15%) and office space (450 sq ft/3,000 total = 15%).  \n**Vehicle Insurance Allocation**: **$8,000**, allocated by program vehicles (4/20 fleet) and estimated annual mileage (18,000 program miles/90,000 total).\n\n## Indirect Costs ($325,500)\n\nModified Total Direct Costs (MTDC) base = $1,860,000 (excludes $64,000 equipment >$5,000, participant stipends >$25,000, and subaward portions >$25,000 per 2 CFR 200.68). Rate: **17.5%** per approved indirect cost rate agreement dated March 2024. **$1,860,000 \u00d7 0.175 = $325,500**. Covers facility operations, organizational insurance, audit, legal, and executive oversight not allocated as direct shared costs.\n\n## Cost Share ($800,000; 25%)\n\n**Cash**: CAL FIRE Workforce Development Grant **$500,000** (committed letter attached).  \n**In-Kind**: Volunteer Fire Department training personnel **12,000 hours \u00d7 $25/hour = $300,000** (pending MOUs; valued per 2 CFR 200.306 using regional firefighter wage survey).\n\n**Cost Effectiveness**: $13,333/participant; $16,000/FFT2 certification; $20,000/job placement.\n\n**Assumptions**: 6 crews \u00d7 10 members/season; 3 operating seasons; 85% retention; MTDC excludes equipment >$5,000 and participant support.\n\n**Sustainability**: Personnel transition to CAL FIRE and state forestry grants post-award; equipment depreciated over seven years reduces replacement costs; employer partnerships generate training contracts.\n\n**Allowability**: Federal cost principles per 2 CFR 200: https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200; CWDG guidance: https://www.fs.usda.gov/science-technology/cwdg.\n\n**Prepared by [AUTHOR NAME, TITLE].**",
+      "timestamp": "2025-11-02T13:20:38.852268Z",
+      "duration_seconds": 31.65,
+      "tokens": {
+        "input": 1073,
+        "output": 1604,
+        "total": 2677
+      },
+      "cost_usd": 0.027279,
+      "success": true,
+      "evaluation": {
+        "overall_score": 9.2,
+        "criteria_scores": {
+          "tone": 10,
+          "completeness": 9,
+          "usefulness": 10,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is an exceptionally strong budget narrative that demonstrates mastery of federal grant writing conventions. It follows USDA Forest Service formatting precisely, provides transparent calculations throughout, and addresses all complex compliance requirements (MTDC exclusions, cost share valuation, allowability citations) that are critical for federal proposals. The narrative would be immediately usable with minimal editing.",
+        "strengths": [
+          "Perfect adherence to federal budget category order and formal tone appropriate for USDA Forest Service",
+          "Exceptional mathematical transparency with every calculation shown and verifiable (e.g., '$59/day \u00d7 80 days/year \u00d7 3 years \u00d7 12 staff = $169,920')",
+          "Sophisticated handling of complex federal requirements: MTDC base calculation with proper exclusions, 2 CFR 200 citations throughout, participant support classification, and cost share valuation methodology",
+          "Strong programmatic justification linking each line item to specific activities (FFT2 certification, crew deployments, 5,000 acres treated)",
+          "Excellent cost-effectiveness metrics ($13,333/participant, $16,000/certification, $20,000/placement) that strengthen the value proposition",
+          "Clear allocation methodologies for shared costs with specific percentages and rationale (FTE-based, square footage, vehicle miles)",
+          "Proper distinction between capitalized equipment and supplies, with NFPA standards cited for PPE",
+          "Comprehensive assumptions section addressing retention rates, crew structure, and MTDC exclusions",
+          "Credible sustainability plan referencing specific funding sources (CAL FIRE, state forestry grants) and equipment depreciation"
+        ],
+        "weaknesses": [
+          "The closing line reads '[AUTHOR NAME, TITLE]' as placeholder text rather than 'Prepared by Priya Nanduri, Grants and Compliance Director' as specified in the scenario",
+          "Minor authenticity concern: the narrative is almost too perfectly structured, which while excellent for federal grants, reads slightly formulaic\u2014though this may actually be appropriate for USDA submissions",
+          "The 'Crew Member Stipends' calculation could benefit from clarifying whether these are living allowances or wages, as classification affects fringe benefit requirements"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "Northern Sierra Conservancy requests $2,400,000 (total program budget $3,200,000) for the Forest Resilience Corps (10/1/2025\u20139/30/2028) to train and place 180 participants. Outcomes: 150 trainees earn FFT2/Red Card; 120 placed in forestry/wildland jobs within 6 months; support treatments on 5,000 acres via crew deployments and partner projects.\n\nPersonnel\n- Program Director (0.20 FTE) at $120,000/yr x 3 yrs = $72,000: overall leadership; employer partnerships; reporting.\n- Program Manager (0.50 FTE) at $95,000/yr x 3 yrs = $142,500: recruitment in rural communities; cohort coordination; work-based learning.\n- Field Supervisors (2 x 0.25 FTE) at $80,000/yr x 3 yrs = $120,000: field safety; sawyer training; prescribed burn support.\n- Training Coordinator (0.40 FTE) at $78,000/yr x 3 yrs = $93,600: NWCG/FFT2 curriculum; Red Card documentation.\n- Employment Specialist (0.30 FTE) at $70,000/yr x 3 yrs = $63,000: employer outreach; placements; follow-up.\n- Data/Evaluation Manager (0.11 FTE) at $76,000/yr x 3 yrs = $25,900: performance monitoring; USDA reporting.\nTotal Personnel = $520,000.\n\nFringe Benefits\nFringe at 30% of salary base covers FICA, health/dental/vision, workers\u2019 comp, retirement, and unemployment insurance: 30% x $520,000 = $156,000.\n\nTravel\n- Per diem (GSA CONUS M&IE): $59/day x 50 days/yr x 3 yrs x 12 staff = $106,200.\n- Mileage (field meetings, employer outreach): $0.67/mile x 30,000 miles (3-year total) = $20,100.\n- Airfare/registrations (statewide coordination, Rx fire workshops): $925 x 4 trips = $3,700.\nTotal Travel = $130,000.\n\nEquipment\nTowable chippers (> $5,000): $32,000 x 2 = $64,000 to increase capacity for roadside/right-of-way fuels work.\n\nSupplies\n- PPE kits: $450 x 180 = $81,000; Chainsaws: $650 x 40 = $26,000; Chains/maintenance: $150 x 40 = $6,000; Hand tools: $120 x 180 = $21,600; First-aid/trauma kits: $1,200 x 6 = $7,200; Drip torches: $180 x 20 = $3,600; Fuel/oil: $18,000; NWCG/ICS course materials: $6,600. Total Supplies = $170,000.\n\nContractual\n- Subaward to regional RCD/Fire Safe Council to host crews, secure fleet/ops, and implement partner fuels projects supporting 5,000 acres: $1,018,143 (the portion >$25,000 excluded from MTDC).\n- Evaluation contractor: $150/hour x 300 hours = $45,000 (independent outcome verification, cost-effectiveness).\n- Prescribed burn instructors (RXB2/ENGB cadre): $1,450/day x 20 days = $29,000.\nTotal Contractual = $1,092,143.\n\nOther\nShared services (HR, finance, IT) allocated by program FTE and office sq. ft. = $30,000; vehicle insurance allocated by number of program vehicles/miles = $10,800; satellite comms/data (safety): $80/device/month x 6 devices x 6 months/yr x 3 yrs = $8,640; background checks/drug screens: $85 x 180 = $15,300; rural recruitment ads: $3,117. Total Other = $67,857. Allocation methods are proportional and equitable across programs.\n\nIndirect Costs\n17.5% of MTDC (audited historical rate). MTDC excludes equipment >$5,000, the portion of subawards >$25,000, and participant support: Base = $1,142,857; IDC = $200,000. Indirect covers rent, utilities, general liability, and admin not charged elsewhere (no double-charging).\n\nMatch/Cost Share (25% = $800,000)\n- Cash: CAL FIRE Workforce Grant $500,000 (committed).\n- In-kind: Volunteer Fire Departments training time 12,000 hours x $25/hr = $300,000 (pending MOUs; valued per 2 CFR 200.306).\n\nCost-effectiveness\n$2,400,000/180 = $13,333 per participant; $2,400,000/150 = $16,000 per FFT2; $2,400,000/120 = $20,000 per job placement.\n\nAssumptions and compliance\nSix 10-member crews per season; 3 seasons; 85% retention; GSA CONUS rates used. Totals equal $2,400,000 and align with the budget table. Federal allowability per 2 CFR 200 and CWDG guidance: https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200 and https://www.fs.usda.gov/science-technology/cwdg.\n\nSustainability\nPost-grant, costs decline as equipment is in place, partner subawards taper, and placements generate fee-for-service thinning/burn contracts and county cost-share to sustain core staff.\n\nPrepared by [AUTHOR NAME, TITLE].",
+      "timestamp": "2025-11-02T13:24:16.478507Z",
+      "duration_seconds": 249.28,
+      "tokens": {
+        "input": 929,
+        "output": 15373,
+        "total": 16302
+      },
+      "cost_usd": 0.233382,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 9
+        },
+        "reasoning": "This is an exceptionally strong budget narrative that demonstrates sophisticated understanding of federal grant requirements. It follows the USDA Forest Service category structure precisely, provides transparent calculations throughout, and addresses complex compliance issues (MTDC exclusions, cost share valuation) with appropriate technical detail. The formal tone is appropriate for a federal proposal, and the narrative would be immediately usable with minimal editing.",
+        "strengths": [
+          "Excellent mathematical transparency with clear formulas (e.g., '$59/day x 50 days/yr x 3 yrs x 12 staff = $106,200') that allow easy verification",
+          "Sophisticated handling of federal compliance requirements including MTDC calculation, 2 CFR 200 citations, and proper treatment of equipment and subaward thresholds",
+          "Strong cost-effectiveness section with multiple metrics ($13,333 per participant, $16,000 per FFT2, $20,000 per placement) that demonstrate value",
+          "Personnel section effectively links each role's FTE and duties to specific program activities from the KEY ACTIVITIES LIST",
+          "Thoughtful sustainability narrative explaining how equipment capitalization and fee-for-service contracts will reduce future costs",
+          "Proper allocation methodology explanations for shared costs (FTE, square footage, vehicle miles) that meet federal reasonableness standards",
+          "Clear distinction between what's included in indirect vs. direct costs to prevent double-charging concerns"
+        ],
+        "weaknesses": [
+          "The closing line reads '[AUTHOR NAME, TITLE]' instead of 'Prepared by Priya Nanduri, Grants and Compliance Director' - a template placeholder was not replaced",
+          "Minor arithmetic discrepancy: Chainsaws listed as '$650 x 60 = $39,000' in the prompt examples but calculated as '$650 x 40 = $26,000' in the output (the output appears correct for the actual budget, but the inconsistency could cause confusion)",
+          "The subaward amount of $1,018,143 is very precise but lacks a brief explanation of how it was calculated, which might raise questions during review"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.5265,
+    "average_score": 8.27
+  }
+}

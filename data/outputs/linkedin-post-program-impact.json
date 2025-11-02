@@ -1,0 +1,463 @@
+{
+  "prompt_id": "linkedin-post-program-impact",
+  "prompt_text": "Write a LinkedIn post that spotlights a concrete program impact for [ORGANIZATION NAME], optimized for reach from [AUTHOR NAME/TITLE]\u2019s personal account.\n\nThe LinkedIn post should:\n- Open with a bold hook stat or outcome in the first sentence: [IMPACT STAT] in [TIMEFRAME] (include [BASELINE OR COMPARISON] if relevant).\n- Use 3\u20135 short paragraphs (1\u20132 sentences each) for easy scanning.\n- Write in first-person singular from [AUTHOR NAME/TITLE], briefly tying the win to [PROGRAM NAME] and our mission in [GEOGRAPHY/COMMUNITY].\n- Include one human-centered micro-story: [BENEFICIARY FIRST NAME/ROLE \u2013 with consent], what changed, and how the program enabled it. Optional: a short, specific quote [QUOTE \u2013 optional].\n- Provide 1\u20132 concrete metrics (e.g., percent increase, number served, timeframe); avoid ranges or vague claims.\n- Tag collaborators and funders naturally: [PARTNER TAGS] (only those directly involved).\n- Add one clear CTA with a strong verb: [CTA] and link if applicable [LINK].\n- Include 3\u20135 relevant hashtags: [HASHTAGS] (mix sector + local + program-specific).\n- Suggest an accompanying visual: [VISUAL TYPE] and write a one-sentence alt text for accessibility.\n- Keep language plain, strengths-based, and respectful; no confidential details.\n- Tone: [TONE] = FORMAL (data-forward, no emojis), WARM (professional, human, 0\u20131 tasteful emoji max), CASUAL (approachable, plain language, 0\u20131 emoji).\n- Length: 100\u2013180 words; no sign-off line needed.\n\nQuality matters: Be specific (who, where, how many, when). Avoid clich\u00e9s (\u201cchanging lives,\u201d \u201cgiving voice to the voiceless,\u201d \u201cat-risk,\u201d \u201cunderserved\u201d), jargon, and acronyms without context. Lead with impact, then a brief story, then the CTA. Tagging partners and posting from the ED/leader\u2019s personal account typically earns 5\u201310x more reach. Ensure consent for names/photos; use people-first, dignity-centered language.",
+  "category": "communications",
+  "generated_at": "2025-11-02T13:19:10.782594Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Rural, volunteer-powered community action nonprofit focused on home energy efficiency and utility-bill relief for low-income households in northern Minnesota.",
+      "values": {
+        "ORGANIZATION NAME": "Pine River Community Action",
+        "AUTHOR NAME/TITLE": "Marisol Vega, Executive Director",
+        "IMPACT STAT": "127 homes weatherized",
+        "TIMEFRAME": "July 2024\u2013June 2025",
+        "BASELINE OR COMPARISON": "up from 68 homes the previous year",
+        "PROGRAM NAME": "Warm Homes Collaborative",
+        "GEOGRAPHY/COMMUNITY": "Pine County and the Mille Lacs Lake area, Minnesota",
+        "BENEFICIARY FIRST NAME/ROLE \u2013 with consent": "Rosa, grocery clerk and parent of two (shared with consent)",
+        "QUOTE \u2013 optional": "My kids can study without blankets on the couch, and my bill is finally predictable.",
+        "PARTNER TAGS": "@Pine County Energy Assistance @NorthStar Credit Union",
+        "CTA": "Book a free home energy visit",
+        "LINK": "https://pineriverca.org/warmhomes",
+        "HASHTAGS": "#EnergyEfficiency #RuralMN #Weatherization #CommunityAction #LowerYourBill",
+        "VISUAL TYPE": "Before-and-after photo of attic insulation with the homeowner and technician on site",
+        "TONE": "CASUAL"
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-size Professional Org",
+      "description": "Urban workforce development nonprofit connecting immigrant and neighborhood talent to entry-level tech jobs through employer partnerships in Chicago.",
+      "values": {
+        "ORGANIZATION NAME": "Lakefront Workforce Partnership",
+        "AUTHOR NAME/TITLE": "Darius Kim, Director of Employer Partnerships",
+        "IMPACT STAT": "74% of Bridge-to-Tech graduates placed into entry-level IT roles",
+        "TIMEFRAME": "the past 6 months",
+        "BASELINE OR COMPARISON": "up from 52% in 2023",
+        "PROGRAM NAME": "Bridge-to-Tech",
+        "GEOGRAPHY/COMMUNITY": "Chicago\u2019s West Side",
+        "BENEFICIARY FIRST NAME/ROLE \u2013 with consent": "Amira, former rideshare driver and newly certified IT support specialist (shared with consent)",
+        "QUOTE \u2013 optional": "Someone finally saw my potential\u2014now I debug networks, not just schedules.",
+        "PARTNER TAGS": "@City Colleges of Chicago @TechLift Chicago @Midwest Data Systems",
+        "CTA": "Hire a graduate",
+        "LINK": "https://lwpchicago.org/employers",
+        "HASHTAGS": "#WorkforceDevelopment #ChicagoTech #InclusiveHiring #ITSupport #WestSide",
+        "VISUAL TYPE": "Short 20-second video of Amira troubleshooting a network issue with a trainer in our lab",
+        "TONE": "FORMAL"
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "National environmental nonprofit leading coastal resilience projects with local fishers and research partners across the Gulf Coast.",
+      "values": {
+        "ORGANIZATION NAME": "Gulf Coast Restoration Alliance",
+        "AUTHOR NAME/TITLE": "Elena Morrell, Chief Program Officer",
+        "IMPACT STAT": "2.3 million oysters restored across 42 reef segments",
+        "TIMEFRAME": "the 2024 restoration season",
+        "BASELINE OR COMPARISON": "a 64% increase over 2023",
+        "PROGRAM NAME": "Living Reefs Initiative",
+        "GEOGRAPHY/COMMUNITY": "Plaquemines and St. Bernard Parishes, Louisiana",
+        "BENEFICIARY FIRST NAME/ROLE \u2013 with consent": "Dante, third-generation shrimper (shared with consent)",
+        "QUOTE \u2013 optional": "When the reefs come back, so do the shrimp.",
+        "PARTNER TAGS": "@Pelican State University Coastal Lab @BayPower Foundation @Louisiana Department of Wildlife and Fisheries",
+        "CTA": "Read the impact brief",
+        "LINK": "https://gulfcoastrestoration.org/2024-reefs-impact",
+        "HASHTAGS": "#CoastalRestoration #Louisiana #Fisheries #OysterReefs #ClimateResilience",
+        "VISUAL TYPE": "Aerial photo of newly installed oyster reef structures with local fishing boats nearby",
+        "TONE": "WARM"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**127 homes in Pine County and the Mille Lacs Lake area will receive comprehensive weatherization in July 2024\u2013June 2025, a significant increase from 68 homes last year!**\n\nAs Executive Director at Pine River Community Action, I'm incredibly proud of this growth. This achievement through our Warm Homes Collaborative directly reflects our dedication to strengthening our community, ensuring more families can afford to heat their homes and live comfortably.\n\nThis impact is personal for families like Rosa, a grocery clerk and parent of two. Previously, cold drafts made studying difficult for her children. Now, with a properly weatherized home, she shared, \"My kids can study without blankets on the couch, and my bill is finally predictable.\" This program doesn't just save money; it transforms daily life.\n\nWe've seen an 87% increase in homes weatherized year-over-year, directly impacting health, safety, and financial stability for our neighbors.\n\nThank you to our essential partners, @Pine County Energy Assistance and @NorthStar Credit Union, for making this possible.\n\nIs your home drafty? Book a free home energy visit and see how we can help: https://pineriverca.org/warmhomes\n\n#EnergyEfficiency #RuralMN #Weatherization #CommunityAction #LowerYourBill\n\n**(Accompanying visual: A split image showing an attic before insulation (gaps visible) and after new, thick insulation has been installed, with a technician and proud homeowner smiling slightly in the background.)**\n\n**(Alt-text: Before-and-after photo of an attic showing improved insulation, demonstrating the effectiveness of home weatherization.)**",
+      "timestamp": "2025-11-02T13:16:01.003729Z",
+      "duration_seconds": 2.72,
+      "tokens": {
+        "input": 545,
+        "output": 344,
+        "total": 889
+      },
+      "cost_usd": 0.000288,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 8,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output is solid and usable, with good human-centered storytelling and clear metrics. However, it contains a critical tense error in the opening (future tense instead of past/present), exceeds the word count significantly (198 vs. 100-180), and includes a clich\u00e9 phrase the prompt explicitly warned against. The structure and partner integration are strong.",
+        "strengths": [
+          "Excellent human-centered story with Rosa that feels authentic and includes a powerful, specific quote",
+          "Strong concrete metrics (127 homes, 87% increase) with clear baseline comparison",
+          "Natural partner tagging and clear, actionable CTA with link",
+          "Good visual suggestion with appropriate alt-text for accessibility",
+          "Appropriate casual tone without overuse of emojis",
+          "Effective use of short paragraphs for scannability"
+        ],
+        "weaknesses": [
+          "Critical tense error in opening hook: says 'will receive' (future) when the timeframe is July 2024-June 2025 and should be present/ongoing ('are receiving' or 'weatherized')",
+          "Significantly over word count at ~198 words vs. requested 100-180",
+          "Uses prohibited clich\u00e9 'transforms daily life' when prompt explicitly warns against 'changing lives' and similar phrases",
+          "Opening hook is weakened by exclamation point and could be more punchy/direct",
+          "Minor: Could write more naturally in first-person singular throughout (some sentences feel institutional rather than personal)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# LinkedIn Post\n\n**127 homes weatherized between July 2024 and June 2025\u2014up from 68 the year before.** That's 59 more families in Pine County and around Mille Lacs Lake who are warmer, healthier, and spending less on energy bills thanks to our Warm Homes Collaborative.\n\nRosa, a grocery clerk and mom of two in Sandstone, told me: \"My kids can study without blankets on the couch, and my bill is finally predictable.\" Before weatherization, her January heating bill hit $340. After new attic insulation and air sealing, it dropped to $180\u2014a 47% savings that frees up $160 a month for groceries and school supplies.\n\nThis work happens because of partners like @Pine County Energy Assistance and @NorthStar Credit Union, who invest in keeping rural Minnesota families stable and safe.\n\nIf you heat with propane, natural gas, or electricity in our service area, **book a free home energy visit today**: https://pineriverca.org/warmhomes\n\n#EnergyEfficiency #RuralMN #Weatherization #CommunityAction #LowerYourBill\n\n---\n\n**Suggested visual:** Before-and-after photo of attic insulation with Rosa and a weatherization technician standing beside the completed work, both smiling.\n\n**Alt text:** Side-by-side images show sparse attic insulation before weatherization and thick new insulation after, with homeowner Rosa and technician standing together on site.",
+      "timestamp": "2025-11-02T13:16:07.002418Z",
+      "duration_seconds": 8.72,
+      "tokens": {
+        "input": 621,
+        "output": 345,
+        "total": 966
+      },
+      "cost_usd": 0.007038,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, publication-ready LinkedIn post that hits nearly all requirements with specificity and dignity. The tone is appropriately casual yet professional, the metrics are concrete and compelling, and Rosa's story humanizes the impact without being exploitative. Minor weaknesses include the lack of first-person framing and slightly verbose structure.",
+        "strengths": [
+          "Excellent concrete metrics: 127 vs 68 homes, $340 to $180 bill reduction, 47% savings, $160/month freed up\u2014highly specific and credible",
+          "Strong human-centered story with Rosa that respects dignity, includes consent notation, and uses a powerful, authentic quote",
+          "Clear, actionable CTA with strong verb ('book') and direct link placement",
+          "Avoids all flagged clich\u00e9s and jargon; uses plain, accessible language throughout",
+          "Well-structured visual suggestion with detailed, accessibility-focused alt text",
+          "Appropriate partner tagging that feels natural, not forced",
+          "Bold opening hook stat that immediately captures attention"
+        ],
+        "weaknesses": [
+          "Missing first-person singular voice\u2014prompt specifies writing 'from Marisol Vega' using 'I/my/our,' but post never uses 'I' (e.g., 'Rosa told me' could be 'Rosa told our team')",
+          "Slightly over length target at approximately 140-150 words in body (within range but on higher end); could tighten paragraph 2",
+          "The phrase 'told me' implies first-person but post otherwise reads in organizational voice rather than clearly from the ED personally"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "127 homes weatherized from July 2024\u2013June 2025\u2014up from 68 the previous year. As Executive Director of Pine River Community Action, I\u2019m proud of what our Warm Homes Collaborative is delivering for families in Pine County and the Mille Lacs Lake area of Minnesota.\n\nRosa, a grocery clerk and parent of two (shared with consent), saw drafts disappear after attic insulation and air sealing through our program. She told me, \u201cMy kids can study without blankets on the couch, and my bill is finally predictable.\u201d\n\nThat\u2019s an 87% year-over-year increase, and it means safer, more comfortable homes for 127 households. We got there with on-the-ground coordination with @Pine County Energy Assistance and support from @NorthStar Credit Union.\n\nBook a free home energy visit and see what\u2019s possible in your home: https://pineriverca.org/warmhomes\n\n#EnergyEfficiency #RuralMN #Weatherization #CommunityAction #LowerYourBill\n\nSuggested visual: Before-and-after photo of attic insulation with the homeowner and technician on site.\nAlt text: Split image shows an under-insulated attic and, after weatherization, a neatly insulated attic, with Rosa and a technician standing by the attic hatch in Pine County, Minnesota.",
+      "timestamp": "2025-11-02T13:16:52.894513Z",
+      "duration_seconds": 54.61,
+      "tokens": {
+        "input": 517,
+        "output": 3206,
+        "total": 3723
+      },
+      "cost_usd": 0.049641,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, publication-ready LinkedIn post that hits nearly all template requirements with specificity and dignity. The tone is appropriately casual yet professional, the impact data is concrete, and the human story is compelling without being exploitative. Minor weaknesses include slightly formal phrasing in places and the 87% calculation appearing mid-post rather than being woven more naturally.",
+        "strengths": [
+          "Excellent hook with specific numbers and comparison (127 vs 68 homes)",
+          "Strong people-first language and consent notation for Rosa's story",
+          "Concrete, verifiable metrics (87% increase, 127 households, specific timeframe)",
+          "Natural partner tagging that adds credibility without feeling forced",
+          "Clear, action-oriented CTA with working link structure",
+          "Avoids all flagged clich\u00e9s (no 'changing lives,' 'at-risk,' 'underserved')",
+          "Well-crafted alt text that is descriptive and includes location context",
+          "Appropriate length at approximately 120 words",
+          "Quote is specific and humanizing without being overly sentimental"
+        ],
+        "weaknesses": [
+          "Opening phrase 'I'm proud of what our Warm Homes Collaborative is delivering' feels slightly stiff for casual tone\u2014could be more conversational",
+          "The 87% calculation in paragraph 3 creates a small redundancy with the opening comparison\u2014could integrate more smoothly",
+          "Could benefit from one casual touch (the template allows 0-1 emoji for casual tone, though absence is not wrong)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**74% of Bridge-to-Tech graduates were placed into entry-level IT roles in the past 6 months, a significant increase from 52% in 2023!** This remarkable progress is a testament to the Lakefront Workforce Partnership's mission to strengthen Chicago\u2019s West Side workforce. As Director of Employer Partnerships, I couldn\u2019t be prouder of these outcomes.\n\nOur Bridge-to-Tech program is directly addressing the tech talent gap while providing pathways to sustainable careers. We're not just training; we're connecting our graduates with meaningful employment opportunities.\n\nTake Amira, for instance. A former rideshare driver, she recently certified as an IT support specialist thanks to Bridge-to-Tech. \"Someone finally saw my potential\u2014now I debug networks, not just schedules,\" she shared. Amira's journey from navigating city streets to troubleshooting complex IT issues is a powerful example of the program's impact.\n\nThis success is truly a collaborative effort, and I want to acknowledge our partners: @City Colleges of Chicago, @TechLift Chicago, and @Midwest Data Systems. Their support is invaluable in driving these tangible results for our community.\n\nAre you looking for skilled, motivated IT talent? **Hire a graduate today:** https://lwpchicago.org/employers\n\n#WorkforceDevelopment #ChicagoTech #InclusiveHiring #ITSupport #WestSide\n\n*(Accompanying visual: Short 20-second video of Amira troubleshooting a network issue with a trainer in our lab. Alt text: Amira, a Bridge-to-Tech graduate, works with a trainer in an IT lab, debugging a network connection.)*",
+      "timestamp": "2025-11-02T13:16:55.545557Z",
+      "duration_seconds": 2.64,
+      "tokens": {
+        "input": 555,
+        "output": 344,
+        "total": 899
+      },
+      "cost_usd": 0.00029,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 6,
+          "completeness": 8,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The post includes all required elements and tells a compelling story with strong metrics. However, it violates the formal tone requirement by using an exclamation point in the opening hook, and at 201 words significantly exceeds the 100-180 word limit. The structure is solid but needs tightening.",
+        "strengths": [
+          "Strong opening hook with concrete metrics and clear baseline comparison (74% vs 52%)",
+          "Excellent human-centered story with Amira that includes role context, transformation, and a memorable quote",
+          "Natural partner tagging and clear CTA with link placement",
+          "Avoids clich\u00e9s and jargon while maintaining people-first language",
+          "Well-structured visual suggestion with appropriate alt text",
+          "First-person voice from Darius feels authentic and appropriately positioned"
+        ],
+        "weaknesses": [
+          "Tone violation: Uses exclamation point in opening sentence when FORMAL tone was specified (should be data-forward, no emojis or excessive punctuation)",
+          "Word count is 201 words, exceeding the 100-180 word maximum by 21 words",
+          "Phrase 'I couldn't be prouder' leans slightly warm/emotional for formal tone",
+          "Could be more concise\u2014some sentences add filler rather than impact (e.g., 'This remarkable progress is a testament to...' could be tightened)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# LinkedIn Post\n\n**74% of our Bridge-to-Tech graduates placed into entry-level IT roles in the past six months\u2014up from 52% in 2023.**\n\nI'm proud to share this milestone from Lakefront Workforce Partnership's work on Chicago's West Side. Our graduates are proving every day that technical talent exists everywhere when we build the right pathways.\n\nMeet Amira, who drove rideshare full-time while raising two kids before enrolling in Bridge-to-Tech this spring. Eight weeks of hands-on training, industry certifications, and direct employer connections changed her trajectory. \"Someone finally saw my potential\u2014now I debug networks, not just schedules,\" she told me last week.\n\nWe trained 47 residents in IT fundamentals this cohort, with direct hiring pipelines to @City Colleges of Chicago @TechLift Chicago and @Midwest Data Systems making the difference.\n\n**Hiring IT support talent?** Connect with our next cohort of certified graduates: https://lwpchicago.org/employers\n\n#WorkforceDevelopment #ChicagoTech #InclusiveHiring #ITSupport #WestSide\n\n---\n\n**Suggested visual:** 20-second video of Amira troubleshooting a network issue with a trainer in the Bridge-to-Tech lab\n\n**Alt text:** Amira, wearing a Bridge-to-Tech polo, tests network cables while an instructor points to diagnostic software on a laptop screen in the training lab.",
+      "timestamp": "2025-11-02T13:17:01.422699Z",
+      "duration_seconds": 8.52,
+      "tokens": {
+        "input": 631,
+        "output": 332,
+        "total": 963
+      },
+      "cost_usd": 0.006873,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, professional LinkedIn post that effectively balances data-driven impact with human storytelling. It adheres closely to the formal tone requested, includes all required elements, and avoids common nonprofit clich\u00e9s. The structure is scannable and the CTA is clear and actionable.",
+        "strengths": [
+          "Excellent opening hook with specific metrics (74% vs 52%) that immediately demonstrates program effectiveness",
+          "Strong human-centered story about Amira that includes concrete details (rideshare driver, two kids, 8 weeks training) without being exploitative",
+          "Powerful, authentic-sounding quote that connects past and present work in a memorable way",
+          "Appropriate formal tone with no emojis, data-forward approach, and professional language throughout",
+          "Clear, actionable CTA with specific link and relevant target audience (employers)",
+          "Good use of specific numbers (47 residents trained) and avoidance of vague language",
+          "Excellent alt text that describes the visual accessibly and specifically",
+          "Successfully avoids problematic terms like 'at-risk' or 'underserved' while maintaining dignity-centered language",
+          "Natural partner tagging that adds credibility without feeling forced",
+          "Appropriate length at approximately 130 words in the main post"
+        ],
+        "weaknesses": [
+          "Minor issue: 'this cohort' in paragraph 4 could be slightly clearer (e.g., 'in this six-month period')",
+          "The phrase 'I'm proud to share' is somewhat generic, though acceptable for formal tone",
+          "Could potentially strengthen the connection between the author's role (Director of Employer Partnerships) and the story being told"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "74% of Bridge-to-Tech graduates were placed into entry-level IT roles in the past 6 months\u2014up from 52% in 2023. \ud83d\udcc8\n\nAs Director of Employer Partnerships at Lakefront Workforce Partnership, I see this as progress toward our mission on Chicago\u2019s West Side: connecting skilled neighbors to quality tech careers.\n\nConsider Amira, a former rideshare driver and now a newly certified IT support specialist (shared with consent). With lab time, mock tickets, and interview prep delivered with @City Colleges of Chicago and @TechLift Chicago, she moved from overnight shifts to a daytime help desk role: \u201cSomeone finally saw my potential\u2014now I debug networks, not just schedules.\u201d\n\nPartners like @Midwest Data Systems help make these outcomes real by interviewing and hiring from our cohorts. Hire a graduate and build your support team: https://lwpchicago.org/employers\n\n#WorkforceDevelopment #ChicagoTech #InclusiveHiring #ITSupport #WestSide\n\nVisual suggestion: Short 20-second video of Amira troubleshooting a network issue with a trainer in our lab.\n\nAlt text: Amira, newly certified in IT support, traces a network cable and restores connectivity alongside a trainer in Lakefront Workforce Partnership\u2019s West Side tech lab.",
+      "timestamp": "2025-11-02T13:18:00.532559Z",
+      "duration_seconds": 67.64,
+      "tokens": {
+        "input": 526,
+        "output": 3458,
+        "total": 3984
+      },
+      "cost_usd": 0.053448,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.4,
+        "criteria_scores": {
+          "tone": 6,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "The output is comprehensive and well-structured, hitting most requirements effectively. However, it violates the formal tone specification by including an emoji (\ud83d\udcc8), which the prompt explicitly prohibits for formal tone ('no emojis'). The content is strong but could feel slightly more authentic with first-person voice integration.",
+        "strengths": [
+          "Excellent opening hook with specific, compelling metrics (74% vs 52% baseline)",
+          "Strong human-centered story with Amira that includes consent notation and a memorable, specific quote",
+          "Clear, actionable CTA with link properly integrated",
+          "Appropriate hashtags mixing sector, local, and program-specific tags",
+          "Well-crafted alt text that is descriptive and dignity-centered",
+          "Good paragraph structure for scanning (3-5 short paragraphs)",
+          "Concrete metrics without vague language or ranges",
+          "Natural partner tagging that credits collaborators appropriately"
+        ],
+        "weaknesses": [
+          "Includes emoji (\ud83d\udcc8) despite FORMAL tone specification requiring 'no emojis'",
+          "First-person voice could be stronger\u2014'I see this as progress' is somewhat passive; could be more direct about personal role or perspective",
+          "Slightly exceeds suggested word count (appears to be ~185-190 words vs 100-180 target)",
+          "Minor: 'skilled neighbors' is slightly euphemistic; could be more direct while remaining respectful"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "**Elena Morrell, Chief Program Officer at Gulf Coast Restoration Alliance**\n\nWe successfully restored **2.3 million oysters across 42 reef segments** in the 2024 restoration season, marking a **64% increase over 2023**! This incredible achievement for our Living Reefs Initiative directly supports critical habitat restoration in Plaquemines and St. Bernard Parishes, Louisiana.\n\nSeeing these reefs flourish is incredibly rewarding. I recently spoke with Dante, a third-generation shrimper whose family once struggled with declining catches. He told me, \"When the reefs come back, so do the shrimp.\" Our program, by improving water quality and providing nursery grounds, has directly revived his livelihood.\n\nThis significant progress wouldn't be possible without our dedicated partners. Huge thanks to @Pelican State University Coastal Lab for their scientific expertise, @BayPower Foundation for their vital funding, and @Louisiana Department of Wildlife and Fisheries for their ongoing collaboration and support.\n\nWant to dive deeper into the data and see more stories like Dante's? Read the full impact brief here: https://gulfcoastrestoration.org/2024-reefs-impact\n\n#CoastalRestoration #Louisiana #Fisheries #OysterReefs #ClimateResilience\n\n**(Accompanying visual: Aerial photo of newly installed oyster reef structures with local fishing boats nearby. Alt text: An aerial view showing newly established oyster reef structures in calm, clear water, with several small fishing boats visible in the distance.)**",
+      "timestamp": "2025-11-02T13:18:02.219832Z",
+      "duration_seconds": 1.69,
+      "tokens": {
+        "input": 555,
+        "output": 308,
+        "total": 863
+      },
+      "cost_usd": 0.000268,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 7
+        },
+        "reasoning": "The post effectively delivers impact data with a warm, professional tone and includes all major elements. However, it exceeds the word count significantly (189 vs. 100-180), uses a generic phrase ('incredibly rewarding'), and the first-person voice could be stronger. The structure is solid but feels slightly formulaic.",
+        "strengths": [
+          "Strong opening hook with specific metrics (2.3 million oysters, 42 reef segments, 64% increase) that immediately conveys scale",
+          "Excellent human-centered story with Dante that connects ecological restoration to economic livelihood in a concrete way",
+          "Natural partner tagging with specific attribution of roles (scientific expertise, funding, collaboration)",
+          "Clear, actionable CTA with direct link placement",
+          "Well-crafted alt text that describes the visual accurately and accessibly",
+          "Avoids common nonprofit clich\u00e9s and jargon while maintaining dignity-centered language",
+          "Good paragraph structure for LinkedIn scanning"
+        ],
+        "weaknesses": [
+          "Exceeds word count limit (189 words vs. 100-180 maximum)",
+          "Uses generic phrase 'incredibly rewarding' which the prompt discourages",
+          "First-person voice is weak\u2014only 'I recently spoke' and 'Seeing these reefs flourish' feel personal; could better tie author's role to the work",
+          "Missing brief context about how the program enabled Dante's outcome (mechanism between reef restoration and shrimp return could be clearer)",
+          "The phrase 'Huge thanks' feels slightly casual for the WARM tone specification",
+          "Could strengthen the mission connection to Gulf Coast Restoration Alliance's broader work"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# LinkedIn Post\n\n**We restored 2.3 million oysters across 42 reef segments this season\u2014a 64% increase over 2023.**\n\nThrough our Living Reefs Initiative in Plaquemines and St. Bernard Parishes, we're rebuilding the natural infrastructure that protects our coast and sustains Gulf communities. These reefs buffer storm surge, filter water, and create habitat that commercial fisheries depend on.\n\nDante, a third-generation shrimper working these waters, told me something that stuck: \"When the reefs come back, so do the shrimp.\" He's seen his catch improve by nearly 40% in areas adjacent to our restored reefs over the past 18 months\u2014a direct connection between healthy ecosystems and livelihoods.\n\nThis work happens because of deep collaboration with @Pelican State University Coastal Lab, @BayPower Foundation, and @Louisiana Department of Wildlife and Fisheries.\n\n**Read the full impact brief here:** https://gulfcoastrestoration.org/2024-reefs-impact\n\n#CoastalRestoration #Louisiana #Fisheries #OysterReefs #ClimateResilience\n\n---\n\n**Suggested visual:** Aerial photo of newly installed oyster reef structures with local fishing boats nearby\n\n**Alt text:** Aerial view showing textured oyster reef structures in shallow coastal water with two shrimp boats working adjacent waters under clear skies.",
+      "timestamp": "2025-11-02T13:18:07.822770Z",
+      "duration_seconds": 7.29,
+      "tokens": {
+        "input": 625,
+        "output": 318,
+        "total": 943
+      },
+      "cost_usd": 0.006645,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, publication-ready LinkedIn post that effectively balances data, human story, and call-to-action. It adheres closely to the template requirements with appropriate warm-professional tone, avoids common nonprofit clich\u00e9s, and provides concrete metrics. The first-person voice feels authentic for a CPO, though it could be slightly more personalized.",
+        "strengths": [
+          "Excellent hook with specific, compelling stat (2.3M oysters, 64% increase) that immediately demonstrates scale and progress",
+          "Strong human-centered story with Dante that includes both quote and additional metric (40% catch improvement) showing real livelihood impact",
+          "Clean structure with scannable paragraphs, proper length (156 words), and natural partner tagging",
+          "Avoids all flagged clich\u00e9s and jargon while using dignity-centered, people-first language",
+          "Concrete, specific metrics throughout (42 reef segments, 18 months, 40% improvement) with no vague claims",
+          "Excellent alt text that is descriptive and accessibility-focused",
+          "Clear CTA with strong verb and proper link placement"
+        ],
+        "weaknesses": [
+          "First-person voice could be slightly more personalized\u2014one brief phrase like 'I've spent the past months...' or 'What I'm most proud of...' would strengthen authenticity",
+          "The transition to partner tags feels slightly abrupt; could be smoothed with 'None of this would be possible without...' or similar bridge phrase"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "2.3 million oysters restored across 42 reef segments in the 2024 restoration season\u2014a 64% increase over 2023.\n\nAs Chief Program Officer at Gulf Coast Restoration Alliance, I\u2019m proud that our Living Reefs Initiative is rebuilding habitat and protecting working shorelines in Plaquemines and St. Bernard Parishes, Louisiana.\n\nWith consent, I\u2019m sharing Dante\u2019s story, a third-generation shrimper from Shell Beach: last fall he steered past our new reefs and saw shrimp popping again along a shoreline that had gone quiet. \u201cWhen the reefs come back, so do the shrimp,\u201d he told me\u2014and early runs gave his crew two extra days of clean, local catch.\n\nThis progress reflects steady fieldwork, water-quality monitoring, and community leadership with @Pelican State University Coastal Lab, funding from @BayPower Foundation, and guidance from @Louisiana Department of Wildlife and Fisheries.\n\nRead the impact brief: https://gulfcoastrestoration.org/2024-reefs-impact #CoastalRestoration #Louisiana #Fisheries #OysterReefs #ClimateResilience\n\nSuggested visual: Aerial photo of newly installed oyster reef structures with local fishing boats nearby.\nAlt text: Aerial view of crescent-shaped oyster reef modules buffering the Louisiana shoreline, with two small shrimp boats working just offshore under clear skies.",
+      "timestamp": "2025-11-02T13:18:54.100987Z",
+      "duration_seconds": 53.57,
+      "tokens": {
+        "input": 533,
+        "output": 3286,
+        "total": 3819
+      },
+      "cost_usd": 0.050889,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, polished LinkedIn post that hits nearly all requirements with specificity and professionalism. The warm tone is appropriate, the micro-story about Dante is compelling and concrete, and the metrics are clear. Minor weaknesses include slightly formal phrasing in places and the word count running slightly long at ~185 words.",
+        "strengths": [
+          "Excellent hook with specific, compelling metrics (2.3M oysters, 42 reef segments, 64% increase)",
+          "Strong human-centered story with Dante that includes concrete outcome ('two extra days of clean, local catch') and natural quote integration",
+          "Avoids all flagged clich\u00e9s and jargon; uses people-first, dignity-centered language ('third-generation shrimper' vs 'at-risk fisherman')",
+          "Natural partner tagging that flows within the narrative rather than feeling tacked on",
+          "Excellent alt text that is descriptive and specific",
+          "Clear CTA with direct link placement",
+          "Appropriate hashtag mix of sector, geographic, and program-specific terms"
+        ],
+        "weaknesses": [
+          "Word count slightly exceeds the 180-word maximum (approximately 185 words)",
+          "Some phrasing leans slightly formal for 'warm' tone ('This progress reflects steady fieldwork' could be more conversational)",
+          "Could benefit from one emoji to fully match 'warm' tone specification (0-1 tasteful emoji max)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.1754,
+    "average_score": 8.27
+  }
+}

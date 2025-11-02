@@ -75,7 +75,11 @@ function ScenarioSection({ scenario, outputs, selectedModel, setSelectedModel }:
             {Object.entries(scenario.values).map(([key, value]) => (
               <div key={key} className="flex gap-2">
                 <span className="font-mono text-xs text-gray-500">[{key}]:</span>
-                <span className="text-sm text-gray-900">{value}</span>
+                <span className="text-sm text-gray-900">
+                  {typeof value === 'object' && value !== null
+                    ? JSON.stringify(value)
+                    : String(value)}
+                </span>
               </div>
             ))}
           </div>

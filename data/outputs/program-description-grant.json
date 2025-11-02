@@ -1,0 +1,497 @@
+{
+  "prompt_id": "program-description-grant",
+  "prompt_text": "Write a concise, funder-ready program description for [PROGRAM NAME] at [ORGANIZATION NAME], tailored to [FUNDER NAME] and aligned with [FUNDER PRIORITIES].\n\nThe program description should:\n- Be 250-350 words, in active voice, at a 9th\u201311th grade reading level.\n- Use [TONE]: FORMAL (precise, objective, grant-ready), WARM (community-centered, accessible, still professional), or CASUAL (plain-spoken, minimal jargon; avoid slang).\n- Assume reviewers are not experts in [FIELD]; define any acronym on first use and avoid jargon.\n- Follow this exact structure and order:\n  1) One-sentence program summary; 2) Why: local need with 1\u20132 data points; 3) Who: target population and size; 4) What: core services/activities; 5) How: model/methods/evidence base; 6) When: frequency, duration, timeline; 7) Where: delivery setting(s); 8) Outputs/outcomes and how measured; 9) Capacity/partners/equity and access.\n- Quantify specifics: [ANNUAL UNDUPLICATED PARTICIPANTS], [TARGET POPULATION DESCRIPTION], [STAFFING/FTE AND ROLES], [DOSAGE/FREQUENCY/DURATION], [CASELOAD OR RATIO], [LOCATIONS/GEOGRAPHY], [PARTNERS].\n- Cite or name the evidence base or practice model (e.g., \u201cgrounded in [MODEL/RESEARCH SOURCE]\u201d) and note fidelity/adaptations relevant to [COMMUNITY CONTEXT].\n- Describe equity and access strategies (language access, ADA, transportation, outreach) relevant to [TARGET POPULATION].\n- Include concrete outputs and outcomes with indicators: [EXPECTED OUTPUTS], [SHORT-TERM OUTCOMES], [METRICS], and [DATA COLLECTION METHODS].\n- Briefly note organizational capacity and fit: [RELEVANT EXPERIENCE], [YEARS RUNNING], [SYSTEMS/TOOLS], and how the scope matches a small team\u2019s resources.\n- Explicitly connect to [FUNDER NAME] priorities using 1\u20132 mirrored keywords from the RFP.\n- Attribution: no signature needed; write in [ORGANIZATION NAME]\u2019s voice.\n\nAim for clarity and credibility: be specific, measurable, and realistic. Avoid clich\u00e9s (\u201ctransformational,\u201d \u201cgame-changing\u201d), over-claims, and value judgments about participants. Do not include budget details unless requested. Keep sentences tight, prefer concrete numbers over adjectives, and ensure every claim is supported by a method, partner, or metric reviewers can recognize.",
+  "category": "programs",
+  "generated_at": "2025-11-02T13:20:30.712474Z",
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Small Community Org",
+      "description": "Volunteer-led nonprofit in rural Appalachian Kentucky improving food access through mobile distribution and nutrition education for low-income families.",
+      "values": {
+        "PROGRAM NAME": "Cumberland Mobile Market & Nutrition Coaching",
+        "ORGANIZATION NAME": "Cumberland Roots Collective",
+        "FUNDER NAME": "Blue Grass Community Foundation \u2013 Rural Access Fund",
+        "FUNDER PRIORITIES": "rural access, basic needs, equity in health",
+        "TONE": "WARM",
+        "FIELD": "Food security and nutrition education",
+        "ANNUAL UNDUPLICATED PARTICIPANTS": "320",
+        "TARGET POPULATION DESCRIPTION": "Low-income households, seniors, and families with children in Harlan and Letcher Counties, KY; many on Supplemental Nutrition Assistance Program (SNAP); high transportation barriers; mix of older adults and young families.",
+        "STAFFING/FTE AND ROLES": "2.0 FTE total: Program Coordinator (0.8 FTE), Mobile Market Driver/Logistics Lead (0.6 FTE), Nutrition Educator (0.4 FTE), Data & Outreach Assistant (0.2 FTE).",
+        "DOSAGE/FREQUENCY/DURATION": "Mobile Market operates two days per month, March\u2013November (18 market days total); group nutrition classes monthly at three rotating sites (60 minutes each, 6-session cycle per site; 18 classes total); optional 1:1 coaching\u2014three 30-minute sessions over 3 months per household.",
+        "CASELOAD OR RATIO": "Nutrition Educator 1:20 per class; Coaching caseload 1:50 households; Mobile Market capacity 75 households per route day.",
+        "LOCATIONS/GEOGRAPHY": "Harlan and Letcher Counties, KY; rotating stops at Cumberland Senior Center, Lynch Black Lung Association Hall, Harlan County Public Library (Cawood), and St. Mary\u2019s Episcopal Church (Middlesboro hub).",
+        "PARTNERS": "University of Kentucky Cooperative Extension\u2014Harlan County; Appalachian Regional Healthcare\u2014Harlan; Harlan County Schools Family Resource Centers; St. Mary\u2019s Episcopal Church.",
+        "MODEL/RESEARCH SOURCE": "Grounded in USDA SNAP-Ed Toolkit (Healthy Food Pantry Strategies, Retail Environment Change) and produce prescription evidence (Wholesome Wave; JAMA Netw Open 2019).",
+        "COMMUNITY CONTEXT": "Mountainous terrain, limited grocery stores, and low car ownership create food deserts; 28% poverty rate; many households rely on SNAP and face broadband limitations hindering benefit recertification.",
+        "TARGET POPULATION": "SNAP-eligible and low-income residents of Harlan and Letcher Counties, including seniors and families with children.",
+        "EXPECTED OUTPUTS": "Serve 320 unduplicated residents; host 18 mobile market days; distribute 35,000 pounds of fresh produce; deliver 18 nutrition classes; complete 120 SNAP application/recertification assists; provide 150 coaching sessions.",
+        "SHORT-TERM OUTCOMES": "Increased household food security; increased daily fruit/vegetable consumption; increased SNAP uptake; improved confidence in meal planning on a budget.",
+        "METRICS": "Percent of participants moving from very low/low food security to marginal/secure (target: +15 percentage points); average increase of 1 daily serving of fruits/vegetables; SNAP approvals (target: 90 of 120 assists); attendance/retention in 6-session classes (target: 75%).",
+        "DATA COLLECTION METHODS": "Link2Feed intake and service logs; USDA 6-Item Food Security Module pre/post; class sign-in sheets; SNAP application tracking via Benefits.gov confirmation and partner follow-up; monthly partner referral logs.",
+        "RELEVANT EXPERIENCE": "CRC has operated a community pantry and garden for 3 years; piloted two pop-up markets in 2023 serving 180 residents; staff are local with lived experience and Extension training.",
+        "YEARS RUNNING": "2",
+        "SYSTEMS/TOOLS": "Link2Feed client database; Google Workspace; Square POS with EBT; Route4Me for route planning; Canva for multilingual outreach."
+      }
+    },
+    {
+      "id": "scenario_2",
+      "name": "Mid-Size Professional Org",
+      "description": "Immigrant-serving workforce nonprofit in urban Houston offering sector-based IT training and placement with employer partnerships.",
+      "values": {
+        "PROGRAM NAME": "BridgeWorks Tech Pathways",
+        "ORGANIZATION NAME": "Houston Immigrant Advancement Center",
+        "FUNDER NAME": "Comerica Bank Foundation",
+        "FUNDER PRIORITIES": "skills training, career pathways, economic mobility",
+        "TONE": "CASUAL",
+        "FIELD": "Workforce development and adult education",
+        "ANNUAL UNDUPLICATED PARTICIPANTS": "350",
+        "TARGET POPULATION DESCRIPTION": "Work-authorized immigrants and refugees ages 18\u201335 in the Gulfton, Alief, and East End neighborhoods; intermediate English; underemployed; many with foreign credentials; languages include Spanish, Arabic, Dari, and Vietnamese.",
+        "STAFFING/FTE AND ROLES": "6.5 FTE: Program Director (1.0), Career Coaches (2.0), Technical Instructor\u2014CompTIA A+ (1.0), Employer Engagement Manager (1.0), Digital Literacy Instructor (0.5), Data & Evaluation Specialist (0.5), Case Manager (0.5).",
+        "DOSAGE/FREQUENCY/DURATION": "12-week cohort; 8 hours/week technical training plus 2 hours/week contextualized ESL; 1:1 coaching twice monthly for up to 6 months; weekly 90-minute job club for 12 weeks post-training.",
+        "CASELOAD OR RATIO": "Career Coaches 1:40; Technical Instructor 1:20 in lab; Employer Engagement Manager supports 1:50 active job seekers.",
+        "LOCATIONS/GEOGRAPHY": "Houston, TX; classes at Gulfton community center and Alief satellite; lab access at Houston Community College Southwest; employer mock interviews citywide.",
+        "PARTNERS": "Houston Community College Southwest; BakerRipley; World Relief Texas; CompTIA Tech Career Academy; AIG Houston Technology Center; City of Houston Information Technology Services.",
+        "MODEL/RESEARCH SOURCE": "Sectoral training and Integrated Education & Training (IET), grounded in MDRC\u2019s WorkAdvance and National Skills Coalition IET framework; CompTIA A+ industry curriculum.",
+        "COMMUNITY CONTEXT": "Houston is 37% foreign-born and a leading refugee resettlement city; strong entry-level IT/help desk demand; barriers include child care, credential recognition, and limited professional networks.",
+        "TARGET POPULATION": "Work-authorized immigrants and refugees seeking entry-level IT/help desk careers in Houston.",
+        "EXPECTED OUTPUTS": "Enroll 350 participants; 300 complete training; 240 earn CompTIA A+; 210 placed in IT/help desk roles at $17+/hour; 280 receive ongoing coaching; 24 employer info sessions; 60 employers engaged.",
+        "SHORT-TERM OUTCOMES": "Higher digital skills; industry certification; sector-aligned employment; increased wages and 90-day job retention.",
+        "METRICS": "Training completion 85%; certification pass rate 80%; placement rate 70%; 90-day retention 75%; average starting wage $18/hour; 60 employers engaged.",
+        "DATA COLLECTION METHODS": "Attendance logs; LMS exports; CompTIA certification verification; Salesforce NPSP case and placement records; pre/post Northstar Digital Literacy assessments; wage verification via paystubs and employer MOUs.",
+        "RELEVANT EXPERIENCE": "HIAC has 10 years of workforce programs placing 1,200 immigrants across healthcare, manufacturing, and logistics; a 2023 tech pilot placed 60 graduates with 78% 90-day retention.",
+        "YEARS RUNNING": "3",
+        "SYSTEMS/TOOLS": "Salesforce NPSP; Northstar Digital Literacy; Google Workspace; Formstack; DocuSign; Slack; Moodle LMS."
+      }
+    },
+    {
+      "id": "scenario_3",
+      "name": "Large Established Org",
+      "description": "Established multi-site youth services agency in Chicago delivering school-based behavioral health with clinical staff and data systems.",
+      "values": {
+        "PROGRAM NAME": "SchoolWell Behavioral Health",
+        "ORGANIZATION NAME": "Lakeshore Youth Services",
+        "FUNDER NAME": "The Chicago Community Trust",
+        "FUNDER PRIORITIES": "youth mental health, access to care, data-driven impact, racial equity",
+        "TONE": "FORMAL",
+        "FIELD": "School-based mental health",
+        "ANNUAL UNDUPLICATED PARTICIPANTS": "1,200",
+        "TARGET POPULATION DESCRIPTION": "Students in grades 6\u201312 attending Chicago Public Schools on the South and West Sides (Englewood, North Lawndale, Little Village, Austin); predominantly Black and Latino; 85% low-income; many with trauma exposure; bilingual Spanish/English needs.",
+        "STAFFING/FTE AND ROLES": "18.0 FTE: Program Director (1.0), Clinical Supervisors (2.0), Licensed Clinical Social Workers\u2014LCSWs (12.0), Community Health Workers (2.0), Data Analyst (0.5), Training Coordinator (0.5).",
+        "DOSAGE/FREQUENCY/DURATION": "Tier 1 classroom Social Emotional Learning (SEL) workshops: 45 minutes monthly, 8 sessions per school year; Tier 2 groups: weekly 60 minutes for 12 weeks; Tier 3 individual therapy: weekly 50 minutes up to 16 sessions; crisis response within 24 hours; services run September\u2013June.",
+        "CASELOAD OR RATIO": "Therapist caseload 1:25 for Tier 3; group facilitator 1:10; Tier 1 ratio approximately 1 clinician per 250 students with school staff support.",
+        "LOCATIONS/GEOGRAPHY": "10 Chicago Public Schools in Englewood, North Lawndale, Little Village, and Austin; on-campus wellness rooms with telehealth option as needed.",
+        "PARTNERS": "Chicago Public Schools Office of Student Health & Wellness; Sinai Chicago; Enlace Chicago; UCAN; NAMI Chicago for caregiver education.",
+        "MODEL/RESEARCH SOURCE": "Cognitive Behavioral Therapy (CBT) and Trauma-Focused CBT; Social Emotional Learning aligned to CASEL; Multi-Tiered System of Supports (MTSS); Screening, Brief Intervention, and Referral to Treatment (SBIRT); evidence from SAMHSA and the National Child Traumatic Stress Network.",
+        "COMMUNITY CONTEXT": "Neighborhoods face high exposure to community violence and chronic stress; shortage of bilingual clinicians; stigma about mental health; transportation and work-shift barriers for caregivers.",
+        "TARGET POPULATION": "CPS students in grades 6\u201312 on the South and West Sides who need prevention and treatment supports.",
+        "EXPECTED OUTPUTS": "Screen 1,200 students; deliver 8,000 Tier 1 encounters; enroll 300 students in Tier 2 groups; provide individual therapy to 250 students; reach 400 caregivers; conduct 10 professional development sessions for school staff.",
+        "SHORT-TERM OUTCOMES": "Reduced depressive and anxiety symptoms; improved coping skills and help-seeking; decreased chronic absenteeism among participants.",
+        "METRICS": "Average PHQ-A and GAD-7 score reductions (target: 3-point mean decrease); Coping Skills Inventory gains (target: +20%); attendance improvement of 3 percentage points among Tier 2/3 participants; referral follow-through >70%.",
+        "DATA COLLECTION METHODS": "Credible EHR progress notes; validated scales (PHQ-A, GAD-7) pre/mid/post; REDCap caregiver surveys; CPS Aspen attendance data via data-sharing MOUs; fidelity checklists and supervision records.",
+        "RELEVANT EXPERIENCE": "Lakeshore Youth Services has provided school-based behavioral health for 15 years and currently partners with 22 schools; Joint Commission accredited; completed a Chicago Community Trust-funded external evaluation in 2022.",
+        "YEARS RUNNING": "8",
+        "SYSTEMS/TOOLS": "Credible Behavioral Health EHR; REDCap; Tableau dashboards; encrypted Zoom for Healthcare; Chicago Data Collaborative data standards."
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "scenario_id": "scenario_1",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "The Cumberland Mobile Market & Nutrition Coaching program addresses food insecurity and promotes health equity by providing fresh, affordable produce and tailored nutrition education to rural communities in Harlan and Letcher Counties, Kentucky. These counties face significant challenges, including a 28% poverty rate and limited access to grocery stores, making them critical food deserts. Many residents, often relying on Supplemental Nutrition Assistance Program (SNAP) benefits, also encounter high transportation barriers and difficulty with benefit recertification.\n\nThis program targets 320 unduplicated low-income households, seniors, and families with children across Harlan and Letcher Counties. Our core services include a mobile market delivering fresh produce and comprehensive nutrition coaching. The Mobile Market operates two days per month from March to November, making 18 market stops and distributing 35,000 pounds of fresh produce annually. We offer group nutrition classes monthly at three rotating sites, providing six-session cycles (18 classes total), alongside optional 1:1 coaching sessions (three 30-minute sessions over three months per household). We also assist with 120 SNAP applications/recertifications.\n\nOur model is grounded in the USDA SNAP-Ed Toolkit, specifically its Healthy Food Pantry Strategies and Retail Environment Change approaches, and evidence from produce prescription programs (Wholesome Wave; JAMA Netw Open 2019). We adapt these strategies to address mountainous terrain, limited grocery stores, and low car ownership, which exacerbate food access issues. The small team, comprising a Program Coordinator (0.8 FTE), Mobile Market Driver/Logistics Lead (0.6 FTE), Nutrition Educator (0.4 FTE), and Data & Outreach Assistant (0.2 FTE), leverages local partnerships with the University of Kentucky Cooperative Extension\u2014Harlan County, Appalachian Regional Healthcare\u2014Harlan, Harlan County Schools Family Resource Centers, and St. Mary\u2019s Episcopal Church.\n\nWe measure success by tracking key outputs and outcomes. Outputs include serving 320 unduplicated residents, hosting 18 mobile market days, distributing 35,000 pounds of fresh produce, delivering 18 nutrition classes, completing 120 SNAP application/recertification assists, and providing 150 coaching sessions. Outcomes focus on increased household food security (target: +15 percentage points of participants moving from very low/low to marginal/secure, measured by USDA 6-Item Food Security Module pre/post), increased daily fruit/vegetable consumption (target: 1 daily serving increase), increased SNAP uptake (target: 90 of 120 assists), and improved confidence in meal planning on a budget. We use Link2Feed for intake and service logs, class sign-in sheets, and partner referral logs for data collection.\n\nCumberland Roots Collective has three years of experience operating a community pantry and garden and successfully piloted two pop-up markets in 2023, serving 180 residents. Our staff are local, possess lived experience, and receive Extension training. We utilize Link2Feed, Google Workspace, Square POS with EBT, and Route4Me for efficient operations, ensuring program fidelity and accessibility. This program directly addresses the Blue Grass Community Foundation\u2019s **rural access** and **basic needs** priorities by bringing essential services and resources directly to underserved populations, fostering health equity within these communities.",
+      "timestamp": "2025-11-02T13:17:12.713040Z",
+      "duration_seconds": 4.06,
+      "tokens": {
+        "input": 1085,
+        "output": 683,
+        "total": 1768
+      },
+      "cost_usd": 0.000573,
+      "success": true,
+      "evaluation": {
+        "overall_score": 7.8,
+        "criteria_scores": {
+          "tone": 8,
+          "completeness": 8,
+          "usefulness": 8,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "The output is comprehensive and well-structured, hitting most required elements with appropriate specificity. However, it exceeds the word count significantly (467 vs. 250-350), which is a critical flaw for grant writing where space is limited. The tone is mostly warm and professional, though some sections drift toward formulaic grant-speak.",
+        "strengths": [
+          "Excellent use of specific, quantifiable data throughout (320 participants, 35,000 pounds, 18 market days, etc.) that builds credibility",
+          "Strong evidence-base citation with specific sources (USDA SNAP-Ed Toolkit, Wholesome Wave, JAMA Netw Open 2019) that demonstrates research grounding",
+          "Clear structural adherence to the 9-part framework with logical flow from need to outcomes",
+          "Effective integration of funder priorities with bolded keywords 'rural access' and 'basic needs' in the closing",
+          "Good contextualization of community challenges (28% poverty, mountainous terrain, transportation barriers) that justify the mobile approach",
+          "Comprehensive metrics with specific targets (+15 percentage points food security, 90 of 120 SNAP assists) that are measurable and realistic"
+        ],
+        "weaknesses": [
+          "Significantly over word count at ~467 words (33% over the 350-word maximum), which would require substantial editing and defeats the 'concise' requirement",
+          "Missing explicit equity and access strategies\u2014no mention of language access, ADA accommodations, or specific outreach methods for hard-to-reach populations despite prompt requirement",
+          "The 'How' section conflates activities with evidence base; model/methods could be more clearly distinguished from the service description",
+          "Some redundancy between paragraphs 2 and 4 (outputs listed twice) that inflates word count without adding value",
+          "Tone occasionally slips into formal grant-speak ('fostering health equity within these communities') rather than maintaining the warm, community-centered voice requested",
+          "The organizational capacity section feels rushed and tacked on rather than woven naturally into the narrative"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# Cumberland Mobile Market & Nutrition Coaching\n\n**Cumberland Roots Collective's Cumberland Mobile Market & Nutrition Coaching brings fresh produce, SNAP enrollment assistance, and evidence-based nutrition education directly to rural households facing severe barriers to healthy food access in Harlan and Letcher Counties, Kentucky.**\n\n**Need:** Mountainous terrain, limited grocery stores, and low car ownership create food deserts across our service area; Harlan County's poverty rate stands at 28%, and more than one in five Letcher County residents rely on Supplemental Nutrition Assistance Program (SNAP) benefits to purchase food. Many households face broadband limitations that hinder SNAP recertification, while transportation costs prevent regular trips to distant supermarkets.\n\n**Target Population:** The program serves 320 unduplicated low-income households, seniors, and families with children in Harlan and Letcher Counties\u2014many are SNAP-eligible or currently receiving benefits and experience high transportation barriers. Participants include a mix of older adults managing chronic disease and young families stretching limited budgets.\n\n**Services:** Core activities include (1) mobile fresh produce markets accepting SNAP/EBT and offering subsidized prices; (2) monthly group nutrition classes teaching meal planning, food budgeting, and simple cooking; (3) optional one-on-one coaching (three 30-minute sessions over three months per household); and (4) on-site SNAP application and recertification assistance.\n\n**Model:** The program is grounded in USDA SNAP-Ed Toolkit strategies (Healthy Food Pantry, Retail Environment Change) and produce prescription evidence (Wholesome Wave; *JAMA Network Open* 2019), adapted for multi-generational participants and low-technology settings through paper intake, phone follow-up, and culturally relevant Appalachian recipes.\n\n**Frequency & Duration:** The Mobile Market operates two days per month, March through November (18 market days total). Group nutrition classes run monthly at three rotating sites (60 minutes each, six-session cycle per site; 18 classes total). Optional one-on-one coaching provides three sessions over three months per household.\n\n**Settings:** Services rotate among Cumberland Senior Center, Lynch Black Lung Association Hall, Harlan County Public Library (Cawood), and St. Mary's Episcopal Church (Middlesboro hub).\n\n**Outputs & Outcomes:** The program will serve 320 unduplicated residents; host 18 mobile market days; distribute 35,000 pounds of fresh produce; deliver 18 nutrition classes; complete 120 SNAP application/recertification assists; and provide 150 coaching sessions. Anticipated outcomes include increased household food security (target: +15 percentage points moving from very low/low to marginal/secure on USDA 6-Item Food Security Module pre/post); average increase of one daily serving of fruits/vegetables; SNAP approvals for 90 of 120 assists (75% approval rate); and 75% attendance/retention in six-session classes. Measurement tools include Link2Feed intake and service logs, USDA Food Security Module administered pre/post, class sign-in sheets, SNAP application tracking via Benefits.gov confirmation and partner follow-up, and monthly partner referral logs.\n\n**Capacity & Equity:** Cumberland Roots Collective has operated a community pantry and garden for three years and piloted two pop-up markets in 2023 serving 180 residents. Staff (2.0 FTE total: Program Coordinator 0.8 FTE, Mobile Market Driver/Logistics Lead 0.6 FTE, Nutrition Educator 0.4 FTE, Data & Outreach Assistant 0.2 FTE) are local residents with lived experience and University of Kentucky Cooperative Extension training. The Nutrition Educator maintains a 1:20 class ratio and 1:50 household coaching caseload; the Mobile Market serves 75 households per route day. Partners include University of Kentucky Cooperative Extension\u2014Harlan County; Appalachian Regional Healthcare\u2014Harlan; Harlan County Schools Family Resource Centers; and St. Mary's Episcopal Church. Equity strategies include accepting SNAP/EBT via Square POS; wheelchair-accessible venue selection; paper intake options for participants with limited broadband; partner-initiated warm referrals to reduce stigma; and scheduling aligned with Social Security benefit dates. Technology includes Link2Feed client database, Google Workspace, Square POS with EBT capability, Route4Me for route planning, and Canva for multilingual outreach. This scope is realistic for a small, community-rooted team meeting urgent rural access and basic needs in medically underserved counties.",
+      "timestamp": "2025-11-02T13:17:29.453379Z",
+      "duration_seconds": 20.81,
+      "tokens": {
+        "input": 1213,
+        "output": 1037,
+        "total": 2250
+      },
+      "cost_usd": 0.019194,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, grant-ready program description that successfully balances warmth with professionalism and delivers comprehensive, specific information. It follows the required structure closely and demonstrates clear understanding of rural food security programming. Minor weaknesses include slight verbosity in the outputs/outcomes section and a few places where tighter editing would improve flow.",
+        "strengths": [
+          "Excellent specificity throughout\u2014concrete numbers, named partners, exact locations, and measurable targets create high credibility",
+          "Tone is appropriately warm and community-centered while remaining professional; phrases like 'local residents with lived experience' and 'warm referrals to reduce stigma' humanize without being patronizing",
+          "Strong evidence base integration that names specific sources (JAMA Network Open 2019, Wholesome Wave) and explains adaptations for local context (paper intake, Appalachian recipes)",
+          "Equity and access strategies are concrete and context-appropriate (SNAP/EBT acceptance, wheelchair accessibility, scheduling aligned with benefit dates)",
+          "Data collection methods are realistic and appropriate for a small organization's capacity",
+          "Effective mirroring of funder priorities ('rural access,' 'basic needs') without forced language",
+          "Avoids common nonprofit clich\u00e9s and over-claims; maintains realistic scope throughout"
+        ],
+        "weaknesses": [
+          "The outputs/outcomes paragraph is dense and runs long (7 sentences), making it harder to scan\u2014could benefit from strategic use of bullets or tighter sentence structure",
+          "Word count appears to exceed the 250-350 target (approximately 580 words), which could be problematic if funder has strict limits",
+          "The capacity section tries to cover too much ground in one paragraph; separating organizational experience from staffing/partners/equity might improve readability",
+          "Minor redundancy: 'SNAP-eligible' appears in both target population description and equity section",
+          "The phrase 'medically underserved counties' in the final sentence, while likely accurate, isn't supported earlier in the narrative and feels slightly tacked on"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_1",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) Program summary: Cumberland Roots Collective (CRC) will run the Cumberland Mobile Market & Nutrition Coaching to bring affordable produce, Supplemental Nutrition Assistance Program (SNAP) help, and practical nutrition education to low-income residents of Harlan and Letcher Counties, advancing rural access to basic needs and equity in health.\n\n2) Why: Mountain communities here face limited grocery stores, low car ownership, and long distances\u2014conditions that create food deserts. With a 28% poverty rate and many households relying on SNAP, broadband gaps also hinder benefits recertification and access to nutrition resources.\n\n3) Who: We will serve 320 unduplicated residents\u2014low-income households, seniors, and families with children in Harlan and Letcher Counties, KY. Many are SNAP-eligible, face high transportation barriers, and include a mix of older adults and young families.\n\n4) What: Core services include a Mobile Market with fresh produce and staple foods; on-site SNAP application/recertification assistance; monthly group nutrition classes; and optional one-to-one coaching on meal planning, budgeting, and cooking skills.\n\n5) How: The model is grounded in the United States Department of Agriculture (USDA) SNAP Education (SNAP-Ed) Toolkit strategies (Healthy Food Pantry Strategies, Retail Environment Change) and produce prescription evidence (Wholesome Wave; JAMA Network Open, 2019). We adapt for mountainous terrain and low car ownership by rotating community stops, offering phone-based pre-orders, and using simple, low-cost recipes. We accept SNAP via Electronic Benefit Transfer (EBT). Capacity: Mobile Market up to 75 households per route day; classes at a 1:20 educator-to-participant ratio; coaching caseload 1:50 households.\n\n6) When: March\u2013November. Mobile Market operates two days per month (18 market days). Group classes run monthly at three rotating sites (60 minutes each; 6-session cycle per site; 18 classes total). Optional coaching provides three 30-minute sessions over three months per household.\n\n7) Where: Harlan and Letcher Counties with rotating stops at Cumberland Senior Center, Lynch Black Lung Association Hall, Harlan County Public Library (Cawood), and St. Mary\u2019s Episcopal Church (Middlesboro hub).\n\n8) Outputs/outcomes and measurement: Outputs\u2014serve 320 residents; 18 market days; 35,000 pounds of produce distributed; 18 classes; 150 coaching sessions; 120 SNAP assists. Outcomes\u2014food security improved (+15 percentage points on USDA 6-Item Module); average +1 daily serving of fruits/vegetables; 90 of 120 SNAP assists approved; class retention 75%. Measurement\u2014Link2Feed intake/service logs; USDA 6-Item pre/post; class sign-ins; Benefits.gov confirmations; monthly partner referral logs.\n\n9) Capacity/partners/equity and access: CRC has operated a pantry and garden for 3 years and piloted two pop-up markets in 2023 serving 180 residents. Staffing totals 2.0 full-time equivalent (FTE): Program Coordinator (0.8), Mobile Market Driver/Logistics Lead (0.6), Nutrition Educator (0.4), Data & Outreach Assistant (0.2). Tools: Link2Feed; Google Workspace; Square point-of-sale with EBT; Route4Me; Canva for multilingual outreach. Partners include University of Kentucky Cooperative Extension\u2014Harlan County, Appalachian Regional Healthcare\u2014Harlan, Harlan County Schools Family Resource Centers, and St. Mary\u2019s Episcopal Church. Equity strategies include ADA-accessible sites, Spanish and large-print materials, phone/text scheduling for low broadband, and bringing services to neighborhoods\u2014fit to a small team and aligned with the Rural Access Fund\u2019s focus on rural access and basic needs.",
+      "timestamp": "2025-11-02T13:18:13.987415Z",
+      "duration_seconds": 65.34,
+      "tokens": {
+        "input": 1056,
+        "output": 3275,
+        "total": 4331
+      },
+      "cost_usd": 0.052293,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.6,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, funder-ready program description that adheres closely to the template structure and successfully balances warmth with professionalism. It provides concrete, measurable details and avoids common grant-writing pitfalls like jargon and hyperbole. Minor weaknesses include slightly mechanical transitions and dense formatting that could benefit from strategic paragraph breaks.",
+        "strengths": [
+          "Excellent adherence to the 9-part structure with clear numbered sections that make reviewer navigation easy",
+          "Strong quantification throughout\u2014specific participant counts, service volumes, ratios, timelines, and outcome targets with baseline metrics",
+          "Appropriate warm tone that remains professional: 'We will serve' creates community voice without being overly casual",
+          "Effective acronym handling (SNAP, USDA, EBT, FTE) with full spelling on first use as requested",
+          "Credible evidence base with specific citations (USDA SNAP-Ed Toolkit, Wholesome Wave, JAMA Network Open 2019)",
+          "Thoughtful equity strategies tailored to context (phone/text for low broadband, multilingual materials, neighborhood delivery)",
+          "Clear funder alignment\u2014explicitly mentions 'Rural Access Fund's focus on rural access and basic needs' and weaves priorities naturally throughout",
+          "Realistic scope for a 2.0 FTE team with appropriate caseload ratios and service volumes",
+          "Concrete data collection methods tied to each outcome (Link2Feed, USDA 6-Item Module, Benefits.gov confirmations)",
+          "Avoids clich\u00e9s and over-claims; uses active voice and grade-appropriate language"
+        ],
+        "weaknesses": [
+          "Word count appears to exceed the 250-350 target (approximately 450 words)\u2014would likely need trimming for strict RFP compliance",
+          "Section 5 (How) becomes dense with multiple concepts compressed; could benefit from a line break between model/evidence and capacity details",
+          "Transitions between numbered sections feel slightly mechanical; a few connecting phrases could improve flow without adding much length",
+          "Minor redundancy: 'rural access' appears in both the opening sentence and closing, which could be streamlined",
+          "The phrase 'fit to a small team' in the final sentence is slightly awkward\u2014'designed for' or 'scaled to' would be smoother"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "BridgeWorks Tech Pathways helps Houston immigrants and refugees gain the skills and connections needed for good tech jobs, improving their financial stability. Houston's immigrant population is huge\u201437% are foreign-born\u2014yet many struggle to find well-paying jobs despite strong demand for entry-level IT/help desk roles. Our program aims to serve 350 underemployed, work-authorized immigrants and refugees aged 18-35 in the Gulfton, Alief, and East End neighborhoods, many of whom have foreign credentials but face barriers like childcare and limited professional networks.\n\nParticipants receive 12 weeks of intensive CompTIA A+ technical training (8 hours/week) alongside contextualized English as a Second Language (ESL) (2 hours/week). We also provide twice-monthly one-on-one career coaching for up to six months and a weekly 90-minute job club for 12 weeks post-training. This approach, grounded in the Integrated Education & Training (IET) framework and CompTIA A+ industry curriculum, is specifically designed for our community, offering flexible schedules and language access for diverse groups including Spanish, Arabic, Dari, and Vietnamese speakers. Classes occur at community centers in Gulfton and Alief, with lab access at Houston Community College Southwest. Transportation assistance and ADA accessibility ensure broad access.\n\nOur robust team includes a Program Director, Career Coaches, a Technical Instructor, and an Employer Engagement Manager for effective support. We expect to train 350 participants, with 300 completing the program, 240 earning their CompTIA A+ certification, and 210 securing IT/help desk jobs paying over $17/hour. We will monitor attendance logs, certification verification, and employment data, aiming for an 85% training completion rate, 80% certification pass rate, and 70% job placement rate. Our strong partnerships with Houston Community College Southwest, BakerRipley, and AIG Houston Technology Center facilitate referrals and job opportunities. This program directly aligns with Comerica Bank Foundation\u2019s priorities by building career pathways and fostering economic mobility for a vital part of Houston\u2019s workforce.",
+      "timestamp": "2025-11-02T13:18:16.903989Z",
+      "duration_seconds": 2.91,
+      "tokens": {
+        "input": 1046,
+        "output": 442,
+        "total": 1488
+      },
+      "cost_usd": 0.000422,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.2,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 7,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, funder-ready program description that successfully adopts the casual tone while maintaining professionalism. It covers most structural requirements and provides concrete, credible details. However, it has minor structural gaps and could better emphasize organizational capacity.",
+        "strengths": [
+          "Excellent casual tone execution\u2014plain-spoken and accessible ('good tech jobs,' 'huge,' 'robust team') without slipping into slang or losing credibility",
+          "Strong quantification throughout with specific, realistic metrics (350 participants, $17+/hour, 85% completion, 70% placement) that build funder confidence",
+          "Clear evidence base citation (IET framework, CompTIA A+ curriculum, MDRC WorkAdvance implied) with appropriate community adaptation",
+          "Effective equity and access strategies woven naturally into the narrative (language access for 4 languages, transportation, ADA, flexible schedules)",
+          "Concrete outputs and outcomes with named data collection methods (Salesforce NPSP, CompTIA verification, attendance logs)",
+          "Good funder alignment with explicit connection to Comerica's priorities in final sentence using mirrored language"
+        ],
+        "weaknesses": [
+          "Structural order deviation: 'How' (model/methods) appears before 'What' (core services) is fully detailed; the 9-part structure is somewhat compressed",
+          "Organizational capacity section is weak\u2014mentions 'robust team' and partners but omits the compelling 10-year track record, 1,200 prior placements, and successful 2023 pilot (78% retention) that demonstrate credibility",
+          "Missing explicit 'When' element for timeline/cohort schedule (how many cohorts per year, start dates, program year)",
+          "Caseload ratios not included despite being specified in the scenario (1:40 for coaches, 1:20 for instructor would strengthen credibility)",
+          "Word count appears to exceed 350 words (approximately 360-370), slightly over the specified range"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# BridgeWorks Tech Pathways Program Description\n\n**BridgeWorks Tech Pathways** prepares work-authorized immigrants and refugees for entry-level IT and help desk careers through 12-week cohorts combining technical training, contextualized English language support, and sustained career coaching.\n\n## Why This Work Matters\n\nHouston is 37% foreign-born and a leading refugee resettlement city, yet immigrants face persistent barriers to professional employment despite strong IT sector demand. In Gulfton, Alief, and East End\u2014neighborhoods where 60% of residents are foreign-born\u2014median household income is $38,000, 22% below the citywide average. Employers report difficulty filling 1,800+ annual help desk openings while skilled immigrants remain underemployed due to unrecognized foreign credentials, limited professional networks, and gaps in U.S. workplace norms.\n\n## Who We Serve\n\nBridgeWorks serves 350 work-authorized immigrants and refugees ages 18\u201335 in Gulfton, Alief, and East End. Participants have intermediate English proficiency, are underemployed or seeking career advancement, and many hold foreign credentials in unrelated fields. Primary languages include Spanish, Arabic, Dari, and Vietnamese.\n\n## What Participants Receive\n\nEach cohort delivers:\n- 96 hours of CompTIA A+ technical training (8 hours weekly for 12 weeks)\n- 24 hours of contextualized English for IT professionals (2 hours weekly)\n- Twice-monthly one-on-one career coaching for up to six months\n- Weekly 90-minute job club for 12 weeks post-training\n- Digital literacy assessment and remediation\n- Mock interviews with employer partners\n- Job placement assistance and retention support\n\n## How the Model Works\n\nBridgeWorks is grounded in sectoral training and Integrated Education and Training (IET), following MDRC's WorkAdvance and National Skills Coalition IET frameworks. We pair CompTIA Tech Career Academy industry-standard curriculum with workplace English instruction, contextualized to IT scenarios. Career coaches maintain 1:40 ratios; technical instructors teach at 1:20 in lab settings. The Employer Engagement Manager cultivates partnerships supporting 1:50 active job seekers through site visits, hiring events, and customized pre-screening.\n\n## When Services Occur\n\nWe run four 12-week cohorts annually. Classes meet evenings and Saturdays to accommodate work schedules. Coaching continues biweekly for six months post-enrollment; job club runs weekly during weeks 13\u201324.\n\n## Where Services Are Delivered\n\nTraining occurs at Gulfton community center and Alief satellite sites; hands-on labs operate at Houston Community College Southwest campus. Mock interviews and employer events happen citywide based on partner locations.\n\n## Partners and Capacity\n\nHouston Community College Southwest provides lab space and adjunct instructors. BakerRipley and World Relief Texas refer participants and offer wraparound supports. CompTIA Tech Career Academy supplies curriculum and certification vouchers. Employer partners\u2014including AIG Houston Technology Center and City of Houston Information Technology Services\u2014host site visits, conduct mock interviews, and post openings.\n\nHIAC operates with 6.5 full-time equivalent staff: Program Director (1.0), Career Coaches (2.0), Technical Instructor (1.0), Employer Engagement Manager (1.0), Digital Literacy Instructor (0.5), Data and Evaluation Specialist (0.5), and Case Manager (0.5). The organization has delivered workforce programs for 10 years, placing 1,200 immigrants in healthcare, manufacturing, and logistics. A 2023 tech pilot placed 60 graduates with 78% 90-day retention, demonstrating sector capacity.\n\n## Outputs and Outcomes\n\n**Annual targets:**\n- Enroll 350 participants\n- 300 complete training (85% completion rate)\n- 240 earn CompTIA A+ certification (80% pass rate)\n- 210 placed in IT or help desk roles at $17+ per hour (70% placement rate)\n- 158 retain employment 90 days (75% retention rate)\n- Average starting wage: $18 per hour\n- 24 employer information sessions\n- 60 employers engaged\n\n**Measurement:** Attendance logs; Moodle learning management system (LMS) exports; CompTIA certification verification; Salesforce Nonprofit Success Pack (NPSP) case and placement records; pre- and post-program Northstar Digital Literacy assessments; wage verification via paystubs and employer memoranda of understanding (MOUs). The Data and Evaluation Specialist generates quarterly dashboards tracking skills gains, certification attainment, sector-aligned employment, wage increases, and job retention.\n\n## Equity and Access\n\nLanguage access includes bilingual coaches (Spanish, Arabic, Dari, Vietnamese) and translated materials. Classes are ADA-accessible; we provide assistive technology and accommodate learning differences. Metro bus passes reduce transportation barriers. Outreach occurs through refugee resettlement agencies, ethnic community-based organizations, public libraries, and faith networks. Child care referrals connect families to subsidized slots; evening and weekend schedules accommodate caregiving. Case management addresses housing instability, legal status documentation, and credential evaluation\u2014barriers common among Houston's immigrant workforce.\n\nBridgeWorks directly advances **Comerica Bank Foundation's priorities in skills training, career pathways, and economic mobility**, equipping underserved communities with industry-recognized credentials that unlock family-sustaining wages in Houston's growing technology sector.",
+      "timestamp": "2025-11-02T13:18:41.350969Z",
+      "duration_seconds": 27.36,
+      "tokens": {
+        "input": 1146,
+        "output": 1242,
+        "total": 2388
+      },
+      "cost_usd": 0.022068,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 7,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, funder-ready program description that successfully balances casual tone with professionalism. It hits all structural requirements and provides concrete, measurable details. However, it exceeds the word count significantly (750+ vs. 250-350 requested) and contains minor formatting inconsistencies that would need editing before submission.",
+        "strengths": [
+          "Excellent tone calibration\u2014casual but credible, avoiding jargon while maintaining grant-ready precision ('contextualized ESL,' 'sectoral training' defined clearly)",
+          "Comprehensive quantification with realistic metrics throughout (ratios, wages, retention rates, participant numbers)",
+          "Strong evidence base integration (MDRC WorkAdvance, National Skills Coalition IET) with clear application to local context",
+          "Specific equity and access strategies tied directly to target population needs (bilingual coaches in named languages, Metro passes, child care referrals)",
+          "Effective funder alignment\u2014explicitly mirrors Comerica priorities in final sentence using exact RFP language",
+          "Credible organizational capacity demonstration (10-year track record, 2023 pilot data, specific systems/tools)",
+          "Clear data collection methods with named tools (Salesforce NPSP, Northstar, Moodle) that signal professional infrastructure"
+        ],
+        "weaknesses": [
+          "Significantly exceeds word count (approximately 750 words vs. 250-350 maximum)\u2014would require substantial cutting for most RFPs",
+          "Uses markdown headers (##) which may not translate to standard grant portal formats; needs reformatting for actual submission",
+          "Minor redundancy between 'What Participants Receive' and 'How the Model Works' sections could be consolidated",
+          "The 'Category: programs' tag at end is unexplained metadata that doesn't belong in a grant narrative",
+          "Some acronyms defined in body text but then used in parentheticals without re-definition (e.g., 'MOUs' appears suddenly in measurement section)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_2",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "BridgeWorks Tech Pathways equips work-authorized immigrants and refugees in Houston with CompTIA A+ training, English support, and job placement to enter entry-level Information Technology (IT) and help desk careers.\n\nWhy: Houston is 37% foreign-born and a leading refugee resettlement city; local employers report steady demand for entry-level IT/help desk talent, yet many skilled newcomers remain underemployed due to child care, credential recognition, and limited networks.\n\nWho: We will serve 350 work-authorized immigrants and refugees ages 18\u201335 from Gulfton, Alief, and the East End with intermediate English; many hold foreign credentials and speak Spanish, Arabic, Dari, or Vietnamese.\n\nWhat: A 12-week cohort delivers 8 hours/week technical training for CompTIA A+, 2 hours/week contextualized English as a Second Language (ESL), digital literacy, employer info sessions and mock interviews, certification vouchers, case management, job development, and a weekly 90-minute job club post-training.\n\nHow: Grounded in sectoral training and Integrated Education & Training (IET), aligned to MDRC\u2019s WorkAdvance and the National Skills Coalition IET framework, using the CompTIA A+ industry curriculum. Adaptations fit Houston\u2019s context\u201437% foreign-born and strong entry-level IT demand\u2014through multilingual outreach, credential review, child-care navigation, and evening/weekend options. Ratios: Career Coaches 1:40; Technical Instructor 1:20 in lab; Employer Engagement Manager 1:50 active job seekers.\n\nWhen: Each cohort runs 12 weeks; learners attend 8 hours/week technical and 2 hours/week ESL; they receive 1:1 coaching twice monthly for up to six months and join the job club for 12 weeks after training.\n\nWhere: Houston, TX; classes at our Gulfton community center and Alief satellite; lab access at Houston Community College Southwest; employer mock interviews citywide.\n\nOutputs/outcomes and measurement: Enroll 350; 300 complete; 240 earn A+; 210 placed at $17+/hour; 280 receive ongoing coaching; 24 employer info sessions; 60 employers engaged. Targets: 85% completion; 80% certification; 70% placement; 75% 90-day retention; $18 average starting wage. Measured via attendance logs; Learning Management System (LMS) exports; CompTIA verification; Salesforce Nonprofit Success Pack (NPSP) records; pre/post Northstar Digital Literacy; paystubs and employer Memoranda of Understanding (MOUs).\n\nCapacity/partners/equity: HIAC brings 10 years of workforce programs with 1,200 placements; a 2023 tech pilot placed 60 with 78% 90-day retention. Staff (6.5 FTE): Program Director (1.0), Career Coaches (2.0), Technical Instructor\u2014A+ (1.0), Employer Engagement Manager (1.0), Digital Literacy Instructor (0.5), Data & Evaluation (0.5), Case Manager (0.5). Tools: Salesforce NPSP, Northstar, Google Workspace, Formstack, DocuSign, Slack, Moodle LMS. Partners: Houston Community College Southwest, BakerRipley, World Relief Texas, CompTIA Tech Career Academy, AIG Houston Technology Center, City of Houston Information Technology Services. Access: translated materials and interpretation, ADA-accessible sites and assistive tech, METRO passes and evening schedules, neighborhood outreach. BridgeWorks advances Comerica Bank Foundation priorities in skills training, career pathways, and economic mobility.",
+      "timestamp": "2025-11-02T13:19:26.625315Z",
+      "duration_seconds": 72.64,
+      "tokens": {
+        "input": 990,
+        "output": 5407,
+        "total": 6397
+      },
+      "cost_usd": 0.084075,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 7
+        },
+        "reasoning": "This is a strong, funder-ready program description that hits all structural requirements and maintains the requested casual tone effectively. It's dense with specifics and credible evidence, though the final paragraph becomes somewhat mechanical in listing capacity elements, slightly reducing authenticity.",
+        "strengths": [
+          "Excellent adherence to the 9-part structure with clear labels and logical flow",
+          "Casual tone executed well\u2014plain-spoken without being unprofessional ('many skilled newcomers remain underemployed,' 'fit Houston's context')",
+          "Strong quantification throughout: specific ratios, targets, metrics, and realistic numbers that build credibility",
+          "Appropriate acronym handling (IT, ESL, IET, LMS, NPSP, MOUs all defined on first use)",
+          "Evidence base clearly cited (MDRC WorkAdvance, National Skills Coalition) with thoughtful adaptation to local context",
+          "Equity and access strategies are concrete and relevant (multilingual, METRO passes, evening schedules, ADA)",
+          "Explicit funder alignment in final sentence using mirrored language from priorities",
+          "Avoids clich\u00e9s and over-claims; maintains active voice and specificity"
+        ],
+        "weaknesses": [
+          "The Capacity/partners/equity paragraph becomes list-heavy and slightly robotic, sacrificing readability for comprehensiveness\u2014could benefit from smoother integration",
+          "Word count appears to exceed the 250-350 target (approximately 420 words), which may be a concern for strict RFP requirements",
+          "Minor redundancy: 'entry-level IT/help desk' appears in both the opening sentence and the Why section",
+          "The phrase 'local employers report steady demand' in the Why section lacks the concrete data point promised by the template (could cite a specific statistic or source)"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gemini",
+      "model_display_name": "Gemini 2.5 Flash",
+      "content": "SchoolWell Behavioral Health provides comprehensive, in-school mental health services to support Chicago youth, fostering well-being and academic success. Chicago youth face significant mental health challenges; 27% of Chicago Public School (CPS) students reported feeling sad or hopeless most days in the past year, and access to care remains a critical barrier, particularly for South and West Side communities. Our program serves 1,200 students in grades 6-12 across 10 Chicago Public Schools in Englewood, North Lawndale, Little Village, and Austin. This population is predominantly Black and Latino, with 85% low-income statuses and many experiencing trauma exposure.\n\nSchoolWell offers a tiered approach: monthly 45-minute Social Emotional Learning (SEL) workshops (Tier 1), weekly 60-minute group therapy for 12 weeks (Tier 2), and weekly 50-minute individual therapy for up to 16 sessions (Tier 3), alongside 24-hour crisis response services. These services run from September through June. Our approach is grounded in Cognitive Behavioral Therapy (CBT) and Trauma-Focused CBT, aligns with CASEL's SEL framework, and utilizes a Multi-Tiered System of Supports (MTSS) alongside Screening, Brief Intervention, and Referral to Treatment (SBIRT) protocols. Evidence from SAMHSA and the National Child Traumatic Stress Network informs our practices, adapted to address community violence, bilingual needs, and stigma within these neighborhoods.\n\nWe operate within on-campus wellness rooms, with telehealth options available. We will screen 1,200 students, deliver 8,000 Tier 1 encounters, enroll 300 students in Tier 2 groups, provide individual therapy to 250 students, and engage 400 caregivers through 10 professional development sessions for school staff. We measure impact through reduced depressive and anxiety symptoms, improved coping skills, and decreased chronic absenteeism among participants. Our target outcomes include a 3-point mean reduction in PHQ-A and GAD-7 scores, a 20% gain in Coping Skills Inventory scores, and a 3-percentage point increase in attendance for Tier 2/3 participants. We track referral follow-through of over 70%. We use validated scales (PHQ-A, GAD-7), REDCap caregiver surveys, and CPS Aspen attendance data, ensuring data-driven impact.\n\nOur 18.0 FTE team, including Licensed Clinical Social Workers (LCSWs) and Community Health Workers, maintains a Tier 3 therapist caseload of 1:25. Lakeshore Youth Services, with 15 years of experience in school-based behavioral health and Joint Commission accreditation, has strong partnerships with Chicago Public Schools Office of Student Health & Wellness, Sinai Chicago, Enlace Chicago, UCAN, and NAMI Chicago for caregiver education. Our commitment to racial equity is embedded in our culturally responsive approach, bilingual Spanish/English capacity, and outreach strategies to overcome transportation and work-shift barriers for caregivers. This program directly addresses **youth mental health** and improves **access to care** for South and West Side communities.",
+      "timestamp": "2025-11-02T13:19:29.715585Z",
+      "duration_seconds": 3.08,
+      "tokens": {
+        "input": 1105,
+        "output": 649,
+        "total": 1754
+      },
+      "cost_usd": 0.000555,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 8,
+          "usefulness": 9,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, funder-ready program description that demonstrates excellent command of formal grant writing conventions and includes comprehensive, specific details. It follows the required structure closely and provides quantified metrics throughout. Minor weaknesses include slight structural deviations and one awkward phrasing that could be tightened.",
+        "strengths": [
+          "Excellent use of specific, credible data points (27% CPS statistic, precise caseloads, validated measurement tools like PHQ-A and GAD-7) that build funder confidence",
+          "Strong alignment with funder priorities, explicitly naming 'youth mental health' and 'access to care' in bold at the end while naturally weaving in data-driven impact and racial equity throughout",
+          "Comprehensive coverage of evidence base with appropriate citations (SAMHSA, National Child Traumatic Stress Network, CASEL) and clear articulation of the tiered MTSS model",
+          "Effective definition of acronyms on first use (SEL, CBT, MTSS, SBIRT) making it accessible to non-expert reviewers",
+          "Concrete outputs and outcomes with measurable targets (3-point reduction, 20% gain, 3-percentage point attendance increase) that demonstrate realistic expectations",
+          "Strong capacity demonstration through Joint Commission accreditation, 15 years experience, named partnerships, and specific data systems (Credible EHR, REDCap, Tableau)",
+          "Thoughtful equity and access strategies addressing bilingual needs, cultural responsiveness, and caregiver barriers without being performative"
+        ],
+        "weaknesses": [
+          "Word count appears to exceed the 250-350 word limit (approximately 450 words), which could be problematic for strict RFP requirements",
+          "Awkward phrasing in 'with 85% low-income statuses' (should be 'from low-income households' or '85% qualify for free/reduced lunch')",
+          "The 'Who' section could more clearly state the annual unduplicated count upfront rather than embedding it in the screening output",
+          "Minor structural issue: the 'When' element (September-June timeline) is embedded mid-paragraph rather than clearly delineated, making the nine-part structure slightly harder to track",
+          "The outputs paragraph lists '10 professional development sessions for school staff' but frames it oddly as part of 'engaging 400 caregivers'\u2014these appear to be separate activities that got conflated"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "claude",
+      "model_display_name": "Claude (Sonnet 4.5)",
+      "content": "# SchoolWell Behavioral Health Program Description\n\nSchoolWell delivers tiered mental health services\u2014from universal prevention to intensive individual therapy\u2014directly in 10 Chicago Public Schools, reducing barriers and improving outcomes for 1,200 students in grades 6\u201312 on the South and West Sides.\n\n**Why this matters:** Youth in Englewood, North Lawndale, Little Village, and Austin face high exposure to community violence and chronic stress. In these neighborhoods, 42% of adolescents report symptoms of depression or anxiety, yet only 28% access treatment due to clinician shortages, transportation barriers, and stigma. Embedding care in schools addresses these access gaps.\n\n**Who we serve:** 1,200 students attending CPS schools in target communities; 85% qualify for free or reduced lunch; predominantly Black and Latino; many have experienced trauma; significant numbers require bilingual Spanish/English services.\n\n**What we deliver:** A Multi-Tiered System of Supports (MTSS). Tier 1: classroom Social Emotional Learning (SEL) workshops aligned to CASEL standards reach all students. Tier 2: weekly skill-building groups support students with emerging needs. Tier 3: individual therapy addresses clinical-level symptoms. Crisis response activates within 24 hours. Caregiver education sessions build family capacity.\n\n**How we work:** All interventions are grounded in Cognitive Behavioral Therapy (CBT) and Trauma-Focused CBT, adapted for culturally diverse adolescents per SAMHSA and National Child Traumatic Stress Network guidance. Screening, Brief Intervention, and Referral to Treatment (SBIRT) protocols identify needs early. Bilingual staff and translated materials ensure language access; on-campus wellness rooms eliminate transportation barriers; partnerships with Chicago Public Schools Office of Student Health & Wellness, Sinai Chicago, Enlace Chicago, UCAN, and NAMI Chicago extend support beyond school walls.\n\n**When services occur:** September through June. Tier 1: 45-minute monthly workshops (8 sessions annually). Tier 2: 60-minute weekly groups for 12 weeks. Tier 3: 50-minute weekly sessions up to 16 visits. Staff ratios ensure quality: 1:25 therapist caseload, 1:10 group facilitator.\n\n**Where:** On-site wellness rooms in partner schools; telehealth via encrypted Zoom for Healthcare when needed.\n\n**Outputs and outcomes:** Screen 1,200 students; deliver 8,000 Tier 1 encounters; enroll 300 in Tier 2 groups; provide therapy to 250; reach 400 caregivers; train school staff (10 sessions). Outcomes measured via validated PHQ-A and GAD-7 scales (target: 3-point mean reduction), Coping Skills Inventory (+20% gain), and CPS Aspen attendance data (3-percentage-point improvement among participants). All tracked through Credible EHR, REDCap surveys, and Tableau dashboards per Chicago Data Collaborative standards.\n\n**Organizational capacity:** Lakeshore Youth Services has delivered school-based behavioral health for 15 years across 22 schools; Joint Commission accredited; completed Trust-funded external evaluation in 2022. Our 18.0 FTE team includes a Program Director, 2 Clinical Supervisors, 12 Licensed Clinical Social Workers, 2 Community Health Workers, and dedicated data/training staff\u2014structured to sustain quality, equity, and data-driven continuous improvement aligned with The Chicago Community Trust's commitment to youth mental health and racial equity.",
+      "timestamp": "2025-11-02T13:19:43.621725Z",
+      "duration_seconds": 16.99,
+      "tokens": {
+        "input": 1261,
+        "output": 812,
+        "total": 2073
+      },
+      "cost_usd": 0.015963,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.8,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 9,
+          "accuracy": 9,
+          "authenticity": 8
+        },
+        "reasoning": "This is a highly competent, funder-ready program description that demonstrates strong command of grant writing conventions. It successfully balances density of information with readability, uses appropriate formal tone, and includes all required structural elements with specific, credible metrics. Minor weaknesses include slight formulaic phrasing in places and one potential word count concern.",
+        "strengths": [
+          "Excellent adherence to structure: All nine required sections present in correct order with clear headers and logical flow",
+          "Strong quantification throughout: Specific numbers for participants (1,200), outputs (8,000 Tier 1 encounters), outcomes (3-point PHQ-A reduction), ratios (1:25 caseload), and timeline details",
+          "Appropriate formal tone: Professional, precise language without jargon overload; acronyms defined on first use (MTSS, CASEL, SBIRT, CBT)",
+          "Credible evidence base: Named models (CBT, TF-CBT, SBIRT) with authoritative sources (SAMHSA, National Child Traumatic Stress Network) and fidelity language",
+          "Strong equity and access section: Concrete strategies including bilingual staff, translated materials, on-campus delivery, telehealth backup, and community partnerships",
+          "Effective funder alignment: Explicit connection to Chicago Community Trust priorities in final paragraph (youth mental health, racial equity, data-driven) using mirrored language",
+          "Robust data collection methods: Multiple validated instruments (PHQ-A, GAD-7, Coping Skills Inventory), named systems (Credible EHR, REDCap, Tableau), and data-sharing agreements",
+          "Realistic scope and capacity: 18.0 FTE with role breakdown demonstrates organizational readiness; 15 years experience and Joint Commission accreditation build credibility",
+          "Avoids common pitfalls: No transformational language, no over-claims, no deficit framing of participants, no unsupported assertions"
+        ],
+        "weaknesses": [
+          "Word count appears to exceed 350-word target (approximately 420 words by standard count), which may be problematic if funder has strict limits",
+          "Opening sentence, while clear, uses a dash construction that could be tightened for maximum impact",
+          "The phrase 'Why this matters' as a header is slightly informal for the FORMAL tone requested; 'Need' or 'Community Context' would be more conventional",
+          "Minor authenticity concern: The writing is very polished but occasionally reads as template-driven (e.g., 'structured to sustain quality, equity, and data-driven continuous improvement' feels slightly generic)",
+          "The 42% and 28% statistics in the need section are not attributed to a source, which could raise credibility questions with careful reviewers"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    },
+    {
+      "scenario_id": "scenario_3",
+      "model": "gpt5",
+      "model_display_name": "ChatGPT (GPT-5)",
+      "content": "1) SchoolWell Behavioral Health delivers a school-based, multi-tiered program that expands access to timely, culturally responsive prevention and treatment for Chicago Public Schools students on the South and West Sides.\n\n2) Why: Youth in Englewood, North Lawndale, Little Village, and Austin face chronic stress and community violence, yet care is hard to reach. In our partner schools, 85% of students are low-income, and families report language, transportation, and stigma barriers to mental health care.\n\n3) Who: We will serve 1,200 students in grades 6\u201312\u2014predominantly Black and Latino\u2014with many exposed to trauma and with bilingual Spanish/English needs; we will also engage caregivers and school staff.\n\n4) What: Services include Tier 1 classroom Social Emotional Learning (SEL) workshops (45 minutes monthly, 8 sessions/year); Tier 2 skill-building groups (weekly, 60 minutes for 12 weeks); Tier 3 individual therapy (weekly, 50 minutes, up to 16 sessions); and crisis response within 24 hours. We add caregiver education and staff professional development.\n\n5) How: The model follows a Multi-Tiered System of Supports (MTSS) grounded in Cognitive Behavioral Therapy (CBT), Trauma-Focused CBT, Screening, Brief Intervention, and Referral to Treatment (SBIRT), and SEL aligned to CASEL, with evidence from the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Child Traumatic Stress Network. Fidelity is supported through supervision, checklists, and Credible Electronic Health Record (EHR) templates; adaptations address high violence exposure, stigma, a shortage of bilingual clinicians, and caregiver work-shift barriers (bilingual care, telehealth, evening hours).\n\n6) When: Services run September\u2013June. Therapist caseload is 1:25 for Tier 3; group facilitator 1:10; Tier 1 ratio ~1 clinician per 250 students with school staff support.\n\n7) Where: Ten Chicago Public Schools in Englewood, North Lawndale, Little Village, and Austin, using on-campus wellness rooms with a telehealth option as needed.\n\n8) Outputs/outcomes and measurement: Screen 1,200 students; deliver 8,000 Tier 1 encounters; enroll 300 in Tier 2; provide therapy to 250; reach 400 caregivers; conduct 10 staff trainings. Outcomes: reduced depressive/anxiety symptoms, improved coping/help-seeking, and 3-point attendance gains among Tier 2/3. Measures: PHQ-A and GAD-7 (target 3-point mean decrease), Coping Skills Inventory (+20%), referral follow-through >70%, Credible EHR notes, REDCap caregiver surveys, CPS Aspen attendance via MOUs, and fidelity/supervision records.\n\n9) Capacity/partners/equity and access: An 18.0 FTE team\u2014Program Director (1.0), Clinical Supervisors (2.0), Licensed Clinical Social Workers\u2014LCSWs (12.0), Community Health Workers (2.0), Data Analyst (0.5), Training Coordinator (0.5)\u2014matches scope across 10 schools. Partners: CPS Office of Student Health & Wellness, Sinai Chicago, Enlace Chicago, UCAN, and NAMI Chicago. Equity strategies include bilingual services, ADA accommodations, onsite and telehealth access, transportation supports, and stigma-reducing outreach. Lakeshore Youth Services brings 15 years of school-based care, 22 current school partners, Joint Commission accreditation, a 2022 Chicago Community Trust\u2013funded external evaluation, and data systems (Credible EHR, REDCap, Tableau, encrypted Zoom for Healthcare, Chicago Data Collaborative standards) to deliver data-driven impact aligned with youth mental health, access to care, and racial equity.",
+      "timestamp": "2025-11-02T13:20:10.870634Z",
+      "duration_seconds": 44.24,
+      "tokens": {
+        "input": 1067,
+        "output": 3474,
+        "total": 4541
+      },
+      "cost_usd": 0.055311,
+      "success": true,
+      "evaluation": {
+        "overall_score": 8.4,
+        "criteria_scores": {
+          "tone": 9,
+          "completeness": 9,
+          "usefulness": 8,
+          "accuracy": 8,
+          "authenticity": 8
+        },
+        "reasoning": "This is a strong, grant-ready program description that follows the template meticulously and demonstrates sophisticated understanding of school-based mental health funding. The formal tone is appropriate, data points are specific and credible, and the structure mirrors what experienced grant reviewers expect. Minor weaknesses include dense paragraph construction that sacrifices some readability and a few mechanical phrasings that feel template-driven rather than organic.",
+        "strengths": [
+          "Exceptional specificity and quantification throughout\u2014caseload ratios, validated instruments (PHQ-A, GAD-7), concrete targets (3-point decrease, +20% gains), FTE breakdowns, and named data systems (Credible EHR, REDCap, Tableau) all build credibility",
+          "Strong evidence base integration with appropriate acronym expansion (MTSS, CASEL, SBIRT, SAMHSA) and explicit fidelity mechanisms (supervision, checklists, EHR templates) that demonstrate clinical rigor",
+          "Excellent alignment with funder priorities\u2014explicitly names 'data-driven impact,' 'youth mental health,' 'access to care,' and 'racial equity' while weaving in supporting details (bilingual services, community violence context, Joint Commission accreditation, Chicago Community Trust evaluation history)",
+          "Comprehensive equity and access strategies that go beyond boilerplate\u2014bilingual care, telehealth, evening hours, stigma-reducing outreach, transportation supports, and ADA accommodations are contextualized to the specific barriers named (work-shift conflicts, clinician shortage, stigma)",
+          "Realistic scope and capacity match\u201418 FTE across 10 schools with 1,200 students is proportionate and credible; the organizational track record (15 years, 22 schools, accreditation) supports the scale"
+        ],
+        "weaknesses": [
+          "Readability suffers in sections 5, 8, and 9 due to extremely long, comma-heavy sentences that pack multiple concepts without breathing room\u2014section 8 is a 90-word single sentence that would benefit from breaking into 2-3 sentences",
+          "The numbered structure, while following instructions, creates a mechanical feel that some funders may find overly formulaic\u2014section headers like '2) Why:' and '9) Capacity/partners/equity and access:' read as outline scaffolding rather than flowing narrative",
+          "Minor redundancy: 'bilingual Spanish/English needs' appears in section 3 and 'bilingual services' in section 9; 'Chicago Community Trust' is named three times; tighter editing could reduce repetition",
+          "The phrase 'matches scope across 10 schools' in section 9 is slightly awkward\u2014'supports delivery across' or 'enables coverage of' would be clearer",
+          "Word count appears to exceed the 250-350 target (approximately 450+ words by rough count), which could be a disqualifying issue if funder guidelines are strict"
+        ],
+        "evaluator_model": "claude-sonnet-4.5"
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 3,
+    "total_outputs": 9,
+    "successful_outputs": 9,
+    "failed_outputs": 0,
+    "total_cost_usd": 0.2505,
+    "average_score": 8.38
+  }
+}
