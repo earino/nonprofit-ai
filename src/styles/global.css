@@ -98,5 +98,5 @@
 }
 
 .prose a {
-  @apply text-blue-600 hover:text-blue-700 underline;
+  @apply text-teal-600 hover:text-teal-700 underline;
 }
