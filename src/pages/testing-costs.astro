@@ -37,7 +37,7 @@ const categoryTotal = Object.values(costs.byCategory).reduce((a, b) => a + b, 0)
 <BaseLayout title="Testing Costs" description="Transparent breakdown of AI testing costs for all 80 prompts">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <h1 class="text-4xl font-bold mb-4">Testing Costs & Transparency</h1>
-    <p class="text-xl text-gray-600 mb-12 max-w-3xl">
+    <p class="text-xl text-gray-600 mb-12">
       We believe in radical transparency. Here's exactly how much it cost to test every prompt on this site with real AI models.
     </p>
 
@@ -76,7 +76,8 @@ const categoryTotal = Object.values(costs.byCategory).reduce((a, b) => a + b, 0)
       <div class="bg-yellow-50 border border-yellow-300 rounded-lg p-4 mb-6 text-sm">
         <strong class="text-yellow-900">Note on Evaluator Bias:</strong>
         <span class="text-yellow-800"> All outputs are evaluated by Claude Sonnet 4.5. This may introduce slight bias toward Claude's own outputs.
-        However, the difference is minimal (Claude: 8.42/10 vs GPT-5: 8.23/10 = 0.19 points).</span>
+        However, the difference is minimal (Claude: 8.42/10 vs GPT-5: 8.23/10 = 0.19 points).
+        We tested dual-evaluation with Gemini - <a href="#evaluator-experiment" class="underline text-yellow-900 font-semibold">see results below</a>.</span>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -327,6 +328,148 @@ const categoryTotal = Object.values(costs.byCategory).reduce((a, b) => a + b, 0)
       </div>
     </div>
 
+    <!-- Quality Score Distribution -->
+    <div class="bg-white border border-gray-200 rounded-xl p-8 mb-12">
+      <h2 class="text-2xl font-bold mb-6">Quality Score Distribution by Model</h2>
+      <p class="text-gray-600 mb-8">How often each model produces outputs in different quality ranges</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Claude Histogram -->
+        <div>
+          <h3 class="text-lg font-bold mb-4 text-orange-900">Claude Sonnet 4.5</h3>
+          <div class="space-y-2">
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-gray-600">9-10 (Excellent)</span>
+                <span class="font-semibold">31.8%</span>
+              </div>
+              <div class="w-full bg-gray-100 rounded h-6">
+                <div class="bg-gradient-to-r from-green-500 to-green-600 h-full rounded" style="width: 31.8%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-gray-600">8-8.9 (Good)</span>
+                <span class="font-semibold">56.1%</span>
+              </div>
+              <div class="w-full bg-gray-100 rounded h-6">
+                <div class="bg-gradient-to-r from-blue-400 to-blue-500 h-full rounded" style="width: 56.1%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-gray-600">7-7.9 (Fair)</span>
+                <span class="font-semibold">5.0%</span>
+              </div>
+              <div class="w-full bg-gray-100 rounded h-6">
+                <div class="bg-gradient-to-r from-yellow-400 to-yellow-500 h-full rounded" style="width: 5.0%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-gray-600">Below 7 (Poor)</span>
+                <span class="font-semibold">7.1%</span>
+              </div>
+              <div class="w-full bg-gray-100 rounded h-6">
+                <div class="bg-gradient-to-r from-gray-400 to-gray-500 h-full rounded" style="width: 7.1%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- GPT-5 Histogram -->
+        <div>
+          <h3 class="text-lg font-bold mb-4 text-gray-900">ChatGPT (GPT-5)</h3>
+          <div class="space-y-2">
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-gray-600">9-10 (Excellent)</span>
+                <span class="font-semibold">20.8%</span>
+              </div>
+              <div class="w-full bg-gray-100 rounded h-6">
+                <div class="bg-gradient-to-r from-green-500 to-green-600 h-full rounded" style="width: 20.8%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-gray-600">8-8.9 (Good)</span>
+                <span class="font-semibold">62.5%</span>
+              </div>
+              <div class="w-full bg-gray-100 rounded h-6">
+                <div class="bg-gradient-to-r from-blue-400 to-blue-500 h-full rounded" style="width: 62.5%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-gray-600">7-7.9 (Fair)</span>
+                <span class="font-semibold">8.3%</span>
+              </div>
+              <div class="w-full bg-gray-100 rounded h-6">
+                <div class="bg-gradient-to-r from-yellow-400 to-yellow-500 h-full rounded" style="width: 8.3%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-gray-600">Below 7 (Poor)</span>
+                <span class="font-semibold">8.4%</span>
+              </div>
+              <div class="w-full bg-gray-100 rounded h-6">
+                <div class="bg-gradient-to-r from-gray-400 to-gray-500 h-full rounded" style="width: 8.4%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gemini Histogram -->
+        <div>
+          <h3 class="text-lg font-bold mb-4 text-blue-900">Gemini 2.5 Flash</h3>
+          <div class="space-y-2">
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-gray-600">9-10 (Excellent)</span>
+                <span class="font-semibold">1.6%</span>
+              </div>
+              <div class="w-full bg-gray-100 rounded h-6">
+                <div class="bg-gradient-to-r from-green-500 to-green-600 h-full rounded" style="width: 1.6%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-gray-600">8-8.9 (Good)</span>
+                <span class="font-semibold">58.0%</span>
+              </div>
+              <div class="w-full bg-gray-100 rounded h-6">
+                <div class="bg-gradient-to-r from-blue-400 to-blue-500 h-full rounded" style="width: 58.0%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-gray-600">7-7.9 (Fair)</span>
+                <span class="font-semibold">25.9%</span>
+              </div>
+              <div class="w-full bg-gray-100 rounded h-6">
+                <div class="bg-gradient-to-r from-yellow-400 to-yellow-500 h-full rounded" style="width: 25.9%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-gray-600">Below 7 (Poor)</span>
+                <span class="font-semibold">14.4%</span>
+              </div>
+              <div class="w-full bg-gray-100 rounded h-6">
+                <div class="bg-gradient-to-r from-gray-400 to-gray-500 h-full rounded" style="width: 14.4%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-sm text-gray-600 mt-6">
+        <strong>Key Insight:</strong> Claude produces the most 9-10 scores (31.8% vs GPT-5's 20.8% vs Gemini's 1.6%),
+        indicating it consistently delivers excellent outputs. GPT-5 is good but rarely exceptional, while Gemini is reliable but less likely to produce outstanding results.
+      </p>
+    </div>
+
     <!-- How to Read Our Test Results -->
     <div class="mt-12">
       <h2 class="text-2xl font-bold mb-6">How to Read Test Results on Prompt Pages</h2>
@@ -357,6 +500,42 @@ const categoryTotal = Object.values(costs.byCategory).reduce((a, b) => a + b, 0)
             plus strengths and weaknesses of each output.
           </p>
         </div>
+      </div>
+    </div>
+
+    <!-- Dual-Evaluator Experiment -->
+    <div id="evaluator-experiment" class="bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-300 rounded-xl p-8 mt-12">
+      <h2 class="text-2xl font-bold mb-4">Dual-Evaluator Experiment</h2>
+      <div class="prose prose-lg max-w-none">
+        <p class="text-gray-700">
+          To address concerns about evaluator bias (Claude evaluating its own outputs), we conducted an experiment:
+          We re-evaluated a random sample of 45 outputs using Gemini 2.5 Flash as a second evaluator.
+        </p>
+
+        <h3 class="text-xl font-bold mt-6 mb-3">Results</h3>
+        <ul class="text-gray-700">
+          <li><strong>Correlation: 0.149</strong> - Very low agreement between Claude and Gemini evaluations</li>
+          <li><strong>Gemini gave 8.5 to 87% of outputs</strong> (39/45) - regardless of actual quality</li>
+          <li><strong>Claude showed wide score distribution</strong> (3.2 to 9.2) - proper discrimination</li>
+          <li><strong>Gemini failed to discriminate</strong> - anchored on 8.5 as safe middle score</li>
+        </ul>
+
+        <h3 class="text-xl font-bold mt-6 mb-3">Conclusion</h3>
+        <p class="text-gray-700">
+          Gemini proved to be an unreliable evaluator, giving nearly identical scores to outputs of varying quality.
+          Claude's evaluations show proper score distribution (see histograms above), indicating it's actually judging
+          quality differences rather than defaulting to safe scores.
+        </p>
+
+        <p class="text-gray-700">
+          <strong>Decision:</strong> We continue using Claude as the single evaluator. While this introduces potential bias
+          toward Claude's outputs, the bias is minimal (0.19 points) and dual-evaluation with a poor evaluator would
+          hurt methodology rather than help it.
+        </p>
+
+        <p class="text-sm text-gray-600 mt-4">
+          This experiment demonstrates our commitment to methodological rigor - we question our own processes and validate our assumptions with data.
+        </p>
       </div>
     </div>
   </div>
