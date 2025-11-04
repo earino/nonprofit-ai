@@ -93,6 +93,10 @@
   @apply text-gray-700;
 }
 
+.prose p {
+  @apply mb-6;
+}
+
 .prose strong {
   @apply font-semibold text-gray-900;
 }

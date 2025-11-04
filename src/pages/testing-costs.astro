@@ -1,0 +1,369 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Cost data aggregated from all 80 prompt test results
+const costs = {
+  total: 26.30,
+  prompts: 80,
+  outputs: 729,
+  successful: 722,
+  avgPerPrompt: 0.32,
+  byModel: {
+    'GPT-5': 15.46,
+    'Claude Sonnet 4.5': 10.49,
+    'Gemini 2.5 Flash': 0.35
+  },
+  byCategory: {
+    'Fundraising': 6.88,
+    'Communications': 5.80,
+    'Events': 4.83,
+    'Programs': 3.62,
+    'Board': 2.93,
+    'Operations': 2.24
+  }
+};
+
+// Calculate percentages for charts
+const modelTotal = costs.byModel['GPT-5'] + costs.byModel['Claude Sonnet 4.5'] + costs.byModel['Gemini 2.5 Flash'];
+const modelPercentages = {
+  'GPT-5': (costs.byModel['GPT-5'] / modelTotal * 100).toFixed(1),
+  'Claude Sonnet 4.5': (costs.byModel['Claude Sonnet 4.5'] / modelTotal * 100).toFixed(1),
+  'Gemini 2.5 Flash': (costs.byModel['Gemini 2.5 Flash'] / modelTotal * 100).toFixed(1)
+};
+
+const categoryTotal = Object.values(costs.byCategory).reduce((a, b) => a + b, 0);
+---
+
+<BaseLayout title="Testing Costs" description="Transparent breakdown of AI testing costs for all 80 prompts">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-4xl font-bold mb-4">Testing Costs & Transparency</h1>
+    <p class="text-xl text-gray-600 mb-12 max-w-3xl">
+      We believe in radical transparency. Here's exactly how much it cost to test every prompt on this site with real AI models.
+    </p>
+
+    <!-- Summary Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+      <div class="bg-gradient-to-br from-teal-50 to-teal-100 border border-teal-200 rounded-xl p-6">
+        <div class="text-sm font-semibold text-teal-800 mb-1">Total Investment</div>
+        <div class="text-4xl font-bold text-teal-900">${costs.total.toFixed(2)}</div>
+        <div class="text-xs text-teal-700 mt-1">In AI API costs</div>
+      </div>
+
+      <div class="bg-white border border-gray-200 rounded-xl p-6">
+        <div class="text-sm font-semibold text-gray-700 mb-1">Prompts Tested</div>
+        <div class="text-4xl font-bold text-gray-900">{costs.prompts}</div>
+        <div class="text-xs text-gray-600 mt-1">100% coverage</div>
+      </div>
+
+      <div class="bg-white border border-gray-200 rounded-xl p-6">
+        <div class="text-sm font-semibold text-gray-700 mb-1">AI Outputs</div>
+        <div class="text-4xl font-bold text-gray-900">{costs.successful}</div>
+        <div class="text-xs text-gray-600 mt-1">{costs.outputs} total generated</div>
+      </div>
+
+      <div class="bg-white border border-gray-200 rounded-xl p-6">
+        <div class="text-sm font-semibold text-gray-700 mb-1">Avg Per Prompt</div>
+        <div class="text-4xl font-bold text-gray-900">${costs.avgPerPrompt.toFixed(2)}</div>
+        <div class="text-xs text-gray-600 mt-1">3 scenarios × 3 models</div>
+      </div>
+    </div>
+
+    <!-- Model Performance & Value Analysis -->
+    <div class="bg-white border border-gray-200 rounded-xl p-8 mb-12">
+      <h2 class="text-2xl font-bold mb-6">Model Performance & Value Analysis</h2>
+      <p class="text-gray-600 mb-8">Based on 722 successful outputs across 80 prompts</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <!-- Claude - Best Value -->
+        <div class="bg-gradient-to-br from-orange-50 to-orange-100 border-2 border-orange-500 rounded-xl p-6">
+          <div class="text-sm font-bold text-orange-800 mb-2">🏆 BEST VALUE</div>
+          <h3 class="text-xl font-bold text-orange-900 mb-3">Claude Sonnet 4.5</h3>
+          <div class="space-y-2 text-sm">
+            <div class="flex justify-between">
+              <span class="text-orange-700">Avg Quality:</span>
+              <span class="font-bold text-orange-900">8.42/10</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-orange-700">Avg Cost:</span>
+              <span class="font-bold text-orange-900">$0.044</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-orange-700">Cost per Point:</span>
+              <span class="font-bold text-orange-900">$0.0052</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-orange-700">Consistency:</span>
+              <span class="font-bold text-orange-900">High (±1.56)</span>
+            </div>
+          </div>
+          <p class="text-xs text-orange-800 mt-4 leading-relaxed">Highest quality scores, mid-range pricing, most consistent outputs. Best overall choice.</p>
+        </div>
+
+        <!-- GPT-5 - Expensive -->
+        <div class="bg-white border border-gray-300 rounded-xl p-6">
+          <div class="text-sm font-bold text-gray-600 mb-2">HIGHEST COST</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">ChatGPT (GPT-5)</h3>
+          <div class="space-y-2 text-sm">
+            <div class="flex justify-between">
+              <span class="text-gray-600">Avg Quality:</span>
+              <span class="font-bold text-gray-900">8.23/10</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">Avg Cost:</span>
+              <span class="font-bold text-gray-900">$0.064</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">Cost per Point:</span>
+              <span class="font-bold text-gray-900">$0.0078</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">Consistency:</span>
+              <span class="font-bold text-gray-900">Medium (±1.66)</span>
+            </div>
+          </div>
+          <p class="text-xs text-gray-600 mt-4 leading-relaxed">50% more expensive than Claude for slightly lower quality. Popular but not best value.</p>
+        </div>
+
+        <!-- Gemini - Budget -->
+        <div class="bg-gradient-to-br from-blue-50 to-blue-100 border-2 border-blue-500 rounded-xl p-6">
+          <div class="text-sm font-bold text-blue-800 mb-2">💰 BEST BUDGET</div>
+          <h3 class="text-xl font-bold text-blue-900 mb-3">Gemini 2.5 Flash</h3>
+          <div class="space-y-2 text-sm">
+            <div class="flex justify-between">
+              <span class="text-blue-700">Avg Quality:</span>
+              <span class="font-bold text-blue-900">7.71/10</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-blue-700">Avg Cost:</span>
+              <span class="font-bold text-blue-900">$0.0014</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-blue-700">Cost per Point:</span>
+              <span class="font-bold text-blue-900">$0.0002</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-blue-700">Consistency:</span>
+              <span class="font-bold text-blue-900">Medium (±1.64)</span>
+            </div>
+          </div>
+          <p class="text-xs text-blue-800 mt-4 leading-relaxed">46x cheaper than GPT-5! Lower quality but incredible value for quick drafts.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cost by AI Model (Total Breakdown) -->
+    <div class="bg-white border border-gray-200 rounded-xl p-8 mb-12">
+      <h2 class="text-2xl font-bold mb-6">Total Cost by AI Model</h2>
+      <div class="space-y-6">
+        <!-- GPT-5 -->
+        <div>
+          <div class="flex justify-between items-baseline mb-2">
+            <span class="font-semibold text-gray-900">ChatGPT (GPT-5)</span>
+            <span class="text-2xl font-bold text-gray-900">${costs.byModel['GPT-5'].toFixed(2)}</span>
+          </div>
+          <div class="w-full bg-gray-100 rounded-full h-8 overflow-hidden">
+            <div
+              class="bg-gradient-to-r from-purple-500 to-purple-600 h-full flex items-center justify-end pr-3 text-white text-sm font-semibold"
+              style={`width: ${modelPercentages['GPT-5']}%`}
+            >
+              {modelPercentages['GPT-5']}%
+            </div>
+          </div>
+          <div class="text-sm text-gray-600 mt-1">Most expensive, highest quality scores</div>
+        </div>
+
+        <!-- Claude -->
+        <div>
+          <div class="flex justify-between items-baseline mb-2">
+            <span class="font-semibold text-gray-900">Claude (Sonnet 4.5)</span>
+            <span class="text-2xl font-bold text-gray-900">${costs.byModel['Claude Sonnet 4.5'].toFixed(2)}</span>
+          </div>
+          <div class="w-full bg-gray-100 rounded-full h-8 overflow-hidden">
+            <div
+              class="bg-gradient-to-r from-orange-500 to-orange-600 h-full flex items-center justify-end pr-3 text-white text-sm font-semibold"
+              style={`width: ${modelPercentages['Claude Sonnet 4.5']}%`}
+            >
+              {modelPercentages['Claude Sonnet 4.5']}%
+            </div>
+          </div>
+          <div class="text-sm text-gray-600 mt-1">Mid-range cost, excellent at following instructions</div>
+        </div>
+
+        <!-- Gemini -->
+        <div>
+          <div class="flex justify-between items-baseline mb-2">
+            <span class="font-semibold text-gray-900">Gemini 2.5 Flash</span>
+            <span class="text-2xl font-bold text-gray-900">${costs.byModel['Gemini 2.5 Flash'].toFixed(2)}</span>
+          </div>
+          <div class="w-full bg-gray-100 rounded-full h-8 overflow-hidden">
+            <div
+              class="bg-gradient-to-r from-blue-500 to-blue-600 h-full flex items-center justify-end pr-3 text-white text-sm font-semibold"
+              style={`width: ${modelPercentages['Gemini 2.5 Flash']}%`}
+            >
+              {modelPercentages['Gemini 2.5 Flash']}%
+            </div>
+          </div>
+          <div class="text-sm text-gray-600 mt-1">Lowest cost, fast responses, good quality</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cost by Category -->
+    <div class="bg-white border border-gray-200 rounded-xl p-8 mb-12">
+      <h2 class="text-2xl font-bold mb-6">Cost by Category</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {Object.entries(costs.byCategory).sort((a, b) => b[1] - a[1]).map(([category, cost]) => {
+          const percentage = (cost / categoryTotal * 100).toFixed(1);
+          return (
+            <div class="flex items-center gap-4">
+              <div class="flex-1">
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold text-gray-900 capitalize">{category}</span>
+                  <span class="text-lg font-bold text-gray-900">${cost.toFixed(2)}</span>
+                </div>
+                <div class="w-full bg-gray-100 rounded-full h-6">
+                  <div
+                    class="bg-gradient-to-r from-teal-400 to-teal-600 h-full rounded-full flex items-center justify-end pr-2 text-white text-xs font-semibold"
+                    style={`width: ${percentage}%`}
+                  >
+                    {percentage}%
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+
+    <!-- Testing Methodology -->
+    <div class="bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 rounded-xl p-8 mb-12">
+      <h2 class="text-2xl font-bold mb-4">Testing Methodology</h2>
+      <div class="prose prose-lg max-w-none">
+        <p class="text-gray-700">
+          Every prompt on Nonprofit.ai undergoes rigorous testing before publication:
+        </p>
+        <ol class="text-gray-700">
+          <li><strong>Scenario Generation:</strong> AI creates 3 realistic nonprofit contexts (small community org, mid-size professional org, large established org)</li>
+          <li><strong>Multi-Model Execution:</strong> Each scenario is tested with ChatGPT (GPT-5), Claude (Sonnet 4.5), and Gemini 2.5 Flash</li>
+          <li><strong>AI Evaluation:</strong> Outputs are scored for tone, completeness, usefulness, accuracy, and authenticity</li>
+          <li><strong>Quality Threshold:</strong> We aim for 8.0+ average scores across all outputs</li>
+        </ol>
+        <p class="text-gray-700">
+          This means each prompt generates 9 AI outputs (3 scenarios × 3 models), all evaluated for quality.
+          Total: <strong>{costs.outputs} AI API calls</strong> with <strong>{costs.successful} successful outputs</strong> ({((costs.successful / costs.outputs) * 100).toFixed(1)}% success rate).
+        </p>
+      </div>
+    </div>
+
+    <!-- Cost Efficiency -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+      <div class="bg-white border border-gray-200 rounded-xl p-6">
+        <h3 class="text-xl font-bold mb-4 text-gray-900">Most Expensive to Test</h3>
+        <div class="space-y-3">
+          <div class="text-sm text-gray-600 mb-3">Long-form prompts require more AI tokens:</div>
+          <div class="text-xs font-mono text-gray-500 space-y-2">
+            <div class="flex justify-between">
+              <span>event-planning-timeline</span>
+              <span class="font-bold">$1.20</span>
+            </div>
+            <div class="flex justify-between">
+              <span>event-run-of-show</span>
+              <span class="font-bold">$0.89</span>
+            </div>
+            <div class="flex justify-between">
+              <span>event-concept-brainstorm</span>
+              <span class="font-bold">$0.83</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border border-gray-200 rounded-xl p-6">
+        <h3 class="text-xl font-bold mb-4 text-gray-900">Most Cost-Efficient</h3>
+        <div class="space-y-3">
+          <div class="text-sm text-gray-600 mb-3">Shorter, focused prompts cost less:</div>
+          <div class="text-xs font-mono text-gray-500 space-y-2">
+            <div class="flex justify-between">
+              <span>thank-you-in-kind-donation</span>
+              <span class="font-bold">$0.06</span>
+            </div>
+            <div class="flex justify-between">
+              <span>impact-stat-visualization</span>
+              <span class="font-bold">$0.08</span>
+            </div>
+            <div class="flex justify-between">
+              <span>event-invitation-copy</span>
+              <span class="font-bold">$0.08</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why This Matters -->
+    <div class="bg-teal-50 border-l-4 border-teal-500 rounded-r-xl p-8">
+      <h2 class="text-2xl font-bold mb-4 text-teal-900">Why We Share This</h2>
+      <div class="prose prose-lg max-w-none">
+        <p class="text-gray-800">
+          Most AI prompt libraries don't actually test their prompts. They write them, maybe try them once, and publish.
+          We spent <strong>${costs.total.toFixed(2)}</strong> in API costs to validate every single prompt with multiple
+          AI models and realistic scenarios.
+        </p>
+        <p class="text-gray-800">
+          This transparency shows our commitment to quality. When you see "Tested 8.8/10" on a prompt page,
+          that score comes from real AI evaluations of real outputs - not marketing claims.
+        </p>
+        <p class="text-gray-800">
+          All test results, evaluation scores, and example outputs are available on each prompt page.
+          You can see exactly what ChatGPT, Claude, and Gemini generated for each scenario.
+        </p>
+      </div>
+    </div>
+
+    <!-- How to Read Our Test Results -->
+    <div class="mt-12">
+      <h2 class="text-2xl font-bold mb-6">How to Read Test Results on Prompt Pages</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="border border-gray-200 rounded-lg p-6">
+          <div class="text-3xl mb-3">🎯</div>
+          <h3 class="font-bold text-lg mb-2">Quality Badge</h3>
+          <p class="text-sm text-gray-600">
+            The "Tested X/10" badge shows the average quality score across all 9 outputs.
+            Scores of 8.0+ indicate high-quality, reliable prompts.
+          </p>
+        </div>
+
+        <div class="border border-gray-200 rounded-lg p-6">
+          <div class="text-3xl mb-3">📊</div>
+          <h3 class="font-bold text-lg mb-2">Example Outputs</h3>
+          <p class="text-sm text-gray-600">
+            Each prompt page shows real outputs from 3 scenarios. Click between GPT-5, Claude, and Gemini
+            tabs to compare how different models respond.
+          </p>
+        </div>
+
+        <div class="border border-gray-200 rounded-lg p-6">
+          <div class="text-3xl mb-3">✓</div>
+          <h3 class="font-bold text-lg mb-2">Evaluation Details</h3>
+          <p class="text-sm text-gray-600">
+            Expand "AI Evaluation Details" to see scores for tone, completeness, usefulness, accuracy,
+            plus strengths and weaknesses of each output.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  /* Custom gradient animations for stat cards */
+  @keyframes shimmer {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+  }
+
+  .bg-gradient-to-br {
+    background-size: 200% 200%;
+  }
+</style>
